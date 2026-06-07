@@ -28,5 +28,23 @@
         "file": "M6.json"
       }
     ]
+  },
+  {
+    "subject": "Unix And Shell Programming",
+    "folder": "UNIX and Shell Programming",
+    "files": [
+      {
+        "label": "Module 1",
+        "file": "Module 1.json"
+      },
+      {
+        "label": "Module 2",
+        "file": "Module 2.json"
+      },
+      {
+        "label": "Module 3",
+        "file": "Module 3.json"
+      }
+    ]
   }
 ]

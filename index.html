@@ -9,6 +9,7 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
 			rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
+		<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
 	</head>
 	<body>
 		<button
@@ -54,8 +55,10 @@
 		<div id="screen-home" class="screen active">
 			<div class="home-wrap">
 				<div class="home-header">
+					<div class="home-greeting"><i data-lucide="book-open" class="greeting-icon"></i></div>
 					<p class="eyebrow">MCQ Practice</p>
-					<h1 class="title">What are you<br />studying today?</h1>
+					<h1 class="title home-title">What are you<br />studying today?</h1>
+					<p class="home-subtitle">Pick a subject below to start quizzing yourself.</p>
 				</div>
 				<div id="subject-grid" class="subject-grid"></div>
 				<div id="home-loading" class="loading-msg">Loading subjects…</div>
@@ -81,16 +84,26 @@
 				<div class="quiz-topbar">
 					<button class="back-btn" onclick="goTopics()">← Topics</button>
 					<div class="quiz-top-meta">
-						<div class="meta" id="meta"></div>
 						<div class="prog-text" id="prog-text"></div>
+						<div class="streak-meter" id="streak-meter" aria-live="polite">
+							<span class="streak-flame" aria-hidden="true"><i data-lucide="flame" class="streak-icon"></i></span>
+							<span id="streak-label">0</span>
+						</div>
 					</div>
 				</div>
 				<div class="prog-bar-wrap">
 					<div class="prog-bar" id="prog-bar"></div>
 				</div>
+				<div class="timer-bar-wrap" id="timer-bar-wrap" style="display:none">
+					<div class="timer-bar" id="timer-bar"></div>
+					<span class="timer-text" id="timer-text"></span>
+				</div>
 				<div class="quiz-stage">
 					<div class="qcard" id="qcard">
-						<p class="qnum" id="qnum"></p>
+						<div class="qnum-row">
+							<span class="qnum" id="qnum"></span>
+							<span class="qdifficulty" id="qdifficulty"></span>
+						</div>
 						<p class="qtext" id="qtext"></p>
 						<div class="options" id="options"></div>
 					</div>
@@ -118,31 +131,94 @@
 
 		<!-- SCREEN 4: RESULTS -->
 		<div id="screen-results" class="screen">
-			<div class="home-wrap" style="text-align: center">
-				<p class="eyebrow">Quiz complete</p>
-				<h1 class="title score-title" id="score-pct"></h1>
-				<p class="subtitle" id="score-sub"></p>
-				<div class="score-pills">
-					<div class="pill pill-correct">
-						<span id="r-correct">0</span><small>Correct</small>
+			<div class="home-wrap results-wrap">
+				<div class="results-card">
+					<div class="results-badge-container" id="results-badge-container">
+						<div class="results-badge-icon" id="results-badge-icon">
+							<!-- Dynamic Lucide icon loaded here -->
+						</div>
+						<div class="results-badge-text" id="results-badge-text">Quiz Complete</div>
 					</div>
-					<div class="pill pill-wrong">
-						<span id="r-wrong">0</span><small>Wrong</small>
+
+					<p class="eyebrow results-eyebrow">Results Overview</p>
+					
+					<div class="score-gauge-container">
+						<svg class="score-ring" viewBox="0 0 120 120">
+							<circle class="score-ring-bg" cx="60" cy="60" r="54" />
+							<circle class="score-ring-fill" id="score-ring-fill" cx="60" cy="60" r="54" stroke-dasharray="339.3" stroke-dashoffset="339.3" />
+						</svg>
+						<div class="score-value-wrap">
+							<span class="score-pct" id="score-pct">0%</span>
+						</div>
+					</div>
+
+					<h2 class="results-title-msg" id="results-title-msg">Keep Learning!</h2>
+					<p class="results-subtitle" id="score-sub">0 of 0 correct</p>
+					<p class="results-motivational-msg" id="results-motivation">Keep practicing to improve your score!</p>
+
+					<div class="score-pills">
+						<div class="pill pill-correct">
+							<i data-lucide="check-circle" class="pill-icon"></i>
+							<span id="r-correct">0</span>
+							<small>Correct</small>
+						</div>
+						<div class="pill pill-wrong">
+							<i data-lucide="x-circle" class="pill-icon"></i>
+							<span id="r-wrong">0</span>
+							<small>Wrong</small>
+						</div>
+						<div class="pill pill-time" id="pill-time" style="display:none">
+							<i data-lucide="clock" class="pill-icon"></i>
+							<span id="r-time">0s</span>
+							<small>Time</small>
+						</div>
+					</div>
+
+					<div class="result-actions">
+						<button class="btn-outline btn-results-retry" onclick="retryQuiz()">
+							<i data-lucide="rotate-ccw" class="btn-icon"></i> Retry this quiz
+						</button>
+						<button class="btn-primary-sm btn-results-home" onclick="goHome()">
+							Choose another <i data-lucide="arrow-right" class="btn-icon"></i>
+						</button>
 					</div>
 				</div>
-				<div class="result-actions">
-					<button class="btn-outline" onclick="retryQuiz()">
-						Retry this quiz
-					</button>
-					<button class="btn-primary-sm" onclick="goHome()">
-						Choose another
-					</button>
+			</div>
+		</div>
+
+		<!-- MODE PICKER MODAL -->
+		<div class="mode-overlay" id="mode-overlay">
+			<div class="mode-modal">
+				<button class="mode-close" onclick="closeModeModal()">&times;</button>
+				<p class="mode-title">Choose your mode</p>
+				<div class="mode-cards">
+					<div class="mode-card" onclick="launchQuiz(0)">
+						<i data-lucide="book-open" class="mode-icon"></i>
+						<span class="mode-card-title">Practice</span>
+						<span class="mode-card-desc">No time limit. Learn at your own pace.</span>
+					</div>
+					<div class="mode-card mode-card-timed" onclick="launchTimedQuiz()">
+						<i data-lucide="timer" class="mode-icon"></i>
+						<span class="mode-card-title">Timed</span>
+						<span class="mode-card-desc" id="timed-desc">30 seconds per question.</span>
+						<span class="mode-time-opts">
+							<button type="button" class="mode-time-btn" data-seconds="15" onclick="selectTimeOption(event, 15)">15s</button>
+							<button type="button" class="mode-time-btn active" data-seconds="30" onclick="selectTimeOption(event, 30)">30s</button>
+							<button type="button" class="mode-time-btn" data-seconds="60" onclick="selectTimeOption(event, 60)">60s</button>
+						</span>
+					</div>
+					<div class="mode-card mode-card-hardcore" onclick="launchQuiz(15, true)">
+						<i data-lucide="skull" class="mode-icon"></i>
+						<span class="mode-card-title">Hardcore</span>
+						<span class="mode-card-desc">Sudden Death! 15s limit. 1 wrong = fail.</span>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div id="celebration-layer" aria-hidden="true"></div>
 		<div class="toast" id="toast"></div>
+		<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 		<script src="quiz.js"></script>
 	</body>
 </html>
