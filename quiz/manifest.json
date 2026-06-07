@@ -6,6 +6,14 @@
       {
         "label": "M1",
         "file": "M1.json"
+      },
+      {
+        "label": "M2",
+        "file": "M2.json"
+      },
+      {
+        "label": "M3",
+        "file": "M3.json"
       }
     ]
   }
