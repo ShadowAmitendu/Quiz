@@ -42,6 +42,7 @@ let pendingQuizData = null;
 let hardcoreMode = false;
 let isGameOver = false;
 let selectedTimedSeconds = 30;
+let selectedQuestionLimit = "all";
 
 const THEME_KEY = "quiz-theme";
 const FIRST_STREAK_MILESTONE = 5;
@@ -426,6 +427,8 @@ async function openTopic(fi) {
 }
 
 function showModeModal() {
+	if (!pendingQuizData) return;
+	
 	const overlay = document.getElementById("mode-overlay");
 	overlay.classList.add("is-open");
 	
@@ -438,7 +441,115 @@ function showModeModal() {
 		descEl.textContent = `${selectedTimedSeconds} seconds per question.`;
 	}
 	
+	// Setup Question Limit Selectors
+	renderLimitSelector(pendingQuizData.length);
+	
+	// Check for saved progress
+	const resumeContainer = document.getElementById("resume-container");
+	if (resumeContainer) {
+		const saveKey = `quiz_progress_${activeSubject.folder}_${activeTopic.file}`;
+		const saved = localStorage.getItem(saveKey);
+		if (saved) {
+			try {
+				const savedData = JSON.parse(saved);
+				if (savedData && Array.isArray(savedData.questions) && savedData.questions.length > 0) {
+					resumeContainer.style.display = "block";
+					
+					let modeName = "Practice";
+					if (savedData.mode === "hardcore") modeName = "Hardcore";
+					else if (savedData.mode === "timed") modeName = `Timed (${savedData.timerSeconds}s)`;
+					
+					const descText = `${modeName} Mode • Q${savedData.current + 1}/${savedData.questions.length} • Score: ${savedData.correct}/${savedData.correct + savedData.wrong}`;
+					document.getElementById("resume-card-desc").textContent = descText;
+					
+					const btnAction = document.getElementById("btn-resume-action");
+					// Replace button to remove old event listeners
+					const newBtn = btnAction.cloneNode(true);
+					btnAction.parentNode.replaceChild(newBtn, btnAction);
+					newBtn.addEventListener("click", () => {
+						resumeQuiz(savedData);
+					});
+				} else {
+					resumeContainer.style.display = "none";
+				}
+			} catch (e) {
+				console.error("Error parsing saved progress:", e);
+				resumeContainer.style.display = "none";
+			}
+		} else {
+			resumeContainer.style.display = "none";
+		}
+	}
+	
 	if (typeof lucide !== "undefined") lucide.createIcons();
+}
+
+function renderLimitSelector(totalQuestions) {
+	const container = document.getElementById("limit-selector");
+	if (!container) return;
+	
+	container.innerHTML = "";
+	selectedQuestionLimit = "all"; // Reset to default
+	
+	const options = [
+		{ value: "all", label: `All (${totalQuestions})` },
+		{ value: "10", label: "10" },
+		{ value: "25", label: "25" },
+		{ value: "50", label: "50" },
+		{ value: "100", label: "100" }
+	];
+	
+	options.forEach(opt => {
+		if (opt.value !== "all" && parseInt(opt.value) >= totalQuestions) {
+			return;
+		}
+		
+		const btn = document.createElement("button");
+		btn.type = "button";
+		btn.className = "limit-btn" + (opt.value === selectedQuestionLimit ? " active" : "");
+		btn.textContent = opt.label;
+		btn.dataset.limit = opt.value;
+		btn.addEventListener("click", () => selectQuestionLimit(opt.value));
+		container.appendChild(btn);
+	});
+	
+	const customBtn = document.createElement("button");
+	customBtn.type = "button";
+	customBtn.className = "limit-btn" + (selectedQuestionLimit === "custom" ? " active" : "");
+	customBtn.textContent = "Custom";
+	customBtn.dataset.limit = "custom";
+	customBtn.addEventListener("click", () => selectQuestionLimit("custom"));
+	container.appendChild(customBtn);
+	
+	const customWrap = document.getElementById("custom-limit-wrap");
+	if (customWrap) {
+		customWrap.style.display = "none";
+	}
+	const customInput = document.getElementById("custom-limit-input");
+	if (customInput) {
+		customInput.value = "";
+		customInput.max = totalQuestions;
+	}
+	const customHint = document.getElementById("custom-limit-hint");
+	if (customHint) {
+		customHint.textContent = `Max: ${totalQuestions}`;
+	}
+}
+
+function selectQuestionLimit(limit) {
+	selectedQuestionLimit = limit;
+	
+	document.querySelectorAll(".limit-btn").forEach(btn => {
+		btn.classList.toggle("active", btn.dataset.limit === limit);
+	});
+	
+	const customWrap = document.getElementById("custom-limit-wrap");
+	if (customWrap) {
+		customWrap.style.display = limit === "custom" ? "flex" : "none";
+		if (limit === "custom") {
+			document.getElementById("custom-limit-input").focus();
+		}
+	}
 }
 
 function closeModeModal() {
@@ -466,18 +577,44 @@ function launchTimedQuiz() {
 }
 
 function launchQuiz(seconds, isHardcore = false) {
+	if (!pendingQuizData) return;
+	
+	let limit = pendingQuizData.length;
+	if (selectedQuestionLimit === "custom") {
+		const inputVal = parseInt(document.getElementById("custom-limit-input").value);
+		if (isNaN(inputVal) || inputVal < 1) {
+			toast("Please enter a valid number of questions (minimum 1).");
+			return;
+		}
+		if (inputVal > pendingQuizData.length) {
+			toast(`Capping quiz at ${pendingQuizData.length} questions.`);
+			limit = pendingQuizData.length;
+		} else {
+			limit = inputVal;
+		}
+	} else if (selectedQuestionLimit !== "all") {
+		limit = parseInt(selectedQuestionLimit);
+	}
+	
 	document.getElementById("mode-overlay").classList.remove("is-open");
 	hardcoreMode = isHardcore;
 	timerMode = seconds > 0 || isHardcore;
 	timerSeconds = seconds;
-	if (pendingQuizData) {
-		startQuiz(pendingQuizData);
-		pendingQuizData = null;
-	}
+	
+	startQuiz(pendingQuizData, limit);
+	pendingQuizData = null;
 }
 
-function startQuiz(data) {
-	questions = shuffle([...data]);
+function startQuiz(data, limit = null) {
+	let shuffled = shuffle([...data]);
+	if (limit && limit > 0 && limit < shuffled.length) {
+		shuffled = shuffled.slice(0, limit);
+	}
+	questions = shuffled;
+	questions.forEach(q => {
+		delete q._shuffledOpts;
+		delete q._shuffledAnswer;
+	});
 	current = 0;
 	correct = 0;
 	wrong = 0;
@@ -493,7 +630,77 @@ function startQuiz(data) {
 	renderQuestion();
 }
 
+function saveProgress() {
+	if (!activeSubject || !activeTopic || isGameOver) return;
+	
+	const saveKey = `quiz_progress_${activeSubject.folder}_${activeTopic.file}`;
+	const progress = {
+		mode: hardcoreMode ? "hardcore" : (timerMode ? "timed" : "practice"),
+		timerSeconds: timerSeconds,
+		questions: questions,
+		current: current,
+		correct: correct,
+		wrong: wrong,
+		streak: streak,
+		consecutiveWrong: consecutiveWrong,
+		nextStreakCelebrationAt: nextStreakCelebrationAt,
+		elapsedTime: timerMode ? Math.round((Date.now() - quizStartTime) / 1000) : 0,
+		checked: checked,
+		selected: selected,
+		isGameOver: isGameOver,
+		timestamp: Date.now()
+	};
+	localStorage.setItem(saveKey, JSON.stringify(progress));
+}
+
+function clearProgress() {
+	if (!activeSubject || !activeTopic) return;
+	const saveKey = `quiz_progress_${activeSubject.folder}_${activeTopic.file}`;
+	localStorage.removeItem(saveKey);
+}
+
+function resumeQuiz(savedData) {
+	document.getElementById("mode-overlay").classList.remove("is-open");
+	
+	questions = savedData.questions;
+	current = savedData.current;
+	correct = savedData.correct;
+	wrong = savedData.wrong;
+	streak = savedData.streak;
+	consecutiveWrong = savedData.consecutiveWrong;
+	nextStreakCelebrationAt = savedData.nextStreakCelebrationAt;
+	isGameOver = savedData.isGameOver || false;
+	
+	if (savedData.mode === "hardcore") {
+		hardcoreMode = true;
+		timerMode = true;
+		timerSeconds = savedData.timerSeconds || 15;
+	} else if (savedData.mode === "timed") {
+		hardcoreMode = false;
+		timerMode = true;
+		timerSeconds = savedData.timerSeconds || 30;
+	} else {
+		hardcoreMode = false;
+		timerMode = false;
+		timerSeconds = 0;
+	}
+	
+	quizStartTime = Date.now() - (savedData.elapsedTime || 0) * 1000;
+	
+	document.body.classList.toggle("hardcore-active", hardcoreMode);
+	
+	const timerWrap = document.getElementById("timer-bar-wrap");
+	timerWrap.style.display = timerMode ? "" : "none";
+	
+	show("screen-quiz");
+	renderQuestion(savedData.checked, savedData.selected);
+}
+
 function retryQuiz() {
+	questions.forEach(q => {
+		delete q._shuffledOpts;
+		delete q._shuffledAnswer;
+	});
 	shuffle(questions);
 	current = 0;
 	correct = 0;
@@ -510,10 +717,10 @@ function retryQuiz() {
 	renderQuestion();
 }
 
-function renderQuestion() {
+function renderQuestion(restoreChecked = false, restoreSelected = null) {
 	const q = questions[current];
-	selected = null;
-	checked = false;
+	selected = restoreSelected;
+	checked = restoreChecked;
 
 	/* difficulty tag inline with question number */
 	const diffClass =
@@ -533,12 +740,15 @@ function renderQuestion() {
 
 	/* options — shuffle and reassign display keys */
 	const displayKeys = ["A", "B", "C", "D"];
-	const shuffledOpts = shuffle([...q.options]);
+	const shuffledOpts = q._shuffledOpts || shuffle([...q.options]);
+	q._shuffledOpts = shuffledOpts;
 	const keyMap = {}; /* original key → new display key */
 	shuffledOpts.forEach((o, idx) => {
 		keyMap[o.key] = displayKeys[idx];
 	});
 	const correctDisplayKey = keyMap[q.answer];
+	/* store remapped answer for this question */
+	q._shuffledAnswer = correctDisplayKey;
 
 	const opts = document.getElementById("options");
 	opts.innerHTML = "";
@@ -552,20 +762,60 @@ function renderQuestion() {
 		btn.addEventListener("click", () => selectOpt(dk));
 		opts.appendChild(btn);
 	});
-	/* store remapped answer for this question */
-	q._shuffledAnswer = correctDisplayKey;
 
-	document.getElementById("feedback").classList.add("is-hidden");
-	const nextBtn = document.getElementById("btn-next");
-	nextBtn.style.visibility = "hidden";
-	nextBtn.style.pointerEvents = "none";
-	if (current === questions.length - 1) {
-		nextBtn.textContent = "See Results →";
+	if (checked) {
+		const correctKey = correctDisplayKey;
+		const isCorrect = selected === correctKey;
+		document.querySelectorAll(".opt").forEach((b) => {
+			b.classList.add("locked");
+			b.classList.remove("selected");
+			if (b.dataset.key === correctKey) b.classList.add("correct");
+			else if (b.dataset.key === selected && !isCorrect) b.classList.add("wrong");
+		});
+
+		const inner = document.getElementById("feedback-inner");
+		const reasonEl = document.getElementById("reason");
+
+		if (isCorrect) {
+			inner.className = "feedback-inner ok";
+			inner.textContent = "✓ Correct!";
+		} else {
+			const correctBtn = document.querySelector(`.opt[data-key="${correctKey}"]`);
+			const correctText = correctBtn?.querySelector(".opt-text")?.textContent || "";
+			inner.className = "feedback-inner bad";
+			if (hardcoreMode) {
+				inner.textContent = `✗ INCORRECT — GAME OVER! Correct answer: ${correctKey}. ${correctText}`;
+			} else {
+				inner.textContent = `✗ Incorrect — correct answer: ${correctKey}. ${correctText}`;
+			}
+		}
+		reasonEl.textContent = q.reason || "";
+		document.getElementById("feedback").classList.remove("is-hidden");
+
+		const nextBtn = document.getElementById("btn-next");
+		nextBtn.style.visibility = "visible";
+		nextBtn.style.pointerEvents = "auto";
+		if (isGameOver) {
+			nextBtn.textContent = "See Results →";
+		} else if (current === questions.length - 1) {
+			nextBtn.textContent = "See Results →";
+		} else {
+			nextBtn.textContent = "Next question →";
+		}
 	} else {
-		nextBtn.textContent = "Next question →";
+		document.getElementById("feedback").classList.add("is-hidden");
+		const nextBtn = document.getElementById("btn-next");
+		nextBtn.style.visibility = "hidden";
+		nextBtn.style.pointerEvents = "none";
+		if (current === questions.length - 1) {
+			nextBtn.textContent = "See Results →";
+		} else {
+			nextBtn.textContent = "Next question →";
+		}
+		updateStreakMeter();
+		if (timerMode) startTimer();
 	}
-	updateStreakMeter();
-	if (timerMode) startTimer();
+	saveProgress();
 }
 
 function selectOpt(key) {
@@ -638,6 +888,7 @@ function checkAnswer() {
 	}
 	document.getElementById("prog-bar").style.width =
 		`${((current + 1) / questions.length) * 100}%`;
+	saveProgress();
 }
 
 function skipQuestion() {
@@ -755,6 +1006,7 @@ function onTimerTimeout() {
 	}
 	document.getElementById("prog-bar").style.width =
 		`${((current + 1) / questions.length) * 100}%`;
+	saveProgress();
 }
 
 function handleQuizKeys(event) {
@@ -791,6 +1043,7 @@ function handleQuizKeys(event) {
 ══════════════════════════════════════ */
 function showResults() {
 	stopTimer();
+	clearProgress();
 	show("screen-results");
 	
 	const pct = Math.round((correct / questions.length) * 100);

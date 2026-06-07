@@ -217,7 +217,32 @@
     <div class="mode-overlay" id="mode-overlay">
       <div class="mode-modal">
         <button class="mode-close" onclick="closeModeModal()">&times;</button>
-        <p class="mode-title">Choose your mode</p>
+        <p class="mode-title">Quiz Settings</p>
+        
+        <!-- Resume Container -->
+        <div id="resume-container" style="display: none;">
+          <div class="resume-card">
+            <div class="resume-icon"><i data-lucide="play-circle"></i></div>
+            <div class="resume-info">
+              <span class="resume-card-title">Resume Saved Progress</span>
+              <span class="resume-card-desc" id="resume-card-desc">Practice mode - Q5/20</span>
+            </div>
+            <button type="button" class="btn-resume" id="btn-resume-action">Resume</button>
+          </div>
+          <div class="resume-divider"><span>or start a new quiz</span></div>
+        </div>
+
+        <!-- Question Limit Selector -->
+        <div class="modal-section-title">Number of Questions</div>
+        <div class="limit-selector" id="limit-selector">
+          <!-- Dynamically populated buttons -->
+        </div>
+        <div class="custom-limit-wrap" id="custom-limit-wrap" style="display: none;">
+          <input type="number" id="custom-limit-input" min="1" placeholder="Enter custom limit..." class="custom-limit-input" />
+          <span class="custom-limit-hint" id="custom-limit-hint"></span>
+        </div>
+
+        <div class="modal-section-title" style="margin-top: 1.5rem;">Choose your mode</div>
         <div class="mode-cards">
           <div class="mode-card" onclick="launchQuiz(0)">
             <i data-lucide="book-open" class="mode-icon"></i>

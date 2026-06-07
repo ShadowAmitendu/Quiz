@@ -1720,3 +1720,170 @@ button:focus-visible,
 		grid-template-columns: 1fr;
 	}
 }
+
+/* ─── QUIZ SETTINGS CUSTOM STYLES ─── */
+.resume-card {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 1rem;
+	background: var(--accent-light);
+	border: 1px dashed var(--accent);
+	border-radius: 12px;
+	margin-bottom: 1rem;
+}
+
+.resume-icon {
+	width: 2.2rem;
+	height: 2.2rem;
+	color: var(--accent);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+.resume-icon svg {
+	width: 1.8rem;
+	height: 1.8rem;
+}
+
+.resume-info {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	flex-grow: 1;
+	text-align: left;
+}
+
+.resume-card-title {
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--text);
+}
+
+.resume-card-desc {
+	font-size: 12px;
+	color: var(--muted);
+}
+
+.btn-resume {
+	background: var(--accent);
+	color: var(--surface-solid);
+	border: none;
+	border-radius: 8px;
+	padding: 0.5rem 1rem;
+	font-size: 13px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background var(--ease), transform var(--ease);
+}
+
+.btn-resume:hover {
+	background: var(--accent-hover);
+	transform: translateY(-1px);
+}
+
+.resume-divider {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: var(--muted);
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin: 1.25rem 0;
+}
+
+.resume-divider::before,
+.resume-divider::after {
+	content: '';
+	flex: 1;
+	border-bottom: 1px solid var(--border);
+}
+
+.resume-divider:not(:empty)::before {
+	margin-right: .75em;
+}
+
+.resume-divider:not(:empty)::after {
+	margin-left: .75em;
+}
+
+.modal-section-title {
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--muted);
+	margin-bottom: 0.75rem;
+	text-align: left;
+}
+
+.limit-selector {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 1rem;
+}
+
+.limit-btn {
+	padding: 0.5rem 0.85rem;
+	border-radius: 8px;
+	border: 1px solid var(--border);
+	background: var(--surface);
+	color: var(--text);
+	font-size: 12px;
+	font-weight: 600;
+	font-family: inherit;
+	cursor: pointer;
+	transition: all var(--ease);
+}
+
+.limit-btn:hover {
+	border-color: var(--accent);
+	background: var(--accent-light);
+}
+
+.limit-btn.active {
+	background: var(--accent);
+	color: var(--surface-solid);
+	border-color: var(--accent);
+}
+
+.custom-limit-wrap {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: -0.25rem;
+	margin-bottom: 1.25rem;
+	animation: slide-down 200ms ease forwards;
+}
+
+.custom-limit-input {
+	padding: 0.5rem 0.75rem;
+	border-radius: 8px;
+	border: 1px solid var(--border);
+	background: var(--surface);
+	color: var(--text);
+	font-size: 13px;
+	font-family: inherit;
+	width: 120px;
+}
+
+.custom-limit-input:focus {
+	border-color: var(--accent);
+	outline: none;
+}
+
+.custom-limit-hint {
+	font-size: 11px;
+	color: var(--muted);
+}
+
+@keyframes slide-down {
+	from { opacity: 0; transform: translateY(-4px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
