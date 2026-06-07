@@ -1,224 +1,281 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>MCQ Quiz</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-			rel="stylesheet" />
-		<link rel="stylesheet" href="style.css" />
-		<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
-	</head>
-	<body>
-		<button
-			id="theme-toggle"
-			class="theme-toggle"
-			type="button"
-			aria-label="Toggle dark mode"
-			aria-pressed="false">
-			<span class="theme-toggle-icon" aria-hidden="true">
-				<svg
-					class="theme-icon theme-icon-moon"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round">
-					<path d="M20.9 13.5A8.4 8.4 0 0 1 10.5 3.1a8.5 8.5 0 1 0 10.4 10.4Z" />
-				</svg>
-				<svg
-					class="theme-icon theme-icon-sun"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round">
-					<circle cx="12" cy="12" r="4" />
-					<path d="M12 2v2" />
-					<path d="M12 20v2" />
-					<path d="m4.93 4.93 1.41 1.41" />
-					<path d="m17.66 17.66 1.41 1.41" />
-					<path d="M2 12h2" />
-					<path d="M20 12h2" />
-					<path d="m6.34 17.66-1.41 1.41" />
-					<path d="m19.07 4.93-1.41 1.41" />
-				</svg>
-			</span>
-			<span class="theme-toggle-label">Dark mode</span>
-		</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCQ Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  </head>
+  <body>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Toggle dark mode"
+      aria-pressed="false"
+    >
+      <span class="theme-toggle-icon" aria-hidden="true">
+        <svg
+          class="theme-icon theme-icon-moon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M20.9 13.5A8.4 8.4 0 0 1 10.5 3.1a8.5 8.5 0 1 0 10.4 10.4Z"
+          />
+        </svg>
+        <svg
+          class="theme-icon theme-icon-sun"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="4" />
+          <path d="M12 2v2" />
+          <path d="M12 20v2" />
+          <path d="m4.93 4.93 1.41 1.41" />
+          <path d="m17.66 17.66 1.41 1.41" />
+          <path d="M2 12h2" />
+          <path d="M20 12h2" />
+          <path d="m6.34 17.66-1.41 1.41" />
+          <path d="m19.07 4.93-1.41 1.41" />
+        </svg>
+      </span>
+      <span class="theme-toggle-label">Dark mode</span>
+    </button>
 
-		<!-- SCREEN 1: SUBJECT SELECT -->
-		<div id="screen-home" class="screen active">
-			<div class="home-wrap">
-				<div class="home-header">
-					<div class="home-greeting"><i data-lucide="book-open" class="greeting-icon"></i></div>
-					<p class="eyebrow">MCQ Practice</p>
-					<h1 class="title home-title">What are you<br />studying today?</h1>
-					<p class="home-subtitle">Pick a subject below to start quizzing yourself.</p>
-				</div>
-				<div id="subject-grid" class="subject-grid"></div>
-				<div id="home-loading" class="loading-msg">Loading subjects…</div>
-				<div id="home-error" class="error-msg" style="display: none"></div>
-			</div>
-		</div>
+    <!-- SCREEN 1: SUBJECT SELECT -->
+    <div id="screen-home" class="screen active">
+      <div class="home-wrap">
+        <div class="home-header">
+          <div class="home-greeting">
+            <i data-lucide="book-open" class="greeting-icon"></i>
+          </div>
+          <p class="eyebrow">MCQ Practice</p>
+          <h1 class="title home-title">What are you<br />studying today?</h1>
+          <p class="home-subtitle">
+            Pick a subject below to start quizzing yourself.
+          </p>
+        </div>
+        <div id="subject-grid" class="subject-grid"></div>
+        <div id="home-loading" class="loading-msg">Loading subjects…</div>
+        <div id="home-error" class="error-msg" style="display: none"></div>
+      </div>
+    </div>
 
-		<!-- SCREEN 2: TOPIC SELECT -->
-		<div id="screen-topics" class="screen">
-			<div class="home-wrap">
-				<button class="back-btn" onclick="goHome()">← Subjects</button>
-				<div class="home-header" style="margin-top: 1rem">
-					<p class="eyebrow" id="topic-eyebrow"></p>
-					<h1 class="title" id="topic-title"></h1>
-				</div>
-				<div id="topic-list" class="topic-list"></div>
-			</div>
-		</div>
+    <!-- SCREEN 2: TOPIC SELECT -->
+    <div id="screen-topics" class="screen">
+      <div class="home-wrap">
+        <button class="back-btn" onclick="goHome()">← Subjects</button>
+        <div class="home-header" style="margin-top: 1rem">
+          <p class="eyebrow" id="topic-eyebrow"></p>
+          <h1 class="title" id="topic-title"></h1>
+        </div>
+        <div id="topic-list" class="topic-list"></div>
+      </div>
+    </div>
 
-		<!-- SCREEN 3: QUIZ -->
-		<div id="screen-quiz" class="screen">
-			<div class="quiz-wrap">
-				<div class="quiz-topbar">
-					<button class="back-btn" onclick="goTopics()">← Topics</button>
-					<div class="quiz-top-meta">
-						<div class="prog-text" id="prog-text"></div>
-						<div class="streak-meter" id="streak-meter" aria-live="polite">
-							<span class="streak-flame" aria-hidden="true"><i data-lucide="flame" class="streak-icon"></i></span>
-							<span id="streak-label">0</span>
-						</div>
-					</div>
-				</div>
-				<div class="prog-bar-wrap">
-					<div class="prog-bar" id="prog-bar"></div>
-				</div>
-				<div class="timer-bar-wrap" id="timer-bar-wrap" style="display:none">
-					<div class="timer-bar" id="timer-bar"></div>
-					<span class="timer-text" id="timer-text"></span>
-				</div>
-				<div class="quiz-stage">
-					<div class="qcard" id="qcard">
-						<div class="qnum-row">
-							<span class="qnum" id="qnum"></span>
-							<span class="qdifficulty" id="qdifficulty"></span>
-						</div>
-						<p class="qtext" id="qtext"></p>
-						<div class="options" id="options"></div>
-					</div>
-				</div>
-				<div class="quiz-bottombar">
-					<div class="feedback is-hidden" id="feedback">
-						<div class="feedback-inner" id="feedback-inner"></div>
-						<div class="reason" id="reason"></div>
-					</div>
-					<div class="nav-row">
-						<button
-							class="btn-next"
-							id="btn-next"
-							onclick="nextQuestion()"
-							style="visibility: hidden; pointer-events: none">
-							Next question →
-						</button>
-					</div>
-					<p class="key-hint">
-						Press 1-4 to answer, Space for next, S to skip.
-					</p>
-				</div>
-			</div>
-		</div>
+    <!-- SCREEN 3: QUIZ -->
+    <div id="screen-quiz" class="screen">
+      <div class="quiz-wrap">
+        <div class="quiz-topbar">
+          <button class="back-btn" onclick="goTopics()">← Topics</button>
+          <div class="quiz-top-meta">
+            <div class="prog-text" id="prog-text"></div>
+            <div class="streak-meter" id="streak-meter" aria-live="polite">
+              <span class="streak-flame" aria-hidden="true"
+                ><i data-lucide="flame" class="streak-icon"></i
+              ></span>
+              <span id="streak-label">0</span>
+            </div>
+          </div>
+        </div>
+        <div class="prog-bar-wrap">
+          <div class="prog-bar" id="prog-bar"></div>
+        </div>
+        <div class="timer-bar-wrap" id="timer-bar-wrap" style="display: none">
+          <div class="timer-bar" id="timer-bar"></div>
+          <span class="timer-text" id="timer-text"></span>
+        </div>
+        <div class="quiz-stage">
+          <div class="qcard" id="qcard">
+            <div class="qnum-row">
+              <span class="qnum" id="qnum"></span>
+              <span class="qdifficulty" id="qdifficulty"></span>
+            </div>
+            <p class="qtext" id="qtext"></p>
+            <div class="options" id="options"></div>
+          </div>
+        </div>
+        <div class="quiz-bottombar">
+          <div class="feedback is-hidden" id="feedback">
+            <div class="feedback-inner" id="feedback-inner"></div>
+            <div class="reason" id="reason"></div>
+          </div>
+          <div class="nav-row">
+            <button
+              class="btn-next"
+              id="btn-next"
+              onclick="nextQuestion()"
+              style="visibility: hidden; pointer-events: none"
+            >
+              Next question →
+            </button>
+          </div>
+          <p class="key-hint">
+            Press 1-4 to answer, Space for next, S to skip.
+          </p>
+        </div>
+      </div>
+    </div>
 
-		<!-- SCREEN 4: RESULTS -->
-		<div id="screen-results" class="screen">
-			<div class="home-wrap results-wrap">
-				<div class="results-card">
-					<div class="results-badge-container" id="results-badge-container">
-						<div class="results-badge-icon" id="results-badge-icon">
-							<!-- Dynamic Lucide icon loaded here -->
-						</div>
-						<div class="results-badge-text" id="results-badge-text">Quiz Complete</div>
-					</div>
+    <!-- SCREEN 4: RESULTS -->
+    <div id="screen-results" class="screen">
+      <div class="home-wrap results-wrap">
+        <div class="results-card">
+          <div class="results-badge-container" id="results-badge-container">
+            <div class="results-badge-icon" id="results-badge-icon">
+              <!-- Dynamic Lucide icon loaded here -->
+            </div>
+            <div class="results-badge-text" id="results-badge-text">
+              Quiz Complete
+            </div>
+          </div>
 
-					<p class="eyebrow results-eyebrow">Results Overview</p>
-					
-					<div class="score-gauge-container">
-						<svg class="score-ring" viewBox="0 0 120 120">
-							<circle class="score-ring-bg" cx="60" cy="60" r="54" />
-							<circle class="score-ring-fill" id="score-ring-fill" cx="60" cy="60" r="54" stroke-dasharray="339.3" stroke-dashoffset="339.3" />
-						</svg>
-						<div class="score-value-wrap">
-							<span class="score-pct" id="score-pct">0%</span>
-						</div>
-					</div>
+          <p class="eyebrow results-eyebrow">Results Overview</p>
 
-					<h2 class="results-title-msg" id="results-title-msg">Keep Learning!</h2>
-					<p class="results-subtitle" id="score-sub">0 of 0 correct</p>
-					<p class="results-motivational-msg" id="results-motivation">Keep practicing to improve your score!</p>
+          <div class="score-gauge-container">
+            <svg class="score-ring" viewBox="0 0 120 120">
+              <circle class="score-ring-bg" cx="60" cy="60" r="54" />
+              <circle
+                class="score-ring-fill"
+                id="score-ring-fill"
+                cx="60"
+                cy="60"
+                r="54"
+                stroke-dasharray="339.3"
+                stroke-dashoffset="339.3"
+              />
+            </svg>
+            <div class="score-value-wrap">
+              <span class="score-pct" id="score-pct">0%</span>
+            </div>
+          </div>
 
-					<div class="score-pills">
-						<div class="pill pill-correct">
-							<i data-lucide="check-circle" class="pill-icon"></i>
-							<span id="r-correct">0</span>
-							<small>Correct</small>
-						</div>
-						<div class="pill pill-wrong">
-							<i data-lucide="x-circle" class="pill-icon"></i>
-							<span id="r-wrong">0</span>
-							<small>Wrong</small>
-						</div>
-						<div class="pill pill-time" id="pill-time" style="display:none">
-							<i data-lucide="clock" class="pill-icon"></i>
-							<span id="r-time">0s</span>
-							<small>Time</small>
-						</div>
-					</div>
+          <h2 class="results-title-msg" id="results-title-msg">
+            Keep Learning!
+          </h2>
+          <p class="results-subtitle" id="score-sub">0 of 0 correct</p>
+          <p class="results-motivational-msg" id="results-motivation">
+            Keep practicing to improve your score!
+          </p>
 
-					<div class="result-actions">
-						<button class="btn-outline btn-results-retry" onclick="retryQuiz()">
-							<i data-lucide="rotate-ccw" class="btn-icon"></i> Retry this quiz
-						</button>
-						<button class="btn-primary-sm btn-results-home" onclick="goHome()">
-							Choose another <i data-lucide="arrow-right" class="btn-icon"></i>
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
+          <div class="score-pills">
+            <div class="pill pill-correct">
+              <i data-lucide="check-circle" class="pill-icon"></i>
+              <span id="r-correct">0</span>
+              <small>Correct</small>
+            </div>
+            <div class="pill pill-wrong">
+              <i data-lucide="x-circle" class="pill-icon"></i>
+              <span id="r-wrong">0</span>
+              <small>Wrong</small>
+            </div>
+            <div class="pill pill-time" id="pill-time" style="display: none">
+              <i data-lucide="clock" class="pill-icon"></i>
+              <span id="r-time">0s</span>
+              <small>Time</small>
+            </div>
+          </div>
 
-		<!-- MODE PICKER MODAL -->
-		<div class="mode-overlay" id="mode-overlay">
-			<div class="mode-modal">
-				<button class="mode-close" onclick="closeModeModal()">&times;</button>
-				<p class="mode-title">Choose your mode</p>
-				<div class="mode-cards">
-					<div class="mode-card" onclick="launchQuiz(0)">
-						<i data-lucide="book-open" class="mode-icon"></i>
-						<span class="mode-card-title">Practice</span>
-						<span class="mode-card-desc">No time limit. Learn at your own pace.</span>
-					</div>
-					<div class="mode-card mode-card-timed" onclick="launchTimedQuiz()">
-						<i data-lucide="timer" class="mode-icon"></i>
-						<span class="mode-card-title">Timed</span>
-						<span class="mode-card-desc" id="timed-desc">30 seconds per question.</span>
-						<span class="mode-time-opts">
-							<button type="button" class="mode-time-btn" data-seconds="15" onclick="selectTimeOption(event, 15)">15s</button>
-							<button type="button" class="mode-time-btn active" data-seconds="30" onclick="selectTimeOption(event, 30)">30s</button>
-							<button type="button" class="mode-time-btn" data-seconds="60" onclick="selectTimeOption(event, 60)">60s</button>
-						</span>
-					</div>
-					<div class="mode-card mode-card-hardcore" onclick="launchQuiz(15, true)">
-						<i data-lucide="skull" class="mode-icon"></i>
-						<span class="mode-card-title">Hardcore</span>
-						<span class="mode-card-desc">Sudden Death! 15s limit. 1 wrong = fail.</span>
-					</div>
-				</div>
-			</div>
-		</div>
+          <div class="result-actions">
+            <button class="btn-outline btn-results-retry" onclick="retryQuiz()">
+              <i data-lucide="rotate-ccw" class="btn-icon"></i> Retry this quiz
+            </button>
+            <button class="btn-primary-sm btn-results-home" onclick="goHome()">
+              Choose another <i data-lucide="arrow-right" class="btn-icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<div id="celebration-layer" aria-hidden="true"></div>
-		<div class="toast" id="toast"></div>
-		<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
-		<script src="quiz.js"></script>
-	</body>
+    <!-- MODE PICKER MODAL -->
+    <div class="mode-overlay" id="mode-overlay">
+      <div class="mode-modal">
+        <button class="mode-close" onclick="closeModeModal()">&times;</button>
+        <p class="mode-title">Choose your mode</p>
+        <div class="mode-cards">
+          <div class="mode-card" onclick="launchQuiz(0)">
+            <i data-lucide="book-open" class="mode-icon"></i>
+            <span class="mode-card-title">Practice</span>
+            <span class="mode-card-desc"
+              >No time limit. Learn at your own pace.</span
+            >
+          </div>
+          <div class="mode-card mode-card-timed" onclick="launchTimedQuiz()">
+            <i data-lucide="timer" class="mode-icon"></i>
+            <span class="mode-card-title">Timed</span>
+            <span class="mode-card-desc" id="timed-desc"
+              >30 seconds per question.</span
+            >
+            <span class="mode-time-opts">
+              <button
+                type="button"
+                class="mode-time-btn"
+                data-seconds="15"
+                onclick="selectTimeOption(event, 15)"
+              >
+                15s
+              </button>
+              <button
+                type="button"
+                class="mode-time-btn active"
+                data-seconds="30"
+                onclick="selectTimeOption(event, 30)"
+              >
+                30s
+              </button>
+              <button
+                type="button"
+                class="mode-time-btn"
+                data-seconds="60"
+                onclick="selectTimeOption(event, 60)"
+              >
+                60s
+              </button>
+            </span>
+          </div>
+          <div
+            class="mode-card mode-card-hardcore"
+            onclick="launchQuiz(15, true)"
+          >
+            <i data-lucide="skull" class="mode-icon"></i>
+            <span class="mode-card-title">Hardcore</span>
+            <span class="mode-card-desc"
+              >Sudden Death! 15s limit. 1 wrong = fail.</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="celebration-layer" aria-hidden="true"></div>
+    <div class="toast" id="toast"></div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="quiz.js"></script>
+  </body>
 </html>
