@@ -1,0 +1,1517 @@
+[
+	{
+		"id": 1,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "In a JSP-Servlet application, which component usually handles client requests first?",
+		"options": [
+			{ "key": "A", "text": "Database" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "JSP" },
+			{ "key": "D", "text": "JavaBean" }
+		],
+		"answer": "B",
+		"reason": "In a typical JSP-Servlet architecture, the Servlet receives and processes requests before forwarding data to JSP."
+	},
+	{
+		"id": 2,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which component is mainly responsible for presentation in a JSP-Servlet application?",
+		"options": [
+			{ "key": "A", "text": "Servlet" },
+			{ "key": "B", "text": "JDBC Driver" },
+			{ "key": "C", "text": "JSP" },
+			{ "key": "D", "text": "Filter" }
+		],
+		"answer": "C",
+		"reason": "JSP is primarily used for displaying data and generating the user interface."
+	},
+	{
+		"id": 3,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "What is the primary role of a Servlet when used with JSP?",
+		"options": [
+			{ "key": "A", "text": "Presentation Logic" },
+			{ "key": "B", "text": "Business Logic and Request Processing" },
+			{ "key": "C", "text": "Database Storage Only" },
+			{ "key": "D", "text": "Page Styling" }
+		],
+		"answer": "B",
+		"reason": "Servlets process requests, perform business logic, and pass data to JSP pages."
+	},
+	{
+		"id": 4,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which object is commonly used to pass data from a Servlet to a JSP?",
+		"options": [
+			{ "key": "A", "text": "Cookie" },
+			{ "key": "B", "text": "Request Attribute" },
+			{ "key": "C", "text": "FilterChain" },
+			{ "key": "D", "text": "ServletConfig" }
+		],
+		"answer": "B",
+		"reason": "Data is often stored as request attributes using setAttribute() and accessed in JSP."
+	},
+	{
+		"id": 5,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which method is used to store data in a request object?",
+		"options": [
+			{ "key": "A", "text": "putAttribute()" },
+			{ "key": "B", "text": "setAttribute()" },
+			{ "key": "C", "text": "addAttribute()" },
+			{ "key": "D", "text": "saveAttribute()" }
+		],
+		"answer": "B",
+		"reason": "setAttribute() stores objects in the request scope."
+	},
+	{
+		"id": 6,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which method retrieves data stored as a request attribute?",
+		"options": [
+			{ "key": "A", "text": "getAttribute()" },
+			{ "key": "B", "text": "readAttribute()" },
+			{ "key": "C", "text": "fetchAttribute()" },
+			{ "key": "D", "text": "getParameter()" }
+		],
+		"answer": "A",
+		"reason": "getAttribute() retrieves an object stored in the request scope."
+	},
+	{
+		"id": 7,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which technology is better suited for displaying dynamic content to users?",
+		"options": [
+			{ "key": "A", "text": "Servlet" },
+			{ "key": "B", "text": "JSP" },
+			{ "key": "C", "text": "JDBC" },
+			{ "key": "D", "text": "Filter" }
+		],
+		"answer": "B",
+		"reason": "JSP is specifically designed for creating dynamic web pages."
+	},
+	{
+		"id": 8,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "Why is it recommended to use Servlets and JSP together?",
+		"options": [
+			{ "key": "A", "text": "To reduce database usage" },
+			{
+				"key": "B",
+				"text": "To separate business logic from presentation logic"
+			},
+			{ "key": "C", "text": "To eliminate sessions" },
+			{ "key": "D", "text": "To avoid request processing" }
+		],
+		"answer": "B",
+		"reason": "Separating responsibilities improves maintainability, readability, and scalability."
+	},
+	{
+		"id": 9,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "What does MVC stand for?",
+		"options": [
+			{ "key": "A", "text": "Model View Controller" },
+			{ "key": "B", "text": "Main View Component" },
+			{ "key": "C", "text": "Model Virtual Controller" },
+			{ "key": "D", "text": "Managed View Controller" }
+		],
+		"answer": "A",
+		"reason": "MVC stands for Model-View-Controller, a widely used software design pattern."
+	},
+	{
+		"id": 10,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "Which MVC component contains application data and business logic?",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "Controller" },
+			{ "key": "C", "text": "Model" },
+			{ "key": "D", "text": "ServletContext" }
+		],
+		"answer": "C",
+		"reason": "The Model manages data and business rules of the application."
+	},
+	{
+		"id": 11,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "Which MVC component is responsible for user interface presentation?",
+		"options": [
+			{ "key": "A", "text": "Controller" },
+			{ "key": "B", "text": "Model" },
+			{ "key": "C", "text": "View" },
+			{ "key": "D", "text": "DAO" }
+		],
+		"answer": "C",
+		"reason": "The View displays information to users."
+	},
+	{
+		"id": 12,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "Which MVC component handles user requests and controls application flow?",
+		"options": [
+			{ "key": "A", "text": "Controller" },
+			{ "key": "B", "text": "Model" },
+			{ "key": "C", "text": "View" },
+			{ "key": "D", "text": "Bean" }
+		],
+		"answer": "A",
+		"reason": "The Controller processes user requests and coordinates between Model and View."
+	},
+	{
+		"id": 13,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "In a Java web application, which component usually acts as the Controller?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "JavaBean" },
+			{ "key": "D", "text": "Database" }
+		],
+		"answer": "B",
+		"reason": "Servlets commonly serve as Controllers in MVC-based Java web applications."
+	},
+	{
+		"id": 14,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "In MVC architecture, JSP pages generally act as:",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "Controller" },
+			{ "key": "D", "text": "DAO" }
+		],
+		"answer": "B",
+		"reason": "JSP pages are used to present data to users and therefore act as Views."
+	},
+	{
+		"id": 15,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which benefit is provided by MVC architecture?",
+		"options": [
+			{ "key": "A", "text": "Tighter coupling" },
+			{ "key": "B", "text": "Code duplication" },
+			{ "key": "C", "text": "Separation of concerns" },
+			{ "key": "D", "text": "No need for classes" }
+		],
+		"answer": "C",
+		"reason": "MVC separates business logic, presentation, and request handling."
+	},
+	{
+		"id": 16,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "In MVC, after processing a request, the Controller typically sends data to:",
+		"options": [
+			{ "key": "A", "text": "Database" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "Filter" }
+		],
+		"answer": "B",
+		"reason": "The Controller forwards processed data to the View for presentation."
+	},
+	{
+		"id": 17,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "Which layer should contain database access code in MVC?",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "Controller" },
+			{ "key": "C", "text": "Model" },
+			{ "key": "D", "text": "JSP" }
+		],
+		"answer": "C",
+		"reason": "Database operations belong to the Model layer."
+	},
+	{
+		"id": 18,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "easy",
+		"question": "Which interface is used to forward requests between a Servlet and JSP?",
+		"options": [
+			{ "key": "A", "text": "FilterChain" },
+			{ "key": "B", "text": "RequestDispatcher" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "HttpSession" }
+		],
+		"answer": "B",
+		"reason": "RequestDispatcher is used for request forwarding and resource inclusion."
+	},
+	{
+		"id": 19,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "easy",
+		"question": "Which method forwards a request to a JSP page?",
+		"options": [
+			{ "key": "A", "text": "include()" },
+			{ "key": "B", "text": "forward()" },
+			{ "key": "C", "text": "redirect()" },
+			{ "key": "D", "text": "send()" }
+		],
+		"answer": "B",
+		"reason": "forward() transfers control to another resource on the server."
+	},
+	{
+		"id": 20,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Which method obtains a RequestDispatcher object?",
+		"options": [
+			{ "key": "A", "text": "getRequestDispatcher()" },
+			{ "key": "B", "text": "getDispatcher()" },
+			{ "key": "C", "text": "createDispatcher()" },
+			{ "key": "D", "text": "getForwarder()" }
+		],
+		"answer": "A",
+		"reason": "getRequestDispatcher() returns a RequestDispatcher instance."
+	},
+	{
+		"id": 21,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "When a request is forwarded, which object remains the same?",
+		"options": [
+			{ "key": "A", "text": "Request Object" },
+			{ "key": "B", "text": "Browser Window" },
+			{ "key": "C", "text": "Session ID" },
+			{ "key": "D", "text": "Server Port" }
+		],
+		"answer": "A",
+		"reason": "Forwarding occurs on the server side using the same request and response objects."
+	},
+	{
+		"id": 22,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Request forwarding is performed on:",
+		"options": [
+			{ "key": "A", "text": "Client Side" },
+			{ "key": "B", "text": "Browser Side" },
+			{ "key": "C", "text": "Server Side" },
+			{ "key": "D", "text": "Database Side" }
+		],
+		"answer": "C",
+		"reason": "Forwarding is an internal server-side operation."
+	},
+	{
+		"id": 23,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "After request forwarding, what URL is visible in the browser?",
+		"options": [
+			{ "key": "A", "text": "Forwarded JSP URL" },
+			{ "key": "B", "text": "Original Request URL" },
+			{ "key": "C", "text": "Database URL" },
+			{ "key": "D", "text": "Random URL" }
+		],
+		"answer": "B",
+		"reason": "Since forwarding happens on the server, the browser URL remains unchanged."
+	},
+	{
+		"id": 24,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "Which method includes another resource's output in the current response?",
+		"options": [
+			{ "key": "A", "text": "forward()" },
+			{ "key": "B", "text": "sendRedirect()" },
+			{ "key": "C", "text": "include()" },
+			{ "key": "D", "text": "dispatch()" }
+		],
+		"answer": "C",
+		"reason": "include() inserts the output of another resource into the current response."
+	},
+	{
+		"id": 25,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Which object is commonly used to transfer data before forwarding to JSP?",
+		"options": [
+			{ "key": "A", "text": "Request Object" },
+			{ "key": "B", "text": "Cookie" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "FilterChain" }
+		],
+		"answer": "A",
+		"reason": "Request attributes are commonly used to transfer data to JSP."
+	},
+	{
+		"id": 26,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which method is typically called after setting request attributes before displaying a JSP?",
+		"options": [
+			{ "key": "A", "text": "forward()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "init()" },
+			{ "key": "D", "text": "invalidate()" }
+		],
+		"answer": "A",
+		"reason": "forward() sends the request and its attributes to the JSP page."
+	},
+	{
+		"id": 27,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "Which of the following best describes the role of JSP in MVC?",
+		"options": [
+			{ "key": "A", "text": "Stores Data" },
+			{ "key": "B", "text": "Handles Database Connectivity" },
+			{ "key": "C", "text": "Generates User Interface" },
+			{ "key": "D", "text": "Processes Requests" }
+		],
+		"answer": "C",
+		"reason": "JSP serves as the View layer responsible for displaying information."
+	},
+	{
+		"id": 28,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "What is the main advantage of keeping Java code in Servlets instead of JSP?",
+		"options": [
+			{ "key": "A", "text": "Improved Separation of Concerns" },
+			{ "key": "B", "text": "Faster Internet Speed" },
+			{ "key": "C", "text": "Reduced Memory Usage Always" },
+			{ "key": "D", "text": "No Need for Views" }
+		],
+		"answer": "A",
+		"reason": "Business logic in Servlets and presentation in JSP leads to cleaner design."
+	},
+	{
+		"id": 29,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Which object is required by RequestDispatcher.forward()?",
+		"options": [
+			{ "key": "A", "text": "ServletConfig and ServletContext" },
+			{ "key": "B", "text": "HttpSession and Cookie" },
+			{ "key": "C", "text": "ServletRequest and ServletResponse" },
+			{ "key": "D", "text": "Model and View" }
+		],
+		"answer": "C",
+		"reason": "forward() requires request and response objects as parameters."
+	},
+	{
+		"id": 30,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "Which exception may occur if forward() is called after response data has been committed?",
+		"options": [
+			{ "key": "A", "text": "IOException" },
+			{ "key": "B", "text": "IllegalStateException" },
+			{ "key": "C", "text": "SQLException" },
+			{ "key": "D", "text": "ServletConfigException" }
+		],
+		"answer": "B",
+		"reason": "A response cannot be forwarded once it has already been committed to the client."
+	},
+	{
+		"id": 31,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which scope is most commonly used when passing data from Servlet to JSP through forwarding?",
+		"options": [
+			{ "key": "A", "text": "Application Scope" },
+			{ "key": "B", "text": "Request Scope" },
+			{ "key": "C", "text": "Page Scope" },
+			{ "key": "D", "text": "Global Scope" }
+		],
+		"answer": "B",
+		"reason": "Request scope exists throughout the forwarding process."
+	},
+	{
+		"id": 32,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which layer communicates with the database in a typical MVC web application?",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "Controller" },
+			{ "key": "C", "text": "Model" },
+			{ "key": "D", "text": "Browser" }
+		],
+		"answer": "C",
+		"reason": "The Model layer handles business logic and data access."
+	},
+	{
+		"id": 33,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "Which pattern is considered a standard approach for large-scale Java web applications?",
+		"options": [
+			{ "key": "A", "text": "MVC" },
+			{ "key": "B", "text": "Singleton Only" },
+			{ "key": "C", "text": "Factory Only" },
+			{ "key": "D", "text": "Prototype Only" }
+		],
+		"answer": "A",
+		"reason": "MVC improves maintainability, scalability, and code organization."
+	},
+	{
+		"id": 34,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "easy",
+		"question": "Which object creates a RequestDispatcher from a request?",
+		"options": [
+			{ "key": "A", "text": "HttpServletRequest" },
+			{ "key": "B", "text": "Cookie" },
+			{ "key": "C", "text": "HttpSession" },
+			{ "key": "D", "text": "Filter" }
+		],
+		"answer": "A",
+		"reason": "HttpServletRequest provides the getRequestDispatcher() method."
+	},
+	{
+		"id": 35,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "Which workflow best represents a JSP-Servlet MVC application?",
+		"options": [
+			{ "key": "A", "text": "Browser → JSP → Database" },
+			{ "key": "B", "text": "Browser → Servlet → Model → JSP → Browser" },
+			{ "key": "C", "text": "Browser → Database → JSP" },
+			{ "key": "D", "text": "Servlet → Browser → JSP → Database" }
+		],
+		"answer": "B",
+		"reason": "The Servlet acts as Controller, interacts with the Model, forwards data to JSP (View), and the result is sent to the browser."
+	},
+	{
+		"id": 36,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which method is commonly used in a Servlet to obtain a RequestDispatcher?",
+		"options": [
+			{ "key": "A", "text": "getDispatcher()" },
+			{ "key": "B", "text": "getRequestDispatcher()" },
+			{ "key": "C", "text": "createDispatcher()" },
+			{ "key": "D", "text": "getForwarder()" }
+		],
+		"answer": "B",
+		"reason": "The getRequestDispatcher() method returns a RequestDispatcher object used for forwarding or including resources."
+	},
+	{
+		"id": 37,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which JSP expression language syntax is commonly used to access a request attribute named 'user'?",
+		"options": [
+			{ "key": "A", "text": "<%= user %>" },
+			{ "key": "B", "text": "${user}" },
+			{ "key": "C", "text": "#{user}" },
+			{ "key": "D", "text": "@{user}" }
+		],
+		"answer": "B",
+		"reason": "JSP Expression Language uses ${attributeName} syntax to access scoped attributes."
+	},
+	{
+		"id": 38,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Why should business logic generally not be written directly inside JSP pages?",
+		"options": [
+			{ "key": "A", "text": "JSP cannot execute Java code" },
+			{ "key": "B", "text": "It violates separation of concerns" },
+			{ "key": "C", "text": "JSP does not support variables" },
+			{ "key": "D", "text": "It prevents database access" }
+		],
+		"answer": "B",
+		"reason": "Keeping business logic in Servlets or Model classes improves maintainability and follows MVC principles."
+	},
+	{
+		"id": 39,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "Which scope survives only during a single request-response cycle?",
+		"options": [
+			{ "key": "A", "text": "Application Scope" },
+			{ "key": "B", "text": "Session Scope" },
+			{ "key": "C", "text": "Request Scope" },
+			{ "key": "D", "text": "Global Scope" }
+		],
+		"answer": "C",
+		"reason": "Request scope exists only for the duration of a single request."
+	},
+	{
+		"id": 40,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which object is automatically available in JSP to access request attributes?",
+		"options": [
+			{ "key": "A", "text": "request" },
+			{ "key": "B", "text": "dispatcher" },
+			{ "key": "C", "text": "filter" },
+			{ "key": "D", "text": "contextConfig" }
+		],
+		"answer": "A",
+		"reason": "The request implicit object is available in JSP pages."
+	},
+	{
+		"id": 41,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "In MVC, what is the primary purpose of the View?",
+		"options": [
+			{ "key": "A", "text": "Store data" },
+			{ "key": "B", "text": "Display data to users" },
+			{ "key": "C", "text": "Handle database queries" },
+			{ "key": "D", "text": "Manage sessions" }
+		],
+		"answer": "B",
+		"reason": "The View is responsible for presenting information to the user."
+	},
+	{
+		"id": 42,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which component decides which View should be displayed?",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "Database" },
+			{ "key": "C", "text": "Controller" },
+			{ "key": "D", "text": "JSTL" }
+		],
+		"answer": "C",
+		"reason": "The Controller processes requests and selects the appropriate View."
+	},
+	{
+		"id": 43,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which of the following is NOT typically part of MVC?",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "Controller" },
+			{ "key": "D", "text": "Compiler" }
+		],
+		"answer": "D",
+		"reason": "MVC consists of Model, View, and Controller only."
+	},
+	{
+		"id": 44,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "A JavaBean used to store employee information in MVC is generally considered part of the:",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "Model" },
+			{ "key": "C", "text": "Controller" },
+			{ "key": "D", "text": "Filter" }
+		],
+		"answer": "B",
+		"reason": "JavaBeans often represent business data and belong to the Model layer."
+	},
+	{
+		"id": 45,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "Which architecture improves code reusability and maintainability?",
+		"options": [
+			{ "key": "A", "text": "MVC" },
+			{ "key": "B", "text": "CGI" },
+			{ "key": "C", "text": "Monolithic JSP" },
+			{ "key": "D", "text": "Static HTML" }
+		],
+		"answer": "A",
+		"reason": "MVC separates responsibilities, making applications easier to maintain."
+	},
+	{
+		"id": 46,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "In MVC, changes in the Model are reflected to the user through which component?",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "ServletContext" },
+			{ "key": "C", "text": "Cookie" },
+			{ "key": "D", "text": "Filter" }
+		],
+		"answer": "A",
+		"reason": "The View displays the current state of the Model to users."
+	},
+	{
+		"id": 47,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which layer should contain validation and business rules?",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "HTML" },
+			{ "key": "D", "text": "JSP Only" }
+		],
+		"answer": "A",
+		"reason": "Business rules and validation logic belong to the Model layer."
+	},
+	{
+		"id": 48,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which component receives user input first in an MVC web application?",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "Controller" },
+			{ "key": "C", "text": "Model" },
+			{ "key": "D", "text": "Database" }
+		],
+		"answer": "B",
+		"reason": "User requests are typically handled first by the Controller."
+	},
+	{
+		"id": 49,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "easy",
+		"question": "Which class or interface performs request forwarding?",
+		"options": [
+			{ "key": "A", "text": "RequestDispatcher" },
+			{ "key": "B", "text": "FilterChain" },
+			{ "key": "C", "text": "ServletContextListener" },
+			{ "key": "D", "text": "HttpSession" }
+		],
+		"answer": "A",
+		"reason": "RequestDispatcher is specifically designed for forwarding and including resources."
+	},
+	{
+		"id": 50,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Which method includes the output of a JSP into the current response?",
+		"options": [
+			{ "key": "A", "text": "forward()" },
+			{ "key": "B", "text": "sendRedirect()" },
+			{ "key": "C", "text": "include()" },
+			{ "key": "D", "text": "append()" }
+		],
+		"answer": "C",
+		"reason": "include() inserts the output of another resource into the current response."
+	},
+	{
+		"id": 51,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "What happens to request attributes after forwarding?",
+		"options": [
+			{ "key": "A", "text": "They are lost" },
+			{ "key": "B", "text": "They remain available" },
+			{ "key": "C", "text": "They move to session scope" },
+			{ "key": "D", "text": "They become cookies" }
+		],
+		"answer": "B",
+		"reason": "The same request object is used during forwarding, preserving attributes."
+	},
+	{
+		"id": 52,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "Which method causes the browser to generate a completely new request?",
+		"options": [
+			{ "key": "A", "text": "forward()" },
+			{ "key": "B", "text": "include()" },
+			{ "key": "C", "text": "sendRedirect()" },
+			{ "key": "D", "text": "dispatch()" }
+		],
+		"answer": "C",
+		"reason": "sendRedirect() instructs the browser to send a new request to another URL."
+	},
+	{
+		"id": 53,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "Which statement about forward() is correct?",
+		"options": [
+			{ "key": "A", "text": "Creates a new request object" },
+			{ "key": "B", "text": "Changes the browser URL" },
+			{ "key": "C", "text": "Executes on the server side" },
+			{ "key": "D", "text": "Requires a new session" }
+		],
+		"answer": "C",
+		"reason": "forward() is an internal server-side operation."
+	},
+	{
+		"id": 54,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Which object provides the forward() method?",
+		"options": [
+			{ "key": "A", "text": "HttpServletRequest" },
+			{ "key": "B", "text": "RequestDispatcher" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "HttpSession" }
+		],
+		"answer": "B",
+		"reason": "The forward() method belongs to the RequestDispatcher interface."
+	},
+	{
+		"id": 55,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "easy",
+		"question": "Which object is normally used to pass data from Servlet to JSP during forwarding?",
+		"options": [
+			{ "key": "A", "text": "Request Object" },
+			{ "key": "B", "text": "Cookie Object" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "FilterChain" }
+		],
+		"answer": "A",
+		"reason": "Request attributes are the most common mechanism for passing data."
+	},
+	{
+		"id": 56,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which statement best describes JSP in MVC?",
+		"options": [
+			{ "key": "A", "text": "JSP acts as Model" },
+			{ "key": "B", "text": "JSP acts as Controller" },
+			{ "key": "C", "text": "JSP acts as View" },
+			{ "key": "D", "text": "JSP acts as Database" }
+		],
+		"answer": "C",
+		"reason": "JSP is responsible for displaying information to users."
+	},
+	{
+		"id": 57,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "What is the major drawback of placing all processing code inside JSP pages?",
+		"options": [
+			{ "key": "A", "text": "Reduced code readability and maintenance" },
+			{ "key": "B", "text": "No HTML support" },
+			{ "key": "C", "text": "No database access" },
+			{ "key": "D", "text": "No request handling" }
+		],
+		"answer": "A",
+		"reason": "Mixing presentation and business logic makes applications difficult to maintain."
+	},
+	{
+		"id": 58,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "A Servlet forwards user details to profile.jsp. Which component generates the final HTML?",
+		"options": [
+			{ "key": "A", "text": "Servlet" },
+			{ "key": "B", "text": "JSP" },
+			{ "key": "C", "text": "Database" },
+			{ "key": "D", "text": "Model" }
+		],
+		"answer": "B",
+		"reason": "The JSP page generates the final presentation returned to the client."
+	},
+	{
+		"id": 59,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which layer should be modified when changing page layout and design?",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "Controller" },
+			{ "key": "C", "text": "View" },
+			{ "key": "D", "text": "DAO" }
+		],
+		"answer": "C",
+		"reason": "UI-related modifications belong to the View layer."
+	},
+	{
+		"id": 60,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "Which MVC component interacts directly with JSP pages most frequently?",
+		"options": [
+			{ "key": "A", "text": "Controller" },
+			{ "key": "B", "text": "Database" },
+			{ "key": "C", "text": "Compiler" },
+			{ "key": "D", "text": "Cookie" }
+		],
+		"answer": "A",
+		"reason": "The Controller forwards requests and data to JSP views."
+	},
+	{
+		"id": 61,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Which method of HttpServletResponse is commonly compared with forward() in exams?",
+		"options": [
+			{ "key": "A", "text": "sendRedirect()" },
+			{ "key": "B", "text": "getWriter()" },
+			{ "key": "C", "text": "setContentType()" },
+			{ "key": "D", "text": "flushBuffer()" }
+		],
+		"answer": "A",
+		"reason": "forward() and sendRedirect() are frequently compared because both transfer control to another resource."
+	},
+	{
+		"id": 62,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "Which statement is true for sendRedirect() but not for forward()?",
+		"options": [
+			{ "key": "A", "text": "Uses RequestDispatcher" },
+			{ "key": "B", "text": "Runs on server only" },
+			{ "key": "C", "text": "Changes browser URL" },
+			{ "key": "D", "text": "Keeps same request object" }
+		],
+		"answer": "C",
+		"reason": "sendRedirect() causes a new browser request and updates the URL."
+	},
+	{
+		"id": 63,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which object is typically used by JSP EL to access forwarded request attributes?",
+		"options": [
+			{ "key": "A", "text": "${attributeName}" },
+			{ "key": "B", "text": "<%=attributeName%>" },
+			{ "key": "C", "text": "@attributeName" },
+			{ "key": "D", "text": "#attributeName" }
+		],
+		"answer": "A",
+		"reason": "Expression Language uses ${attributeName} syntax to access scoped data."
+	},
+	{
+		"id": 64,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "Which component should contain JDBC code according to MVC best practices?",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "Model" },
+			{ "key": "C", "text": "JSP" },
+			{ "key": "D", "text": "Controller UI" }
+		],
+		"answer": "B",
+		"reason": "Database access logic belongs to the Model layer."
+	},
+	{
+		"id": 65,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "What is the primary advantage of request forwarding between Servlet and JSP?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Maintains request data without creating a new request"
+			},
+			{ "key": "B", "text": "Creates multiple sessions automatically" },
+			{ "key": "C", "text": "Eliminates the need for Servlets" },
+			{ "key": "D", "text": "Stores data permanently" }
+		],
+		"answer": "A",
+		"reason": "Forwarding preserves request attributes and avoids an additional client request."
+	},
+	{
+		"id": 66,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which design pattern is implemented when a Servlet controls navigation and JSP handles presentation?",
+		"options": [
+			{ "key": "A", "text": "Singleton" },
+			{ "key": "B", "text": "Factory" },
+			{ "key": "C", "text": "MVC" },
+			{ "key": "D", "text": "Observer" }
+		],
+		"answer": "C",
+		"reason": "This separation of Controller (Servlet) and View (JSP) is the essence of MVC."
+	},
+	{
+		"id": 67,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "Which approach is considered best practice in Java EE web applications?",
+		"options": [
+			{ "key": "A", "text": "All logic in JSP" },
+			{ "key": "B", "text": "All logic in HTML" },
+			{
+				"key": "C",
+				"text": "Servlets for control logic and JSP for presentation"
+			},
+			{ "key": "D", "text": "No use of JSP" }
+		],
+		"answer": "C",
+		"reason": "Separating controller logic from presentation improves maintainability and follows MVC principles."
+	},
+	{
+		"id": 68,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Before calling forward(), data is commonly attached to the request using:",
+		"options": [
+			{ "key": "A", "text": "setAttribute()" },
+			{ "key": "B", "text": "setCookie()" },
+			{ "key": "C", "text": "addHeader()" },
+			{ "key": "D", "text": "setConfig()" }
+		],
+		"answer": "A",
+		"reason": "setAttribute() allows data to be shared with the target JSP during forwarding."
+	},
+	{
+		"id": 69,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "MVC primarily helps developers achieve:",
+		"options": [
+			{ "key": "A", "text": "Tight Coupling" },
+			{ "key": "B", "text": "Separation of Concerns" },
+			{ "key": "C", "text": "No Database Usage" },
+			{ "key": "D", "text": "Static Pages Only" }
+		],
+		"answer": "B",
+		"reason": "MVC separates presentation, control, and business logic into distinct components."
+	},
+	{
+		"id": 70,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "In a well-designed MVC application, where should most Java code reside?",
+		"options": [
+			{ "key": "A", "text": "JSP Pages" },
+			{ "key": "B", "text": "HTML Files" },
+			{ "key": "C", "text": "Servlets and Model Classes" },
+			{ "key": "D", "text": "CSS Files" }
+		],
+		"answer": "C",
+		"reason": "Business and control logic should reside in Servlets and Model classes, leaving JSP focused on presentation."
+	},
+	{
+		"id": 71,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which component typically receives form data submitted from a JSP page?",
+		"options": [
+			{ "key": "A", "text": "Database" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "JavaBean" },
+			{ "key": "D", "text": "JSTL" }
+		],
+		"answer": "B",
+		"reason": "Forms in JSP commonly submit data to a Servlet for processing."
+	},
+	{
+		"id": 72,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "After processing a login request, a Servlet usually forwards the user to:",
+		"options": [
+			{ "key": "A", "text": "A JSP page" },
+			{ "key": "B", "text": "A database table" },
+			{ "key": "C", "text": "A CSS file" },
+			{ "key": "D", "text": "A Java package" }
+		],
+		"answer": "A",
+		"reason": "The Servlet processes the request and forwards the result to a JSP for display."
+	},
+	{
+		"id": 73,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "Which object allows a JSP page to access data stored by a Servlet using request scope?",
+		"options": [
+			{ "key": "A", "text": "ServletConfig" },
+			{ "key": "B", "text": "Request Object" },
+			{ "key": "C", "text": "FilterChain" },
+			{ "key": "D", "text": "Cookie Only" }
+		],
+		"answer": "B",
+		"reason": "Request attributes stored by the Servlet are available through the request object."
+	},
+	{
+		"id": 74,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which JSP technology reduces the need for Java scriptlets in presentation pages?",
+		"options": [
+			{ "key": "A", "text": "ServletConfig" },
+			{ "key": "B", "text": "Expression Language (EL)" },
+			{ "key": "C", "text": "JDBC" },
+			{ "key": "D", "text": "CGI" }
+		],
+		"answer": "B",
+		"reason": "EL provides simple access to data without embedding Java code in JSP."
+	},
+	{
+		"id": 75,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which method is used by a Servlet to read a form field named 'email'?",
+		"options": [
+			{ "key": "A", "text": "getAttribute(\"email\")" },
+			{ "key": "B", "text": "getParameter(\"email\")" },
+			{ "key": "C", "text": "setParameter(\"email\")" },
+			{ "key": "D", "text": "readValue(\"email\")" }
+		],
+		"answer": "B",
+		"reason": "getParameter() retrieves form values submitted by the client."
+	},
+	{
+		"id": 76,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "In MVC, which component is responsible for displaying error messages?",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "Model" },
+			{ "key": "C", "text": "Controller Only" },
+			{ "key": "D", "text": "Database" }
+		],
+		"answer": "A",
+		"reason": "The View presents information, including error messages, to users."
+	},
+	{
+		"id": 77,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which MVC component usually validates business rules before updating data?",
+		"options": [
+			{ "key": "A", "text": "View" },
+			{ "key": "B", "text": "Model" },
+			{ "key": "C", "text": "HTML Page" },
+			{ "key": "D", "text": "Browser" }
+		],
+		"answer": "B",
+		"reason": "Business rules and validations belong in the Model layer."
+	},
+	{
+		"id": 78,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "A Data Access Object (DAO) used to communicate with a database generally belongs to:",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "Controller" },
+			{ "key": "D", "text": "JSP" }
+		],
+		"answer": "A",
+		"reason": "DAO classes handle data access and are considered part of the Model layer."
+	},
+	{
+		"id": 79,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which MVC layer should remain independent of presentation details?",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "HTML" },
+			{ "key": "D", "text": "JSP Tag" }
+		],
+		"answer": "A",
+		"reason": "The Model should not depend on UI or presentation technologies."
+	},
+	{
+		"id": 80,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "Which layer acts as an intermediary between users and business logic?",
+		"options": [
+			{ "key": "A", "text": "Controller" },
+			{ "key": "B", "text": "Database" },
+			{ "key": "C", "text": "JSP" },
+			{ "key": "D", "text": "Bean" }
+		],
+		"answer": "A",
+		"reason": "The Controller receives requests and coordinates between View and Model."
+	},
+	{
+		"id": 81,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "easy",
+		"question": "Which object method is used to obtain a RequestDispatcher for '/home.jsp'?",
+		"options": [
+			{ "key": "A", "text": "request.getRequestDispatcher(\"/home.jsp\")" },
+			{ "key": "B", "text": "request.getForwarder(\"/home.jsp\")" },
+			{ "key": "C", "text": "request.dispatch(\"/home.jsp\")" },
+			{ "key": "D", "text": "request.include(\"/home.jsp\")" }
+		],
+		"answer": "A",
+		"reason": "getRequestDispatcher() returns a dispatcher for forwarding or including resources."
+	},
+	{
+		"id": 82,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "What is preserved during request forwarding?",
+		"options": [
+			{ "key": "A", "text": "Request Attributes" },
+			{ "key": "B", "text": "Browser URL Change" },
+			{ "key": "C", "text": "New Request Object" },
+			{ "key": "D", "text": "New Session Creation" }
+		],
+		"answer": "A",
+		"reason": "The same request object continues to be used during forwarding."
+	},
+	{
+		"id": 83,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Which operation is generally faster?",
+		"options": [
+			{ "key": "A", "text": "sendRedirect()" },
+			{ "key": "B", "text": "forward()" },
+			{ "key": "C", "text": "Both are always equal" },
+			{ "key": "D", "text": "Neither" }
+		],
+		"answer": "B",
+		"reason": "forward() avoids an extra client-server round trip and is generally faster."
+	},
+	{
+		"id": 84,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "Which statement about sendRedirect() is correct?",
+		"options": [
+			{ "key": "A", "text": "Uses the same request object" },
+			{ "key": "B", "text": "Works only with JSP" },
+			{ "key": "C", "text": "Generates a new client request" },
+			{ "key": "D", "text": "Requires RequestDispatcher" }
+		],
+		"answer": "C",
+		"reason": "sendRedirect() instructs the browser to create a new request."
+	},
+	{
+		"id": 85,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "Which method signature is correct?",
+		"options": [
+			{ "key": "A", "text": "forward(request, response)" },
+			{ "key": "B", "text": "forward()" },
+			{ "key": "C", "text": "forward(url)" },
+			{ "key": "D", "text": "forward(page, request)" }
+		],
+		"answer": "A",
+		"reason": "RequestDispatcher.forward() accepts ServletRequest and ServletResponse objects."
+	},
+	{
+		"id": 86,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "easy",
+		"question": "Which component should contain HTML markup in an MVC application?",
+		"options": [
+			{ "key": "A", "text": "Servlet" },
+			{ "key": "B", "text": "JSP" },
+			{ "key": "C", "text": "DAO" },
+			{ "key": "D", "text": "Model Class" }
+		],
+		"answer": "B",
+		"reason": "JSP pages are intended for presentation and UI markup."
+	},
+	{
+		"id": 87,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which scope is suitable for storing logged-in user information across multiple requests?",
+		"options": [
+			{ "key": "A", "text": "Page Scope" },
+			{ "key": "B", "text": "Request Scope" },
+			{ "key": "C", "text": "Session Scope" },
+			{ "key": "D", "text": "Local Scope" }
+		],
+		"answer": "C",
+		"reason": "Session scope persists across multiple requests from the same user."
+	},
+	{
+		"id": 88,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which object method is used by a Servlet to place data into request scope?",
+		"options": [
+			{ "key": "A", "text": "request.setAttribute()" },
+			{ "key": "B", "text": "request.setParameter()" },
+			{ "key": "C", "text": "request.setValue()" },
+			{ "key": "D", "text": "request.addParameter()" }
+		],
+		"answer": "A",
+		"reason": "setAttribute() stores objects in request scope."
+	},
+	{
+		"id": 89,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "Which JSP EL expression accesses a request attribute named 'student'?",
+		"options": [
+			{ "key": "A", "text": "${student}" },
+			{ "key": "B", "text": "<%=student%>" },
+			{ "key": "C", "text": "@student" },
+			{ "key": "D", "text": "#{student}" }
+		],
+		"answer": "A",
+		"reason": "Expression Language uses ${attributeName} syntax."
+	},
+	{
+		"id": 90,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "hard",
+		"question": "What is the primary benefit of using JSP with Servlets?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Combines presentation and business logic in one file"
+			},
+			{
+				"key": "B",
+				"text": "Separates responsibilities between UI and processing"
+			},
+			{ "key": "C", "text": "Removes the need for Java classes" },
+			{ "key": "D", "text": "Eliminates MVC architecture" }
+		],
+		"answer": "B",
+		"reason": "JSP handles presentation while Servlets handle processing."
+	},
+	{
+		"id": 91,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "easy",
+		"question": "Which MVC component usually contains JavaBeans?",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "Controller" },
+			{ "key": "D", "text": "Filter" }
+		],
+		"answer": "A",
+		"reason": "JavaBeans are often used to represent application data within the Model."
+	},
+	{
+		"id": 92,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which MVC component communicates with both the Model and the View?",
+		"options": [
+			{ "key": "A", "text": "Controller" },
+			{ "key": "B", "text": "Database" },
+			{ "key": "C", "text": "HTML" },
+			{ "key": "D", "text": "JSTL" }
+		],
+		"answer": "A",
+		"reason": "The Controller coordinates interactions between Model and View."
+	},
+	{
+		"id": 93,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "medium",
+		"question": "Which MVC component should contain SQL queries?",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "Controller" },
+			{ "key": "D", "text": "JSP" }
+		],
+		"answer": "A",
+		"reason": "Database access belongs to the Model layer."
+	},
+	{
+		"id": 94,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "Which design goal is most strongly associated with MVC?",
+		"options": [
+			{ "key": "A", "text": "Code Duplication" },
+			{ "key": "B", "text": "Separation of Concerns" },
+			{ "key": "C", "text": "Single File Design" },
+			{ "key": "D", "text": "No Classes" }
+		],
+		"answer": "B",
+		"reason": "MVC separates application responsibilities into distinct layers."
+	},
+	{
+		"id": 95,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "easy",
+		"question": "Request forwarding is performed using which interface?",
+		"options": [
+			{ "key": "A", "text": "RequestDispatcher" },
+			{ "key": "B", "text": "HttpSession" },
+			{ "key": "C", "text": "Cookie" },
+			{ "key": "D", "text": "ServletConfig" }
+		],
+		"answer": "A",
+		"reason": "RequestDispatcher provides forward() and include() methods."
+	},
+	{
+		"id": 96,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "medium",
+		"question": "Which method keeps the browser URL unchanged?",
+		"options": [
+			{ "key": "A", "text": "sendRedirect()" },
+			{ "key": "B", "text": "forward()" },
+			{ "key": "C", "text": "response.sendError()" },
+			{ "key": "D", "text": "include()" }
+		],
+		"answer": "B",
+		"reason": "forward() executes internally on the server without changing the browser URL."
+	},
+	{
+		"id": 97,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "Which object creates a new request during redirection?",
+		"options": [
+			{ "key": "A", "text": "Servlet Container" },
+			{ "key": "B", "text": "Browser" },
+			{ "key": "C", "text": "Database" },
+			{ "key": "D", "text": "RequestDispatcher" }
+		],
+		"answer": "B",
+		"reason": "The browser receives the redirect response and initiates a new request."
+	},
+	{
+		"id": 98,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Forwarding Requests",
+		"difficulty": "hard",
+		"question": "What is lost when using sendRedirect() instead of forward()?",
+		"options": [
+			{ "key": "A", "text": "Request Attributes" },
+			{ "key": "B", "text": "ServletContext" },
+			{ "key": "C", "text": "JSP Support" },
+			{ "key": "D", "text": "HTTP Protocol" }
+		],
+		"answer": "A",
+		"reason": "A redirect creates a new request, so previous request attributes are not preserved."
+	},
+	{
+		"id": 99,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Combining JSP and Servlets",
+		"difficulty": "medium",
+		"question": "Which technology is commonly used in JSP to simplify displaying collections and conditions?",
+		"options": [
+			{ "key": "A", "text": "JSTL" },
+			{ "key": "B", "text": "JDBC" },
+			{ "key": "C", "text": "CGI" },
+			{ "key": "D", "text": "ServletConfig" }
+		],
+		"answer": "A",
+		"reason": "JSTL provides tags for loops, conditions, and other common presentation tasks."
+	},
+	{
+		"id": 100,
+		"subject": "Advanced Java with Web Application",
+		"topic": "MVC Architecture",
+		"difficulty": "hard",
+		"question": "In a Java EE MVC application, which flow is correct?",
+		"options": [
+			{ "key": "A", "text": "Browser → JSP → Model → Database" },
+			{ "key": "B", "text": "Browser → Servlet → Model → JSP → Browser" },
+			{ "key": "C", "text": "Browser → Database → JSP → Servlet" },
+			{ "key": "D", "text": "Servlet → Browser → Model → JSP" }
+		],
+		"answer": "B",
+		"reason": "The Servlet acts as Controller, communicates with the Model, forwards to the JSP View, and the response is sent back to the browser."
+	}
+]

@@ -1,0 +1,1508 @@
+[
+	{
+		"id": 1,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Introduction to Servlets",
+		"difficulty": "easy",
+		"question": "What is a Servlet?",
+		"options": [
+			{ "key": "A", "text": "A client-side Java program" },
+			{
+				"key": "B",
+				"text": "A server-side Java component used to handle requests"
+			},
+			{ "key": "C", "text": "A database management tool" },
+			{ "key": "D", "text": "A web browser plugin" }
+		],
+		"answer": "B",
+		"reason": "A Servlet is a server-side Java technology used to process client requests and generate dynamic web content."
+	},
+	{
+		"id": 2,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Introduction to Servlets",
+		"difficulty": "easy",
+		"question": "Which package contains the GenericServlet class?",
+		"options": [
+			{ "key": "A", "text": "java.servlet" },
+			{ "key": "B", "text": "javax.servlet" },
+			{ "key": "C", "text": "javax.servlet.http" },
+			{ "key": "D", "text": "java.http" }
+		],
+		"answer": "B",
+		"reason": "GenericServlet belongs to the javax.servlet package and provides a protocol-independent servlet implementation."
+	},
+	{
+		"id": 3,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Life Cycle",
+		"difficulty": "medium",
+		"question": "Which method is called only once during the servlet life cycle?",
+		"options": [
+			{ "key": "A", "text": "service()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "init()" },
+			{ "key": "D", "text": "doGet()" }
+		],
+		"answer": "C",
+		"reason": "The init() method is called only once when the servlet is first loaded into memory."
+	},
+	{
+		"id": 4,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Life Cycle",
+		"difficulty": "medium",
+		"question": "Which method handles incoming client requests in a servlet?",
+		"options": [
+			{ "key": "A", "text": "service()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "init()" },
+			{ "key": "D", "text": "start()" }
+		],
+		"answer": "A",
+		"reason": "The service() method receives client requests and dispatches them to appropriate methods such as doGet() and doPost()."
+	},
+	{
+		"id": 5,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Life Cycle",
+		"difficulty": "easy",
+		"question": "Which method is invoked before a servlet is removed from memory?",
+		"options": [
+			{ "key": "A", "text": "service()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "finalize()" },
+			{ "key": "D", "text": "close()" }
+		],
+		"answer": "B",
+		"reason": "The destroy() method allows the servlet to release resources before being unloaded."
+	},
+	{
+		"id": 6,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "easy",
+		"question": "Which object is used to read client request data?",
+		"options": [
+			{ "key": "A", "text": "ServletContext" },
+			{ "key": "B", "text": "HttpServletResponse" },
+			{ "key": "C", "text": "HttpServletRequest" },
+			{ "key": "D", "text": "Cookie" }
+		],
+		"answer": "C",
+		"reason": "HttpServletRequest contains all information sent by the client to the server."
+	},
+	{
+		"id": 7,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "easy",
+		"question": "Which object is used to send output back to the client?",
+		"options": [
+			{ "key": "A", "text": "HttpServletResponse" },
+			{ "key": "B", "text": "ServletConfig" },
+			{ "key": "C", "text": "ServletContext" },
+			{ "key": "D", "text": "RequestDispatcher" }
+		],
+		"answer": "A",
+		"reason": "HttpServletResponse is used to generate and send the server response to the client."
+	},
+	{
+		"id": 8,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "medium",
+		"question": "Which method retrieves a request parameter value?",
+		"options": [
+			{ "key": "A", "text": "getParameter()" },
+			{ "key": "B", "text": "getAttribute()" },
+			{ "key": "C", "text": "setParameter()" },
+			{ "key": "D", "text": "readParameter()" }
+		],
+		"answer": "A",
+		"reason": "getParameter() retrieves form and query-string values sent by the client."
+	},
+	{
+		"id": 9,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "medium",
+		"question": "Which HTTP method is typically used to submit form data securely?",
+		"options": [
+			{ "key": "A", "text": "GET" },
+			{ "key": "B", "text": "POST" },
+			{ "key": "C", "text": "TRACE" },
+			{ "key": "D", "text": "HEAD" }
+		],
+		"answer": "B",
+		"reason": "POST sends data in the request body rather than exposing it in the URL."
+	},
+	{
+		"id": 10,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "easy",
+		"question": "What is the name of the servlet deployment descriptor file?",
+		"options": [
+			{ "key": "A", "text": "server.xml" },
+			{ "key": "B", "text": "context.xml" },
+			{ "key": "C", "text": "web.xml" },
+			{ "key": "D", "text": "servlet.xml" }
+		],
+		"answer": "C",
+		"reason": "web.xml is the deployment descriptor used to configure servlets and web applications."
+	},
+	{
+		"id": 11,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "medium",
+		"question": "Which element maps a URL pattern to a servlet in web.xml?",
+		"options": [
+			{ "key": "A", "text": "<servlet>" },
+			{ "key": "B", "text": "<servlet-mapping>" },
+			{ "key": "C", "text": "<context-param>" },
+			{ "key": "D", "text": "<listener>" }
+		],
+		"answer": "B",
+		"reason": "The <servlet-mapping> element associates a URL pattern with a servlet."
+	},
+	{
+		"id": 12,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "medium",
+		"question": "Which file is placed inside the WEB-INF folder?",
+		"options": [
+			{ "key": "A", "text": "index.jsp" },
+			{ "key": "B", "text": "web.xml" },
+			{ "key": "C", "text": "login.html" },
+			{ "key": "D", "text": "style.css" }
+		],
+		"answer": "B",
+		"reason": "The deployment descriptor web.xml resides inside the WEB-INF directory."
+	},
+	{
+		"id": 13,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "medium",
+		"question": "Which object provides application-wide initialization parameters?",
+		"options": [
+			{ "key": "A", "text": "ServletConfig" },
+			{ "key": "B", "text": "ServletContext" },
+			{ "key": "C", "text": "HttpSession" },
+			{ "key": "D", "text": "Cookie" }
+		],
+		"answer": "B",
+		"reason": "ServletContext stores information and parameters shared across the entire application."
+	},
+	{
+		"id": 14,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "medium",
+		"question": "Which object contains initialization parameters specific to a servlet?",
+		"options": [
+			{ "key": "A", "text": "ServletContext" },
+			{ "key": "B", "text": "HttpServletRequest" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "HttpSession" }
+		],
+		"answer": "C",
+		"reason": "ServletConfig stores configuration information for a particular servlet."
+	},
+	{
+		"id": 15,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "easy",
+		"question": "Which method obtains the ServletContext object?",
+		"options": [
+			{ "key": "A", "text": "getServletContext()" },
+			{ "key": "B", "text": "getContext()" },
+			{ "key": "C", "text": "getConfig()" },
+			{ "key": "D", "text": "getSession()" }
+		],
+		"answer": "A",
+		"reason": "getServletContext() returns the ServletContext associated with the web application."
+	},
+	{
+		"id": 16,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "easy",
+		"question": "Which object is used to maintain user-specific session data?",
+		"options": [
+			{ "key": "A", "text": "Cookie" },
+			{ "key": "B", "text": "HttpSession" },
+			{ "key": "C", "text": "ServletContext" },
+			{ "key": "D", "text": "ServletConfig" }
+		],
+		"answer": "B",
+		"reason": "HttpSession stores information specific to a user's session."
+	},
+	{
+		"id": 17,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "medium",
+		"question": "Which method creates a session if one does not already exist?",
+		"options": [
+			{ "key": "A", "text": "getSession()" },
+			{ "key": "B", "text": "createSession()" },
+			{ "key": "C", "text": "newSession()" },
+			{ "key": "D", "text": "setSession()" }
+		],
+		"answer": "A",
+		"reason": "getSession() returns the current session or creates a new one if necessary."
+	},
+	{
+		"id": 18,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "easy",
+		"question": "Which class is used to create cookies in servlets?",
+		"options": [
+			{ "key": "A", "text": "Cookie" },
+			{ "key": "B", "text": "SessionCookie" },
+			{ "key": "C", "text": "HttpCookie" },
+			{ "key": "D", "text": "ServletCookie" }
+		],
+		"answer": "A",
+		"reason": "The Cookie class represents HTTP cookies used for client-side state management."
+	},
+	{
+		"id": 19,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "medium",
+		"question": "Which method adds a cookie to the response?",
+		"options": [
+			{ "key": "A", "text": "setCookie()" },
+			{ "key": "B", "text": "addCookie()" },
+			{ "key": "C", "text": "createCookie()" },
+			{ "key": "D", "text": "putCookie()" }
+		],
+		"answer": "B",
+		"reason": "addCookie() is used with HttpServletResponse to send a cookie to the client."
+	},
+	{
+		"id": 20,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "medium",
+		"question": "Which method retrieves all cookies sent by the client?",
+		"options": [
+			{ "key": "A", "text": "getCookies()" },
+			{ "key": "B", "text": "readCookies()" },
+			{ "key": "C", "text": "findCookies()" },
+			{ "key": "D", "text": "loadCookies()" }
+		],
+		"answer": "A",
+		"reason": "getCookies() returns an array of Cookie objects sent with the request."
+	},
+	{
+		"id": 21,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Chaining",
+		"difficulty": "medium",
+		"question": "Which interface is commonly used to forward a request to another servlet?",
+		"options": [
+			{ "key": "A", "text": "HttpSession" },
+			{ "key": "B", "text": "RequestDispatcher" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "Cookie" }
+		],
+		"answer": "B",
+		"reason": "RequestDispatcher enables forwarding requests or including resources."
+	},
+	{
+		"id": 22,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Chaining",
+		"difficulty": "medium",
+		"question": "Which method forwards a request to another resource?",
+		"options": [
+			{ "key": "A", "text": "include()" },
+			{ "key": "B", "text": "redirect()" },
+			{ "key": "C", "text": "forward()" },
+			{ "key": "D", "text": "send()" }
+		],
+		"answer": "C",
+		"reason": "forward() transfers control to another resource on the server."
+	},
+	{
+		"id": 23,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "easy",
+		"question": "What is the main purpose of a servlet filter?",
+		"options": [
+			{ "key": "A", "text": "Database connectivity" },
+			{
+				"key": "B",
+				"text": "Preprocess and postprocess requests and responses"
+			},
+			{ "key": "C", "text": "Create JSP pages" },
+			{ "key": "D", "text": "Compile servlets" }
+		],
+		"answer": "B",
+		"reason": "Filters intercept requests and responses for tasks such as authentication, logging, and validation."
+	},
+	{
+		"id": 24,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "medium",
+		"question": "Which interface must be implemented to create a filter?",
+		"options": [
+			{ "key": "A", "text": "Servlet" },
+			{ "key": "B", "text": "HttpFilter" },
+			{ "key": "C", "text": "Filter" },
+			{ "key": "D", "text": "FilterChain" }
+		],
+		"answer": "C",
+		"reason": "The javax.servlet.Filter interface is implemented to create servlet filters."
+	},
+	{
+		"id": 25,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "medium",
+		"question": "Which method is responsible for processing requests in a filter?",
+		"options": [
+			{ "key": "A", "text": "service()" },
+			{ "key": "B", "text": "doFilter()" },
+			{ "key": "C", "text": "filterRequest()" },
+			{ "key": "D", "text": "execute()" }
+		],
+		"answer": "B",
+		"reason": "doFilter() is the core method that intercepts and processes requests and responses."
+	},
+	{
+		"id": 26,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "medium",
+		"question": "Which annotation is commonly used to enable multipart file upload support?",
+		"options": [
+			{ "key": "A", "text": "@MultipartConfig" },
+			{ "key": "B", "text": "@FileUpload" },
+			{ "key": "C", "text": "@UploadConfig" },
+			{ "key": "D", "text": "@Part" }
+		],
+		"answer": "A",
+		"reason": "@MultipartConfig enables processing of multipart/form-data requests."
+	},
+	{
+		"id": 27,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "medium",
+		"question": "Which method is used to obtain an uploaded file part from a request?",
+		"options": [
+			{ "key": "A", "text": "getPart()" },
+			{ "key": "B", "text": "getFile()" },
+			{ "key": "C", "text": "readPart()" },
+			{ "key": "D", "text": "uploadPart()" }
+		],
+		"answer": "A",
+		"reason": "getPart() retrieves a specific uploaded file from a multipart request."
+	},
+	{
+		"id": 28,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Download",
+		"difficulty": "medium",
+		"question": "Which response header is commonly set to trigger file download?",
+		"options": [
+			{ "key": "A", "text": "Content-Disposition" },
+			{ "key": "B", "text": "Content-Type" },
+			{ "key": "C", "text": "Location" },
+			{ "key": "D", "text": "Host" }
+		],
+		"answer": "A",
+		"reason": "Content-Disposition with attachment instructs the browser to download the file."
+	},
+	{
+		"id": 29,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Download",
+		"difficulty": "easy",
+		"question": "Which stream is commonly used to send binary files to a client?",
+		"options": [
+			{ "key": "A", "text": "PrintWriter" },
+			{ "key": "B", "text": "BufferedReader" },
+			{ "key": "C", "text": "ServletOutputStream" },
+			{ "key": "D", "text": "FileReader" }
+		],
+		"answer": "C",
+		"reason": "ServletOutputStream is designed for sending binary data such as images and files."
+	},
+	{
+		"id": 30,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "hard",
+		"question": "Which session tracking technique stores session information directly in the URL?",
+		"options": [
+			{ "key": "A", "text": "Cookies" },
+			{ "key": "B", "text": "Hidden Form Fields" },
+			{ "key": "C", "text": "HttpSession" },
+			{ "key": "D", "text": "URL Rewriting" }
+		],
+		"answer": "D",
+		"reason": "URL Rewriting appends session identifiers to URLs, allowing session tracking when cookies are disabled."
+	},
+	{
+		"id": 31,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Introduction to Servlets",
+		"difficulty": "easy",
+		"question": "Which class is commonly extended to create an HTTP servlet?",
+		"options": [
+			{ "key": "A", "text": "GenericServlet" },
+			{ "key": "B", "text": "HttpServlet" },
+			{ "key": "C", "text": "ServletContext" },
+			{ "key": "D", "text": "ServletConfig" }
+		],
+		"answer": "B",
+		"reason": "HttpServlet provides HTTP-specific methods such as doGet() and doPost(), making it the preferred superclass for web servlets."
+	},
+	{
+		"id": 32,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Introduction to Servlets",
+		"difficulty": "medium",
+		"question": "Which interface must all servlets ultimately implement?",
+		"options": [
+			{ "key": "A", "text": "HttpServlet" },
+			{ "key": "B", "text": "Filter" },
+			{ "key": "C", "text": "Servlet" },
+			{ "key": "D", "text": "Runnable" }
+		],
+		"answer": "C",
+		"reason": "The Servlet interface defines the core lifecycle methods that every servlet must support."
+	},
+	{
+		"id": 33,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Life Cycle",
+		"difficulty": "medium",
+		"question": "How many times is the init() method normally called during a servlet's lifecycle?",
+		"options": [
+			{ "key": "A", "text": "Once per request" },
+			{ "key": "B", "text": "Once per session" },
+			{ "key": "C", "text": "Only once" },
+			{ "key": "D", "text": "Twice" }
+		],
+		"answer": "C",
+		"reason": "The servlet container calls init() only once when the servlet is first initialized."
+	},
+	{
+		"id": 34,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Life Cycle",
+		"difficulty": "hard",
+		"question": "Which lifecycle method receives ServletConfig as a parameter?",
+		"options": [
+			{ "key": "A", "text": "service()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "init(ServletConfig config)" },
+			{ "key": "D", "text": "doGet()" }
+		],
+		"answer": "C",
+		"reason": "The init(ServletConfig config) method receives servlet configuration information from the container."
+	},
+	{
+		"id": 35,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "easy",
+		"question": "Which method is used to obtain the HTTP request method type?",
+		"options": [
+			{ "key": "A", "text": "getMethod()" },
+			{ "key": "B", "text": "requestType()" },
+			{ "key": "C", "text": "fetchMethod()" },
+			{ "key": "D", "text": "getRequestType()" }
+		],
+		"answer": "A",
+		"reason": "getMethod() returns the HTTP method such as GET, POST, PUT, or DELETE."
+	},
+	{
+		"id": 36,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "medium",
+		"question": "Which method sends a redirect response to the client?",
+		"options": [
+			{ "key": "A", "text": "forward()" },
+			{ "key": "B", "text": "sendRedirect()" },
+			{ "key": "C", "text": "redirectTo()" },
+			{ "key": "D", "text": "move()" }
+		],
+		"answer": "B",
+		"reason": "sendRedirect() instructs the browser to make a new request to a different URL."
+	},
+	{
+		"id": 37,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "medium",
+		"question": "Which method returns the value of a request header?",
+		"options": [
+			{ "key": "A", "text": "getHeader()" },
+			{ "key": "B", "text": "getParameter()" },
+			{ "key": "C", "text": "getAttribute()" },
+			{ "key": "D", "text": "readHeader()" }
+		],
+		"answer": "A",
+		"reason": "getHeader() retrieves the value of a specified HTTP request header."
+	},
+	{
+		"id": 38,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "medium",
+		"question": "Which element is used to define servlet initialization parameters in web.xml?",
+		"options": [
+			{ "key": "A", "text": "<init-param>" },
+			{ "key": "B", "text": "<context-param>" },
+			{ "key": "C", "text": "<param>" },
+			{ "key": "D", "text": "<servlet-param>" }
+		],
+		"answer": "A",
+		"reason": "The <init-param> element specifies initialization parameters for a specific servlet."
+	},
+	{
+		"id": 39,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "easy",
+		"question": "Which XML element defines a servlet in web.xml?",
+		"options": [
+			{ "key": "A", "text": "<servlet>" },
+			{ "key": "B", "text": "<service>" },
+			{ "key": "C", "text": "<web-app>" },
+			{ "key": "D", "text": "<mapping>" }
+		],
+		"answer": "A",
+		"reason": "The <servlet> element contains information about a servlet including its name and class."
+	},
+	{
+		"id": 40,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "hard",
+		"question": "Which element defines application-wide parameters available through ServletContext?",
+		"options": [
+			{ "key": "A", "text": "<servlet>" },
+			{ "key": "B", "text": "<context-param>" },
+			{ "key": "C", "text": "<init-param>" },
+			{ "key": "D", "text": "<filter>" }
+		],
+		"answer": "B",
+		"reason": "Context parameters are accessible throughout the web application using ServletContext."
+	},
+	{
+		"id": 41,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "medium",
+		"question": "Which method retrieves an initialization parameter from ServletConfig?",
+		"options": [
+			{ "key": "A", "text": "getInitParameter()" },
+			{ "key": "B", "text": "getParameter()" },
+			{ "key": "C", "text": "readParameter()" },
+			{ "key": "D", "text": "fetchInit()" }
+		],
+		"answer": "A",
+		"reason": "getInitParameter() returns the value of a servlet initialization parameter."
+	},
+	{
+		"id": 42,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "medium",
+		"question": "Which method is used to store an attribute in ServletContext?",
+		"options": [
+			{ "key": "A", "text": "putAttribute()" },
+			{ "key": "B", "text": "setAttribute()" },
+			{ "key": "C", "text": "addAttribute()" },
+			{ "key": "D", "text": "storeAttribute()" }
+		],
+		"answer": "B",
+		"reason": "setAttribute() stores an object as a shared application-level attribute."
+	},
+	{
+		"id": 43,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "easy",
+		"question": "Which object is shared among all servlets in a web application?",
+		"options": [
+			{ "key": "A", "text": "ServletConfig" },
+			{ "key": "B", "text": "HttpSession" },
+			{ "key": "C", "text": "ServletContext" },
+			{ "key": "D", "text": "Cookie" }
+		],
+		"answer": "C",
+		"reason": "ServletContext is created once per application and shared among all servlets."
+	},
+	{
+		"id": 44,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "medium",
+		"question": "Which method is used to invalidate a session?",
+		"options": [
+			{ "key": "A", "text": "remove()" },
+			{ "key": "B", "text": "invalidate()" },
+			{ "key": "C", "text": "destroy()" },
+			{ "key": "D", "text": "endSession()" }
+		],
+		"answer": "B",
+		"reason": "invalidate() terminates the current session and removes associated data."
+	},
+	{
+		"id": 45,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "easy",
+		"question": "Which method stores an object in an HttpSession?",
+		"options": [
+			{ "key": "A", "text": "setAttribute()" },
+			{ "key": "B", "text": "putValue()" },
+			{ "key": "C", "text": "addObject()" },
+			{ "key": "D", "text": "storeData()" }
+		],
+		"answer": "A",
+		"reason": "setAttribute() is used to store session data under a specific attribute name."
+	},
+	{
+		"id": 46,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "medium",
+		"question": "Which method retrieves an object stored in a session?",
+		"options": [
+			{ "key": "A", "text": "getObject()" },
+			{ "key": "B", "text": "readAttribute()" },
+			{ "key": "C", "text": "getAttribute()" },
+			{ "key": "D", "text": "fetchValue()" }
+		],
+		"answer": "C",
+		"reason": "getAttribute() returns an object stored in the session using its attribute name."
+	},
+	{
+		"id": 47,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "easy",
+		"question": "Where are cookies stored?",
+		"options": [
+			{ "key": "A", "text": "Server memory" },
+			{ "key": "B", "text": "Database only" },
+			{ "key": "C", "text": "Client browser" },
+			{ "key": "D", "text": "ServletContext" }
+		],
+		"answer": "C",
+		"reason": "Cookies are small pieces of data stored on the client side, usually within the browser."
+	},
+	{
+		"id": 48,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "medium",
+		"question": "Which method sets the maximum age of a cookie?",
+		"options": [
+			{ "key": "A", "text": "setMaxAge()" },
+			{ "key": "B", "text": "setAge()" },
+			{ "key": "C", "text": "setExpiry()" },
+			{ "key": "D", "text": "setDuration()" }
+		],
+		"answer": "A",
+		"reason": "setMaxAge() specifies how long a cookie should remain valid."
+	},
+	{
+		"id": 49,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Chaining",
+		"difficulty": "medium",
+		"question": "Which method includes the output of another resource in the current response?",
+		"options": [
+			{ "key": "A", "text": "forward()" },
+			{ "key": "B", "text": "include()" },
+			{ "key": "C", "text": "sendRedirect()" },
+			{ "key": "D", "text": "dispatch()" }
+		],
+		"answer": "B",
+		"reason": "include() inserts the content of another resource into the current response."
+	},
+	{
+		"id": 50,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Chaining",
+		"difficulty": "hard",
+		"question": "Which object is obtained using request.getRequestDispatcher()?",
+		"options": [
+			{ "key": "A", "text": "ServletContext" },
+			{ "key": "B", "text": "FilterChain" },
+			{ "key": "C", "text": "RequestDispatcher" },
+			{ "key": "D", "text": "HttpSession" }
+		],
+		"answer": "C",
+		"reason": "getRequestDispatcher() returns a RequestDispatcher object used for forwarding or including resources."
+	},
+	{
+		"id": 51,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "easy",
+		"question": "Which object is used to continue filter processing?",
+		"options": [
+			{ "key": "A", "text": "ServletContext" },
+			{ "key": "B", "text": "FilterChain" },
+			{ "key": "C", "text": "RequestDispatcher" },
+			{ "key": "D", "text": "Cookie" }
+		],
+		"answer": "B",
+		"reason": "FilterChain allows the request to proceed to the next filter or target resource."
+	},
+	{
+		"id": 52,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "medium",
+		"question": "Which method of FilterChain passes control to the next resource?",
+		"options": [
+			{ "key": "A", "text": "continueFilter()" },
+			{ "key": "B", "text": "doFilter()" },
+			{ "key": "C", "text": "next()" },
+			{ "key": "D", "text": "forward()" }
+		],
+		"answer": "B",
+		"reason": "Calling chain.doFilter() transfers processing to the next filter or servlet."
+	},
+	{
+		"id": 53,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "hard",
+		"question": "Which filter method is called when the filter is first initialized?",
+		"options": [
+			{ "key": "A", "text": "service()" },
+			{ "key": "B", "text": "start()" },
+			{ "key": "C", "text": "init()" },
+			{ "key": "D", "text": "begin()" }
+		],
+		"answer": "C",
+		"reason": "The filter lifecycle includes init(), doFilter(), and destroy() methods."
+	},
+	{
+		"id": 54,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "medium",
+		"question": "Which interface represents an uploaded file in Servlet 3.x?",
+		"options": [
+			{ "key": "A", "text": "File" },
+			{ "key": "B", "text": "Part" },
+			{ "key": "C", "text": "UploadPart" },
+			{ "key": "D", "text": "MultipartFile" }
+		],
+		"answer": "B",
+		"reason": "The Part interface represents a file or form field in a multipart request."
+	},
+	{
+		"id": 55,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "hard",
+		"question": "Which content type is generally used when uploading files through HTML forms?",
+		"options": [
+			{ "key": "A", "text": "text/plain" },
+			{ "key": "B", "text": "application/json" },
+			{ "key": "C", "text": "multipart/form-data" },
+			{ "key": "D", "text": "application/xml" }
+		],
+		"answer": "C",
+		"reason": "multipart/form-data is required to transmit file data along with form fields."
+	},
+	{
+		"id": 56,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "medium",
+		"question": "Which method of Part writes the uploaded file to disk?",
+		"options": [
+			{ "key": "A", "text": "save()" },
+			{ "key": "B", "text": "write()" },
+			{ "key": "C", "text": "store()" },
+			{ "key": "D", "text": "copy()" }
+		],
+		"answer": "B",
+		"reason": "The write() method saves uploaded file content to a specified location."
+	},
+	{
+		"id": 57,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Download",
+		"difficulty": "medium",
+		"question": "Which response method returns a ServletOutputStream?",
+		"options": [
+			{ "key": "A", "text": "getWriter()" },
+			{ "key": "B", "text": "getOutput()" },
+			{ "key": "C", "text": "getServletOutputStream()" },
+			{ "key": "D", "text": "getOutputStream()" }
+		],
+		"answer": "D",
+		"reason": "HttpServletResponse.getOutputStream() returns a ServletOutputStream for binary output."
+	},
+	{
+		"id": 58,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Download",
+		"difficulty": "medium",
+		"question": "Why is Content-Type set during file download?",
+		"options": [
+			{ "key": "A", "text": "To create a session" },
+			{ "key": "B", "text": "To identify the file MIME type" },
+			{ "key": "C", "text": "To authenticate users" },
+			{ "key": "D", "text": "To upload files" }
+		],
+		"answer": "B",
+		"reason": "Content-Type informs the browser about the type of file being transferred."
+	},
+	{
+		"id": 59,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "hard",
+		"question": "Which session tracking mechanism is generally considered the most secure among the following?",
+		"options": [
+			{ "key": "A", "text": "URL Rewriting" },
+			{ "key": "B", "text": "Cookies" },
+			{ "key": "C", "text": "HttpSession with Session ID" },
+			{ "key": "D", "text": "Hidden Form Fields" }
+		],
+		"answer": "C",
+		"reason": "HttpSession manages server-side session data while exposing only a session identifier to the client."
+	},
+	{
+		"id": 60,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "hard",
+		"question": "Which annotation can be used to declare a servlet without web.xml configuration?",
+		"options": [
+			{ "key": "A", "text": "@Servlet" },
+			{ "key": "B", "text": "@WebServlet" },
+			{ "key": "C", "text": "@ServletConfig" },
+			{ "key": "D", "text": "@HttpServlet" }
+		],
+		"answer": "B",
+		"reason": "The @WebServlet annotation allows servlet registration and URL mapping through annotations instead of web.xml."
+	},
+	{
+		"id": 61,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Introduction to Servlets",
+		"difficulty": "easy",
+		"question": "Which technology replaced CGI for developing dynamic web applications in Java?",
+		"options": [
+			{ "key": "A", "text": "Applet" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "EJB" },
+			{ "key": "D", "text": "JDBC" }
+		],
+		"answer": "B",
+		"reason": "Servlets were introduced as a more efficient and portable alternative to CGI programs."
+	},
+	{
+		"id": 62,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Introduction to Servlets",
+		"difficulty": "easy",
+		"question": "Which package contains the HttpServlet class?",
+		"options": [
+			{ "key": "A", "text": "javax.servlet" },
+			{ "key": "B", "text": "javax.servlet.http" },
+			{ "key": "C", "text": "java.servlet.http" },
+			{ "key": "D", "text": "java.http.servlet" }
+		],
+		"answer": "B",
+		"reason": "HttpServlet belongs to the javax.servlet.http package."
+	},
+	{
+		"id": 63,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Life Cycle",
+		"difficulty": "medium",
+		"question": "Which component is responsible for managing the servlet life cycle?",
+		"options": [
+			{ "key": "A", "text": "JVM" },
+			{ "key": "B", "text": "Servlet Container" },
+			{ "key": "C", "text": "Web Browser" },
+			{ "key": "D", "text": "JDBC Driver" }
+		],
+		"answer": "B",
+		"reason": "The servlet container loads, initializes, executes, and destroys servlets."
+	},
+	{
+		"id": 64,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Life Cycle",
+		"difficulty": "medium",
+		"question": "Which lifecycle method is called for every client request?",
+		"options": [
+			{ "key": "A", "text": "init()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "service()" },
+			{ "key": "D", "text": "finalize()" }
+		],
+		"answer": "C",
+		"reason": "The service() method is executed for each incoming request."
+	},
+	{
+		"id": 65,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "easy",
+		"question": "Which method retrieves the value of a form field named 'username'?",
+		"options": [
+			{ "key": "A", "text": "getField(\"username\")" },
+			{ "key": "B", "text": "getParameter(\"username\")" },
+			{ "key": "C", "text": "getAttribute(\"username\")" },
+			{ "key": "D", "text": "readParameter(\"username\")" }
+		],
+		"answer": "B",
+		"reason": "getParameter() is used to retrieve form data submitted by the client."
+	},
+	{
+		"id": 66,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "medium",
+		"question": "Which HTTP method is generally used to retrieve data from a server?",
+		"options": [
+			{ "key": "A", "text": "POST" },
+			{ "key": "B", "text": "PUT" },
+			{ "key": "C", "text": "DELETE" },
+			{ "key": "D", "text": "GET" }
+		],
+		"answer": "D",
+		"reason": "GET requests are primarily used to retrieve resources from a server."
+	},
+	{
+		"id": 67,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "hard",
+		"question": "Which response method sets the content type of the response?",
+		"options": [
+			{ "key": "A", "text": "setType()" },
+			{ "key": "B", "text": "setMimeType()" },
+			{ "key": "C", "text": "setContentType()" },
+			{ "key": "D", "text": "contentType()" }
+		],
+		"answer": "C",
+		"reason": "setContentType() specifies the MIME type of the response sent to the client."
+	},
+	{
+		"id": 68,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "easy",
+		"question": "The deployment descriptor web.xml is located inside which folder?",
+		"options": [
+			{ "key": "A", "text": "META-INF" },
+			{ "key": "B", "text": "WEB-INF" },
+			{ "key": "C", "text": "classes" },
+			{ "key": "D", "text": "lib" }
+		],
+		"answer": "B",
+		"reason": "The deployment descriptor web.xml is stored inside the WEB-INF directory."
+	},
+	{
+		"id": 69,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "medium",
+		"question": "Which element specifies the fully qualified servlet class name?",
+		"options": [
+			{ "key": "A", "text": "<servlet-class>" },
+			{ "key": "B", "text": "<class-name>" },
+			{ "key": "C", "text": "<java-class>" },
+			{ "key": "D", "text": "<servlet-type>" }
+		],
+		"answer": "A",
+		"reason": "The <servlet-class> element identifies the Java class implementing the servlet."
+	},
+	{
+		"id": 70,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "easy",
+		"question": "Which object is created once per web application?",
+		"options": [
+			{ "key": "A", "text": "HttpSession" },
+			{ "key": "B", "text": "ServletConfig" },
+			{ "key": "C", "text": "ServletContext" },
+			{ "key": "D", "text": "Cookie" }
+		],
+		"answer": "C",
+		"reason": "A single ServletContext object is shared by all servlets in a web application."
+	},
+	{
+		"id": 71,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "medium",
+		"question": "Which method retrieves an attribute from ServletContext?",
+		"options": [
+			{ "key": "A", "text": "getAttribute()" },
+			{ "key": "B", "text": "readAttribute()" },
+			{ "key": "C", "text": "fetchAttribute()" },
+			{ "key": "D", "text": "obtainAttribute()" }
+		],
+		"answer": "A",
+		"reason": "getAttribute() retrieves application-wide objects stored in ServletContext."
+	},
+	{
+		"id": 72,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "hard",
+		"question": "Which method returns the name of the servlet?",
+		"options": [
+			{ "key": "A", "text": "getServletName()" },
+			{ "key": "B", "text": "getName()" },
+			{ "key": "C", "text": "servletName()" },
+			{ "key": "D", "text": "getConfigName()" }
+		],
+		"answer": "A",
+		"reason": "getServletName() returns the configured name of the servlet."
+	},
+	{
+		"id": 73,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "easy",
+		"question": "Which method returns the unique identifier of a session?",
+		"options": [
+			{ "key": "A", "text": "getSessionId()" },
+			{ "key": "B", "text": "getId()" },
+			{ "key": "C", "text": "sessionId()" },
+			{ "key": "D", "text": "getUniqueId()" }
+		],
+		"answer": "B",
+		"reason": "HttpSession.getId() returns the unique session identifier."
+	},
+	{
+		"id": 74,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "medium",
+		"question": "Which method removes a specific attribute from a session?",
+		"options": [
+			{ "key": "A", "text": "deleteAttribute()" },
+			{ "key": "B", "text": "remove()" },
+			{ "key": "C", "text": "removeAttribute()" },
+			{ "key": "D", "text": "clearAttribute()" }
+		],
+		"answer": "C",
+		"reason": "removeAttribute() deletes a named attribute from the session."
+	},
+	{
+		"id": 75,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "hard",
+		"question": "Which session tracking technique requires browser support?",
+		"options": [
+			{ "key": "A", "text": "URL Rewriting" },
+			{ "key": "B", "text": "Cookies" },
+			{ "key": "C", "text": "Hidden Fields" },
+			{ "key": "D", "text": "HttpSession" }
+		],
+		"answer": "B",
+		"reason": "Cookies depend on browser support and may be disabled by users."
+	},
+	{
+		"id": 76,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "easy",
+		"question": "Which method retrieves the name of a cookie?",
+		"options": [
+			{ "key": "A", "text": "getCookieName()" },
+			{ "key": "B", "text": "getName()" },
+			{ "key": "C", "text": "name()" },
+			{ "key": "D", "text": "fetchName()" }
+		],
+		"answer": "B",
+		"reason": "The Cookie class provides getName() to retrieve the cookie name."
+	},
+	{
+		"id": 77,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "medium",
+		"question": "Which method retrieves the value stored in a cookie?",
+		"options": [
+			{ "key": "A", "text": "getCookieValue()" },
+			{ "key": "B", "text": "value()" },
+			{ "key": "C", "text": "getValue()" },
+			{ "key": "D", "text": "readValue()" }
+		],
+		"answer": "C",
+		"reason": "getValue() returns the data stored within a cookie."
+	},
+	{
+		"id": 78,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "hard",
+		"question": "Which method modifies the value of an existing cookie?",
+		"options": [
+			{ "key": "A", "text": "changeValue()" },
+			{ "key": "B", "text": "setValue()" },
+			{ "key": "C", "text": "updateValue()" },
+			{ "key": "D", "text": "replaceValue()" }
+		],
+		"answer": "B",
+		"reason": "setValue() updates the value stored in a cookie object."
+	},
+	{
+		"id": 79,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Chaining",
+		"difficulty": "easy",
+		"question": "Which interface is used to forward requests between resources?",
+		"options": [
+			{ "key": "A", "text": "RequestDispatcher" },
+			{ "key": "B", "text": "FilterChain" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "ServletContext" }
+		],
+		"answer": "A",
+		"reason": "RequestDispatcher facilitates request forwarding and resource inclusion."
+	},
+	{
+		"id": 80,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Chaining",
+		"difficulty": "medium",
+		"question": "Forwarding a request using RequestDispatcher keeps the same request object.",
+		"options": [
+			{ "key": "A", "text": "True" },
+			{ "key": "B", "text": "False" },
+			{ "key": "C", "text": "Only in JSP" },
+			{ "key": "D", "text": "Only in Filters" }
+		],
+		"answer": "A",
+		"reason": "Request forwarding occurs on the server side and reuses the same request and response objects."
+	},
+	{
+		"id": 81,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "easy",
+		"question": "Filters are configured using which annotation in Servlet 3.x?",
+		"options": [
+			{ "key": "A", "text": "@WebFilter" },
+			{ "key": "B", "text": "@Filter" },
+			{ "key": "C", "text": "@ServletFilter" },
+			{ "key": "D", "text": "@ConfigFilter" }
+		],
+		"answer": "A",
+		"reason": "The @WebFilter annotation is used to declare servlet filters."
+	},
+	{
+		"id": 82,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "medium",
+		"question": "Which filter lifecycle method is called when the filter is removed?",
+		"options": [
+			{ "key": "A", "text": "close()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "terminate()" },
+			{ "key": "D", "text": "stop()" }
+		],
+		"answer": "B",
+		"reason": "destroy() is called when the filter is taken out of service."
+	},
+	{
+		"id": 83,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "hard",
+		"question": "Which task is commonly performed by servlet filters?",
+		"options": [
+			{ "key": "A", "text": "Compiling Java code" },
+			{ "key": "B", "text": "Authentication and Logging" },
+			{ "key": "C", "text": "Database Creation" },
+			{ "key": "D", "text": "Servlet Deployment" }
+		],
+		"answer": "B",
+		"reason": "Filters are often used for authentication, authorization, logging, and request validation."
+	},
+	{
+		"id": 84,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "easy",
+		"question": "Which HTML element is required for file selection by users?",
+		"options": [
+			{ "key": "A", "text": "<input type='text'>" },
+			{ "key": "B", "text": "<input type='file'>" },
+			{ "key": "C", "text": "<textarea>" },
+			{ "key": "D", "text": "<select>" }
+		],
+		"answer": "B",
+		"reason": "The file input control allows users to select files for upload."
+	},
+	{
+		"id": 85,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "medium",
+		"question": "Which method returns all uploaded parts in a multipart request?",
+		"options": [
+			{ "key": "A", "text": "getAllParts()" },
+			{ "key": "B", "text": "getMultipart()" },
+			{ "key": "C", "text": "getParts()" },
+			{ "key": "D", "text": "readParts()" }
+		],
+		"answer": "C",
+		"reason": "getParts() returns a collection of all parts submitted in a multipart request."
+	},
+	{
+		"id": 86,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "hard",
+		"question": "Which annotation enables multipart request handling in a servlet?",
+		"options": [
+			{ "key": "A", "text": "@MultipartConfig" },
+			{ "key": "B", "text": "@FileConfig" },
+			{ "key": "C", "text": "@UploadServlet" },
+			{ "key": "D", "text": "@MultipartServlet" }
+		],
+		"answer": "A",
+		"reason": "Servlet 3.x introduced @MultipartConfig for handling file uploads."
+	},
+	{
+		"id": 87,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Download",
+		"difficulty": "easy",
+		"question": "Which object is used to send downloaded file data to the client?",
+		"options": [
+			{ "key": "A", "text": "ServletOutputStream" },
+			{ "key": "B", "text": "BufferedReader" },
+			{ "key": "C", "text": "Scanner" },
+			{ "key": "D", "text": "PrintStream" }
+		],
+		"answer": "A",
+		"reason": "ServletOutputStream is used for transmitting binary file data."
+	},
+	{
+		"id": 88,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Download",
+		"difficulty": "medium",
+		"question": "Which header usually contains the filename during file download?",
+		"options": [
+			{ "key": "A", "text": "Location" },
+			{ "key": "B", "text": "Host" },
+			{ "key": "C", "text": "Content-Disposition" },
+			{ "key": "D", "text": "Cache-Control" }
+		],
+		"answer": "C",
+		"reason": "Content-Disposition can specify attachment and filename information."
+	},
+	{
+		"id": 89,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Download",
+		"difficulty": "hard",
+		"question": "Which MIME type is commonly used for plain text files?",
+		"options": [
+			{ "key": "A", "text": "text/plain" },
+			{ "key": "B", "text": "application/pdf" },
+			{ "key": "C", "text": "image/png" },
+			{ "key": "D", "text": "application/octet-stream" }
+		],
+		"answer": "A",
+		"reason": "text/plain is the standard MIME type for plain text documents."
+	},
+	{
+		"id": 90,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "hard",
+		"question": "Which annotation is commonly used to specify URL patterns for a servlet?",
+		"options": [
+			{ "key": "A", "text": "@UrlPattern" },
+			{ "key": "B", "text": "@ServletMapping" },
+			{ "key": "C", "text": "@WebServlet" },
+			{ "key": "D", "text": "@PathServlet" }
+		],
+		"answer": "C",
+		"reason": "The @WebServlet annotation allows servlet declaration and URL mapping directly in code."
+	},
+	{
+		"id": 91,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Introduction to Servlets",
+		"difficulty": "medium",
+		"question": "Which architecture commonly uses Servlets as controllers?",
+		"options": [
+			{ "key": "A", "text": "MVC" },
+			{ "key": "B", "text": "Peer-to-Peer" },
+			{ "key": "C", "text": "Client-Server Only" },
+			{ "key": "D", "text": "Monolithic Database" }
+		],
+		"answer": "A",
+		"reason": "In the MVC architecture, Servlets typically act as controllers, handling requests and coordinating between models and views."
+	},
+	{
+		"id": 92,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Servlet Life Cycle",
+		"difficulty": "hard",
+		"question": "Which method of GenericServlet must be implemented by subclasses?",
+		"options": [
+			{ "key": "A", "text": "init()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "service()" },
+			{ "key": "D", "text": "getServletInfo()" }
+		],
+		"answer": "C",
+		"reason": "GenericServlet is an abstract class and requires subclasses to implement the service() method."
+	},
+	{
+		"id": 93,
+		"subject": "Advanced Java with Web Application",
+		"topic": "HTTP Requests and Responses",
+		"difficulty": "medium",
+		"question": "Which method obtains the client's IP address from a request?",
+		"options": [
+			{ "key": "A", "text": "getRemoteAddr()" },
+			{ "key": "B", "text": "getClientIP()" },
+			{ "key": "C", "text": "getIPAddress()" },
+			{ "key": "D", "text": "fetchRemoteAddr()" }
+		],
+		"answer": "A",
+		"reason": "getRemoteAddr() returns the IP address of the client making the request."
+	},
+	{
+		"id": 94,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Deployment Descriptor",
+		"difficulty": "hard",
+		"question": "Which element is used to configure a filter in web.xml?",
+		"options": [
+			{ "key": "A", "text": "<filter>" },
+			{ "key": "B", "text": "<filter-config>" },
+			{ "key": "C", "text": "<filter-definition>" },
+			{ "key": "D", "text": "<web-filter>" }
+		],
+		"answer": "A",
+		"reason": "The <filter> element defines a filter and its implementation class in web.xml."
+	},
+	{
+		"id": 95,
+		"subject": "Advanced Java with Web Application",
+		"topic": "ServletContext and ServletConfig",
+		"difficulty": "medium",
+		"question": "Which method returns all initialization parameter names from ServletConfig?",
+		"options": [
+			{ "key": "A", "text": "getInitParameterNames()" },
+			{ "key": "B", "text": "getParameterNames()" },
+			{ "key": "C", "text": "getAllParameters()" },
+			{ "key": "D", "text": "listParameters()" }
+		],
+		"answer": "A",
+		"reason": "getInitParameterNames() returns an Enumeration containing all initialization parameter names."
+	},
+	{
+		"id": 96,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Session Management",
+		"difficulty": "hard",
+		"question": "Which method checks whether a session is newly created?",
+		"options": [
+			{ "key": "A", "text": "isNew()" },
+			{ "key": "B", "text": "isCreated()" },
+			{ "key": "C", "text": "isFresh()" },
+			{ "key": "D", "text": "isRecent()" }
+		],
+		"answer": "A",
+		"reason": "HttpSession.isNew() returns true if the session was newly created and not yet acknowledged by the client."
+	},
+	{
+		"id": 97,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Cookies",
+		"difficulty": "medium",
+		"question": "To delete a cookie, its maximum age is commonly set to:",
+		"options": [
+			{ "key": "A", "text": "-1" },
+			{ "key": "B", "text": "0" },
+			{ "key": "C", "text": "1" },
+			{ "key": "D", "text": "100" }
+		],
+		"answer": "B",
+		"reason": "Setting a cookie's maximum age to 0 instructs the browser to delete it immediately."
+	},
+	{
+		"id": 98,
+		"subject": "Advanced Java with Web Application",
+		"topic": "Filters",
+		"difficulty": "hard",
+		"question": "Which deployment descriptor element maps a filter to a URL pattern?",
+		"options": [
+			{ "key": "A", "text": "<filter-map>" },
+			{ "key": "B", "text": "<filter-url>" },
+			{ "key": "C", "text": "<url-filter>" },
+			{ "key": "D", "text": "<filter-pattern>" }
+		],
+		"answer": "A",
+		"reason": "The <filter-map> element associates a filter with URL patterns or servlet names."
+	},
+	{
+		"id": 99,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Upload",
+		"difficulty": "hard",
+		"question": "Which method of Part returns the original submitted file name?",
+		"options": [
+			{ "key": "A", "text": "getFileName()" },
+			{ "key": "B", "text": "getSubmittedFileName()" },
+			{ "key": "C", "text": "getPartName()" },
+			{ "key": "D", "text": "getOriginalName()" }
+		],
+		"answer": "B",
+		"reason": "Part.getSubmittedFileName() returns the file name submitted by the client."
+	},
+	{
+		"id": 100,
+		"subject": "Advanced Java with Web Application",
+		"topic": "File Download",
+		"difficulty": "hard",
+		"question": "Which MIME type is commonly used as a generic binary file type when the actual type is unknown?",
+		"options": [
+			{ "key": "A", "text": "application/octet-stream" },
+			{ "key": "B", "text": "application/binary-file" },
+			{ "key": "C", "text": "binary/data" },
+			{ "key": "D", "text": "file/unknown" }
+		],
+		"answer": "A",
+		"reason": "application/octet-stream is the standard MIME type for arbitrary binary data and often forces a download."
+	}
+]
