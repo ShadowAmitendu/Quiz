@@ -44,6 +44,13 @@ let isGameOver = false;
 let selectedTimedSeconds = 30;
 let selectedQuestionLimit = "all";
 
+// Leaderboard configuration (Dreamlo)
+const DREAMLO_PRIVATE_KEY = "DfFYOy4WcU6mpNyKxP3WJgNXwuVVqYBk6PbuJSXuYccQ"; // Paste private key here to enable submissions
+const DREAMLO_PUBLIC_KEY = "6a2598b58f40bb17b077cfd7";  // Paste public key here to fetch rankings
+const DREAMLO_USE_HTTPS = false;  // Keep false for free Dreamlo accounts
+const DREAMLO_BASE_URL = DREAMLO_USE_HTTPS ? "https://dreamlo.com/lb" : "http://dreamlo.com/lb";
+let scoreSubmitted = false;
+
 const THEME_KEY = "quiz-theme";
 const FIRST_STREAK_MILESTONE = 5;
 const STREAK_MILESTONE_STEP = 10;
@@ -1155,6 +1162,21 @@ function showResults() {
 			launchEncouragingSparkles();
 		}
 	}
+
+	// Initialize Leaderboard
+	scoreSubmitted = false;
+	const modeName = hardcoreMode ? "Hardcore" : (timerMode ? `Timed (${timerSeconds}s)` : "Practice");
+	document.getElementById("leaderboard-topic-subtitle").textContent = `${activeTopic.label} • ${modeName}`;
+	
+	// Pre-populate username if saved previously
+	const savedUser = localStorage.getItem("quiz_leaderboard_username") || "";
+	document.getElementById("leaderboard-username").value = savedUser;
+	
+	// Reset submit UI visibility
+	document.getElementById("leaderboard-submit-section").style.display = DREAMLO_PRIVATE_KEY ? "flex" : "none";
+	document.getElementById("leaderboard-status").textContent = "";
+	
+	fetchLeaderboardScores();
 }
 
 /* ══ CELEBRATION HELPER FUNCTIONS ══ */
@@ -1303,3 +1325,314 @@ themeToggle.addEventListener("click", toggleTheme);
 
 loadHome();
 if (typeof lucide !== "undefined") lucide.createIcons();
+
+/* ══ LEADERBOARD ACTIONS ══ */
+function fetchLeaderboardScores() {
+	const listContainer = document.getElementById("leaderboard-list");
+	const statusEl = document.getElementById("leaderboard-status");
+	if (!listContainer) return;
+	
+	listContainer.innerHTML = "";
+	
+	if (!DREAMLO_PUBLIC_KEY) {
+		statusEl.innerHTML = `<span style="color: var(--muted); font-style: italic;">Leaderboard is not configured.<br>Add your Dreamlo keys in <code>quiz.js</code> to enable global rankings.</span>`;
+		document.getElementById("leaderboard-submit-section").style.display = "none";
+		return;
+	}
+	
+	statusEl.textContent = "Loading top scores...";
+	const targetUrl = `${DREAMLO_BASE_URL}/${DREAMLO_PUBLIC_KEY}/json?_=${Date.now()}`;
+	const url = DREAMLO_USE_HTTPS ? targetUrl : `https://corsproxy.io/?url=${encodeURIComponent(targetUrl)}`;
+	
+	fetch(url)
+		.then(res => {
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			return res.json();
+		})
+		.then(data => {
+			statusEl.textContent = "";
+			let entries = [];
+			
+			if (data?.dreamlo?.leaderboard?.entry) {
+				const rawEntry = data.dreamlo.leaderboard.entry;
+				if (Array.isArray(rawEntry)) {
+					entries = rawEntry;
+				} else {
+					entries = [rawEntry];
+				}
+			}
+			
+			// Filter by current topic + mode
+			const currentMode = hardcoreMode ? "hardcore" : (timerMode ? `timed-${timerSeconds}` : "practice");
+			const filterText = `${activeSubject.folder}_${activeTopic.file}_${currentMode}`.replace(/\s+/g, "-");
+			
+			entries = entries.filter(e => e.text === filterText);
+			
+			// Sort: Score DESC, then Time (seconds) ASC
+			entries.sort((a, b) => {
+				const scoreA = parseInt(a.score) || 0;
+				const scoreB = parseInt(b.score) || 0;
+				if (scoreB !== scoreA) return scoreB - scoreA;
+				
+				const timeA = parseInt(a.seconds) || 0;
+				const timeB = parseInt(b.seconds) || 0;
+				return timeA - timeB;
+			});
+			
+			if (entries.length === 0) {
+				listContainer.innerHTML = `<div style="text-align: center; color: var(--muted); padding: 1.5rem 0; font-size: 13px;">No scores submitted yet for this topic. Be the first!</div>`;
+				return;
+			}
+			
+			// Render top 10
+			const top10 = entries.slice(0, 10);
+			top10.forEach((e, idx) => {
+				const rank = idx + 1;
+				const name = e.name;
+				const score = e.score;
+				
+				// Format elapsed time if provided and greater than 0
+				const secVal = parseInt(e.seconds) || 0;
+				let timeString = "";
+				if (secVal > 0) {
+					const m = Math.floor(secVal / 60);
+					const s = secVal % 60;
+					timeString = m > 0 ? `${m}m ${s}s` : `${s}s`;
+				}
+				
+				const row = document.createElement("div");
+				row.className = `leaderboard-row rank-${rank}`;
+				row.innerHTML = `
+					<span class="leaderboard-rank">#${rank}</span>
+					<span class="leaderboard-name" title="${name}">${name}</span>
+					<span class="leaderboard-score-wrap">
+						<span class="leaderboard-score">${score}%</span>
+						${timeString ? `<span class="leaderboard-time">${timeString}</span>` : ""}
+					</span>
+				`;
+				listContainer.appendChild(row);
+			});
+		})
+		.catch(err => {
+			console.error("Error fetching leaderboard:", err);
+			statusEl.innerHTML = `<span style="color: var(--wrong);">Failed to load leaderboard rankings.</span>`;
+		});
+}
+
+// A list of common bad words to filter usernames if the external library fails
+const DEFAULT_BAD_WORDS = ["abort", "anal", "anus", "arse", "ass", "bastard", "bitch", "boob", "butt", "clitoris", "cock", "crap", "cunt", "damn", "dick", "dildo", "dyke", "fag", "faggot", "fuck", "goddamn", "hell", "homo", "jerk", "jizz", "labia", "muff", "nigger", "omg", "penis", "piss", "poop", "pussy", "queer", "rape", "semen", "sex", "shit", "slut", "spic", "suck", "tit", "turd", "twat", "vagina", "wank", "whore"];
+
+function containsProfanity(text) {
+	const cleanText = text.toLowerCase().trim();
+	
+	// Try using the CDN library if loaded
+	if (typeof profanityCleaner !== "undefined" && typeof profanityCleaner.clean === "function") {
+		try {
+			const cleaned = profanityCleaner.clean(cleanText);
+			if (cleaned.includes("*")) return true;
+		} catch (e) {
+			console.error("profanityCleaner error:", e);
+		}
+	}
+	
+	// Fallback check against our built-in word list (using word boundary matching to prevent Scunthorpe problem)
+	return DEFAULT_BAD_WORDS.some(badWord => {
+		const regex = new RegExp(`\\b${badWord}\\b`, "i");
+		return regex.test(cleanText);
+	});
+}
+
+function submitLeaderboardScore() {
+	if (!DREAMLO_PRIVATE_KEY) return;
+	if (scoreSubmitted) return;
+	
+	const rawName = document.getElementById("leaderboard-username").value.trim();
+	// Sanitize username: Alphanumeric and underscores only, max 15 chars
+	const username = rawName.replace(/[^a-zA-Z0-9_]/g, "").substring(0, 15);
+	
+	if (!username) {
+		toast("Please enter a username (alphanumeric and underscores only).");
+		return;
+	}
+
+	if (containsProfanity(username)) {
+		toast("Please choose a clean username (no profanity allowed).");
+		return;
+	}
+	
+	// Save username for convenience
+	localStorage.setItem("quiz_leaderboard_username", username);
+	
+	// Calculate quiz stats
+	const pct = Math.round((correct / questions.length) * 100);
+	const elapsed = Math.round((Date.now() - quizStartTime) / 1000);
+	const currentMode = hardcoreMode ? "hardcore" : (timerMode ? `timed-${timerSeconds}` : "practice");
+	const filterText = `${activeSubject.folder}_${activeTopic.file}_${currentMode}`.replace(/\s+/g, "-");
+	
+	const statusEl = document.getElementById("leaderboard-status");
+	statusEl.textContent = "Submitting your score...";
+	
+	const targetUrl = `${DREAMLO_BASE_URL}/${DREAMLO_PRIVATE_KEY}/add/${username}/${pct}/${elapsed}/${filterText}`;
+	const url = DREAMLO_USE_HTTPS ? targetUrl : `https://corsproxy.io/?url=${encodeURIComponent(targetUrl)}`;
+	
+	// Use no-cors mode to bypass CORS preflights/blocks on write requests.
+	fetch(url, { mode: "no-cors" })
+		.then(() => {
+			scoreSubmitted = true;
+			document.getElementById("leaderboard-submit-section").style.display = "none";
+			statusEl.innerHTML = `<span style="color: var(--correct); font-weight: 600;">✓ Score submitted!</span>`;
+			// Wait 1 second before refreshing to let Dreamlo update
+			setTimeout(fetchLeaderboardScores, 1000);
+		})
+		.catch(err => {
+			console.error("Error submitting score:", err);
+			toast("Failed to submit score to global leaderboard.");
+			statusEl.textContent = "";
+		});
+}
+
+/* ══ LEADERBOARD EXPLORER ACTIONS ══ */
+function openLeaderboardScreen() {
+	show("screen-leaderboard-explorer");
+	
+	const subjSelect = document.getElementById("explorer-subject-select");
+	if (!subjSelect) return;
+	
+	subjSelect.innerHTML = "";
+	manifest.forEach((subj, i) => {
+		const opt = document.createElement("option");
+		opt.value = i;
+		opt.textContent = subj.subject;
+		subjSelect.appendChild(opt);
+	});
+	
+	onExplorerSubjectChange();
+}
+
+function onExplorerSubjectChange() {
+	const subjIdx = parseInt(document.getElementById("explorer-subject-select").value);
+	const topicSelect = document.getElementById("explorer-topic-select");
+	if (isNaN(subjIdx) || !topicSelect) return;
+	
+	const subject = manifest[subjIdx];
+	topicSelect.innerHTML = "";
+	subject.files.forEach((file, idx) => {
+		const opt = document.createElement("option");
+		opt.value = idx;
+		opt.textContent = file.label;
+		topicSelect.appendChild(opt);
+	});
+	
+	onExplorerTopicChange();
+}
+
+function onExplorerTopicChange() {
+	fetchExplorerScores();
+}
+
+function onExplorerModeChange() {
+	fetchExplorerScores();
+}
+
+function fetchExplorerScores() {
+	const listContainer = document.getElementById("explorer-leaderboard-list");
+	const statusEl = document.getElementById("explorer-status");
+	const subjSelect = document.getElementById("explorer-subject-select");
+	const topicSelect = document.getElementById("explorer-topic-select");
+	const modeSelect = document.getElementById("explorer-mode-select");
+	
+	if (!listContainer || !subjSelect || !topicSelect || !modeSelect) return;
+	
+	const subjIdx = parseInt(subjSelect.value);
+	const topicIdx = parseInt(topicSelect.value);
+	const rawMode = modeSelect.value;
+	
+	if (isNaN(subjIdx) || isNaN(topicIdx)) return;
+	
+	listContainer.innerHTML = "";
+	
+	if (!DREAMLO_PUBLIC_KEY) {
+		statusEl.innerHTML = `<span style="color: var(--muted); font-style: italic;">Leaderboard is not configured.</span>`;
+		return;
+	}
+	
+	statusEl.textContent = "Loading scores...";
+	
+	const subject = manifest[subjIdx];
+	const topic = subject.files[topicIdx];
+	
+	const filterText = `${subject.folder}_${topic.file}_${rawMode}`.replace(/\s+/g, "-");
+	
+	const url = `${DREAMLO_BASE_URL}/${DREAMLO_PUBLIC_KEY}/json?_=${Date.now()}`;
+	const fetchUrl = DREAMLO_USE_HTTPS ? url : `https://corsproxy.io/?url=${encodeURIComponent(url)}`;
+	
+	fetch(fetchUrl)
+		.then(res => {
+			if (!res.ok) throw new Error(`HTTP ${res.status}`);
+			return res.json();
+		})
+		.then(data => {
+			statusEl.textContent = "";
+			let entries = [];
+			
+			if (data?.dreamlo?.leaderboard?.entry) {
+				const rawEntry = data.dreamlo.leaderboard.entry;
+				if (Array.isArray(rawEntry)) {
+					entries = rawEntry;
+				} else {
+					entries = [rawEntry];
+				}
+			}
+			
+			// Filter by text metadata
+			entries = entries.filter(e => e.text === filterText);
+			
+			// Sort: Score DESC, then Time (seconds) ASC
+			entries.sort((a, b) => {
+				const scoreA = parseInt(a.score) || 0;
+				const scoreB = parseInt(b.score) || 0;
+				if (scoreB !== scoreA) return scoreB - scoreA;
+				
+				const timeA = parseInt(a.seconds) || 0;
+				const timeB = parseInt(b.seconds) || 0;
+				return timeA - timeB;
+			});
+			
+			if (entries.length === 0) {
+				listContainer.innerHTML = `<div style="text-align: center; color: var(--muted); padding: 2rem 0; font-size: 13px;">No scores submitted yet for this configuration.</div>`;
+				return;
+			}
+			
+			// Render top 10
+			const top10 = entries.slice(0, 10);
+			top10.forEach((e, idx) => {
+				const rank = idx + 1;
+				const name = e.name;
+				const score = e.score;
+				
+				const secVal = parseInt(e.seconds) || 0;
+				let timeString = "";
+				if (secVal > 0) {
+					const m = Math.floor(secVal / 60);
+					const s = secVal % 60;
+					timeString = m > 0 ? `${m}m ${s}s` : `${s}s`;
+				}
+				
+				const row = document.createElement("div");
+				row.className = `leaderboard-row rank-${rank}`;
+				row.innerHTML = `
+					<span class="leaderboard-rank">#${rank}</span>
+					<span class="leaderboard-name" title="${name}">${name}</span>
+					<span class="leaderboard-score-wrap">
+						<span class="leaderboard-score">${score}%</span>
+						${timeString ? `<span class="leaderboard-time">${timeString}</span>` : ""}
+					</span>
+				`;
+				listContainer.appendChild(row);
+			});
+		})
+		.catch(err => {
+			console.error("Error fetching leaderboard explorer:", err);
+			statusEl.innerHTML = `<span style="color: var(--wrong);">Failed to load leaderboard rankings.</span>`;
+		});
+}

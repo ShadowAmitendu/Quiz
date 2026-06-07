@@ -69,6 +69,9 @@
           <p class="home-subtitle">
             Pick a subject below to start quizzing yourself.
           </p>
+          <button class="btn-outline btn-leaderboard-home" onclick="openLeaderboardScreen()">
+            <i data-lucide="trophy" class="btn-icon"></i> Global Leaderboards
+          </button>
         </div>
         <div id="subject-grid" class="subject-grid"></div>
         <div id="home-loading" class="loading-msg">Loading subjects…</div>
@@ -144,7 +147,7 @@
 
     <!-- SCREEN 4: RESULTS -->
     <div id="screen-results" class="screen">
-      <div class="home-wrap results-wrap">
+      <div class="home-wrap results-wrap" style="flex-direction: column; gap: 2rem;">
         <div class="results-card">
           <div class="results-badge-container" id="results-badge-container">
             <div class="results-badge-icon" id="results-badge-icon">
@@ -208,6 +211,74 @@
             <button class="btn-primary-sm btn-results-home" onclick="goHome()">
               Choose another <i data-lucide="arrow-right" class="btn-icon"></i>
             </button>
+          </div>
+        </div>
+
+        <!-- Leaderboard Card -->
+        <div class="leaderboard-card" id="leaderboard-card">
+          <div class="leaderboard-header">
+            <i data-lucide="trophy" class="leaderboard-header-icon"></i>
+            <h3 class="leaderboard-card-title">Global Leaderboard</h3>
+          </div>
+          <p class="leaderboard-topic-subtitle" id="leaderboard-topic-subtitle">Topic - Mode</p>
+          
+          <!-- Submission Section -->
+          <div id="leaderboard-submit-section" class="leaderboard-submit-section">
+            <input type="text" id="leaderboard-username" placeholder="Enter username..." class="leaderboard-input" maxlength="15" />
+            <button class="btn-primary-sm" onclick="submitLeaderboardScore()">Submit Score</button>
+          </div>
+
+          <div id="leaderboard-status" class="leaderboard-status"></div>
+
+          <!-- Scores List -->
+          <div id="leaderboard-list" class="leaderboard-list">
+            <!-- Dynamically populated entries -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN 5: LEADERBOARD EXPLORER -->
+    <div id="screen-leaderboard-explorer" class="screen">
+      <div class="home-wrap">
+        <button class="back-btn" onclick="goHome()">← Back</button>
+        <div class="home-header" style="margin-top: 1rem">
+          <p class="eyebrow">High Scores</p>
+          <h1 class="title">Leaderboard Explorer</h1>
+        </div>
+        
+        <!-- Filters Card -->
+        <div class="explorer-filters-card">
+          <div class="filter-group">
+            <label for="explorer-subject-select">Subject</label>
+            <select id="explorer-subject-select" class="explorer-select" onchange="onExplorerSubjectChange()">
+              <!-- Populated dynamically -->
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="explorer-topic-select">Topic</label>
+            <select id="explorer-topic-select" class="explorer-select" onchange="onExplorerTopicChange()">
+              <!-- Populated dynamically -->
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="explorer-mode-select">Mode</label>
+            <select id="explorer-mode-select" class="explorer-select" onchange="onExplorerModeChange()">
+              <option value="practice">Practice</option>
+              <option value="timed-15">Timed (15s)</option>
+              <option value="timed-30" selected>Timed (30s)</option>
+              <option value="timed-60">Timed (60s)</option>
+              <option value="hardcore">Hardcore</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="explorer-status" class="leaderboard-status" style="margin-top: 1rem;"></div>
+
+        <!-- Scores List -->
+        <div class="leaderboard-card" style="max-width: 100%; margin-top: 1rem; box-shadow: var(--shadow);">
+          <div class="leaderboard-list" id="explorer-leaderboard-list" style="max-height: 400px;">
+            <!-- Dynamically populated entries -->
           </div>
         </div>
       </div>
@@ -301,6 +372,7 @@
     <div id="celebration-layer" aria-hidden="true"></div>
     <div class="toast" id="toast"></div>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/profanity-cleaner@latest/dist/index.min.js"></script>
     <script src="quiz.js"></script>
   </body>
 </html>
