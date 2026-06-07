@@ -1004,6 +1004,65 @@ button:focus-visible,
 	box-shadow: var(--shadow-hover);
 }
 
+.btn-primary-sm {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.6rem 1.25rem;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: inherit;
+	color: var(--surface-solid);
+	background: var(--accent);
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	white-space: nowrap;
+	flex-shrink: 0;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	transition: background var(--ease), transform var(--ease), box-shadow var(--ease);
+}
+
+.btn-primary-sm:hover {
+	background: var(--accent-hover);
+	transform: translateY(-1px);
+	box-shadow: 0 4px 8px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.btn-primary-sm:active {
+	transform: translateY(0);
+}
+
+.btn-outline {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.6rem 1.25rem;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: inherit;
+	color: var(--text);
+	background: var(--surface-solid);
+	border: 1px solid var(--border-strong);
+	border-radius: 10px;
+	cursor: pointer;
+	white-space: nowrap;
+	flex-shrink: 0;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	transition: border-color var(--ease), color var(--ease), transform var(--ease), box-shadow var(--ease), background var(--ease);
+}
+
+.btn-outline:hover {
+	border-color: var(--accent);
+	color: var(--accent);
+	transform: translateY(-1px);
+	box-shadow: var(--shadow-hover);
+}
+
+.btn-outline:active {
+	transform: translateY(0);
+}
+
 .key-hint {
 	margin-top: 0;
 	font-size: 12px;
@@ -1698,6 +1757,9 @@ button:focus-visible,
 		width: 100%;
 		justify-content: center;
 	}
+	.leaderboard-card {
+		padding: 1.25rem 1rem;
+	}
 	.quiz-bottombar {
 		min-height: 7.5rem;
 	}
@@ -1942,6 +2004,7 @@ button:focus-visible,
 
 .leaderboard-input {
 	flex-grow: 1;
+	min-width: 0;
 	padding: 0.6rem 0.75rem;
 	border-radius: 10px;
 	border: 1px solid var(--border);
@@ -1969,6 +2032,23 @@ button:focus-visible,
 	max-height: 250px;
 	overflow-y: auto;
 	padding-right: 4px;
+}
+
+.leaderboard-list::-webkit-scrollbar {
+	width: 6px;
+}
+
+.leaderboard-list::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.leaderboard-list::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 3px;
+}
+
+.leaderboard-list::-webkit-scrollbar-thumb:hover {
+	background: var(--muted);
 }
 
 .leaderboard-row {
