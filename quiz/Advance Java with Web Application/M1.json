@@ -1,0 +1,1523 @@
+[
+	{
+		"id": 1,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "What does Java EE stand for?",
+		"options": [
+			{ "key": "A", "text": "Java Enterprise Edition" },
+			{ "key": "B", "text": "Java Extended Edition" },
+			{ "key": "C", "text": "Java Embedded Edition" },
+			{ "key": "D", "text": "Java Enhanced Edition" }
+		],
+		"answer": "A",
+		"reason": "Java EE stands for Java Enterprise Edition, a platform used for developing enterprise-level and web-based applications."
+	},
+	{
+		"id": 2,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "Which architecture is commonly followed in Java EE web applications?",
+		"options": [
+			{ "key": "A", "text": "Client-Server Architecture" },
+			{ "key": "B", "text": "Peer-to-Peer Architecture" },
+			{ "key": "C", "text": "Three-Tier Architecture" },
+			{ "key": "D", "text": "Monolithic Architecture" }
+		],
+		"answer": "C",
+		"reason": "Java EE applications typically follow a three-tier architecture consisting of presentation, business, and data layers."
+	},
+	{
+		"id": 3,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "easy",
+		"question": "Which of the following is available in Java EE but not in Java SE?",
+		"options": [
+			{ "key": "A", "text": "Collections Framework" },
+			{ "key": "B", "text": "Servlet API" },
+			{ "key": "C", "text": "Exception Handling" },
+			{ "key": "D", "text": "Multithreading" }
+		],
+		"answer": "B",
+		"reason": "Servlet API is part of Java EE and is used for web application development, whereas Java SE provides core Java functionality."
+	},
+	{
+		"id": 4,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "medium",
+		"question": "What is the primary purpose of Java EE?",
+		"options": [
+			{ "key": "A", "text": "Desktop Application Development" },
+			{ "key": "B", "text": "Mobile Application Development" },
+			{ "key": "C", "text": "Enterprise and Web Application Development" },
+			{ "key": "D", "text": "Game Development" }
+		],
+		"answer": "C",
+		"reason": "Java EE extends Java SE by providing APIs and specifications for enterprise and web applications."
+	},
+	{
+		"id": 5,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "easy",
+		"question": "What is the primary role of JDBC in a web application?",
+		"options": [
+			{ "key": "A", "text": "Designing Web Pages" },
+			{ "key": "B", "text": "Managing Sessions" },
+			{ "key": "C", "text": "Connecting to Databases" },
+			{ "key": "D", "text": "Handling HTTP Requests" }
+		],
+		"answer": "C",
+		"reason": "JDBC (Java Database Connectivity) is used to establish connections and interact with relational databases."
+	},
+	{
+		"id": 6,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "easy",
+		"question": "What is the main purpose of JSP?",
+		"options": [
+			{ "key": "A", "text": "Database Connectivity" },
+			{ "key": "B", "text": "Generating Dynamic Web Content" },
+			{ "key": "C", "text": "Compiling Java Programs" },
+			{ "key": "D", "text": "Managing Threads" }
+		],
+		"answer": "B",
+		"reason": "JSP (JavaServer Pages) is used to create dynamic web pages by embedding Java code into HTML."
+	},
+	{
+		"id": 7,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "easy",
+		"question": "Which component processes client requests and generates responses in Java EE?",
+		"options": [
+			{ "key": "A", "text": "JDBC" },
+			{ "key": "B", "text": "JSP" },
+			{ "key": "C", "text": "Servlet" },
+			{ "key": "D", "text": "JDK" }
+		],
+		"answer": "C",
+		"reason": "Servlets handle HTTP requests and generate responses dynamically on the server side."
+	},
+	{
+		"id": 8,
+		"subject": "Advance Java with Web Application",
+		"topic": "Web Application Components",
+		"difficulty": "medium",
+		"question": "Which sequence correctly represents the flow in a typical Java EE web application?",
+		"options": [
+			{ "key": "A", "text": "Browser → JDBC → Servlet → JSP" },
+			{ "key": "B", "text": "Browser → Servlet → JDBC → JSP" },
+			{ "key": "C", "text": "JSP → Browser → Servlet → JDBC" },
+			{ "key": "D", "text": "JDBC → Servlet → Browser → JSP" }
+		],
+		"answer": "B",
+		"reason": "The browser sends requests to a servlet, which may use JDBC for database operations and then forward results to a JSP for presentation."
+	},
+	{
+		"id": 9,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JSP, Servlet and JDBC",
+		"difficulty": "medium",
+		"question": "Which combination correctly matches the technology with its role?",
+		"options": [
+			{
+				"key": "A",
+				"text": "JSP-Database, JDBC-Presentation, Servlet-Business Logic"
+			},
+			{
+				"key": "B",
+				"text": "JSP-Presentation, JDBC-Database Access, Servlet-Request Processing"
+			},
+			{
+				"key": "C",
+				"text": "JSP-Business Logic, JDBC-Presentation, Servlet-Database Access"
+			},
+			{
+				"key": "D",
+				"text": "JSP-Compiler, JDBC-HTTP Handler, Servlet-Database"
+			}
+		],
+		"answer": "B",
+		"reason": "JSP handles presentation, JDBC manages database access, and Servlets process client requests and control application flow."
+	},
+	{
+		"id": 10,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which statement best describes Java EE?",
+		"options": [
+			{ "key": "A", "text": "A replacement for Java SE" },
+			{ "key": "B", "text": "An extension of Java SE with enterprise APIs" },
+			{ "key": "C", "text": "A database management system" },
+			{ "key": "D", "text": "A web browser technology" }
+		],
+		"answer": "B",
+		"reason": "Java EE builds upon Java SE and provides enterprise technologies such as Servlets, JSP, JDBC integration, EJB, and web services."
+	},
+	{
+		"id": 11,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "Java EE is primarily used for developing:",
+		"options": [
+			{ "key": "A", "text": "System Software" },
+			{ "key": "B", "text": "Enterprise Applications" },
+			{ "key": "C", "text": "Device Drivers" },
+			{ "key": "D", "text": "Operating Systems" }
+		],
+		"answer": "B",
+		"reason": "Java EE provides technologies specifically designed for enterprise and web application development."
+	},
+	{
+		"id": 12,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "Java EE is built on top of:",
+		"options": [
+			{ "key": "A", "text": "Java ME" },
+			{ "key": "B", "text": "Java FX" },
+			{ "key": "C", "text": "Java SE" },
+			{ "key": "D", "text": "J2ME" }
+		],
+		"answer": "C",
+		"reason": "Java EE extends Java SE by adding enterprise-level APIs and specifications."
+	},
+	{
+		"id": 13,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "Which layer in a three-tier architecture interacts directly with the database?",
+		"options": [
+			{ "key": "A", "text": "Presentation Layer" },
+			{ "key": "B", "text": "Client Layer" },
+			{ "key": "C", "text": "Data Layer" },
+			{ "key": "D", "text": "Network Layer" }
+		],
+		"answer": "C",
+		"reason": "The data layer is responsible for storing, retrieving, and managing data."
+	},
+	{
+		"id": 14,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "The presentation layer in Java EE is commonly implemented using:",
+		"options": [
+			{ "key": "A", "text": "JDBC" },
+			{ "key": "B", "text": "JSP" },
+			{ "key": "C", "text": "SQL" },
+			{ "key": "D", "text": "DriverManager" }
+		],
+		"answer": "B",
+		"reason": "JSP is commonly used for presenting dynamic content to users."
+	},
+	{
+		"id": 15,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "easy",
+		"question": "Which of the following is NOT part of Java SE?",
+		"options": [
+			{ "key": "A", "text": "Collections Framework" },
+			{ "key": "B", "text": "JDBC" },
+			{ "key": "C", "text": "Servlet API" },
+			{ "key": "D", "text": "Exception Handling" }
+		],
+		"answer": "C",
+		"reason": "Servlet API belongs to Java EE, not Java SE."
+	},
+	{
+		"id": 16,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "medium",
+		"question": "Which Java platform is intended for standalone desktop applications?",
+		"options": [
+			{ "key": "A", "text": "Java EE" },
+			{ "key": "B", "text": "Java SE" },
+			{ "key": "C", "text": "Jakarta EE" },
+			{ "key": "D", "text": "Servlet API" }
+		],
+		"answer": "B",
+		"reason": "Java SE provides core APIs for standalone and desktop applications."
+	},
+	{
+		"id": 17,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "easy",
+		"question": "What does JDBC stand for?",
+		"options": [
+			{ "key": "A", "text": "Java Database Connectivity" },
+			{ "key": "B", "text": "Java Dynamic Browser Connectivity" },
+			{ "key": "C", "text": "Java Distributed Component" },
+			{ "key": "D", "text": "Java Database Controller" }
+		],
+		"answer": "A",
+		"reason": "JDBC stands for Java Database Connectivity."
+	},
+	{
+		"id": 18,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "medium",
+		"question": "Which JDBC interface is used to execute SQL statements?",
+		"options": [
+			{ "key": "A", "text": "Connection" },
+			{ "key": "B", "text": "Statement" },
+			{ "key": "C", "text": "Driver" },
+			{ "key": "D", "text": "ResultSetMetaData" }
+		],
+		"answer": "B",
+		"reason": "The Statement interface is used to execute SQL queries and updates."
+	},
+	{
+		"id": 19,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "medium",
+		"question": "Which JDBC object represents an active database connection?",
+		"options": [
+			{ "key": "A", "text": "Connection" },
+			{ "key": "B", "text": "ResultSet" },
+			{ "key": "C", "text": "PreparedStatement" },
+			{ "key": "D", "text": "Driver" }
+		],
+		"answer": "A",
+		"reason": "The Connection interface represents a session with a specific database."
+	},
+	{
+		"id": 20,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "easy",
+		"question": "JSP stands for:",
+		"options": [
+			{ "key": "A", "text": "Java Server Processor" },
+			{ "key": "B", "text": "Java Servlet Page" },
+			{ "key": "C", "text": "JavaServer Pages" },
+			{ "key": "D", "text": "Java Service Pages" }
+		],
+		"answer": "C",
+		"reason": "JSP stands for JavaServer Pages."
+	},
+	{
+		"id": 21,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "medium",
+		"question": "A JSP page is ultimately converted into a:",
+		"options": [
+			{ "key": "A", "text": "Servlet" },
+			{ "key": "B", "text": "Database Table" },
+			{ "key": "C", "text": "Java Bean" },
+			{ "key": "D", "text": "HTML File" }
+		],
+		"answer": "A",
+		"reason": "The JSP container translates JSP pages into servlets before execution."
+	},
+	{
+		"id": 22,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "medium",
+		"question": "Which tag is used to insert Java code inside a JSP page?",
+		"options": [
+			{ "key": "A", "text": "<%= %>" },
+			{ "key": "B", "text": "<%! %>" },
+			{ "key": "C", "text": "<% %>" },
+			{ "key": "D", "text": "<jsp:include>" }
+		],
+		"answer": "C",
+		"reason": "Scriptlet tags (<% %>) are used to embed Java code within JSP pages."
+	},
+	{
+		"id": 23,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "easy",
+		"question": "A Servlet executes on the:",
+		"options": [
+			{ "key": "A", "text": "Client Browser" },
+			{ "key": "B", "text": "Database Server" },
+			{ "key": "C", "text": "Application Server" },
+			{ "key": "D", "text": "Operating System Kernel" }
+		],
+		"answer": "C",
+		"reason": "Servlets run on a web/application server and process client requests."
+	},
+	{
+		"id": 24,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "easy",
+		"question": "Which package contains the HttpServlet class?",
+		"options": [
+			{ "key": "A", "text": "java.sql" },
+			{ "key": "B", "text": "javax.servlet.http" },
+			{ "key": "C", "text": "java.net" },
+			{ "key": "D", "text": "javax.swing" }
+		],
+		"answer": "B",
+		"reason": "HttpServlet is defined in the javax.servlet.http package."
+	},
+	{
+		"id": 25,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "medium",
+		"question": "Which method handles HTTP GET requests in a servlet?",
+		"options": [
+			{ "key": "A", "text": "doPost()" },
+			{ "key": "B", "text": "service()" },
+			{ "key": "C", "text": "doGet()" },
+			{ "key": "D", "text": "init()" }
+		],
+		"answer": "C",
+		"reason": "The doGet() method processes HTTP GET requests."
+	},
+	{
+		"id": 26,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JDBC",
+		"difficulty": "medium",
+		"question": "Which component is responsible for CRUD operations in a Java EE web application?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "JDBC" },
+			{ "key": "D", "text": "HTML" }
+		],
+		"answer": "C",
+		"reason": "JDBC is used to perform Create, Read, Update, and Delete operations on databases."
+	},
+	{
+		"id": 27,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JSP",
+		"difficulty": "easy",
+		"question": "Which technology is primarily responsible for displaying data to users?",
+		"options": [
+			{ "key": "A", "text": "JDBC" },
+			{ "key": "B", "text": "JSP" },
+			{ "key": "C", "text": "DriverManager" },
+			{ "key": "D", "text": "Connection" }
+		],
+		"answer": "B",
+		"reason": "JSP is responsible for generating and displaying dynamic content."
+	},
+	{
+		"id": 28,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of Servlets",
+		"difficulty": "medium",
+		"question": "Which component acts as a controller in the MVC pattern?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "JDBC Driver" },
+			{ "key": "D", "text": "HTML Form" }
+		],
+		"answer": "B",
+		"reason": "Servlets commonly act as controllers by processing requests and coordinating application flow."
+	},
+	{
+		"id": 29,
+		"subject": "Advance Java with Web Application",
+		"topic": "Web Applications",
+		"difficulty": "hard",
+		"question": "In MVC architecture, JSP generally represents which component?",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "Controller" },
+			{ "key": "C", "text": "View" },
+			{ "key": "D", "text": "Database" }
+		],
+		"answer": "C",
+		"reason": "JSP is primarily used as the View component for presenting information to users."
+	},
+	{
+		"id": 30,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which combination correctly represents the responsibilities of JSP, Servlet, and JDBC?",
+		"options": [
+			{ "key": "A", "text": "Presentation, Controller, Database Access" },
+			{ "key": "B", "text": "Database Access, Presentation, Controller" },
+			{ "key": "C", "text": "Controller, Database Access, Presentation" },
+			{ "key": "D", "text": "Presentation, Database Access, Controller" }
+		],
+		"answer": "A",
+		"reason": "JSP handles presentation, Servlets act as controllers, and JDBC manages database access."
+	},
+	{
+		"id": 31,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "Which organization originally developed the Java EE specification?",
+		"options": [
+			{ "key": "A", "text": "Microsoft" },
+			{ "key": "B", "text": "Sun Microsystems" },
+			{ "key": "C", "text": "IBM" },
+			{ "key": "D", "text": "Oracle Database Team" }
+		],
+		"answer": "B",
+		"reason": "Java EE was originally developed by Sun Microsystems before becoming part of Oracle."
+	},
+	{
+		"id": 32,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "Java EE applications are typically deployed on a:",
+		"options": [
+			{ "key": "A", "text": "Compiler" },
+			{ "key": "B", "text": "Application Server" },
+			{ "key": "C", "text": "Text Editor" },
+			{ "key": "D", "text": "Operating System Kernel" }
+		],
+		"answer": "B",
+		"reason": "Java EE applications run on application servers such as GlassFish, WildFly, and WebLogic."
+	},
+	{
+		"id": 33,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "Which layer is responsible for user interaction in Java EE architecture?",
+		"options": [
+			{ "key": "A", "text": "Data Layer" },
+			{ "key": "B", "text": "Business Layer" },
+			{ "key": "C", "text": "Presentation Layer" },
+			{ "key": "D", "text": "Storage Layer" }
+		],
+		"answer": "C",
+		"reason": "The presentation layer interacts directly with users through web pages and interfaces."
+	},
+	{
+		"id": 34,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "Which layer contains application rules and processing logic?",
+		"options": [
+			{ "key": "A", "text": "Presentation Layer" },
+			{ "key": "B", "text": "Business Layer" },
+			{ "key": "C", "text": "Data Layer" },
+			{ "key": "D", "text": "Network Layer" }
+		],
+		"answer": "B",
+		"reason": "The business layer contains the application's core business logic."
+	},
+	{
+		"id": 35,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "easy",
+		"question": "Which platform provides APIs for enterprise-level applications?",
+		"options": [
+			{ "key": "A", "text": "Java SE" },
+			{ "key": "B", "text": "Java EE" },
+			{ "key": "C", "text": "Java ME" },
+			{ "key": "D", "text": "JDK Only" }
+		],
+		"answer": "B",
+		"reason": "Java EE provides enterprise APIs such as Servlets, JSP, and EJB."
+	},
+	{
+		"id": 36,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "medium",
+		"question": "Which of the following is common to both Java SE and Java EE?",
+		"options": [
+			{ "key": "A", "text": "Servlet API" },
+			{ "key": "B", "text": "JSP" },
+			{ "key": "C", "text": "Collections Framework" },
+			{ "key": "D", "text": "EJB" }
+		],
+		"answer": "C",
+		"reason": "Collections Framework is part of Java SE and is also available in Java EE applications."
+	},
+	{
+		"id": 37,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "easy",
+		"question": "Which package contains JDBC classes and interfaces?",
+		"options": [
+			{ "key": "A", "text": "java.net" },
+			{ "key": "B", "text": "java.sql" },
+			{ "key": "C", "text": "javax.servlet" },
+			{ "key": "D", "text": "java.io" }
+		],
+		"answer": "B",
+		"reason": "Most JDBC interfaces and classes are located in the java.sql package."
+	},
+	{
+		"id": 38,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "medium",
+		"question": "Which JDBC object stores the result of a SELECT query?",
+		"options": [
+			{ "key": "A", "text": "Connection" },
+			{ "key": "B", "text": "Statement" },
+			{ "key": "C", "text": "DriverManager" },
+			{ "key": "D", "text": "ResultSet" }
+		],
+		"answer": "D",
+		"reason": "ResultSet contains the rows returned by a SQL SELECT statement."
+	},
+	{
+		"id": 39,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "medium",
+		"question": "Which class is commonly used to establish a database connection in JDBC?",
+		"options": [
+			{ "key": "A", "text": "ConnectionManager" },
+			{ "key": "B", "text": "DriverManager" },
+			{ "key": "C", "text": "StatementManager" },
+			{ "key": "D", "text": "DBConnector" }
+		],
+		"answer": "B",
+		"reason": "DriverManager is commonly used to obtain database connections."
+	},
+	{
+		"id": 40,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "hard",
+		"question": "Which JDBC interface is preferred for executing parameterized SQL queries?",
+		"options": [
+			{ "key": "A", "text": "Statement" },
+			{ "key": "B", "text": "CallableStatement" },
+			{ "key": "C", "text": "PreparedStatement" },
+			{ "key": "D", "text": "ResultSet" }
+		],
+		"answer": "C",
+		"reason": "PreparedStatement supports parameters, improves performance, and helps prevent SQL injection."
+	},
+	{
+		"id": 41,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "easy",
+		"question": "JSP pages are executed on the:",
+		"options": [
+			{ "key": "A", "text": "Client Browser" },
+			{ "key": "B", "text": "Server" },
+			{ "key": "C", "text": "Database Server Only" },
+			{ "key": "D", "text": "Operating System" }
+		],
+		"answer": "B",
+		"reason": "JSP pages are processed on the server before HTML is sent to the client."
+	},
+	{
+		"id": 42,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "medium",
+		"question": "What is the output of a JSP page sent to the browser?",
+		"options": [
+			{ "key": "A", "text": "Java Source Code" },
+			{ "key": "B", "text": "Bytecode" },
+			{ "key": "C", "text": "HTML Content" },
+			{ "key": "D", "text": "SQL Statements" }
+		],
+		"answer": "C",
+		"reason": "JSP generates dynamic HTML content that is rendered by the browser."
+	},
+	{
+		"id": 43,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "medium",
+		"question": "Which JSP tag is used to print an expression's value?",
+		"options": [
+			{ "key": "A", "text": "<% %>" },
+			{ "key": "B", "text": "<%! %>" },
+			{ "key": "C", "text": "<%= %>" },
+			{ "key": "D", "text": "<jsp:param>" }
+		],
+		"answer": "C",
+		"reason": "Expression tags (<%= %>) output the evaluated result directly to the response."
+	},
+	{
+		"id": 44,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "easy",
+		"question": "Which protocol do servlets commonly handle?",
+		"options": [
+			{ "key": "A", "text": "FTP" },
+			{ "key": "B", "text": "SMTP" },
+			{ "key": "C", "text": "HTTP" },
+			{ "key": "D", "text": "Bluetooth" }
+		],
+		"answer": "C",
+		"reason": "Servlets are primarily used to process HTTP requests and responses."
+	},
+	{
+		"id": 45,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "medium",
+		"question": "Which servlet method is called only once during the servlet lifecycle initialization?",
+		"options": [
+			{ "key": "A", "text": "destroy()" },
+			{ "key": "B", "text": "service()" },
+			{ "key": "C", "text": "doGet()" },
+			{ "key": "D", "text": "init()" }
+		],
+		"answer": "D",
+		"reason": "The init() method is called once when the servlet is first loaded."
+	},
+	{
+		"id": 46,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "medium",
+		"question": "Which object contains data sent by the client to a servlet?",
+		"options": [
+			{ "key": "A", "text": "HttpServletRequest" },
+			{ "key": "B", "text": "HttpServletResponse" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "ServletContext" }
+		],
+		"answer": "A",
+		"reason": "HttpServletRequest encapsulates all information sent from the client."
+	},
+	{
+		"id": 47,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JSP, Servlet and JDBC",
+		"difficulty": "medium",
+		"question": "Which component typically forwards data to a JSP page after processing?",
+		"options": [
+			{ "key": "A", "text": "JDBC Driver" },
+			{ "key": "B", "text": "Database" },
+			{ "key": "C", "text": "Servlet" },
+			{ "key": "D", "text": "Browser" }
+		],
+		"answer": "C",
+		"reason": "Servlets process requests and forward data to JSP pages for display."
+	},
+	{
+		"id": 48,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JSP, Servlet and JDBC",
+		"difficulty": "hard",
+		"question": "In a typical Java EE application, which component should directly interact with the database?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "HTML" },
+			{ "key": "C", "text": "JDBC" },
+			{ "key": "D", "text": "CSS" }
+		],
+		"answer": "C",
+		"reason": "JDBC provides the APIs necessary for database communication and operations."
+	},
+	{
+		"id": 49,
+		"subject": "Advance Java with Web Application",
+		"topic": "Web Applications",
+		"difficulty": "hard",
+		"question": "Which component is mainly responsible for separating presentation from business logic?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "MVC Architecture" },
+			{ "key": "C", "text": "JDBC" },
+			{ "key": "D", "text": "HTML Forms" }
+		],
+		"answer": "B",
+		"reason": "MVC separates the Model, View, and Controller responsibilities, improving maintainability."
+	},
+	{
+		"id": 50,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which sequence best describes a request-response cycle in a Java EE web application?",
+		"options": [
+			{ "key": "A", "text": "Browser → JSP → JDBC → Servlet → Browser" },
+			{ "key": "B", "text": "Browser → Servlet → JDBC → JSP → Browser" },
+			{ "key": "C", "text": "JDBC → Browser → Servlet → JSP → Browser" },
+			{ "key": "D", "text": "Servlet → Browser → JSP → JDBC → Browser" }
+		],
+		"answer": "B",
+		"reason": "The browser sends a request to a servlet, which may access a database via JDBC, forward data to a JSP, and then return the response to the browser."
+	},
+	{
+		"id": 51,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "What is the full form of JSP?",
+		"options": [
+			{ "key": "A", "text": "Java Service Pages" },
+			{ "key": "B", "text": "JavaServer Pages" },
+			{ "key": "C", "text": "Java Servlet Pages" },
+			{ "key": "D", "text": "Java Source Pages" }
+		],
+		"answer": "B",
+		"reason": "JSP stands for JavaServer Pages and is used to create dynamic web pages."
+	},
+	{
+		"id": 52,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "What is the full form of JDBC?",
+		"options": [
+			{ "key": "A", "text": "Java Dynamic Base Connectivity" },
+			{ "key": "B", "text": "Java Database Connectivity" },
+			{ "key": "C", "text": "Java Data Browser Connector" },
+			{ "key": "D", "text": "Java Database Controller" }
+		],
+		"answer": "B",
+		"reason": "JDBC stands for Java Database Connectivity."
+	},
+	{
+		"id": 53,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "Java EE applications are generally accessed through a:",
+		"options": [
+			{ "key": "A", "text": "Compiler" },
+			{ "key": "B", "text": "Web Browser" },
+			{ "key": "C", "text": "Debugger" },
+			{ "key": "D", "text": "Text Editor" }
+		],
+		"answer": "B",
+		"reason": "Users typically access Java EE web applications through a web browser."
+	},
+	{
+		"id": 54,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "Which component usually belongs to the presentation layer?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "JDBC" },
+			{ "key": "C", "text": "Database" },
+			{ "key": "D", "text": "DriverManager" }
+		],
+		"answer": "A",
+		"reason": "JSP is responsible for displaying information to users."
+	},
+	{
+		"id": 55,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "Which layer is responsible for storing data permanently?",
+		"options": [
+			{ "key": "A", "text": "Presentation Layer" },
+			{ "key": "B", "text": "Business Layer" },
+			{ "key": "C", "text": "Data Layer" },
+			{ "key": "D", "text": "Application Layer" }
+		],
+		"answer": "C",
+		"reason": "The data layer manages data storage and retrieval."
+	},
+	{
+		"id": 56,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "easy",
+		"question": "Which platform provides support for web applications?",
+		"options": [
+			{ "key": "A", "text": "Java EE" },
+			{ "key": "B", "text": "Java SE Only" },
+			{ "key": "C", "text": "JRE Only" },
+			{ "key": "D", "text": "JVM Only" }
+		],
+		"answer": "A",
+		"reason": "Java EE includes APIs and specifications for web and enterprise applications."
+	},
+	{
+		"id": 57,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "medium",
+		"question": "Which of these is an enterprise technology?",
+		"options": [
+			{ "key": "A", "text": "Servlet" },
+			{ "key": "B", "text": "ArrayList" },
+			{ "key": "C", "text": "StringBuilder" },
+			{ "key": "D", "text": "Scanner" }
+		],
+		"answer": "A",
+		"reason": "Servlets are enterprise/web technologies included in Java EE."
+	},
+	{
+		"id": 58,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "easy",
+		"question": "Which JDBC interface represents query results?",
+		"options": [
+			{ "key": "A", "text": "Connection" },
+			{ "key": "B", "text": "ResultSet" },
+			{ "key": "C", "text": "Statement" },
+			{ "key": "D", "text": "Driver" }
+		],
+		"answer": "B",
+		"reason": "ResultSet stores and provides access to rows returned by a query."
+	},
+	{
+		"id": 59,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "medium",
+		"question": "Which method is commonly used to execute a SELECT query?",
+		"options": [
+			{ "key": "A", "text": "executeUpdate()" },
+			{ "key": "B", "text": "executeSelect()" },
+			{ "key": "C", "text": "executeQuery()" },
+			{ "key": "D", "text": "queryExecute()" }
+		],
+		"answer": "C",
+		"reason": "executeQuery() is used for SQL statements that return a ResultSet."
+	},
+	{
+		"id": 60,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "medium",
+		"question": "Which method is used for INSERT, UPDATE, and DELETE operations?",
+		"options": [
+			{ "key": "A", "text": "executeQuery()" },
+			{ "key": "B", "text": "executeUpdate()" },
+			{ "key": "C", "text": "executeSelect()" },
+			{ "key": "D", "text": "executeFetch()" }
+		],
+		"answer": "B",
+		"reason": "executeUpdate() returns the number of affected rows."
+	},
+	{
+		"id": 61,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "hard",
+		"question": "Which JDBC component helps prevent SQL Injection attacks?",
+		"options": [
+			{ "key": "A", "text": "Statement" },
+			{ "key": "B", "text": "ResultSet" },
+			{ "key": "C", "text": "PreparedStatement" },
+			{ "key": "D", "text": "DriverManager" }
+		],
+		"answer": "C",
+		"reason": "PreparedStatement uses parameterized queries, reducing SQL injection risks."
+	},
+	{
+		"id": 62,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "easy",
+		"question": "JSP pages are translated into which component before execution?",
+		"options": [
+			{ "key": "A", "text": "Applet" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "Bean" },
+			{ "key": "D", "text": "Driver" }
+		],
+		"answer": "B",
+		"reason": "The JSP container converts JSP pages into servlets."
+	},
+	{
+		"id": 63,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "medium",
+		"question": "Which JSP tag is used to declare variables and methods?",
+		"options": [
+			{ "key": "A", "text": "<%= %>" },
+			{ "key": "B", "text": "<%! %>" },
+			{ "key": "C", "text": "<% %>" },
+			{ "key": "D", "text": "<jsp:useBean>" }
+		],
+		"answer": "B",
+		"reason": "Declaration tags (<%! %>) are used to declare variables and methods."
+	},
+	{
+		"id": 64,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "medium",
+		"question": "Which object is implicitly available in JSP for sending output to the client?",
+		"options": [
+			{ "key": "A", "text": "request" },
+			{ "key": "B", "text": "response" },
+			{ "key": "C", "text": "out" },
+			{ "key": "D", "text": "session" }
+		],
+		"answer": "C",
+		"reason": "The out object is used to write content to the response."
+	},
+	{
+		"id": 65,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "easy",
+		"question": "Which servlet method handles POST requests?",
+		"options": [
+			{ "key": "A", "text": "doGet()" },
+			{ "key": "B", "text": "doPost()" },
+			{ "key": "C", "text": "servicePost()" },
+			{ "key": "D", "text": "initPost()" }
+		],
+		"answer": "B",
+		"reason": "doPost() processes HTTP POST requests."
+	},
+	{
+		"id": 66,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "medium",
+		"question": "Which method is called when a servlet is removed from service?",
+		"options": [
+			{ "key": "A", "text": "service()" },
+			{ "key": "B", "text": "destroy()" },
+			{ "key": "C", "text": "remove()" },
+			{ "key": "D", "text": "close()" }
+		],
+		"answer": "B",
+		"reason": "destroy() is called before the servlet is unloaded."
+	},
+	{
+		"id": 67,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "medium",
+		"question": "Which object is used to send data back to the client?",
+		"options": [
+			{ "key": "A", "text": "HttpServletRequest" },
+			{ "key": "B", "text": "HttpServletResponse" },
+			{ "key": "C", "text": "ServletContext" },
+			{ "key": "D", "text": "ServletConfig" }
+		],
+		"answer": "B",
+		"reason": "HttpServletResponse is used to generate and send responses."
+	},
+	{
+		"id": 68,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlet Lifecycle",
+		"difficulty": "hard",
+		"question": "What is the correct order of servlet lifecycle methods?",
+		"options": [
+			{ "key": "A", "text": "service() → init() → destroy()" },
+			{ "key": "B", "text": "init() → service() → destroy()" },
+			{ "key": "C", "text": "destroy() → init() → service()" },
+			{ "key": "D", "text": "init() → destroy() → service()" }
+		],
+		"answer": "B",
+		"reason": "A servlet is initialized, services requests, and is eventually destroyed."
+	},
+	{
+		"id": 69,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JDBC",
+		"difficulty": "easy",
+		"question": "JDBC acts as a bridge between Java applications and:",
+		"options": [
+			{ "key": "A", "text": "Web Browsers" },
+			{ "key": "B", "text": "Databases" },
+			{ "key": "C", "text": "Compilers" },
+			{ "key": "D", "text": "Operating Systems" }
+		],
+		"answer": "B",
+		"reason": "JDBC enables Java programs to communicate with databases."
+	},
+	{
+		"id": 70,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JSP",
+		"difficulty": "easy",
+		"question": "Which technology is mainly responsible for the View in MVC?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "JDBC" },
+			{ "key": "C", "text": "Servlet" },
+			{ "key": "D", "text": "DriverManager" }
+		],
+		"answer": "A",
+		"reason": "JSP is commonly used as the View component."
+	},
+	{
+		"id": 71,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of Servlets",
+		"difficulty": "medium",
+		"question": "In MVC architecture, servlets generally act as:",
+		"options": [
+			{ "key": "A", "text": "Model" },
+			{ "key": "B", "text": "View" },
+			{ "key": "C", "text": "Controller" },
+			{ "key": "D", "text": "Database" }
+		],
+		"answer": "C",
+		"reason": "Servlets process requests and coordinate between model and view."
+	},
+	{
+		"id": 72,
+		"subject": "Advance Java with Web Application",
+		"topic": "Web Applications",
+		"difficulty": "medium",
+		"question": "Which file extension is commonly used for JSP files?",
+		"options": [
+			{ "key": "A", "text": ".jsp" },
+			{ "key": "B", "text": ".servlet" },
+			{ "key": "C", "text": ".javaee" },
+			{ "key": "D", "text": ".jdbc" }
+		],
+		"answer": "A",
+		"reason": "JSP pages use the .jsp file extension."
+	},
+	{
+		"id": 73,
+		"subject": "Advance Java with Web Application",
+		"topic": "Web Applications",
+		"difficulty": "medium",
+		"question": "Which protocol is primarily used between browser and server in Java EE web applications?",
+		"options": [
+			{ "key": "A", "text": "FTP" },
+			{ "key": "B", "text": "SMTP" },
+			{ "key": "C", "text": "HTTP" },
+			{ "key": "D", "text": "POP3" }
+		],
+		"answer": "C",
+		"reason": "HTTP is the standard protocol for web communication."
+	},
+	{
+		"id": 74,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which component is responsible for processing business logic before displaying results?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "HTML" },
+			{ "key": "D", "text": "CSS" }
+		],
+		"answer": "B",
+		"reason": "Servlets typically handle processing and control flow before forwarding data to JSP."
+	},
+	{
+		"id": 75,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which combination correctly follows the MVC pattern in Java EE?",
+		"options": [
+			{ "key": "A", "text": "JDBC-View, JSP-Model, Servlet-Controller" },
+			{ "key": "B", "text": "Servlet-View, JSP-Controller, JDBC-Model" },
+			{ "key": "C", "text": "JDBC-Model, JSP-View, Servlet-Controller" },
+			{ "key": "D", "text": "JSP-Model, JDBC-Controller, Servlet-View" }
+		],
+		"answer": "C",
+		"reason": "JDBC handles data (Model), JSP presents data (View), and Servlet controls request flow (Controller)."
+	},
+	{
+		"id": 76,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "Which of the following is a server-side technology in Java EE?",
+		"options": [
+			{ "key": "A", "text": "HTML" },
+			{ "key": "B", "text": "CSS" },
+			{ "key": "C", "text": "Servlet" },
+			{ "key": "D", "text": "JavaScript" }
+		],
+		"answer": "C",
+		"reason": "Servlets execute on the server and process client requests."
+	},
+	{
+		"id": 77,
+		"subject": "Advance Java with Web Application",
+		"topic": "Introduction to Java EE",
+		"difficulty": "easy",
+		"question": "Which technology is used to create dynamic web pages in Java EE?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "XML" },
+			{ "key": "C", "text": "CSS" },
+			{ "key": "D", "text": "SQL" }
+		],
+		"answer": "A",
+		"reason": "JSP is designed to generate dynamic web content."
+	},
+	{
+		"id": 78,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "Which component acts as an intermediary between the presentation and data layers?",
+		"options": [
+			{ "key": "A", "text": "Business Layer" },
+			{ "key": "B", "text": "Browser Layer" },
+			{ "key": "C", "text": "Database Layer" },
+			{ "key": "D", "text": "Network Layer" }
+		],
+		"answer": "A",
+		"reason": "The business layer processes application logic between presentation and data layers."
+	},
+	{
+		"id": 79,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Architecture",
+		"difficulty": "medium",
+		"question": "A client request in a Java EE application usually starts from:",
+		"options": [
+			{ "key": "A", "text": "Database" },
+			{ "key": "B", "text": "Web Browser" },
+			{ "key": "C", "text": "JDBC Driver" },
+			{ "key": "D", "text": "Servlet Container" }
+		],
+		"answer": "B",
+		"reason": "Users initiate requests through web browsers."
+	},
+	{
+		"id": 80,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "easy",
+		"question": "Which platform contains APIs such as Servlet and JSP?",
+		"options": [
+			{ "key": "A", "text": "Java SE" },
+			{ "key": "B", "text": "Java EE" },
+			{ "key": "C", "text": "Java ME" },
+			{ "key": "D", "text": "JRE" }
+		],
+		"answer": "B",
+		"reason": "Servlet and JSP APIs are part of Java EE."
+	},
+	{
+		"id": 81,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java SE vs Java EE",
+		"difficulty": "medium",
+		"question": "Which Java platform is focused on enterprise-scale solutions?",
+		"options": [
+			{ "key": "A", "text": "Java EE" },
+			{ "key": "B", "text": "Java SE" },
+			{ "key": "C", "text": "Java ME" },
+			{ "key": "D", "text": "JVM" }
+		],
+		"answer": "A",
+		"reason": "Java EE is specifically designed for enterprise and web applications."
+	},
+	{
+		"id": 82,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "easy",
+		"question": "Which JDBC method is used to close a database connection?",
+		"options": [
+			{ "key": "A", "text": "disconnect()" },
+			{ "key": "B", "text": "terminate()" },
+			{ "key": "C", "text": "close()" },
+			{ "key": "D", "text": "end()" }
+		],
+		"answer": "C",
+		"reason": "The close() method releases database resources and closes the connection."
+	},
+	{
+		"id": 83,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "medium",
+		"question": "Which JDBC interface is a child of Statement and supports precompiled SQL?",
+		"options": [
+			{ "key": "A", "text": "Connection" },
+			{ "key": "B", "text": "PreparedStatement" },
+			{ "key": "C", "text": "ResultSet" },
+			{ "key": "D", "text": "Driver" }
+		],
+		"answer": "B",
+		"reason": "PreparedStatement extends Statement and supports parameterized queries."
+	},
+	{
+		"id": 84,
+		"subject": "Advance Java with Web Application",
+		"topic": "JDBC",
+		"difficulty": "hard",
+		"question": "Which JDBC interface is used to call stored procedures?",
+		"options": [
+			{ "key": "A", "text": "PreparedStatement" },
+			{ "key": "B", "text": "CallableStatement" },
+			{ "key": "C", "text": "ResultSet" },
+			{ "key": "D", "text": "Statement" }
+		],
+		"answer": "B",
+		"reason": "CallableStatement is specifically designed for executing stored procedures."
+	},
+	{
+		"id": 85,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "easy",
+		"question": "Which JSP element is used to include Java code fragments?",
+		"options": [
+			{ "key": "A", "text": "Scriptlet" },
+			{ "key": "B", "text": "Directive" },
+			{ "key": "C", "text": "Action Tag" },
+			{ "key": "D", "text": "Comment" }
+		],
+		"answer": "A",
+		"reason": "Scriptlets allow embedding Java code within JSP pages."
+	},
+	{
+		"id": 86,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "medium",
+		"question": "Which JSP directive is commonly used to import Java packages?",
+		"options": [
+			{ "key": "A", "text": "include" },
+			{ "key": "B", "text": "page" },
+			{ "key": "C", "text": "taglib" },
+			{ "key": "D", "text": "importlib" }
+		],
+		"answer": "B",
+		"reason": "The page directive can be used with the import attribute to import Java packages."
+	},
+	{
+		"id": 87,
+		"subject": "Advance Java with Web Application",
+		"topic": "JSP",
+		"difficulty": "medium",
+		"question": "Which JSP tag is used to include another resource at request time?",
+		"options": [
+			{ "key": "A", "text": "<jsp:include>" },
+			{ "key": "B", "text": "<jsp:import>" },
+			{ "key": "C", "text": "<jsp:forward>" },
+			{ "key": "D", "text": "<jsp:param>" }
+		],
+		"answer": "A",
+		"reason": "The jsp:include action includes content dynamically during request processing."
+	},
+	{
+		"id": 88,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "easy",
+		"question": "Which class is commonly extended to create HTTP servlets?",
+		"options": [
+			{ "key": "A", "text": "GenericServlet" },
+			{ "key": "B", "text": "HttpServlet" },
+			{ "key": "C", "text": "ServletConfig" },
+			{ "key": "D", "text": "ServletContext" }
+		],
+		"answer": "B",
+		"reason": "HttpServlet provides methods specifically for handling HTTP requests."
+	},
+	{
+		"id": 89,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "medium",
+		"question": "Which method receives all client requests before dispatching to doGet() or doPost()?",
+		"options": [
+			{ "key": "A", "text": "init()" },
+			{ "key": "B", "text": "service()" },
+			{ "key": "C", "text": "destroy()" },
+			{ "key": "D", "text": "process()" }
+		],
+		"answer": "B",
+		"reason": "The service() method determines the request type and calls the appropriate handler."
+	},
+	{
+		"id": 90,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlets",
+		"difficulty": "medium",
+		"question": "Which object provides access to initialization parameters of a servlet?",
+		"options": [
+			{ "key": "A", "text": "ServletConfig" },
+			{ "key": "B", "text": "HttpServletRequest" },
+			{ "key": "C", "text": "HttpServletResponse" },
+			{ "key": "D", "text": "ResultSet" }
+		],
+		"answer": "A",
+		"reason": "ServletConfig stores servlet-specific configuration information."
+	},
+	{
+		"id": 91,
+		"subject": "Advance Java with Web Application",
+		"topic": "Servlet Lifecycle",
+		"difficulty": "hard",
+		"question": "How many times is init() normally called during a servlet's lifecycle?",
+		"options": [
+			{ "key": "A", "text": "Once" },
+			{ "key": "B", "text": "Twice" },
+			{ "key": "C", "text": "For every request" },
+			{ "key": "D", "text": "Never" }
+		],
+		"answer": "A",
+		"reason": "The servlet container calls init() only once when the servlet is loaded."
+	},
+	{
+		"id": 92,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JDBC",
+		"difficulty": "easy",
+		"question": "Which component is primarily responsible for communicating with the database?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "JDBC" },
+			{ "key": "D", "text": "HTML" }
+		],
+		"answer": "C",
+		"reason": "JDBC provides APIs for interacting with relational databases."
+	},
+	{
+		"id": 93,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of JSP",
+		"difficulty": "easy",
+		"question": "Which technology is mainly used to present dynamic content to users?",
+		"options": [
+			{ "key": "A", "text": "JDBC" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "JSP" },
+			{ "key": "D", "text": "DriverManager" }
+		],
+		"answer": "C",
+		"reason": "JSP is designed for generating dynamic user interfaces."
+	},
+	{
+		"id": 94,
+		"subject": "Advance Java with Web Application",
+		"topic": "Role of Servlets",
+		"difficulty": "medium",
+		"question": "Which component usually receives form data submitted by a user?",
+		"options": [
+			{ "key": "A", "text": "Database" },
+			{ "key": "B", "text": "Servlet" },
+			{ "key": "C", "text": "JSP" },
+			{ "key": "D", "text": "JDBC Driver" }
+		],
+		"answer": "B",
+		"reason": "Servlets commonly handle incoming form requests and process user input."
+	},
+	{
+		"id": 95,
+		"subject": "Advance Java with Web Application",
+		"topic": "Web Applications",
+		"difficulty": "medium",
+		"question": "What is the default port number for HTTP?",
+		"options": [
+			{ "key": "A", "text": "21" },
+			{ "key": "B", "text": "80" },
+			{ "key": "C", "text": "443" },
+			{ "key": "D", "text": "8086" }
+		],
+		"answer": "B",
+		"reason": "HTTP commonly uses port 80 by default."
+	},
+	{
+		"id": 96,
+		"subject": "Advance Java with Web Application",
+		"topic": "Web Applications",
+		"difficulty": "medium",
+		"question": "Which protocol is the secure version of HTTP?",
+		"options": [
+			{ "key": "A", "text": "FTP" },
+			{ "key": "B", "text": "SMTP" },
+			{ "key": "C", "text": "HTTPS" },
+			{ "key": "D", "text": "TCP" }
+		],
+		"answer": "C",
+		"reason": "HTTPS uses SSL/TLS encryption to secure web communications."
+	},
+	{
+		"id": 97,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which technology combination best represents a simple Java EE MVC application?",
+		"options": [
+			{ "key": "A", "text": "JSP, Servlet, JDBC" },
+			{ "key": "B", "text": "HTML, CSS, JavaScript" },
+			{ "key": "C", "text": "JDBC, MySQL, Oracle" },
+			{ "key": "D", "text": "JVM, JRE, JDK" }
+		],
+		"answer": "A",
+		"reason": "A classic Java EE MVC application commonly uses JSP (View), Servlet (Controller), and JDBC (Model/Data Access)."
+	},
+	{
+		"id": 98,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which component typically forwards a request to a JSP after processing?",
+		"options": [
+			{ "key": "A", "text": "Database" },
+			{ "key": "B", "text": "JDBC Driver" },
+			{ "key": "C", "text": "Servlet" },
+			{ "key": "D", "text": "Browser" }
+		],
+		"answer": "C",
+		"reason": "Servlets process requests and then forward data to JSP pages for presentation."
+	},
+	{
+		"id": 99,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which Java EE technology is responsible for both handling requests and controlling application flow?",
+		"options": [
+			{ "key": "A", "text": "JSP" },
+			{ "key": "B", "text": "JDBC" },
+			{ "key": "C", "text": "Servlet" },
+			{ "key": "D", "text": "SQL" }
+		],
+		"answer": "C",
+		"reason": "Servlets act as controllers and manage the flow between views and data access."
+	},
+	{
+		"id": 100,
+		"subject": "Advance Java with Web Application",
+		"topic": "Java EE Overview",
+		"difficulty": "hard",
+		"question": "Which statement correctly describes the relationship among JSP, Servlet, and JDBC?",
+		"options": [
+			{
+				"key": "A",
+				"text": "JSP accesses the database directly while JDBC creates web pages"
+			},
+			{
+				"key": "B",
+				"text": "Servlets present data and JSP manages the database"
+			},
+			{
+				"key": "C",
+				"text": "JSP displays data, Servlets process requests, JDBC handles database operations"
+			},
+			{ "key": "D", "text": "All three perform the same function" }
+		],
+		"answer": "C",
+		"reason": "Each technology has a distinct responsibility: presentation (JSP), request processing (Servlet), and database access (JDBC)."
+	}
+]
