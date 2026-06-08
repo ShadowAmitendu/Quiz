@@ -44,6 +44,26 @@
       {
         "label": "Module 3",
         "file": "Module 3.json"
+      },
+      {
+        "label": "Module 4",
+        "file": "Module 4.json"
+      },
+      {
+        "label": "Module 5",
+        "file": "Module 5.json"
+      },
+      {
+        "label": "Module 6",
+        "file": "Module 6.json"
+      },
+      {
+        "label": "Module 7",
+        "file": "Module 7.json"
+      },
+      {
+        "label": "Module 8",
+        "file": "Module 8.json"
       }
     ]
   }

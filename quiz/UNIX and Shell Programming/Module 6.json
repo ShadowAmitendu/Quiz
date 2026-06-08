@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Basics",
+        "difficulty": "easy",
+        "question": "Which command is primarily used to search for patterns in a file?",
+        "options": [
+            {
+                "key": "A",
+                "text": "grep"
+            },
+            {
+                "key": "B",
+                "text": "cp"
+            },
+            {
+                "key": "C",
+                "text": "mv"
+            },
+            {
+                "key": "D",
+                "text": "chmod"
+            }
+        ],
+        "answer": "A",
+        "reason": "grep is the standard UNIX utility used for searching text patterns in files."
+    },
+    {
+        "id": 2,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Basics",
+        "difficulty": "easy",
+        "question": "Which command searches for the word 'linux' in file.txt?",
+        "options": [
+            {
+                "key": "A",
+                "text": "grep linux file.txt"
+            },
+            {
+                "key": "B",
+                "text": "find linux file.txt"
+            },
+            {
+                "key": "C",
+                "text": "search linux file.txt"
+            },
+            {
+                "key": "D",
+                "text": "awk file.txt linux"
+            }
+        ],
+        "answer": "A",
+        "reason": "The syntax grep pattern filename searches for matching lines."
+    },
+    {
+        "id": 3,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Basics",
+        "difficulty": "easy",
+        "question": "What does grep return by default?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Matching lines"
+            },
+            {
+                "key": "B",
+                "text": "Matching words only"
+            },
+            {
+                "key": "C",
+                "text": "Line numbers only"
+            },
+            {
+                "key": "D",
+                "text": "File size"
+            }
+        ],
+        "answer": "A",
+        "reason": "grep displays complete lines that match the specified pattern."
+    },
+    {
+        "id": 4,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Options",
+        "difficulty": "medium",
+        "question": "Which grep option ignores case while searching?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-n"
+            },
+            {
+                "key": "B",
+                "text": "-v"
+            },
+            {
+                "key": "C",
+                "text": "-i"
+            },
+            {
+                "key": "D",
+                "text": "-c"
+            }
+        ],
+        "answer": "C",
+        "reason": "The -i option performs case-insensitive matching."
+    },
+    {
+        "id": 5,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Options",
+        "difficulty": "medium",
+        "question": "Which grep option displays line numbers along with matching lines?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-l"
+            },
+            {
+                "key": "B",
+                "text": "-n"
+            },
+            {
+                "key": "C",
+                "text": "-v"
+            },
+            {
+                "key": "D",
+                "text": "-i"
+            }
+        ],
+        "answer": "B",
+        "reason": "The -n option prefixes matching lines with line numbers."
+    },
+    {
+        "id": 6,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Options",
+        "difficulty": "medium",
+        "question": "Which grep option displays lines that do NOT match the pattern?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-n"
+            },
+            {
+                "key": "B",
+                "text": "-c"
+            },
+            {
+                "key": "C",
+                "text": "-v"
+            },
+            {
+                "key": "D",
+                "text": "-i"
+            }
+        ],
+        "answer": "C",
+        "reason": "The -v option inverts the match and displays non-matching lines."
+    },
+    {
+        "id": 7,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Options",
+        "difficulty": "hard",
+        "question": "Which grep option counts the number of matching lines?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-c"
+            },
+            {
+                "key": "B",
+                "text": "-i"
+            },
+            {
+                "key": "C",
+                "text": "-v"
+            },
+            {
+                "key": "D",
+                "text": "-n"
+            }
+        ],
+        "answer": "A",
+        "reason": "The -c option displays the count of matching lines."
+    },
+    {
+        "id": 8,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Advanced grep",
+        "difficulty": "medium",
+        "question": "Which symbol represents the beginning of a line in grep regular expressions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "$"
+            },
+            {
+                "key": "B",
+                "text": "^"
+            },
+            {
+                "key": "C",
+                "text": "*"
+            },
+            {
+                "key": "D",
+                "text": "."
+            }
+        ],
+        "answer": "B",
+        "reason": "The ^ anchor matches the beginning of a line."
+    },
+    {
+        "id": 9,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Advanced grep",
+        "difficulty": "medium",
+        "question": "Which symbol represents the end of a line in grep?",
+        "options": [
+            {
+                "key": "A",
+                "text": "^"
+            },
+            {
+                "key": "B",
+                "text": "*"
+            },
+            {
+                "key": "C",
+                "text": "$"
+            },
+            {
+                "key": "D",
+                "text": "."
+            }
+        ],
+        "answer": "C",
+        "reason": "The $ anchor matches the end of a line."
+    },
+    {
+        "id": 10,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Advanced grep",
+        "difficulty": "hard",
+        "question": "What does '.' represent in grep regular expressions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Any single character"
+            },
+            {
+                "key": "B",
+                "text": "End of line"
+            },
+            {
+                "key": "C",
+                "text": "Beginning of line"
+            },
+            {
+                "key": "D",
+                "text": "Space character only"
+            }
+        ],
+        "answer": "A",
+        "reason": "The dot wildcard matches any single character."
+    },
+    {
+        "id": 11,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Basics",
+        "difficulty": "easy",
+        "question": "Which command is used for pattern scanning and text processing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "grep"
+            },
+            {
+                "key": "B",
+                "text": "awk"
+            },
+            {
+                "key": "C",
+                "text": "sort"
+            },
+            {
+                "key": "D",
+                "text": "tee"
+            }
+        ],
+        "answer": "B",
+        "reason": "awk is a powerful text processing and reporting tool."
+    },
+    {
+        "id": 12,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Basics",
+        "difficulty": "easy",
+        "question": "Which statement prints every line of a file using awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "awk '{print}' file.txt"
+            },
+            {
+                "key": "B",
+                "text": "awk '{show}' file.txt"
+            },
+            {
+                "key": "C",
+                "text": "awk '{display}' file.txt"
+            },
+            {
+                "key": "D",
+                "text": "awk '{echo}' file.txt"
+            }
+        ],
+        "answer": "A",
+        "reason": "The print statement outputs records in awk."
+    },
+    {
+        "id": 13,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Print",
+        "difficulty": "easy",
+        "question": "Which awk statement prints the first field of each line?",
+        "options": [
+            {
+                "key": "A",
+                "text": "print $0"
+            },
+            {
+                "key": "B",
+                "text": "print $1"
+            },
+            {
+                "key": "C",
+                "text": "print NF"
+            },
+            {
+                "key": "D",
+                "text": "print NR"
+            }
+        ],
+        "answer": "B",
+        "reason": "The variable $1 refers to the first field."
+    },
+    {
+        "id": 14,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Print",
+        "difficulty": "medium",
+        "question": "What does $0 represent in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "First field"
+            },
+            {
+                "key": "B",
+                "text": "Last field"
+            },
+            {
+                "key": "C",
+                "text": "Entire record/line"
+            },
+            {
+                "key": "D",
+                "text": "Line number"
+            }
+        ],
+        "answer": "C",
+        "reason": "$0 contains the entire current input record."
+    },
+    {
+        "id": 15,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk printf",
+        "difficulty": "medium",
+        "question": "Which awk function provides formatted output?",
+        "options": [
+            {
+                "key": "A",
+                "text": "display()"
+            },
+            {
+                "key": "B",
+                "text": "show()"
+            },
+            {
+                "key": "C",
+                "text": "printf()"
+            },
+            {
+                "key": "D",
+                "text": "format()"
+            }
+        ],
+        "answer": "C",
+        "reason": "printf() allows formatted output similar to the C language."
+    },
+    {
+        "id": 16,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk printf",
+        "difficulty": "hard",
+        "question": "What is the main difference between print and printf in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "printf supports formatting"
+            },
+            {
+                "key": "B",
+                "text": "print supports formatting"
+            },
+            {
+                "key": "C",
+                "text": "No difference"
+            },
+            {
+                "key": "D",
+                "text": "printf only prints numbers"
+            }
+        ],
+        "answer": "A",
+        "reason": "printf provides formatting control while print outputs data directly."
+    },
+    {
+        "id": 17,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Comparison Operators",
+        "difficulty": "easy",
+        "question": "Which operator checks equality in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "="
+            },
+            {
+                "key": "B",
+                "text": "=="
+            },
+            {
+                "key": "C",
+                "text": "!="
+            },
+            {
+                "key": "D",
+                "text": ">="
+            }
+        ],
+        "answer": "B",
+        "reason": "The == operator compares two values for equality."
+    },
+    {
+        "id": 18,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Comparison Operators",
+        "difficulty": "easy",
+        "question": "Which operator means 'not equal to' in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "<>"
+            },
+            {
+                "key": "B",
+                "text": "~"
+            },
+            {
+                "key": "C",
+                "text": "!="
+            },
+            {
+                "key": "D",
+                "text": "=="
+            }
+        ],
+        "answer": "C",
+        "reason": "The != operator checks for inequality."
+    },
+    {
+        "id": 19,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Comparison Operators",
+        "difficulty": "medium",
+        "question": "Which operator checks whether a value is greater than another?",
+        "options": [
+            {
+                "key": "A",
+                "text": "<"
+            },
+            {
+                "key": "B",
+                "text": ">"
+            },
+            {
+                "key": "C",
+                "text": "<="
+            },
+            {
+                "key": "D",
+                "text": "=="
+            }
+        ],
+        "answer": "B",
+        "reason": "The > operator checks for greater-than comparisons."
+    },
+    {
+        "id": 20,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Operators",
+        "difficulty": "easy",
+        "question": "Which operator performs addition in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "+"
+            },
+            {
+                "key": "B",
+                "text": "-"
+            },
+            {
+                "key": "C",
+                "text": "*"
+            },
+            {
+                "key": "D",
+                "text": "/"
+            }
+        ],
+        "answer": "A",
+        "reason": "The + operator performs arithmetic addition."
+    },
+    {
+        "id": 21,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Operators",
+        "difficulty": "easy",
+        "question": "Which operator performs modulus division in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "/"
+            },
+            {
+                "key": "B",
+                "text": "*"
+            },
+            {
+                "key": "C",
+                "text": "%"
+            },
+            {
+                "key": "D",
+                "text": "+"
+            }
+        ],
+        "answer": "C",
+        "reason": "The % operator returns the remainder of division."
+    },
+    {
+        "id": 22,
+        "subject": "UNIX and Shell Programming",
+        "topic": "BEGIN Block",
+        "difficulty": "medium",
+        "question": "When is the BEGIN block executed in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "After processing all records"
+            },
+            {
+                "key": "B",
+                "text": "Before processing input"
+            },
+            {
+                "key": "C",
+                "text": "During processing only"
+            },
+            {
+                "key": "D",
+                "text": "At system startup"
+            }
+        ],
+        "answer": "B",
+        "reason": "The BEGIN block executes before any input records are processed."
+    },
+    {
+        "id": 23,
+        "subject": "UNIX and Shell Programming",
+        "topic": "END Block",
+        "difficulty": "medium",
+        "question": "When is the END block executed in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Before reading input"
+            },
+            {
+                "key": "B",
+                "text": "After processing all input"
+            },
+            {
+                "key": "C",
+                "text": "For each record"
+            },
+            {
+                "key": "D",
+                "text": "At login time"
+            }
+        ],
+        "answer": "B",
+        "reason": "The END block runs after all input records have been processed."
+    },
+    {
+        "id": 24,
+        "subject": "UNIX and Shell Programming",
+        "topic": "BEGIN and END",
+        "difficulty": "hard",
+        "question": "Which awk structure is valid?",
+        "options": [
+            {
+                "key": "A",
+                "text": "BEGIN { } pattern { } END { }"
+            },
+            {
+                "key": "B",
+                "text": "START { } STOP { }"
+            },
+            {
+                "key": "C",
+                "text": "FIRST { } LAST { }"
+            },
+            {
+                "key": "D",
+                "text": "OPEN { } CLOSE { }"
+            }
+        ],
+        "answer": "A",
+        "reason": "BEGIN and END are special awk blocks."
+    },
+    {
+        "id": 25,
+        "subject": "UNIX and Shell Programming",
+        "topic": "if-else",
+        "difficulty": "easy",
+        "question": "Which statement is used for decision making in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "switch"
+            },
+            {
+                "key": "B",
+                "text": "if"
+            },
+            {
+                "key": "C",
+                "text": "goto"
+            },
+            {
+                "key": "D",
+                "text": "repeat"
+            }
+        ],
+        "answer": "B",
+        "reason": "The if statement is used for conditional execution."
+    },
+    {
+        "id": 26,
+        "subject": "UNIX and Shell Programming",
+        "topic": "if-else",
+        "difficulty": "medium",
+        "question": "Which keyword is used for the alternative branch of an if statement?",
+        "options": [
+            {
+                "key": "A",
+                "text": "otherwise"
+            },
+            {
+                "key": "B",
+                "text": "elseif"
+            },
+            {
+                "key": "C",
+                "text": "else"
+            },
+            {
+                "key": "D",
+                "text": "alternate"
+            }
+        ],
+        "answer": "C",
+        "reason": "The else keyword executes when the condition is false."
+    },
+    {
+        "id": 27,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Built-in Variables",
+        "difficulty": "easy",
+        "question": "What does FS stand for in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "File Size"
+            },
+            {
+                "key": "B",
+                "text": "Field Separator"
+            },
+            {
+                "key": "C",
+                "text": "File Search"
+            },
+            {
+                "key": "D",
+                "text": "Format String"
+            }
+        ],
+        "answer": "B",
+        "reason": "FS is the built-in variable used as the input field separator."
+    },
+    {
+        "id": 28,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Built-in Variables",
+        "difficulty": "medium",
+        "question": "What does OFS stand for in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Output File Size"
+            },
+            {
+                "key": "B",
+                "text": "Output Format String"
+            },
+            {
+                "key": "C",
+                "text": "Output Field Separator"
+            },
+            {
+                "key": "D",
+                "text": "Output Field Search"
+            }
+        ],
+        "answer": "C",
+        "reason": "OFS controls how output fields are separated."
+    },
+    {
+        "id": 29,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Built-in Variables",
+        "difficulty": "hard",
+        "question": "Which variable stores the current record number?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NF"
+            },
+            {
+                "key": "B",
+                "text": "NR"
+            },
+            {
+                "key": "C",
+                "text": "FS"
+            },
+            {
+                "key": "D",
+                "text": "OFS"
+            }
+        ],
+        "answer": "B",
+        "reason": "NR contains the current input record number."
+    },
+    {
+        "id": 30,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Built-in Variables",
+        "difficulty": "hard",
+        "question": "Which variable stores the number of fields in the current record?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NR"
+            },
+            {
+                "key": "B",
+                "text": "FS"
+            },
+            {
+                "key": "C",
+                "text": "NF"
+            },
+            {
+                "key": "D",
+                "text": "OFS"
+            }
+        ],
+        "answer": "C",
+        "reason": "NF contains the total number of fields in the current record."
+    },
+    {
+        "id": 31,
+        "subject": "UNIX and Shell Programming",
+        "topic": "String Functions",
+        "difficulty": "medium",
+        "question": "Which awk function returns the length of a string?",
+        "options": [
+            {
+                "key": "A",
+                "text": "size()"
+            },
+            {
+                "key": "B",
+                "text": "count()"
+            },
+            {
+                "key": "C",
+                "text": "length()"
+            },
+            {
+                "key": "D",
+                "text": "strlen()"
+            }
+        ],
+        "answer": "C",
+        "reason": "The length() function returns the length of a string."
+    },
+    {
+        "id": 32,
+        "subject": "UNIX and Shell Programming",
+        "topic": "String Functions",
+        "difficulty": "medium",
+        "question": "Which function converts text to uppercase?",
+        "options": [
+            {
+                "key": "A",
+                "text": "toupper()"
+            },
+            {
+                "key": "B",
+                "text": "upper()"
+            },
+            {
+                "key": "C",
+                "text": "ucase()"
+            },
+            {
+                "key": "D",
+                "text": "caps()"
+            }
+        ],
+        "answer": "A",
+        "reason": "toupper() converts all characters to uppercase."
+    },
+    {
+        "id": 33,
+        "subject": "UNIX and Shell Programming",
+        "topic": "String Functions",
+        "difficulty": "hard",
+        "question": "Which function converts text to lowercase?",
+        "options": [
+            {
+                "key": "A",
+                "text": "lower()"
+            },
+            {
+                "key": "B",
+                "text": "tolower()"
+            },
+            {
+                "key": "C",
+                "text": "lcase()"
+            },
+            {
+                "key": "D",
+                "text": "downcase()"
+            }
+        ],
+        "answer": "B",
+        "reason": "tolower() converts all characters to lowercase."
+    },
+    {
+        "id": 34,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Functions",
+        "difficulty": "medium",
+        "question": "Which function returns the square root of a number?",
+        "options": [
+            {
+                "key": "A",
+                "text": "sqrt()"
+            },
+            {
+                "key": "B",
+                "text": "root()"
+            },
+            {
+                "key": "C",
+                "text": "pow()"
+            },
+            {
+                "key": "D",
+                "text": "square()"
+            }
+        ],
+        "answer": "A",
+        "reason": "sqrt() returns the square root of a numeric value."
+    },
+    {
+        "id": 35,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Loops",
+        "difficulty": "easy",
+        "question": "Which loop is supported in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "for"
+            },
+            {
+                "key": "B",
+                "text": "while"
+            },
+            {
+                "key": "C",
+                "text": "do-while"
+            },
+            {
+                "key": "D",
+                "text": "All of these"
+            }
+        ],
+        "answer": "D",
+        "reason": "awk supports for, while, and do-while loops."
+    },
+    {
+        "id": 36,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Loops",
+        "difficulty": "medium",
+        "question": "Which loop is commonly used when the number of iterations is known?",
+        "options": [
+            {
+                "key": "A",
+                "text": "while"
+            },
+            {
+                "key": "B",
+                "text": "for"
+            },
+            {
+                "key": "C",
+                "text": "repeat"
+            },
+            {
+                "key": "D",
+                "text": "until"
+            }
+        ],
+        "answer": "B",
+        "reason": "The for loop is generally used when the iteration count is known."
+    },
+    {
+        "id": 37,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Loops",
+        "difficulty": "hard",
+        "question": "Which keyword exits a loop immediately in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "stop"
+            },
+            {
+                "key": "B",
+                "text": "continue"
+            },
+            {
+                "key": "C",
+                "text": "break"
+            },
+            {
+                "key": "D",
+                "text": "exitloop"
+            }
+        ],
+        "answer": "C",
+        "reason": "The break statement terminates the nearest loop."
+    },
+    {
+        "id": 38,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Searching Functions",
+        "difficulty": "medium",
+        "question": "Which awk function searches for a substring within a string?",
+        "options": [
+            {
+                "key": "A",
+                "text": "index()"
+            },
+            {
+                "key": "B",
+                "text": "find()"
+            },
+            {
+                "key": "C",
+                "text": "search()"
+            },
+            {
+                "key": "D",
+                "text": "locate()"
+            }
+        ],
+        "answer": "A",
+        "reason": "index() returns the position of a substring within a string."
+    },
+    {
+        "id": 39,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Substitute Functions",
+        "difficulty": "hard",
+        "question": "Which awk function replaces the first occurrence of a pattern in a string?",
+        "options": [
+            {
+                "key": "A",
+                "text": "replace()"
+            },
+            {
+                "key": "B",
+                "text": "sub()"
+            },
+            {
+                "key": "C",
+                "text": "gsub()"
+            },
+            {
+                "key": "D",
+                "text": "swap()"
+            }
+        ],
+        "answer": "B",
+        "reason": "sub() replaces only the first occurrence of a pattern."
+    },
+    {
+        "id": 40,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Substitute Functions",
+        "difficulty": "hard",
+        "question": "Which awk function replaces all occurrences of a pattern in a string?",
+        "options": [
+            {
+                "key": "A",
+                "text": "sub()"
+            },
+            {
+                "key": "B",
+                "text": "replaceall()"
+            },
+            {
+                "key": "C",
+                "text": "gsub()"
+            },
+            {
+                "key": "D",
+                "text": "change()"
+            }
+        ],
+        "answer": "C",
+        "reason": "gsub() performs global substitution, replacing all occurrences of a pattern."
+    },
+    {
+        "id": 41,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Advanced",
+        "difficulty": "medium",
+        "question": "Which grep option displays only the names of files containing matches?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-n"
+            },
+            {
+                "key": "B",
+                "text": "-l"
+            },
+            {
+                "key": "C",
+                "text": "-c"
+            },
+            {
+                "key": "D",
+                "text": "-v"
+            }
+        ],
+        "answer": "B",
+        "reason": "The -l option lists filenames that contain matching patterns."
+    },
+    {
+        "id": 42,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Advanced",
+        "difficulty": "medium",
+        "question": "Which grep option performs recursive searching in directories?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-r"
+            },
+            {
+                "key": "B",
+                "text": "-i"
+            },
+            {
+                "key": "C",
+                "text": "-n"
+            },
+            {
+                "key": "D",
+                "text": "-v"
+            }
+        ],
+        "answer": "A",
+        "reason": "The -r option searches files recursively in directories."
+    },
+    {
+        "id": 43,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Regular Expressions",
+        "difficulty": "hard",
+        "question": "What does the '*' symbol represent in grep regular expressions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "One or more occurrences"
+            },
+            {
+                "key": "B",
+                "text": "Zero or more occurrences"
+            },
+            {
+                "key": "C",
+                "text": "Exactly one occurrence"
+            },
+            {
+                "key": "D",
+                "text": "End of line"
+            }
+        ],
+        "answer": "B",
+        "reason": "The * operator matches zero or more occurrences of the preceding character."
+    },
+    {
+        "id": 44,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Regular Expressions",
+        "difficulty": "hard",
+        "question": "Which pattern matches lines containing the word 'unix' at the beginning?",
+        "options": [
+            {
+                "key": "A",
+                "text": "unix$"
+            },
+            {
+                "key": "B",
+                "text": "^unix"
+            },
+            {
+                "key": "C",
+                "text": ".unix"
+            },
+            {
+                "key": "D",
+                "text": "*unix"
+            }
+        ],
+        "answer": "B",
+        "reason": "The ^ symbol anchors the pattern at the beginning of a line."
+    },
+    {
+        "id": 45,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Fields",
+        "difficulty": "easy",
+        "question": "Which variable represents the second field in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "$0"
+            },
+            {
+                "key": "B",
+                "text": "$1"
+            },
+            {
+                "key": "C",
+                "text": "$2"
+            },
+            {
+                "key": "D",
+                "text": "NF"
+            }
+        ],
+        "answer": "C",
+        "reason": "$2 refers to the second field of the current record."
+    },
+    {
+        "id": 46,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Fields",
+        "difficulty": "easy",
+        "question": "Which variable refers to the last field of the current record?",
+        "options": [
+            {
+                "key": "A",
+                "text": "$NF"
+            },
+            {
+                "key": "B",
+                "text": "$NR"
+            },
+            {
+                "key": "C",
+                "text": "$0"
+            },
+            {
+                "key": "D",
+                "text": "$FS"
+            }
+        ],
+        "answer": "A",
+        "reason": "NF contains the number of fields, so $NF refers to the last field."
+    },
+    {
+        "id": 47,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Print",
+        "difficulty": "medium",
+        "question": "What is the output of 'awk {print NR}' file.txt?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Field numbers"
+            },
+            {
+                "key": "B",
+                "text": "Record numbers"
+            },
+            {
+                "key": "C",
+                "text": "File names"
+            },
+            {
+                "key": "D",
+                "text": "Characters count"
+            }
+        ],
+        "answer": "B",
+        "reason": "NR stores the current record number."
+    },
+    {
+        "id": 48,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Print",
+        "difficulty": "medium",
+        "question": "Which statement prints the first and third fields?",
+        "options": [
+            {
+                "key": "A",
+                "text": "print $1,$3"
+            },
+            {
+                "key": "B",
+                "text": "print $1+$3"
+            },
+            {
+                "key": "C",
+                "text": "print $13"
+            },
+            {
+                "key": "D",
+                "text": "print 1,3"
+            }
+        ],
+        "answer": "A",
+        "reason": "Fields are referenced using $ followed by the field number."
+    },
+    {
+        "id": 49,
+        "subject": "UNIX and Shell Programming",
+        "topic": "printf",
+        "difficulty": "medium",
+        "question": "Which format specifier prints an integer in awk printf?",
+        "options": [
+            {
+                "key": "A",
+                "text": "%s"
+            },
+            {
+                "key": "B",
+                "text": "%f"
+            },
+            {
+                "key": "C",
+                "text": "%d"
+            },
+            {
+                "key": "D",
+                "text": "%c"
+            }
+        ],
+        "answer": "C",
+        "reason": "%d is used for integer formatting."
+    },
+    {
+        "id": 50,
+        "subject": "UNIX and Shell Programming",
+        "topic": "printf",
+        "difficulty": "medium",
+        "question": "Which format specifier prints a floating-point number?",
+        "options": [
+            {
+                "key": "A",
+                "text": "%d"
+            },
+            {
+                "key": "B",
+                "text": "%f"
+            },
+            {
+                "key": "C",
+                "text": "%s"
+            },
+            {
+                "key": "D",
+                "text": "%x"
+            }
+        ],
+        "answer": "B",
+        "reason": "%f is used for floating-point values."
+    },
+    {
+        "id": 51,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Comparison Operators",
+        "difficulty": "easy",
+        "question": "Which operator checks whether a value is less than another?",
+        "options": [
+            {
+                "key": "A",
+                "text": ">"
+            },
+            {
+                "key": "B",
+                "text": "<"
+            },
+            {
+                "key": "C",
+                "text": ">="
+            },
+            {
+                "key": "D",
+                "text": "=="
+            }
+        ],
+        "answer": "B",
+        "reason": "The < operator tests for less-than comparisons."
+    },
+    {
+        "id": 52,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Comparison Operators",
+        "difficulty": "medium",
+        "question": "Which operator checks whether a value is greater than or equal to another?",
+        "options": [
+            {
+                "key": "A",
+                "text": "<="
+            },
+            {
+                "key": "B",
+                "text": "=="
+            },
+            {
+                "key": "C",
+                "text": ">="
+            },
+            {
+                "key": "D",
+                "text": "!="
+            }
+        ],
+        "answer": "C",
+        "reason": "The >= operator tests for greater-than-or-equal conditions."
+    },
+    {
+        "id": 53,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Operators",
+        "difficulty": "easy",
+        "question": "Which operator performs multiplication in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "*"
+            },
+            {
+                "key": "B",
+                "text": "/"
+            },
+            {
+                "key": "C",
+                "text": "%"
+            },
+            {
+                "key": "D",
+                "text": "+"
+            }
+        ],
+        "answer": "A",
+        "reason": "The * operator is used for multiplication."
+    },
+    {
+        "id": 54,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Operators",
+        "difficulty": "easy",
+        "question": "Which operator performs division?",
+        "options": [
+            {
+                "key": "A",
+                "text": "*"
+            },
+            {
+                "key": "B",
+                "text": "%"
+            },
+            {
+                "key": "C",
+                "text": "/"
+            },
+            {
+                "key": "D",
+                "text": "+"
+            }
+        ],
+        "answer": "C",
+        "reason": "The / operator performs arithmetic division."
+    },
+    {
+        "id": 55,
+        "subject": "UNIX and Shell Programming",
+        "topic": "BEGIN Block",
+        "difficulty": "medium",
+        "question": "Which block is commonly used to initialize variables in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "START"
+            },
+            {
+                "key": "B",
+                "text": "BEGIN"
+            },
+            {
+                "key": "C",
+                "text": "INIT"
+            },
+            {
+                "key": "D",
+                "text": "FIRST"
+            }
+        ],
+        "answer": "B",
+        "reason": "The BEGIN block executes before input processing begins."
+    },
+    {
+        "id": 56,
+        "subject": "UNIX and Shell Programming",
+        "topic": "END Block",
+        "difficulty": "medium",
+        "question": "Which block is commonly used to print summaries after processing all records?",
+        "options": [
+            {
+                "key": "A",
+                "text": "BEGIN"
+            },
+            {
+                "key": "B",
+                "text": "PROCESS"
+            },
+            {
+                "key": "C",
+                "text": "END"
+            },
+            {
+                "key": "D",
+                "text": "FINALIZE"
+            }
+        ],
+        "answer": "C",
+        "reason": "The END block is executed after all input records are processed."
+    },
+    {
+        "id": 57,
+        "subject": "UNIX and Shell Programming",
+        "topic": "if-else",
+        "difficulty": "medium",
+        "question": "Which keyword starts a conditional statement in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "when"
+            },
+            {
+                "key": "B",
+                "text": "if"
+            },
+            {
+                "key": "C",
+                "text": "switch"
+            },
+            {
+                "key": "D",
+                "text": "case"
+            }
+        ],
+        "answer": "B",
+        "reason": "The if keyword is used for conditional execution."
+    },
+    {
+        "id": 58,
+        "subject": "UNIX and Shell Programming",
+        "topic": "if-else",
+        "difficulty": "hard",
+        "question": "Which statement executes when the condition in an if statement is false?",
+        "options": [
+            {
+                "key": "A",
+                "text": "otherwise"
+            },
+            {
+                "key": "B",
+                "text": "default"
+            },
+            {
+                "key": "C",
+                "text": "else"
+            },
+            {
+                "key": "D",
+                "text": "alternate"
+            }
+        ],
+        "answer": "C",
+        "reason": "The else block handles the false branch of a condition."
+    },
+    {
+        "id": 59,
+        "subject": "UNIX and Shell Programming",
+        "topic": "FS and OFS",
+        "difficulty": "easy",
+        "question": "What is the default field separator in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Comma"
+            },
+            {
+                "key": "B",
+                "text": "Tab"
+            },
+            {
+                "key": "C",
+                "text": "Space/Whitespace"
+            },
+            {
+                "key": "D",
+                "text": "Colon"
+            }
+        ],
+        "answer": "C",
+        "reason": "awk uses whitespace as the default field separator."
+    },
+    {
+        "id": 60,
+        "subject": "UNIX and Shell Programming",
+        "topic": "FS and OFS",
+        "difficulty": "medium",
+        "question": "Which variable can be set to ':' when processing /etc/passwd files?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NR"
+            },
+            {
+                "key": "B",
+                "text": "FS"
+            },
+            {
+                "key": "C",
+                "text": "NF"
+            },
+            {
+                "key": "D",
+                "text": "OFS"
+            }
+        ],
+        "answer": "B",
+        "reason": "FS specifies the input field separator."
+    },
+    {
+        "id": 61,
+        "subject": "UNIX and Shell Programming",
+        "topic": "String Functions",
+        "difficulty": "easy",
+        "question": "Which function returns the position of a substring within a string?",
+        "options": [
+            {
+                "key": "A",
+                "text": "index()"
+            },
+            {
+                "key": "B",
+                "text": "length()"
+            },
+            {
+                "key": "C",
+                "text": "substr()"
+            },
+            {
+                "key": "D",
+                "text": "split()"
+            }
+        ],
+        "answer": "A",
+        "reason": "index() returns the position where a substring first occurs."
+    },
+    {
+        "id": 62,
+        "subject": "UNIX and Shell Programming",
+        "topic": "String Functions",
+        "difficulty": "medium",
+        "question": "Which function extracts a portion of a string?",
+        "options": [
+            {
+                "key": "A",
+                "text": "index()"
+            },
+            {
+                "key": "B",
+                "text": "split()"
+            },
+            {
+                "key": "C",
+                "text": "substr()"
+            },
+            {
+                "key": "D",
+                "text": "toupper()"
+            }
+        ],
+        "answer": "C",
+        "reason": "substr() extracts a substring from a string."
+    },
+    {
+        "id": 63,
+        "subject": "UNIX and Shell Programming",
+        "topic": "String Functions",
+        "difficulty": "hard",
+        "question": "Which function splits a string into an array?",
+        "options": [
+            {
+                "key": "A",
+                "text": "substr()"
+            },
+            {
+                "key": "B",
+                "text": "split()"
+            },
+            {
+                "key": "C",
+                "text": "index()"
+            },
+            {
+                "key": "D",
+                "text": "length()"
+            }
+        ],
+        "answer": "B",
+        "reason": "split() divides a string into array elements based on a separator."
+    },
+    {
+        "id": 64,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Functions",
+        "difficulty": "medium",
+        "question": "Which function returns the absolute value of a number?",
+        "options": [
+            {
+                "key": "A",
+                "text": "abs()"
+            },
+            {
+                "key": "B",
+                "text": "sqrt()"
+            },
+            {
+                "key": "C",
+                "text": "int()"
+            },
+            {
+                "key": "D",
+                "text": "rand()"
+            }
+        ],
+        "answer": "A",
+        "reason": "abs() returns the absolute value of a numeric expression."
+    },
+    {
+        "id": 65,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Functions",
+        "difficulty": "medium",
+        "question": "Which function returns the integer portion of a number?",
+        "options": [
+            {
+                "key": "A",
+                "text": "sqrt()"
+            },
+            {
+                "key": "B",
+                "text": "abs()"
+            },
+            {
+                "key": "C",
+                "text": "int()"
+            },
+            {
+                "key": "D",
+                "text": "exp()"
+            }
+        ],
+        "answer": "C",
+        "reason": "int() truncates the fractional part and returns an integer."
+    },
+    {
+        "id": 66,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Loops",
+        "difficulty": "easy",
+        "question": "Which loop repeatedly executes while a condition remains true?",
+        "options": [
+            {
+                "key": "A",
+                "text": "for"
+            },
+            {
+                "key": "B",
+                "text": "while"
+            },
+            {
+                "key": "C",
+                "text": "switch"
+            },
+            {
+                "key": "D",
+                "text": "case"
+            }
+        ],
+        "answer": "B",
+        "reason": "The while loop continues as long as its condition evaluates to true."
+    },
+    {
+        "id": 67,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Loops",
+        "difficulty": "medium",
+        "question": "Which statement skips the remaining part of the current loop iteration?",
+        "options": [
+            {
+                "key": "A",
+                "text": "break"
+            },
+            {
+                "key": "B",
+                "text": "continue"
+            },
+            {
+                "key": "C",
+                "text": "exit"
+            },
+            {
+                "key": "D",
+                "text": "return"
+            }
+        ],
+        "answer": "B",
+        "reason": "continue skips to the next iteration of the loop."
+    },
+    {
+        "id": 68,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Loops",
+        "difficulty": "hard",
+        "question": "Which statement immediately terminates an awk program?",
+        "options": [
+            {
+                "key": "A",
+                "text": "break"
+            },
+            {
+                "key": "B",
+                "text": "continue"
+            },
+            {
+                "key": "C",
+                "text": "exit"
+            },
+            {
+                "key": "D",
+                "text": "stop"
+            }
+        ],
+        "answer": "C",
+        "reason": "The exit statement terminates awk processing immediately."
+    },
+    {
+        "id": 69,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Searching Functions",
+        "difficulty": "medium",
+        "question": "What does the index('UNIX','IX') function return?",
+        "options": [
+            {
+                "key": "A",
+                "text": "2"
+            },
+            {
+                "key": "B",
+                "text": "3"
+            },
+            {
+                "key": "C",
+                "text": "4"
+            },
+            {
+                "key": "D",
+                "text": "0"
+            }
+        ],
+        "answer": "B",
+        "reason": "awk string positions start at 1, and 'IX' begins at position 3."
+    },
+    {
+        "id": 70,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Searching Functions",
+        "difficulty": "hard",
+        "question": "What value is returned by index() when the substring is not found?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-1"
+            },
+            {
+                "key": "B",
+                "text": "1"
+            },
+            {
+                "key": "C",
+                "text": "NULL"
+            },
+            {
+                "key": "D",
+                "text": "0"
+            }
+        ],
+        "answer": "D",
+        "reason": "index() returns 0 when the substring does not exist."
+    },
+    {
+        "id": 71,
+        "subject": "UNIX and Shell Programming",
+        "topic": "sub Function",
+        "difficulty": "medium",
+        "question": "How many occurrences does sub() replace?",
+        "options": [
+            {
+                "key": "A",
+                "text": "All occurrences"
+            },
+            {
+                "key": "B",
+                "text": "Only the first occurrence"
+            },
+            {
+                "key": "C",
+                "text": "Only the last occurrence"
+            },
+            {
+                "key": "D",
+                "text": "None"
+            }
+        ],
+        "answer": "B",
+        "reason": "sub() replaces only the first matching occurrence."
+    },
+    {
+        "id": 72,
+        "subject": "UNIX and Shell Programming",
+        "topic": "gsub Function",
+        "difficulty": "medium",
+        "question": "How many occurrences does gsub() replace?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Only the first occurrence"
+            },
+            {
+                "key": "B",
+                "text": "Only the last occurrence"
+            },
+            {
+                "key": "C",
+                "text": "All occurrences"
+            },
+            {
+                "key": "D",
+                "text": "Two occurrences only"
+            }
+        ],
+        "answer": "C",
+        "reason": "gsub() performs global substitution on all matching occurrences."
+    },
+    {
+        "id": 73,
+        "subject": "UNIX and Shell Programming",
+        "topic": "gsub Function",
+        "difficulty": "hard",
+        "question": "Which function would you use to replace every occurrence of 'cat' with 'dog' in a record?",
+        "options": [
+            {
+                "key": "A",
+                "text": "sub()"
+            },
+            {
+                "key": "B",
+                "text": "replace()"
+            },
+            {
+                "key": "C",
+                "text": "gsub()"
+            },
+            {
+                "key": "D",
+                "text": "index()"
+            }
+        ],
+        "answer": "C",
+        "reason": "gsub() replaces all occurrences of a pattern."
+    },
+    {
+        "id": 74,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Built-in Variables",
+        "difficulty": "medium",
+        "question": "Which variable stores the current input filename?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FILENAME"
+            },
+            {
+                "key": "B",
+                "text": "FILE"
+            },
+            {
+                "key": "C",
+                "text": "INPUT"
+            },
+            {
+                "key": "D",
+                "text": "NAME"
+            }
+        ],
+        "answer": "A",
+        "reason": "FILENAME contains the name of the current input file."
+    },
+    {
+        "id": 75,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Built-in Variables",
+        "difficulty": "hard",
+        "question": "Which variable stores the number of fields in the current record?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NR"
+            },
+            {
+                "key": "B",
+                "text": "FS"
+            },
+            {
+                "key": "C",
+                "text": "NF"
+            },
+            {
+                "key": "D",
+                "text": "OFS"
+            }
+        ],
+        "answer": "C",
+        "reason": "NF contains the total number of fields in the current input record."
+    },
+    {
+        "id": 76,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Pattern Matching",
+        "difficulty": "medium",
+        "question": "Which awk command prints lines where the first field is greater than 100?",
+        "options": [
+            {
+                "key": "A",
+                "text": "awk '$1 > 100 {print}' file.txt"
+            },
+            {
+                "key": "B",
+                "text": "awk '$1 = 100 {print}' file.txt"
+            },
+            {
+                "key": "C",
+                "text": "awk '100 > $1 {print}' file.txt"
+            },
+            {
+                "key": "D",
+                "text": "awk 'print >100' file.txt"
+            }
+        ],
+        "answer": "A",
+        "reason": "Conditions can be used directly before actions in awk."
+    },
+    {
+        "id": 77,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Pattern Matching",
+        "difficulty": "hard",
+        "question": "Which awk command prints only lines containing the word 'Linux'?",
+        "options": [
+            {
+                "key": "A",
+                "text": "awk '/Linux/' file.txt"
+            },
+            {
+                "key": "B",
+                "text": "awk 'Linux' file.txt"
+            },
+            {
+                "key": "C",
+                "text": "awk '=Linux=' file.txt"
+            },
+            {
+                "key": "D",
+                "text": "awk ':Linux:' file.txt"
+            }
+        ],
+        "answer": "A",
+        "reason": "Patterns enclosed in slashes are matched against input records."
+    },
+    {
+        "id": 78,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Processing",
+        "difficulty": "medium",
+        "question": "What does the command 'awk END {print NR}' file.txt display?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Number of fields"
+            },
+            {
+                "key": "B",
+                "text": "Number of records/lines"
+            },
+            {
+                "key": "C",
+                "text": "File size"
+            },
+            {
+                "key": "D",
+                "text": "Last field value"
+            }
+        ],
+        "answer": "B",
+        "reason": "NR contains the total record count at the end of processing."
+    },
+    {
+        "id": 79,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Processing",
+        "difficulty": "hard",
+        "question": "Which block executes exactly once before any input is read?",
+        "options": [
+            {
+                "key": "A",
+                "text": "BEGIN"
+            },
+            {
+                "key": "B",
+                "text": "END"
+            },
+            {
+                "key": "C",
+                "text": "MAIN"
+            },
+            {
+                "key": "D",
+                "text": "START"
+            }
+        ],
+        "answer": "A",
+        "reason": "The BEGIN block executes once before processing input."
+    },
+    {
+        "id": 80,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Processing",
+        "difficulty": "hard",
+        "question": "Which block executes exactly once after all input has been processed?",
+        "options": [
+            {
+                "key": "A",
+                "text": "BEGIN"
+            },
+            {
+                "key": "B",
+                "text": "END"
+            },
+            {
+                "key": "C",
+                "text": "LAST"
+            },
+            {
+                "key": "D",
+                "text": "FINISH"
+            }
+        ],
+        "answer": "B",
+        "reason": "The END block executes once after all records have been processed."
+    },
+    {
+        "id": 81,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Advanced",
+        "difficulty": "medium",
+        "question": "Which grep option displays only the count of matching lines instead of the lines themselves?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-n"
+            },
+            {
+                "key": "B",
+                "text": "-c"
+            },
+            {
+                "key": "C",
+                "text": "-l"
+            },
+            {
+                "key": "D",
+                "text": "-v"
+            }
+        ],
+        "answer": "B",
+        "reason": "The -c option displays the number of matching lines."
+    },
+    {
+        "id": 82,
+        "subject": "UNIX and Shell Programming",
+        "topic": "grep Advanced",
+        "difficulty": "hard",
+        "question": "Which grep option displays only the matching filenames and suppresses matching lines?",
+        "options": [
+            {
+                "key": "A",
+                "text": "-l"
+            },
+            {
+                "key": "B",
+                "text": "-n"
+            },
+            {
+                "key": "C",
+                "text": "-i"
+            },
+            {
+                "key": "D",
+                "text": "-r"
+            }
+        ],
+        "answer": "A",
+        "reason": "The -l option lists only filenames containing matches."
+    },
+    {
+        "id": 83,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Print and printf",
+        "difficulty": "easy",
+        "question": "Which awk statement prints the third field of every record?",
+        "options": [
+            {
+                "key": "A",
+                "text": "print $3"
+            },
+            {
+                "key": "B",
+                "text": "print NF"
+            },
+            {
+                "key": "C",
+                "text": "print NR"
+            },
+            {
+                "key": "D",
+                "text": "print $0"
+            }
+        ],
+        "answer": "A",
+        "reason": "$3 refers to the third field of the current record."
+    },
+    {
+        "id": 84,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Print and printf",
+        "difficulty": "medium",
+        "question": "Which printf format specifier is used to print a string?",
+        "options": [
+            {
+                "key": "A",
+                "text": "%d"
+            },
+            {
+                "key": "B",
+                "text": "%f"
+            },
+            {
+                "key": "C",
+                "text": "%s"
+            },
+            {
+                "key": "D",
+                "text": "%c"
+            }
+        ],
+        "answer": "C",
+        "reason": "%s is used for string formatting in printf."
+    },
+    {
+        "id": 85,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Comparison Operators",
+        "difficulty": "medium",
+        "question": "Which operator checks whether a value is less than or equal to another value?",
+        "options": [
+            {
+                "key": "A",
+                "text": "<="
+            },
+            {
+                "key": "B",
+                "text": ">="
+            },
+            {
+                "key": "C",
+                "text": "=="
+            },
+            {
+                "key": "D",
+                "text": "!="
+            }
+        ],
+        "answer": "A",
+        "reason": "The <= operator evaluates to true if the left operand is less than or equal to the right operand."
+    },
+    {
+        "id": 86,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Comparison Operators",
+        "difficulty": "hard",
+        "question": "Which awk operator is used to compare strings against a regular expression?",
+        "options": [
+            {
+                "key": "A",
+                "text": "~"
+            },
+            {
+                "key": "B",
+                "text": "=="
+            },
+            {
+                "key": "C",
+                "text": "!="
+            },
+            {
+                "key": "D",
+                "text": ">="
+            }
+        ],
+        "answer": "A",
+        "reason": "The ~ operator checks whether a string matches a regular expression."
+    },
+    {
+        "id": 87,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Operators",
+        "difficulty": "easy",
+        "question": "Which operator performs subtraction in awk?",
+        "options": [
+            {
+                "key": "A",
+                "text": "+"
+            },
+            {
+                "key": "B",
+                "text": "-"
+            },
+            {
+                "key": "C",
+                "text": "*"
+            },
+            {
+                "key": "D",
+                "text": "%"
+            }
+        ],
+        "answer": "B",
+        "reason": "The - operator is used for arithmetic subtraction."
+    },
+    {
+        "id": 88,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Arithmetic Operators",
+        "difficulty": "hard",
+        "question": "What is the result of the awk expression 17 % 5?",
+        "options": [
+            {
+                "key": "A",
+                "text": "2"
+            },
+            {
+                "key": "B",
+                "text": "3"
+            },
+            {
+                "key": "C",
+                "text": "4"
+            },
+            {
+                "key": "D",
+                "text": "5"
+            }
+        ],
+        "answer": "A",
+        "reason": "17 divided by 5 leaves a remainder of 2."
+    },
+    {
+        "id": 89,
+        "subject": "UNIX and Shell Programming",
+        "topic": "BEGIN and END Blocks",
+        "difficulty": "medium",
+        "question": "Which block is typically used to print column headings before processing records?",
+        "options": [
+            {
+                "key": "A",
+                "text": "BEGIN"
+            },
+            {
+                "key": "B",
+                "text": "END"
+            },
+            {
+                "key": "C",
+                "text": "MAIN"
+            },
+            {
+                "key": "D",
+                "text": "HEADER"
+            }
+        ],
+        "answer": "A",
+        "reason": "The BEGIN block executes before input processing and is commonly used for initialization and headings."
+    },
+    {
+        "id": 90,
+        "subject": "UNIX and Shell Programming",
+        "topic": "BEGIN and END Blocks",
+        "difficulty": "hard",
+        "question": "Which block is most suitable for displaying totals calculated during processing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "BEGIN"
+            },
+            {
+                "key": "B",
+                "text": "PROCESS"
+            },
+            {
+                "key": "C",
+                "text": "END"
+            },
+            {
+                "key": "D",
+                "text": "INIT"
+            }
+        ],
+        "answer": "C",
+        "reason": "The END block executes after all records have been processed, making it ideal for summaries."
+    },
+    {
+        "id": 91,
+        "subject": "UNIX and Shell Programming",
+        "topic": "FS and OFS",
+        "difficulty": "medium",
+        "question": "Which built-in variable controls the separator used between output fields?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FS"
+            },
+            {
+                "key": "B",
+                "text": "OFS"
+            },
+            {
+                "key": "C",
+                "text": "NF"
+            },
+            {
+                "key": "D",
+                "text": "NR"
+            }
+        ],
+        "answer": "B",
+        "reason": "OFS (Output Field Separator) specifies how fields are separated in output."
+    },
+    {
+        "id": 92,
+        "subject": "UNIX and Shell Programming",
+        "topic": "String Functions",
+        "difficulty": "easy",
+        "question": "Which function converts a string to lowercase?",
+        "options": [
+            {
+                "key": "A",
+                "text": "toupper()"
+            },
+            {
+                "key": "B",
+                "text": "tolower()"
+            },
+            {
+                "key": "C",
+                "text": "lower()"
+            },
+            {
+                "key": "D",
+                "text": "case()"
+            }
+        ],
+        "answer": "B",
+        "reason": "tolower() converts all uppercase characters in a string to lowercase."
+    },
+    {
+        "id": 93,
+        "subject": "UNIX and Shell Programming",
+        "topic": "String Functions",
+        "difficulty": "medium",
+        "question": "What does length(\"UNIX\") return?",
+        "options": [
+            {
+                "key": "A",
+                "text": "3"
+            },
+            {
+                "key": "B",
+                "text": "4"
+            },
+            {
+                "key": "C",
+                "text": "5"
+            },
+            {
+                "key": "D",
+                "text": "6"
+            }
+        ],
+        "answer": "B",
+        "reason": "The string 'UNIX' contains four characters."
+    },
+    {
+        "id": 94,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Loops",
+        "difficulty": "easy",
+        "question": "Which loop executes at least once before checking its condition?",
+        "options": [
+            {
+                "key": "A",
+                "text": "for"
+            },
+            {
+                "key": "B",
+                "text": "while"
+            },
+            {
+                "key": "C",
+                "text": "do-while"
+            },
+            {
+                "key": "D",
+                "text": "foreach"
+            }
+        ],
+        "answer": "C",
+        "reason": "A do-while loop evaluates the condition after executing the loop body."
+    },
+    {
+        "id": 95,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Loops",
+        "difficulty": "medium",
+        "question": "Which loop is commonly written as for(initialization; condition; increment)?",
+        "options": [
+            {
+                "key": "A",
+                "text": "while"
+            },
+            {
+                "key": "B",
+                "text": "for"
+            },
+            {
+                "key": "C",
+                "text": "do-while"
+            },
+            {
+                "key": "D",
+                "text": "repeat"
+            }
+        ],
+        "answer": "B",
+        "reason": "The for loop uses initialization, condition, and increment expressions."
+    },
+    {
+        "id": 96,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Searching Functions",
+        "difficulty": "medium",
+        "question": "What does index(\"Linux\",\"nu\") return?",
+        "options": [
+            {
+                "key": "A",
+                "text": "2"
+            },
+            {
+                "key": "B",
+                "text": "3"
+            },
+            {
+                "key": "C",
+                "text": "4"
+            },
+            {
+                "key": "D",
+                "text": "0"
+            }
+        ],
+        "answer": "C",
+        "reason": "The substring 'nu' starts at the fourth position in 'Linux' when counting from 1."
+    },
+    {
+        "id": 97,
+        "subject": "UNIX and Shell Programming",
+        "topic": "Searching Functions",
+        "difficulty": "hard",
+        "question": "Which awk function is most suitable for locating the position of a substring?",
+        "options": [
+            {
+                "key": "A",
+                "text": "length()"
+            },
+            {
+                "key": "B",
+                "text": "index()"
+            },
+            {
+                "key": "C",
+                "text": "substr()"
+            },
+            {
+                "key": "D",
+                "text": "split()"
+            }
+        ],
+        "answer": "B",
+        "reason": "index() returns the position of a substring within a string."
+    },
+    {
+        "id": 98,
+        "subject": "UNIX and Shell Programming",
+        "topic": "sub and gsub",
+        "difficulty": "medium",
+        "question": "Which function replaces only the first matching occurrence of a pattern?",
+        "options": [
+            {
+                "key": "A",
+                "text": "gsub()"
+            },
+            {
+                "key": "B",
+                "text": "replace()"
+            },
+            {
+                "key": "C",
+                "text": "sub()"
+            },
+            {
+                "key": "D",
+                "text": "index()"
+            }
+        ],
+        "answer": "C",
+        "reason": "sub() replaces only the first occurrence of a matching pattern."
+    },
+    {
+        "id": 99,
+        "subject": "UNIX and Shell Programming",
+        "topic": "sub and gsub",
+        "difficulty": "hard",
+        "question": "Which function returns the number of substitutions performed while replacing all matches?",
+        "options": [
+            {
+                "key": "A",
+                "text": "sub()"
+            },
+            {
+                "key": "B",
+                "text": "gsub()"
+            },
+            {
+                "key": "C",
+                "text": "index()"
+            },
+            {
+                "key": "D",
+                "text": "split()"
+            }
+        ],
+        "answer": "B",
+        "reason": "gsub() returns the total number of replacements it performs."
+    },
+    {
+        "id": 100,
+        "subject": "UNIX and Shell Programming",
+        "topic": "awk Integrated Concepts",
+        "difficulty": "hard",
+        "question": "Which awk statement prints only records where the second field is greater than 50?",
+        "options": [
+            {
+                "key": "A",
+                "text": "awk '$2 > 50 {print}' file.txt"
+            },
+            {
+                "key": "B",
+                "text": "awk '$2 = 50 {print}' file.txt"
+            },
+            {
+                "key": "C",
+                "text": "awk 'print $2 > 50' file.txt"
+            },
+            {
+                "key": "D",
+                "text": "awk '50 > $2 {print}' file.txt"
+            }
+        ],
+        "answer": "A",
+        "reason": "awk allows conditional expressions before actions, and '$2 > 50' selects records where the second field exceeds 50."
+    }
+]
