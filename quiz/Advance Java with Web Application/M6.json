@@ -1,1511 +1,2702 @@
 [
-	{
-		"id": 1,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "easy",
-		"question": "What is Hibernate?",
-		"options": [
-			{ "key": "A", "text": "A Web Server" },
-			{ "key": "B", "text": "An Object Relational Mapping Framework" },
-			{ "key": "C", "text": "A Database" },
-			{ "key": "D", "text": "A Servlet Container" }
-		],
-		"answer": "B",
-		"reason": "Hibernate is a Java ORM framework that maps Java objects to database tables."
-	},
-	{
-		"id": 2,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "easy",
-		"question": "Hibernate is mainly used to simplify interaction between Java applications and:",
-		"options": [
-			{ "key": "A", "text": "Web Browsers" },
-			{ "key": "B", "text": "Databases" },
-			{ "key": "C", "text": "Networks" },
-			{ "key": "D", "text": "Operating Systems" }
-		],
-		"answer": "B",
-		"reason": "Hibernate provides a convenient way to interact with relational databases."
-	},
-	{
-		"id": 3,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "medium",
-		"question": "Hibernate is developed under which organization?",
-		"options": [
-			{ "key": "A", "text": "Oracle" },
-			{ "key": "B", "text": "Apache" },
-			{ "key": "C", "text": "Red Hat" },
-			{ "key": "D", "text": "Microsoft" }
-		],
-		"answer": "C",
-		"reason": "Hibernate is an open-source ORM framework maintained by Red Hat."
-	},
-	{
-		"id": 4,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "medium",
-		"question": "Which language is Hibernate primarily designed for?",
-		"options": [
-			{ "key": "A", "text": "Python" },
-			{ "key": "B", "text": "Java" },
-			{ "key": "C", "text": "PHP" },
-			{ "key": "D", "text": "C#" }
-		],
-		"answer": "B",
-		"reason": "Hibernate is a persistence framework designed for Java applications."
-	},
-	{
-		"id": 5,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "easy",
-		"question": "What does ORM stand for?",
-		"options": [
-			{ "key": "A", "text": "Object Relational Mapping" },
-			{ "key": "B", "text": "Object Resource Manager" },
-			{ "key": "C", "text": "Operational Relational Model" },
-			{ "key": "D", "text": "Online Resource Mapping" }
-		],
-		"answer": "A",
-		"reason": "ORM stands for Object Relational Mapping, which maps objects to database tables."
-	},
-	{
-		"id": 6,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "easy",
-		"question": "Which approach reduces the amount of SQL code written by developers?",
-		"options": [
-			{ "key": "A", "text": "JDBC" },
-			{ "key": "B", "text": "ORM" },
-			{ "key": "C", "text": "HTML" },
-			{ "key": "D", "text": "Servlet" }
-		],
-		"answer": "B",
-		"reason": "ORM frameworks generate SQL automatically, reducing manual coding."
-	},
-	{
-		"id": 7,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "medium",
-		"question": "Which of the following is an advantage of Hibernate over JDBC?",
-		"options": [
-			{ "key": "A", "text": "More Boilerplate Code" },
-			{ "key": "B", "text": "Automatic Table Mapping" },
-			{ "key": "C", "text": "No Database Support" },
-			{ "key": "D", "text": "No Transactions" }
-		],
-		"answer": "B",
-		"reason": "Hibernate automatically maps Java classes to database tables."
-	},
-	{
-		"id": 8,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "hard",
-		"question": "Which Hibernate feature improves application portability across databases?",
-		"options": [
-			{ "key": "A", "text": "Database Independence" },
-			{ "key": "B", "text": "Servlet Chaining" },
-			{ "key": "C", "text": "JSP Compilation" },
-			{ "key": "D", "text": "Cookie Management" }
-		],
-		"answer": "A",
-		"reason": "Hibernate abstracts database-specific SQL, improving portability."
-	},
-	{
-		"id": 9,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "easy",
-		"question": "Which is the central interface of Hibernate used for database operations?",
-		"options": [
-			{ "key": "A", "text": "Configuration" },
-			{ "key": "B", "text": "Session" },
-			{ "key": "C", "text": "Transaction" },
-			{ "key": "D", "text": "Query" }
-		],
-		"answer": "B",
-		"reason": "Session is the primary interface used for CRUD operations."
-	},
-	{
-		"id": 10,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "easy",
-		"question": "Which object creates Session objects in Hibernate?",
-		"options": [
-			{ "key": "A", "text": "SessionFactory" },
-			{ "key": "B", "text": "Transaction" },
-			{ "key": "C", "text": "Query" },
-			{ "key": "D", "text": "Criteria" }
-		],
-		"answer": "A",
-		"reason": "SessionFactory is responsible for creating Session instances."
-	},
-	{
-		"id": 11,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "medium",
-		"question": "Which component represents a unit of work with the database?",
-		"options": [
-			{ "key": "A", "text": "Configuration" },
-			{ "key": "B", "text": "Session" },
-			{ "key": "C", "text": "Dialect" },
-			{ "key": "D", "text": "Annotation" }
-		],
-		"answer": "B",
-		"reason": "A Session represents a single unit of work between application and database."
-	},
-	{
-		"id": 12,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "medium",
-		"question": "Which Hibernate component is used to manage database transactions?",
-		"options": [
-			{ "key": "A", "text": "Transaction" },
-			{ "key": "B", "text": "SessionFactory" },
-			{ "key": "C", "text": "Configuration" },
-			{ "key": "D", "text": "Entity" }
-		],
-		"answer": "A",
-		"reason": "The Transaction interface manages commit and rollback operations."
-	},
-	{
-		"id": 13,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "hard",
-		"question": "Which class is commonly used to configure Hibernate settings programmatically?",
-		"options": [
-			{ "key": "A", "text": "Configuration" },
-			{ "key": "B", "text": "Session" },
-			{ "key": "C", "text": "Query" },
-			{ "key": "D", "text": "EntityManager" }
-		],
-		"answer": "A",
-		"reason": "The Configuration class loads mappings and configuration properties."
-	},
-	{
-		"id": 14,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "easy",
-		"question": "Which file is commonly used for Hibernate configuration?",
-		"options": [
-			{ "key": "A", "text": "hibernate.cfg.xml" },
-			{ "key": "B", "text": "web.xml" },
-			{ "key": "C", "text": "pom.properties" },
-			{ "key": "D", "text": "server.xml" }
-		],
-		"answer": "A",
-		"reason": "hibernate.cfg.xml stores database and Hibernate configuration settings."
-	},
-	{
-		"id": 15,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "easy",
-		"question": "Which dependency management tool is commonly used to add Hibernate libraries?",
-		"options": [
-			{ "key": "A", "text": "Maven" },
-			{ "key": "B", "text": "Notepad" },
-			{ "key": "C", "text": "Paint" },
-			{ "key": "D", "text": "Chrome" }
-		],
-		"answer": "A",
-		"reason": "Maven is widely used to manage Hibernate dependencies."
-	},
-	{
-		"id": 16,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "medium",
-		"question": "Which property specifies the JDBC driver class in Hibernate configuration?",
-		"options": [
-			{ "key": "A", "text": "hibernate.connection.driver_class" },
-			{ "key": "B", "text": "hibernate.jdbc.driver" },
-			{ "key": "C", "text": "hibernate.driver" },
-			{ "key": "D", "text": "hibernate.class.driver" }
-		],
-		"answer": "A",
-		"reason": "hibernate.connection.driver_class specifies the JDBC driver."
-	},
-	{
-		"id": 17,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "hard",
-		"question": "Which property defines the database URL in Hibernate?",
-		"options": [
-			{ "key": "A", "text": "hibernate.connection.url" },
-			{ "key": "B", "text": "hibernate.url" },
-			{ "key": "C", "text": "hibernate.db.url" },
-			{ "key": "D", "text": "hibernate.jdbc.url" }
-		],
-		"answer": "A",
-		"reason": "hibernate.connection.url specifies the JDBC database URL."
-	},
-	{
-		"id": 18,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "easy",
-		"question": "What is a persistent class in Hibernate?",
-		"options": [
-			{ "key": "A", "text": "A mapped Java class" },
-			{ "key": "B", "text": "A JSP page" },
-			{ "key": "C", "text": "A Servlet" },
-			{ "key": "D", "text": "A JDBC driver" }
-		],
-		"answer": "A",
-		"reason": "A persistent class is mapped to a database table."
-	},
-	{
-		"id": 19,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "easy",
-		"question": "Which annotation marks a class as a Hibernate entity?",
-		"options": [
-			{ "key": "A", "text": "@Entity" },
-			{ "key": "B", "text": "@TableRow" },
-			{ "key": "C", "text": "@Database" },
-			{ "key": "D", "text": "@Record" }
-		],
-		"answer": "A",
-		"reason": "The @Entity annotation marks a class as a persistent entity."
-	},
-	{
-		"id": 20,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "medium",
-		"question": "Which annotation specifies the database table name?",
-		"options": [
-			{ "key": "A", "text": "@Column" },
-			{ "key": "B", "text": "@Entity" },
-			{ "key": "C", "text": "@Table" },
-			{ "key": "D", "text": "@Id" }
-		],
-		"answer": "C",
-		"reason": "@Table maps an entity to a specific database table."
-	},
-	{
-		"id": 21,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "medium",
-		"question": "Which annotation identifies the primary key field?",
-		"options": [
-			{ "key": "A", "text": "@Primary" },
-			{ "key": "B", "text": "@Id" },
-			{ "key": "C", "text": "@Key" },
-			{ "key": "D", "text": "@Unique" }
-		],
-		"answer": "B",
-		"reason": "@Id marks a field as the primary key."
-	},
-	{
-		"id": 22,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "easy",
-		"question": "Hibernate supports configuration using:",
-		"options": [
-			{ "key": "A", "text": "XML only" },
-			{ "key": "B", "text": "Annotations only" },
-			{ "key": "C", "text": "Both XML and Annotations" },
-			{ "key": "D", "text": "JSP only" }
-		],
-		"answer": "C",
-		"reason": "Hibernate allows configuration through XML files and annotations."
-	},
-	{
-		"id": 23,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "medium",
-		"question": "Which annotation maps a field to a database column?",
-		"options": [
-			{ "key": "A", "text": "@Field" },
-			{ "key": "B", "text": "@Column" },
-			{ "key": "C", "text": "@Attribute" },
-			{ "key": "D", "text": "@Property" }
-		],
-		"answer": "B",
-		"reason": "@Column specifies the column mapping details."
-	},
-	{
-		"id": 24,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "hard",
-		"question": "Which annotation is commonly used for automatic primary key generation?",
-		"options": [
-			{ "key": "A", "text": "@AutoId" },
-			{ "key": "B", "text": "@GeneratedValue" },
-			{ "key": "C", "text": "@Sequence" },
-			{ "key": "D", "text": "@Identity" }
-		],
-		"answer": "B",
-		"reason": "@GeneratedValue specifies automatic generation of primary key values."
-	},
-	{
-		"id": 25,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "easy",
-		"question": "Which Session method is used to save an object?",
-		"options": [
-			{ "key": "A", "text": "save()" },
-			{ "key": "B", "text": "insert()" },
-			{ "key": "C", "text": "store()" },
-			{ "key": "D", "text": "persistData()" }
-		],
-		"answer": "A",
-		"reason": "save() inserts a new record into the database."
-	},
-	{
-		"id": 26,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "easy",
-		"question": "Which operation is used to modify existing data?",
-		"options": [
-			{ "key": "A", "text": "Save" },
-			{ "key": "B", "text": "Update" },
-			{ "key": "C", "text": "Delete" },
-			{ "key": "D", "text": "Retrieve" }
-		],
-		"answer": "B",
-		"reason": "Update modifies an existing database record."
-	},
-	{
-		"id": 27,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "medium",
-		"question": "Which Session method removes an object from the database?",
-		"options": [
-			{ "key": "A", "text": "remove()" },
-			{ "key": "B", "text": "delete()" },
-			{ "key": "C", "text": "erase()" },
-			{ "key": "D", "text": "drop()" }
-		],
-		"answer": "B",
-		"reason": "delete() removes a persistent object from the database."
-	},
-	{
-		"id": 28,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "medium",
-		"question": "Which method is commonly used to retrieve an entity by primary key?",
-		"options": [
-			{ "key": "A", "text": "get()" },
-			{ "key": "B", "text": "select()" },
-			{ "key": "C", "text": "findRow()" },
-			{ "key": "D", "text": "loadData()" }
-		],
-		"answer": "A",
-		"reason": "get() retrieves an entity using its primary key."
-	},
-	{
-		"id": 29,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "hard",
-		"question": "Which operation corresponds to the 'R' in CRUD?",
-		"options": [
-			{ "key": "A", "text": "Remove" },
-			{ "key": "B", "text": "Retrieve" },
-			{ "key": "C", "text": "Replace" },
-			{ "key": "D", "text": "Reset" }
-		],
-		"answer": "B",
-		"reason": "CRUD stands for Create, Retrieve(Read), Update, and Delete."
-	},
-	{
-		"id": 30,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "easy",
-		"question": "What does HQL stand for?",
-		"options": [
-			{ "key": "A", "text": "Hibernate Query Language" },
-			{ "key": "B", "text": "Hyper Query Language" },
-			{ "key": "C", "text": "Hibernate Quick Language" },
-			{ "key": "D", "text": "High Query Logic" }
-		],
-		"answer": "A",
-		"reason": "HQL stands for Hibernate Query Language."
-	},
-	{
-		"id": 31,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "easy",
-		"question": "HQL queries operate on:",
-		"options": [
-			{ "key": "A", "text": "Tables and Columns" },
-			{ "key": "B", "text": "Java Objects and Properties" },
-			{ "key": "C", "text": "Files" },
-			{ "key": "D", "text": "Servlets" }
-		],
-		"answer": "B",
-		"reason": "HQL works with entities and their properties rather than database tables."
-	},
-	{
-		"id": 32,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "medium",
-		"question": "Which HQL statement retrieves all Employee entities?",
-		"options": [
-			{ "key": "A", "text": "SELECT * FROM Employee" },
-			{ "key": "B", "text": "FROM Employee" },
-			{ "key": "C", "text": "GET Employee" },
-			{ "key": "D", "text": "SHOW Employee" }
-		],
-		"answer": "B",
-		"reason": "HQL uses entity names, and 'FROM Employee' retrieves all Employee objects."
-	},
-	{
-		"id": 33,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "medium",
-		"question": "Which interface represents an HQL query?",
-		"options": [
-			{ "key": "A", "text": "Query" },
-			{ "key": "B", "text": "SessionFactory" },
-			{ "key": "C", "text": "Configuration" },
-			{ "key": "D", "text": "Transaction" }
-		],
-		"answer": "A",
-		"reason": "The Query interface is used to execute HQL statements."
-	},
-	{
-		"id": 34,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "hard",
-		"question": "Which HQL clause is used to filter records?",
-		"options": [
-			{ "key": "A", "text": "GROUP BY" },
-			{ "key": "B", "text": "WHERE" },
-			{ "key": "C", "text": "ORDER BY" },
-			{ "key": "D", "text": "HAVING" }
-		],
-		"answer": "B",
-		"reason": "The WHERE clause filters entities based on specified conditions."
-	},
-	{
-		"id": 35,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "hard",
-		"question": "What is a major advantage of HQL over SQL?",
-		"options": [
-			{ "key": "A", "text": "Works directly with Java entities" },
-			{ "key": "B", "text": "Requires more SQL code" },
-			{ "key": "C", "text": "Cannot use conditions" },
-			{ "key": "D", "text": "Database-specific syntax only" }
-		],
-		"answer": "A",
-		"reason": "HQL is object-oriented and operates on entities rather than database tables."
-	},
-	{
-		"id": 36,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "easy",
-		"question": "Hibernate is classified as which type of framework?",
-		"options": [
-			{ "key": "A", "text": "ORM Framework" },
-			{ "key": "B", "text": "UI Framework" },
-			{ "key": "C", "text": "Testing Framework" },
-			{ "key": "D", "text": "Networking Framework" }
-		],
-		"answer": "A",
-		"reason": "Hibernate is an Object Relational Mapping (ORM) framework used for persistence."
-	},
-	{
-		"id": 37,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "medium",
-		"question": "Which API specification is Hibernate commonly used to implement?",
-		"options": [
-			{ "key": "A", "text": "JPA" },
-			{ "key": "B", "text": "JSP" },
-			{ "key": "C", "text": "JSTL" },
-			{ "key": "D", "text": "JNDI" }
-		],
-		"answer": "A",
-		"reason": "Hibernate is one of the most popular implementations of the Java Persistence API (JPA)."
-	},
-	{
-		"id": 38,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "easy",
-		"question": "Which approach typically requires writing more SQL statements?",
-		"options": [
-			{ "key": "A", "text": "Hibernate ORM" },
-			{ "key": "B", "text": "JDBC" },
-			{ "key": "C", "text": "JPA" },
-			{ "key": "D", "text": "Annotations" }
-		],
-		"answer": "B",
-		"reason": "JDBC requires developers to manually write and manage SQL statements."
-	},
-	{
-		"id": 39,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "medium",
-		"question": "Which Hibernate feature automatically converts Java objects into database records?",
-		"options": [
-			{ "key": "A", "text": "Object Mapping" },
-			{ "key": "B", "text": "Servlet Chaining" },
-			{ "key": "C", "text": "JSP Compilation" },
-			{ "key": "D", "text": "Session Tracking" }
-		],
-		"answer": "A",
-		"reason": "Object mapping automatically converts Java objects into corresponding database records."
-	},
-	{
-		"id": 40,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "hard",
-		"question": "Which issue is commonly reduced by ORM frameworks like Hibernate?",
-		"options": [
-			{ "key": "A", "text": "Object-Relational Impedance Mismatch" },
-			{ "key": "B", "text": "Network Routing" },
-			{ "key": "C", "text": "HTML Rendering" },
-			{ "key": "D", "text": "Servlet Initialization" }
-		],
-		"answer": "A",
-		"reason": "ORM frameworks bridge the gap between object-oriented programming and relational databases."
-	},
-	{
-		"id": 41,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "easy",
-		"question": "Which Hibernate object is usually created only once during application startup?",
-		"options": [
-			{ "key": "A", "text": "Session" },
-			{ "key": "B", "text": "Query" },
-			{ "key": "C", "text": "SessionFactory" },
-			{ "key": "D", "text": "Transaction" }
-		],
-		"answer": "C",
-		"reason": "SessionFactory is heavyweight and is typically created once per application."
-	},
-	{
-		"id": 42,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "medium",
-		"question": "Which object should be closed after completing database operations?",
-		"options": [
-			{ "key": "A", "text": "Session" },
-			{ "key": "B", "text": "Configuration" },
-			{ "key": "C", "text": "Annotation" },
-			{ "key": "D", "text": "Dialect" }
-		],
-		"answer": "A",
-		"reason": "Sessions should be closed after use to release database resources."
-	},
-	{
-		"id": 43,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "medium",
-		"question": "Which method is commonly used to begin a transaction?",
-		"options": [
-			{ "key": "A", "text": "startTransaction()" },
-			{ "key": "B", "text": "openTransaction()" },
-			{ "key": "C", "text": "beginTransaction()" },
-			{ "key": "D", "text": "createTransaction()" }
-		],
-		"answer": "C",
-		"reason": "beginTransaction() starts a database transaction in Hibernate."
-	},
-	{
-		"id": 44,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "hard",
-		"question": "Which method is used to obtain a Session from SessionFactory?",
-		"options": [
-			{ "key": "A", "text": "createSession()" },
-			{ "key": "B", "text": "getSession()" },
-			{ "key": "C", "text": "openSession()" },
-			{ "key": "D", "text": "newSession()" }
-		],
-		"answer": "C",
-		"reason": "openSession() creates and returns a new Session object."
-	},
-	{
-		"id": 45,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "easy",
-		"question": "Which file typically contains database username and password settings?",
-		"options": [
-			{ "key": "A", "text": "hibernate.cfg.xml" },
-			{ "key": "B", "text": "index.jsp" },
-			{ "key": "C", "text": "web.xml" },
-			{ "key": "D", "text": "pom.xml only" }
-		],
-		"answer": "A",
-		"reason": "hibernate.cfg.xml stores database connection configuration."
-	},
-	{
-		"id": 46,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "medium",
-		"question": "Which property specifies the database username?",
-		"options": [
-			{ "key": "A", "text": "hibernate.user" },
-			{ "key": "B", "text": "hibernate.connection.username" },
-			{ "key": "C", "text": "hibernate.db.user" },
-			{ "key": "D", "text": "hibernate.jdbc.user" }
-		],
-		"answer": "B",
-		"reason": "hibernate.connection.username specifies the database login username."
-	},
-	{
-		"id": 47,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "medium",
-		"question": "Which property specifies the database password?",
-		"options": [
-			{ "key": "A", "text": "hibernate.connection.password" },
-			{ "key": "B", "text": "hibernate.db.password" },
-			{ "key": "C", "text": "hibernate.pass" },
-			{ "key": "D", "text": "hibernate.jdbc.password" }
-		],
-		"answer": "A",
-		"reason": "hibernate.connection.password stores the database password."
-	},
-	{
-		"id": 48,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "hard",
-		"question": "Which property defines the SQL dialect used by Hibernate?",
-		"options": [
-			{ "key": "A", "text": "hibernate.sql.dialect" },
-			{ "key": "B", "text": "hibernate.dialect" },
-			{ "key": "C", "text": "hibernate.database.dialect" },
-			{ "key": "D", "text": "hibernate.jdbc.dialect" }
-		],
-		"answer": "B",
-		"reason": "hibernate.dialect tells Hibernate how to generate SQL for a specific database."
-	},
-	{
-		"id": 49,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "easy",
-		"question": "A Hibernate entity is usually mapped to:",
-		"options": [
-			{ "key": "A", "text": "One Database Table" },
-			{ "key": "B", "text": "One Servlet" },
-			{ "key": "C", "text": "One JSP" },
-			{ "key": "D", "text": "One SessionFactory" }
-		],
-		"answer": "A",
-		"reason": "An entity class generally corresponds to a database table."
-	},
-	{
-		"id": 50,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "medium",
-		"question": "Which annotation marks a field as non-persistent?",
-		"options": [
-			{ "key": "A", "text": "@Ignore" },
-			{ "key": "B", "text": "@Transient" },
-			{ "key": "C", "text": "@Skip" },
-			{ "key": "D", "text": "@Hidden" }
-		],
-		"answer": "B",
-		"reason": "@Transient prevents a field from being stored in the database."
-	},
-	{
-		"id": 51,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "medium",
-		"question": "Which annotation maps a Java field to a specific column name?",
-		"options": [
-			{ "key": "A", "text": "@Column" },
-			{ "key": "B", "text": "@Field" },
-			{ "key": "C", "text": "@Attribute" },
-			{ "key": "D", "text": "@Property" }
-		],
-		"answer": "A",
-		"reason": "@Column is used to define column mapping details."
-	},
-	{
-		"id": 52,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "hard",
-		"question": "Which annotation is commonly paired with @Id for auto-generated keys?",
-		"options": [
-			{ "key": "A", "text": "@GeneratedValue" },
-			{ "key": "B", "text": "@AutoKey" },
-			{ "key": "C", "text": "@PrimaryValue" },
-			{ "key": "D", "text": "@SequenceKey" }
-		],
-		"answer": "A",
-		"reason": "@GeneratedValue enables automatic generation of primary key values."
-	},
-	{
-		"id": 53,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "easy",
-		"question": "Which configuration style uses Java metadata directly in source code?",
-		"options": [
-			{ "key": "A", "text": "XML Mapping" },
-			{ "key": "B", "text": "Annotations" },
-			{ "key": "C", "text": "Properties File" },
-			{ "key": "D", "text": "SQL Script" }
-		],
-		"answer": "B",
-		"reason": "Annotations are embedded directly in Java source code."
-	},
-	{
-		"id": 54,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "medium",
-		"question": "Which annotation specifies the table name 'employees'?",
-		"options": [
-			{ "key": "A", "text": "@Entity(name=\"employees\")" },
-			{ "key": "B", "text": "@Column(name=\"employees\")" },
-			{ "key": "C", "text": "@Table(name=\"employees\")" },
-			{ "key": "D", "text": "@Database(name=\"employees\")" }
-		],
-		"answer": "C",
-		"reason": "@Table(name=\"employees\") maps an entity to the employees table."
-	},
-	{
-		"id": 55,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "hard",
-		"question": "Which configuration approach avoids separate mapping XML files?",
-		"options": [
-			{ "key": "A", "text": "Annotations" },
-			{ "key": "B", "text": "DTD" },
-			{ "key": "C", "text": "Servlet Config" },
-			{ "key": "D", "text": "JSP Tags" }
-		],
-		"answer": "A",
-		"reason": "Annotations allow mappings directly within Java classes."
-	},
-	{
-		"id": 56,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "easy",
-		"question": "Which CRUD operation inserts a new record?",
-		"options": [
-			{ "key": "A", "text": "Create" },
-			{ "key": "B", "text": "Read" },
-			{ "key": "C", "text": "Update" },
-			{ "key": "D", "text": "Delete" }
-		],
-		"answer": "A",
-		"reason": "Create corresponds to inserting new data."
-	},
-	{
-		"id": 57,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "easy",
-		"question": "Which method permanently removes an entity?",
-		"options": [
-			{ "key": "A", "text": "save()" },
-			{ "key": "B", "text": "update()" },
-			{ "key": "C", "text": "delete()" },
-			{ "key": "D", "text": "get()" }
-		],
-		"answer": "C",
-		"reason": "delete() removes an entity from the database."
-	},
-	{
-		"id": 58,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "medium",
-		"question": "Which method is used to commit a transaction?",
-		"options": [
-			{ "key": "A", "text": "close()" },
-			{ "key": "B", "text": "save()" },
-			{ "key": "C", "text": "commit()" },
-			{ "key": "D", "text": "execute()" }
-		],
-		"answer": "C",
-		"reason": "commit() permanently saves transaction changes."
-	},
-	{
-		"id": 59,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "medium",
-		"question": "Which method cancels a transaction?",
-		"options": [
-			{ "key": "A", "text": "rollback()" },
-			{ "key": "B", "text": "undo()" },
-			{ "key": "C", "text": "cancel()" },
-			{ "key": "D", "text": "reset()" }
-		],
-		"answer": "A",
-		"reason": "rollback() reverses changes made during a transaction."
-	},
-	{
-		"id": 60,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "hard",
-		"question": "Which method may return null if an entity does not exist?",
-		"options": [
-			{ "key": "A", "text": "save()" },
-			{ "key": "B", "text": "update()" },
-			{ "key": "C", "text": "get()" },
-			{ "key": "D", "text": "delete()" }
-		],
-		"answer": "C",
-		"reason": "get() returns null when no matching record exists."
-	},
-	{
-		"id": 61,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "easy",
-		"question": "HQL works with:",
-		"options": [
-			{ "key": "A", "text": "Database Tables Directly" },
-			{ "key": "B", "text": "Java Entity Classes" },
-			{ "key": "C", "text": "JSP Pages" },
-			{ "key": "D", "text": "Servlets" }
-		],
-		"answer": "B",
-		"reason": "HQL is object-oriented and uses entity class names."
-	},
-	{
-		"id": 62,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "medium",
-		"question": "Which HQL clause sorts query results?",
-		"options": [
-			{ "key": "A", "text": "WHERE" },
-			{ "key": "B", "text": "GROUP BY" },
-			{ "key": "C", "text": "ORDER BY" },
-			{ "key": "D", "text": "HAVING" }
-		],
-		"answer": "C",
-		"reason": "ORDER BY is used to sort query results."
-	},
-	{
-		"id": 63,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "medium",
-		"question": "Which HQL keyword retrieves specific fields from an entity?",
-		"options": [
-			{ "key": "A", "text": "GET" },
-			{ "key": "B", "text": "SELECT" },
-			{ "key": "C", "text": "FETCH" },
-			{ "key": "D", "text": "SHOW" }
-		],
-		"answer": "B",
-		"reason": "SELECT specifies particular properties to retrieve."
-	},
-	{
-		"id": 64,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "hard",
-		"question": "Which HQL query retrieves all Student entities?",
-		"options": [
-			{ "key": "A", "text": "SELECT * FROM Student" },
-			{ "key": "B", "text": "GET Student" },
-			{ "key": "C", "text": "FROM Student" },
-			{ "key": "D", "text": "SHOW Student" }
-		],
-		"answer": "C",
-		"reason": "FROM Student returns all Student entity objects."
-	},
-	{
-		"id": 65,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "hard",
-		"question": "Which HQL clause groups records with similar values?",
-		"options": [
-			{ "key": "A", "text": "WHERE" },
-			{ "key": "B", "text": "ORDER BY" },
-			{ "key": "C", "text": "GROUP BY" },
-			{ "key": "D", "text": "FETCH" }
-		],
-		"answer": "C",
-		"reason": "GROUP BY is used to group query results based on specified properties."
-	},
-	{
-		"id": 66,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "hard",
-		"question": "Which Hibernate component is thread-safe and intended for reuse?",
-		"options": [
-			{ "key": "A", "text": "Session" },
-			{ "key": "B", "text": "Transaction" },
-			{ "key": "C", "text": "SessionFactory" },
-			{ "key": "D", "text": "Query" }
-		],
-		"answer": "C",
-		"reason": "SessionFactory is thread-safe and designed to be shared throughout the application."
-	},
-	{
-		"id": 67,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "hard",
-		"question": "Which annotation marks a class as persistent and managed by Hibernate?",
-		"options": [
-			{ "key": "A", "text": "@Entity" },
-			{ "key": "B", "text": "@PersistentClass" },
-			{ "key": "C", "text": "@HibernateClass" },
-			{ "key": "D", "text": "@ORM" }
-		],
-		"answer": "A",
-		"reason": "@Entity identifies a class as a persistent entity."
-	},
-	{
-		"id": 68,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "medium",
-		"question": "Which CRUD operation corresponds to fetching records from the database?",
-		"options": [
-			{ "key": "A", "text": "Create" },
-			{ "key": "B", "text": "Read" },
-			{ "key": "C", "text": "Update" },
-			{ "key": "D", "text": "Delete" }
-		],
-		"answer": "B",
-		"reason": "Read operations retrieve data from the database."
-	},
-	{
-		"id": 69,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "medium",
-		"question": "Which file is loaded by Configuration.configure() by default?",
-		"options": [
-			{ "key": "A", "text": "hibernate.cfg.xml" },
-			{ "key": "B", "text": "web.xml" },
-			{ "key": "C", "text": "hibernate.properties" },
-			{ "key": "D", "text": "pom.xml" }
-		],
-		"answer": "A",
-		"reason": "Configuration.configure() loads hibernate.cfg.xml by default."
-	},
-	{
-		"id": 70,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "hard",
-		"question": "What is the primary difference between SQL and HQL?",
-		"options": [
-			{ "key": "A", "text": "HQL uses entities, SQL uses tables" },
-			{ "key": "B", "text": "SQL uses entities, HQL uses tables" },
-			{ "key": "C", "text": "Both are identical" },
-			{ "key": "D", "text": "HQL cannot perform queries" }
-		],
-		"answer": "A",
-		"reason": "HQL is object-oriented and operates on entity classes, whereas SQL works directly with database tables."
-	},
-	{
-		"id": 71,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "easy",
-		"question": "Which Hibernate feature automatically generates SQL statements?",
-		"options": [
-			{ "key": "A", "text": "ORM Mapping" },
-			{ "key": "B", "text": "Servlet API" },
-			{ "key": "C", "text": "JSTL" },
-			{ "key": "D", "text": "JSP Engine" }
-		],
-		"answer": "A",
-		"reason": "Hibernate generates SQL automatically through ORM mappings."
-	},
-	{
-		"id": 72,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "medium",
-		"question": "Hibernate is primarily used in which layer of an application?",
-		"options": [
-			{ "key": "A", "text": "Presentation Layer" },
-			{ "key": "B", "text": "Persistence Layer" },
-			{ "key": "C", "text": "Network Layer" },
-			{ "key": "D", "text": "Browser Layer" }
-		],
-		"answer": "B",
-		"reason": "Hibernate manages data persistence between Java applications and databases."
-	},
-	{
-		"id": 73,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "easy",
-		"question": "ORM mainly maps database tables to:",
-		"options": [
-			{ "key": "A", "text": "HTML Pages" },
-			{ "key": "B", "text": "Java Objects" },
-			{ "key": "C", "text": "Servlets" },
-			{ "key": "D", "text": "Cookies" }
-		],
-		"answer": "B",
-		"reason": "ORM maps relational tables to Java objects and vice versa."
-	},
-	{
-		"id": 74,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "medium",
-		"question": "Which feature of Hibernate minimizes repetitive database code?",
-		"options": [
-			{ "key": "A", "text": "Automatic Mapping" },
-			{ "key": "B", "text": "Servlet Filters" },
-			{ "key": "C", "text": "JSP EL" },
-			{ "key": "D", "text": "Cookies" }
-		],
-		"answer": "A",
-		"reason": "Automatic mapping reduces repetitive JDBC code."
-	},
-	{
-		"id": 75,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Advantages of ORM over JDBC",
-		"difficulty": "hard",
-		"question": "Which Hibernate feature improves maintainability by separating SQL from Java code?",
-		"options": [
-			{ "key": "A", "text": "ORM Abstraction" },
-			{ "key": "B", "text": "Servlet Chaining" },
-			{ "key": "C", "text": "HTTP Session" },
-			{ "key": "D", "text": "Annotations Only" }
-		],
-		"answer": "A",
-		"reason": "ORM abstraction reduces direct dependency on SQL statements."
-	},
-	{
-		"id": 76,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "easy",
-		"question": "Which Hibernate component loads configuration and mapping information?",
-		"options": [
-			{ "key": "A", "text": "Configuration" },
-			{ "key": "B", "text": "Session" },
-			{ "key": "C", "text": "Transaction" },
-			{ "key": "D", "text": "Query" }
-		],
-		"answer": "A",
-		"reason": "Configuration reads Hibernate settings and mappings."
-	},
-	{
-		"id": 77,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "medium",
-		"question": "Which object executes HQL statements?",
-		"options": [
-			{ "key": "A", "text": "SessionFactory" },
-			{ "key": "B", "text": "Query" },
-			{ "key": "C", "text": "Configuration" },
-			{ "key": "D", "text": "Dialect" }
-		],
-		"answer": "B",
-		"reason": "The Query interface is used to execute HQL queries."
-	},
-	{
-		"id": 78,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "hard",
-		"question": "Which component translates Hibernate operations into database-specific SQL?",
-		"options": [
-			{ "key": "A", "text": "Dialect" },
-			{ "key": "B", "text": "Servlet" },
-			{ "key": "C", "text": "JSP" },
-			{ "key": "D", "text": "Entity" }
-		],
-		"answer": "A",
-		"reason": "Dialect allows Hibernate to generate SQL specific to a database."
-	},
-	{
-		"id": 79,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "easy",
-		"question": "Which Maven file is used to add Hibernate dependencies?",
-		"options": [
-			{ "key": "A", "text": "web.xml" },
-			{ "key": "B", "text": "pom.xml" },
-			{ "key": "C", "text": "hibernate.cfg.xml" },
-			{ "key": "D", "text": "server.xml" }
-		],
-		"answer": "B",
-		"reason": "Maven dependencies are defined in pom.xml."
-	},
-	{
-		"id": 80,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "medium",
-		"question": "Which property enables Hibernate to display generated SQL statements?",
-		"options": [
-			{ "key": "A", "text": "hibernate.show_sql" },
-			{ "key": "B", "text": "hibernate.sql.display" },
-			{ "key": "C", "text": "hibernate.print_sql" },
-			{ "key": "D", "text": "hibernate.log_sql" }
-		],
-		"answer": "A",
-		"reason": "hibernate.show_sql displays generated SQL in the console."
-	},
-	{
-		"id": 81,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Setting Up Hibernate",
-		"difficulty": "hard",
-		"question": "Which property automatically updates database schema based on entity changes?",
-		"options": [
-			{ "key": "A", "text": "hibernate.hbm2ddl.auto" },
-			{ "key": "B", "text": "hibernate.schema.update" },
-			{ "key": "C", "text": "hibernate.auto.ddl" },
-			{ "key": "D", "text": "hibernate.sync" }
-		],
-		"answer": "A",
-		"reason": "hibernate.hbm2ddl.auto controls automatic schema generation and updates."
-	},
-	{
-		"id": 82,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "easy",
-		"question": "Which annotation specifies a primary key field?",
-		"options": [
-			{ "key": "A", "text": "@Id" },
-			{ "key": "B", "text": "@Column" },
-			{ "key": "C", "text": "@Entity" },
-			{ "key": "D", "text": "@Table" }
-		],
-		"answer": "A",
-		"reason": "@Id identifies the primary key of an entity."
-	},
-	{
-		"id": 83,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "medium",
-		"question": "Which annotation specifies a table name different from the class name?",
-		"options": [
-			{ "key": "A", "text": "@Column" },
-			{ "key": "B", "text": "@Entity" },
-			{ "key": "C", "text": "@Table" },
-			{ "key": "D", "text": "@GeneratedValue" }
-		],
-		"answer": "C",
-		"reason": "@Table allows custom table names."
-	},
-	{
-		"id": 84,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Mapping Java Classes to Tables",
-		"difficulty": "hard",
-		"question": "Which annotation maps a field to a specific column name?",
-		"options": [
-			{ "key": "A", "text": "@Property" },
-			{ "key": "B", "text": "@Field" },
-			{ "key": "C", "text": "@Column" },
-			{ "key": "D", "text": "@Attribute" }
-		],
-		"answer": "C",
-		"reason": "@Column defines database column mapping details."
-	},
-	{
-		"id": 85,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "easy",
-		"question": "Hibernate supports configuration through:",
-		"options": [
-			{ "key": "A", "text": "XML" },
-			{ "key": "B", "text": "Annotations" },
-			{ "key": "C", "text": "Both XML and Annotations" },
-			{ "key": "D", "text": "Servlets Only" }
-		],
-		"answer": "C",
-		"reason": "Hibernate supports both XML-based and annotation-based configuration."
-	},
-	{
-		"id": 86,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "medium",
-		"question": "Which annotation marks a class as persistent?",
-		"options": [
-			{ "key": "A", "text": "@Entity" },
-			{ "key": "B", "text": "@Persistent" },
-			{ "key": "C", "text": "@Table" },
-			{ "key": "D", "text": "@Record" }
-		],
-		"answer": "A",
-		"reason": "@Entity marks a class as a persistent entity."
-	},
-	{
-		"id": 87,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Configuration",
-		"difficulty": "hard",
-		"question": "Which annotation prevents a field from being persisted?",
-		"options": [
-			{ "key": "A", "text": "@Ignore" },
-			{ "key": "B", "text": "@Transient" },
-			{ "key": "C", "text": "@Skip" },
-			{ "key": "D", "text": "@Hidden" }
-		],
-		"answer": "B",
-		"reason": "@Transient excludes a field from persistence."
-	},
-	{
-		"id": 88,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "easy",
-		"question": "Which method inserts an entity into the database?",
-		"options": [
-			{ "key": "A", "text": "save()" },
-			{ "key": "B", "text": "update()" },
-			{ "key": "C", "text": "delete()" },
-			{ "key": "D", "text": "get()" }
-		],
-		"answer": "A",
-		"reason": "save() persists a new entity."
-	},
-	{
-		"id": 89,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "medium",
-		"question": "Which method modifies an existing persistent object?",
-		"options": [
-			{ "key": "A", "text": "save()" },
-			{ "key": "B", "text": "update()" },
-			{ "key": "C", "text": "delete()" },
-			{ "key": "D", "text": "load()" }
-		],
-		"answer": "B",
-		"reason": "update() synchronizes modified entity data with the database."
-	},
-	{
-		"id": 90,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "medium",
-		"question": "Which method retrieves an entity by its identifier?",
-		"options": [
-			{ "key": "A", "text": "get()" },
-			{ "key": "B", "text": "save()" },
-			{ "key": "C", "text": "update()" },
-			{ "key": "D", "text": "delete()" }
-		],
-		"answer": "A",
-		"reason": "get() retrieves an entity using its primary key."
-	},
-	{
-		"id": 91,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "hard",
-		"question": "Which method deletes a persistent object from the database?",
-		"options": [
-			{ "key": "A", "text": "remove()" },
-			{ "key": "B", "text": "drop()" },
-			{ "key": "C", "text": "delete()" },
-			{ "key": "D", "text": "erase()" }
-		],
-		"answer": "C",
-		"reason": "delete() removes an entity from the database."
-	},
-	{
-		"id": 92,
-		"subject": "Advanced Java with Web Application",
-		"topic": "CRUD Operations",
-		"difficulty": "hard",
-		"question": "What should usually happen after successful CRUD operations within a transaction?",
-		"options": [
-			{ "key": "A", "text": "rollback()" },
-			{ "key": "B", "text": "commit()" },
-			{ "key": "C", "text": "closeSessionFactory()" },
-			{ "key": "D", "text": "destroy()" }
-		],
-		"answer": "B",
-		"reason": "commit() permanently saves transaction changes."
-	},
-	{
-		"id": 93,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "easy",
-		"question": "HQL stands for:",
-		"options": [
-			{ "key": "A", "text": "Hibernate Query Language" },
-			{ "key": "B", "text": "Hyper Query Language" },
-			{ "key": "C", "text": "Hibernate Quick Language" },
-			{ "key": "D", "text": "Hybrid Query Logic" }
-		],
-		"answer": "A",
-		"reason": "HQL is Hibernate Query Language."
-	},
-	{
-		"id": 94,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "easy",
-		"question": "HQL queries use:",
-		"options": [
-			{ "key": "A", "text": "Table Names" },
-			{ "key": "B", "text": "Entity Names" },
-			{ "key": "C", "text": "Database Names" },
-			{ "key": "D", "text": "Schema Names" }
-		],
-		"answer": "B",
-		"reason": "HQL works with entity classes instead of database tables."
-	},
-	{
-		"id": 95,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "medium",
-		"question": "Which HQL statement retrieves all Employee entities?",
-		"options": [
-			{ "key": "A", "text": "SELECT * FROM Employee" },
-			{ "key": "B", "text": "GET Employee" },
-			{ "key": "C", "text": "FROM Employee" },
-			{ "key": "D", "text": "SHOW Employee" }
-		],
-		"answer": "C",
-		"reason": "FROM Employee retrieves all Employee objects."
-	},
-	{
-		"id": 96,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "medium",
-		"question": "Which clause filters query results?",
-		"options": [
-			{ "key": "A", "text": "ORDER BY" },
-			{ "key": "B", "text": "GROUP BY" },
-			{ "key": "C", "text": "WHERE" },
-			{ "key": "D", "text": "FETCH" }
-		],
-		"answer": "C",
-		"reason": "WHERE restricts results based on specified conditions."
-	},
-	{
-		"id": 97,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "hard",
-		"question": "Which clause sorts HQL query results?",
-		"options": [
-			{ "key": "A", "text": "ORDER BY" },
-			{ "key": "B", "text": "GROUP BY" },
-			{ "key": "C", "text": "WHERE" },
-			{ "key": "D", "text": "HAVING" }
-		],
-		"answer": "A",
-		"reason": "ORDER BY sorts query results in ascending or descending order."
-	},
-	{
-		"id": 98,
-		"subject": "Advanced Java with Web Application",
-		"topic": "HQL Basics",
-		"difficulty": "hard",
-		"question": "Which interface is returned by Session.createQuery()?",
-		"options": [
-			{ "key": "A", "text": "Query" },
-			{ "key": "B", "text": "SessionFactory" },
-			{ "key": "C", "text": "Transaction" },
-			{ "key": "D", "text": "Configuration" }
-		],
-		"answer": "A",
-		"reason": "createQuery() returns a Query object for executing HQL statements."
-	},
-	{
-		"id": 99,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Hibernate Architecture",
-		"difficulty": "hard",
-		"question": "Which Hibernate object is generally NOT thread-safe?",
-		"options": [
-			{ "key": "A", "text": "SessionFactory" },
-			{ "key": "B", "text": "Configuration" },
-			{ "key": "C", "text": "Session" },
-			{ "key": "D", "text": "Dialect" }
-		],
-		"answer": "C",
-		"reason": "Session objects are not thread-safe and should not be shared across threads."
-	},
-	{
-		"id": 100,
-		"subject": "Advanced Java with Web Application",
-		"topic": "Overview of Hibernate Framework",
-		"difficulty": "hard",
-		"question": "Which sequence correctly represents a typical Hibernate workflow?",
-		"options": [
-			{
-				"key": "A",
-				"text": "Session → Configuration → SessionFactory → Transaction"
-			},
-			{
-				"key": "B",
-				"text": "Configuration → SessionFactory → Session → Transaction"
-			},
-			{ "key": "C", "text": "Transaction → Session → Configuration → Query" },
-			{
-				"key": "D",
-				"text": "SessionFactory → Configuration → Session → Entity"
-			}
-		],
-		"answer": "B",
-		"reason": "A typical workflow is: Configuration → SessionFactory → Session → Transaction → CRUD Operations."
-	}
+  {
+    "id": 1,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "easy",
+    "question": "What is Hibernate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A Web Server"
+      },
+      {
+        "key": "B",
+        "text": "An Object Relational Mapping Framework"
+      },
+      {
+        "key": "C",
+        "text": "A Database"
+      },
+      {
+        "key": "D",
+        "text": "A Servlet Container"
+      }
+    ],
+    "answer": "B",
+    "reason": "Hibernate is a Java ORM framework that maps Java objects to database tables."
+  },
+  {
+    "id": 2,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "easy",
+    "question": "Hibernate is mainly used to simplify interaction between Java applications and:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Web Browsers"
+      },
+      {
+        "key": "B",
+        "text": "Databases"
+      },
+      {
+        "key": "C",
+        "text": "Networks"
+      },
+      {
+        "key": "D",
+        "text": "Operating Systems"
+      }
+    ],
+    "answer": "B",
+    "reason": "Hibernate provides a convenient way to interact with relational databases."
+  },
+  {
+    "id": 3,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "medium",
+    "question": "Hibernate is developed under which organization?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oracle"
+      },
+      {
+        "key": "B",
+        "text": "Apache"
+      },
+      {
+        "key": "C",
+        "text": "Red Hat"
+      },
+      {
+        "key": "D",
+        "text": "Microsoft"
+      }
+    ],
+    "answer": "C",
+    "reason": "Hibernate is an open-source ORM framework maintained by Red Hat."
+  },
+  {
+    "id": 4,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "medium",
+    "question": "Which language is Hibernate primarily designed for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Python"
+      },
+      {
+        "key": "B",
+        "text": "Java"
+      },
+      {
+        "key": "C",
+        "text": "PHP"
+      },
+      {
+        "key": "D",
+        "text": "C#"
+      }
+    ],
+    "answer": "B",
+    "reason": "Hibernate is a persistence framework designed for Java applications."
+  },
+  {
+    "id": 5,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "easy",
+    "question": "What does ORM stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Object Relational Mapping"
+      },
+      {
+        "key": "B",
+        "text": "Object Resource Manager"
+      },
+      {
+        "key": "C",
+        "text": "Operational Relational Model"
+      },
+      {
+        "key": "D",
+        "text": "Online Resource Mapping"
+      }
+    ],
+    "answer": "A",
+    "reason": "ORM stands for Object Relational Mapping, which maps objects to database tables."
+  },
+  {
+    "id": 6,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "easy",
+    "question": "Which approach reduces the amount of SQL code written by developers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "JDBC"
+      },
+      {
+        "key": "B",
+        "text": "ORM"
+      },
+      {
+        "key": "C",
+        "text": "HTML"
+      },
+      {
+        "key": "D",
+        "text": "Servlet"
+      }
+    ],
+    "answer": "B",
+    "reason": "ORM frameworks generate SQL automatically, reducing manual coding."
+  },
+  {
+    "id": 7,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "medium",
+    "question": "Which of the following is an advantage of Hibernate over JDBC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "More Boilerplate Code"
+      },
+      {
+        "key": "B",
+        "text": "Automatic Table Mapping"
+      },
+      {
+        "key": "C",
+        "text": "No Database Support"
+      },
+      {
+        "key": "D",
+        "text": "No Transactions"
+      }
+    ],
+    "answer": "B",
+    "reason": "Hibernate automatically maps Java classes to database tables."
+  },
+  {
+    "id": 8,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "hard",
+    "question": "Which Hibernate feature improves application portability across databases?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Database Independence"
+      },
+      {
+        "key": "B",
+        "text": "Servlet Chaining"
+      },
+      {
+        "key": "C",
+        "text": "JSP Compilation"
+      },
+      {
+        "key": "D",
+        "text": "`Cookie` Management"
+      }
+    ],
+    "answer": "A",
+    "reason": "Hibernate abstracts database-specific SQL, improving portability."
+  },
+  {
+    "id": 9,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "easy",
+    "question": "Which is the central interface of Hibernate used for database operations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Configuration"
+      },
+      {
+        "key": "B",
+        "text": "Session"
+      },
+      {
+        "key": "C",
+        "text": "Transaction"
+      },
+      {
+        "key": "D",
+        "text": "Query"
+      }
+    ],
+    "answer": "B",
+    "reason": "Session is the primary interface used for CRUD operations."
+  },
+  {
+    "id": 10,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "easy",
+    "question": "Which object creates Session objects in Hibernate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SessionFactory"
+      },
+      {
+        "key": "B",
+        "text": "Transaction"
+      },
+      {
+        "key": "C",
+        "text": "Query"
+      },
+      {
+        "key": "D",
+        "text": "Criteria"
+      }
+    ],
+    "answer": "A",
+    "reason": "SessionFactory is responsible for creating Session instances."
+  },
+  {
+    "id": 11,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "medium",
+    "question": "Which component represents a unit of work with the database?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Configuration"
+      },
+      {
+        "key": "B",
+        "text": "Session"
+      },
+      {
+        "key": "C",
+        "text": "Dialect"
+      },
+      {
+        "key": "D",
+        "text": "Annotation"
+      }
+    ],
+    "answer": "B",
+    "reason": "A Session represents a single unit of work between application and database."
+  },
+  {
+    "id": 12,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "medium",
+    "question": "Which Hibernate component is used to manage database transactions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Transaction"
+      },
+      {
+        "key": "B",
+        "text": "SessionFactory"
+      },
+      {
+        "key": "C",
+        "text": "Configuration"
+      },
+      {
+        "key": "D",
+        "text": "Entity"
+      }
+    ],
+    "answer": "A",
+    "reason": "The Transaction interface manages commit and rollback operations."
+  },
+  {
+    "id": 13,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "hard",
+    "question": "Which class is commonly used to configure Hibernate settings programmatically?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Configuration"
+      },
+      {
+        "key": "B",
+        "text": "Session"
+      },
+      {
+        "key": "C",
+        "text": "Query"
+      },
+      {
+        "key": "D",
+        "text": "EntityManager"
+      }
+    ],
+    "answer": "A",
+    "reason": "The Configuration class loads mappings and configuration properties."
+  },
+  {
+    "id": 14,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "easy",
+    "question": "Which file is commonly used for Hibernate configuration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`hibernate.cfg.xml`"
+      },
+      {
+        "key": "B",
+        "text": "web.xml"
+      },
+      {
+        "key": "C",
+        "text": "pom.properties"
+      },
+      {
+        "key": "D",
+        "text": "server.xml"
+      }
+    ],
+    "answer": "A",
+    "reason": "`hibernate.cfg.xml` stores database and Hibernate configuration settings."
+  },
+  {
+    "id": 15,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "easy",
+    "question": "Which dependency management tool is commonly used to add Hibernate libraries?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maven"
+      },
+      {
+        "key": "B",
+        "text": "Notepad"
+      },
+      {
+        "key": "C",
+        "text": "Paint"
+      },
+      {
+        "key": "D",
+        "text": "Chrome"
+      }
+    ],
+    "answer": "A",
+    "reason": "Maven is widely used to manage Hibernate dependencies."
+  },
+  {
+    "id": 16,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "medium",
+    "question": "Which property specifies the JDBC driver class in Hibernate configuration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`hibernate.connection.driver_class`"
+      },
+      {
+        "key": "B",
+        "text": "`hibernate.jdbc.driver`"
+      },
+      {
+        "key": "C",
+        "text": "hibernate.driver"
+      },
+      {
+        "key": "D",
+        "text": "`hibernate.class.driver`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`hibernate.connection.driver_class` specifies the JDBC driver."
+  },
+  {
+    "id": 17,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "hard",
+    "question": "Which property defines the database URL in Hibernate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`hibernate.connection.url`"
+      },
+      {
+        "key": "B",
+        "text": "hibernate.url"
+      },
+      {
+        "key": "C",
+        "text": "`hibernate.db.url`"
+      },
+      {
+        "key": "D",
+        "text": "`hibernate.jdbc.url`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`hibernate.connection.url` specifies the JDBC database URL."
+  },
+  {
+    "id": 18,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "easy",
+    "question": "What is a persistent class in Hibernate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A mapped Java class"
+      },
+      {
+        "key": "B",
+        "text": "A JSP page"
+      },
+      {
+        "key": "C",
+        "text": "A Servlet"
+      },
+      {
+        "key": "D",
+        "text": "A JDBC driver"
+      }
+    ],
+    "answer": "A",
+    "reason": "A persistent class is mapped to a database table."
+  },
+  {
+    "id": 19,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "easy",
+    "question": "Which annotation marks a class as a Hibernate entity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Entity"
+      },
+      {
+        "key": "B",
+        "text": "@TableRow"
+      },
+      {
+        "key": "C",
+        "text": "@Database"
+      },
+      {
+        "key": "D",
+        "text": "@Record"
+      }
+    ],
+    "answer": "A",
+    "reason": "The @Entity annotation marks a class as a persistent entity."
+  },
+  {
+    "id": 20,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "medium",
+    "question": "Which annotation specifies the database table name?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Column"
+      },
+      {
+        "key": "B",
+        "text": "@Entity"
+      },
+      {
+        "key": "C",
+        "text": "@Table"
+      },
+      {
+        "key": "D",
+        "text": "@Id"
+      }
+    ],
+    "answer": "C",
+    "reason": "@Table maps an entity to a specific database table."
+  },
+  {
+    "id": 21,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "medium",
+    "question": "Which annotation identifies the primary key field?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Primary"
+      },
+      {
+        "key": "B",
+        "text": "@Id"
+      },
+      {
+        "key": "C",
+        "text": "@Key"
+      },
+      {
+        "key": "D",
+        "text": "@Unique"
+      }
+    ],
+    "answer": "B",
+    "reason": "@Id marks a field as the primary key."
+  },
+  {
+    "id": 22,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "easy",
+    "question": "Hibernate supports configuration using:",
+    "options": [
+      {
+        "key": "A",
+        "text": "XML only"
+      },
+      {
+        "key": "B",
+        "text": "Annotations only"
+      },
+      {
+        "key": "C",
+        "text": "Both XML and Annotations"
+      },
+      {
+        "key": "D",
+        "text": "JSP only"
+      }
+    ],
+    "answer": "C",
+    "reason": "Hibernate allows configuration through XML files and annotations."
+  },
+  {
+    "id": 23,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "medium",
+    "question": "Which annotation maps a field to a database column?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Field"
+      },
+      {
+        "key": "B",
+        "text": "@Column"
+      },
+      {
+        "key": "C",
+        "text": "@Attribute"
+      },
+      {
+        "key": "D",
+        "text": "@Property"
+      }
+    ],
+    "answer": "B",
+    "reason": "@Column specifies the column mapping details."
+  },
+  {
+    "id": 24,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "hard",
+    "question": "Which annotation is commonly used for automatic primary key generation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@AutoId"
+      },
+      {
+        "key": "B",
+        "text": "@GeneratedValue"
+      },
+      {
+        "key": "C",
+        "text": "@Sequence"
+      },
+      {
+        "key": "D",
+        "text": "@Identity"
+      }
+    ],
+    "answer": "B",
+    "reason": "@GeneratedValue specifies automatic generation of primary key values."
+  },
+  {
+    "id": 25,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "easy",
+    "question": "Which Session method is used to save an object?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`save()`"
+      },
+      {
+        "key": "B",
+        "text": "`insert()`"
+      },
+      {
+        "key": "C",
+        "text": "`store()`"
+      },
+      {
+        "key": "D",
+        "text": "`persistData()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`save()` inserts a new record into the database."
+  },
+  {
+    "id": 26,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "easy",
+    "question": "Which operation is used to modify existing data?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Save"
+      },
+      {
+        "key": "B",
+        "text": "Update"
+      },
+      {
+        "key": "C",
+        "text": "Delete"
+      },
+      {
+        "key": "D",
+        "text": "Retrieve"
+      }
+    ],
+    "answer": "B",
+    "reason": "Update modifies an existing database record."
+  },
+  {
+    "id": 27,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "medium",
+    "question": "Which Session method removes an object from the database?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`remove()`"
+      },
+      {
+        "key": "B",
+        "text": "`delete()`"
+      },
+      {
+        "key": "C",
+        "text": "`erase()`"
+      },
+      {
+        "key": "D",
+        "text": "`drop()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`delete()` removes a persistent object from the database."
+  },
+  {
+    "id": 28,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "medium",
+    "question": "Which method is commonly used to retrieve an entity by primary key?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`get()`"
+      },
+      {
+        "key": "B",
+        "text": "`select()`"
+      },
+      {
+        "key": "C",
+        "text": "`findRow()`"
+      },
+      {
+        "key": "D",
+        "text": "`loadData()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`get()` retrieves an entity using its primary key."
+  },
+  {
+    "id": 29,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "hard",
+    "question": "Which operation corresponds to the `R` in CRUD?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remove"
+      },
+      {
+        "key": "B",
+        "text": "Retrieve"
+      },
+      {
+        "key": "C",
+        "text": "Replace"
+      },
+      {
+        "key": "D",
+        "text": "Reset"
+      }
+    ],
+    "answer": "B",
+    "reason": "CRUD stands for Create, Retrieve(Read), Update, and Delete."
+  },
+  {
+    "id": 30,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "easy",
+    "question": "What does HQL stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hibernate Query Language"
+      },
+      {
+        "key": "B",
+        "text": "Hyper Query Language"
+      },
+      {
+        "key": "C",
+        "text": "Hibernate Quick Language"
+      },
+      {
+        "key": "D",
+        "text": "High Query Logic"
+      }
+    ],
+    "answer": "A",
+    "reason": "HQL stands for Hibernate Query Language."
+  },
+  {
+    "id": 31,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "easy",
+    "question": "HQL queries operate on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tables and Columns"
+      },
+      {
+        "key": "B",
+        "text": "Java Objects and Properties"
+      },
+      {
+        "key": "C",
+        "text": "Files"
+      },
+      {
+        "key": "D",
+        "text": "Servlets"
+      }
+    ],
+    "answer": "B",
+    "reason": "HQL works with entities and their properties rather than database tables."
+  },
+  {
+    "id": 32,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "medium",
+    "question": "Which HQL statement retrieves all Employee entities?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SELECT * FROM Employee"
+      },
+      {
+        "key": "B",
+        "text": "FROM Employee"
+      },
+      {
+        "key": "C",
+        "text": "GET Employee"
+      },
+      {
+        "key": "D",
+        "text": "SHOW Employee"
+      }
+    ],
+    "answer": "B",
+    "reason": "HQL uses entity names, and `FROM Employee` retrieves all Employee objects."
+  },
+  {
+    "id": 33,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "medium",
+    "question": "Which interface represents an HQL query?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Query"
+      },
+      {
+        "key": "B",
+        "text": "SessionFactory"
+      },
+      {
+        "key": "C",
+        "text": "Configuration"
+      },
+      {
+        "key": "D",
+        "text": "Transaction"
+      }
+    ],
+    "answer": "A",
+    "reason": "The Query interface is used to execute HQL statements."
+  },
+  {
+    "id": 34,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "hard",
+    "question": "Which HQL clause is used to filter records?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GROUP BY"
+      },
+      {
+        "key": "B",
+        "text": "WHERE"
+      },
+      {
+        "key": "C",
+        "text": "ORDER BY"
+      },
+      {
+        "key": "D",
+        "text": "HAVING"
+      }
+    ],
+    "answer": "B",
+    "reason": "The WHERE clause filters entities based on specified conditions."
+  },
+  {
+    "id": 35,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "hard",
+    "question": "What is a major advantage of HQL over SQL?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Works directly with Java entities"
+      },
+      {
+        "key": "B",
+        "text": "Requires more SQL code"
+      },
+      {
+        "key": "C",
+        "text": "Cannot use conditions"
+      },
+      {
+        "key": "D",
+        "text": "Database-specific syntax only"
+      }
+    ],
+    "answer": "A",
+    "reason": "HQL is object-oriented and operates on entities rather than database tables."
+  },
+  {
+    "id": 36,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "easy",
+    "question": "Hibernate is classified as which type of framework?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ORM Framework"
+      },
+      {
+        "key": "B",
+        "text": "UI Framework"
+      },
+      {
+        "key": "C",
+        "text": "Testing Framework"
+      },
+      {
+        "key": "D",
+        "text": "Networking Framework"
+      }
+    ],
+    "answer": "A",
+    "reason": "Hibernate is an Object Relational Mapping (ORM) framework used for persistence."
+  },
+  {
+    "id": 37,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "medium",
+    "question": "Which API specification is Hibernate commonly used to implement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "JPA"
+      },
+      {
+        "key": "B",
+        "text": "JSP"
+      },
+      {
+        "key": "C",
+        "text": "JSTL"
+      },
+      {
+        "key": "D",
+        "text": "JNDI"
+      }
+    ],
+    "answer": "A",
+    "reason": "Hibernate is one of the most popular implementations of the Java Persistence API (JPA)."
+  },
+  {
+    "id": 38,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "easy",
+    "question": "Which approach typically requires writing more SQL statements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hibernate ORM"
+      },
+      {
+        "key": "B",
+        "text": "JDBC"
+      },
+      {
+        "key": "C",
+        "text": "JPA"
+      },
+      {
+        "key": "D",
+        "text": "Annotations"
+      }
+    ],
+    "answer": "B",
+    "reason": "JDBC requires developers to manually write and manage SQL statements."
+  },
+  {
+    "id": 39,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "medium",
+    "question": "Which Hibernate feature automatically converts Java objects into database records?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Object Mapping"
+      },
+      {
+        "key": "B",
+        "text": "Servlet Chaining"
+      },
+      {
+        "key": "C",
+        "text": "JSP Compilation"
+      },
+      {
+        "key": "D",
+        "text": "Session Tracking"
+      }
+    ],
+    "answer": "A",
+    "reason": "Object mapping automatically converts Java objects into corresponding database records."
+  },
+  {
+    "id": 40,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "hard",
+    "question": "Which issue is commonly reduced by ORM frameworks like Hibernate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Object-Relational Impedance Mismatch"
+      },
+      {
+        "key": "B",
+        "text": "Network Routing"
+      },
+      {
+        "key": "C",
+        "text": "HTML Rendering"
+      },
+      {
+        "key": "D",
+        "text": "Servlet Initialization"
+      }
+    ],
+    "answer": "A",
+    "reason": "ORM frameworks bridge the gap between object-oriented programming and relational databases."
+  },
+  {
+    "id": 41,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "easy",
+    "question": "Which Hibernate object is usually created only once during application startup?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Session"
+      },
+      {
+        "key": "B",
+        "text": "Query"
+      },
+      {
+        "key": "C",
+        "text": "SessionFactory"
+      },
+      {
+        "key": "D",
+        "text": "Transaction"
+      }
+    ],
+    "answer": "C",
+    "reason": "SessionFactory is heavyweight and is typically created once per application."
+  },
+  {
+    "id": 42,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "medium",
+    "question": "Which object should be closed after completing database operations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Session"
+      },
+      {
+        "key": "B",
+        "text": "Configuration"
+      },
+      {
+        "key": "C",
+        "text": "Annotation"
+      },
+      {
+        "key": "D",
+        "text": "Dialect"
+      }
+    ],
+    "answer": "A",
+    "reason": "Sessions should be closed after use to release database resources."
+  },
+  {
+    "id": 43,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "medium",
+    "question": "Which method is commonly used to begin a transaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`startTransaction()`"
+      },
+      {
+        "key": "B",
+        "text": "`openTransaction()`"
+      },
+      {
+        "key": "C",
+        "text": "`beginTransaction()`"
+      },
+      {
+        "key": "D",
+        "text": "`createTransaction()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`beginTransaction()` starts a database transaction in Hibernate."
+  },
+  {
+    "id": 44,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "hard",
+    "question": "Which method is used to obtain a Session from SessionFactory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`createSession()`"
+      },
+      {
+        "key": "B",
+        "text": "`getSession()`"
+      },
+      {
+        "key": "C",
+        "text": "`openSession()`"
+      },
+      {
+        "key": "D",
+        "text": "`newSession()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`openSession()` creates and returns a new Session object."
+  },
+  {
+    "id": 45,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "easy",
+    "question": "Which file typically contains database username and password settings?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`hibernate.cfg.xml`"
+      },
+      {
+        "key": "B",
+        "text": "index.jsp"
+      },
+      {
+        "key": "C",
+        "text": "web.xml"
+      },
+      {
+        "key": "D",
+        "text": "pom.xml only"
+      }
+    ],
+    "answer": "A",
+    "reason": "`hibernate.cfg.xml` stores database connection configuration."
+  },
+  {
+    "id": 46,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "medium",
+    "question": "Which property specifies the database username?",
+    "options": [
+      {
+        "key": "A",
+        "text": "hibernate.user"
+      },
+      {
+        "key": "B",
+        "text": "`hibernate.connection.username`"
+      },
+      {
+        "key": "C",
+        "text": "`hibernate.db.user`"
+      },
+      {
+        "key": "D",
+        "text": "`hibernate.jdbc.user`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`hibernate.connection.username` specifies the database login username."
+  },
+  {
+    "id": 47,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "medium",
+    "question": "Which property specifies the database password?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`hibernate.connection.password`"
+      },
+      {
+        "key": "B",
+        "text": "`hibernate.db.password`"
+      },
+      {
+        "key": "C",
+        "text": "hibernate.pass"
+      },
+      {
+        "key": "D",
+        "text": "`hibernate.jdbc.password`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`hibernate.connection.password` stores the database password."
+  },
+  {
+    "id": 48,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "hard",
+    "question": "Which property defines the SQL dialect used by Hibernate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`hibernate.sql.dialect`"
+      },
+      {
+        "key": "B",
+        "text": "hibernate.dialect"
+      },
+      {
+        "key": "C",
+        "text": "`hibernate.database.dialect`"
+      },
+      {
+        "key": "D",
+        "text": "`hibernate.jdbc.dialect`"
+      }
+    ],
+    "answer": "B",
+    "reason": "hibernate.dialect tells Hibernate how to generate SQL for a specific database."
+  },
+  {
+    "id": 49,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "easy",
+    "question": "A Hibernate entity is usually mapped to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "One Database Table"
+      },
+      {
+        "key": "B",
+        "text": "One Servlet"
+      },
+      {
+        "key": "C",
+        "text": "One JSP"
+      },
+      {
+        "key": "D",
+        "text": "One SessionFactory"
+      }
+    ],
+    "answer": "A",
+    "reason": "An entity class generally corresponds to a database table."
+  },
+  {
+    "id": 50,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "medium",
+    "question": "Which annotation marks a field as non-persistent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Ignore"
+      },
+      {
+        "key": "B",
+        "text": "@Transient"
+      },
+      {
+        "key": "C",
+        "text": "@Skip"
+      },
+      {
+        "key": "D",
+        "text": "@Hidden"
+      }
+    ],
+    "answer": "B",
+    "reason": "@Transient prevents a field from being stored in the database."
+  },
+  {
+    "id": 51,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "medium",
+    "question": "Which annotation maps a Java field to a specific column name?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Column"
+      },
+      {
+        "key": "B",
+        "text": "@Field"
+      },
+      {
+        "key": "C",
+        "text": "@Attribute"
+      },
+      {
+        "key": "D",
+        "text": "@Property"
+      }
+    ],
+    "answer": "A",
+    "reason": "@Column is used to define column mapping details."
+  },
+  {
+    "id": 52,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "hard",
+    "question": "Which annotation is commonly paired with @Id for auto-generated keys?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@GeneratedValue"
+      },
+      {
+        "key": "B",
+        "text": "@AutoKey"
+      },
+      {
+        "key": "C",
+        "text": "@PrimaryValue"
+      },
+      {
+        "key": "D",
+        "text": "@SequenceKey"
+      }
+    ],
+    "answer": "A",
+    "reason": "@GeneratedValue enables automatic generation of primary key values."
+  },
+  {
+    "id": 53,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "easy",
+    "question": "Which configuration style uses Java metadata directly in source code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "XML Mapping"
+      },
+      {
+        "key": "B",
+        "text": "Annotations"
+      },
+      {
+        "key": "C",
+        "text": "Properties File"
+      },
+      {
+        "key": "D",
+        "text": "SQL Script"
+      }
+    ],
+    "answer": "B",
+    "reason": "Annotations are embedded directly in Java source code."
+  },
+  {
+    "id": 54,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "medium",
+    "question": "Which annotation specifies the table name `employees`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Entity(name=\"employees\")"
+      },
+      {
+        "key": "B",
+        "text": "@Column(name=\"employees\")"
+      },
+      {
+        "key": "C",
+        "text": "@Table(name=\"employees\")"
+      },
+      {
+        "key": "D",
+        "text": "@Database(name=\"employees\")"
+      }
+    ],
+    "answer": "C",
+    "reason": "@Table(name=\"employees\") maps an entity to the employees table."
+  },
+  {
+    "id": 55,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "hard",
+    "question": "Which configuration approach avoids separate mapping XML files?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Annotations"
+      },
+      {
+        "key": "B",
+        "text": "DTD"
+      },
+      {
+        "key": "C",
+        "text": "Servlet Config"
+      },
+      {
+        "key": "D",
+        "text": "JSP Tags"
+      }
+    ],
+    "answer": "A",
+    "reason": "Annotations allow mappings directly within Java classes."
+  },
+  {
+    "id": 56,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "easy",
+    "question": "Which CRUD operation inserts a new record?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Create"
+      },
+      {
+        "key": "B",
+        "text": "Read"
+      },
+      {
+        "key": "C",
+        "text": "Update"
+      },
+      {
+        "key": "D",
+        "text": "Delete"
+      }
+    ],
+    "answer": "A",
+    "reason": "Create corresponds to inserting new data."
+  },
+  {
+    "id": 57,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "easy",
+    "question": "Which method permanently removes an entity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`save()`"
+      },
+      {
+        "key": "B",
+        "text": "`update()`"
+      },
+      {
+        "key": "C",
+        "text": "`delete()`"
+      },
+      {
+        "key": "D",
+        "text": "`get()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`delete()` removes an entity from the database."
+  },
+  {
+    "id": 58,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "medium",
+    "question": "Which method is used to commit a transaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`close()`"
+      },
+      {
+        "key": "B",
+        "text": "`save()`"
+      },
+      {
+        "key": "C",
+        "text": "`commit()`"
+      },
+      {
+        "key": "D",
+        "text": "`execute()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`commit()` permanently saves transaction changes."
+  },
+  {
+    "id": 59,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "medium",
+    "question": "Which method cancels a transaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`rollback()`"
+      },
+      {
+        "key": "B",
+        "text": "`undo()`"
+      },
+      {
+        "key": "C",
+        "text": "`cancel()`"
+      },
+      {
+        "key": "D",
+        "text": "`reset()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`rollback()` reverses changes made during a transaction."
+  },
+  {
+    "id": 60,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "hard",
+    "question": "Which method may return null if an entity does not exist?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`save()`"
+      },
+      {
+        "key": "B",
+        "text": "`update()`"
+      },
+      {
+        "key": "C",
+        "text": "`get()`"
+      },
+      {
+        "key": "D",
+        "text": "`delete()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`get()` returns null when no matching record exists."
+  },
+  {
+    "id": 61,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "easy",
+    "question": "HQL works with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Database Tables Directly"
+      },
+      {
+        "key": "B",
+        "text": "Java Entity Classes"
+      },
+      {
+        "key": "C",
+        "text": "JSP Pages"
+      },
+      {
+        "key": "D",
+        "text": "Servlets"
+      }
+    ],
+    "answer": "B",
+    "reason": "HQL is object-oriented and uses entity class names."
+  },
+  {
+    "id": 62,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "medium",
+    "question": "Which HQL clause sorts query results?",
+    "options": [
+      {
+        "key": "A",
+        "text": "WHERE"
+      },
+      {
+        "key": "B",
+        "text": "GROUP BY"
+      },
+      {
+        "key": "C",
+        "text": "ORDER BY"
+      },
+      {
+        "key": "D",
+        "text": "HAVING"
+      }
+    ],
+    "answer": "C",
+    "reason": "ORDER BY is used to sort query results."
+  },
+  {
+    "id": 63,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "medium",
+    "question": "Which HQL keyword retrieves specific fields from an entity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GET"
+      },
+      {
+        "key": "B",
+        "text": "SELECT"
+      },
+      {
+        "key": "C",
+        "text": "FETCH"
+      },
+      {
+        "key": "D",
+        "text": "SHOW"
+      }
+    ],
+    "answer": "B",
+    "reason": "SELECT specifies particular properties to retrieve."
+  },
+  {
+    "id": 64,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "hard",
+    "question": "Which HQL query retrieves all Student entities?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SELECT * FROM Student"
+      },
+      {
+        "key": "B",
+        "text": "GET Student"
+      },
+      {
+        "key": "C",
+        "text": "FROM Student"
+      },
+      {
+        "key": "D",
+        "text": "SHOW Student"
+      }
+    ],
+    "answer": "C",
+    "reason": "FROM Student returns all Student entity objects."
+  },
+  {
+    "id": 65,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "hard",
+    "question": "Which HQL clause groups records with similar values?",
+    "options": [
+      {
+        "key": "A",
+        "text": "WHERE"
+      },
+      {
+        "key": "B",
+        "text": "ORDER BY"
+      },
+      {
+        "key": "C",
+        "text": "GROUP BY"
+      },
+      {
+        "key": "D",
+        "text": "FETCH"
+      }
+    ],
+    "answer": "C",
+    "reason": "GROUP BY is used to group query results based on specified properties."
+  },
+  {
+    "id": 66,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "hard",
+    "question": "Which Hibernate component is thread-safe and intended for reuse?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Session"
+      },
+      {
+        "key": "B",
+        "text": "Transaction"
+      },
+      {
+        "key": "C",
+        "text": "SessionFactory"
+      },
+      {
+        "key": "D",
+        "text": "Query"
+      }
+    ],
+    "answer": "C",
+    "reason": "SessionFactory is thread-safe and designed to be shared throughout the application."
+  },
+  {
+    "id": 67,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "hard",
+    "question": "Which annotation marks a class as persistent and managed by Hibernate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Entity"
+      },
+      {
+        "key": "B",
+        "text": "@PersistentClass"
+      },
+      {
+        "key": "C",
+        "text": "@HibernateClass"
+      },
+      {
+        "key": "D",
+        "text": "@ORM"
+      }
+    ],
+    "answer": "A",
+    "reason": "@Entity identifies a class as a persistent entity."
+  },
+  {
+    "id": 68,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "medium",
+    "question": "Which CRUD operation corresponds to fetching records from the database?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Create"
+      },
+      {
+        "key": "B",
+        "text": "Read"
+      },
+      {
+        "key": "C",
+        "text": "Update"
+      },
+      {
+        "key": "D",
+        "text": "Delete"
+      }
+    ],
+    "answer": "B",
+    "reason": "Read operations retrieve data from the database."
+  },
+  {
+    "id": 69,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "medium",
+    "question": "Which file is loaded by Configuration.`configure()` by default?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`hibernate.cfg.xml`"
+      },
+      {
+        "key": "B",
+        "text": "web.xml"
+      },
+      {
+        "key": "C",
+        "text": "hibernate.properties"
+      },
+      {
+        "key": "D",
+        "text": "pom.xml"
+      }
+    ],
+    "answer": "A",
+    "reason": "Configuration.`configure()` loads `hibernate.cfg.xml` by default."
+  },
+  {
+    "id": 70,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "hard",
+    "question": "What is the primary difference between SQL and HQL?",
+    "options": [
+      {
+        "key": "A",
+        "text": "HQL uses entities, SQL uses tables"
+      },
+      {
+        "key": "B",
+        "text": "SQL uses entities, HQL uses tables"
+      },
+      {
+        "key": "C",
+        "text": "Both are identical"
+      },
+      {
+        "key": "D",
+        "text": "HQL cannot perform queries"
+      }
+    ],
+    "answer": "A",
+    "reason": "HQL is object-oriented and operates on entity classes, whereas SQL works directly with database tables."
+  },
+  {
+    "id": 71,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "easy",
+    "question": "Which Hibernate feature automatically generates SQL statements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ORM Mapping"
+      },
+      {
+        "key": "B",
+        "text": "Servlet API"
+      },
+      {
+        "key": "C",
+        "text": "JSTL"
+      },
+      {
+        "key": "D",
+        "text": "JSP Engine"
+      }
+    ],
+    "answer": "A",
+    "reason": "Hibernate generates SQL automatically through ORM mappings."
+  },
+  {
+    "id": 72,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "medium",
+    "question": "Hibernate is primarily used in which layer of an application?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentation Layer"
+      },
+      {
+        "key": "B",
+        "text": "Persistence Layer"
+      },
+      {
+        "key": "C",
+        "text": "Network Layer"
+      },
+      {
+        "key": "D",
+        "text": "Browser Layer"
+      }
+    ],
+    "answer": "B",
+    "reason": "Hibernate manages data persistence between Java applications and databases."
+  },
+  {
+    "id": 73,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "easy",
+    "question": "ORM mainly maps database tables to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "HTML Pages"
+      },
+      {
+        "key": "B",
+        "text": "Java Objects"
+      },
+      {
+        "key": "C",
+        "text": "Servlets"
+      },
+      {
+        "key": "D",
+        "text": "Cookies"
+      }
+    ],
+    "answer": "B",
+    "reason": "ORM maps relational tables to Java objects and vice versa."
+  },
+  {
+    "id": 74,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "medium",
+    "question": "Which feature of Hibernate minimizes repetitive database code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Automatic Mapping"
+      },
+      {
+        "key": "B",
+        "text": "Servlet Filters"
+      },
+      {
+        "key": "C",
+        "text": "JSP EL"
+      },
+      {
+        "key": "D",
+        "text": "Cookies"
+      }
+    ],
+    "answer": "A",
+    "reason": "Automatic mapping reduces repetitive JDBC code."
+  },
+  {
+    "id": 75,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Advantages of ORM over JDBC",
+    "difficulty": "hard",
+    "question": "Which Hibernate feature improves maintainability by separating SQL from Java code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ORM Abstraction"
+      },
+      {
+        "key": "B",
+        "text": "Servlet Chaining"
+      },
+      {
+        "key": "C",
+        "text": "HTTP Session"
+      },
+      {
+        "key": "D",
+        "text": "Annotations Only"
+      }
+    ],
+    "answer": "A",
+    "reason": "ORM abstraction reduces direct dependency on SQL statements."
+  },
+  {
+    "id": 76,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "easy",
+    "question": "Which Hibernate component loads configuration and mapping information?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Configuration"
+      },
+      {
+        "key": "B",
+        "text": "Session"
+      },
+      {
+        "key": "C",
+        "text": "Transaction"
+      },
+      {
+        "key": "D",
+        "text": "Query"
+      }
+    ],
+    "answer": "A",
+    "reason": "Configuration reads Hibernate settings and mappings."
+  },
+  {
+    "id": 77,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "medium",
+    "question": "Which object executes HQL statements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SessionFactory"
+      },
+      {
+        "key": "B",
+        "text": "Query"
+      },
+      {
+        "key": "C",
+        "text": "Configuration"
+      },
+      {
+        "key": "D",
+        "text": "Dialect"
+      }
+    ],
+    "answer": "B",
+    "reason": "The Query interface is used to execute HQL queries."
+  },
+  {
+    "id": 78,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "hard",
+    "question": "Which component translates Hibernate operations into database-specific SQL?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dialect"
+      },
+      {
+        "key": "B",
+        "text": "Servlet"
+      },
+      {
+        "key": "C",
+        "text": "JSP"
+      },
+      {
+        "key": "D",
+        "text": "Entity"
+      }
+    ],
+    "answer": "A",
+    "reason": "Dialect allows Hibernate to generate SQL specific to a database."
+  },
+  {
+    "id": 79,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "easy",
+    "question": "Which Maven file is used to add Hibernate dependencies?",
+    "options": [
+      {
+        "key": "A",
+        "text": "web.xml"
+      },
+      {
+        "key": "B",
+        "text": "pom.xml"
+      },
+      {
+        "key": "C",
+        "text": "`hibernate.cfg.xml`"
+      },
+      {
+        "key": "D",
+        "text": "server.xml"
+      }
+    ],
+    "answer": "B",
+    "reason": "Maven dependencies are defined in pom.xml."
+  },
+  {
+    "id": 80,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "medium",
+    "question": "Which property enables Hibernate to display generated SQL statements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "hibernate.show_sql"
+      },
+      {
+        "key": "B",
+        "text": "`hibernate.sql.display`"
+      },
+      {
+        "key": "C",
+        "text": "hibernate.print_sql"
+      },
+      {
+        "key": "D",
+        "text": "hibernate.log_sql"
+      }
+    ],
+    "answer": "A",
+    "reason": "hibernate.show_sql displays generated SQL in the console."
+  },
+  {
+    "id": 81,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Setting Up Hibernate",
+    "difficulty": "hard",
+    "question": "Which property automatically updates database schema based on entity changes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`hibernate.hbm2ddl.auto`"
+      },
+      {
+        "key": "B",
+        "text": "`hibernate.schema.update`"
+      },
+      {
+        "key": "C",
+        "text": "`hibernate.auto.ddl`"
+      },
+      {
+        "key": "D",
+        "text": "hibernate.sync"
+      }
+    ],
+    "answer": "A",
+    "reason": "`hibernate.hbm2ddl.auto` controls automatic schema generation and updates."
+  },
+  {
+    "id": 82,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "easy",
+    "question": "Which annotation specifies a primary key field?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Id"
+      },
+      {
+        "key": "B",
+        "text": "@Column"
+      },
+      {
+        "key": "C",
+        "text": "@Entity"
+      },
+      {
+        "key": "D",
+        "text": "@Table"
+      }
+    ],
+    "answer": "A",
+    "reason": "@Id identifies the primary key of an entity."
+  },
+  {
+    "id": 83,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "medium",
+    "question": "Which annotation specifies a table name different from the class name?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Column"
+      },
+      {
+        "key": "B",
+        "text": "@Entity"
+      },
+      {
+        "key": "C",
+        "text": "@Table"
+      },
+      {
+        "key": "D",
+        "text": "@GeneratedValue"
+      }
+    ],
+    "answer": "C",
+    "reason": "@Table allows custom table names."
+  },
+  {
+    "id": 84,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Mapping Java Classes to Tables",
+    "difficulty": "hard",
+    "question": "Which annotation maps a field to a specific column name?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Property"
+      },
+      {
+        "key": "B",
+        "text": "@Field"
+      },
+      {
+        "key": "C",
+        "text": "@Column"
+      },
+      {
+        "key": "D",
+        "text": "@Attribute"
+      }
+    ],
+    "answer": "C",
+    "reason": "@Column defines database column mapping details."
+  },
+  {
+    "id": 85,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "easy",
+    "question": "Hibernate supports configuration through:",
+    "options": [
+      {
+        "key": "A",
+        "text": "XML"
+      },
+      {
+        "key": "B",
+        "text": "Annotations"
+      },
+      {
+        "key": "C",
+        "text": "Both XML and Annotations"
+      },
+      {
+        "key": "D",
+        "text": "Servlets Only"
+      }
+    ],
+    "answer": "C",
+    "reason": "Hibernate supports both XML-based and annotation-based configuration."
+  },
+  {
+    "id": 86,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "medium",
+    "question": "Which annotation marks a class as persistent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Entity"
+      },
+      {
+        "key": "B",
+        "text": "@Persistent"
+      },
+      {
+        "key": "C",
+        "text": "@Table"
+      },
+      {
+        "key": "D",
+        "text": "@Record"
+      }
+    ],
+    "answer": "A",
+    "reason": "@Entity marks a class as a persistent entity."
+  },
+  {
+    "id": 87,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Configuration",
+    "difficulty": "hard",
+    "question": "Which annotation prevents a field from being persisted?",
+    "options": [
+      {
+        "key": "A",
+        "text": "@Ignore"
+      },
+      {
+        "key": "B",
+        "text": "@Transient"
+      },
+      {
+        "key": "C",
+        "text": "@Skip"
+      },
+      {
+        "key": "D",
+        "text": "@Hidden"
+      }
+    ],
+    "answer": "B",
+    "reason": "@Transient excludes a field from persistence."
+  },
+  {
+    "id": 88,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "easy",
+    "question": "Which method inserts an entity into the database?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`save()`"
+      },
+      {
+        "key": "B",
+        "text": "`update()`"
+      },
+      {
+        "key": "C",
+        "text": "`delete()`"
+      },
+      {
+        "key": "D",
+        "text": "`get()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`save()` persists a new entity."
+  },
+  {
+    "id": 89,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "medium",
+    "question": "Which method modifies an existing persistent object?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`save()`"
+      },
+      {
+        "key": "B",
+        "text": "`update()`"
+      },
+      {
+        "key": "C",
+        "text": "`delete()`"
+      },
+      {
+        "key": "D",
+        "text": "`load()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`update()` synchronizes modified entity data with the database."
+  },
+  {
+    "id": 90,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "medium",
+    "question": "Which method retrieves an entity by its identifier?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`get()`"
+      },
+      {
+        "key": "B",
+        "text": "`save()`"
+      },
+      {
+        "key": "C",
+        "text": "`update()`"
+      },
+      {
+        "key": "D",
+        "text": "`delete()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`get()` retrieves an entity using its primary key."
+  },
+  {
+    "id": 91,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "hard",
+    "question": "Which method deletes a persistent object from the database?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`remove()`"
+      },
+      {
+        "key": "B",
+        "text": "`drop()`"
+      },
+      {
+        "key": "C",
+        "text": "`delete()`"
+      },
+      {
+        "key": "D",
+        "text": "`erase()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`delete()` removes an entity from the database."
+  },
+  {
+    "id": 92,
+    "subject": "Advanced Java with Web Application",
+    "topic": "CRUD Operations",
+    "difficulty": "hard",
+    "question": "What should usually happen after successful CRUD operations within a transaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`rollback()`"
+      },
+      {
+        "key": "B",
+        "text": "`commit()`"
+      },
+      {
+        "key": "C",
+        "text": "`closeSessionFactory()`"
+      },
+      {
+        "key": "D",
+        "text": "`destroy()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`commit()` permanently saves transaction changes."
+  },
+  {
+    "id": 93,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "easy",
+    "question": "HQL stands for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hibernate Query Language"
+      },
+      {
+        "key": "B",
+        "text": "Hyper Query Language"
+      },
+      {
+        "key": "C",
+        "text": "Hibernate Quick Language"
+      },
+      {
+        "key": "D",
+        "text": "Hybrid Query Logic"
+      }
+    ],
+    "answer": "A",
+    "reason": "HQL is Hibernate Query Language."
+  },
+  {
+    "id": 94,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "easy",
+    "question": "HQL queries use:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Table Names"
+      },
+      {
+        "key": "B",
+        "text": "Entity Names"
+      },
+      {
+        "key": "C",
+        "text": "Database Names"
+      },
+      {
+        "key": "D",
+        "text": "Schema Names"
+      }
+    ],
+    "answer": "B",
+    "reason": "HQL works with entity classes instead of database tables."
+  },
+  {
+    "id": 95,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "medium",
+    "question": "Which HQL statement retrieves all Employee entities?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SELECT * FROM Employee"
+      },
+      {
+        "key": "B",
+        "text": "GET Employee"
+      },
+      {
+        "key": "C",
+        "text": "FROM Employee"
+      },
+      {
+        "key": "D",
+        "text": "SHOW Employee"
+      }
+    ],
+    "answer": "C",
+    "reason": "FROM Employee retrieves all Employee objects."
+  },
+  {
+    "id": 96,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "medium",
+    "question": "Which clause filters query results?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ORDER BY"
+      },
+      {
+        "key": "B",
+        "text": "GROUP BY"
+      },
+      {
+        "key": "C",
+        "text": "WHERE"
+      },
+      {
+        "key": "D",
+        "text": "FETCH"
+      }
+    ],
+    "answer": "C",
+    "reason": "WHERE restricts results based on specified conditions."
+  },
+  {
+    "id": 97,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "hard",
+    "question": "Which clause sorts HQL query results?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ORDER BY"
+      },
+      {
+        "key": "B",
+        "text": "GROUP BY"
+      },
+      {
+        "key": "C",
+        "text": "WHERE"
+      },
+      {
+        "key": "D",
+        "text": "HAVING"
+      }
+    ],
+    "answer": "A",
+    "reason": "ORDER BY sorts query results in ascending or descending order."
+  },
+  {
+    "id": 98,
+    "subject": "Advanced Java with Web Application",
+    "topic": "HQL Basics",
+    "difficulty": "hard",
+    "question": "Which interface is returned by Session.`createQuery()`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Query"
+      },
+      {
+        "key": "B",
+        "text": "SessionFactory"
+      },
+      {
+        "key": "C",
+        "text": "Transaction"
+      },
+      {
+        "key": "D",
+        "text": "Configuration"
+      }
+    ],
+    "answer": "A",
+    "reason": "`createQuery()` returns a Query object for executing HQL statements."
+  },
+  {
+    "id": 99,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Hibernate Architecture",
+    "difficulty": "hard",
+    "question": "Which Hibernate object is generally NOT thread-safe?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SessionFactory"
+      },
+      {
+        "key": "B",
+        "text": "Configuration"
+      },
+      {
+        "key": "C",
+        "text": "Session"
+      },
+      {
+        "key": "D",
+        "text": "Dialect"
+      }
+    ],
+    "answer": "C",
+    "reason": "Session objects are not thread-safe and should not be shared across threads."
+  },
+  {
+    "id": 100,
+    "subject": "Advanced Java with Web Application",
+    "topic": "Overview of Hibernate Framework",
+    "difficulty": "hard",
+    "question": "Which sequence correctly represents a typical Hibernate workflow?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Session → Configuration → SessionFactory → Transaction"
+      },
+      {
+        "key": "B",
+        "text": "Configuration → SessionFactory → Session → Transaction"
+      },
+      {
+        "key": "C",
+        "text": "Transaction → Session → Configuration → Query"
+      },
+      {
+        "key": "D",
+        "text": "SessionFactory → Configuration → Session → Entity"
+      }
+    ],
+    "answer": "B",
+    "reason": "A typical workflow is: Configuration → SessionFactory → Session → Transaction → CRUD Operations."
+  }
 ]

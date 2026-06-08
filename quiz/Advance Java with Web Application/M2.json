@@ -1,1516 +1,2702 @@
 [
-	{
-		"id": 1,
-		"subject": "Advance Java with Web Application",
-		"topic": "Introduction to JDBC",
-		"difficulty": "easy",
-		"question": "What does JDBC stand for?",
-		"options": [
-			{ "key": "A", "text": "Java Database Connectivity" },
-			{ "key": "B", "text": "Java Dynamic Connection" },
-			{ "key": "C", "text": "Java Data Component" },
-			{ "key": "D", "text": "Java Database Controller" }
-		],
-		"answer": "A",
-		"reason": "JDBC stands for Java Database Connectivity."
-	},
-	{
-		"id": 2,
-		"subject": "Advance Java with Web Application",
-		"topic": "Introduction to JDBC",
-		"difficulty": "easy",
-		"question": "JDBC is used to connect Java applications with:",
-		"options": [
-			{ "key": "A", "text": "Operating Systems" },
-			{ "key": "B", "text": "Databases" },
-			{ "key": "C", "text": "Networks" },
-			{ "key": "D", "text": "Compilers" }
-		],
-		"answer": "B",
-		"reason": "JDBC provides APIs for database connectivity."
-	},
-	{
-		"id": 3,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Architecture",
-		"difficulty": "medium",
-		"question": "Which component manages JDBC drivers?",
-		"options": [
-			{ "key": "A", "text": "Connection" },
-			{ "key": "B", "text": "Statement" },
-			{ "key": "C", "text": "DriverManager" },
-			{ "key": "D", "text": "ResultSet" }
-		],
-		"answer": "C",
-		"reason": "DriverManager loads and manages JDBC drivers."
-	},
-	{
-		"id": 4,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Drivers",
-		"difficulty": "medium",
-		"question": "Which JDBC driver type converts JDBC calls into a database-independent network protocol?",
-		"options": [
-			{ "key": "A", "text": "Type 1" },
-			{ "key": "B", "text": "Type 2" },
-			{ "key": "C", "text": "Type 3" },
-			{ "key": "D", "text": "Type 4" }
-		],
-		"answer": "C",
-		"reason": "Type 3 drivers use a middleware server and a database-independent protocol."
-	},
-	{
-		"id": 5,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Drivers",
-		"difficulty": "medium",
-		"question": "Which JDBC driver is also known as a Thin Driver?",
-		"options": [
-			{ "key": "A", "text": "Type 1" },
-			{ "key": "B", "text": "Type 2" },
-			{ "key": "C", "text": "Type 3" },
-			{ "key": "D", "text": "Type 4" }
-		],
-		"answer": "D",
-		"reason": "Type 4 is a pure Java driver and is known as the Thin Driver."
-	},
-	{
-		"id": 6,
-		"subject": "Advance Java with Web Application",
-		"topic": "Database Connection",
-		"difficulty": "easy",
-		"question": "Which method is used to obtain a database connection?",
-		"options": [
-			{ "key": "A", "text": "DriverManager.getConnection()" },
-			{ "key": "B", "text": "Connection.open()" },
-			{ "key": "C", "text": "Database.connect()" },
-			{ "key": "D", "text": "Driver.connect()" }
-		],
-		"answer": "A",
-		"reason": "DriverManager.getConnection() establishes database connections."
-	},
-	{
-		"id": 7,
-		"subject": "Advance Java with Web Application",
-		"topic": "SQL Queries",
-		"difficulty": "easy",
-		"question": "Which SQL statement retrieves data from a table?",
-		"options": [
-			{ "key": "A", "text": "INSERT" },
-			{ "key": "B", "text": "UPDATE" },
-			{ "key": "C", "text": "DELETE" },
-			{ "key": "D", "text": "SELECT" }
-		],
-		"answer": "D",
-		"reason": "SELECT is used to fetch data from tables."
-	},
-	{
-		"id": 8,
-		"subject": "Advance Java with Web Application",
-		"topic": "SQL Queries",
-		"difficulty": "easy",
-		"question": "Which SQL command adds new records?",
-		"options": [
-			{ "key": "A", "text": "INSERT" },
-			{ "key": "B", "text": "UPDATE" },
-			{ "key": "C", "text": "ALTER" },
-			{ "key": "D", "text": "SELECT" }
-		],
-		"answer": "A",
-		"reason": "INSERT adds rows into a table."
-	},
-	{
-		"id": 9,
-		"subject": "Advance Java with Web Application",
-		"topic": "SQL Queries",
-		"difficulty": "easy",
-		"question": "Which SQL command modifies existing records?",
-		"options": [
-			{ "key": "A", "text": "DELETE" },
-			{ "key": "B", "text": "UPDATE" },
-			{ "key": "C", "text": "INSERT" },
-			{ "key": "D", "text": "DROP" }
-		],
-		"answer": "B",
-		"reason": "UPDATE changes existing data."
-	},
-	{
-		"id": 10,
-		"subject": "Advance Java with Web Application",
-		"topic": "SQL Queries",
-		"difficulty": "easy",
-		"question": "Which SQL command removes rows from a table?",
-		"options": [
-			{ "key": "A", "text": "DELETE" },
-			{ "key": "B", "text": "DROP" },
-			{ "key": "C", "text": "ALTER" },
-			{ "key": "D", "text": "TRUNCATE ONLY" }
-		],
-		"answer": "A",
-		"reason": "DELETE removes selected rows."
-	},
-	{
-		"id": 11,
-		"subject": "Advance Java with Web Application",
-		"topic": "Statement",
-		"difficulty": "medium",
-		"question": "Which interface is used for executing static SQL queries?",
-		"options": [
-			{ "key": "A", "text": "PreparedStatement" },
-			{ "key": "B", "text": "CallableStatement" },
-			{ "key": "C", "text": "Statement" },
-			{ "key": "D", "text": "ResultSet" }
-		],
-		"answer": "C",
-		"reason": "Statement executes normal SQL queries without parameters."
-	},
-	{
-		"id": 12,
-		"subject": "Advance Java with Web Application",
-		"topic": "PreparedStatement",
-		"difficulty": "medium",
-		"question": "PreparedStatement is mainly used for:",
-		"options": [
-			{ "key": "A", "text": "Parameterized Queries" },
-			{ "key": "B", "text": "Closing Connections" },
-			{ "key": "C", "text": "Creating Databases" },
-			{ "key": "D", "text": "Loading Drivers" }
-		],
-		"answer": "A",
-		"reason": "PreparedStatement supports parameters and precompiled SQL."
-	},
-	{
-		"id": 13,
-		"subject": "Advance Java with Web Application",
-		"topic": "PreparedStatement",
-		"difficulty": "hard",
-		"question": "Which advantage does PreparedStatement provide?",
-		"options": [
-			{ "key": "A", "text": "Prevents SQL Injection" },
-			{ "key": "B", "text": "Deletes Tables Automatically" },
-			{ "key": "C", "text": "Creates Databases" },
-			{ "key": "D", "text": "Improves Internet Speed" }
-		],
-		"answer": "A",
-		"reason": "Parameterized queries reduce SQL injection vulnerabilities."
-	},
-	{
-		"id": 14,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "easy",
-		"question": "Which object stores records returned by a SELECT query?",
-		"options": [
-			{ "key": "A", "text": "Connection" },
-			{ "key": "B", "text": "Statement" },
-			{ "key": "C", "text": "ResultSet" },
-			{ "key": "D", "text": "DriverManager" }
-		],
-		"answer": "C",
-		"reason": "ResultSet contains query results."
-	},
-	{
-		"id": 15,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "medium",
-		"question": "Which method moves the cursor to the next row in a ResultSet?",
-		"options": [
-			{ "key": "A", "text": "next()" },
-			{ "key": "B", "text": "move()" },
-			{ "key": "C", "text": "forward()" },
-			{ "key": "D", "text": "cursor()" }
-		],
-		"answer": "A",
-		"reason": "next() advances the ResultSet cursor."
-	},
-	{
-		"id": 16,
-		"subject": "Advance Java with Web Application",
-		"topic": "Metadata",
-		"difficulty": "medium",
-		"question": "Which interface provides information about columns in a ResultSet?",
-		"options": [
-			{ "key": "A", "text": "DatabaseMetaData" },
-			{ "key": "B", "text": "ResultSetMetaData" },
-			{ "key": "C", "text": "ConnectionMetaData" },
-			{ "key": "D", "text": "ColumnMetaData" }
-		],
-		"answer": "B",
-		"reason": "ResultSetMetaData provides column information."
-	},
-	{
-		"id": 17,
-		"subject": "Advance Java with Web Application",
-		"topic": "Transaction Management",
-		"difficulty": "medium",
-		"question": "Which method permanently saves transaction changes?",
-		"options": [
-			{ "key": "A", "text": "save()" },
-			{ "key": "B", "text": "commit()" },
-			{ "key": "C", "text": "execute()" },
-			{ "key": "D", "text": "persist()" }
-		],
-		"answer": "B",
-		"reason": "commit() permanently stores transaction changes."
-	},
-	{
-		"id": 18,
-		"subject": "Advance Java with Web Application",
-		"topic": "Transaction Management",
-		"difficulty": "medium",
-		"question": "Which method undoes transaction changes?",
-		"options": [
-			{ "key": "A", "text": "undo()" },
-			{ "key": "B", "text": "cancel()" },
-			{ "key": "C", "text": "rollback()" },
-			{ "key": "D", "text": "remove()" }
-		],
-		"answer": "C",
-		"reason": "rollback() restores the database to its previous state."
-	},
-	{
-		"id": 19,
-		"subject": "Advance Java with Web Application",
-		"topic": "Savepoint",
-		"difficulty": "hard",
-		"question": "A savepoint is used to:",
-		"options": [
-			{ "key": "A", "text": "Close Connection" },
-			{ "key": "B", "text": "Mark a point within a transaction" },
-			{ "key": "C", "text": "Create Table" },
-			{ "key": "D", "text": "Execute Query" }
-		],
-		"answer": "B",
-		"reason": "Savepoints allow partial rollback within transactions."
-	},
-	{
-		"id": 20,
-		"subject": "Advance Java with Web Application",
-		"topic": "Batch Processing",
-		"difficulty": "medium",
-		"question": "Which method adds SQL commands to a batch?",
-		"options": [
-			{ "key": "A", "text": "addBatch()" },
-			{ "key": "B", "text": "batchAdd()" },
-			{ "key": "C", "text": "insertBatch()" },
-			{ "key": "D", "text": "executeBatchAdd()" }
-		],
-		"answer": "A",
-		"reason": "addBatch() collects SQL commands for batch execution."
-	},
-
-	{
-		"id": 21,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "What will this code return?\nResultSet rs = stmt.executeQuery(\"SELECT * FROM student\");",
-		"options": [
-			{ "key": "A", "text": "Connection Object" },
-			{ "key": "B", "text": "ResultSet Object" },
-			{ "key": "C", "text": "Integer" },
-			{ "key": "D", "text": "Boolean" }
-		],
-		"answer": "B",
-		"reason": "executeQuery() returns a ResultSet."
-	},
-
-	{
-		"id": 22,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "Which method is missing?\nPreparedStatement ps = con.prepareStatement(\"SELECT * FROM student WHERE id=?\");\nps._____(1, 10);",
-		"options": [
-			{ "key": "A", "text": "setInt" },
-			{ "key": "B", "text": "getInt" },
-			{ "key": "C", "text": "putInt" },
-			{ "key": "D", "text": "addInt" }
-		],
-		"answer": "A",
-		"reason": "setInt() assigns integer values to placeholders."
-	},
-
-	{
-		"id": 23,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the output type?\nint count = stmt.executeUpdate(\"DELETE FROM student WHERE id=5\");",
-		"options": [
-			{ "key": "A", "text": "ResultSet" },
-			{ "key": "B", "text": "Boolean" },
-			{ "key": "C", "text": "Number of affected rows" },
-			{ "key": "D", "text": "Connection" }
-		],
-		"answer": "C",
-		"reason": "executeUpdate() returns the affected row count."
-	},
-
-	{
-		"id": 24,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the purpose of this code?\ncon.setAutoCommit(false);",
-		"options": [
-			{ "key": "A", "text": "Enable Auto Commit" },
-			{ "key": "B", "text": "Disable Auto Commit" },
-			{ "key": "C", "text": "Close Connection" },
-			{ "key": "D", "text": "Rollback Transaction" }
-		],
-		"answer": "B",
-		"reason": "Transactions must be manually committed after disabling auto-commit."
-	},
-
-	{
-		"id": 25,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "Which method executes all SQL statements added using addBatch()?",
-		"options": [
-			{ "key": "A", "text": "execute()" },
-			{ "key": "B", "text": "runBatch()" },
-			{ "key": "C", "text": "executeBatch()" },
-			{ "key": "D", "text": "commitBatch()" }
-		],
-		"answer": "C",
-		"reason": "executeBatch() executes all commands stored in the batch."
-	},
-	{
-		"id": 26,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Drivers",
-		"difficulty": "easy",
-		"question": "Which JDBC driver type uses the JDBC-ODBC Bridge?",
-		"options": [
-			{ "key": "A", "text": "Type 1" },
-			{ "key": "B", "text": "Type 2" },
-			{ "key": "C", "text": "Type 3" },
-			{ "key": "D", "text": "Type 4" }
-		],
-		"answer": "A",
-		"reason": "Type 1 JDBC driver is the JDBC-ODBC Bridge Driver."
-	},
-	{
-		"id": 27,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Drivers",
-		"difficulty": "medium",
-		"question": "Which JDBC driver type is partially written in Java and partially uses native code?",
-		"options": [
-			{ "key": "A", "text": "Type 1" },
-			{ "key": "B", "text": "Type 2" },
-			{ "key": "C", "text": "Type 3" },
-			{ "key": "D", "text": "Type 4" }
-		],
-		"answer": "B",
-		"reason": "Type 2 drivers use native database libraries along with Java code."
-	},
-	{
-		"id": 28,
-		"subject": "Advance Java with Web Application",
-		"topic": "Connection",
-		"difficulty": "easy",
-		"question": "Which interface represents a session with a specific database?",
-		"options": [
-			{ "key": "A", "text": "Statement" },
-			{ "key": "B", "text": "ResultSet" },
-			{ "key": "C", "text": "Connection" },
-			{ "key": "D", "text": "DriverManager" }
-		],
-		"answer": "C",
-		"reason": "Connection represents an active connection to a database."
-	},
-	{
-		"id": 29,
-		"subject": "Advance Java with Web Application",
-		"topic": "Connection",
-		"difficulty": "medium",
-		"question": "Which method closes a JDBC connection?",
-		"options": [
-			{ "key": "A", "text": "terminate()" },
-			{ "key": "B", "text": "disconnect()" },
-			{ "key": "C", "text": "stop()" },
-			{ "key": "D", "text": "close()" }
-		],
-		"answer": "D",
-		"reason": "The close() method releases database resources and closes the connection."
-	},
-	{
-		"id": 30,
-		"subject": "Advance Java with Web Application",
-		"topic": "Statement",
-		"difficulty": "easy",
-		"question": "Which method executes a SELECT statement?",
-		"options": [
-			{ "key": "A", "text": "executeQuery()" },
-			{ "key": "B", "text": "executeUpdate()" },
-			{ "key": "C", "text": "executeInsert()" },
-			{ "key": "D", "text": "executeSelect()" }
-		],
-		"answer": "A",
-		"reason": "executeQuery() is specifically used for SELECT statements."
-	},
-	{
-		"id": 31,
-		"subject": "Advance Java with Web Application",
-		"topic": "Statement",
-		"difficulty": "medium",
-		"question": "Which method can execute any type of SQL statement?",
-		"options": [
-			{ "key": "A", "text": "executeAny()" },
-			{ "key": "B", "text": "execute()" },
-			{ "key": "C", "text": "executeSQL()" },
-			{ "key": "D", "text": "executeGeneric()" }
-		],
-		"answer": "B",
-		"reason": "execute() can run any SQL statement and returns a boolean."
-	},
-	{
-		"id": 32,
-		"subject": "Advance Java with Web Application",
-		"topic": "PreparedStatement",
-		"difficulty": "medium",
-		"question": "Which symbol is used as a parameter placeholder in PreparedStatement?",
-		"options": [
-			{ "key": "A", "text": "*" },
-			{ "key": "B", "text": ":" },
-			{ "key": "C", "text": "?" },
-			{ "key": "D", "text": "#" }
-		],
-		"answer": "C",
-		"reason": "PreparedStatement uses ? placeholders for parameters."
-	},
-	{
-		"id": 33,
-		"subject": "Advance Java with Web Application",
-		"topic": "PreparedStatement",
-		"difficulty": "hard",
-		"question": "Which method sets a String value in a PreparedStatement?",
-		"options": [
-			{ "key": "A", "text": "putString()" },
-			{ "key": "B", "text": "setString()" },
-			{ "key": "C", "text": "addString()" },
-			{ "key": "D", "text": "getString()" }
-		],
-		"answer": "B",
-		"reason": "setString() assigns a String value to a parameter."
-	},
-	{
-		"id": 34,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "easy",
-		"question": "Which method retrieves an integer value from a ResultSet?",
-		"options": [
-			{ "key": "A", "text": "fetchInt()" },
-			{ "key": "B", "text": "readInt()" },
-			{ "key": "C", "text": "setInt()" },
-			{ "key": "D", "text": "getInt()" }
-		],
-		"answer": "D",
-		"reason": "getInt() retrieves integer values from the current row."
-	},
-	{
-		"id": 35,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "medium",
-		"question": "What does ResultSet.next() return when no more rows exist?",
-		"options": [
-			{ "key": "A", "text": "0" },
-			{ "key": "B", "text": "null" },
-			{ "key": "C", "text": "false" },
-			{ "key": "D", "text": "-1" }
-		],
-		"answer": "C",
-		"reason": "next() returns false when there are no more records."
-	},
-	{
-		"id": 36,
-		"subject": "Advance Java with Web Application",
-		"topic": "Metadata",
-		"difficulty": "medium",
-		"question": "Which interface provides database-level information?",
-		"options": [
-			{ "key": "A", "text": "ResultSetMetaData" },
-			{ "key": "B", "text": "DatabaseMetaData" },
-			{ "key": "C", "text": "ConnectionMetaData" },
-			{ "key": "D", "text": "DriverMetaData" }
-		],
-		"answer": "B",
-		"reason": "DatabaseMetaData provides information about the database and driver."
-	},
-	{
-		"id": 37,
-		"subject": "Advance Java with Web Application",
-		"topic": "Metadata",
-		"difficulty": "hard",
-		"question": "Which method returns the number of columns in a ResultSet?",
-		"options": [
-			{ "key": "A", "text": "getColumnCount()" },
-			{ "key": "B", "text": "columnCount()" },
-			{ "key": "C", "text": "countColumns()" },
-			{ "key": "D", "text": "getColumns()" }
-		],
-		"answer": "A",
-		"reason": "ResultSetMetaData.getColumnCount() returns total columns."
-	},
-	{
-		"id": 38,
-		"subject": "Advance Java with Web Application",
-		"topic": "Transaction Management",
-		"difficulty": "easy",
-		"question": "By default, JDBC connections operate in:",
-		"options": [
-			{ "key": "A", "text": "Manual Commit Mode" },
-			{ "key": "B", "text": "Auto Commit Mode" },
-			{ "key": "C", "text": "Rollback Mode" },
-			{ "key": "D", "text": "Batch Mode" }
-		],
-		"answer": "B",
-		"reason": "JDBC enables auto-commit by default."
-	},
-	{
-		"id": 39,
-		"subject": "Advance Java with Web Application",
-		"topic": "Transaction Management",
-		"difficulty": "medium",
-		"question": "Which method disables auto-commit mode?",
-		"options": [
-			{ "key": "A", "text": "setAutoCommit(false)" },
-			{ "key": "B", "text": "disableCommit()" },
-			{ "key": "C", "text": "commit(false)" },
-			{ "key": "D", "text": "rollback(false)" }
-		],
-		"answer": "A",
-		"reason": "setAutoCommit(false) enables manual transaction control."
-	},
-	{
-		"id": 40,
-		"subject": "Advance Java with Web Application",
-		"topic": "Savepoint",
-		"difficulty": "hard",
-		"question": "Which interface represents a savepoint in JDBC?",
-		"options": [
-			{ "key": "A", "text": "Checkpoint" },
-			{ "key": "B", "text": "SavePoint" },
-			{ "key": "C", "text": "Savepoint" },
-			{ "key": "D", "text": "TransactionPoint" }
-		],
-		"answer": "C",
-		"reason": "The Savepoint interface represents a savepoint within a transaction."
-	},
-	{
-		"id": 41,
-		"subject": "Advance Java with Web Application",
-		"topic": "Batch Processing",
-		"difficulty": "easy",
-		"question": "What is the purpose of batch processing?",
-		"options": [
-			{ "key": "A", "text": "Execute multiple SQL statements together" },
-			{ "key": "B", "text": "Create multiple databases" },
-			{ "key": "C", "text": "Open multiple connections" },
-			{ "key": "D", "text": "Create multiple ResultSets" }
-		],
-		"answer": "A",
-		"reason": "Batch processing improves performance by executing multiple statements together."
-	},
-	{
-		"id": 42,
-		"subject": "Advance Java with Web Application",
-		"topic": "Batch Processing",
-		"difficulty": "medium",
-		"question": "Which method executes all batched commands?",
-		"options": [
-			{ "key": "A", "text": "runBatch()" },
-			{ "key": "B", "text": "batchExecute()" },
-			{ "key": "C", "text": "executeBatch()" },
-			{ "key": "D", "text": "executeAll()" }
-		],
-		"answer": "C",
-		"reason": "executeBatch() executes all commands added to the batch."
-	},
-	{
-		"id": 43,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "What is the output type?\nConnection con = DriverManager.getConnection(url, user, pass);",
-		"options": [
-			{ "key": "A", "text": "Statement" },
-			{ "key": "B", "text": "Connection" },
-			{ "key": "C", "text": "ResultSet" },
-			{ "key": "D", "text": "Driver" }
-		],
-		"answer": "B",
-		"reason": "getConnection() returns a Connection object."
-	},
-	{
-		"id": 44,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "Fill in the blank:\nStatement stmt = con._______();",
-		"options": [
-			{ "key": "A", "text": "createStatement" },
-			{ "key": "B", "text": "newStatement" },
-			{ "key": "C", "text": "getStatement" },
-			{ "key": "D", "text": "openStatement" }
-		],
-		"answer": "A",
-		"reason": "createStatement() creates a Statement object."
-	},
-	{
-		"id": 45,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is returned by executeBatch()?",
-		"options": [
-			{ "key": "A", "text": "boolean" },
-			{ "key": "B", "text": "String[]" },
-			{ "key": "C", "text": "int[]" },
-			{ "key": "D", "text": "ResultSet" }
-		],
-		"answer": "C",
-		"reason": "executeBatch() returns an array of update counts."
-	},
-	{
-		"id": 46,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What does this code do?\ncon.commit();",
-		"options": [
-			{ "key": "A", "text": "Cancels changes" },
-			{ "key": "B", "text": "Closes connection" },
-			{ "key": "C", "text": "Saves transaction changes" },
-			{ "key": "D", "text": "Creates savepoint" }
-		],
-		"answer": "C",
-		"reason": "commit() permanently saves transaction changes."
-	},
-	{
-		"id": 47,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What does the following statement do?\ncon.rollback();",
-		"options": [
-			{ "key": "A", "text": "Saves changes" },
-			{ "key": "B", "text": "Undoes transaction changes" },
-			{ "key": "C", "text": "Closes connection" },
-			{ "key": "D", "text": "Executes batch" }
-		],
-		"answer": "B",
-		"reason": "rollback() reverts changes made since the last commit."
-	},
-	{
-		"id": 48,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "Which method retrieves a String column from ResultSet?",
-		"options": [
-			{ "key": "A", "text": "setString()" },
-			{ "key": "B", "text": "fetchString()" },
-			{ "key": "C", "text": "getString()" },
-			{ "key": "D", "text": "readString()" }
-		],
-		"answer": "C",
-		"reason": "getString() retrieves String data from a ResultSet."
-	},
-	{
-		"id": 49,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "What is the purpose of this code?\nstmt.addBatch(\"INSERT INTO student VALUES(1,'John')\");",
-		"options": [
-			{ "key": "A", "text": "Executes SQL immediately" },
-			{ "key": "B", "text": "Adds SQL to a batch" },
-			{ "key": "C", "text": "Commits transaction" },
-			{ "key": "D", "text": "Creates ResultSet" }
-		],
-		"answer": "B",
-		"reason": "addBatch() queues SQL statements for later execution."
-	},
-	{
-		"id": 50,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "Which line correctly creates a savepoint?",
-		"options": [
-			{ "key": "A", "text": "Savepoint sp = con.setSavepoint();" },
-			{ "key": "B", "text": "Savepoint sp = new Savepoint();" },
-			{ "key": "C", "text": "con.createSavepoint();" },
-			{ "key": "D", "text": "Savepoint sp = con.save();" }
-		],
-		"answer": "A",
-		"reason": "setSavepoint() creates and returns a Savepoint object."
-	},
-	{
-		"id": 51,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Architecture",
-		"difficulty": "easy",
-		"question": "Which component translates JDBC calls into database-specific commands?",
-		"options": [
-			{ "key": "A", "text": "JDBC Driver" },
-			{ "key": "B", "text": "ResultSet" },
-			{ "key": "C", "text": "Statement" },
-			{ "key": "D", "text": "Connection" }
-		],
-		"answer": "A",
-		"reason": "JDBC drivers convert JDBC API calls into database-specific protocol commands."
-	},
-	{
-		"id": 52,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Drivers",
-		"difficulty": "medium",
-		"question": "Which JDBC driver type communicates directly with the database using native protocol?",
-		"options": [
-			{ "key": "A", "text": "Type 1" },
-			{ "key": "B", "text": "Type 2" },
-			{ "key": "C", "text": "Type 3" },
-			{ "key": "D", "text": "Type 4" }
-		],
-		"answer": "D",
-		"reason": "Type 4 drivers are pure Java drivers that directly communicate with the database."
-	},
-	{
-		"id": 53,
-		"subject": "Advance Java with Web Application",
-		"topic": "Connection",
-		"difficulty": "easy",
-		"question": "Which exception is commonly thrown during JDBC operations?",
-		"options": [
-			{ "key": "A", "text": "IOException" },
-			{ "key": "B", "text": "SQLException" },
-			{ "key": "C", "text": "ClassCastException" },
-			{ "key": "D", "text": "ArrayIndexOutOfBoundsException" }
-		],
-		"answer": "B",
-		"reason": "SQLException is the primary exception used in JDBC."
-	},
-	{
-		"id": 54,
-		"subject": "Advance Java with Web Application",
-		"topic": "Connection",
-		"difficulty": "medium",
-		"question": "Which JDBC URL prefix is commonly used for Oracle databases?",
-		"options": [
-			{ "key": "A", "text": "jdbc:mysql:" },
-			{ "key": "B", "text": "jdbc:oracle:" },
-			{ "key": "C", "text": "jdbc:sqlserver:" },
-			{ "key": "D", "text": "jdbc:postgresql:" }
-		],
-		"answer": "B",
-		"reason": "Oracle JDBC URLs begin with jdbc:oracle:."
-	},
-	{
-		"id": 55,
-		"subject": "Advance Java with Web Application",
-		"topic": "SQL Queries",
-		"difficulty": "easy",
-		"question": "Which SQL statement is used to add a new row to a table?",
-		"options": [
-			{ "key": "A", "text": "CREATE" },
-			{ "key": "B", "text": "INSERT" },
-			{ "key": "C", "text": "ALTER" },
-			{ "key": "D", "text": "SELECT" }
-		],
-		"answer": "B",
-		"reason": "INSERT adds new records into a table."
-	},
-	{
-		"id": 56,
-		"subject": "Advance Java with Web Application",
-		"topic": "SQL Queries",
-		"difficulty": "medium",
-		"question": "Which method is used to execute INSERT statements?",
-		"options": [
-			{ "key": "A", "text": "executeQuery()" },
-			{ "key": "B", "text": "executeUpdate()" },
-			{ "key": "C", "text": "executeInsert()" },
-			{ "key": "D", "text": "executeSelect()" }
-		],
-		"answer": "B",
-		"reason": "executeUpdate() is used for INSERT, UPDATE, and DELETE operations."
-	},
-	{
-		"id": 57,
-		"subject": "Advance Java with Web Application",
-		"topic": "Statement",
-		"difficulty": "medium",
-		"question": "Which object is created using createStatement()?",
-		"options": [
-			{ "key": "A", "text": "PreparedStatement" },
-			{ "key": "B", "text": "ResultSet" },
-			{ "key": "C", "text": "Statement" },
-			{ "key": "D", "text": "DriverManager" }
-		],
-		"answer": "C",
-		"reason": "createStatement() returns a Statement object."
-	},
-	{
-		"id": 58,
-		"subject": "Advance Java with Web Application",
-		"topic": "PreparedStatement",
-		"difficulty": "easy",
-		"question": "PreparedStatement queries are compiled:",
-		"options": [
-			{ "key": "A", "text": "Every execution" },
-			{ "key": "B", "text": "Before program starts" },
-			{ "key": "C", "text": "Only once" },
-			{ "key": "D", "text": "Never" }
-		],
-		"answer": "C",
-		"reason": "PreparedStatement is precompiled and reused multiple times."
-	},
-	{
-		"id": 59,
-		"subject": "Advance Java with Web Application",
-		"topic": "PreparedStatement",
-		"difficulty": "hard",
-		"question": "Which method sets a double value in a PreparedStatement?",
-		"options": [
-			{ "key": "A", "text": "setDouble()" },
-			{ "key": "B", "text": "putDouble()" },
-			{ "key": "C", "text": "addDouble()" },
-			{ "key": "D", "text": "getDouble()" }
-		],
-		"answer": "A",
-		"reason": "setDouble() is used to assign double values to placeholders."
-	},
-	{
-		"id": 60,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "easy",
-		"question": "A ResultSet cursor is initially positioned:",
-		"options": [
-			{ "key": "A", "text": "At the first row" },
-			{ "key": "B", "text": "Before the first row" },
-			{ "key": "C", "text": "After the last row" },
-			{ "key": "D", "text": "At the middle row" }
-		],
-		"answer": "B",
-		"reason": "The cursor starts before the first row and must be moved using next()."
-	},
-	{
-		"id": 61,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "medium",
-		"question": "Which method retrieves a column value by column name?",
-		"options": [
-			{ "key": "A", "text": "fetch()" },
-			{ "key": "B", "text": "read()" },
-			{ "key": "C", "text": "getXXX()" },
-			{ "key": "D", "text": "column()" }
-		],
-		"answer": "C",
-		"reason": "Methods such as getInt(), getString(), etc. retrieve values by column name or index."
-	},
-	{
-		"id": 62,
-		"subject": "Advance Java with Web Application",
-		"topic": "Metadata",
-		"difficulty": "easy",
-		"question": "Metadata means:",
-		"options": [
-			{ "key": "A", "text": "Data about data" },
-			{ "key": "B", "text": "Backup data" },
-			{ "key": "C", "text": "Deleted data" },
-			{ "key": "D", "text": "Encrypted data" }
-		],
-		"answer": "A",
-		"reason": "Metadata provides information describing data."
-	},
-	{
-		"id": 63,
-		"subject": "Advance Java with Web Application",
-		"topic": "Metadata",
-		"difficulty": "medium",
-		"question": "Which object provides information such as database product name and version?",
-		"options": [
-			{ "key": "A", "text": "ResultSetMetaData" },
-			{ "key": "B", "text": "DatabaseMetaData" },
-			{ "key": "C", "text": "DriverManager" },
-			{ "key": "D", "text": "ConnectionInfo" }
-		],
-		"answer": "B",
-		"reason": "DatabaseMetaData contains information about the database system."
-	},
-	{
-		"id": 64,
-		"subject": "Advance Java with Web Application",
-		"topic": "Transaction Management",
-		"difficulty": "easy",
-		"question": "What is a transaction?",
-		"options": [
-			{
-				"key": "A",
-				"text": "A collection of SQL statements executed as a single unit"
-			},
-			{ "key": "B", "text": "A database table" },
-			{ "key": "C", "text": "A JDBC driver" },
-			{ "key": "D", "text": "A ResultSet object" }
-		],
-		"answer": "A",
-		"reason": "A transaction is a logical unit of work consisting of one or more operations."
-	},
-	{
-		"id": 65,
-		"subject": "Advance Java with Web Application",
-		"topic": "Transaction Management",
-		"difficulty": "medium",
-		"question": "Which operation makes all transaction changes permanent?",
-		"options": [
-			{ "key": "A", "text": "rollback()" },
-			{ "key": "B", "text": "close()" },
-			{ "key": "C", "text": "commit()" },
-			{ "key": "D", "text": "execute()" }
-		],
-		"answer": "C",
-		"reason": "commit() permanently saves all changes made in the transaction."
-	},
-	{
-		"id": 66,
-		"subject": "Advance Java with Web Application",
-		"topic": "Savepoint",
-		"difficulty": "hard",
-		"question": "Which method rolls back to a specific savepoint?",
-		"options": [
-			{ "key": "A", "text": "rollback(sp)" },
-			{ "key": "B", "text": "rollbackTo(sp)" },
-			{ "key": "C", "text": "undo(sp)" },
-			{ "key": "D", "text": "restore(sp)" }
-		],
-		"answer": "A",
-		"reason": "rollback(savepoint) reverts changes up to the specified savepoint."
-	},
-	{
-		"id": 67,
-		"subject": "Advance Java with Web Application",
-		"topic": "Batch Processing",
-		"difficulty": "easy",
-		"question": "Batch processing is mainly used to:",
-		"options": [
-			{ "key": "A", "text": "Improve performance" },
-			{ "key": "B", "text": "Create tables" },
-			{ "key": "C", "text": "Close connections" },
-			{ "key": "D", "text": "Read metadata" }
-		],
-		"answer": "A",
-		"reason": "Executing multiple statements together improves performance."
-	},
-	{
-		"id": 68,
-		"subject": "Advance Java with Web Application",
-		"topic": "Batch Processing",
-		"difficulty": "medium",
-		"question": "Which method clears all commands from a batch?",
-		"options": [
-			{ "key": "A", "text": "removeBatch()" },
-			{ "key": "B", "text": "deleteBatch()" },
-			{ "key": "C", "text": "clearBatch()" },
-			{ "key": "D", "text": "resetBatch()" }
-		],
-		"answer": "C",
-		"reason": "clearBatch() removes all commands added to the batch."
-	},
-	{
-		"id": 69,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "What does this code return?\nDatabaseMetaData dm = con.getMetaData();",
-		"options": [
-			{ "key": "A", "text": "ResultSetMetaData object" },
-			{ "key": "B", "text": "DatabaseMetaData object" },
-			{ "key": "C", "text": "Connection object" },
-			{ "key": "D", "text": "Statement object" }
-		],
-		"answer": "B",
-		"reason": "getMetaData() returns a DatabaseMetaData object."
-	},
-	{
-		"id": 70,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "Fill the blank:\nPreparedStatement ps = con.prepareStatement(sql);\nps.______(1, \"John\");",
-		"options": [
-			{ "key": "A", "text": "getString" },
-			{ "key": "B", "text": "setString" },
-			{ "key": "C", "text": "putString" },
-			{ "key": "D", "text": "addString" }
-		],
-		"answer": "B",
-		"reason": "setString() assigns a String value to the parameter placeholder."
-	},
-	{
-		"id": 71,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What will executeUpdate() return if 3 rows are updated?",
-		"options": [
-			{ "key": "A", "text": "true" },
-			{ "key": "B", "text": "3" },
-			{ "key": "C", "text": "ResultSet" },
-			{ "key": "D", "text": "Updated" }
-		],
-		"answer": "B",
-		"reason": "executeUpdate() returns the number of affected rows."
-	},
-	{
-		"id": 72,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the purpose of this code?\nResultSetMetaData rsmd = rs.getMetaData();",
-		"options": [
-			{ "key": "A", "text": "Get database information" },
-			{ "key": "B", "text": "Get column information" },
-			{ "key": "C", "text": "Create ResultSet" },
-			{ "key": "D", "text": "Execute query" }
-		],
-		"answer": "B",
-		"reason": "ResultSetMetaData provides details about columns in the ResultSet."
-	},
-	{
-		"id": 73,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "Which statement correctly disables auto-commit?",
-		"options": [
-			{ "key": "A", "text": "con.autoCommit(false);" },
-			{ "key": "B", "text": "con.setAutoCommit(false);" },
-			{ "key": "C", "text": "con.commit(false);" },
-			{ "key": "D", "text": "con.disableCommit();" }
-		],
-		"answer": "B",
-		"reason": "setAutoCommit(false) enables manual transaction management."
-	},
-	{
-		"id": 74,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is created by the statement?\nSavepoint sp = con.setSavepoint(\"SP1\");",
-		"options": [
-			{ "key": "A", "text": "A transaction" },
-			{ "key": "B", "text": "A savepoint named SP1" },
-			{ "key": "C", "text": "A batch command" },
-			{ "key": "D", "text": "A metadata object" }
-		],
-		"answer": "B",
-		"reason": "setSavepoint() creates a named savepoint in the current transaction."
-	},
-	{
-		"id": 75,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the result type of stmt.executeQuery(\"SELECT * FROM student\")?",
-		"options": [
-			{ "key": "A", "text": "int" },
-			{ "key": "B", "text": "boolean" },
-			{ "key": "C", "text": "ResultSet" },
-			{ "key": "D", "text": "Connection" }
-		],
-		"answer": "C",
-		"reason": "executeQuery() returns a ResultSet containing the query results."
-	},
-	{
-		"id": 76,
-		"subject": "Advance Java with Web Application",
-		"topic": "Introduction to JDBC",
-		"difficulty": "easy",
-		"question": "Which package contains most JDBC classes and interfaces?",
-		"options": [
-			{ "key": "A", "text": "java.io" },
-			{ "key": "B", "text": "java.net" },
-			{ "key": "C", "text": "java.sql" },
-			{ "key": "D", "text": "javax.servlet" }
-		],
-		"answer": "C",
-		"reason": "The java.sql package contains the core JDBC APIs."
-	},
-	{
-		"id": 77,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Drivers",
-		"difficulty": "medium",
-		"question": "Which JDBC driver type requires ODBC to be installed on the client machine?",
-		"options": [
-			{ "key": "A", "text": "Type 1" },
-			{ "key": "B", "text": "Type 2" },
-			{ "key": "C", "text": "Type 3" },
-			{ "key": "D", "text": "Type 4" }
-		],
-		"answer": "A",
-		"reason": "The JDBC-ODBC bridge driver depends on ODBC installation."
-	},
-	{
-		"id": 78,
-		"subject": "Advance Java with Web Application",
-		"topic": "JDBC Architecture",
-		"difficulty": "medium",
-		"question": "Which component receives SQL requests from a Java application?",
-		"options": [
-			{ "key": "A", "text": "JDBC Driver" },
-			{ "key": "B", "text": "Database Server" },
-			{ "key": "C", "text": "JDBC API" },
-			{ "key": "D", "text": "ResultSet" }
-		],
-		"answer": "C",
-		"reason": "Applications communicate with databases through the JDBC API."
-	},
-	{
-		"id": 79,
-		"subject": "Advance Java with Web Application",
-		"topic": "Connection",
-		"difficulty": "easy",
-		"question": "Which class is used to register and manage JDBC drivers?",
-		"options": [
-			{ "key": "A", "text": "Connection" },
-			{ "key": "B", "text": "DriverManager" },
-			{ "key": "C", "text": "ResultSet" },
-			{ "key": "D", "text": "Statement" }
-		],
-		"answer": "B",
-		"reason": "DriverManager manages JDBC drivers and database connections."
-	},
-	{
-		"id": 80,
-		"subject": "Advance Java with Web Application",
-		"topic": "Connection",
-		"difficulty": "medium",
-		"question": "Which method is used to check whether a connection is closed?",
-		"options": [
-			{ "key": "A", "text": "isClosed()" },
-			{ "key": "B", "text": "checkClosed()" },
-			{ "key": "C", "text": "closed()" },
-			{ "key": "D", "text": "isOpen()" }
-		],
-		"answer": "A",
-		"reason": "isClosed() returns true if the connection has been closed."
-	},
-	{
-		"id": 81,
-		"subject": "Advance Java with Web Application",
-		"topic": "SQL Queries",
-		"difficulty": "easy",
-		"question": "Which SQL statement removes all rows from a table but keeps the table structure?",
-		"options": [
-			{ "key": "A", "text": "DELETE" },
-			{ "key": "B", "text": "DROP" },
-			{ "key": "C", "text": "TRUNCATE" },
-			{ "key": "D", "text": "REMOVE" }
-		],
-		"answer": "C",
-		"reason": "TRUNCATE removes all rows while preserving the table definition."
-	},
-	{
-		"id": 82,
-		"subject": "Advance Java with Web Application",
-		"topic": "SQL Queries",
-		"difficulty": "medium",
-		"question": "Which SQL statement is used to modify table structure?",
-		"options": [
-			{ "key": "A", "text": "UPDATE" },
-			{ "key": "B", "text": "ALTER" },
-			{ "key": "C", "text": "MODIFY" },
-			{ "key": "D", "text": "CHANGE" }
-		],
-		"answer": "B",
-		"reason": "ALTER is used to add, modify, or remove table columns and constraints."
-	},
-	{
-		"id": 83,
-		"subject": "Advance Java with Web Application",
-		"topic": "Statement",
-		"difficulty": "medium",
-		"question": "Which method executes a DDL statement such as CREATE TABLE?",
-		"options": [
-			{ "key": "A", "text": "executeUpdate()" },
-			{ "key": "B", "text": "executeQuery()" },
-			{ "key": "C", "text": "getResultSet()" },
-			{ "key": "D", "text": "fetchData()" }
-		],
-		"answer": "A",
-		"reason": "executeUpdate() is commonly used for DDL and DML statements."
-	},
-	{
-		"id": 84,
-		"subject": "Advance Java with Web Application",
-		"topic": "PreparedStatement",
-		"difficulty": "medium",
-		"question": "PreparedStatement is a child interface of:",
-		"options": [
-			{ "key": "A", "text": "Connection" },
-			{ "key": "B", "text": "Statement" },
-			{ "key": "C", "text": "ResultSet" },
-			{ "key": "D", "text": "Driver" }
-		],
-		"answer": "B",
-		"reason": "PreparedStatement extends the Statement interface."
-	},
-	{
-		"id": 85,
-		"subject": "Advance Java with Web Application",
-		"topic": "PreparedStatement",
-		"difficulty": "hard",
-		"question": "How are parameters numbered in a PreparedStatement?",
-		"options": [
-			{ "key": "A", "text": "Starting from 0" },
-			{ "key": "B", "text": "Starting from 1" },
-			{ "key": "C", "text": "Starting from -1" },
-			{ "key": "D", "text": "Database dependent" }
-		],
-		"answer": "B",
-		"reason": "PreparedStatement parameter indexes begin at 1."
-	},
-	{
-		"id": 86,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "easy",
-		"question": "Which method retrieves a String value from a ResultSet?",
-		"options": [
-			{ "key": "A", "text": "readString()" },
-			{ "key": "B", "text": "setString()" },
-			{ "key": "C", "text": "getString()" },
-			{ "key": "D", "text": "fetchString()" }
-		],
-		"answer": "C",
-		"reason": "getString() retrieves String data from the current row."
-	},
-	{
-		"id": 87,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "medium",
-		"question": "Which ResultSet method moves the cursor to the first row?",
-		"options": [
-			{ "key": "A", "text": "first()" },
-			{ "key": "B", "text": "top()" },
-			{ "key": "C", "text": "start()" },
-			{ "key": "D", "text": "begin()" }
-		],
-		"answer": "A",
-		"reason": "first() moves the cursor to the first row in a scrollable ResultSet."
-	},
-	{
-		"id": 88,
-		"subject": "Advance Java with Web Application",
-		"topic": "ResultSet",
-		"difficulty": "hard",
-		"question": "Which method returns the current row number?",
-		"options": [
-			{ "key": "A", "text": "row()" },
-			{ "key": "B", "text": "currentRow()" },
-			{ "key": "C", "text": "getRow()" },
-			{ "key": "D", "text": "rowNumber()" }
-		],
-		"answer": "C",
-		"reason": "getRow() returns the current row number in a ResultSet."
-	},
-	{
-		"id": 89,
-		"subject": "Advance Java with Web Application",
-		"topic": "Metadata",
-		"difficulty": "medium",
-		"question": "Which metadata object can provide the name of a column?",
-		"options": [
-			{ "key": "A", "text": "ConnectionMetaData" },
-			{ "key": "B", "text": "DriverManager" },
-			{ "key": "C", "text": "ResultSetMetaData" },
-			{ "key": "D", "text": "Statement" }
-		],
-		"answer": "C",
-		"reason": "ResultSetMetaData provides information about columns."
-	},
-	{
-		"id": 90,
-		"subject": "Advance Java with Web Application",
-		"topic": "Metadata",
-		"difficulty": "hard",
-		"question": "Which method returns the database product name from DatabaseMetaData?",
-		"options": [
-			{ "key": "A", "text": "databaseName()" },
-			{ "key": "B", "text": "getDatabaseProductName()" },
-			{ "key": "C", "text": "getDBName()" },
-			{ "key": "D", "text": "productName()" }
-		],
-		"answer": "B",
-		"reason": "DatabaseMetaData.getDatabaseProductName() returns the DBMS name."
-	},
-	{
-		"id": 91,
-		"subject": "Advance Java with Web Application",
-		"topic": "Transaction Management",
-		"difficulty": "easy",
-		"question": "Which method enables auto-commit mode?",
-		"options": [
-			{ "key": "A", "text": "setAutoCommit(true)" },
-			{ "key": "B", "text": "commit(true)" },
-			{ "key": "C", "text": "enableCommit()" },
-			{ "key": "D", "text": "autoCommit()" }
-		],
-		"answer": "A",
-		"reason": "setAutoCommit(true) enables automatic transaction commits."
-	},
-	{
-		"id": 92,
-		"subject": "Advance Java with Web Application",
-		"topic": "Transaction Management",
-		"difficulty": "medium",
-		"question": "Which JDBC interface represents a transaction savepoint?",
-		"options": [
-			{ "key": "A", "text": "Transaction" },
-			{ "key": "B", "text": "Checkpoint" },
-			{ "key": "C", "text": "Savepoint" },
-			{ "key": "D", "text": "RollbackPoint" }
-		],
-		"answer": "C",
-		"reason": "Savepoint represents a point within a transaction."
-	},
-	{
-		"id": 93,
-		"subject": "Advance Java with Web Application",
-		"topic": "Batch Processing",
-		"difficulty": "easy",
-		"question": "Batch processing reduces:",
-		"options": [
-			{ "key": "A", "text": "Network trips to the database" },
-			{ "key": "B", "text": "Database size" },
-			{ "key": "C", "text": "Number of tables" },
-			{ "key": "D", "text": "Memory usage to zero" }
-		],
-		"answer": "A",
-		"reason": "Batch processing minimizes database communication overhead."
-	},
-	{
-		"id": 94,
-		"subject": "Advance Java with Web Application",
-		"topic": "Batch Processing",
-		"difficulty": "medium",
-		"question": "Which interface supports addBatch() and executeBatch()?",
-		"options": [
-			{ "key": "A", "text": "Statement" },
-			{ "key": "B", "text": "PreparedStatement" },
-			{ "key": "C", "text": "Both Statement and PreparedStatement" },
-			{ "key": "D", "text": "ResultSet" }
-		],
-		"answer": "C",
-		"reason": "Both Statement and PreparedStatement support batch processing."
-	},
-	{
-		"id": 95,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "What does the following code return?\nboolean b = stmt.execute(sql);",
-		"options": [
-			{ "key": "A", "text": "ResultSet" },
-			{ "key": "B", "text": "boolean" },
-			{ "key": "C", "text": "int" },
-			{ "key": "D", "text": "Connection" }
-		],
-		"answer": "B",
-		"reason": "execute() returns a boolean indicating whether the result is a ResultSet."
-	},
-	{
-		"id": 96,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "Fill the blank:\nResultSet rs = stmt.executeQuery(sql);\nwhile(rs._____())",
-		"options": [
-			{ "key": "A", "text": "next" },
-			{ "key": "B", "text": "move" },
-			{ "key": "C", "text": "forward" },
-			{ "key": "D", "text": "row" }
-		],
-		"answer": "A",
-		"reason": "next() moves to the next row and returns true if one exists."
-	},
-	{
-		"id": 97,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the output type?\nResultSetMetaData md = rs.getMetaData();",
-		"options": [
-			{ "key": "A", "text": "DatabaseMetaData" },
-			{ "key": "B", "text": "ResultSetMetaData" },
-			{ "key": "C", "text": "Connection" },
-			{ "key": "D", "text": "Statement" }
-		],
-		"answer": "B",
-		"reason": "getMetaData() on a ResultSet returns a ResultSetMetaData object."
-	},
-	{
-		"id": 98,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What does the following code do?\nstmt.clearBatch();",
-		"options": [
-			{ "key": "A", "text": "Executes batch commands" },
-			{ "key": "B", "text": "Deletes database rows" },
-			{ "key": "C", "text": "Removes commands from the batch" },
-			{ "key": "D", "text": "Commits the batch" }
-		],
-		"answer": "C",
-		"reason": "clearBatch() removes all commands added to the current batch."
-	},
-	{
-		"id": 99,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What happens when commit() is not called after setAutoCommit(false)?",
-		"options": [
-			{ "key": "A", "text": "Changes may not be permanently saved" },
-			{ "key": "B", "text": "Program always crashes" },
-			{ "key": "C", "text": "Connection closes automatically" },
-			{ "key": "D", "text": "Database is deleted" }
-		],
-		"answer": "A",
-		"reason": "Without commit(), changes remain uncommitted and can be rolled back."
-	},
-	{
-		"id": 100,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "Which line correctly creates a PreparedStatement for parameterized queries?",
-		"options": [
-			{ "key": "A", "text": "Statement ps = con.createStatement(sql);" },
-			{
-				"key": "B",
-				"text": "PreparedStatement ps = con.prepareStatement(sql);"
-			},
-			{
-				"key": "C",
-				"text": "PreparedStatement ps = new PreparedStatement(sql);"
-			},
-			{ "key": "D", "text": "Statement ps = con.prepare(sql);" }
-		],
-		"answer": "B",
-		"reason": "prepareStatement() creates a PreparedStatement object for parameterized SQL."
-	}
+  {
+    "id": 1,
+    "subject": "Advance Java with Web Application",
+    "topic": "Introduction to JDBC",
+    "difficulty": "easy",
+    "question": "What does JDBC stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Java Database Connectivity"
+      },
+      {
+        "key": "B",
+        "text": "Java Dynamic Connection"
+      },
+      {
+        "key": "C",
+        "text": "Java Data Component"
+      },
+      {
+        "key": "D",
+        "text": "Java Database Controller"
+      }
+    ],
+    "answer": "A",
+    "reason": "JDBC stands for Java Database Connectivity."
+  },
+  {
+    "id": 2,
+    "subject": "Advance Java with Web Application",
+    "topic": "Introduction to JDBC",
+    "difficulty": "easy",
+    "question": "JDBC is used to connect Java applications with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Operating Systems"
+      },
+      {
+        "key": "B",
+        "text": "Databases"
+      },
+      {
+        "key": "C",
+        "text": "Networks"
+      },
+      {
+        "key": "D",
+        "text": "Compilers"
+      }
+    ],
+    "answer": "B",
+    "reason": "JDBC provides APIs for database connectivity."
+  },
+  {
+    "id": 3,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Architecture",
+    "difficulty": "medium",
+    "question": "Which component manages JDBC drivers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Connection"
+      },
+      {
+        "key": "B",
+        "text": "Statement"
+      },
+      {
+        "key": "C",
+        "text": "`DriverManager`"
+      },
+      {
+        "key": "D",
+        "text": "`ResultSet`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`DriverManager` loads and manages JDBC drivers."
+  },
+  {
+    "id": 4,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Drivers",
+    "difficulty": "medium",
+    "question": "Which JDBC driver type converts JDBC calls into a database-independent network protocol?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Type 1"
+      },
+      {
+        "key": "B",
+        "text": "Type 2"
+      },
+      {
+        "key": "C",
+        "text": "Type 3"
+      },
+      {
+        "key": "D",
+        "text": "Type 4"
+      }
+    ],
+    "answer": "C",
+    "reason": "Type 3 drivers use a middleware server and a database-independent protocol."
+  },
+  {
+    "id": 5,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Drivers",
+    "difficulty": "medium",
+    "question": "Which JDBC driver is also known as a Thin Driver?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Type 1"
+      },
+      {
+        "key": "B",
+        "text": "Type 2"
+      },
+      {
+        "key": "C",
+        "text": "Type 3"
+      },
+      {
+        "key": "D",
+        "text": "Type 4"
+      }
+    ],
+    "answer": "D",
+    "reason": "Type 4 is a pure Java driver and is known as the Thin Driver."
+  },
+  {
+    "id": 6,
+    "subject": "Advance Java with Web Application",
+    "topic": "Database Connection",
+    "difficulty": "easy",
+    "question": "Which method is used to obtain a database connection?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`DriverManager`.`getConnection()`"
+      },
+      {
+        "key": "B",
+        "text": "Connection.`open()`"
+      },
+      {
+        "key": "C",
+        "text": "Database.`connect()`"
+      },
+      {
+        "key": "D",
+        "text": "Driver.`connect()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`DriverManager`.`getConnection()` establishes database connections."
+  },
+  {
+    "id": 7,
+    "subject": "Advance Java with Web Application",
+    "topic": "SQL Queries",
+    "difficulty": "easy",
+    "question": "Which SQL statement retrieves data from a table?",
+    "options": [
+      {
+        "key": "A",
+        "text": "INSERT"
+      },
+      {
+        "key": "B",
+        "text": "UPDATE"
+      },
+      {
+        "key": "C",
+        "text": "DELETE"
+      },
+      {
+        "key": "D",
+        "text": "SELECT"
+      }
+    ],
+    "answer": "D",
+    "reason": "SELECT is used to fetch data from tables."
+  },
+  {
+    "id": 8,
+    "subject": "Advance Java with Web Application",
+    "topic": "SQL Queries",
+    "difficulty": "easy",
+    "question": "Which SQL command adds new records?",
+    "options": [
+      {
+        "key": "A",
+        "text": "INSERT"
+      },
+      {
+        "key": "B",
+        "text": "UPDATE"
+      },
+      {
+        "key": "C",
+        "text": "ALTER"
+      },
+      {
+        "key": "D",
+        "text": "SELECT"
+      }
+    ],
+    "answer": "A",
+    "reason": "INSERT adds rows into a table."
+  },
+  {
+    "id": 9,
+    "subject": "Advance Java with Web Application",
+    "topic": "SQL Queries",
+    "difficulty": "easy",
+    "question": "Which SQL command modifies existing records?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DELETE"
+      },
+      {
+        "key": "B",
+        "text": "UPDATE"
+      },
+      {
+        "key": "C",
+        "text": "INSERT"
+      },
+      {
+        "key": "D",
+        "text": "DROP"
+      }
+    ],
+    "answer": "B",
+    "reason": "UPDATE changes existing data."
+  },
+  {
+    "id": 10,
+    "subject": "Advance Java with Web Application",
+    "topic": "SQL Queries",
+    "difficulty": "easy",
+    "question": "Which SQL command removes rows from a table?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DELETE"
+      },
+      {
+        "key": "B",
+        "text": "DROP"
+      },
+      {
+        "key": "C",
+        "text": "ALTER"
+      },
+      {
+        "key": "D",
+        "text": "TRUNCATE ONLY"
+      }
+    ],
+    "answer": "A",
+    "reason": "DELETE removes selected rows."
+  },
+  {
+    "id": 11,
+    "subject": "Advance Java with Web Application",
+    "topic": "Statement",
+    "difficulty": "medium",
+    "question": "Which interface is used for executing static SQL queries?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`PreparedStatement`"
+      },
+      {
+        "key": "B",
+        "text": "CallableStatement"
+      },
+      {
+        "key": "C",
+        "text": "Statement"
+      },
+      {
+        "key": "D",
+        "text": "`ResultSet`"
+      }
+    ],
+    "answer": "C",
+    "reason": "Statement executes normal SQL queries without parameters."
+  },
+  {
+    "id": 12,
+    "subject": "Advance Java with Web Application",
+    "topic": "PreparedStatement",
+    "difficulty": "medium",
+    "question": "`PreparedStatement` is mainly used for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parameterized Queries"
+      },
+      {
+        "key": "B",
+        "text": "Closing Connections"
+      },
+      {
+        "key": "C",
+        "text": "Creating Databases"
+      },
+      {
+        "key": "D",
+        "text": "Loading Drivers"
+      }
+    ],
+    "answer": "A",
+    "reason": "`PreparedStatement` supports parameters and precompiled SQL."
+  },
+  {
+    "id": 13,
+    "subject": "Advance Java with Web Application",
+    "topic": "PreparedStatement",
+    "difficulty": "hard",
+    "question": "Which advantage does `PreparedStatement` provide?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prevents SQL Injection"
+      },
+      {
+        "key": "B",
+        "text": "Deletes Tables Automatically"
+      },
+      {
+        "key": "C",
+        "text": "Creates Databases"
+      },
+      {
+        "key": "D",
+        "text": "Improves Internet Speed"
+      }
+    ],
+    "answer": "A",
+    "reason": "Parameterized queries reduce SQL injection vulnerabilities."
+  },
+  {
+    "id": 14,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "easy",
+    "question": "Which object stores records returned by a SELECT query?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Connection"
+      },
+      {
+        "key": "B",
+        "text": "Statement"
+      },
+      {
+        "key": "C",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "D",
+        "text": "`DriverManager`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`ResultSet` contains query results."
+  },
+  {
+    "id": 15,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "medium",
+    "question": "Which method moves the cursor to the next row in a `ResultSet`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`next()`"
+      },
+      {
+        "key": "B",
+        "text": "`move()`"
+      },
+      {
+        "key": "C",
+        "text": "`forward()`"
+      },
+      {
+        "key": "D",
+        "text": "`cursor()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`next()` advances the `ResultSet` cursor."
+  },
+  {
+    "id": 16,
+    "subject": "Advance Java with Web Application",
+    "topic": "Metadata",
+    "difficulty": "medium",
+    "question": "Which interface provides information about columns in a `ResultSet`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DatabaseMetaData"
+      },
+      {
+        "key": "B",
+        "text": "ResultSetMetaData"
+      },
+      {
+        "key": "C",
+        "text": "ConnectionMetaData"
+      },
+      {
+        "key": "D",
+        "text": "ColumnMetaData"
+      }
+    ],
+    "answer": "B",
+    "reason": "ResultSetMetaData provides column information."
+  },
+  {
+    "id": 17,
+    "subject": "Advance Java with Web Application",
+    "topic": "Transaction Management",
+    "difficulty": "medium",
+    "question": "Which method permanently saves transaction changes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`save()`"
+      },
+      {
+        "key": "B",
+        "text": "`commit()`"
+      },
+      {
+        "key": "C",
+        "text": "`execute()`"
+      },
+      {
+        "key": "D",
+        "text": "`persist()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`commit()` permanently stores transaction changes."
+  },
+  {
+    "id": 18,
+    "subject": "Advance Java with Web Application",
+    "topic": "Transaction Management",
+    "difficulty": "medium",
+    "question": "Which method undoes transaction changes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`undo()`"
+      },
+      {
+        "key": "B",
+        "text": "`cancel()`"
+      },
+      {
+        "key": "C",
+        "text": "`rollback()`"
+      },
+      {
+        "key": "D",
+        "text": "`remove()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`rollback()` restores the database to its previous state."
+  },
+  {
+    "id": 19,
+    "subject": "Advance Java with Web Application",
+    "topic": "Savepoint",
+    "difficulty": "hard",
+    "question": "A savepoint is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Close Connection"
+      },
+      {
+        "key": "B",
+        "text": "Mark a point within a transaction"
+      },
+      {
+        "key": "C",
+        "text": "Create Table"
+      },
+      {
+        "key": "D",
+        "text": "Execute Query"
+      }
+    ],
+    "answer": "B",
+    "reason": "Savepoints allow partial rollback within transactions."
+  },
+  {
+    "id": 20,
+    "subject": "Advance Java with Web Application",
+    "topic": "Batch Processing",
+    "difficulty": "medium",
+    "question": "Which method adds SQL commands to a batch?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`addBatch()`"
+      },
+      {
+        "key": "B",
+        "text": "`batchAdd()`"
+      },
+      {
+        "key": "C",
+        "text": "`insertBatch()`"
+      },
+      {
+        "key": "D",
+        "text": "`executeBatchAdd()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`addBatch()` collects SQL commands for batch execution."
+  },
+  {
+    "id": 21,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "What will this code return?\n`ResultSet` rs = stmt.executeQuery(\"SELECT * FROM student\");",
+    "options": [
+      {
+        "key": "A",
+        "text": "Connection Object"
+      },
+      {
+        "key": "B",
+        "text": "`ResultSet` Object"
+      },
+      {
+        "key": "C",
+        "text": "Integer"
+      },
+      {
+        "key": "D",
+        "text": "Boolean"
+      }
+    ],
+    "answer": "B",
+    "reason": "`executeQuery()` returns a `ResultSet`."
+  },
+  {
+    "id": 22,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "Which method is missing?\n`PreparedStatement` ps = con.prepareStatement(\"SELECT * FROM student WHERE id=?\");\nps._____(1, 10);",
+    "options": [
+      {
+        "key": "A",
+        "text": "setInt"
+      },
+      {
+        "key": "B",
+        "text": "getInt"
+      },
+      {
+        "key": "C",
+        "text": "putInt"
+      },
+      {
+        "key": "D",
+        "text": "addInt"
+      }
+    ],
+    "answer": "A",
+    "reason": "`setInt()` assigns integer values to placeholders."
+  },
+  {
+    "id": 23,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the output type?\nint count = stmt.executeUpdate(\"DELETE FROM student WHERE id=5\");",
+    "options": [
+      {
+        "key": "A",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "B",
+        "text": "Boolean"
+      },
+      {
+        "key": "C",
+        "text": "Number of affected rows"
+      },
+      {
+        "key": "D",
+        "text": "Connection"
+      }
+    ],
+    "answer": "C",
+    "reason": "`executeUpdate()` returns the affected row count."
+  },
+  {
+    "id": 24,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the purpose of this code?\ncon.setAutoCommit(false);",
+    "options": [
+      {
+        "key": "A",
+        "text": "Enable Auto Commit"
+      },
+      {
+        "key": "B",
+        "text": "Disable Auto Commit"
+      },
+      {
+        "key": "C",
+        "text": "Close Connection"
+      },
+      {
+        "key": "D",
+        "text": "Rollback Transaction"
+      }
+    ],
+    "answer": "B",
+    "reason": "Transactions must be manually committed after disabling auto-commit."
+  },
+  {
+    "id": 25,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "Which method executes all SQL statements added using `addBatch()`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`execute()`"
+      },
+      {
+        "key": "B",
+        "text": "`runBatch()`"
+      },
+      {
+        "key": "C",
+        "text": "`executeBatch()`"
+      },
+      {
+        "key": "D",
+        "text": "`commitBatch()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`executeBatch()` executes all commands stored in the batch."
+  },
+  {
+    "id": 26,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Drivers",
+    "difficulty": "easy",
+    "question": "Which JDBC driver type uses the JDBC-ODBC Bridge?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Type 1"
+      },
+      {
+        "key": "B",
+        "text": "Type 2"
+      },
+      {
+        "key": "C",
+        "text": "Type 3"
+      },
+      {
+        "key": "D",
+        "text": "Type 4"
+      }
+    ],
+    "answer": "A",
+    "reason": "Type 1 JDBC driver is the JDBC-ODBC Bridge Driver."
+  },
+  {
+    "id": 27,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Drivers",
+    "difficulty": "medium",
+    "question": "Which JDBC driver type is partially written in Java and partially uses native code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Type 1"
+      },
+      {
+        "key": "B",
+        "text": "Type 2"
+      },
+      {
+        "key": "C",
+        "text": "Type 3"
+      },
+      {
+        "key": "D",
+        "text": "Type 4"
+      }
+    ],
+    "answer": "B",
+    "reason": "Type 2 drivers use native database libraries along with Java code."
+  },
+  {
+    "id": 28,
+    "subject": "Advance Java with Web Application",
+    "topic": "Connection",
+    "difficulty": "easy",
+    "question": "Which interface represents a session with a specific database?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statement"
+      },
+      {
+        "key": "B",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "C",
+        "text": "Connection"
+      },
+      {
+        "key": "D",
+        "text": "`DriverManager`"
+      }
+    ],
+    "answer": "C",
+    "reason": "Connection represents an active connection to a database."
+  },
+  {
+    "id": 29,
+    "subject": "Advance Java with Web Application",
+    "topic": "Connection",
+    "difficulty": "medium",
+    "question": "Which method closes a JDBC connection?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`terminate()`"
+      },
+      {
+        "key": "B",
+        "text": "`disconnect()`"
+      },
+      {
+        "key": "C",
+        "text": "`stop()`"
+      },
+      {
+        "key": "D",
+        "text": "`close()`"
+      }
+    ],
+    "answer": "D",
+    "reason": "The `close()` method releases database resources and closes the connection."
+  },
+  {
+    "id": 30,
+    "subject": "Advance Java with Web Application",
+    "topic": "Statement",
+    "difficulty": "easy",
+    "question": "Which method executes a SELECT statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`executeQuery()`"
+      },
+      {
+        "key": "B",
+        "text": "`executeUpdate()`"
+      },
+      {
+        "key": "C",
+        "text": "`executeInsert()`"
+      },
+      {
+        "key": "D",
+        "text": "`executeSelect()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`executeQuery()` is specifically used for SELECT statements."
+  },
+  {
+    "id": 31,
+    "subject": "Advance Java with Web Application",
+    "topic": "Statement",
+    "difficulty": "medium",
+    "question": "Which method can execute any type of SQL statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`executeAny()`"
+      },
+      {
+        "key": "B",
+        "text": "`execute()`"
+      },
+      {
+        "key": "C",
+        "text": "`executeSQL()`"
+      },
+      {
+        "key": "D",
+        "text": "`executeGeneric()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`execute()` can run any SQL statement and returns a boolean."
+  },
+  {
+    "id": 32,
+    "subject": "Advance Java with Web Application",
+    "topic": "PreparedStatement",
+    "difficulty": "medium",
+    "question": "Which symbol is used as a parameter placeholder in `PreparedStatement`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "*"
+      },
+      {
+        "key": "B",
+        "text": ":"
+      },
+      {
+        "key": "C",
+        "text": "?"
+      },
+      {
+        "key": "D",
+        "text": "#"
+      }
+    ],
+    "answer": "C",
+    "reason": "`PreparedStatement` uses ? placeholders for parameters."
+  },
+  {
+    "id": 33,
+    "subject": "Advance Java with Web Application",
+    "topic": "PreparedStatement",
+    "difficulty": "hard",
+    "question": "Which method sets a String value in a `PreparedStatement`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`putString()`"
+      },
+      {
+        "key": "B",
+        "text": "`setString()`"
+      },
+      {
+        "key": "C",
+        "text": "`addString()`"
+      },
+      {
+        "key": "D",
+        "text": "`getString()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`setString()` assigns a String value to a parameter."
+  },
+  {
+    "id": 34,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "easy",
+    "question": "Which method retrieves an integer value from a `ResultSet`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`fetchInt()`"
+      },
+      {
+        "key": "B",
+        "text": "`readInt()`"
+      },
+      {
+        "key": "C",
+        "text": "`setInt()`"
+      },
+      {
+        "key": "D",
+        "text": "`getInt()`"
+      }
+    ],
+    "answer": "D",
+    "reason": "`getInt()` retrieves integer values from the current row."
+  },
+  {
+    "id": 35,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "medium",
+    "question": "What does `ResultSet`.`next()` return when no more rows exist?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "null"
+      },
+      {
+        "key": "C",
+        "text": "false"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "answer": "C",
+    "reason": "`next()` returns false when there are no more records."
+  },
+  {
+    "id": 36,
+    "subject": "Advance Java with Web Application",
+    "topic": "Metadata",
+    "difficulty": "medium",
+    "question": "Which interface provides database-level information?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ResultSetMetaData"
+      },
+      {
+        "key": "B",
+        "text": "DatabaseMetaData"
+      },
+      {
+        "key": "C",
+        "text": "ConnectionMetaData"
+      },
+      {
+        "key": "D",
+        "text": "DriverMetaData"
+      }
+    ],
+    "answer": "B",
+    "reason": "DatabaseMetaData provides information about the database and driver."
+  },
+  {
+    "id": 37,
+    "subject": "Advance Java with Web Application",
+    "topic": "Metadata",
+    "difficulty": "hard",
+    "question": "Which method returns the number of columns in a `ResultSet`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`getColumnCount()`"
+      },
+      {
+        "key": "B",
+        "text": "`columnCount()`"
+      },
+      {
+        "key": "C",
+        "text": "`countColumns()`"
+      },
+      {
+        "key": "D",
+        "text": "`getColumns()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "ResultSetMetaData.`getColumnCount()` returns total columns."
+  },
+  {
+    "id": 38,
+    "subject": "Advance Java with Web Application",
+    "topic": "Transaction Management",
+    "difficulty": "easy",
+    "question": "By default, JDBC connections operate in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Manual Commit Mode"
+      },
+      {
+        "key": "B",
+        "text": "Auto Commit Mode"
+      },
+      {
+        "key": "C",
+        "text": "Rollback Mode"
+      },
+      {
+        "key": "D",
+        "text": "Batch Mode"
+      }
+    ],
+    "answer": "B",
+    "reason": "JDBC enables auto-commit by default."
+  },
+  {
+    "id": 39,
+    "subject": "Advance Java with Web Application",
+    "topic": "Transaction Management",
+    "difficulty": "medium",
+    "question": "Which method disables auto-commit mode?",
+    "options": [
+      {
+        "key": "A",
+        "text": "setAutoCommit(false)"
+      },
+      {
+        "key": "B",
+        "text": "`disableCommit()`"
+      },
+      {
+        "key": "C",
+        "text": "commit(false)"
+      },
+      {
+        "key": "D",
+        "text": "rollback(false)"
+      }
+    ],
+    "answer": "A",
+    "reason": "setAutoCommit(false) enables manual transaction control."
+  },
+  {
+    "id": 40,
+    "subject": "Advance Java with Web Application",
+    "topic": "Savepoint",
+    "difficulty": "hard",
+    "question": "Which interface represents a savepoint in JDBC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Checkpoint"
+      },
+      {
+        "key": "B",
+        "text": "SavePoint"
+      },
+      {
+        "key": "C",
+        "text": "Savepoint"
+      },
+      {
+        "key": "D",
+        "text": "TransactionPoint"
+      }
+    ],
+    "answer": "C",
+    "reason": "The Savepoint interface represents a savepoint within a transaction."
+  },
+  {
+    "id": 41,
+    "subject": "Advance Java with Web Application",
+    "topic": "Batch Processing",
+    "difficulty": "easy",
+    "question": "What is the purpose of batch processing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Execute multiple SQL statements together"
+      },
+      {
+        "key": "B",
+        "text": "Create multiple databases"
+      },
+      {
+        "key": "C",
+        "text": "Open multiple connections"
+      },
+      {
+        "key": "D",
+        "text": "Create multiple ResultSets"
+      }
+    ],
+    "answer": "A",
+    "reason": "Batch processing improves performance by executing multiple statements together."
+  },
+  {
+    "id": 42,
+    "subject": "Advance Java with Web Application",
+    "topic": "Batch Processing",
+    "difficulty": "medium",
+    "question": "Which method executes all batched commands?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`runBatch()`"
+      },
+      {
+        "key": "B",
+        "text": "`batchExecute()`"
+      },
+      {
+        "key": "C",
+        "text": "`executeBatch()`"
+      },
+      {
+        "key": "D",
+        "text": "`executeAll()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`executeBatch()` executes all commands added to the batch."
+  },
+  {
+    "id": 43,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "What is the output type?\nConnection con = `DriverManager`.getConnection(url, user, pass);",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statement"
+      },
+      {
+        "key": "B",
+        "text": "Connection"
+      },
+      {
+        "key": "C",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "D",
+        "text": "Driver"
+      }
+    ],
+    "answer": "B",
+    "reason": "`getConnection()` returns a Connection object."
+  },
+  {
+    "id": 44,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "Fill in the blank:\nStatement stmt = con.`_______()`;",
+    "options": [
+      {
+        "key": "A",
+        "text": "createStatement"
+      },
+      {
+        "key": "B",
+        "text": "newStatement"
+      },
+      {
+        "key": "C",
+        "text": "getStatement"
+      },
+      {
+        "key": "D",
+        "text": "openStatement"
+      }
+    ],
+    "answer": "A",
+    "reason": "`createStatement()` creates a Statement object."
+  },
+  {
+    "id": 45,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is returned by `executeBatch()`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "boolean"
+      },
+      {
+        "key": "B",
+        "text": "String[]"
+      },
+      {
+        "key": "C",
+        "text": "int[]"
+      },
+      {
+        "key": "D",
+        "text": "`ResultSet`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`executeBatch()` returns an array of update counts."
+  },
+  {
+    "id": 46,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What does this code do?\ncon.`commit()`;",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cancels changes"
+      },
+      {
+        "key": "B",
+        "text": "Closes connection"
+      },
+      {
+        "key": "C",
+        "text": "Saves transaction changes"
+      },
+      {
+        "key": "D",
+        "text": "Creates savepoint"
+      }
+    ],
+    "answer": "C",
+    "reason": "`commit()` permanently saves transaction changes."
+  },
+  {
+    "id": 47,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What does the following statement do?\ncon.`rollback()`;",
+    "options": [
+      {
+        "key": "A",
+        "text": "Saves changes"
+      },
+      {
+        "key": "B",
+        "text": "Undoes transaction changes"
+      },
+      {
+        "key": "C",
+        "text": "Closes connection"
+      },
+      {
+        "key": "D",
+        "text": "Executes batch"
+      }
+    ],
+    "answer": "B",
+    "reason": "`rollback()` reverts changes made since the last commit."
+  },
+  {
+    "id": 48,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "Which method retrieves a String column from `ResultSet`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`setString()`"
+      },
+      {
+        "key": "B",
+        "text": "`fetchString()`"
+      },
+      {
+        "key": "C",
+        "text": "`getString()`"
+      },
+      {
+        "key": "D",
+        "text": "`readString()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`getString()` retrieves String data from a `ResultSet`."
+  },
+  {
+    "id": 49,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "What is the purpose of this code?\nstmt.addBatch(\"INSERT INTO student VALUES(1,`John`)\");",
+    "options": [
+      {
+        "key": "A",
+        "text": "Executes SQL immediately"
+      },
+      {
+        "key": "B",
+        "text": "Adds SQL to a batch"
+      },
+      {
+        "key": "C",
+        "text": "Commits transaction"
+      },
+      {
+        "key": "D",
+        "text": "Creates `ResultSet`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`addBatch()` queues SQL statements for later execution."
+  },
+  {
+    "id": 50,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "Which line correctly creates a savepoint?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Savepoint sp = con.`setSavepoint()`;"
+      },
+      {
+        "key": "B",
+        "text": "Savepoint sp = new `Savepoint()`;"
+      },
+      {
+        "key": "C",
+        "text": "con.`createSavepoint()`;"
+      },
+      {
+        "key": "D",
+        "text": "Savepoint sp = con.`save()`;"
+      }
+    ],
+    "answer": "A",
+    "reason": "`setSavepoint()` creates and returns a Savepoint object."
+  },
+  {
+    "id": 51,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Architecture",
+    "difficulty": "easy",
+    "question": "Which component translates JDBC calls into database-specific commands?",
+    "options": [
+      {
+        "key": "A",
+        "text": "JDBC Driver"
+      },
+      {
+        "key": "B",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "C",
+        "text": "Statement"
+      },
+      {
+        "key": "D",
+        "text": "Connection"
+      }
+    ],
+    "answer": "A",
+    "reason": "JDBC drivers convert JDBC API calls into database-specific protocol commands."
+  },
+  {
+    "id": 52,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Drivers",
+    "difficulty": "medium",
+    "question": "Which JDBC driver type communicates directly with the database using native protocol?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Type 1"
+      },
+      {
+        "key": "B",
+        "text": "Type 2"
+      },
+      {
+        "key": "C",
+        "text": "Type 3"
+      },
+      {
+        "key": "D",
+        "text": "Type 4"
+      }
+    ],
+    "answer": "D",
+    "reason": "Type 4 drivers are pure Java drivers that directly communicate with the database."
+  },
+  {
+    "id": 53,
+    "subject": "Advance Java with Web Application",
+    "topic": "Connection",
+    "difficulty": "easy",
+    "question": "Which exception is commonly thrown during JDBC operations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "IOException"
+      },
+      {
+        "key": "B",
+        "text": "SQLException"
+      },
+      {
+        "key": "C",
+        "text": "ClassCastException"
+      },
+      {
+        "key": "D",
+        "text": "ArrayIndexOutOfBoundsException"
+      }
+    ],
+    "answer": "B",
+    "reason": "SQLException is the primary exception used in JDBC."
+  },
+  {
+    "id": 54,
+    "subject": "Advance Java with Web Application",
+    "topic": "Connection",
+    "difficulty": "medium",
+    "question": "Which JDBC URL prefix is commonly used for Oracle databases?",
+    "options": [
+      {
+        "key": "A",
+        "text": "jdbc:mysql:"
+      },
+      {
+        "key": "B",
+        "text": "jdbc:oracle:"
+      },
+      {
+        "key": "C",
+        "text": "jdbc:sqlserver:"
+      },
+      {
+        "key": "D",
+        "text": "jdbc:postgresql:"
+      }
+    ],
+    "answer": "B",
+    "reason": "Oracle JDBC URLs begin with jdbc:oracle:."
+  },
+  {
+    "id": 55,
+    "subject": "Advance Java with Web Application",
+    "topic": "SQL Queries",
+    "difficulty": "easy",
+    "question": "Which SQL statement is used to add a new row to a table?",
+    "options": [
+      {
+        "key": "A",
+        "text": "CREATE"
+      },
+      {
+        "key": "B",
+        "text": "INSERT"
+      },
+      {
+        "key": "C",
+        "text": "ALTER"
+      },
+      {
+        "key": "D",
+        "text": "SELECT"
+      }
+    ],
+    "answer": "B",
+    "reason": "INSERT adds new records into a table."
+  },
+  {
+    "id": 56,
+    "subject": "Advance Java with Web Application",
+    "topic": "SQL Queries",
+    "difficulty": "medium",
+    "question": "Which method is used to execute INSERT statements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`executeQuery()`"
+      },
+      {
+        "key": "B",
+        "text": "`executeUpdate()`"
+      },
+      {
+        "key": "C",
+        "text": "`executeInsert()`"
+      },
+      {
+        "key": "D",
+        "text": "`executeSelect()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`executeUpdate()` is used for INSERT, UPDATE, and DELETE operations."
+  },
+  {
+    "id": 57,
+    "subject": "Advance Java with Web Application",
+    "topic": "Statement",
+    "difficulty": "medium",
+    "question": "Which object is created using `createStatement()`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`PreparedStatement`"
+      },
+      {
+        "key": "B",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "C",
+        "text": "Statement"
+      },
+      {
+        "key": "D",
+        "text": "`DriverManager`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`createStatement()` returns a Statement object."
+  },
+  {
+    "id": 58,
+    "subject": "Advance Java with Web Application",
+    "topic": "PreparedStatement",
+    "difficulty": "easy",
+    "question": "`PreparedStatement` queries are compiled:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Every execution"
+      },
+      {
+        "key": "B",
+        "text": "Before program starts"
+      },
+      {
+        "key": "C",
+        "text": "Only once"
+      },
+      {
+        "key": "D",
+        "text": "Never"
+      }
+    ],
+    "answer": "C",
+    "reason": "`PreparedStatement` is precompiled and reused multiple times."
+  },
+  {
+    "id": 59,
+    "subject": "Advance Java with Web Application",
+    "topic": "PreparedStatement",
+    "difficulty": "hard",
+    "question": "Which method sets a double value in a `PreparedStatement`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`setDouble()`"
+      },
+      {
+        "key": "B",
+        "text": "`putDouble()`"
+      },
+      {
+        "key": "C",
+        "text": "`addDouble()`"
+      },
+      {
+        "key": "D",
+        "text": "`getDouble()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`setDouble()` is used to assign double values to placeholders."
+  },
+  {
+    "id": 60,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "easy",
+    "question": "A `ResultSet` cursor is initially positioned:",
+    "options": [
+      {
+        "key": "A",
+        "text": "At the first row"
+      },
+      {
+        "key": "B",
+        "text": "Before the first row"
+      },
+      {
+        "key": "C",
+        "text": "After the last row"
+      },
+      {
+        "key": "D",
+        "text": "At the middle row"
+      }
+    ],
+    "answer": "B",
+    "reason": "The cursor starts before the first row and must be moved using `next()`."
+  },
+  {
+    "id": 61,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "medium",
+    "question": "Which method retrieves a column value by column name?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`fetch()`"
+      },
+      {
+        "key": "B",
+        "text": "`read()`"
+      },
+      {
+        "key": "C",
+        "text": "`getXXX()`"
+      },
+      {
+        "key": "D",
+        "text": "`column()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "Methods such as `getInt()`, `getString()`, etc. retrieve values by column name or index."
+  },
+  {
+    "id": 62,
+    "subject": "Advance Java with Web Application",
+    "topic": "Metadata",
+    "difficulty": "easy",
+    "question": "Metadata means:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Data about data"
+      },
+      {
+        "key": "B",
+        "text": "Backup data"
+      },
+      {
+        "key": "C",
+        "text": "Deleted data"
+      },
+      {
+        "key": "D",
+        "text": "Encrypted data"
+      }
+    ],
+    "answer": "A",
+    "reason": "Metadata provides information describing data."
+  },
+  {
+    "id": 63,
+    "subject": "Advance Java with Web Application",
+    "topic": "Metadata",
+    "difficulty": "medium",
+    "question": "Which object provides information such as database product name and version?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ResultSetMetaData"
+      },
+      {
+        "key": "B",
+        "text": "DatabaseMetaData"
+      },
+      {
+        "key": "C",
+        "text": "`DriverManager`"
+      },
+      {
+        "key": "D",
+        "text": "ConnectionInfo"
+      }
+    ],
+    "answer": "B",
+    "reason": "DatabaseMetaData contains information about the database system."
+  },
+  {
+    "id": 64,
+    "subject": "Advance Java with Web Application",
+    "topic": "Transaction Management",
+    "difficulty": "easy",
+    "question": "What is a transaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A collection of SQL statements executed as a single unit"
+      },
+      {
+        "key": "B",
+        "text": "A database table"
+      },
+      {
+        "key": "C",
+        "text": "A JDBC driver"
+      },
+      {
+        "key": "D",
+        "text": "A `ResultSet` object"
+      }
+    ],
+    "answer": "A",
+    "reason": "A transaction is a logical unit of work consisting of one or more operations."
+  },
+  {
+    "id": 65,
+    "subject": "Advance Java with Web Application",
+    "topic": "Transaction Management",
+    "difficulty": "medium",
+    "question": "Which operation makes all transaction changes permanent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`rollback()`"
+      },
+      {
+        "key": "B",
+        "text": "`close()`"
+      },
+      {
+        "key": "C",
+        "text": "`commit()`"
+      },
+      {
+        "key": "D",
+        "text": "`execute()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`commit()` permanently saves all changes made in the transaction."
+  },
+  {
+    "id": 66,
+    "subject": "Advance Java with Web Application",
+    "topic": "Savepoint",
+    "difficulty": "hard",
+    "question": "Which method rolls back to a specific savepoint?",
+    "options": [
+      {
+        "key": "A",
+        "text": "rollback(sp)"
+      },
+      {
+        "key": "B",
+        "text": "rollbackTo(sp)"
+      },
+      {
+        "key": "C",
+        "text": "undo(sp)"
+      },
+      {
+        "key": "D",
+        "text": "restore(sp)"
+      }
+    ],
+    "answer": "A",
+    "reason": "rollback(savepoint) reverts changes up to the specified savepoint."
+  },
+  {
+    "id": 67,
+    "subject": "Advance Java with Web Application",
+    "topic": "Batch Processing",
+    "difficulty": "easy",
+    "question": "Batch processing is mainly used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improve performance"
+      },
+      {
+        "key": "B",
+        "text": "Create tables"
+      },
+      {
+        "key": "C",
+        "text": "Close connections"
+      },
+      {
+        "key": "D",
+        "text": "Read metadata"
+      }
+    ],
+    "answer": "A",
+    "reason": "Executing multiple statements together improves performance."
+  },
+  {
+    "id": 68,
+    "subject": "Advance Java with Web Application",
+    "topic": "Batch Processing",
+    "difficulty": "medium",
+    "question": "Which method clears all commands from a batch?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`removeBatch()`"
+      },
+      {
+        "key": "B",
+        "text": "`deleteBatch()`"
+      },
+      {
+        "key": "C",
+        "text": "`clearBatch()`"
+      },
+      {
+        "key": "D",
+        "text": "`resetBatch()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`clearBatch()` removes all commands added to the batch."
+  },
+  {
+    "id": 69,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "What does this code return?\nDatabaseMetaData dm = con.`getMetaData()`;",
+    "options": [
+      {
+        "key": "A",
+        "text": "ResultSetMetaData object"
+      },
+      {
+        "key": "B",
+        "text": "DatabaseMetaData object"
+      },
+      {
+        "key": "C",
+        "text": "Connection object"
+      },
+      {
+        "key": "D",
+        "text": "Statement object"
+      }
+    ],
+    "answer": "B",
+    "reason": "`getMetaData()` returns a DatabaseMetaData object."
+  },
+  {
+    "id": 70,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "Fill the blank:\n`PreparedStatement` ps = con.prepareStatement(sql);\nps.______(1, \"John\");",
+    "options": [
+      {
+        "key": "A",
+        "text": "getString"
+      },
+      {
+        "key": "B",
+        "text": "setString"
+      },
+      {
+        "key": "C",
+        "text": "putString"
+      },
+      {
+        "key": "D",
+        "text": "addString"
+      }
+    ],
+    "answer": "B",
+    "reason": "`setString()` assigns a String value to the parameter placeholder."
+  },
+  {
+    "id": 71,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What will `executeUpdate()` return if 3 rows are updated?",
+    "options": [
+      {
+        "key": "A",
+        "text": "true"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "D",
+        "text": "Updated"
+      }
+    ],
+    "answer": "B",
+    "reason": "`executeUpdate()` returns the number of affected rows."
+  },
+  {
+    "id": 72,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the purpose of this code?\nResultSetMetaData rsmd = rs.`getMetaData()`;",
+    "options": [
+      {
+        "key": "A",
+        "text": "Get database information"
+      },
+      {
+        "key": "B",
+        "text": "Get column information"
+      },
+      {
+        "key": "C",
+        "text": "Create `ResultSet`"
+      },
+      {
+        "key": "D",
+        "text": "Execute query"
+      }
+    ],
+    "answer": "B",
+    "reason": "ResultSetMetaData provides details about columns in the `ResultSet`."
+  },
+  {
+    "id": 73,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "Which statement correctly disables auto-commit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "con.autoCommit(false);"
+      },
+      {
+        "key": "B",
+        "text": "con.setAutoCommit(false);"
+      },
+      {
+        "key": "C",
+        "text": "con.commit(false);"
+      },
+      {
+        "key": "D",
+        "text": "con.`disableCommit()`;"
+      }
+    ],
+    "answer": "B",
+    "reason": "setAutoCommit(false) enables manual transaction management."
+  },
+  {
+    "id": 74,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is created by the statement?\nSavepoint sp = con.setSavepoint(\"SP1\");",
+    "options": [
+      {
+        "key": "A",
+        "text": "A transaction"
+      },
+      {
+        "key": "B",
+        "text": "A savepoint named SP1"
+      },
+      {
+        "key": "C",
+        "text": "A batch command"
+      },
+      {
+        "key": "D",
+        "text": "A metadata object"
+      }
+    ],
+    "answer": "B",
+    "reason": "`setSavepoint()` creates a named savepoint in the current transaction."
+  },
+  {
+    "id": 75,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the result type of stmt.executeQuery(\"SELECT * FROM student\")?",
+    "options": [
+      {
+        "key": "A",
+        "text": "int"
+      },
+      {
+        "key": "B",
+        "text": "boolean"
+      },
+      {
+        "key": "C",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "D",
+        "text": "Connection"
+      }
+    ],
+    "answer": "C",
+    "reason": "`executeQuery()` returns a `ResultSet` containing the query results."
+  },
+  {
+    "id": 76,
+    "subject": "Advance Java with Web Application",
+    "topic": "Introduction to JDBC",
+    "difficulty": "easy",
+    "question": "Which package contains most JDBC classes and interfaces?",
+    "options": [
+      {
+        "key": "A",
+        "text": "java.io"
+      },
+      {
+        "key": "B",
+        "text": "java.net"
+      },
+      {
+        "key": "C",
+        "text": "java.sql"
+      },
+      {
+        "key": "D",
+        "text": "javax.servlet"
+      }
+    ],
+    "answer": "C",
+    "reason": "The java.sql package contains the core JDBC APIs."
+  },
+  {
+    "id": 77,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Drivers",
+    "difficulty": "medium",
+    "question": "Which JDBC driver type requires ODBC to be installed on the client machine?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Type 1"
+      },
+      {
+        "key": "B",
+        "text": "Type 2"
+      },
+      {
+        "key": "C",
+        "text": "Type 3"
+      },
+      {
+        "key": "D",
+        "text": "Type 4"
+      }
+    ],
+    "answer": "A",
+    "reason": "The JDBC-ODBC bridge driver depends on ODBC installation."
+  },
+  {
+    "id": 78,
+    "subject": "Advance Java with Web Application",
+    "topic": "JDBC Architecture",
+    "difficulty": "medium",
+    "question": "Which component receives SQL requests from a Java application?",
+    "options": [
+      {
+        "key": "A",
+        "text": "JDBC Driver"
+      },
+      {
+        "key": "B",
+        "text": "Database Server"
+      },
+      {
+        "key": "C",
+        "text": "JDBC API"
+      },
+      {
+        "key": "D",
+        "text": "`ResultSet`"
+      }
+    ],
+    "answer": "C",
+    "reason": "Applications communicate with databases through the JDBC API."
+  },
+  {
+    "id": 79,
+    "subject": "Advance Java with Web Application",
+    "topic": "Connection",
+    "difficulty": "easy",
+    "question": "Which class is used to register and manage JDBC drivers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Connection"
+      },
+      {
+        "key": "B",
+        "text": "`DriverManager`"
+      },
+      {
+        "key": "C",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "D",
+        "text": "Statement"
+      }
+    ],
+    "answer": "B",
+    "reason": "`DriverManager` manages JDBC drivers and database connections."
+  },
+  {
+    "id": 80,
+    "subject": "Advance Java with Web Application",
+    "topic": "Connection",
+    "difficulty": "medium",
+    "question": "Which method is used to check whether a connection is closed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`isClosed()`"
+      },
+      {
+        "key": "B",
+        "text": "`checkClosed()`"
+      },
+      {
+        "key": "C",
+        "text": "`closed()`"
+      },
+      {
+        "key": "D",
+        "text": "`isOpen()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`isClosed()` returns true if the connection has been closed."
+  },
+  {
+    "id": 81,
+    "subject": "Advance Java with Web Application",
+    "topic": "SQL Queries",
+    "difficulty": "easy",
+    "question": "Which SQL statement removes all rows from a table but keeps the table structure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DELETE"
+      },
+      {
+        "key": "B",
+        "text": "DROP"
+      },
+      {
+        "key": "C",
+        "text": "TRUNCATE"
+      },
+      {
+        "key": "D",
+        "text": "REMOVE"
+      }
+    ],
+    "answer": "C",
+    "reason": "TRUNCATE removes all rows while preserving the table definition."
+  },
+  {
+    "id": 82,
+    "subject": "Advance Java with Web Application",
+    "topic": "SQL Queries",
+    "difficulty": "medium",
+    "question": "Which SQL statement is used to modify table structure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "UPDATE"
+      },
+      {
+        "key": "B",
+        "text": "ALTER"
+      },
+      {
+        "key": "C",
+        "text": "MODIFY"
+      },
+      {
+        "key": "D",
+        "text": "CHANGE"
+      }
+    ],
+    "answer": "B",
+    "reason": "ALTER is used to add, modify, or remove table columns and constraints."
+  },
+  {
+    "id": 83,
+    "subject": "Advance Java with Web Application",
+    "topic": "Statement",
+    "difficulty": "medium",
+    "question": "Which method executes a DDL statement such as CREATE TABLE?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`executeUpdate()`"
+      },
+      {
+        "key": "B",
+        "text": "`executeQuery()`"
+      },
+      {
+        "key": "C",
+        "text": "`getResultSet()`"
+      },
+      {
+        "key": "D",
+        "text": "`fetchData()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`executeUpdate()` is commonly used for DDL and DML statements."
+  },
+  {
+    "id": 84,
+    "subject": "Advance Java with Web Application",
+    "topic": "PreparedStatement",
+    "difficulty": "medium",
+    "question": "`PreparedStatement` is a child interface of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Connection"
+      },
+      {
+        "key": "B",
+        "text": "Statement"
+      },
+      {
+        "key": "C",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "D",
+        "text": "Driver"
+      }
+    ],
+    "answer": "B",
+    "reason": "`PreparedStatement` extends the Statement interface."
+  },
+  {
+    "id": 85,
+    "subject": "Advance Java with Web Application",
+    "topic": "PreparedStatement",
+    "difficulty": "hard",
+    "question": "How are parameters numbered in a `PreparedStatement`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Starting from 0"
+      },
+      {
+        "key": "B",
+        "text": "Starting from 1"
+      },
+      {
+        "key": "C",
+        "text": "Starting `from -1`"
+      },
+      {
+        "key": "D",
+        "text": "Database dependent"
+      }
+    ],
+    "answer": "B",
+    "reason": "`PreparedStatement` parameter indexes begin at 1."
+  },
+  {
+    "id": 86,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "easy",
+    "question": "Which method retrieves a String value from a `ResultSet`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`readString()`"
+      },
+      {
+        "key": "B",
+        "text": "`setString()`"
+      },
+      {
+        "key": "C",
+        "text": "`getString()`"
+      },
+      {
+        "key": "D",
+        "text": "`fetchString()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`getString()` retrieves String data from the current row."
+  },
+  {
+    "id": 87,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "medium",
+    "question": "Which `ResultSet` method moves the cursor to the first row?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`first()`"
+      },
+      {
+        "key": "B",
+        "text": "`top()`"
+      },
+      {
+        "key": "C",
+        "text": "`start()`"
+      },
+      {
+        "key": "D",
+        "text": "`begin()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`first()` moves the cursor to the first row in a scrollable `ResultSet`."
+  },
+  {
+    "id": 88,
+    "subject": "Advance Java with Web Application",
+    "topic": "ResultSet",
+    "difficulty": "hard",
+    "question": "Which method returns the current row number?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`row()`"
+      },
+      {
+        "key": "B",
+        "text": "`currentRow()`"
+      },
+      {
+        "key": "C",
+        "text": "`getRow()`"
+      },
+      {
+        "key": "D",
+        "text": "`rowNumber()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`getRow()` returns the current row number in a `ResultSet`."
+  },
+  {
+    "id": 89,
+    "subject": "Advance Java with Web Application",
+    "topic": "Metadata",
+    "difficulty": "medium",
+    "question": "Which metadata object can provide the name of a column?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ConnectionMetaData"
+      },
+      {
+        "key": "B",
+        "text": "`DriverManager`"
+      },
+      {
+        "key": "C",
+        "text": "ResultSetMetaData"
+      },
+      {
+        "key": "D",
+        "text": "Statement"
+      }
+    ],
+    "answer": "C",
+    "reason": "ResultSetMetaData provides information about columns."
+  },
+  {
+    "id": 90,
+    "subject": "Advance Java with Web Application",
+    "topic": "Metadata",
+    "difficulty": "hard",
+    "question": "Which method returns the database product name from DatabaseMetaData?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`databaseName()`"
+      },
+      {
+        "key": "B",
+        "text": "`getDatabaseProductName()`"
+      },
+      {
+        "key": "C",
+        "text": "`getDBName()`"
+      },
+      {
+        "key": "D",
+        "text": "`productName()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "DatabaseMetaData.`getDatabaseProductName()` returns the DBMS name."
+  },
+  {
+    "id": 91,
+    "subject": "Advance Java with Web Application",
+    "topic": "Transaction Management",
+    "difficulty": "easy",
+    "question": "Which method enables auto-commit mode?",
+    "options": [
+      {
+        "key": "A",
+        "text": "setAutoCommit(true)"
+      },
+      {
+        "key": "B",
+        "text": "commit(true)"
+      },
+      {
+        "key": "C",
+        "text": "`enableCommit()`"
+      },
+      {
+        "key": "D",
+        "text": "`autoCommit()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "setAutoCommit(true) enables automatic transaction commits."
+  },
+  {
+    "id": 92,
+    "subject": "Advance Java with Web Application",
+    "topic": "Transaction Management",
+    "difficulty": "medium",
+    "question": "Which JDBC interface represents a transaction savepoint?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Transaction"
+      },
+      {
+        "key": "B",
+        "text": "Checkpoint"
+      },
+      {
+        "key": "C",
+        "text": "Savepoint"
+      },
+      {
+        "key": "D",
+        "text": "RollbackPoint"
+      }
+    ],
+    "answer": "C",
+    "reason": "Savepoint represents a point within a transaction."
+  },
+  {
+    "id": 93,
+    "subject": "Advance Java with Web Application",
+    "topic": "Batch Processing",
+    "difficulty": "easy",
+    "question": "Batch processing reduces:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Network trips to the database"
+      },
+      {
+        "key": "B",
+        "text": "Database size"
+      },
+      {
+        "key": "C",
+        "text": "Number of tables"
+      },
+      {
+        "key": "D",
+        "text": "Memory usage to zero"
+      }
+    ],
+    "answer": "A",
+    "reason": "Batch processing minimizes database communication overhead."
+  },
+  {
+    "id": 94,
+    "subject": "Advance Java with Web Application",
+    "topic": "Batch Processing",
+    "difficulty": "medium",
+    "question": "Which interface supports `addBatch()` and `executeBatch()`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statement"
+      },
+      {
+        "key": "B",
+        "text": "`PreparedStatement`"
+      },
+      {
+        "key": "C",
+        "text": "Both Statement and `PreparedStatement`"
+      },
+      {
+        "key": "D",
+        "text": "`ResultSet`"
+      }
+    ],
+    "answer": "C",
+    "reason": "Both Statement and `PreparedStatement` support batch processing."
+  },
+  {
+    "id": 95,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "What does the following code return?\nboolean b = stmt.execute(sql);",
+    "options": [
+      {
+        "key": "A",
+        "text": "`ResultSet`"
+      },
+      {
+        "key": "B",
+        "text": "boolean"
+      },
+      {
+        "key": "C",
+        "text": "int"
+      },
+      {
+        "key": "D",
+        "text": "Connection"
+      }
+    ],
+    "answer": "B",
+    "reason": "`execute()` returns a boolean indicating whether the result is a `ResultSet`."
+  },
+  {
+    "id": 96,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "Fill the blank:\n`ResultSet` rs = stmt.executeQuery(sql);\nwhile(rs.`_____()`)",
+    "options": [
+      {
+        "key": "A",
+        "text": "next"
+      },
+      {
+        "key": "B",
+        "text": "move"
+      },
+      {
+        "key": "C",
+        "text": "forward"
+      },
+      {
+        "key": "D",
+        "text": "row"
+      }
+    ],
+    "answer": "A",
+    "reason": "`next()` moves to the next row and returns true if one exists."
+  },
+  {
+    "id": 97,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the output type?\nResultSetMetaData md = rs.`getMetaData()`;",
+    "options": [
+      {
+        "key": "A",
+        "text": "DatabaseMetaData"
+      },
+      {
+        "key": "B",
+        "text": "ResultSetMetaData"
+      },
+      {
+        "key": "C",
+        "text": "Connection"
+      },
+      {
+        "key": "D",
+        "text": "Statement"
+      }
+    ],
+    "answer": "B",
+    "reason": "`getMetaData()` on a `ResultSet` returns a ResultSetMetaData object."
+  },
+  {
+    "id": 98,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What does the following code do?\nstmt.`clearBatch()`;",
+    "options": [
+      {
+        "key": "A",
+        "text": "Executes batch commands"
+      },
+      {
+        "key": "B",
+        "text": "Deletes database rows"
+      },
+      {
+        "key": "C",
+        "text": "Removes commands from the batch"
+      },
+      {
+        "key": "D",
+        "text": "Commits the batch"
+      }
+    ],
+    "answer": "C",
+    "reason": "`clearBatch()` removes all commands added to the current batch."
+  },
+  {
+    "id": 99,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What happens when `commit()` is not called after setAutoCommit(false)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Changes may not be permanently saved"
+      },
+      {
+        "key": "B",
+        "text": "Program always crashes"
+      },
+      {
+        "key": "C",
+        "text": "Connection closes automatically"
+      },
+      {
+        "key": "D",
+        "text": "Database is deleted"
+      }
+    ],
+    "answer": "A",
+    "reason": "Without `commit()`, changes remain uncommitted and can be rolled back."
+  },
+  {
+    "id": 100,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "Which line correctly creates a `PreparedStatement` for parameterized queries?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statement ps = con.createStatement(sql);"
+      },
+      {
+        "key": "B",
+        "text": "`PreparedStatement` ps = con.prepareStatement(sql);"
+      },
+      {
+        "key": "C",
+        "text": "`PreparedStatement` ps = new `PreparedStatement`(sql);"
+      },
+      {
+        "key": "D",
+        "text": "Statement ps = con.prepare(sql);"
+      }
+    ],
+    "answer": "B",
+    "reason": "`prepareStatement()` creates a `PreparedStatement` object for parameterized SQL."
+  }
 ]

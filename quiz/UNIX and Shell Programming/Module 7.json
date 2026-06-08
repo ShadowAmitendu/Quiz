@@ -1,2704 +1,2702 @@
 [
-    {
-        "id": 1,
-        "subject": "UNIX and Shell Programming",
-        "topic": "UNIX Processes",
-        "difficulty": "easy",
-        "question": "What is a process in UNIX?",
-        "options": [
-            {
-                "key": "A",
-                "text": "A file stored on disk"
-            },
-            {
-                "key": "B",
-                "text": "A program in execution"
-            },
-            {
-                "key": "C",
-                "text": "A directory"
-            },
-            {
-                "key": "D",
-                "text": "A shell command"
-            }
-        ],
-        "answer": "B",
-        "reason": "A process is an instance of a program that is currently executing."
-    },
-    {
-        "id": 2,
-        "subject": "UNIX and Shell Programming",
-        "topic": "UNIX Processes",
-        "difficulty": "easy",
-        "question": "Which command displays information about running processes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "ls"
-            },
-            {
-                "key": "B",
-                "text": "ps"
-            },
-            {
-                "key": "C",
-                "text": "cp"
-            },
-            {
-                "key": "D",
-                "text": "pwd"
-            }
-        ],
-        "answer": "B",
-        "reason": "The ps command displays process status information."
-    },
-    {
-        "id": 3,
-        "subject": "UNIX and Shell Programming",
-        "topic": "ps Command",
-        "difficulty": "easy",
-        "question": "What does the ps command display by default?",
-        "options": [
-            {
-                "key": "A",
-                "text": "All system processes"
-            },
-            {
-                "key": "B",
-                "text": "Current user's active processes"
-            },
-            {
-                "key": "C",
-                "text": "Kernel processes only"
-            },
-            {
-                "key": "D",
-                "text": "Zombie processes only"
-            }
-        ],
-        "answer": "B",
-        "reason": "By default, ps shows processes associated with the current terminal session."
-    },
-    {
-        "id": 4,
-        "subject": "UNIX and Shell Programming",
-        "topic": "ps Command",
-        "difficulty": "medium",
-        "question": "Which option displays all processes running on the system?",
-        "options": [
-            {
-                "key": "A",
-                "text": "ps -a"
-            },
-            {
-                "key": "B",
-                "text": "ps -e"
-            },
-            {
-                "key": "C",
-                "text": "ps -l"
-            },
-            {
-                "key": "D",
-                "text": "ps -t"
-            }
-        ],
-        "answer": "B",
-        "reason": "The -e option displays every process running on the system."
-    },
-    {
-        "id": 5,
-        "subject": "UNIX and Shell Programming",
-        "topic": "ps Command",
-        "difficulty": "medium",
-        "question": "Which command displays processes in full-format listing?",
-        "options": [
-            {
-                "key": "A",
-                "text": "ps -f"
-            },
-            {
-                "key": "B",
-                "text": "ps -x"
-            },
-            {
-                "key": "C",
-                "text": "ps -n"
-            },
-            {
-                "key": "D",
-                "text": "ps -r"
-            }
-        ],
-        "answer": "A",
-        "reason": "The -f option provides detailed process information."
-    },
-    {
-        "id": 6,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process IDs",
-        "difficulty": "easy",
-        "question": "What does PID stand for?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Program ID"
-            },
-            {
-                "key": "B",
-                "text": "Process ID"
-            },
-            {
-                "key": "C",
-                "text": "Parent ID"
-            },
-            {
-                "key": "D",
-                "text": "Priority ID"
-            }
-        ],
-        "answer": "B",
-        "reason": "PID uniquely identifies a process in UNIX."
-    },
-    {
-        "id": 7,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process IDs",
-        "difficulty": "easy",
-        "question": "What does PPID stand for?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Process Parent Identifier"
-            },
-            {
-                "key": "B",
-                "text": "Program Process ID"
-            },
-            {
-                "key": "C",
-                "text": "Parent Process ID"
-            },
-            {
-                "key": "D",
-                "text": "Priority Process ID"
-            }
-        ],
-        "answer": "C",
-        "reason": "PPID identifies the parent process of a process."
-    },
-    {
-        "id": 8,
-        "subject": "UNIX and Shell Programming",
-        "topic": "init Process",
-        "difficulty": "easy",
-        "question": "Which process is traditionally assigned PID 1 in UNIX?",
-        "options": [
-            {
-                "key": "A",
-                "text": "bash"
-            },
-            {
-                "key": "B",
-                "text": "init"
-            },
-            {
-                "key": "C",
-                "text": "login"
-            },
-            {
-                "key": "D",
-                "text": "cron"
-            }
-        ],
-        "answer": "B",
-        "reason": "The init process is the first user-space process started by the kernel."
-    },
-    {
-        "id": 9,
-        "subject": "UNIX and Shell Programming",
-        "topic": "init Process",
-        "difficulty": "medium",
-        "question": "What is the primary role of the init process?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Compile programs"
-            },
-            {
-                "key": "B",
-                "text": "Start and manage system processes"
-            },
-            {
-                "key": "C",
-                "text": "Create files"
-            },
-            {
-                "key": "D",
-                "text": "Manage printers"
-            }
-        ],
-        "answer": "B",
-        "reason": "init starts system services and becomes the ancestor of many processes."
-    },
-    {
-        "id": 10,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Login Process",
-        "difficulty": "medium",
-        "question": "Which process authenticates a user during login?",
-        "options": [
-            {
-                "key": "A",
-                "text": "grep"
-            },
-            {
-                "key": "B",
-                "text": "login"
-            },
-            {
-                "key": "C",
-                "text": "fork"
-            },
-            {
-                "key": "D",
-                "text": "wait"
-            }
-        ],
-        "answer": "B",
-        "reason": "The login process verifies user credentials before starting a shell."
-    },
-    {
-        "id": 11,
-        "subject": "UNIX and Shell Programming",
-        "topic": "fork()",
-        "difficulty": "easy",
-        "question": "Which system call creates a new process?",
-        "options": [
-            {
-                "key": "A",
-                "text": "wait()"
-            },
-            {
-                "key": "B",
-                "text": "fork()"
-            },
-            {
-                "key": "C",
-                "text": "exit()"
-            },
-            {
-                "key": "D",
-                "text": "kill()"
-            }
-        ],
-        "answer": "B",
-        "reason": "fork() creates a child process by duplicating the parent."
-    },
-    {
-        "id": 12,
-        "subject": "UNIX and Shell Programming",
-        "topic": "fork()",
-        "difficulty": "medium",
-        "question": "After fork(), the newly created process is called the:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Kernel Process"
-            },
-            {
-                "key": "B",
-                "text": "Parent Process"
-            },
-            {
-                "key": "C",
-                "text": "Child Process"
-            },
-            {
-                "key": "D",
-                "text": "Zombie Process"
-            }
-        ],
-        "answer": "C",
-        "reason": "fork() creates a child process."
-    },
-    {
-        "id": 13,
-        "subject": "UNIX and Shell Programming",
-        "topic": "fork()",
-        "difficulty": "hard",
-        "question": "What value does fork() return to the parent process?",
-        "options": [
-            {
-                "key": "A",
-                "text": "0"
-            },
-            {
-                "key": "B",
-                "text": "Child PID"
-            },
-            {
-                "key": "C",
-                "text": "-1 always"
-            },
-            {
-                "key": "D",
-                "text": "Parent PID"
-            }
-        ],
-        "answer": "B",
-        "reason": "The parent receives the PID of the newly created child."
-    },
-    {
-        "id": 14,
-        "subject": "UNIX and Shell Programming",
-        "topic": "fork()",
-        "difficulty": "hard",
-        "question": "What value does fork() return to the child process?",
-        "options": [
-            {
-                "key": "A",
-                "text": "0"
-            },
-            {
-                "key": "B",
-                "text": "1"
-            },
-            {
-                "key": "C",
-                "text": "Parent PID"
-            },
-            {
-                "key": "D",
-                "text": "-1"
-            }
-        ],
-        "answer": "A",
-        "reason": "fork() returns 0 to the child process."
-    },
-    {
-        "id": 15,
-        "subject": "UNIX and Shell Programming",
-        "topic": "getpid()",
-        "difficulty": "easy",
-        "question": "What does getpid() return?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Parent PID"
-            },
-            {
-                "key": "B",
-                "text": "Current Process PID"
-            },
-            {
-                "key": "C",
-                "text": "Session ID"
-            },
-            {
-                "key": "D",
-                "text": "User ID"
-            }
-        ],
-        "answer": "B",
-        "reason": "getpid() returns the PID of the calling process."
-    },
-    {
-        "id": 16,
-        "subject": "UNIX and Shell Programming",
-        "topic": "getppid()",
-        "difficulty": "easy",
-        "question": "What does getppid() return?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Current PID"
-            },
-            {
-                "key": "B",
-                "text": "Group ID"
-            },
-            {
-                "key": "C",
-                "text": "Parent PID"
-            },
-            {
-                "key": "D",
-                "text": "User ID"
-            }
-        ],
-        "answer": "C",
-        "reason": "getppid() returns the PID of the parent process."
-    },
-    {
-        "id": 17,
-        "subject": "UNIX and Shell Programming",
-        "topic": "wait()",
-        "difficulty": "medium",
-        "question": "Why is wait() used?",
-        "options": [
-            {
-                "key": "A",
-                "text": "To terminate a process"
-            },
-            {
-                "key": "B",
-                "text": "To make a parent wait for a child process"
-            },
-            {
-                "key": "C",
-                "text": "To create a process"
-            },
-            {
-                "key": "D",
-                "text": "To change priority"
-            }
-        ],
-        "answer": "B",
-        "reason": "wait() suspends the parent until a child finishes execution."
-    },
-    {
-        "id": 18,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Zombie Process",
-        "difficulty": "medium",
-        "question": "What is a zombie process?",
-        "options": [
-            {
-                "key": "A",
-                "text": "A running process"
-            },
-            {
-                "key": "B",
-                "text": "A terminated process whose status has not been collected"
-            },
-            {
-                "key": "C",
-                "text": "A sleeping process"
-            },
-            {
-                "key": "D",
-                "text": "A kernel process"
-            }
-        ],
-        "answer": "B",
-        "reason": "A zombie process has completed execution but still occupies an entry in the process table."
-    },
-    {
-        "id": 19,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Zombie Process",
-        "difficulty": "hard",
-        "question": "Which system call helps prevent zombie processes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "fork()"
-            },
-            {
-                "key": "B",
-                "text": "wait()"
-            },
-            {
-                "key": "C",
-                "text": "exec()"
-            },
-            {
-                "key": "D",
-                "text": "sleep()"
-            }
-        ],
-        "answer": "B",
-        "reason": "wait() collects child termination status and removes zombies."
-    },
-    {
-        "id": 20,
-        "subject": "UNIX and Shell Programming",
-        "topic": "pipe()",
-        "difficulty": "easy",
-        "question": "What is the purpose of pipe()?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Delete files"
-            },
-            {
-                "key": "B",
-                "text": "Inter-process communication"
-            },
-            {
-                "key": "C",
-                "text": "Schedule processes"
-            },
-            {
-                "key": "D",
-                "text": "Allocate memory"
-            }
-        ],
-        "answer": "B",
-        "reason": "pipe() creates a communication channel between processes."
-    },
-    {
-        "id": 21,
-        "subject": "UNIX and Shell Programming",
-        "topic": "pipe()",
-        "difficulty": "medium",
-        "question": "A UNIX pipe generally supports communication between:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Unrelated computers"
-            },
-            {
-                "key": "B",
-                "text": "Processes"
-            },
-            {
-                "key": "C",
-                "text": "Files only"
-            },
-            {
-                "key": "D",
-                "text": "Directories"
-            }
-        ],
-        "answer": "B",
-        "reason": "Pipes are commonly used for inter-process communication."
-    },
-    {
-        "id": 22,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Message Passing",
-        "difficulty": "medium",
-        "question": "Message queues are primarily used for:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Memory allocation"
-            },
-            {
-                "key": "B",
-                "text": "Process scheduling"
-            },
-            {
-                "key": "C",
-                "text": "Inter-process communication"
-            },
-            {
-                "key": "D",
-                "text": "File compression"
-            }
-        ],
-        "answer": "C",
-        "reason": "Message queues allow processes to exchange messages."
-    },
-    {
-        "id": 23,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "easy",
-        "question": "Which state indicates that a process is currently executing?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ready"
-            },
-            {
-                "key": "B",
-                "text": "Running"
-            },
-            {
-                "key": "C",
-                "text": "Zombie"
-            },
-            {
-                "key": "D",
-                "text": "Stopped"
-            }
-        ],
-        "answer": "B",
-        "reason": "The Running state means the CPU is executing the process."
-    },
-    {
-        "id": 24,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "easy",
-        "question": "A process waiting for CPU allocation is in which state?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ready"
-            },
-            {
-                "key": "B",
-                "text": "Running"
-            },
-            {
-                "key": "C",
-                "text": "Terminated"
-            },
-            {
-                "key": "D",
-                "text": "Zombie"
-            }
-        ],
-        "answer": "A",
-        "reason": "Ready processes are waiting to be scheduled."
-    },
-    {
-        "id": 25,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "medium",
-        "question": "Which state indicates a process is waiting for an event or I/O operation?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Running"
-            },
-            {
-                "key": "B",
-                "text": "Ready"
-            },
-            {
-                "key": "C",
-                "text": "Blocked/Waiting"
-            },
-            {
-                "key": "D",
-                "text": "Zombie"
-            }
-        ],
-        "answer": "C",
-        "reason": "Blocked processes wait for resources or events."
-    },
-    {
-        "id": 26,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Scheduler",
-        "difficulty": "easy",
-        "question": "What is the primary function of the scheduler?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Manage files"
-            },
-            {
-                "key": "B",
-                "text": "Allocate CPU time to processes"
-            },
-            {
-                "key": "C",
-                "text": "Create directories"
-            },
-            {
-                "key": "D",
-                "text": "Compress files"
-            }
-        ],
-        "answer": "B",
-        "reason": "The scheduler decides which process gets CPU time."
-    },
-    {
-        "id": 27,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Scheduler",
-        "difficulty": "medium",
-        "question": "Which scheduling approach is commonly associated with UNIX systems?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Round Robin with priorities"
-            },
-            {
-                "key": "B",
-                "text": "FIFO only"
-            },
-            {
-                "key": "C",
-                "text": "SJF only"
-            },
-            {
-                "key": "D",
-                "text": "LIFO"
-            }
-        ],
-        "answer": "A",
-        "reason": "UNIX traditionally uses priority-based time-sharing scheduling."
-    },
-    {
-        "id": 28,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Swapped Memory",
-        "difficulty": "medium",
-        "question": "What is swapping in UNIX?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Renaming files"
-            },
-            {
-                "key": "B",
-                "text": "Moving processes between RAM and disk"
-            },
-            {
-                "key": "C",
-                "text": "Changing users"
-            },
-            {
-                "key": "D",
-                "text": "Deleting memory"
-            }
-        ],
-        "answer": "B",
-        "reason": "Swapping temporarily moves memory contents to disk."
-    },
-    {
-        "id": 29,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Swapped Memory",
-        "difficulty": "hard",
-        "question": "Why is swap space used?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Increase virtual memory"
-            },
-            {
-                "key": "B",
-                "text": "Store source code"
-            },
-            {
-                "key": "C",
-                "text": "Manage printers"
-            },
-            {
-                "key": "D",
-                "text": "Store logs only"
-            }
-        ],
-        "answer": "A",
-        "reason": "Swap space extends available memory through virtual memory techniques."
-    },
-    {
-        "id": 30,
-        "subject": "UNIX and Shell Programming",
-        "topic": "vmstat",
-        "difficulty": "easy",
-        "question": "Which command reports virtual memory statistics?",
-        "options": [
-            {
-                "key": "A",
-                "text": "ps"
-            },
-            {
-                "key": "B",
-                "text": "vmstat"
-            },
-            {
-                "key": "C",
-                "text": "ls"
-            },
-            {
-                "key": "D",
-                "text": "grep"
-            }
-        ],
-        "answer": "B",
-        "reason": "vmstat displays memory, process, and CPU statistics."
-    },
-    {
-        "id": 31,
-        "subject": "UNIX and Shell Programming",
-        "topic": "vmstat",
-        "difficulty": "medium",
-        "question": "The vmstat command provides information about:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Memory and CPU usage"
-            },
-            {
-                "key": "B",
-                "text": "File permissions only"
-            },
-            {
-                "key": "C",
-                "text": "Network configuration only"
-            },
-            {
-                "key": "D",
-                "text": "Printer settings"
-            }
-        ],
-        "answer": "A",
-        "reason": "vmstat reports memory, processes, paging, and CPU activity."
-    },
-    {
-        "id": 32,
-        "subject": "UNIX and Shell Programming",
-        "topic": "top Command",
-        "difficulty": "easy",
-        "question": "Which command provides a real-time view of system processes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "cat"
-            },
-            {
-                "key": "B",
-                "text": "top"
-            },
-            {
-                "key": "C",
-                "text": "touch"
-            },
-            {
-                "key": "D",
-                "text": "pwd"
-            }
-        ],
-        "answer": "B",
-        "reason": "top continuously updates process and resource usage information."
-    },
-    {
-        "id": 33,
-        "subject": "UNIX and Shell Programming",
-        "topic": "top Command",
-        "difficulty": "medium",
-        "question": "The top command is primarily used to monitor:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Disk formatting"
-            },
-            {
-                "key": "B",
-                "text": "System performance and processes"
-            },
-            {
-                "key": "C",
-                "text": "File ownership"
-            },
-            {
-                "key": "D",
-                "text": "Directory structures"
-            }
-        ],
-        "answer": "B",
-        "reason": "top shows CPU, memory, and process utilization."
-    },
-    {
-        "id": 34,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "easy",
-        "question": "What is the purpose of the nice command?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Change process priority"
-            },
-            {
-                "key": "B",
-                "text": "Delete processes"
-            },
-            {
-                "key": "C",
-                "text": "Create files"
-            },
-            {
-                "key": "D",
-                "text": "Manage memory"
-            }
-        ],
-        "answer": "A",
-        "reason": "nice adjusts the scheduling priority of a process."
-    },
-    {
-        "id": 35,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "medium",
-        "question": "Higher nice values generally mean:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Higher priority"
-            },
-            {
-                "key": "B",
-                "text": "Lower priority"
-            },
-            {
-                "key": "C",
-                "text": "No priority change"
-            },
-            {
-                "key": "D",
-                "text": "Kernel mode"
-            }
-        ],
-        "answer": "B",
-        "reason": "A higher nice value reduces process priority."
-    },
-    {
-        "id": 36,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "hard",
-        "question": "Which command starts a process with a modified priority?",
-        "options": [
-            {
-                "key": "A",
-                "text": "nice command"
-            },
-            {
-                "key": "B",
-                "text": "ls -l"
-            },
-            {
-                "key": "C",
-                "text": "grep file"
-            },
-            {
-                "key": "D",
-                "text": "pwd"
-            }
-        ],
-        "answer": "A",
-        "reason": "The nice command launches a process with a specified nice value."
-    },
-    {
-        "id": 37,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process Hierarchy",
-        "difficulty": "medium",
-        "question": "Every UNIX process except init has a:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Child process"
-            },
-            {
-                "key": "B",
-                "text": "Parent process"
-            },
-            {
-                "key": "C",
-                "text": "Zombie state"
-            },
-            {
-                "key": "D",
-                "text": "Kernel thread"
-            }
-        ],
-        "answer": "B",
-        "reason": "UNIX processes are organized in a parent-child hierarchy."
-    },
-    {
-        "id": 38,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "hard",
-        "question": "Which state occurs after a process finishes execution but before its entry is removed?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ready"
-            },
-            {
-                "key": "B",
-                "text": "Running"
-            },
-            {
-                "key": "C",
-                "text": "Zombie"
-            },
-            {
-                "key": "D",
-                "text": "Sleeping"
-            }
-        ],
-        "answer": "C",
-        "reason": "A terminated process awaiting status collection becomes a zombie."
-    },
-    {
-        "id": 39,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Inter Process Communication",
-        "difficulty": "hard",
-        "question": "Pipes and message queues are examples of:",
-        "options": [
-            {
-                "key": "A",
-                "text": "File systems"
-            },
-            {
-                "key": "B",
-                "text": "Inter-process communication mechanisms"
-            },
-            {
-                "key": "C",
-                "text": "Process schedulers"
-            },
-            {
-                "key": "D",
-                "text": "Memory managers"
-            }
-        ],
-        "answer": "B",
-        "reason": "Both are IPC mechanisms used for communication between processes."
-    },
-    {
-        "id": 40,
-        "subject": "UNIX and Shell Programming",
-        "topic": "UNIX Process Management",
-        "difficulty": "hard",
-        "question": "Which combination is most directly related to process creation and management?",
-        "options": [
-            {
-                "key": "A",
-                "text": "fork(), wait(), getpid()"
-            },
-            {
-                "key": "B",
-                "text": "grep, sort, uniq"
-            },
-            {
-                "key": "C",
-                "text": "chmod, chown, mkdir"
-            },
-            {
-                "key": "D",
-                "text": "tar, gzip, zip"
-            }
-        ],
-        "answer": "A",
-        "reason": "fork(), wait(), and getpid() are core process-management system calls in UNIX."
-    }
-,
-    {
-        "id": 41,
-        "subject": "UNIX and Shell Programming",
-        "topic": "ps Command",
-        "difficulty": "medium",
-        "question": "Which ps option displays processes associated with all terminals?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-a"
-            },
-            {
-                "key": "B",
-                "text": "-f"
-            },
-            {
-                "key": "C",
-                "text": "-l"
-            },
-            {
-                "key": "D",
-                "text": "-p"
-            }
-        ],
-        "answer": "A",
-        "reason": "The -a option displays processes associated with all terminals."
-    },
-    {
-        "id": 42,
-        "subject": "UNIX and Shell Programming",
-        "topic": "ps Command",
-        "difficulty": "hard",
-        "question": "Which ps option displays a long-format listing?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-x"
-            },
-            {
-                "key": "B",
-                "text": "-l"
-            },
-            {
-                "key": "C",
-                "text": "-e"
-            },
-            {
-                "key": "D",
-                "text": "-t"
-            }
-        ],
-        "answer": "B",
-        "reason": "The -l option displays detailed process information in long format."
-    },
-    {
-        "id": 43,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process IDs",
-        "difficulty": "easy",
-        "question": "Can two running processes have the same PID at the same time?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Yes"
-            },
-            {
-                "key": "B",
-                "text": "No"
-            },
-            {
-                "key": "C",
-                "text": "Only system processes"
-            },
-            {
-                "key": "D",
-                "text": "Only child processes"
-            }
-        ],
-        "answer": "B",
-        "reason": "Each running process has a unique PID."
-    },
-    {
-        "id": 44,
-        "subject": "UNIX and Shell Programming",
-        "topic": "fork()",
-        "difficulty": "medium",
-        "question": "What does fork() return if process creation fails?",
-        "options": [
-            {
-                "key": "A",
-                "text": "0"
-            },
-            {
-                "key": "B",
-                "text": "1"
-            },
-            {
-                "key": "C",
-                "text": "-1"
-            },
-            {
-                "key": "D",
-                "text": "Parent PID"
-            }
-        ],
-        "answer": "C",
-        "reason": "fork() returns -1 when the operating system cannot create a new process."
-    },
-    {
-        "id": 45,
-        "subject": "UNIX and Shell Programming",
-        "topic": "fork()",
-        "difficulty": "hard",
-        "question": "After a successful fork(), how many processes exist?",
-        "options": [
-            {
-                "key": "A",
-                "text": "One"
-            },
-            {
-                "key": "B",
-                "text": "Two"
-            },
-            {
-                "key": "C",
-                "text": "Three"
-            },
-            {
-                "key": "D",
-                "text": "Four"
-            }
-        ],
-        "answer": "B",
-        "reason": "A successful fork() creates a child process, resulting in parent and child processes."
-    },
-    {
-        "id": 46,
-        "subject": "UNIX and Shell Programming",
-        "topic": "getpid()",
-        "difficulty": "medium",
-        "question": "Which system call is used to obtain the current process identifier?",
-        "options": [
-            {
-                "key": "A",
-                "text": "getpid()"
-            },
-            {
-                "key": "B",
-                "text": "getppid()"
-            },
-            {
-                "key": "C",
-                "text": "fork()"
-            },
-            {
-                "key": "D",
-                "text": "wait()"
-            }
-        ],
-        "answer": "A",
-        "reason": "getpid() returns the PID of the calling process."
-    },
-    {
-        "id": 47,
-        "subject": "UNIX and Shell Programming",
-        "topic": "getppid()",
-        "difficulty": "medium",
-        "question": "Which function returns the parent's process ID?",
-        "options": [
-            {
-                "key": "A",
-                "text": "getpid()"
-            },
-            {
-                "key": "B",
-                "text": "wait()"
-            },
-            {
-                "key": "C",
-                "text": "getppid()"
-            },
-            {
-                "key": "D",
-                "text": "fork()"
-            }
-        ],
-        "answer": "C",
-        "reason": "getppid() returns the process ID of the parent process."
-    },
-    {
-        "id": 48,
-        "subject": "UNIX and Shell Programming",
-        "topic": "wait()",
-        "difficulty": "medium",
-        "question": "What happens to a child process when wait() is called successfully by its parent?",
-        "options": [
-            {
-                "key": "A",
-                "text": "It becomes a zombie"
-            },
-            {
-                "key": "B",
-                "text": "Its exit status is collected"
-            },
-            {
-                "key": "C",
-                "text": "It is duplicated"
-            },
-            {
-                "key": "D",
-                "text": "It becomes init"
-            }
-        ],
-        "answer": "B",
-        "reason": "wait() collects the child's termination status and removes it from the process table."
-    },
-    {
-        "id": 49,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Zombie Process",
-        "difficulty": "easy",
-        "question": "Which process state is commonly represented by 'Z' in process listings?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Running"
-            },
-            {
-                "key": "B",
-                "text": "Sleeping"
-            },
-            {
-                "key": "C",
-                "text": "Zombie"
-            },
-            {
-                "key": "D",
-                "text": "Stopped"
-            }
-        ],
-        "answer": "C",
-        "reason": "The process state code 'Z' indicates a zombie process."
-    },
-    {
-        "id": 50,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Zombie Process",
-        "difficulty": "hard",
-        "question": "A zombie process consumes mainly:",
-        "options": [
-            {
-                "key": "A",
-                "text": "CPU time"
-            },
-            {
-                "key": "B",
-                "text": "Process table entry"
-            },
-            {
-                "key": "C",
-                "text": "Disk space"
-            },
-            {
-                "key": "D",
-                "text": "Network bandwidth"
-            }
-        ],
-        "answer": "B",
-        "reason": "A zombie occupies a process table entry until its status is collected."
-    },
-    {
-        "id": 51,
-        "subject": "UNIX and Shell Programming",
-        "topic": "pipe()",
-        "difficulty": "easy",
-        "question": "A pipe is generally represented by which symbol in the shell?",
-        "options": [
-            {
-                "key": "A",
-                "text": "&"
-            },
-            {
-                "key": "B",
-                "text": "|"
-            },
-            {
-                "key": "C",
-                "text": ">"
-            },
-            {
-                "key": "D",
-                "text": ";"
-            }
-        ],
-        "answer": "B",
-        "reason": "The pipe symbol '|' connects the output of one command to another."
-    },
-    {
-        "id": 52,
-        "subject": "UNIX and Shell Programming",
-        "topic": "pipe()",
-        "difficulty": "medium",
-        "question": "A pipe allows data flow from:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Child to parent only"
-            },
-            {
-                "key": "B",
-                "text": "One process to another"
-            },
-            {
-                "key": "C",
-                "text": "Disk to memory only"
-            },
-            {
-                "key": "D",
-                "text": "Kernel to hardware only"
-            }
-        ],
-        "answer": "B",
-        "reason": "Pipes are used for communication between processes."
-    },
-    {
-        "id": 53,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Message Queues",
-        "difficulty": "medium",
-        "question": "Message queues belong to which category?",
-        "options": [
-            {
-                "key": "A",
-                "text": "File systems"
-            },
-            {
-                "key": "B",
-                "text": "Inter-process communication"
-            },
-            {
-                "key": "C",
-                "text": "Scheduling algorithms"
-            },
-            {
-                "key": "D",
-                "text": "Memory allocators"
-            }
-        ],
-        "answer": "B",
-        "reason": "Message queues are IPC mechanisms used for process communication."
-    },
-    {
-        "id": 54,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "easy",
-        "question": "Which state indicates that a process is ready to execute but waiting for CPU allocation?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ready"
-            },
-            {
-                "key": "B",
-                "text": "Running"
-            },
-            {
-                "key": "C",
-                "text": "Blocked"
-            },
-            {
-                "key": "D",
-                "text": "Zombie"
-            }
-        ],
-        "answer": "A",
-        "reason": "Ready processes are waiting for CPU scheduling."
-    },
-    {
-        "id": 55,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "medium",
-        "question": "Which state follows the Ready state when the scheduler selects a process?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Blocked"
-            },
-            {
-                "key": "B",
-                "text": "Running"
-            },
-            {
-                "key": "C",
-                "text": "Zombie"
-            },
-            {
-                "key": "D",
-                "text": "Terminated"
-            }
-        ],
-        "answer": "B",
-        "reason": "A ready process enters the Running state when assigned the CPU."
-    },
-    {
-        "id": 56,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "hard",
-        "question": "A process waiting for disk I/O is usually in which state?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ready"
-            },
-            {
-                "key": "B",
-                "text": "Running"
-            },
-            {
-                "key": "C",
-                "text": "Blocked"
-            },
-            {
-                "key": "D",
-                "text": "Zombie"
-            }
-        ],
-        "answer": "C",
-        "reason": "Processes waiting for I/O are placed in a blocked or waiting state."
-    },
-    {
-        "id": 57,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Scheduler",
-        "difficulty": "medium",
-        "question": "The UNIX scheduler primarily decides:",
-        "options": [
-            {
-                "key": "A",
-                "text": "File permissions"
-            },
-            {
-                "key": "B",
-                "text": "Which process runs next"
-            },
-            {
-                "key": "C",
-                "text": "Directory ownership"
-            },
-            {
-                "key": "D",
-                "text": "Disk formatting"
-            }
-        ],
-        "answer": "B",
-        "reason": "The scheduler determines CPU allocation among processes."
-    },
-    {
-        "id": 58,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Scheduler",
-        "difficulty": "hard",
-        "question": "The scheduler is a component of the:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Shell"
-            },
-            {
-                "key": "B",
-                "text": "Kernel"
-            },
-            {
-                "key": "C",
-                "text": "Compiler"
-            },
-            {
-                "key": "D",
-                "text": "Filesystem"
-            }
-        ],
-        "answer": "B",
-        "reason": "Process scheduling is performed by the UNIX kernel."
-    },
-    {
-        "id": 59,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Swapped Memory",
-        "difficulty": "easy",
-        "question": "What is swap space primarily used for?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Backup storage"
-            },
-            {
-                "key": "B",
-                "text": "Extending available memory"
-            },
-            {
-                "key": "C",
-                "text": "Printer spooling"
-            },
-            {
-                "key": "D",
-                "text": "System logs"
-            }
-        ],
-        "answer": "B",
-        "reason": "Swap space acts as an extension of physical memory."
-    },
-    {
-        "id": 60,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Swapped Memory",
-        "difficulty": "medium",
-        "question": "Swapping moves memory contents between RAM and:",
-        "options": [
-            {
-                "key": "A",
-                "text": "CPU cache"
-            },
-            {
-                "key": "B",
-                "text": "Disk storage"
-            },
-            {
-                "key": "C",
-                "text": "Network storage only"
-            },
-            {
-                "key": "D",
-                "text": "ROM"
-            }
-        ],
-        "answer": "B",
-        "reason": "Swap space resides on disk storage."
-    },
-    {
-        "id": 61,
-        "subject": "UNIX and Shell Programming",
-        "topic": "vmstat",
-        "difficulty": "easy",
-        "question": "The vmstat command provides statistics about:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Virtual memory"
-            },
-            {
-                "key": "B",
-                "text": "Text editors"
-            },
-            {
-                "key": "C",
-                "text": "File permissions"
-            },
-            {
-                "key": "D",
-                "text": "Printers"
-            }
-        ],
-        "answer": "A",
-        "reason": "vmstat reports virtual memory and related system statistics."
-    },
-    {
-        "id": 62,
-        "subject": "UNIX and Shell Programming",
-        "topic": "vmstat",
-        "difficulty": "medium",
-        "question": "Besides memory information, vmstat can also report:",
-        "options": [
-            {
-                "key": "A",
-                "text": "CPU activity"
-            },
-            {
-                "key": "B",
-                "text": "Compiler warnings"
-            },
-            {
-                "key": "C",
-                "text": "Source code errors"
-            },
-            {
-                "key": "D",
-                "text": "Network passwords"
-            }
-        ],
-        "answer": "A",
-        "reason": "vmstat displays CPU, memory, and process statistics."
-    },
-    {
-        "id": 63,
-        "subject": "UNIX and Shell Programming",
-        "topic": "top Command",
-        "difficulty": "easy",
-        "question": "Which command continuously updates process information on the screen?",
-        "options": [
-            {
-                "key": "A",
-                "text": "ps"
-            },
-            {
-                "key": "B",
-                "text": "top"
-            },
-            {
-                "key": "C",
-                "text": "pwd"
-            },
-            {
-                "key": "D",
-                "text": "cat"
-            }
-        ],
-        "answer": "B",
-        "reason": "top provides dynamic, real-time process monitoring."
-    },
-    {
-        "id": 64,
-        "subject": "UNIX and Shell Programming",
-        "topic": "top Command",
-        "difficulty": "medium",
-        "question": "Which resource usage can be monitored using top?",
-        "options": [
-            {
-                "key": "A",
-                "text": "CPU"
-            },
-            {
-                "key": "B",
-                "text": "Memory"
-            },
-            {
-                "key": "C",
-                "text": "Processes"
-            },
-            {
-                "key": "D",
-                "text": "All of these"
-            }
-        ],
-        "answer": "D",
-        "reason": "top displays CPU, memory, and process-related information."
-    },
-    {
-        "id": 65,
-        "subject": "UNIX and Shell Programming",
-        "topic": "top Command",
-        "difficulty": "hard",
-        "question": "Which command is more suitable for real-time monitoring than ps?",
-        "options": [
-            {
-                "key": "A",
-                "text": "touch"
-            },
-            {
-                "key": "B",
-                "text": "top"
-            },
-            {
-                "key": "C",
-                "text": "mkdir"
-            },
-            {
-                "key": "D",
-                "text": "cat"
-            }
-        ],
-        "answer": "B",
-        "reason": "top continuously refreshes system statistics in real time."
-    },
-    {
-        "id": 66,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "easy",
-        "question": "The nice command affects a process's:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Memory size"
-            },
-            {
-                "key": "B",
-                "text": "Scheduling priority"
-            },
-            {
-                "key": "C",
-                "text": "Owner"
-            },
-            {
-                "key": "D",
-                "text": "PID"
-            }
-        ],
-        "answer": "B",
-        "reason": "nice changes the scheduling priority assigned to a process."
-    },
-    {
-        "id": 67,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "medium",
-        "question": "A lower nice value generally means:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Lower priority"
-            },
-            {
-                "key": "B",
-                "text": "Higher priority"
-            },
-            {
-                "key": "C",
-                "text": "No priority"
-            },
-            {
-                "key": "D",
-                "text": "Zombie state"
-            }
-        ],
-        "answer": "B",
-        "reason": "Lower nice values correspond to higher scheduling priority."
-    },
-    {
-        "id": 68,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "hard",
-        "question": "Which user is generally allowed to assign very high priorities using negative nice values?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Guest user"
-            },
-            {
-                "key": "B",
-                "text": "Normal user"
-            },
-            {
-                "key": "C",
-                "text": "Root/Superuser"
-            },
-            {
-                "key": "D",
-                "text": "Anonymous user"
-            }
-        ],
-        "answer": "C",
-        "reason": "Only privileged users can typically assign negative nice values."
-    },
-    {
-        "id": 69,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process Hierarchy",
-        "difficulty": "medium",
-        "question": "A child process is created by which process?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Parent process"
-            },
-            {
-                "key": "B",
-                "text": "Kernel only"
-            },
-            {
-                "key": "C",
-                "text": "Login process only"
-            },
-            {
-                "key": "D",
-                "text": "Scheduler"
-            }
-        ],
-        "answer": "A",
-        "reason": "A parent process creates child processes using fork()."
-    },
-    {
-        "id": 70,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process Hierarchy",
-        "difficulty": "hard",
-        "question": "If a parent process terminates before its child, the child is usually adopted by:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Scheduler"
-            },
-            {
-                "key": "B",
-                "text": "Shell"
-            },
-            {
-                "key": "C",
-                "text": "init/system process"
-            },
-            {
-                "key": "D",
-                "text": "Compiler"
-            }
-        ],
-        "answer": "C",
-        "reason": "Orphan processes are typically adopted by init (PID 1) or its equivalent."
-    },
-    {
-        "id": 71,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Login Process",
-        "difficulty": "easy",
-        "question": "After successful authentication, the login process usually starts a:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Shell"
-            },
-            {
-                "key": "B",
-                "text": "Compiler"
-            },
-            {
-                "key": "C",
-                "text": "Filesystem"
-            },
-            {
-                "key": "D",
-                "text": "Device driver"
-            }
-        ],
-        "answer": "A",
-        "reason": "The login process launches the user's shell session."
-    },
-    {
-        "id": 72,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Inter Process Communication",
-        "difficulty": "medium",
-        "question": "Which of the following is NOT an IPC mechanism?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Pipe"
-            },
-            {
-                "key": "B",
-                "text": "Message Queue"
-            },
-            {
-                "key": "C",
-                "text": "Shared Memory"
-            },
-            {
-                "key": "D",
-                "text": "chmod"
-            }
-        ],
-        "answer": "D",
-        "reason": "chmod is used for changing file permissions, not IPC."
-    },
-    {
-        "id": 73,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Scheduler",
-        "difficulty": "medium",
-        "question": "The scheduler chooses a process from the:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ready Queue"
-            },
-            {
-                "key": "B",
-                "text": "Directory List"
-            },
-            {
-                "key": "C",
-                "text": "Filesystem Table"
-            },
-            {
-                "key": "D",
-                "text": "User Database"
-            }
-        ],
-        "answer": "A",
-        "reason": "Ready processes wait in the ready queue for CPU allocation."
-    },
-    {
-        "id": 74,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "hard",
-        "question": "Which transition occurs when an I/O operation completes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Running → Zombie"
-            },
-            {
-                "key": "B",
-                "text": "Blocked → Ready"
-            },
-            {
-                "key": "C",
-                "text": "Ready → Zombie"
-            },
-            {
-                "key": "D",
-                "text": "Running → Terminated"
-            }
-        ],
-        "answer": "B",
-        "reason": "Once I/O completes, the blocked process becomes ready for execution."
-    },
-    {
-        "id": 75,
-        "subject": "UNIX and Shell Programming",
-        "topic": "vmstat",
-        "difficulty": "hard",
-        "question": "Which command is more focused on memory statistics than process listing?",
-        "options": [
-            {
-                "key": "A",
-                "text": "ps"
-            },
-            {
-                "key": "B",
-                "text": "vmstat"
-            },
-            {
-                "key": "C",
-                "text": "pwd"
-            },
-            {
-                "key": "D",
-                "text": "mkdir"
-            }
-        ],
-        "answer": "B",
-        "reason": "vmstat specializes in memory, paging, and CPU statistics."
-    },
-    {
-        "id": 76,
-        "subject": "UNIX and Shell Programming",
-        "topic": "top Command",
-        "difficulty": "medium",
-        "question": "Which command is commonly used to identify CPU-intensive processes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "top"
-            },
-            {
-                "key": "B",
-                "text": "touch"
-            },
-            {
-                "key": "C",
-                "text": "mkdir"
-            },
-            {
-                "key": "D",
-                "text": "chmod"
-            }
-        ],
-        "answer": "A",
-        "reason": "top sorts and displays processes by CPU usage in real time."
-    },
-    {
-        "id": 77,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "hard",
-        "question": "The primary goal of the nice command is to:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Manage process execution priority"
-            },
-            {
-                "key": "B",
-                "text": "Create child processes"
-            },
-            {
-                "key": "C",
-                "text": "Monitor memory usage"
-            },
-            {
-                "key": "D",
-                "text": "Create pipes"
-            }
-        ],
-        "answer": "A",
-        "reason": "nice adjusts process priority and CPU scheduling behavior."
-    },
-    {
-        "id": 78,
-        "subject": "UNIX and Shell Programming",
-        "topic": "UNIX Processes",
-        "difficulty": "medium",
-        "question": "Which command combination is commonly used to monitor running processes and system load?",
-        "options": [
-            {
-                "key": "A",
-                "text": "top and vmstat"
-            },
-            {
-                "key": "B",
-                "text": "mkdir and rmdir"
-            },
-            {
-                "key": "C",
-                "text": "cp and mv"
-            },
-            {
-                "key": "D",
-                "text": "tar and gzip"
-            }
-        ],
-        "answer": "A",
-        "reason": "top and vmstat are commonly used for performance monitoring."
-    },
-    {
-        "id": 79,
-        "subject": "UNIX and Shell Programming",
-        "topic": "UNIX Processes",
-        "difficulty": "hard",
-        "question": "Which system call family is most directly related to process creation?",
-        "options": [
-            {
-                "key": "A",
-                "text": "fork()"
-            },
-            {
-                "key": "B",
-                "text": "chmod()"
-            },
-            {
-                "key": "C",
-                "text": "mkdir()"
-            },
-            {
-                "key": "D",
-                "text": "unlink()"
-            }
-        ],
-        "answer": "A",
-        "reason": "fork() is the primary UNIX system call for process creation."
-    },
-    {
-        "id": 80,
-        "subject": "UNIX and Shell Programming",
-        "topic": "UNIX Process Management",
-        "difficulty": "hard",
-        "question": "Which set consists entirely of process-related system calls?",
-        "options": [
-            {
-                "key": "A",
-                "text": "fork(), wait(), getpid()"
-            },
-            {
-                "key": "B",
-                "text": "cp, mv, rm"
-            },
-            {
-                "key": "C",
-                "text": "grep, awk, sed"
-            },
-            {
-                "key": "D",
-                "text": "tar, gzip, zip"
-            }
-        ],
-        "answer": "A",
-        "reason": "fork(), wait(), and getpid() are all process-management system calls."
-    }
-,
-    {
-        "id": 81,
-        "subject": "UNIX and Shell Programming",
-        "topic": "fork()",
-        "difficulty": "hard",
-        "question": "Which process executes first after a successful fork() call?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Parent process only"
-            },
-            {
-                "key": "B",
-                "text": "Child process only"
-            },
-            {
-                "key": "C",
-                "text": "Depends on the scheduler"
-            },
-            {
-                "key": "D",
-                "text": "init process"
-            }
-        ],
-        "answer": "C",
-        "reason": "The scheduler determines whether the parent or child process runs first after fork()."
-    },
-    {
-        "id": 82,
-        "subject": "UNIX and Shell Programming",
-        "topic": "fork()",
-        "difficulty": "hard",
-        "question": "After fork(), the child process initially receives a copy of the parent's:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Process ID"
-            },
-            {
-                "key": "B",
-                "text": "Memory space and resources"
-            },
-            {
-                "key": "C",
-                "text": "Parent process only"
-            },
-            {
-                "key": "D",
-                "text": "Kernel source code"
-            }
-        ],
-        "answer": "B",
-        "reason": "The child process receives a copy of the parent's address space and resources."
-    },
-    {
-        "id": 83,
-        "subject": "UNIX and Shell Programming",
-        "topic": "wait()",
-        "difficulty": "medium",
-        "question": "Which process usually calls wait()?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Parent process"
-            },
-            {
-                "key": "B",
-                "text": "Child process"
-            },
-            {
-                "key": "C",
-                "text": "Zombie process"
-            },
-            {
-                "key": "D",
-                "text": "Kernel thread"
-            }
-        ],
-        "answer": "A",
-        "reason": "The parent process calls wait() to collect the exit status of its child."
-    },
-    {
-        "id": 84,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "medium",
-        "question": "Which state is commonly represented by 'R' in process listings?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ready"
-            },
-            {
-                "key": "B",
-                "text": "Running"
-            },
-            {
-                "key": "C",
-                "text": "Removed"
-            },
-            {
-                "key": "D",
-                "text": "Restarted"
-            }
-        ],
-        "answer": "B",
-        "reason": "The state code 'R' typically indicates a running or runnable process."
-    },
-    {
-        "id": 85,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "medium",
-        "question": "Which state is commonly represented by 'S' in UNIX process listings?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Sleeping"
-            },
-            {
-                "key": "B",
-                "text": "Stopped"
-            },
-            {
-                "key": "C",
-                "text": "Swapped"
-            },
-            {
-                "key": "D",
-                "text": "Scheduled"
-            }
-        ],
-        "answer": "A",
-        "reason": "The 'S' state usually indicates an interruptible sleeping process."
-    },
-    {
-        "id": 86,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Process States",
-        "difficulty": "hard",
-        "question": "Which state is commonly represented by 'T' in process listings?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Terminated"
-            },
-            {
-                "key": "B",
-                "text": "Timed"
-            },
-            {
-                "key": "C",
-                "text": "Stopped/Traced"
-            },
-            {
-                "key": "D",
-                "text": "Transferred"
-            }
-        ],
-        "answer": "C",
-        "reason": "The 'T' state indicates a process that has been stopped or is being traced."
-    },
-    {
-        "id": 87,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Scheduler",
-        "difficulty": "easy",
-        "question": "What resource does the scheduler allocate to processes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Disk blocks"
-            },
-            {
-                "key": "B",
-                "text": "CPU time"
-            },
-            {
-                "key": "C",
-                "text": "Network addresses"
-            },
-            {
-                "key": "D",
-                "text": "User accounts"
-            }
-        ],
-        "answer": "B",
-        "reason": "The scheduler determines which process gets CPU execution time."
-    },
-    {
-        "id": 88,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Scheduler",
-        "difficulty": "medium",
-        "question": "Which queue contains processes waiting for CPU allocation?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ready Queue"
-            },
-            {
-                "key": "B",
-                "text": "Print Queue"
-            },
-            {
-                "key": "C",
-                "text": "Swap Queue"
-            },
-            {
-                "key": "D",
-                "text": "Login Queue"
-            }
-        ],
-        "answer": "A",
-        "reason": "Processes in the Ready Queue are waiting to be scheduled on the CPU."
-    },
-    {
-        "id": 89,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Swapped Memory",
-        "difficulty": "medium",
-        "question": "What happens when physical memory becomes insufficient?",
-        "options": [
-            {
-                "key": "A",
-                "text": "System shuts down immediately"
-            },
-            {
-                "key": "B",
-                "text": "Processes may be swapped to disk"
-            },
-            {
-                "key": "C",
-                "text": "All processes terminate"
-            },
-            {
-                "key": "D",
-                "text": "CPU speed decreases"
-            }
-        ],
-        "answer": "B",
-        "reason": "UNIX may move memory pages or processes to swap space when RAM is limited."
-    },
-    {
-        "id": 90,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Swapped Memory",
-        "difficulty": "hard",
-        "question": "Swap space is usually located on:",
-        "options": [
-            {
-                "key": "A",
-                "text": "CPU cache"
-            },
-            {
-                "key": "B",
-                "text": "Main memory"
-            },
-            {
-                "key": "C",
-                "text": "Secondary storage device"
-            },
-            {
-                "key": "D",
-                "text": "Network interface"
-            }
-        ],
-        "answer": "C",
-        "reason": "Swap space is typically allocated on a hard disk or SSD."
-    },
-    {
-        "id": 91,
-        "subject": "UNIX and Shell Programming",
-        "topic": "vmstat",
-        "difficulty": "medium",
-        "question": "Which command is useful for viewing paging and swapping statistics?",
-        "options": [
-            {
-                "key": "A",
-                "text": "vmstat"
-            },
-            {
-                "key": "B",
-                "text": "mkdir"
-            },
-            {
-                "key": "C",
-                "text": "chmod"
-            },
-            {
-                "key": "D",
-                "text": "echo"
-            }
-        ],
-        "answer": "A",
-        "reason": "vmstat reports virtual memory, paging, swapping, and CPU statistics."
-    },
-    {
-        "id": 92,
-        "subject": "UNIX and Shell Programming",
-        "topic": "vmstat",
-        "difficulty": "hard",
-        "question": "Which command provides a snapshot of system performance without continuous updates?",
-        "options": [
-            {
-                "key": "A",
-                "text": "top"
-            },
-            {
-                "key": "B",
-                "text": "vmstat"
-            },
-            {
-                "key": "C",
-                "text": "watch"
-            },
-            {
-                "key": "D",
-                "text": "tail -f"
-            }
-        ],
-        "answer": "B",
-        "reason": "vmstat typically provides statistical snapshots, while top continuously updates."
-    },
-    {
-        "id": 93,
-        "subject": "UNIX and Shell Programming",
-        "topic": "top Command",
-        "difficulty": "easy",
-        "question": "Which command displays processes sorted by resource consumption in real time?",
-        "options": [
-            {
-                "key": "A",
-                "text": "ps"
-            },
-            {
-                "key": "B",
-                "text": "top"
-            },
-            {
-                "key": "C",
-                "text": "ls"
-            },
-            {
-                "key": "D",
-                "text": "find"
-            }
-        ],
-        "answer": "B",
-        "reason": "top dynamically displays processes and their resource usage."
-    },
-    {
-        "id": 94,
-        "subject": "UNIX and Shell Programming",
-        "topic": "top Command",
-        "difficulty": "medium",
-        "question": "Which command is commonly used to identify memory-hungry processes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "top"
-            },
-            {
-                "key": "B",
-                "text": "touch"
-            },
-            {
-                "key": "C",
-                "text": "grep"
-            },
-            {
-                "key": "D",
-                "text": "wc"
-            }
-        ],
-        "answer": "A",
-        "reason": "top displays memory utilization for running processes."
-    },
-    {
-        "id": 95,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "easy",
-        "question": "What is the default nice value for a normal process on most UNIX systems?",
-        "options": [
-            {
-                "key": "A",
-                "text": "0"
-            },
-            {
-                "key": "B",
-                "text": "-20"
-            },
-            {
-                "key": "C",
-                "text": "20"
-            },
-            {
-                "key": "D",
-                "text": "100"
-            }
-        ],
-        "answer": "A",
-        "reason": "A normal process typically starts with a nice value of 0."
-    },
-    {
-        "id": 96,
-        "subject": "UNIX and Shell Programming",
-        "topic": "nice Command",
-        "difficulty": "medium",
-        "question": "Which nice value generally corresponds to the lowest priority?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-20"
-            },
-            {
-                "key": "B",
-                "text": "0"
-            },
-            {
-                "key": "C",
-                "text": "19"
-            },
-            {
-                "key": "D",
-                "text": "-1"
-            }
-        ],
-        "answer": "C",
-        "reason": "A nice value of 19 is typically the lowest priority available to user processes."
-    },
-    {
-        "id": 97,
-        "subject": "UNIX and Shell Programming",
-        "topic": "init Process",
-        "difficulty": "medium",
-        "question": "Why is the init process considered special in UNIX?",
-        "options": [
-            {
-                "key": "A",
-                "text": "It has the highest PID"
-            },
-            {
-                "key": "B",
-                "text": "It is the first user-space process started by the kernel"
-            },
-            {
-                "key": "C",
-                "text": "It owns all files"
-            },
-            {
-                "key": "D",
-                "text": "It schedules all processes directly"
-            }
-        ],
-        "answer": "B",
-        "reason": "init is the first user-space process created during system startup."
-    },
-    {
-        "id": 98,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Login Process",
-        "difficulty": "medium",
-        "question": "What is typically started after a successful login?",
-        "options": [
-            {
-                "key": "A",
-                "text": "A user shell"
-            },
-            {
-                "key": "B",
-                "text": "A compiler"
-            },
-            {
-                "key": "C",
-                "text": "A scheduler"
-            },
-            {
-                "key": "D",
-                "text": "A swap daemon"
-            }
-        ],
-        "answer": "A",
-        "reason": "After authentication, the login process usually launches a shell for the user."
-    },
-    {
-        "id": 99,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Inter Process Communication",
-        "difficulty": "hard",
-        "question": "Which of the following is an advantage of message queues over simple pipes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Messages can be managed as discrete units"
-            },
-            {
-                "key": "B",
-                "text": "They require no kernel support"
-            },
-            {
-                "key": "C",
-                "text": "They cannot block processes"
-            },
-            {
-                "key": "D",
-                "text": "They eliminate process scheduling"
-            }
-        ],
-        "answer": "A",
-        "reason": "Message queues preserve message boundaries, unlike byte-stream pipes."
-    },
-    {
-        "id": 100,
-        "subject": "UNIX and Shell Programming",
-        "topic": "UNIX Process Management",
-        "difficulty": "hard",
-        "question": "Which combination of commands is most useful for monitoring process activity and system performance?",
-        "options": [
-            {
-                "key": "A",
-                "text": "top and vmstat"
-            },
-            {
-                "key": "B",
-                "text": "cp and mv"
-            },
-            {
-                "key": "C",
-                "text": "grep and awk"
-            },
-            {
-                "key": "D",
-                "text": "tar and gzip"
-            }
-        ],
-        "answer": "A",
-        "reason": "top provides real-time process monitoring, while vmstat provides system performance statistics."
-    }
+  {
+    "id": 1,
+    "subject": "UNIX and Shell Programming",
+    "topic": "UNIX Processes",
+    "difficulty": "easy",
+    "question": "What is a process in UNIX?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A file stored on disk"
+      },
+      {
+        "key": "B",
+        "text": "A program in execution"
+      },
+      {
+        "key": "C",
+        "text": "A directory"
+      },
+      {
+        "key": "D",
+        "text": "A shell command"
+      }
+    ],
+    "answer": "B",
+    "reason": "A process is an instance of a program that is currently executing."
+  },
+  {
+    "id": 2,
+    "subject": "UNIX and Shell Programming",
+    "topic": "UNIX Processes",
+    "difficulty": "easy",
+    "question": "Which command displays information about running processes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ls"
+      },
+      {
+        "key": "B",
+        "text": "ps"
+      },
+      {
+        "key": "C",
+        "text": "cp"
+      },
+      {
+        "key": "D",
+        "text": "pwd"
+      }
+    ],
+    "answer": "B",
+    "reason": "The ps command displays process status information."
+  },
+  {
+    "id": 3,
+    "subject": "UNIX and Shell Programming",
+    "topic": "ps Command",
+    "difficulty": "easy",
+    "question": "What does the ps command display by default?",
+    "options": [
+      {
+        "key": "A",
+        "text": "All system processes"
+      },
+      {
+        "key": "B",
+        "text": "Current user's active processes"
+      },
+      {
+        "key": "C",
+        "text": "Kernel processes only"
+      },
+      {
+        "key": "D",
+        "text": "Zombie processes only"
+      }
+    ],
+    "answer": "B",
+    "reason": "By default, ps shows processes associated with the current terminal session."
+  },
+  {
+    "id": 4,
+    "subject": "UNIX and Shell Programming",
+    "topic": "ps Command",
+    "difficulty": "medium",
+    "question": "Which option displays all processes running on the system?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`ps -a`"
+      },
+      {
+        "key": "B",
+        "text": "`ps -e`"
+      },
+      {
+        "key": "C",
+        "text": "`ps -l`"
+      },
+      {
+        "key": "D",
+        "text": "`ps -t`"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -e option displays every process running on the system."
+  },
+  {
+    "id": 5,
+    "subject": "UNIX and Shell Programming",
+    "topic": "ps Command",
+    "difficulty": "medium",
+    "question": "Which command displays processes in full-format listing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`ps -f`"
+      },
+      {
+        "key": "B",
+        "text": "`ps -x`"
+      },
+      {
+        "key": "C",
+        "text": "`ps -n`"
+      },
+      {
+        "key": "D",
+        "text": "`ps -r`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -f option provides detailed process information."
+  },
+  {
+    "id": 6,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process IDs",
+    "difficulty": "easy",
+    "question": "What does PID stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Program ID"
+      },
+      {
+        "key": "B",
+        "text": "Process ID"
+      },
+      {
+        "key": "C",
+        "text": "Parent ID"
+      },
+      {
+        "key": "D",
+        "text": "Priority ID"
+      }
+    ],
+    "answer": "B",
+    "reason": "PID uniquely identifies a process in UNIX."
+  },
+  {
+    "id": 7,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process IDs",
+    "difficulty": "easy",
+    "question": "What does PPID stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Process Parent Identifier"
+      },
+      {
+        "key": "B",
+        "text": "Program Process ID"
+      },
+      {
+        "key": "C",
+        "text": "Parent Process ID"
+      },
+      {
+        "key": "D",
+        "text": "Priority Process ID"
+      }
+    ],
+    "answer": "C",
+    "reason": "PPID identifies the parent process of a process."
+  },
+  {
+    "id": 8,
+    "subject": "UNIX and Shell Programming",
+    "topic": "init Process",
+    "difficulty": "easy",
+    "question": "Which process is traditionally assigned PID 1 in UNIX?",
+    "options": [
+      {
+        "key": "A",
+        "text": "bash"
+      },
+      {
+        "key": "B",
+        "text": "init"
+      },
+      {
+        "key": "C",
+        "text": "login"
+      },
+      {
+        "key": "D",
+        "text": "cron"
+      }
+    ],
+    "answer": "B",
+    "reason": "The init process is the first user-space process started by the kernel."
+  },
+  {
+    "id": 9,
+    "subject": "UNIX and Shell Programming",
+    "topic": "init Process",
+    "difficulty": "medium",
+    "question": "What is the primary role of the init process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Compile programs"
+      },
+      {
+        "key": "B",
+        "text": "Start and manage system processes"
+      },
+      {
+        "key": "C",
+        "text": "Create files"
+      },
+      {
+        "key": "D",
+        "text": "Manage printers"
+      }
+    ],
+    "answer": "B",
+    "reason": "init starts system services and becomes the ancestor of many processes."
+  },
+  {
+    "id": 10,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Login Process",
+    "difficulty": "medium",
+    "question": "Which process authenticates a user during login?",
+    "options": [
+      {
+        "key": "A",
+        "text": "grep"
+      },
+      {
+        "key": "B",
+        "text": "login"
+      },
+      {
+        "key": "C",
+        "text": "fork"
+      },
+      {
+        "key": "D",
+        "text": "wait"
+      }
+    ],
+    "answer": "B",
+    "reason": "The login process verifies user credentials before starting a shell."
+  },
+  {
+    "id": 11,
+    "subject": "UNIX and Shell Programming",
+    "topic": "fork()",
+    "difficulty": "easy",
+    "question": "Which system call creates a new process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`wait()`"
+      },
+      {
+        "key": "B",
+        "text": "`fork()`"
+      },
+      {
+        "key": "C",
+        "text": "`exit()`"
+      },
+      {
+        "key": "D",
+        "text": "`kill()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`fork()` creates a child process by duplicating the parent."
+  },
+  {
+    "id": 12,
+    "subject": "UNIX and Shell Programming",
+    "topic": "fork()",
+    "difficulty": "medium",
+    "question": "After `fork()`, the newly created process is called the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kernel Process"
+      },
+      {
+        "key": "B",
+        "text": "Parent Process"
+      },
+      {
+        "key": "C",
+        "text": "Child Process"
+      },
+      {
+        "key": "D",
+        "text": "Zombie Process"
+      }
+    ],
+    "answer": "C",
+    "reason": "`fork()` creates a child process."
+  },
+  {
+    "id": 13,
+    "subject": "UNIX and Shell Programming",
+    "topic": "fork()",
+    "difficulty": "hard",
+    "question": "What value does `fork()` return to the parent process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "Child PID"
+      },
+      {
+        "key": "C",
+        "text": "-1 always"
+      },
+      {
+        "key": "D",
+        "text": "Parent PID"
+      }
+    ],
+    "answer": "B",
+    "reason": "The parent receives the PID of the newly created child."
+  },
+  {
+    "id": 14,
+    "subject": "UNIX and Shell Programming",
+    "topic": "fork()",
+    "difficulty": "hard",
+    "question": "What value does `fork()` return to the child process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "Parent PID"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "answer": "A",
+    "reason": "`fork()` returns 0 to the child process."
+  },
+  {
+    "id": 15,
+    "subject": "UNIX and Shell Programming",
+    "topic": "getpid()",
+    "difficulty": "easy",
+    "question": "What does `getpid()` return?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parent PID"
+      },
+      {
+        "key": "B",
+        "text": "Current Process PID"
+      },
+      {
+        "key": "C",
+        "text": "Session ID"
+      },
+      {
+        "key": "D",
+        "text": "User ID"
+      }
+    ],
+    "answer": "B",
+    "reason": "`getpid()` returns the PID of the calling process."
+  },
+  {
+    "id": 16,
+    "subject": "UNIX and Shell Programming",
+    "topic": "getppid()",
+    "difficulty": "easy",
+    "question": "What does `getppid()` return?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Current PID"
+      },
+      {
+        "key": "B",
+        "text": "Group ID"
+      },
+      {
+        "key": "C",
+        "text": "Parent PID"
+      },
+      {
+        "key": "D",
+        "text": "User ID"
+      }
+    ],
+    "answer": "C",
+    "reason": "`getppid()` returns the PID of the parent process."
+  },
+  {
+    "id": 17,
+    "subject": "UNIX and Shell Programming",
+    "topic": "wait()",
+    "difficulty": "medium",
+    "question": "Why is `wait()` used?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To terminate a process"
+      },
+      {
+        "key": "B",
+        "text": "To make a parent wait for a child process"
+      },
+      {
+        "key": "C",
+        "text": "To create a process"
+      },
+      {
+        "key": "D",
+        "text": "To change priority"
+      }
+    ],
+    "answer": "B",
+    "reason": "`wait()` suspends the parent until a child finishes execution."
+  },
+  {
+    "id": 18,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Zombie Process",
+    "difficulty": "medium",
+    "question": "What is a zombie process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A running process"
+      },
+      {
+        "key": "B",
+        "text": "A terminated process whose status has not been collected"
+      },
+      {
+        "key": "C",
+        "text": "A sleeping process"
+      },
+      {
+        "key": "D",
+        "text": "A kernel process"
+      }
+    ],
+    "answer": "B",
+    "reason": "A zombie process has completed execution but still occupies an entry in the process table."
+  },
+  {
+    "id": 19,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Zombie Process",
+    "difficulty": "hard",
+    "question": "Which system call helps prevent zombie processes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`fork()`"
+      },
+      {
+        "key": "B",
+        "text": "`wait()`"
+      },
+      {
+        "key": "C",
+        "text": "`exec()`"
+      },
+      {
+        "key": "D",
+        "text": "`sleep()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`wait()` collects child termination status and removes zombies."
+  },
+  {
+    "id": 20,
+    "subject": "UNIX and Shell Programming",
+    "topic": "pipe()",
+    "difficulty": "easy",
+    "question": "What is the purpose of `pipe()`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Delete files"
+      },
+      {
+        "key": "B",
+        "text": "Inter-process communication"
+      },
+      {
+        "key": "C",
+        "text": "Schedule processes"
+      },
+      {
+        "key": "D",
+        "text": "Allocate memory"
+      }
+    ],
+    "answer": "B",
+    "reason": "`pipe()` creates a communication channel between processes."
+  },
+  {
+    "id": 21,
+    "subject": "UNIX and Shell Programming",
+    "topic": "pipe()",
+    "difficulty": "medium",
+    "question": "A UNIX pipe generally supports communication between:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unrelated computers"
+      },
+      {
+        "key": "B",
+        "text": "Processes"
+      },
+      {
+        "key": "C",
+        "text": "Files only"
+      },
+      {
+        "key": "D",
+        "text": "Directories"
+      }
+    ],
+    "answer": "B",
+    "reason": "Pipes are commonly used for inter-process communication."
+  },
+  {
+    "id": 22,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Message Passing",
+    "difficulty": "medium",
+    "question": "Message queues are primarily used for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Memory allocation"
+      },
+      {
+        "key": "B",
+        "text": "Process scheduling"
+      },
+      {
+        "key": "C",
+        "text": "Inter-process communication"
+      },
+      {
+        "key": "D",
+        "text": "File compression"
+      }
+    ],
+    "answer": "C",
+    "reason": "Message queues allow processes to exchange messages."
+  },
+  {
+    "id": 23,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "easy",
+    "question": "Which state indicates that a process is currently executing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ready"
+      },
+      {
+        "key": "B",
+        "text": "Running"
+      },
+      {
+        "key": "C",
+        "text": "Zombie"
+      },
+      {
+        "key": "D",
+        "text": "Stopped"
+      }
+    ],
+    "answer": "B",
+    "reason": "The Running state means the CPU is executing the process."
+  },
+  {
+    "id": 24,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "easy",
+    "question": "A process waiting for CPU allocation is in which state?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ready"
+      },
+      {
+        "key": "B",
+        "text": "Running"
+      },
+      {
+        "key": "C",
+        "text": "Terminated"
+      },
+      {
+        "key": "D",
+        "text": "Zombie"
+      }
+    ],
+    "answer": "A",
+    "reason": "Ready processes are waiting to be scheduled."
+  },
+  {
+    "id": 25,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "medium",
+    "question": "Which state indicates a process is waiting for an event or I/O operation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Running"
+      },
+      {
+        "key": "B",
+        "text": "Ready"
+      },
+      {
+        "key": "C",
+        "text": "Blocked/Waiting"
+      },
+      {
+        "key": "D",
+        "text": "Zombie"
+      }
+    ],
+    "answer": "C",
+    "reason": "Blocked processes wait for resources or events."
+  },
+  {
+    "id": 26,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Scheduler",
+    "difficulty": "easy",
+    "question": "What is the primary function of the scheduler?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Manage files"
+      },
+      {
+        "key": "B",
+        "text": "Allocate CPU time to processes"
+      },
+      {
+        "key": "C",
+        "text": "Create directories"
+      },
+      {
+        "key": "D",
+        "text": "Compress files"
+      }
+    ],
+    "answer": "B",
+    "reason": "The scheduler decides which process gets CPU time."
+  },
+  {
+    "id": 27,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Scheduler",
+    "difficulty": "medium",
+    "question": "Which scheduling approach is commonly associated with UNIX systems?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Round Robin with priorities"
+      },
+      {
+        "key": "B",
+        "text": "FIFO only"
+      },
+      {
+        "key": "C",
+        "text": "SJF only"
+      },
+      {
+        "key": "D",
+        "text": "LIFO"
+      }
+    ],
+    "answer": "A",
+    "reason": "UNIX traditionally uses priority-based time-sharing scheduling."
+  },
+  {
+    "id": 28,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Swapped Memory",
+    "difficulty": "medium",
+    "question": "What is swapping in UNIX?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Renaming files"
+      },
+      {
+        "key": "B",
+        "text": "Moving processes between RAM and disk"
+      },
+      {
+        "key": "C",
+        "text": "Changing users"
+      },
+      {
+        "key": "D",
+        "text": "Deleting memory"
+      }
+    ],
+    "answer": "B",
+    "reason": "Swapping temporarily moves memory contents to disk."
+  },
+  {
+    "id": 29,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Swapped Memory",
+    "difficulty": "hard",
+    "question": "Why is swap space used?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase virtual memory"
+      },
+      {
+        "key": "B",
+        "text": "Store source code"
+      },
+      {
+        "key": "C",
+        "text": "Manage printers"
+      },
+      {
+        "key": "D",
+        "text": "Store logs only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Swap space extends available memory through virtual memory techniques."
+  },
+  {
+    "id": 30,
+    "subject": "UNIX and Shell Programming",
+    "topic": "vmstat",
+    "difficulty": "easy",
+    "question": "Which command reports virtual memory statistics?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ps"
+      },
+      {
+        "key": "B",
+        "text": "vmstat"
+      },
+      {
+        "key": "C",
+        "text": "ls"
+      },
+      {
+        "key": "D",
+        "text": "grep"
+      }
+    ],
+    "answer": "B",
+    "reason": "vmstat displays memory, process, and CPU statistics."
+  },
+  {
+    "id": 31,
+    "subject": "UNIX and Shell Programming",
+    "topic": "vmstat",
+    "difficulty": "medium",
+    "question": "The vmstat command provides information about:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Memory and CPU usage"
+      },
+      {
+        "key": "B",
+        "text": "File permissions only"
+      },
+      {
+        "key": "C",
+        "text": "Network configuration only"
+      },
+      {
+        "key": "D",
+        "text": "Printer settings"
+      }
+    ],
+    "answer": "A",
+    "reason": "vmstat reports memory, processes, paging, and CPU activity."
+  },
+  {
+    "id": 32,
+    "subject": "UNIX and Shell Programming",
+    "topic": "top Command",
+    "difficulty": "easy",
+    "question": "Which command provides a real-time view of system processes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cat"
+      },
+      {
+        "key": "B",
+        "text": "top"
+      },
+      {
+        "key": "C",
+        "text": "touch"
+      },
+      {
+        "key": "D",
+        "text": "pwd"
+      }
+    ],
+    "answer": "B",
+    "reason": "top continuously updates process and resource usage information."
+  },
+  {
+    "id": 33,
+    "subject": "UNIX and Shell Programming",
+    "topic": "top Command",
+    "difficulty": "medium",
+    "question": "The top command is primarily used to monitor:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disk formatting"
+      },
+      {
+        "key": "B",
+        "text": "System performance and processes"
+      },
+      {
+        "key": "C",
+        "text": "File ownership"
+      },
+      {
+        "key": "D",
+        "text": "Directory structures"
+      }
+    ],
+    "answer": "B",
+    "reason": "top shows CPU, memory, and process utilization."
+  },
+  {
+    "id": 34,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "easy",
+    "question": "What is the purpose of the nice command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Change process priority"
+      },
+      {
+        "key": "B",
+        "text": "Delete processes"
+      },
+      {
+        "key": "C",
+        "text": "Create files"
+      },
+      {
+        "key": "D",
+        "text": "Manage memory"
+      }
+    ],
+    "answer": "A",
+    "reason": "nice adjusts the scheduling priority of a process."
+  },
+  {
+    "id": 35,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "medium",
+    "question": "Higher nice values generally mean:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Higher priority"
+      },
+      {
+        "key": "B",
+        "text": "Lower priority"
+      },
+      {
+        "key": "C",
+        "text": "No priority change"
+      },
+      {
+        "key": "D",
+        "text": "Kernel mode"
+      }
+    ],
+    "answer": "B",
+    "reason": "A higher nice value reduces process priority."
+  },
+  {
+    "id": 36,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "hard",
+    "question": "Which command starts a process with a modified priority?",
+    "options": [
+      {
+        "key": "A",
+        "text": "nice command"
+      },
+      {
+        "key": "B",
+        "text": "`ls -l`"
+      },
+      {
+        "key": "C",
+        "text": "grep file"
+      },
+      {
+        "key": "D",
+        "text": "pwd"
+      }
+    ],
+    "answer": "A",
+    "reason": "The nice command launches a process with a specified nice value."
+  },
+  {
+    "id": 37,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process Hierarchy",
+    "difficulty": "medium",
+    "question": "Every UNIX process except init has a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Child process"
+      },
+      {
+        "key": "B",
+        "text": "Parent process"
+      },
+      {
+        "key": "C",
+        "text": "Zombie state"
+      },
+      {
+        "key": "D",
+        "text": "Kernel thread"
+      }
+    ],
+    "answer": "B",
+    "reason": "UNIX processes are organized in a parent-child hierarchy."
+  },
+  {
+    "id": 38,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "hard",
+    "question": "Which state occurs after a process finishes execution but before its entry is removed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ready"
+      },
+      {
+        "key": "B",
+        "text": "Running"
+      },
+      {
+        "key": "C",
+        "text": "Zombie"
+      },
+      {
+        "key": "D",
+        "text": "Sleeping"
+      }
+    ],
+    "answer": "C",
+    "reason": "A terminated process awaiting status collection becomes a zombie."
+  },
+  {
+    "id": 39,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inter Process Communication",
+    "difficulty": "hard",
+    "question": "Pipes and message queues are examples of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "File systems"
+      },
+      {
+        "key": "B",
+        "text": "Inter-process communication mechanisms"
+      },
+      {
+        "key": "C",
+        "text": "Process schedulers"
+      },
+      {
+        "key": "D",
+        "text": "Memory managers"
+      }
+    ],
+    "answer": "B",
+    "reason": "Both are IPC mechanisms used for communication between processes."
+  },
+  {
+    "id": 40,
+    "subject": "UNIX and Shell Programming",
+    "topic": "UNIX Process Management",
+    "difficulty": "hard",
+    "question": "Which combination is most directly related to process creation and management?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`fork()`, `wait()`, `getpid()`"
+      },
+      {
+        "key": "B",
+        "text": "grep, sort, uniq"
+      },
+      {
+        "key": "C",
+        "text": "chmod, chown, mkdir"
+      },
+      {
+        "key": "D",
+        "text": "tar, gzip, zip"
+      }
+    ],
+    "answer": "A",
+    "reason": "`fork()`, `wait()`, and `getpid()` are core process-management system calls in UNIX."
+  },
+  {
+    "id": 41,
+    "subject": "UNIX and Shell Programming",
+    "topic": "ps Command",
+    "difficulty": "medium",
+    "question": "Which ps option displays processes associated with all terminals?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-a"
+      },
+      {
+        "key": "B",
+        "text": "-f"
+      },
+      {
+        "key": "C",
+        "text": "-l"
+      },
+      {
+        "key": "D",
+        "text": "-p"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -a option displays processes associated with all terminals."
+  },
+  {
+    "id": 42,
+    "subject": "UNIX and Shell Programming",
+    "topic": "ps Command",
+    "difficulty": "hard",
+    "question": "Which ps option displays a long-format listing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-x"
+      },
+      {
+        "key": "B",
+        "text": "-l"
+      },
+      {
+        "key": "C",
+        "text": "-e"
+      },
+      {
+        "key": "D",
+        "text": "-t"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -l option displays detailed process information in long format."
+  },
+  {
+    "id": 43,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process IDs",
+    "difficulty": "easy",
+    "question": "Can two running processes have the same PID at the same time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes"
+      },
+      {
+        "key": "B",
+        "text": "No"
+      },
+      {
+        "key": "C",
+        "text": "Only system processes"
+      },
+      {
+        "key": "D",
+        "text": "Only child processes"
+      }
+    ],
+    "answer": "B",
+    "reason": "Each running process has a unique PID."
+  },
+  {
+    "id": 44,
+    "subject": "UNIX and Shell Programming",
+    "topic": "fork()",
+    "difficulty": "medium",
+    "question": "What does `fork()` return if process creation fails?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "Parent PID"
+      }
+    ],
+    "answer": "C",
+    "reason": "`fork()` `returns -1` when the operating system cannot create a new process."
+  },
+  {
+    "id": 45,
+    "subject": "UNIX and Shell Programming",
+    "topic": "fork()",
+    "difficulty": "hard",
+    "question": "After a successful `fork()`, how many processes exist?",
+    "options": [
+      {
+        "key": "A",
+        "text": "One"
+      },
+      {
+        "key": "B",
+        "text": "Two"
+      },
+      {
+        "key": "C",
+        "text": "Three"
+      },
+      {
+        "key": "D",
+        "text": "Four"
+      }
+    ],
+    "answer": "B",
+    "reason": "A successful `fork()` creates a child process, resulting in parent and child processes."
+  },
+  {
+    "id": 46,
+    "subject": "UNIX and Shell Programming",
+    "topic": "getpid()",
+    "difficulty": "medium",
+    "question": "Which system call is used to obtain the current process identifier?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`getpid()`"
+      },
+      {
+        "key": "B",
+        "text": "`getppid()`"
+      },
+      {
+        "key": "C",
+        "text": "`fork()`"
+      },
+      {
+        "key": "D",
+        "text": "`wait()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`getpid()` returns the PID of the calling process."
+  },
+  {
+    "id": 47,
+    "subject": "UNIX and Shell Programming",
+    "topic": "getppid()",
+    "difficulty": "medium",
+    "question": "Which function returns the parent's process ID?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`getpid()`"
+      },
+      {
+        "key": "B",
+        "text": "`wait()`"
+      },
+      {
+        "key": "C",
+        "text": "`getppid()`"
+      },
+      {
+        "key": "D",
+        "text": "`fork()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`getppid()` returns the process ID of the parent process."
+  },
+  {
+    "id": 48,
+    "subject": "UNIX and Shell Programming",
+    "topic": "wait()",
+    "difficulty": "medium",
+    "question": "What happens to a child process when `wait()` is called successfully by its parent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It becomes a zombie"
+      },
+      {
+        "key": "B",
+        "text": "Its exit status is collected"
+      },
+      {
+        "key": "C",
+        "text": "It is duplicated"
+      },
+      {
+        "key": "D",
+        "text": "It becomes init"
+      }
+    ],
+    "answer": "B",
+    "reason": "`wait()` collects the child's termination status and removes it from the process table."
+  },
+  {
+    "id": 49,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Zombie Process",
+    "difficulty": "easy",
+    "question": "Which process state is commonly represented by `Z` in process listings?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Running"
+      },
+      {
+        "key": "B",
+        "text": "Sleeping"
+      },
+      {
+        "key": "C",
+        "text": "Zombie"
+      },
+      {
+        "key": "D",
+        "text": "Stopped"
+      }
+    ],
+    "answer": "C",
+    "reason": "The process state code `Z` indicates a zombie process."
+  },
+  {
+    "id": 50,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Zombie Process",
+    "difficulty": "hard",
+    "question": "A zombie process consumes mainly:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPU time"
+      },
+      {
+        "key": "B",
+        "text": "Process table entry"
+      },
+      {
+        "key": "C",
+        "text": "Disk space"
+      },
+      {
+        "key": "D",
+        "text": "Network bandwidth"
+      }
+    ],
+    "answer": "B",
+    "reason": "A zombie occupies a process table entry until its status is collected."
+  },
+  {
+    "id": 51,
+    "subject": "UNIX and Shell Programming",
+    "topic": "pipe()",
+    "difficulty": "easy",
+    "question": "A pipe is generally represented by which symbol in the shell?",
+    "options": [
+      {
+        "key": "A",
+        "text": "&"
+      },
+      {
+        "key": "B",
+        "text": "|"
+      },
+      {
+        "key": "C",
+        "text": ">"
+      },
+      {
+        "key": "D",
+        "text": ";"
+      }
+    ],
+    "answer": "B",
+    "reason": "The pipe symbol `|` connects the output of one command to another."
+  },
+  {
+    "id": 52,
+    "subject": "UNIX and Shell Programming",
+    "topic": "pipe()",
+    "difficulty": "medium",
+    "question": "A pipe allows data flow from:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Child to parent only"
+      },
+      {
+        "key": "B",
+        "text": "One process to another"
+      },
+      {
+        "key": "C",
+        "text": "Disk to memory only"
+      },
+      {
+        "key": "D",
+        "text": "Kernel to hardware only"
+      }
+    ],
+    "answer": "B",
+    "reason": "Pipes are used for communication between processes."
+  },
+  {
+    "id": 53,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Message Queues",
+    "difficulty": "medium",
+    "question": "Message queues belong to which category?",
+    "options": [
+      {
+        "key": "A",
+        "text": "File systems"
+      },
+      {
+        "key": "B",
+        "text": "Inter-process communication"
+      },
+      {
+        "key": "C",
+        "text": "Scheduling algorithms"
+      },
+      {
+        "key": "D",
+        "text": "Memory allocators"
+      }
+    ],
+    "answer": "B",
+    "reason": "Message queues are IPC mechanisms used for process communication."
+  },
+  {
+    "id": 54,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "easy",
+    "question": "Which state indicates that a process is ready to execute but waiting for CPU allocation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ready"
+      },
+      {
+        "key": "B",
+        "text": "Running"
+      },
+      {
+        "key": "C",
+        "text": "Blocked"
+      },
+      {
+        "key": "D",
+        "text": "Zombie"
+      }
+    ],
+    "answer": "A",
+    "reason": "Ready processes are waiting for CPU scheduling."
+  },
+  {
+    "id": 55,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "medium",
+    "question": "Which state follows the Ready state when the scheduler selects a process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Blocked"
+      },
+      {
+        "key": "B",
+        "text": "Running"
+      },
+      {
+        "key": "C",
+        "text": "Zombie"
+      },
+      {
+        "key": "D",
+        "text": "Terminated"
+      }
+    ],
+    "answer": "B",
+    "reason": "A ready process enters the Running state when assigned the CPU."
+  },
+  {
+    "id": 56,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "hard",
+    "question": "A process waiting for disk I/O is usually in which state?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ready"
+      },
+      {
+        "key": "B",
+        "text": "Running"
+      },
+      {
+        "key": "C",
+        "text": "Blocked"
+      },
+      {
+        "key": "D",
+        "text": "Zombie"
+      }
+    ],
+    "answer": "C",
+    "reason": "Processes waiting for I/O are placed in a blocked or waiting state."
+  },
+  {
+    "id": 57,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Scheduler",
+    "difficulty": "medium",
+    "question": "The UNIX scheduler primarily decides:",
+    "options": [
+      {
+        "key": "A",
+        "text": "File permissions"
+      },
+      {
+        "key": "B",
+        "text": "Which process runs next"
+      },
+      {
+        "key": "C",
+        "text": "Directory ownership"
+      },
+      {
+        "key": "D",
+        "text": "Disk formatting"
+      }
+    ],
+    "answer": "B",
+    "reason": "The scheduler determines CPU allocation among processes."
+  },
+  {
+    "id": 58,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Scheduler",
+    "difficulty": "hard",
+    "question": "The scheduler is a component of the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Shell"
+      },
+      {
+        "key": "B",
+        "text": "Kernel"
+      },
+      {
+        "key": "C",
+        "text": "Compiler"
+      },
+      {
+        "key": "D",
+        "text": "Filesystem"
+      }
+    ],
+    "answer": "B",
+    "reason": "Process scheduling is performed by the UNIX kernel."
+  },
+  {
+    "id": 59,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Swapped Memory",
+    "difficulty": "easy",
+    "question": "What is swap space primarily used for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Backup storage"
+      },
+      {
+        "key": "B",
+        "text": "Extending available memory"
+      },
+      {
+        "key": "C",
+        "text": "Printer spooling"
+      },
+      {
+        "key": "D",
+        "text": "System logs"
+      }
+    ],
+    "answer": "B",
+    "reason": "Swap space acts as an extension of physical memory."
+  },
+  {
+    "id": 60,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Swapped Memory",
+    "difficulty": "medium",
+    "question": "Swapping moves memory contents between RAM and:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPU cache"
+      },
+      {
+        "key": "B",
+        "text": "Disk storage"
+      },
+      {
+        "key": "C",
+        "text": "Network storage only"
+      },
+      {
+        "key": "D",
+        "text": "ROM"
+      }
+    ],
+    "answer": "B",
+    "reason": "Swap space resides on disk storage."
+  },
+  {
+    "id": 61,
+    "subject": "UNIX and Shell Programming",
+    "topic": "vmstat",
+    "difficulty": "easy",
+    "question": "The vmstat command provides statistics about:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Virtual memory"
+      },
+      {
+        "key": "B",
+        "text": "Text editors"
+      },
+      {
+        "key": "C",
+        "text": "File permissions"
+      },
+      {
+        "key": "D",
+        "text": "Printers"
+      }
+    ],
+    "answer": "A",
+    "reason": "vmstat reports virtual memory and related system statistics."
+  },
+  {
+    "id": 62,
+    "subject": "UNIX and Shell Programming",
+    "topic": "vmstat",
+    "difficulty": "medium",
+    "question": "Besides memory information, vmstat can also report:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPU activity"
+      },
+      {
+        "key": "B",
+        "text": "Compiler warnings"
+      },
+      {
+        "key": "C",
+        "text": "Source code errors"
+      },
+      {
+        "key": "D",
+        "text": "Network passwords"
+      }
+    ],
+    "answer": "A",
+    "reason": "vmstat displays CPU, memory, and process statistics."
+  },
+  {
+    "id": 63,
+    "subject": "UNIX and Shell Programming",
+    "topic": "top Command",
+    "difficulty": "easy",
+    "question": "Which command continuously updates process information on the screen?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ps"
+      },
+      {
+        "key": "B",
+        "text": "top"
+      },
+      {
+        "key": "C",
+        "text": "pwd"
+      },
+      {
+        "key": "D",
+        "text": "cat"
+      }
+    ],
+    "answer": "B",
+    "reason": "top provides dynamic, real-time process monitoring."
+  },
+  {
+    "id": 64,
+    "subject": "UNIX and Shell Programming",
+    "topic": "top Command",
+    "difficulty": "medium",
+    "question": "Which resource usage can be monitored using top?",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPU"
+      },
+      {
+        "key": "B",
+        "text": "Memory"
+      },
+      {
+        "key": "C",
+        "text": "Processes"
+      },
+      {
+        "key": "D",
+        "text": "All of these"
+      }
+    ],
+    "answer": "D",
+    "reason": "top displays CPU, memory, and process-related information."
+  },
+  {
+    "id": 65,
+    "subject": "UNIX and Shell Programming",
+    "topic": "top Command",
+    "difficulty": "hard",
+    "question": "Which command is more suitable for real-time monitoring than ps?",
+    "options": [
+      {
+        "key": "A",
+        "text": "touch"
+      },
+      {
+        "key": "B",
+        "text": "top"
+      },
+      {
+        "key": "C",
+        "text": "mkdir"
+      },
+      {
+        "key": "D",
+        "text": "cat"
+      }
+    ],
+    "answer": "B",
+    "reason": "top continuously refreshes system statistics in real time."
+  },
+  {
+    "id": 66,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "easy",
+    "question": "The nice command affects a process's:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Memory size"
+      },
+      {
+        "key": "B",
+        "text": "Scheduling priority"
+      },
+      {
+        "key": "C",
+        "text": "Owner"
+      },
+      {
+        "key": "D",
+        "text": "PID"
+      }
+    ],
+    "answer": "B",
+    "reason": "nice changes the scheduling priority assigned to a process."
+  },
+  {
+    "id": 67,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "medium",
+    "question": "A lower nice value generally means:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower priority"
+      },
+      {
+        "key": "B",
+        "text": "Higher priority"
+      },
+      {
+        "key": "C",
+        "text": "No priority"
+      },
+      {
+        "key": "D",
+        "text": "Zombie state"
+      }
+    ],
+    "answer": "B",
+    "reason": "Lower nice values correspond to higher scheduling priority."
+  },
+  {
+    "id": 68,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "hard",
+    "question": "Which user is generally allowed to assign very high priorities using negative nice values?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Guest user"
+      },
+      {
+        "key": "B",
+        "text": "Normal user"
+      },
+      {
+        "key": "C",
+        "text": "Root/Superuser"
+      },
+      {
+        "key": "D",
+        "text": "Anonymous user"
+      }
+    ],
+    "answer": "C",
+    "reason": "Only privileged users can typically assign negative nice values."
+  },
+  {
+    "id": 69,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process Hierarchy",
+    "difficulty": "medium",
+    "question": "A child process is created by which process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parent process"
+      },
+      {
+        "key": "B",
+        "text": "Kernel only"
+      },
+      {
+        "key": "C",
+        "text": "Login process only"
+      },
+      {
+        "key": "D",
+        "text": "Scheduler"
+      }
+    ],
+    "answer": "A",
+    "reason": "A parent process creates child processes using `fork()`."
+  },
+  {
+    "id": 70,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process Hierarchy",
+    "difficulty": "hard",
+    "question": "If a parent process terminates before its child, the child is usually adopted by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Scheduler"
+      },
+      {
+        "key": "B",
+        "text": "Shell"
+      },
+      {
+        "key": "C",
+        "text": "init/system process"
+      },
+      {
+        "key": "D",
+        "text": "Compiler"
+      }
+    ],
+    "answer": "C",
+    "reason": "Orphan processes are typically adopted by init (PID 1) or its equivalent."
+  },
+  {
+    "id": 71,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Login Process",
+    "difficulty": "easy",
+    "question": "After successful authentication, the login process usually starts a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Shell"
+      },
+      {
+        "key": "B",
+        "text": "Compiler"
+      },
+      {
+        "key": "C",
+        "text": "Filesystem"
+      },
+      {
+        "key": "D",
+        "text": "Device driver"
+      }
+    ],
+    "answer": "A",
+    "reason": "The login process launches the user's shell session."
+  },
+  {
+    "id": 72,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inter Process Communication",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT an IPC mechanism?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pipe"
+      },
+      {
+        "key": "B",
+        "text": "Message Queue"
+      },
+      {
+        "key": "C",
+        "text": "Shared Memory"
+      },
+      {
+        "key": "D",
+        "text": "chmod"
+      }
+    ],
+    "answer": "D",
+    "reason": "chmod is used for changing file permissions, not IPC."
+  },
+  {
+    "id": 73,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Scheduler",
+    "difficulty": "medium",
+    "question": "The scheduler chooses a process from the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ready Queue"
+      },
+      {
+        "key": "B",
+        "text": "Directory List"
+      },
+      {
+        "key": "C",
+        "text": "Filesystem Table"
+      },
+      {
+        "key": "D",
+        "text": "User Database"
+      }
+    ],
+    "answer": "A",
+    "reason": "Ready processes wait in the ready queue for CPU allocation."
+  },
+  {
+    "id": 74,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "hard",
+    "question": "Which transition occurs when an I/O operation completes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Running → Zombie"
+      },
+      {
+        "key": "B",
+        "text": "Blocked → Ready"
+      },
+      {
+        "key": "C",
+        "text": "Ready → Zombie"
+      },
+      {
+        "key": "D",
+        "text": "Running → Terminated"
+      }
+    ],
+    "answer": "B",
+    "reason": "Once I/O completes, the blocked process becomes ready for execution."
+  },
+  {
+    "id": 75,
+    "subject": "UNIX and Shell Programming",
+    "topic": "vmstat",
+    "difficulty": "hard",
+    "question": "Which command is more focused on memory statistics than process listing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ps"
+      },
+      {
+        "key": "B",
+        "text": "vmstat"
+      },
+      {
+        "key": "C",
+        "text": "pwd"
+      },
+      {
+        "key": "D",
+        "text": "mkdir"
+      }
+    ],
+    "answer": "B",
+    "reason": "vmstat specializes in memory, paging, and CPU statistics."
+  },
+  {
+    "id": 76,
+    "subject": "UNIX and Shell Programming",
+    "topic": "top Command",
+    "difficulty": "medium",
+    "question": "Which command is commonly used to identify CPU-intensive processes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "top"
+      },
+      {
+        "key": "B",
+        "text": "touch"
+      },
+      {
+        "key": "C",
+        "text": "mkdir"
+      },
+      {
+        "key": "D",
+        "text": "chmod"
+      }
+    ],
+    "answer": "A",
+    "reason": "top sorts and displays processes by CPU usage in real time."
+  },
+  {
+    "id": 77,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "hard",
+    "question": "The primary goal of the nice command is to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Manage process execution priority"
+      },
+      {
+        "key": "B",
+        "text": "Create child processes"
+      },
+      {
+        "key": "C",
+        "text": "Monitor memory usage"
+      },
+      {
+        "key": "D",
+        "text": "Create pipes"
+      }
+    ],
+    "answer": "A",
+    "reason": "nice adjusts process priority and CPU scheduling behavior."
+  },
+  {
+    "id": 78,
+    "subject": "UNIX and Shell Programming",
+    "topic": "UNIX Processes",
+    "difficulty": "medium",
+    "question": "Which command combination is commonly used to monitor running processes and system load?",
+    "options": [
+      {
+        "key": "A",
+        "text": "top and vmstat"
+      },
+      {
+        "key": "B",
+        "text": "mkdir and rmdir"
+      },
+      {
+        "key": "C",
+        "text": "cp and mv"
+      },
+      {
+        "key": "D",
+        "text": "tar and gzip"
+      }
+    ],
+    "answer": "A",
+    "reason": "top and vmstat are commonly used for performance monitoring."
+  },
+  {
+    "id": 79,
+    "subject": "UNIX and Shell Programming",
+    "topic": "UNIX Processes",
+    "difficulty": "hard",
+    "question": "Which system call family is most directly related to process creation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`fork()`"
+      },
+      {
+        "key": "B",
+        "text": "`chmod()`"
+      },
+      {
+        "key": "C",
+        "text": "`mkdir()`"
+      },
+      {
+        "key": "D",
+        "text": "`unlink()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`fork()` is the primary UNIX system call for process creation."
+  },
+  {
+    "id": 80,
+    "subject": "UNIX and Shell Programming",
+    "topic": "UNIX Process Management",
+    "difficulty": "hard",
+    "question": "Which set consists entirely of process-related system calls?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`fork()`, `wait()`, `getpid()`"
+      },
+      {
+        "key": "B",
+        "text": "cp, mv, rm"
+      },
+      {
+        "key": "C",
+        "text": "grep, awk, sed"
+      },
+      {
+        "key": "D",
+        "text": "tar, gzip, zip"
+      }
+    ],
+    "answer": "A",
+    "reason": "`fork()`, `wait()`, and `getpid()` are all process-management system calls."
+  },
+  {
+    "id": 81,
+    "subject": "UNIX and Shell Programming",
+    "topic": "fork()",
+    "difficulty": "hard",
+    "question": "Which process executes first after a successful `fork()` call?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parent process only"
+      },
+      {
+        "key": "B",
+        "text": "Child process only"
+      },
+      {
+        "key": "C",
+        "text": "Depends on the scheduler"
+      },
+      {
+        "key": "D",
+        "text": "init process"
+      }
+    ],
+    "answer": "C",
+    "reason": "The scheduler determines whether the parent or child process runs first after `fork()`."
+  },
+  {
+    "id": 82,
+    "subject": "UNIX and Shell Programming",
+    "topic": "fork()",
+    "difficulty": "hard",
+    "question": "After `fork()`, the child process initially receives a copy of the parent's:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Process ID"
+      },
+      {
+        "key": "B",
+        "text": "Memory space and resources"
+      },
+      {
+        "key": "C",
+        "text": "Parent process only"
+      },
+      {
+        "key": "D",
+        "text": "Kernel source code"
+      }
+    ],
+    "answer": "B",
+    "reason": "The child process receives a copy of the parent's address space and resources."
+  },
+  {
+    "id": 83,
+    "subject": "UNIX and Shell Programming",
+    "topic": "wait()",
+    "difficulty": "medium",
+    "question": "Which process usually calls `wait()`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parent process"
+      },
+      {
+        "key": "B",
+        "text": "Child process"
+      },
+      {
+        "key": "C",
+        "text": "Zombie process"
+      },
+      {
+        "key": "D",
+        "text": "Kernel thread"
+      }
+    ],
+    "answer": "A",
+    "reason": "The parent process calls `wait()` to collect the exit status of its child."
+  },
+  {
+    "id": 84,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "medium",
+    "question": "Which state is commonly represented by `R` in process listings?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ready"
+      },
+      {
+        "key": "B",
+        "text": "Running"
+      },
+      {
+        "key": "C",
+        "text": "Removed"
+      },
+      {
+        "key": "D",
+        "text": "Restarted"
+      }
+    ],
+    "answer": "B",
+    "reason": "The state code `R` typically indicates a running or runnable process."
+  },
+  {
+    "id": 85,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "medium",
+    "question": "Which state is commonly represented by `S` in UNIX process listings?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sleeping"
+      },
+      {
+        "key": "B",
+        "text": "Stopped"
+      },
+      {
+        "key": "C",
+        "text": "Swapped"
+      },
+      {
+        "key": "D",
+        "text": "Scheduled"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `S` state usually indicates an interruptible sleeping process."
+  },
+  {
+    "id": 86,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Process States",
+    "difficulty": "hard",
+    "question": "Which state is commonly represented by `T` in process listings?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Terminated"
+      },
+      {
+        "key": "B",
+        "text": "Timed"
+      },
+      {
+        "key": "C",
+        "text": "Stopped/Traced"
+      },
+      {
+        "key": "D",
+        "text": "Transferred"
+      }
+    ],
+    "answer": "C",
+    "reason": "The `T` state indicates a process that has been stopped or is being traced."
+  },
+  {
+    "id": 87,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Scheduler",
+    "difficulty": "easy",
+    "question": "What resource does the scheduler allocate to processes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disk blocks"
+      },
+      {
+        "key": "B",
+        "text": "CPU time"
+      },
+      {
+        "key": "C",
+        "text": "Network addresses"
+      },
+      {
+        "key": "D",
+        "text": "User accounts"
+      }
+    ],
+    "answer": "B",
+    "reason": "The scheduler determines which process gets CPU execution time."
+  },
+  {
+    "id": 88,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Scheduler",
+    "difficulty": "medium",
+    "question": "Which queue contains processes waiting for CPU allocation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ready Queue"
+      },
+      {
+        "key": "B",
+        "text": "Print Queue"
+      },
+      {
+        "key": "C",
+        "text": "Swap Queue"
+      },
+      {
+        "key": "D",
+        "text": "Login Queue"
+      }
+    ],
+    "answer": "A",
+    "reason": "Processes in the Ready Queue are waiting to be scheduled on the CPU."
+  },
+  {
+    "id": 89,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Swapped Memory",
+    "difficulty": "medium",
+    "question": "What happens when physical memory becomes insufficient?",
+    "options": [
+      {
+        "key": "A",
+        "text": "System shuts down immediately"
+      },
+      {
+        "key": "B",
+        "text": "Processes may be swapped to disk"
+      },
+      {
+        "key": "C",
+        "text": "All processes terminate"
+      },
+      {
+        "key": "D",
+        "text": "CPU speed decreases"
+      }
+    ],
+    "answer": "B",
+    "reason": "UNIX may move memory pages or processes to swap space when RAM is limited."
+  },
+  {
+    "id": 90,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Swapped Memory",
+    "difficulty": "hard",
+    "question": "Swap space is usually located on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CPU cache"
+      },
+      {
+        "key": "B",
+        "text": "Main memory"
+      },
+      {
+        "key": "C",
+        "text": "Secondary storage device"
+      },
+      {
+        "key": "D",
+        "text": "Network interface"
+      }
+    ],
+    "answer": "C",
+    "reason": "Swap space is typically allocated on a hard disk or SSD."
+  },
+  {
+    "id": 91,
+    "subject": "UNIX and Shell Programming",
+    "topic": "vmstat",
+    "difficulty": "medium",
+    "question": "Which command is useful for viewing paging and swapping statistics?",
+    "options": [
+      {
+        "key": "A",
+        "text": "vmstat"
+      },
+      {
+        "key": "B",
+        "text": "mkdir"
+      },
+      {
+        "key": "C",
+        "text": "chmod"
+      },
+      {
+        "key": "D",
+        "text": "echo"
+      }
+    ],
+    "answer": "A",
+    "reason": "vmstat reports virtual memory, paging, swapping, and CPU statistics."
+  },
+  {
+    "id": 92,
+    "subject": "UNIX and Shell Programming",
+    "topic": "vmstat",
+    "difficulty": "hard",
+    "question": "Which command provides a snapshot of system performance without continuous updates?",
+    "options": [
+      {
+        "key": "A",
+        "text": "top"
+      },
+      {
+        "key": "B",
+        "text": "vmstat"
+      },
+      {
+        "key": "C",
+        "text": "watch"
+      },
+      {
+        "key": "D",
+        "text": "`tail -f`"
+      }
+    ],
+    "answer": "B",
+    "reason": "vmstat typically provides statistical snapshots, while top continuously updates."
+  },
+  {
+    "id": 93,
+    "subject": "UNIX and Shell Programming",
+    "topic": "top Command",
+    "difficulty": "easy",
+    "question": "Which command displays processes sorted by resource consumption in real time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ps"
+      },
+      {
+        "key": "B",
+        "text": "top"
+      },
+      {
+        "key": "C",
+        "text": "ls"
+      },
+      {
+        "key": "D",
+        "text": "find"
+      }
+    ],
+    "answer": "B",
+    "reason": "top dynamically displays processes and their resource usage."
+  },
+  {
+    "id": 94,
+    "subject": "UNIX and Shell Programming",
+    "topic": "top Command",
+    "difficulty": "medium",
+    "question": "Which command is commonly used to identify memory-hungry processes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "top"
+      },
+      {
+        "key": "B",
+        "text": "touch"
+      },
+      {
+        "key": "C",
+        "text": "grep"
+      },
+      {
+        "key": "D",
+        "text": "wc"
+      }
+    ],
+    "answer": "A",
+    "reason": "top displays memory utilization for running processes."
+  },
+  {
+    "id": 95,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "easy",
+    "question": "What is the default nice value for a normal process on most UNIX systems?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "-20"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "answer": "A",
+    "reason": "A normal process typically starts with a nice value of 0."
+  },
+  {
+    "id": 96,
+    "subject": "UNIX and Shell Programming",
+    "topic": "nice Command",
+    "difficulty": "medium",
+    "question": "Which nice value generally corresponds to the lowest priority?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-20"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "19"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "answer": "C",
+    "reason": "A nice value of 19 is typically the lowest priority available to user processes."
+  },
+  {
+    "id": 97,
+    "subject": "UNIX and Shell Programming",
+    "topic": "init Process",
+    "difficulty": "medium",
+    "question": "Why is the init process considered special in UNIX?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It has the highest PID"
+      },
+      {
+        "key": "B",
+        "text": "It is the first user-space process started by the kernel"
+      },
+      {
+        "key": "C",
+        "text": "It owns all files"
+      },
+      {
+        "key": "D",
+        "text": "It schedules all processes directly"
+      }
+    ],
+    "answer": "B",
+    "reason": "init is the first user-space process created during system startup."
+  },
+  {
+    "id": 98,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Login Process",
+    "difficulty": "medium",
+    "question": "What is typically started after a successful login?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A user shell"
+      },
+      {
+        "key": "B",
+        "text": "A compiler"
+      },
+      {
+        "key": "C",
+        "text": "A scheduler"
+      },
+      {
+        "key": "D",
+        "text": "A swap daemon"
+      }
+    ],
+    "answer": "A",
+    "reason": "After authentication, the login process usually launches a shell for the user."
+  },
+  {
+    "id": 99,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inter Process Communication",
+    "difficulty": "hard",
+    "question": "Which of the following is an advantage of message queues over simple pipes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Messages can be managed as discrete units"
+      },
+      {
+        "key": "B",
+        "text": "They require no kernel support"
+      },
+      {
+        "key": "C",
+        "text": "They cannot block processes"
+      },
+      {
+        "key": "D",
+        "text": "They eliminate process scheduling"
+      }
+    ],
+    "answer": "A",
+    "reason": "Message queues preserve message boundaries, unlike byte-stream pipes."
+  },
+  {
+    "id": 100,
+    "subject": "UNIX and Shell Programming",
+    "topic": "UNIX Process Management",
+    "difficulty": "hard",
+    "question": "Which combination of commands is most useful for monitoring process activity and system performance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "top and vmstat"
+      },
+      {
+        "key": "B",
+        "text": "cp and mv"
+      },
+      {
+        "key": "C",
+        "text": "grep and awk"
+      },
+      {
+        "key": "D",
+        "text": "tar and gzip"
+      }
+    ],
+    "answer": "A",
+    "reason": "top provides real-time process monitoring, while vmstat provides system performance statistics."
+  }
 ]

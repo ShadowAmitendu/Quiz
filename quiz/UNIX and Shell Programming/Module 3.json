@@ -6,10 +6,22 @@
     "difficulty": "easy",
     "question": "Which UNIX command is used to select specific columns from a file?",
     "options": [
-      { "key": "A", "text": "grep" },
-      { "key": "B", "text": "cut" },
-      { "key": "C", "text": "paste" },
-      { "key": "D", "text": "join" }
+      {
+        "key": "A",
+        "text": "grep"
+      },
+      {
+        "key": "B",
+        "text": "cut"
+      },
+      {
+        "key": "C",
+        "text": "paste"
+      },
+      {
+        "key": "D",
+        "text": "join"
+      }
     ],
     "answer": "B",
     "reason": "The cut command extracts selected columns or fields from a file."
@@ -21,10 +33,22 @@
     "difficulty": "medium",
     "question": "Which option of cut is used to select character positions?",
     "options": [
-      { "key": "A", "text": "-f" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-s" }
+      {
+        "key": "A",
+        "text": "-f"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-s"
+      }
     ],
     "answer": "C",
     "reason": "The -c option extracts characters from specified positions."
@@ -36,10 +60,22 @@
     "difficulty": "medium",
     "question": "Which option of cut is used to select fields?",
     "options": [
-      { "key": "A", "text": "-f" },
-      { "key": "B", "text": "-c" },
-      { "key": "C", "text": "-n" },
-      { "key": "D", "text": "-r" }
+      {
+        "key": "A",
+        "text": "-f"
+      },
+      {
+        "key": "B",
+        "text": "-c"
+      },
+      {
+        "key": "C",
+        "text": "-n"
+      },
+      {
+        "key": "D",
+        "text": "-r"
+      }
     ],
     "answer": "A",
     "reason": "The -f option extracts specified fields from a delimited file."
@@ -51,10 +87,22 @@
     "difficulty": "medium",
     "question": "Which option specifies a custom delimiter in the cut command?",
     "options": [
-      { "key": "A", "text": "-f" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-t" }
+      {
+        "key": "A",
+        "text": "-f"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-t"
+      }
     ],
     "answer": "B",
     "reason": "The -d option defines the field delimiter."
@@ -64,12 +112,24 @@
     "subject": "UNIX and Shell Programming",
     "topic": "cut Command",
     "difficulty": "hard",
-    "question": "What does 'cut -c 1-5 file.txt' do?",
+    "question": "What does ``cut -c` 1-5 file.txt` do?",
     "options": [
-      { "key": "A", "text": "Displays fields 1 to 5" },
-      { "key": "B", "text": "Displays characters 1 to 5 from each line" },
-      { "key": "C", "text": "Displays lines 1 to 5" },
-      { "key": "D", "text": "Displays words 1 to 5" }
+      {
+        "key": "A",
+        "text": "Displays fields 1 to 5"
+      },
+      {
+        "key": "B",
+        "text": "Displays characters 1 to 5 from each line"
+      },
+      {
+        "key": "C",
+        "text": "Displays lines 1 to 5"
+      },
+      {
+        "key": "D",
+        "text": "Displays words 1 to 5"
+      }
     ],
     "answer": "B",
     "reason": "The -c option extracts character positions from each line."
@@ -81,10 +141,22 @@
     "difficulty": "easy",
     "question": "Which command merges files horizontally line by line?",
     "options": [
-      { "key": "A", "text": "join" },
-      { "key": "B", "text": "paste" },
-      { "key": "C", "text": "cut" },
-      { "key": "D", "text": "sort" }
+      {
+        "key": "A",
+        "text": "join"
+      },
+      {
+        "key": "B",
+        "text": "paste"
+      },
+      {
+        "key": "C",
+        "text": "cut"
+      },
+      {
+        "key": "D",
+        "text": "sort"
+      }
     ],
     "answer": "B",
     "reason": "The paste command merges corresponding lines from files horizontally."
@@ -96,10 +168,22 @@
     "difficulty": "medium",
     "question": "Which option of paste merges all lines serially rather than in parallel?",
     "options": [
-      { "key": "A", "text": "-s" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-p" },
-      { "key": "D", "text": "-m" }
+      {
+        "key": "A",
+        "text": "-s"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-p"
+      },
+      {
+        "key": "D",
+        "text": "-m"
+      }
     ],
     "answer": "A",
     "reason": "The -s option performs serial merging of lines."
@@ -111,10 +195,22 @@
     "difficulty": "medium",
     "question": "Which option specifies delimiters for the paste command?",
     "options": [
-      { "key": "A", "text": "-c" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-f" },
-      { "key": "D", "text": "-n" }
+      {
+        "key": "A",
+        "text": "-c"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-f"
+      },
+      {
+        "key": "D",
+        "text": "-n"
+      }
     ],
     "answer": "B",
     "reason": "The -d option specifies custom delimiters between merged columns."
@@ -126,10 +222,22 @@
     "difficulty": "easy",
     "question": "Which command splits a large file into smaller files?",
     "options": [
-      { "key": "A", "text": "break" },
-      { "key": "B", "text": "split" },
-      { "key": "C", "text": "cut" },
-      { "key": "D", "text": "divide" }
+      {
+        "key": "A",
+        "text": "break"
+      },
+      {
+        "key": "B",
+        "text": "split"
+      },
+      {
+        "key": "C",
+        "text": "cut"
+      },
+      {
+        "key": "D",
+        "text": "divide"
+      }
     ],
     "answer": "B",
     "reason": "The split command divides large files into smaller pieces."
@@ -141,10 +249,22 @@
     "difficulty": "medium",
     "question": "Which option of split specifies the number of lines per output file?",
     "options": [
-      { "key": "A", "text": "-l" },
-      { "key": "B", "text": "-c" },
-      { "key": "C", "text": "-n" },
-      { "key": "D", "text": "-f" }
+      {
+        "key": "A",
+        "text": "-l"
+      },
+      {
+        "key": "B",
+        "text": "-c"
+      },
+      {
+        "key": "C",
+        "text": "-n"
+      },
+      {
+        "key": "D",
+        "text": "-f"
+      }
     ],
     "answer": "A",
     "reason": "The -l option controls the number of lines in each split file."
@@ -156,10 +276,22 @@
     "difficulty": "hard",
     "question": "Which option of split divides a file based on size in bytes?",
     "options": [
-      { "key": "A", "text": "-s" },
-      { "key": "B", "text": "-b" },
-      { "key": "C", "text": "-z" },
-      { "key": "D", "text": "-m" }
+      {
+        "key": "A",
+        "text": "-s"
+      },
+      {
+        "key": "B",
+        "text": "-b"
+      },
+      {
+        "key": "C",
+        "text": "-z"
+      },
+      {
+        "key": "D",
+        "text": "-m"
+      }
     ],
     "answer": "B",
     "reason": "The -b option splits files according to byte size."
@@ -171,10 +303,22 @@
     "difficulty": "easy",
     "question": "Which command counts lines, words, and characters in a file?",
     "options": [
-      { "key": "A", "text": "count" },
-      { "key": "B", "text": "wc" },
-      { "key": "C", "text": "stat" },
-      { "key": "D", "text": "grep" }
+      {
+        "key": "A",
+        "text": "count"
+      },
+      {
+        "key": "B",
+        "text": "wc"
+      },
+      {
+        "key": "C",
+        "text": "stat"
+      },
+      {
+        "key": "D",
+        "text": "grep"
+      }
     ],
     "answer": "B",
     "reason": "The wc command provides counts of lines, words, and characters."
@@ -186,10 +330,22 @@
     "difficulty": "easy",
     "question": "Which option of wc counts only the number of lines?",
     "options": [
-      { "key": "A", "text": "-w" },
-      { "key": "B", "text": "-c" },
-      { "key": "C", "text": "-l" },
-      { "key": "D", "text": "-m" }
+      {
+        "key": "A",
+        "text": "-w"
+      },
+      {
+        "key": "B",
+        "text": "-c"
+      },
+      {
+        "key": "C",
+        "text": "-l"
+      },
+      {
+        "key": "D",
+        "text": "-m"
+      }
     ],
     "answer": "C",
     "reason": "The -l option counts lines only."
@@ -201,10 +357,22 @@
     "difficulty": "easy",
     "question": "Which option of wc counts words only?",
     "options": [
-      { "key": "A", "text": "-w" },
-      { "key": "B", "text": "-l" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-m" }
+      {
+        "key": "A",
+        "text": "-w"
+      },
+      {
+        "key": "B",
+        "text": "-l"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-m"
+      }
     ],
     "answer": "A",
     "reason": "The -w option counts words in a file."
@@ -216,10 +384,22 @@
     "difficulty": "medium",
     "question": "Which option of wc counts bytes?",
     "options": [
-      { "key": "A", "text": "-w" },
-      { "key": "B", "text": "-c" },
-      { "key": "C", "text": "-l" },
-      { "key": "D", "text": "-n" }
+      {
+        "key": "A",
+        "text": "-w"
+      },
+      {
+        "key": "B",
+        "text": "-c"
+      },
+      {
+        "key": "C",
+        "text": "-l"
+      },
+      {
+        "key": "D",
+        "text": "-n"
+      }
     ],
     "answer": "B",
     "reason": "The -c option displays the byte count."
@@ -231,10 +411,22 @@
     "difficulty": "easy",
     "question": "Which command sorts lines of text alphabetically?",
     "options": [
-      { "key": "A", "text": "uniq" },
-      { "key": "B", "text": "join" },
-      { "key": "C", "text": "sort" },
-      { "key": "D", "text": "cmp" }
+      {
+        "key": "A",
+        "text": "uniq"
+      },
+      {
+        "key": "B",
+        "text": "join"
+      },
+      {
+        "key": "C",
+        "text": "sort"
+      },
+      {
+        "key": "D",
+        "text": "cmp"
+      }
     ],
     "answer": "C",
     "reason": "The sort command arranges text lines in order."
@@ -246,10 +438,22 @@
     "difficulty": "medium",
     "question": "Which option performs numerical sorting?",
     "options": [
-      { "key": "A", "text": "-n" },
-      { "key": "B", "text": "-r" },
-      { "key": "C", "text": "-k" },
-      { "key": "D", "text": "-u" }
+      {
+        "key": "A",
+        "text": "-n"
+      },
+      {
+        "key": "B",
+        "text": "-r"
+      },
+      {
+        "key": "C",
+        "text": "-k"
+      },
+      {
+        "key": "D",
+        "text": "-u"
+      }
     ],
     "answer": "A",
     "reason": "The -n option sorts according to numeric value."
@@ -261,10 +465,22 @@
     "difficulty": "medium",
     "question": "Which option reverses the sorting order?",
     "options": [
-      { "key": "A", "text": "-n" },
-      { "key": "B", "text": "-r" },
-      { "key": "C", "text": "-k" },
-      { "key": "D", "text": "-c" }
+      {
+        "key": "A",
+        "text": "-n"
+      },
+      {
+        "key": "B",
+        "text": "-r"
+      },
+      {
+        "key": "C",
+        "text": "-k"
+      },
+      {
+        "key": "D",
+        "text": "-c"
+      }
     ],
     "answer": "B",
     "reason": "The -r option sorts in reverse order."
@@ -276,10 +492,22 @@
     "difficulty": "hard",
     "question": "Which option sorts according to a specified field or column?",
     "options": [
-      { "key": "A", "text": "-k" },
-      { "key": "B", "text": "-n" },
-      { "key": "C", "text": "-r" },
-      { "key": "D", "text": "-f" }
+      {
+        "key": "A",
+        "text": "-k"
+      },
+      {
+        "key": "B",
+        "text": "-n"
+      },
+      {
+        "key": "C",
+        "text": "-r"
+      },
+      {
+        "key": "D",
+        "text": "-f"
+      }
     ],
     "answer": "A",
     "reason": "The -k option specifies the sort key or column."
@@ -291,10 +519,22 @@
     "difficulty": "easy",
     "question": "Which command compares two files character by character?",
     "options": [
-      { "key": "A", "text": "diff" },
-      { "key": "B", "text": "cmp" },
-      { "key": "C", "text": "comm" },
-      { "key": "D", "text": "join" }
+      {
+        "key": "A",
+        "text": "diff"
+      },
+      {
+        "key": "B",
+        "text": "cmp"
+      },
+      {
+        "key": "C",
+        "text": "comm"
+      },
+      {
+        "key": "D",
+        "text": "join"
+      }
     ],
     "answer": "B",
     "reason": "cmp compares files byte by byte and reports the first difference."
@@ -306,10 +546,22 @@
     "difficulty": "medium",
     "question": "What does cmp report when files are identical?",
     "options": [
-      { "key": "A", "text": "Files differ" },
-      { "key": "B", "text": "No output" },
-      { "key": "C", "text": "Error" },
-      { "key": "D", "text": "Match found" }
+      {
+        "key": "A",
+        "text": "Files differ"
+      },
+      {
+        "key": "B",
+        "text": "No output"
+      },
+      {
+        "key": "C",
+        "text": "Error"
+      },
+      {
+        "key": "D",
+        "text": "Match found"
+      }
     ],
     "answer": "B",
     "reason": "cmp typically produces no output when files are identical."
@@ -321,10 +573,22 @@
     "difficulty": "easy",
     "question": "Which command compares two files line by line?",
     "options": [
-      { "key": "A", "text": "cmp" },
-      { "key": "B", "text": "diff" },
-      { "key": "C", "text": "comm" },
-      { "key": "D", "text": "uniq" }
+      {
+        "key": "A",
+        "text": "cmp"
+      },
+      {
+        "key": "B",
+        "text": "diff"
+      },
+      {
+        "key": "C",
+        "text": "comm"
+      },
+      {
+        "key": "D",
+        "text": "uniq"
+      }
     ],
     "answer": "B",
     "reason": "The diff command displays line-by-line differences."
@@ -336,10 +600,22 @@
     "difficulty": "medium",
     "question": "Which command is most useful for finding changed lines between source code versions?",
     "options": [
-      { "key": "A", "text": "cmp" },
-      { "key": "B", "text": "wc" },
-      { "key": "C", "text": "diff" },
-      { "key": "D", "text": "cut" }
+      {
+        "key": "A",
+        "text": "cmp"
+      },
+      {
+        "key": "B",
+        "text": "wc"
+      },
+      {
+        "key": "C",
+        "text": "diff"
+      },
+      {
+        "key": "D",
+        "text": "cut"
+      }
     ],
     "answer": "C",
     "reason": "diff highlights additions, deletions, and modifications between files."
@@ -351,10 +627,22 @@
     "difficulty": "easy",
     "question": "Which command compares two sorted files?",
     "options": [
-      { "key": "A", "text": "cmp" },
-      { "key": "B", "text": "diff" },
-      { "key": "C", "text": "comm" },
-      { "key": "D", "text": "uniq" }
+      {
+        "key": "A",
+        "text": "cmp"
+      },
+      {
+        "key": "B",
+        "text": "diff"
+      },
+      {
+        "key": "C",
+        "text": "comm"
+      },
+      {
+        "key": "D",
+        "text": "uniq"
+      }
     ],
     "answer": "C",
     "reason": "comm compares sorted files and displays unique and common lines."
@@ -366,10 +654,22 @@
     "difficulty": "medium",
     "question": "The comm command requires input files to be:",
     "options": [
-      { "key": "A", "text": "Encrypted" },
-      { "key": "B", "text": "Compressed" },
-      { "key": "C", "text": "Sorted" },
-      { "key": "D", "text": "Executable" }
+      {
+        "key": "A",
+        "text": "Encrypted"
+      },
+      {
+        "key": "B",
+        "text": "Compressed"
+      },
+      {
+        "key": "C",
+        "text": "Sorted"
+      },
+      {
+        "key": "D",
+        "text": "Executable"
+      }
     ],
     "answer": "C",
     "reason": "comm works correctly only when both files are sorted."
@@ -381,10 +681,22 @@
     "difficulty": "easy",
     "question": "Which command joins lines from two files based on a common field?",
     "options": [
-      { "key": "A", "text": "paste" },
-      { "key": "B", "text": "join" },
-      { "key": "C", "text": "merge" },
-      { "key": "D", "text": "combine" }
+      {
+        "key": "A",
+        "text": "paste"
+      },
+      {
+        "key": "B",
+        "text": "join"
+      },
+      {
+        "key": "C",
+        "text": "merge"
+      },
+      {
+        "key": "D",
+        "text": "combine"
+      }
     ],
     "answer": "B",
     "reason": "The join command combines lines using a common field."
@@ -396,10 +708,22 @@
     "difficulty": "medium",
     "question": "For the join command to work properly, input files should generally be:",
     "options": [
-      { "key": "A", "text": "Sorted on the join field" },
-      { "key": "B", "text": "Encrypted" },
-      { "key": "C", "text": "Compressed" },
-      { "key": "D", "text": "Executable" }
+      {
+        "key": "A",
+        "text": "Sorted on the join field"
+      },
+      {
+        "key": "B",
+        "text": "Encrypted"
+      },
+      {
+        "key": "C",
+        "text": "Compressed"
+      },
+      {
+        "key": "D",
+        "text": "Executable"
+      }
     ],
     "answer": "A",
     "reason": "join expects files sorted on the joining field."
@@ -411,10 +735,22 @@
     "difficulty": "easy",
     "question": "Which command removes adjacent duplicate lines from a file?",
     "options": [
-      { "key": "A", "text": "sort" },
-      { "key": "B", "text": "uniq" },
-      { "key": "C", "text": "comm" },
-      { "key": "D", "text": "cmp" }
+      {
+        "key": "A",
+        "text": "sort"
+      },
+      {
+        "key": "B",
+        "text": "uniq"
+      },
+      {
+        "key": "C",
+        "text": "comm"
+      },
+      {
+        "key": "D",
+        "text": "cmp"
+      }
     ],
     "answer": "B",
     "reason": "uniq filters repeated adjacent lines."
@@ -426,10 +762,22 @@
     "difficulty": "medium",
     "question": "Which command is commonly used before uniq to remove all duplicates effectively?",
     "options": [
-      { "key": "A", "text": "grep" },
-      { "key": "B", "text": "sort" },
-      { "key": "C", "text": "wc" },
-      { "key": "D", "text": "cut" }
+      {
+        "key": "A",
+        "text": "grep"
+      },
+      {
+        "key": "B",
+        "text": "sort"
+      },
+      {
+        "key": "C",
+        "text": "wc"
+      },
+      {
+        "key": "D",
+        "text": "cut"
+      }
     ],
     "answer": "B",
     "reason": "Sorting groups duplicate lines together, allowing uniq to remove them."
@@ -441,10 +789,22 @@
     "difficulty": "hard",
     "question": "Which option of uniq displays only duplicate lines?",
     "options": [
-      { "key": "A", "text": "-u" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-f" }
+      {
+        "key": "A",
+        "text": "-u"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-f"
+      }
     ],
     "answer": "B",
     "reason": "The -d option prints only duplicate occurrences."
@@ -456,10 +816,22 @@
     "difficulty": "easy",
     "question": "Which command is known as the transformation command in UNIX?",
     "options": [
-      { "key": "A", "text": "cut" },
-      { "key": "B", "text": "tr" },
-      { "key": "C", "text": "tee" },
-      { "key": "D", "text": "join" }
+      {
+        "key": "A",
+        "text": "cut"
+      },
+      {
+        "key": "B",
+        "text": "tr"
+      },
+      {
+        "key": "C",
+        "text": "tee"
+      },
+      {
+        "key": "D",
+        "text": "join"
+      }
     ],
     "answer": "B",
     "reason": "The tr command translates or transforms characters from standard input."
@@ -469,12 +841,24 @@
     "subject": "UNIX and Shell Programming",
     "topic": "tr Command",
     "difficulty": "medium",
-    "question": "What does the command 'tr a-z A-Z' do?",
+    "question": "What does the command `tr a-z A-Z` do?",
     "options": [
-      { "key": "A", "text": "Converts uppercase to lowercase" },
-      { "key": "B", "text": "Deletes lowercase letters" },
-      { "key": "C", "text": "Converts lowercase letters to uppercase" },
-      { "key": "D", "text": "Sorts letters" }
+      {
+        "key": "A",
+        "text": "Converts uppercase to lowercase"
+      },
+      {
+        "key": "B",
+        "text": "Deletes lowercase letters"
+      },
+      {
+        "key": "C",
+        "text": "Converts lowercase letters to uppercase"
+      },
+      {
+        "key": "D",
+        "text": "Sorts letters"
+      }
     ],
     "answer": "C",
     "reason": "tr maps lowercase characters to their uppercase equivalents."
@@ -486,10 +870,22 @@
     "difficulty": "medium",
     "question": "Which option of tr deletes specified characters?",
     "options": [
-      { "key": "A", "text": "-d" },
-      { "key": "B", "text": "-c" },
-      { "key": "C", "text": "-s" },
-      { "key": "D", "text": "-n" }
+      {
+        "key": "A",
+        "text": "-d"
+      },
+      {
+        "key": "B",
+        "text": "-c"
+      },
+      {
+        "key": "C",
+        "text": "-s"
+      },
+      {
+        "key": "D",
+        "text": "-n"
+      }
     ],
     "answer": "A",
     "reason": "The -d option removes specified characters from the input."
@@ -501,10 +897,22 @@
     "difficulty": "hard",
     "question": "Which option of tr replaces repeated occurrences of characters with a single occurrence?",
     "options": [
-      { "key": "A", "text": "-d" },
-      { "key": "B", "text": "-s" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-u" }
+      {
+        "key": "A",
+        "text": "-d"
+      },
+      {
+        "key": "B",
+        "text": "-s"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-u"
+      }
     ],
     "answer": "B",
     "reason": "The -s option squeezes repeated characters into one occurrence."
@@ -516,10 +924,22 @@
     "difficulty": "hard",
     "question": "Which pipeline removes duplicate lines and displays them in sorted order?",
     "options": [
-      { "key": "A", "text": "uniq file.txt" },
-      { "key": "B", "text": "sort file.txt | uniq" },
-      { "key": "C", "text": "wc file.txt | uniq" },
-      { "key": "D", "text": "cmp file.txt | uniq" }
+      {
+        "key": "A",
+        "text": "uniq file.txt"
+      },
+      {
+        "key": "B",
+        "text": "sort file.txt | uniq"
+      },
+      {
+        "key": "C",
+        "text": "wc file.txt | uniq"
+      },
+      {
+        "key": "D",
+        "text": "cmp file.txt | uniq"
+      }
     ],
     "answer": "B",
     "reason": "sort arranges identical lines together and uniq removes adjacent duplicates."
@@ -529,12 +949,24 @@
     "subject": "UNIX and Shell Programming",
     "topic": "cut Command",
     "difficulty": "medium",
-    "question": "What does the command 'cut -f2 data.txt' do by default?",
+    "question": "What does the command ``cut -f2` data.txt` do by default?",
     "options": [
-      { "key": "A", "text": "Displays the second line" },
-      { "key": "B", "text": "Displays the second field using tab as delimiter" },
-      { "key": "C", "text": "Displays the second character" },
-      { "key": "D", "text": "Displays the second word" }
+      {
+        "key": "A",
+        "text": "Displays the second line"
+      },
+      {
+        "key": "B",
+        "text": "Displays the second field using tab as delimiter"
+      },
+      {
+        "key": "C",
+        "text": "Displays the second character"
+      },
+      {
+        "key": "D",
+        "text": "Displays the second word"
+      }
     ],
     "answer": "B",
     "reason": "By default, cut uses a tab character as the field delimiter."
@@ -546,13 +978,25 @@
     "difficulty": "hard",
     "question": "Which command extracts fields 1 and 3 from a colon-separated file?",
     "options": [
-      { "key": "A", "text": "cut -d ':' -f 1,3 file.txt" },
-      { "key": "B", "text": "cut -c 1,3 file.txt" },
-      { "key": "C", "text": "cut -f 1-3 file.txt" },
-      { "key": "D", "text": "cut -d ':' -c 1,3 file.txt" }
+      {
+        "key": "A",
+        "text": "`cut -d` `:` -f 1,3 file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`cut -c` 1,3 file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`cut -f` 1-3 file.txt"
+      },
+      {
+        "key": "D",
+        "text": "`cut -d` `:` -c 1,3 file.txt"
+      }
     ],
     "answer": "A",
-    "reason": "The -d option specifies the delimiter and -f selects the required fields."
+    "reason": "The -d option specifies the delimiter `and -f` selects the required fields."
   },
   {
     "id": 38,
@@ -561,10 +1005,22 @@
     "difficulty": "hard",
     "question": "Which option suppresses lines without delimiters in cut?",
     "options": [
-      { "key": "A", "text": "-f" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-s" },
-      { "key": "D", "text": "-c" }
+      {
+        "key": "A",
+        "text": "-f"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-s"
+      },
+      {
+        "key": "D",
+        "text": "-c"
+      }
     ],
     "answer": "C",
     "reason": "The -s option suppresses lines that do not contain the specified delimiter."
@@ -576,10 +1032,22 @@
     "difficulty": "medium",
     "question": "What is the default delimiter used by the paste command?",
     "options": [
-      { "key": "A", "text": "Space" },
-      { "key": "B", "text": "Comma" },
-      { "key": "C", "text": "Tab" },
-      { "key": "D", "text": "Colon" }
+      {
+        "key": "A",
+        "text": "Space"
+      },
+      {
+        "key": "B",
+        "text": "Comma"
+      },
+      {
+        "key": "C",
+        "text": "Tab"
+      },
+      {
+        "key": "D",
+        "text": "Colon"
+      }
     ],
     "answer": "C",
     "reason": "paste uses a tab character as the default delimiter."
@@ -589,12 +1057,24 @@
     "subject": "UNIX and Shell Programming",
     "topic": "paste Command",
     "difficulty": "hard",
-    "question": "Which command merges file1 and file2 using ':' as a separator?",
+    "question": "Which command merges file1 and file2 using `:` as a separator?",
     "options": [
-      { "key": "A", "text": "paste -d ':' file1 file2" },
-      { "key": "B", "text": "join -d ':' file1 file2" },
-      { "key": "C", "text": "cut -d ':' file1 file2" },
-      { "key": "D", "text": "merge ':' file1 file2" }
+      {
+        "key": "A",
+        "text": "`paste -d` `:` file1 file2"
+      },
+      {
+        "key": "B",
+        "text": "`join -d` `:` file1 file2"
+      },
+      {
+        "key": "C",
+        "text": "`cut -d` `:` file1 file2"
+      },
+      {
+        "key": "D",
+        "text": "merge `:` file1 file2"
+      }
     ],
     "answer": "A",
     "reason": "The -d option of paste specifies a custom delimiter."
@@ -606,10 +1086,22 @@
     "difficulty": "medium",
     "question": "What is the default number of lines per output file when using split?",
     "options": [
-      { "key": "A", "text": "100" },
-      { "key": "B", "text": "500" },
-      { "key": "C", "text": "1000" },
-      { "key": "D", "text": "2000" }
+      {
+        "key": "A",
+        "text": "100"
+      },
+      {
+        "key": "B",
+        "text": "500"
+      },
+      {
+        "key": "C",
+        "text": "1000"
+      },
+      {
+        "key": "D",
+        "text": "2000"
+      }
     ],
     "answer": "C",
     "reason": "By default, split creates files containing 1000 lines each."
@@ -621,10 +1113,22 @@
     "difficulty": "hard",
     "question": "Which command splits a file into chunks of 500 lines each?",
     "options": [
-      { "key": "A", "text": "split -500 file.txt" },
-      { "key": "B", "text": "split -l 500 file.txt" },
-      { "key": "C", "text": "split -c 500 file.txt" },
-      { "key": "D", "text": "split -n 500 file.txt" }
+      {
+        "key": "A",
+        "text": "`split -500` file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`split -l` 500 file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`split -c` 500 file.txt"
+      },
+      {
+        "key": "D",
+        "text": "`split -n` 500 file.txt"
+      }
     ],
     "answer": "B",
     "reason": "The -l option specifies the number of lines per output file."
@@ -636,25 +1140,49 @@
     "difficulty": "medium",
     "question": "Which option of wc counts characters rather than bytes?",
     "options": [
-      { "key": "A", "text": "-m" },
-      { "key": "B", "text": "-c" },
-      { "key": "C", "text": "-l" },
-      { "key": "D", "text": "-w" }
+      {
+        "key": "A",
+        "text": "-m"
+      },
+      {
+        "key": "B",
+        "text": "-c"
+      },
+      {
+        "key": "C",
+        "text": "-l"
+      },
+      {
+        "key": "D",
+        "text": "-w"
+      }
     ],
     "answer": "A",
-    "reason": "The -m option counts characters, while -c counts bytes."
+    "reason": "The -m option counts characters, `while -c` counts bytes."
   },
   {
     "id": 44,
     "subject": "UNIX and Shell Programming",
     "topic": "wc Command",
     "difficulty": "easy",
-    "question": "What does the command 'wc file.txt' display?",
+    "question": "What does the command `wc file.txt` display?",
     "options": [
-      { "key": "A", "text": "Lines, words, and bytes" },
-      { "key": "B", "text": "Only lines" },
-      { "key": "C", "text": "Only words" },
-      { "key": "D", "text": "Only characters" }
+      {
+        "key": "A",
+        "text": "Lines, words, and bytes"
+      },
+      {
+        "key": "B",
+        "text": "Only lines"
+      },
+      {
+        "key": "C",
+        "text": "Only words"
+      },
+      {
+        "key": "D",
+        "text": "Only characters"
+      }
     ],
     "answer": "A",
     "reason": "Without options, wc displays line, word, and byte counts."
@@ -666,10 +1194,22 @@
     "difficulty": "medium",
     "question": "Which option of sort removes duplicate lines from the output?",
     "options": [
-      { "key": "A", "text": "-r" },
-      { "key": "B", "text": "-n" },
-      { "key": "C", "text": "-u" },
-      { "key": "D", "text": "-k" }
+      {
+        "key": "A",
+        "text": "-r"
+      },
+      {
+        "key": "B",
+        "text": "-n"
+      },
+      {
+        "key": "C",
+        "text": "-u"
+      },
+      {
+        "key": "D",
+        "text": "-k"
+      }
     ],
     "answer": "C",
     "reason": "The -u option outputs only unique lines."
@@ -681,10 +1221,22 @@
     "difficulty": "hard",
     "question": "Which command sorts a file numerically in descending order?",
     "options": [
-      { "key": "A", "text": "sort -nr file.txt" },
-      { "key": "B", "text": "sort -rn file.txt" },
-      { "key": "C", "text": "sort -r -n file.txt" },
-      { "key": "D", "text": "All of the above" }
+      {
+        "key": "A",
+        "text": "`sort -nr` file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`sort -rn` file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`sort -r` -n file.txt"
+      },
+      {
+        "key": "D",
+        "text": "All of the above"
+      }
     ],
     "answer": "D",
     "reason": "All three forms combine numeric and reverse sorting."
@@ -696,10 +1248,22 @@
     "difficulty": "hard",
     "question": "Which command sorts based on the second column?",
     "options": [
-      { "key": "A", "text": "sort -k2 file.txt" },
-      { "key": "B", "text": "sort -c2 file.txt" },
-      { "key": "C", "text": "sort -f2 file.txt" },
-      { "key": "D", "text": "sort -d2 file.txt" }
+      {
+        "key": "A",
+        "text": "`sort -k2` file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`sort -c2` file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`sort -f2` file.txt"
+      },
+      {
+        "key": "D",
+        "text": "`sort -d2` file.txt"
+      }
     ],
     "answer": "A",
     "reason": "The -k option specifies the sort key or field number."
@@ -711,10 +1275,22 @@
     "difficulty": "hard",
     "question": "Which option checks whether a file is already sorted?",
     "options": [
-      { "key": "A", "text": "-u" },
-      { "key": "B", "text": "-k" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-r" }
+      {
+        "key": "A",
+        "text": "-u"
+      },
+      {
+        "key": "B",
+        "text": "-k"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-r"
+      }
     ],
     "answer": "C",
     "reason": "The -c option checks the sorting order without producing sorted output."
@@ -726,10 +1302,22 @@
     "difficulty": "medium",
     "question": "Which option of diff produces unified output format?",
     "options": [
-      { "key": "A", "text": "-u" },
-      { "key": "B", "text": "-n" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-s" }
+      {
+        "key": "A",
+        "text": "-u"
+      },
+      {
+        "key": "B",
+        "text": "-n"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-s"
+      }
     ],
     "answer": "A",
     "reason": "The -u option generates unified diff output, commonly used in patches."
@@ -741,10 +1329,22 @@
     "difficulty": "medium",
     "question": "Which command is commonly used to generate patches between source code versions?",
     "options": [
-      { "key": "A", "text": "cmp" },
-      { "key": "B", "text": "diff" },
-      { "key": "C", "text": "comm" },
-      { "key": "D", "text": "uniq" }
+      {
+        "key": "A",
+        "text": "cmp"
+      },
+      {
+        "key": "B",
+        "text": "diff"
+      },
+      {
+        "key": "C",
+        "text": "comm"
+      },
+      {
+        "key": "D",
+        "text": "uniq"
+      }
     ],
     "answer": "B",
     "reason": "diff is widely used to generate patches and compare source code changes."
@@ -756,10 +1356,22 @@
     "difficulty": "hard",
     "question": "What information does cmp provide when files differ?",
     "options": [
-      { "key": "A", "text": "The first differing byte and line number" },
-      { "key": "B", "text": "All differing lines" },
-      { "key": "C", "text": "Only file sizes" },
-      { "key": "D", "text": "Only file names" }
+      {
+        "key": "A",
+        "text": "The first differing byte and line number"
+      },
+      {
+        "key": "B",
+        "text": "All differing lines"
+      },
+      {
+        "key": "C",
+        "text": "Only file sizes"
+      },
+      {
+        "key": "D",
+        "text": "Only file names"
+      }
     ],
     "answer": "A",
     "reason": "cmp reports the location of the first difference between files."
@@ -771,10 +1383,22 @@
     "difficulty": "medium",
     "question": "Which comparison utility is generally faster for checking if two files are identical?",
     "options": [
-      { "key": "A", "text": "diff" },
-      { "key": "B", "text": "cmp" },
-      { "key": "C", "text": "join" },
-      { "key": "D", "text": "sort" }
+      {
+        "key": "A",
+        "text": "diff"
+      },
+      {
+        "key": "B",
+        "text": "cmp"
+      },
+      {
+        "key": "C",
+        "text": "join"
+      },
+      {
+        "key": "D",
+        "text": "sort"
+      }
     ],
     "answer": "B",
     "reason": "cmp stops at the first difference, making it efficient for equality checks."
@@ -786,10 +1410,22 @@
     "difficulty": "medium",
     "question": "How many columns of output can comm produce?",
     "options": [
-      { "key": "A", "text": "2" },
-      { "key": "B", "text": "3" },
-      { "key": "C", "text": "4" },
-      { "key": "D", "text": "5" }
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
     ],
     "answer": "B",
     "reason": "comm displays lines unique to file1, unique to file2, and common to both files."
@@ -801,10 +1437,22 @@
     "difficulty": "hard",
     "question": "Which option suppresses the first column in comm output?",
     "options": [
-      { "key": "A", "text": "-1" },
-      { "key": "B", "text": "-2" },
-      { "key": "C", "text": "-3" },
-      { "key": "D", "text": "-f" }
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "-2"
+      },
+      {
+        "key": "C",
+        "text": "-3"
+      },
+      {
+        "key": "D",
+        "text": "-f"
+      }
     ],
     "answer": "A",
     "reason": "The -1 option suppresses lines unique to the first file."
@@ -816,10 +1464,22 @@
     "difficulty": "medium",
     "question": "What is the default join field used by the join command?",
     "options": [
-      { "key": "A", "text": "First field" },
-      { "key": "B", "text": "Second field" },
-      { "key": "C", "text": "Last field" },
-      { "key": "D", "text": "User specified only" }
+      {
+        "key": "A",
+        "text": "First field"
+      },
+      {
+        "key": "B",
+        "text": "Second field"
+      },
+      {
+        "key": "C",
+        "text": "Last field"
+      },
+      {
+        "key": "D",
+        "text": "User specified only"
+      }
     ],
     "answer": "A",
     "reason": "join uses the first field of each line by default."
@@ -831,13 +1491,25 @@
     "difficulty": "hard",
     "question": "Which option specifies an alternative join field?",
     "options": [
-      { "key": "A", "text": "-1" },
-      { "key": "B", "text": "-2" },
-      { "key": "C", "text": "Both A and B" },
-      { "key": "D", "text": "-f" }
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "-2"
+      },
+      {
+        "key": "C",
+        "text": "Both A and B"
+      },
+      {
+        "key": "D",
+        "text": "-f"
+      }
     ],
     "answer": "C",
-    "reason": "Options -1 and -2 specify the join fields for the first and second files."
+    "reason": "Options -1 `and -2` specify the join fields for the first and second files."
   },
   {
     "id": 57,
@@ -846,10 +1518,22 @@
     "difficulty": "medium",
     "question": "Which option of uniq prefixes each line with the number of occurrences?",
     "options": [
-      { "key": "A", "text": "-u" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-n" }
+      {
+        "key": "A",
+        "text": "-u"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-n"
+      }
     ],
     "answer": "C",
     "reason": "The -c option displays the count of repeated lines."
@@ -861,10 +1545,22 @@
     "difficulty": "medium",
     "question": "Which option displays only unique (non-repeated) lines?",
     "options": [
-      { "key": "A", "text": "-u" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-f" }
+      {
+        "key": "A",
+        "text": "-u"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-f"
+      }
     ],
     "answer": "A",
     "reason": "The -u option prints only lines that occur exactly once."
@@ -876,10 +1572,22 @@
     "difficulty": "hard",
     "question": "Why is uniq often combined with sort?",
     "options": [
-      { "key": "A", "text": "uniq requires executable files" },
-      { "key": "B", "text": "uniq only removes adjacent duplicates" },
-      { "key": "C", "text": "sort removes permissions" },
-      { "key": "D", "text": "uniq works only on numbers" }
+      {
+        "key": "A",
+        "text": "uniq requires executable files"
+      },
+      {
+        "key": "B",
+        "text": "uniq only removes adjacent duplicates"
+      },
+      {
+        "key": "C",
+        "text": "sort removes permissions"
+      },
+      {
+        "key": "D",
+        "text": "uniq works only on numbers"
+      }
     ],
     "answer": "B",
     "reason": "Sorting groups duplicate lines together, allowing uniq to remove them."
@@ -891,10 +1599,22 @@
     "difficulty": "medium",
     "question": "Which command converts all uppercase letters to lowercase?",
     "options": [
-      { "key": "A", "text": "tr A-Z a-z" },
-      { "key": "B", "text": "tr a-z A-Z" },
-      { "key": "C", "text": "sort A-Z a-z" },
-      { "key": "D", "text": "cut A-Z a-z" }
+      {
+        "key": "A",
+        "text": "tr A-Z a-z"
+      },
+      {
+        "key": "B",
+        "text": "tr a-z A-Z"
+      },
+      {
+        "key": "C",
+        "text": "sort A-Z a-z"
+      },
+      {
+        "key": "D",
+        "text": "cut A-Z a-z"
+      }
     ],
     "answer": "A",
     "reason": "tr translates uppercase letters into lowercase letters."
@@ -904,12 +1624,24 @@
     "subject": "UNIX and Shell Programming",
     "topic": "tr Command",
     "difficulty": "medium",
-    "question": "What does 'tr -d 0-9' do?",
+    "question": "What does ``tr -d` 0-9` do?",
     "options": [
-      { "key": "A", "text": "Converts digits to letters" },
-      { "key": "B", "text": "Deletes all digits" },
-      { "key": "C", "text": "Sorts digits" },
-      { "key": "D", "text": "Counts digits" }
+      {
+        "key": "A",
+        "text": "Converts digits to letters"
+      },
+      {
+        "key": "B",
+        "text": "Deletes all digits"
+      },
+      {
+        "key": "C",
+        "text": "Sorts digits"
+      },
+      {
+        "key": "D",
+        "text": "Counts digits"
+      }
     ],
     "answer": "B",
     "reason": "The -d option removes all specified characters."
@@ -919,12 +1651,24 @@
     "subject": "UNIX and Shell Programming",
     "topic": "tr Command",
     "difficulty": "hard",
-    "question": "What does 'tr -s \" \"' accomplish?",
+    "question": "What does ``tr -s` \" \"` accomplish?",
     "options": [
-      { "key": "A", "text": "Deletes spaces" },
-      { "key": "B", "text": "Replaces spaces with tabs" },
-      { "key": "C", "text": "Compresses multiple spaces into one" },
-      { "key": "D", "text": "Sorts spaces" }
+      {
+        "key": "A",
+        "text": "Deletes spaces"
+      },
+      {
+        "key": "B",
+        "text": "Replaces spaces with tabs"
+      },
+      {
+        "key": "C",
+        "text": "Compresses multiple spaces into one"
+      },
+      {
+        "key": "D",
+        "text": "Sorts spaces"
+      }
     ],
     "answer": "C",
     "reason": "The -s option squeezes repeated occurrences into a single character."
@@ -936,10 +1680,22 @@
     "difficulty": "hard",
     "question": "Which command converts lowercase text to uppercase from standard input?",
     "options": [
-      { "key": "A", "text": "tr a-z A-Z" },
-      { "key": "B", "text": "sort a-z A-Z" },
-      { "key": "C", "text": "uniq a-z A-Z" },
-      { "key": "D", "text": "join a-z A-Z" }
+      {
+        "key": "A",
+        "text": "tr a-z A-Z"
+      },
+      {
+        "key": "B",
+        "text": "sort a-z A-Z"
+      },
+      {
+        "key": "C",
+        "text": "uniq a-z A-Z"
+      },
+      {
+        "key": "D",
+        "text": "join a-z A-Z"
+      }
     ],
     "answer": "A",
     "reason": "tr performs character translation directly from standard input."
@@ -951,13 +1707,25 @@
     "difficulty": "hard",
     "question": "Which pipeline displays the number of unique lines in a file?",
     "options": [
-      { "key": "A", "text": "sort file.txt | uniq | wc -l" },
-      { "key": "B", "text": "wc -l file.txt" },
-      { "key": "C", "text": "cmp file.txt | wc -l" },
-      { "key": "D", "text": "join file.txt | wc -l" }
+      {
+        "key": "A",
+        "text": "sort file.txt | uniq | `wc -l`"
+      },
+      {
+        "key": "B",
+        "text": "`wc -l` file.txt"
+      },
+      {
+        "key": "C",
+        "text": "cmp file.txt | `wc -l`"
+      },
+      {
+        "key": "D",
+        "text": "join file.txt | `wc -l`"
+      }
     ],
     "answer": "A",
-    "reason": "sort groups duplicates, uniq removes them, and wc -l counts the remaining lines."
+    "reason": "sort groups duplicates, uniq removes them, and `wc -l` counts the remaining lines."
   },
   {
     "id": 65,
@@ -966,13 +1734,25 @@
     "difficulty": "hard",
     "question": "Which pipeline counts duplicate occurrences of sorted lines?",
     "options": [
-      { "key": "A", "text": "sort file.txt | uniq -c" },
-      { "key": "B", "text": "wc -c file.txt" },
-      { "key": "C", "text": "cmp file.txt" },
-      { "key": "D", "text": "cut file.txt" }
+      {
+        "key": "A",
+        "text": "sort file.txt | `uniq -c`"
+      },
+      {
+        "key": "B",
+        "text": "`wc -c` file.txt"
+      },
+      {
+        "key": "C",
+        "text": "cmp file.txt"
+      },
+      {
+        "key": "D",
+        "text": "cut file.txt"
+      }
     ],
     "answer": "A",
-    "reason": "uniq -c displays the occurrence count of each repeated line."
+    "reason": "`uniq -c` displays the occurrence count of each repeated line."
   },
   {
     "id": 66,
@@ -981,13 +1761,25 @@
     "difficulty": "hard",
     "question": "Which command sequence removes duplicate lines and sorts them numerically?",
     "options": [
-      { "key": "A", "text": "sort -nu file.txt" },
-      { "key": "B", "text": "uniq -n file.txt" },
-      { "key": "C", "text": "cmp -n file.txt" },
-      { "key": "D", "text": "join -n file.txt" }
+      {
+        "key": "A",
+        "text": "`sort -nu` file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`uniq -n` file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`cmp -n` file.txt"
+      },
+      {
+        "key": "D",
+        "text": "`join -n` file.txt"
+      }
     ],
     "answer": "A",
-    "reason": "sort -n performs numeric sorting and -u removes duplicate entries."
+    "reason": "`sort -n` performs numeric sorting `and -u` removes duplicate entries."
   },
   {
     "id": 67,
@@ -996,13 +1788,25 @@
     "difficulty": "medium",
     "question": "Which command extracts the first field and sorts it numerically?",
     "options": [
-      { "key": "A", "text": "cut -f1 file.txt | sort -n" },
-      { "key": "B", "text": "sort -n file.txt | cut -f1" },
-      { "key": "C", "text": "uniq file.txt | sort" },
-      { "key": "D", "text": "wc file.txt | sort" }
+      {
+        "key": "A",
+        "text": "`cut -f1` file.txt | `sort -n`"
+      },
+      {
+        "key": "B",
+        "text": "`sort -n` file.txt | `cut -f1`"
+      },
+      {
+        "key": "C",
+        "text": "uniq file.txt | sort"
+      },
+      {
+        "key": "D",
+        "text": "wc file.txt | sort"
+      }
     ],
     "answer": "A",
-    "reason": "cut extracts the field and sort -n arranges the values numerically."
+    "reason": "cut extracts the field and `sort -n` arranges the values numerically."
   },
   {
     "id": 68,
@@ -1011,13 +1815,25 @@
     "difficulty": "hard",
     "question": "Which command compares two sorted files and shows only common lines?",
     "options": [
-      { "key": "A", "text": "comm -12 file1 file2" },
-      { "key": "B", "text": "cmp file1 file2" },
-      { "key": "C", "text": "diff file1 file2" },
-      { "key": "D", "text": "uniq file1 file2" }
+      {
+        "key": "A",
+        "text": "`comm -12` file1 file2"
+      },
+      {
+        "key": "B",
+        "text": "cmp file1 file2"
+      },
+      {
+        "key": "C",
+        "text": "diff file1 file2"
+      },
+      {
+        "key": "D",
+        "text": "uniq file1 file2"
+      }
     ],
     "answer": "A",
-    "reason": "comm -12 suppresses the first two columns, leaving only common lines."
+    "reason": "`comm -12` suppresses the first two columns, leaving only common lines."
   },
   {
     "id": 69,
@@ -1026,10 +1842,22 @@
     "difficulty": "hard",
     "question": "Which command joins employee and department files using the first field?",
     "options": [
-      { "key": "A", "text": "join employee.txt department.txt" },
-      { "key": "B", "text": "paste employee.txt department.txt" },
-      { "key": "C", "text": "diff employee.txt department.txt" },
-      { "key": "D", "text": "cmp employee.txt department.txt" }
+      {
+        "key": "A",
+        "text": "join employee.txt department.txt"
+      },
+      {
+        "key": "B",
+        "text": "paste employee.txt department.txt"
+      },
+      {
+        "key": "C",
+        "text": "diff employee.txt department.txt"
+      },
+      {
+        "key": "D",
+        "text": "cmp employee.txt department.txt"
+      }
     ],
     "answer": "A",
     "reason": "join combines records from two files using a common field."
@@ -1041,10 +1869,22 @@
     "difficulty": "hard",
     "question": "Which command converts text to uppercase and removes duplicate lines after sorting?",
     "options": [
-      { "key": "A", "text": "tr a-z A-Z < file.txt | sort | uniq" },
-      { "key": "B", "text": "uniq file.txt | tr a-z A-Z" },
-      { "key": "C", "text": "wc file.txt | sort" },
-      { "key": "D", "text": "cmp file.txt | uniq" }
+      {
+        "key": "A",
+        "text": "tr a-z A-Z < file.txt | sort | uniq"
+      },
+      {
+        "key": "B",
+        "text": "uniq file.txt | tr a-z A-Z"
+      },
+      {
+        "key": "C",
+        "text": "wc file.txt | sort"
+      },
+      {
+        "key": "D",
+        "text": "cmp file.txt | uniq"
+      }
     ],
     "answer": "A",
     "reason": "tr converts the text, sort groups duplicates, and uniq removes repeated lines."
@@ -1056,10 +1896,22 @@
     "difficulty": "easy",
     "question": "Which command extracts the first 10 characters from each line of a file?",
     "options": [
-      { "key": "A", "text": "cut -c 1-10 file.txt" },
-      { "key": "B", "text": "cut -f 1-10 file.txt" },
-      { "key": "C", "text": "cut -d 1-10 file.txt" },
-      { "key": "D", "text": "cut -s 1-10 file.txt" }
+      {
+        "key": "A",
+        "text": "`cut -c` 1-10 file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`cut -f` 1-10 file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`cut -d` 1-10 file.txt"
+      },
+      {
+        "key": "D",
+        "text": "`cut -s` 1-10 file.txt"
+      }
     ],
     "answer": "A",
     "reason": "The -c option selects character positions from each line."
@@ -1069,15 +1921,27 @@
     "subject": "UNIX and Shell Programming",
     "topic": "cut Command",
     "difficulty": "medium",
-    "question": "What does 'cut -d ':' -f 3 passwd.txt' extract?",
+    "question": "What does ``cut -d` `:' -f 3 passwd.txt' extract?",
     "options": [
-      { "key": "A", "text": "Third character" },
-      { "key": "B", "text": "Third line" },
-      { "key": "C", "text": "Third colon-separated field" },
-      { "key": "D", "text": "Third word" }
+      {
+        "key": "A",
+        "text": "Third character"
+      },
+      {
+        "key": "B",
+        "text": "Third line"
+      },
+      {
+        "key": "C",
+        "text": "Third colon-separated field"
+      },
+      {
+        "key": "D",
+        "text": "Third word"
+      }
     ],
     "answer": "C",
-    "reason": "The -d option sets ':' as delimiter and -f 3 extracts the third field."
+    "reason": "The -d option sets `:` as delimiter `and -f` 3 extracts the third field."
   },
   {
     "id": 73,
@@ -1086,10 +1950,22 @@
     "difficulty": "easy",
     "question": "The paste command combines files in which manner?",
     "options": [
-      { "key": "A", "text": "Vertically" },
-      { "key": "B", "text": "Horizontally" },
-      { "key": "C", "text": "Diagonally" },
-      { "key": "D", "text": "Randomly" }
+      {
+        "key": "A",
+        "text": "Vertically"
+      },
+      {
+        "key": "B",
+        "text": "Horizontally"
+      },
+      {
+        "key": "C",
+        "text": "Diagonally"
+      },
+      {
+        "key": "D",
+        "text": "Randomly"
+      }
     ],
     "answer": "B",
     "reason": "paste merges corresponding lines horizontally."
@@ -1101,10 +1977,22 @@
     "difficulty": "medium",
     "question": "Which command serially merges all lines of file.txt into one line?",
     "options": [
-      { "key": "A", "text": "paste file.txt" },
-      { "key": "B", "text": "paste -s file.txt" },
-      { "key": "C", "text": "join file.txt" },
-      { "key": "D", "text": "sort file.txt" }
+      {
+        "key": "A",
+        "text": "paste file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`paste -s` file.txt"
+      },
+      {
+        "key": "C",
+        "text": "join file.txt"
+      },
+      {
+        "key": "D",
+        "text": "sort file.txt"
+      }
     ],
     "answer": "B",
     "reason": "The -s option of paste performs serial merging."
@@ -1116,10 +2004,22 @@
     "difficulty": "easy",
     "question": "What is the primary purpose of the split command?",
     "options": [
-      { "key": "A", "text": "Merge files" },
-      { "key": "B", "text": "Compare files" },
-      { "key": "C", "text": "Break large files into smaller files" },
-      { "key": "D", "text": "Sort files" }
+      {
+        "key": "A",
+        "text": "Merge files"
+      },
+      {
+        "key": "B",
+        "text": "Compare files"
+      },
+      {
+        "key": "C",
+        "text": "Break large files into smaller files"
+      },
+      {
+        "key": "D",
+        "text": "Sort files"
+      }
     ],
     "answer": "C",
     "reason": "split divides a large file into smaller manageable files."
@@ -1131,10 +2031,22 @@
     "difficulty": "medium",
     "question": "Which command splits a file into pieces of 1 MB each?",
     "options": [
-      { "key": "A", "text": "split -b 1M file.txt" },
-      { "key": "B", "text": "split -l 1M file.txt" },
-      { "key": "C", "text": "split -n 1M file.txt" },
-      { "key": "D", "text": "split -m 1 file.txt" }
+      {
+        "key": "A",
+        "text": "`split -b` 1M file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`split -l` 1M file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`split -n` 1M file.txt"
+      },
+      {
+        "key": "D",
+        "text": "`split -m` 1 file.txt"
+      }
     ],
     "answer": "A",
     "reason": "The -b option splits files according to size."
@@ -1144,12 +2056,24 @@
     "subject": "UNIX and Shell Programming",
     "topic": "wc Command",
     "difficulty": "easy",
-    "question": "What does 'wc -l file.txt' display?",
+    "question": "What does ``wc -l` file.txt` display?",
     "options": [
-      { "key": "A", "text": "Number of words" },
-      { "key": "B", "text": "Number of lines" },
-      { "key": "C", "text": "Number of characters" },
-      { "key": "D", "text": "Number of bytes" }
+      {
+        "key": "A",
+        "text": "Number of words"
+      },
+      {
+        "key": "B",
+        "text": "Number of lines"
+      },
+      {
+        "key": "C",
+        "text": "Number of characters"
+      },
+      {
+        "key": "D",
+        "text": "Number of bytes"
+      }
     ],
     "answer": "B",
     "reason": "The -l option counts the number of lines."
@@ -1161,10 +2085,22 @@
     "difficulty": "medium",
     "question": "Which command counts only the words in a file?",
     "options": [
-      { "key": "A", "text": "wc -c file.txt" },
-      { "key": "B", "text": "wc -m file.txt" },
-      { "key": "C", "text": "wc -w file.txt" },
-      { "key": "D", "text": "wc -l file.txt" }
+      {
+        "key": "A",
+        "text": "`wc -c` file.txt"
+      },
+      {
+        "key": "B",
+        "text": "`wc -m` file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`wc -w` file.txt"
+      },
+      {
+        "key": "D",
+        "text": "`wc -l` file.txt"
+      }
     ],
     "answer": "C",
     "reason": "The -w option counts words."
@@ -1176,10 +2112,22 @@
     "difficulty": "easy",
     "question": "Which command sorts a file alphabetically?",
     "options": [
-      { "key": "A", "text": "sort file.txt" },
-      { "key": "B", "text": "uniq file.txt" },
-      { "key": "C", "text": "cmp file.txt" },
-      { "key": "D", "text": "join file.txt" }
+      {
+        "key": "A",
+        "text": "sort file.txt"
+      },
+      {
+        "key": "B",
+        "text": "uniq file.txt"
+      },
+      {
+        "key": "C",
+        "text": "cmp file.txt"
+      },
+      {
+        "key": "D",
+        "text": "join file.txt"
+      }
     ],
     "answer": "A",
     "reason": "sort arranges text lines in alphabetical order by default."
@@ -1191,10 +2139,22 @@
     "difficulty": "medium",
     "question": "Which option ignores case while sorting?",
     "options": [
-      { "key": "A", "text": "-r" },
-      { "key": "B", "text": "-n" },
-      { "key": "C", "text": "-f" },
-      { "key": "D", "text": "-u" }
+      {
+        "key": "A",
+        "text": "-r"
+      },
+      {
+        "key": "B",
+        "text": "-n"
+      },
+      {
+        "key": "C",
+        "text": "-f"
+      },
+      {
+        "key": "D",
+        "text": "-u"
+      }
     ],
     "answer": "C",
     "reason": "The -f option folds lowercase and uppercase characters together."
@@ -1206,10 +2166,22 @@
     "difficulty": "hard",
     "question": "Which option removes duplicate lines while sorting?",
     "options": [
-      { "key": "A", "text": "-u" },
-      { "key": "B", "text": "-r" },
-      { "key": "C", "text": "-f" },
-      { "key": "D", "text": "-k" }
+      {
+        "key": "A",
+        "text": "-u"
+      },
+      {
+        "key": "B",
+        "text": "-r"
+      },
+      {
+        "key": "C",
+        "text": "-f"
+      },
+      {
+        "key": "D",
+        "text": "-k"
+      }
     ],
     "answer": "A",
     "reason": "The -u option outputs only unique sorted lines."
@@ -1221,10 +2193,22 @@
     "difficulty": "easy",
     "question": "Which command identifies differences between two text files?",
     "options": [
-      { "key": "A", "text": "cmp" },
-      { "key": "B", "text": "diff" },
-      { "key": "C", "text": "comm" },
-      { "key": "D", "text": "uniq" }
+      {
+        "key": "A",
+        "text": "cmp"
+      },
+      {
+        "key": "B",
+        "text": "diff"
+      },
+      {
+        "key": "C",
+        "text": "comm"
+      },
+      {
+        "key": "D",
+        "text": "uniq"
+      }
     ],
     "answer": "B",
     "reason": "diff compares files line by line."
@@ -1236,10 +2220,22 @@
     "difficulty": "medium",
     "question": "What type of comparison is performed by diff?",
     "options": [
-      { "key": "A", "text": "Character by character" },
-      { "key": "B", "text": "Line by line" },
-      { "key": "C", "text": "Word by word" },
-      { "key": "D", "text": "Field by field" }
+      {
+        "key": "A",
+        "text": "Character by character"
+      },
+      {
+        "key": "B",
+        "text": "Line by line"
+      },
+      {
+        "key": "C",
+        "text": "Word by word"
+      },
+      {
+        "key": "D",
+        "text": "Field by field"
+      }
     ],
     "answer": "B",
     "reason": "diff compares files on a line-by-line basis."
@@ -1251,10 +2247,22 @@
     "difficulty": "easy",
     "question": "Which command compares files byte by byte?",
     "options": [
-      { "key": "A", "text": "diff" },
-      { "key": "B", "text": "cmp" },
-      { "key": "C", "text": "comm" },
-      { "key": "D", "text": "join" }
+      {
+        "key": "A",
+        "text": "diff"
+      },
+      {
+        "key": "B",
+        "text": "cmp"
+      },
+      {
+        "key": "C",
+        "text": "comm"
+      },
+      {
+        "key": "D",
+        "text": "join"
+      }
     ],
     "answer": "B",
     "reason": "cmp performs byte-by-byte comparison."
@@ -1266,10 +2274,22 @@
     "difficulty": "hard",
     "question": "When cmp finds a difference, what does it report first?",
     "options": [
-      { "key": "A", "text": "File permissions" },
-      { "key": "B", "text": "File owner" },
-      { "key": "C", "text": "First differing byte position" },
-      { "key": "D", "text": "Last differing line" }
+      {
+        "key": "A",
+        "text": "File permissions"
+      },
+      {
+        "key": "B",
+        "text": "File owner"
+      },
+      {
+        "key": "C",
+        "text": "First differing byte position"
+      },
+      {
+        "key": "D",
+        "text": "Last differing line"
+      }
     ],
     "answer": "C",
     "reason": "cmp reports the first mismatch position and line number."
@@ -1281,10 +2301,22 @@
     "difficulty": "easy",
     "question": "Which command compares two sorted files?",
     "options": [
-      { "key": "A", "text": "comm" },
-      { "key": "B", "text": "diff" },
-      { "key": "C", "text": "cmp" },
-      { "key": "D", "text": "wc" }
+      {
+        "key": "A",
+        "text": "comm"
+      },
+      {
+        "key": "B",
+        "text": "diff"
+      },
+      {
+        "key": "C",
+        "text": "cmp"
+      },
+      {
+        "key": "D",
+        "text": "wc"
+      }
     ],
     "answer": "A",
     "reason": "comm compares sorted files and categorizes lines."
@@ -1296,10 +2328,22 @@
     "difficulty": "medium",
     "question": "How many columns are produced by default in comm output?",
     "options": [
-      { "key": "A", "text": "2" },
-      { "key": "B", "text": "3" },
-      { "key": "C", "text": "4" },
-      { "key": "D", "text": "5" }
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
     ],
     "answer": "B",
     "reason": "comm produces three columns: unique to file1, unique to file2, and common lines."
@@ -1311,10 +2355,22 @@
     "difficulty": "easy",
     "question": "The join command combines records based on:",
     "options": [
-      { "key": "A", "text": "File size" },
-      { "key": "B", "text": "Permissions" },
-      { "key": "C", "text": "A common field" },
-      { "key": "D", "text": "Modification date" }
+      {
+        "key": "A",
+        "text": "File size"
+      },
+      {
+        "key": "B",
+        "text": "Permissions"
+      },
+      {
+        "key": "C",
+        "text": "A common field"
+      },
+      {
+        "key": "D",
+        "text": "Modification date"
+      }
     ],
     "answer": "C",
     "reason": "join merges records using matching field values."
@@ -1326,10 +2382,22 @@
     "difficulty": "medium",
     "question": "Which command joins two files using their first field?",
     "options": [
-      { "key": "A", "text": "join file1 file2" },
-      { "key": "B", "text": "paste file1 file2" },
-      { "key": "C", "text": "cmp file1 file2" },
-      { "key": "D", "text": "diff file1 file2" }
+      {
+        "key": "A",
+        "text": "join file1 file2"
+      },
+      {
+        "key": "B",
+        "text": "paste file1 file2"
+      },
+      {
+        "key": "C",
+        "text": "cmp file1 file2"
+      },
+      {
+        "key": "D",
+        "text": "diff file1 file2"
+      }
     ],
     "answer": "A",
     "reason": "join uses the first field by default."
@@ -1341,10 +2409,22 @@
     "difficulty": "hard",
     "question": "Why should files usually be sorted before using join?",
     "options": [
-      { "key": "A", "text": "To improve display" },
-      { "key": "B", "text": "Because join expects sorted input" },
-      { "key": "C", "text": "To reduce file size" },
-      { "key": "D", "text": "To remove duplicates" }
+      {
+        "key": "A",
+        "text": "To improve display"
+      },
+      {
+        "key": "B",
+        "text": "Because join expects sorted input"
+      },
+      {
+        "key": "C",
+        "text": "To reduce file size"
+      },
+      {
+        "key": "D",
+        "text": "To remove duplicates"
+      }
     ],
     "answer": "B",
     "reason": "join is designed to work efficiently with sorted files."
@@ -1356,10 +2436,22 @@
     "difficulty": "easy",
     "question": "What is the main purpose of the uniq command?",
     "options": [
-      { "key": "A", "text": "Sort lines" },
-      { "key": "B", "text": "Remove adjacent duplicate lines" },
-      { "key": "C", "text": "Compare files" },
-      { "key": "D", "text": "Join files" }
+      {
+        "key": "A",
+        "text": "Sort lines"
+      },
+      {
+        "key": "B",
+        "text": "Remove adjacent duplicate lines"
+      },
+      {
+        "key": "C",
+        "text": "Compare files"
+      },
+      {
+        "key": "D",
+        "text": "Join files"
+      }
     ],
     "answer": "B",
     "reason": "uniq filters out repeated adjacent lines."
@@ -1371,10 +2463,22 @@
     "difficulty": "medium",
     "question": "Which option displays duplicate lines only?",
     "options": [
-      { "key": "A", "text": "-u" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-n" }
+      {
+        "key": "A",
+        "text": "-u"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-n"
+      }
     ],
     "answer": "B",
     "reason": "The -d option outputs only duplicated lines."
@@ -1386,10 +2490,22 @@
     "difficulty": "hard",
     "question": "Which option prefixes each output line with its occurrence count?",
     "options": [
-      { "key": "A", "text": "-u" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-k" }
+      {
+        "key": "A",
+        "text": "-u"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-k"
+      }
     ],
     "answer": "C",
     "reason": "The -c option displays the number of occurrences of each line."
@@ -1401,10 +2517,22 @@
     "difficulty": "easy",
     "question": "What does the tr command primarily do?",
     "options": [
-      { "key": "A", "text": "Translate or transform characters" },
-      { "key": "B", "text": "Compare files" },
-      { "key": "C", "text": "Sort lines" },
-      { "key": "D", "text": "Join files" }
+      {
+        "key": "A",
+        "text": "Translate or transform characters"
+      },
+      {
+        "key": "B",
+        "text": "Compare files"
+      },
+      {
+        "key": "C",
+        "text": "Sort lines"
+      },
+      {
+        "key": "D",
+        "text": "Join files"
+      }
     ],
     "answer": "A",
     "reason": "tr translates, deletes, or squeezes characters."
@@ -1416,10 +2544,22 @@
     "difficulty": "medium",
     "question": "Which command converts lowercase letters to uppercase?",
     "options": [
-      { "key": "A", "text": "tr a-z A-Z" },
-      { "key": "B", "text": "tr A-Z a-z" },
-      { "key": "C", "text": "sort a-z A-Z" },
-      { "key": "D", "text": "cut a-z A-Z" }
+      {
+        "key": "A",
+        "text": "tr a-z A-Z"
+      },
+      {
+        "key": "B",
+        "text": "tr A-Z a-z"
+      },
+      {
+        "key": "C",
+        "text": "sort a-z A-Z"
+      },
+      {
+        "key": "D",
+        "text": "cut a-z A-Z"
+      }
     ],
     "answer": "A",
     "reason": "tr maps lowercase letters to uppercase equivalents."
@@ -1431,10 +2571,22 @@
     "difficulty": "medium",
     "question": "Which option deletes specified characters?",
     "options": [
-      { "key": "A", "text": "-s" },
-      { "key": "B", "text": "-d" },
-      { "key": "C", "text": "-c" },
-      { "key": "D", "text": "-u" }
+      {
+        "key": "A",
+        "text": "-s"
+      },
+      {
+        "key": "B",
+        "text": "-d"
+      },
+      {
+        "key": "C",
+        "text": "-c"
+      },
+      {
+        "key": "D",
+        "text": "-u"
+      }
     ],
     "answer": "B",
     "reason": "The -d option removes specified characters from the input stream."
@@ -1444,12 +2596,24 @@
     "subject": "UNIX and Shell Programming",
     "topic": "tr Command",
     "difficulty": "hard",
-    "question": "What does 'tr -s' do?",
+    "question": "What does ``tr -s`` do?",
     "options": [
-      { "key": "A", "text": "Sorts characters" },
-      { "key": "B", "text": "Deletes characters" },
-      { "key": "C", "text": "Squeezes repeated characters" },
-      { "key": "D", "text": "Converts case" }
+      {
+        "key": "A",
+        "text": "Sorts characters"
+      },
+      {
+        "key": "B",
+        "text": "Deletes characters"
+      },
+      {
+        "key": "C",
+        "text": "Squeezes repeated characters"
+      },
+      {
+        "key": "D",
+        "text": "Converts case"
+      }
     ],
     "answer": "C",
     "reason": "The -s option replaces repeated occurrences with a single occurrence."
@@ -1461,13 +2625,25 @@
     "difficulty": "hard",
     "question": "Which command counts the number of unique lines in a file?",
     "options": [
-      { "key": "A", "text": "sort file.txt | uniq | wc -l" },
-      { "key": "B", "text": "wc -l file.txt" },
-      { "key": "C", "text": "uniq file.txt" },
-      { "key": "D", "text": "sort file.txt" }
+      {
+        "key": "A",
+        "text": "sort file.txt | uniq | `wc -l`"
+      },
+      {
+        "key": "B",
+        "text": "`wc -l` file.txt"
+      },
+      {
+        "key": "C",
+        "text": "uniq file.txt"
+      },
+      {
+        "key": "D",
+        "text": "sort file.txt"
+      }
     ],
     "answer": "A",
-    "reason": "sort groups duplicates, uniq removes them, and wc -l counts the remaining lines."
+    "reason": "sort groups duplicates, uniq removes them, and `wc -l` counts the remaining lines."
   },
   {
     "id": 99,
@@ -1476,10 +2652,22 @@
     "difficulty": "hard",
     "question": "Which pipeline converts text to uppercase and removes duplicate lines?",
     "options": [
-      { "key": "A", "text": "tr a-z A-Z < file.txt | sort | uniq" },
-      { "key": "B", "text": "uniq file.txt | tr a-z A-Z" },
-      { "key": "C", "text": "sort file.txt | wc -l" },
-      { "key": "D", "text": "cmp file.txt | uniq" }
+      {
+        "key": "A",
+        "text": "tr a-z A-Z < file.txt | sort | uniq"
+      },
+      {
+        "key": "B",
+        "text": "uniq file.txt | tr a-z A-Z"
+      },
+      {
+        "key": "C",
+        "text": "sort file.txt | `wc -l`"
+      },
+      {
+        "key": "D",
+        "text": "cmp file.txt | uniq"
+      }
     ],
     "answer": "A",
     "reason": "tr converts text, sort groups duplicates, and uniq removes repeated lines."
@@ -1491,12 +2679,24 @@
     "difficulty": "hard",
     "question": "Which command shows only the common lines between two sorted files?",
     "options": [
-      { "key": "A", "text": "comm -12 file1 file2" },
-      { "key": "B", "text": "diff file1 file2" },
-      { "key": "C", "text": "cmp file1 file2" },
-      { "key": "D", "text": "uniq file1 file2" }
+      {
+        "key": "A",
+        "text": "`comm -12` file1 file2"
+      },
+      {
+        "key": "B",
+        "text": "diff file1 file2"
+      },
+      {
+        "key": "C",
+        "text": "cmp file1 file2"
+      },
+      {
+        "key": "D",
+        "text": "uniq file1 file2"
+      }
     ],
     "answer": "A",
-    "reason": "comm -12 suppresses unique lines from both files and displays only common lines."
+    "reason": "`comm -12` suppresses unique lines from both files and displays only common lines."
   }
 ]

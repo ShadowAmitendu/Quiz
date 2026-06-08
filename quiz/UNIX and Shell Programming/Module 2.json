@@ -1,1502 +1,2702 @@
 [
-	{
-		"id": 1,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "easy",
-		"question": "Which command is used to create a new directory in UNIX?",
-		"options": [
-			{ "key": "A", "text": "mkdir" },
-			{ "key": "B", "text": "rmdir" },
-			{ "key": "C", "text": "cd" },
-			{ "key": "D", "text": "touch" }
-		],
-		"answer": "A",
-		"reason": "The mkdir command creates one or more new directories."
-	},
-	{
-		"id": 2,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "easy",
-		"question": "Which command is used to change the current working directory?",
-		"options": [
-			{ "key": "A", "text": "pwd" },
-			{ "key": "B", "text": "cd" },
-			{ "key": "C", "text": "ls" },
-			{ "key": "D", "text": "mv" }
-		],
-		"answer": "B",
-		"reason": "The cd command changes the current working directory."
-	},
-	{
-		"id": 3,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "easy",
-		"question": "Which command displays the current working directory?",
-		"options": [
-			{ "key": "A", "text": "pwd" },
-			{ "key": "B", "text": "cd" },
-			{ "key": "C", "text": "ls" },
-			{ "key": "D", "text": "mkdir" }
-		],
-		"answer": "A",
-		"reason": "pwd stands for Print Working Directory."
-	},
-	{
-		"id": 4,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "easy",
-		"question": "Which command is used to move a directory from one location to another?",
-		"options": [
-			{ "key": "A", "text": "cp" },
-			{ "key": "B", "text": "mv" },
-			{ "key": "C", "text": "mkdir" },
-			{ "key": "D", "text": "ls" }
-		],
-		"answer": "B",
-		"reason": "The mv command is used to move or rename files and directories."
-	},
-	{
-		"id": 5,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "medium",
-		"question": "Which option is commonly used with cp to copy directories recursively?",
-		"options": [
-			{ "key": "A", "text": "-l" },
-			{ "key": "B", "text": "-r" },
-			{ "key": "C", "text": "-a" },
-			{ "key": "D", "text": "-d" }
-		],
-		"answer": "B",
-		"reason": "The -r option copies a directory and all its contents recursively."
-	},
-	{
-		"id": 6,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Commands",
-		"difficulty": "easy",
-		"question": "Which command creates an empty file?",
-		"options": [
-			{ "key": "A", "text": "mkfile" },
-			{ "key": "B", "text": "create" },
-			{ "key": "C", "text": "touch" },
-			{ "key": "D", "text": "new" }
-		],
-		"answer": "C",
-		"reason": "touch creates an empty file if it does not already exist."
-	},
-	{
-		"id": 7,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Commands",
-		"difficulty": "easy",
-		"question": "Which command removes a file?",
-		"options": [
-			{ "key": "A", "text": "delete" },
-			{ "key": "B", "text": "erase" },
-			{ "key": "C", "text": "rm" },
-			{ "key": "D", "text": "rmdir" }
-		],
-		"answer": "C",
-		"reason": "The rm command removes files and directories."
-	},
-	{
-		"id": 8,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Commands",
-		"difficulty": "easy",
-		"question": "Which command removes an empty directory?",
-		"options": [
-			{ "key": "A", "text": "rm" },
-			{ "key": "B", "text": "rmdir" },
-			{ "key": "C", "text": "delete" },
-			{ "key": "D", "text": "remove" }
-		],
-		"answer": "B",
-		"reason": "rmdir removes directories that are empty."
-	},
-	{
-		"id": 9,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Listing",
-		"difficulty": "easy",
-		"question": "Which command lists the contents of a directory?",
-		"options": [
-			{ "key": "A", "text": "cat" },
-			{ "key": "B", "text": "pwd" },
-			{ "key": "C", "text": "ls" },
-			{ "key": "D", "text": "dirlist" }
-		],
-		"answer": "C",
-		"reason": "The ls command displays files and directories."
-	},
-	{
-		"id": 10,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Listing",
-		"difficulty": "medium",
-		"question": "Which command displays detailed file information including permissions and ownership?",
-		"options": [
-			{ "key": "A", "text": "ls -l" },
-			{ "key": "B", "text": "ls -a" },
-			{ "key": "C", "text": "pwd -l" },
-			{ "key": "D", "text": "cat -l" }
-		],
-		"answer": "A",
-		"reason": "The -l option displays detailed file information in long format."
-	},
-	{
-		"id": 11,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Types",
-		"difficulty": "medium",
-		"question": "Which symbol represents a regular file in ls -l output?",
-		"options": [
-			{ "key": "A", "text": "-" },
-			{ "key": "B", "text": "d" },
-			{ "key": "C", "text": "l" },
-			{ "key": "D", "text": "b" }
-		],
-		"answer": "A",
-		"reason": "A regular file is represented by '-' in the first column."
-	},
-	{
-		"id": 12,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Types",
-		"difficulty": "medium",
-		"question": "Which symbol indicates a directory in ls -l output?",
-		"options": [
-			{ "key": "A", "text": "l" },
-			{ "key": "B", "text": "-" },
-			{ "key": "C", "text": "d" },
-			{ "key": "D", "text": "c" }
-		],
-		"answer": "C",
-		"reason": "The character 'd' indicates a directory."
-	},
-	{
-		"id": 13,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Types",
-		"difficulty": "medium",
-		"question": "Which symbol represents a symbolic link?",
-		"options": [
-			{ "key": "A", "text": "d" },
-			{ "key": "B", "text": "l" },
-			{ "key": "C", "text": "-" },
-			{ "key": "D", "text": "s" }
-		],
-		"answer": "B",
-		"reason": "The letter 'l' identifies a symbolic link."
-	},
-	{
-		"id": 14,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Permissions",
-		"difficulty": "easy",
-		"question": "Which command changes file permissions?",
-		"options": [
-			{ "key": "A", "text": "chown" },
-			{ "key": "B", "text": "chmod" },
-			{ "key": "C", "text": "touch" },
-			{ "key": "D", "text": "passwd" }
-		],
-		"answer": "B",
-		"reason": "chmod is used to modify file and directory permissions."
-	},
-	{
-		"id": 15,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Permissions",
-		"difficulty": "medium",
-		"question": "What permission does the numeric value 7 represent?",
-		"options": [
-			{ "key": "A", "text": "Read only" },
-			{ "key": "B", "text": "Read and Write" },
-			{ "key": "C", "text": "Read, Write and Execute" },
-			{ "key": "D", "text": "Execute only" }
-		],
-		"answer": "C",
-		"reason": "7 = 4 + 2 + 1, corresponding to read, write, and execute permissions."
-	},
-	{
-		"id": 16,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Touch Command",
-		"difficulty": "medium",
-		"question": "What is the primary use of the touch command?",
-		"options": [
-			{ "key": "A", "text": "Delete files" },
-			{ "key": "B", "text": "Create empty files or modify timestamps" },
-			{ "key": "C", "text": "Change permissions" },
-			{ "key": "D", "text": "Copy files" }
-		],
-		"answer": "B",
-		"reason": "touch creates empty files and updates file timestamps."
-	},
-	{
-		"id": 17,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Timestamps",
-		"difficulty": "medium",
-		"question": "What does Access Time (atime) indicate?",
-		"options": [
-			{ "key": "A", "text": "Last file read time" },
-			{ "key": "B", "text": "Last file modified time" },
-			{ "key": "C", "text": "File creation time" },
-			{ "key": "D", "text": "Last permission change time" }
-		],
-		"answer": "A",
-		"reason": "Access time records when a file was last accessed or read."
-	},
-	{
-		"id": 18,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Timestamps",
-		"difficulty": "medium",
-		"question": "What does Modification Time (mtime) represent?",
-		"options": [
-			{ "key": "A", "text": "Last access time" },
-			{ "key": "B", "text": "Last content modification time" },
-			{ "key": "C", "text": "Last ownership change time" },
-			{ "key": "D", "text": "Creation time" }
-		],
-		"answer": "B",
-		"reason": "mtime changes whenever file contents are modified."
-	},
-	{
-		"id": 19,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Timestamps",
-		"difficulty": "hard",
-		"question": "What does Change Time (ctime) indicate?",
-		"options": [
-			{ "key": "A", "text": "Creation time" },
-			{ "key": "B", "text": "Last metadata change time" },
-			{ "key": "C", "text": "Last read time" },
-			{ "key": "D", "text": "Backup time" }
-		],
-		"answer": "B",
-		"reason": "ctime records changes to metadata such as permissions, ownership, or links."
-	},
-	{
-		"id": 20,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Touch Command",
-		"difficulty": "hard",
-		"question": "Which touch option is used to specify a custom date and time?",
-		"options": [
-			{ "key": "A", "text": "-r" },
-			{ "key": "B", "text": "-a" },
-			{ "key": "C", "text": "-t" },
-			{ "key": "D", "text": "-u" }
-		],
-		"answer": "C",
-		"reason": "The -t option allows setting a specific timestamp."
-	},
-	{
-		"id": 21,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Touch Command",
-		"difficulty": "hard",
-		"question": "Which touch option accepts a date string such as '2025-01-01 10:00'?",
-		"options": [
-			{ "key": "A", "text": "-d" },
-			{ "key": "B", "text": "-t" },
-			{ "key": "C", "text": "-m" },
-			{ "key": "D", "text": "-c" }
-		],
-		"answer": "A",
-		"reason": "The -d option allows timestamps to be specified using human-readable date strings."
-	},
-	{
-		"id": 22,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Find Command",
-		"difficulty": "easy",
-		"question": "Which command is used to search for files and directories?",
-		"options": [
-			{ "key": "A", "text": "locate" },
-			{ "key": "B", "text": "find" },
-			{ "key": "C", "text": "grep" },
-			{ "key": "D", "text": "where" }
-		],
-		"answer": "B",
-		"reason": "The find command searches files and directories based on specified criteria."
-	},
-	{
-		"id": 23,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Find Command",
-		"difficulty": "medium",
-		"question": "Which option of find is commonly used to search by file name?",
-		"options": [
-			{ "key": "A", "text": "-name" },
-			{ "key": "B", "text": "-file" },
-			{ "key": "C", "text": "-search" },
-			{ "key": "D", "text": "-find" }
-		],
-		"answer": "A",
-		"reason": "The -name option matches file and directory names."
-	},
-	{
-		"id": 24,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Links",
-		"difficulty": "medium",
-		"question": "Which command creates a hard link?",
-		"options": [
-			{ "key": "A", "text": "ln" },
-			{ "key": "B", "text": "ln -s" },
-			{ "key": "C", "text": "link -s" },
-			{ "key": "D", "text": "cp -l" }
-		],
-		"answer": "A",
-		"reason": "The ln command without options creates a hard link."
-	},
-	{
-		"id": 25,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Links",
-		"difficulty": "medium",
-		"question": "Which command creates a symbolic (soft) link?",
-		"options": [
-			{ "key": "A", "text": "ln" },
-			{ "key": "B", "text": "ln -s" },
-			{ "key": "C", "text": "cp -s" },
-			{ "key": "D", "text": "mklink" }
-		],
-		"answer": "B",
-		"reason": "The -s option of ln creates a symbolic link."
-	},
-	{
-		"id": 26,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Links",
-		"difficulty": "hard",
-		"question": "A hard link points directly to:",
-		"options": [
-			{ "key": "A", "text": "Another filename" },
-			{ "key": "B", "text": "An inode" },
-			{ "key": "C", "text": "A directory" },
-			{ "key": "D", "text": "A process" }
-		],
-		"answer": "B",
-		"reason": "Hard links reference the same inode as the original file."
-	},
-	{
-		"id": 27,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Inode",
-		"difficulty": "medium",
-		"question": "What is an inode in UNIX?",
-		"options": [
-			{ "key": "A", "text": "A command" },
-			{ "key": "B", "text": "A file metadata structure" },
-			{ "key": "C", "text": "A shell variable" },
-			{ "key": "D", "text": "A directory entry only" }
-		],
-		"answer": "B",
-		"reason": "An inode stores metadata about a file except its filename."
-	},
-	{
-		"id": 28,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Inode",
-		"difficulty": "hard",
-		"question": "Which command displays inode numbers of files?",
-		"options": [
-			{ "key": "A", "text": "ls -i" },
-			{ "key": "B", "text": "ls -a" },
-			{ "key": "C", "text": "inode" },
-			{ "key": "D", "text": "stat -n" }
-		],
-		"answer": "A",
-		"reason": "The ls -i command displays inode numbers alongside filenames."
-	},
-	{
-		"id": 29,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File System Size",
-		"difficulty": "medium",
-		"question": "Which command displays file system disk space usage?",
-		"options": [
-			{ "key": "A", "text": "du" },
-			{ "key": "B", "text": "df" },
-			{ "key": "C", "text": "size" },
-			{ "key": "D", "text": "mount" }
-		],
-		"answer": "B",
-		"reason": "df displays total, used, and available space on file systems."
-	},
-	{
-		"id": 30,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File System Size",
-		"difficulty": "medium",
-		"question": "Which command displays the disk usage of files and directories?",
-		"options": [
-			{ "key": "A", "text": "df" },
-			{ "key": "B", "text": "du" },
-			{ "key": "C", "text": "ls" },
-			{ "key": "D", "text": "size" }
-		],
-		"answer": "B",
-		"reason": "du reports disk usage for files and directories."
-	},
-	{
-		"id": 31,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Redirection",
-		"difficulty": "easy",
-		"question": "What does the '>' operator do in UNIX?",
-		"options": [
-			{ "key": "A", "text": "Append output to a file" },
-			{ "key": "B", "text": "Redirect output and overwrite the file" },
-			{ "key": "C", "text": "Read input from a file" },
-			{ "key": "D", "text": "Create a pipe" }
-		],
-		"answer": "B",
-		"reason": "The > operator redirects output and replaces existing file contents."
-	},
-	{
-		"id": 32,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Redirection",
-		"difficulty": "easy",
-		"question": "What does the '>>' operator do?",
-		"options": [
-			{ "key": "A", "text": "Overwrite a file" },
-			{ "key": "B", "text": "Delete a file" },
-			{ "key": "C", "text": "Append output to a file" },
-			{ "key": "D", "text": "Pipe output" }
-		],
-		"answer": "C",
-		"reason": "The >> operator appends output to the end of a file."
-	},
-	{
-		"id": 33,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Pipe",
-		"difficulty": "medium",
-		"question": "What is the purpose of the pipe (|) operator?",
-		"options": [
-			{ "key": "A", "text": "Join two files" },
-			{ "key": "B", "text": "Send output of one command as input to another" },
-			{ "key": "C", "text": "Create directories" },
-			{ "key": "D", "text": "Copy files" }
-		],
-		"answer": "B",
-		"reason": "The pipe operator connects commands by passing output from one to another."
-	},
-	{
-		"id": 34,
-		"subject": "UNIX and Shell Programming",
-		"topic": "tee Command",
-		"difficulty": "medium",
-		"question": "What is the primary purpose of the tee command?",
-		"options": [
-			{ "key": "A", "text": "Display and save output simultaneously" },
-			{ "key": "B", "text": "Delete temporary files" },
-			{ "key": "C", "text": "Create links" },
-			{ "key": "D", "text": "Change timestamps" }
-		],
-		"answer": "A",
-		"reason": "tee writes output to both the terminal and a file."
-	},
-	{
-		"id": 35,
-		"subject": "UNIX and Shell Programming",
-		"topic": "tee Command",
-		"difficulty": "hard",
-		"question": "Which command appends output to a file while displaying it on the screen using tee?",
-		"options": [
-			{ "key": "A", "text": "tee file.txt" },
-			{ "key": "B", "text": "tee > file.txt" },
-			{ "key": "C", "text": "tee -a file.txt" },
-			{ "key": "D", "text": "tee -r file.txt" }
-		],
-		"answer": "C",
-		"reason": "The -a option of tee appends output to the specified file instead of overwriting it."
-	},
-	{
-		"id": 36,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "medium",
-		"question": "Which command creates multiple directories at once?",
-		"options": [
-			{ "key": "A", "text": "mkdir dir1 dir2 dir3" },
-			{ "key": "B", "text": "mkmulti dir1 dir2 dir3" },
-			{ "key": "C", "text": "createdir dir1 dir2 dir3" },
-			{ "key": "D", "text": "mkdir -m dir1 dir2 dir3" }
-		],
-		"answer": "A",
-		"reason": "The mkdir command can accept multiple directory names and create them simultaneously."
-	},
-	{
-		"id": 37,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "medium",
-		"question": "What does the command 'mkdir -p a/b/c' do?",
-		"options": [
-			{ "key": "A", "text": "Deletes directories" },
-			{ "key": "B", "text": "Creates parent directories if needed" },
-			{ "key": "C", "text": "Moves directories" },
-			{ "key": "D", "text": "Copies directories" }
-		],
-		"answer": "B",
-		"reason": "The -p option creates intermediate parent directories automatically."
-	},
-	{
-		"id": 38,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "easy",
-		"question": "Which command changes to the parent directory?",
-		"options": [
-			{ "key": "A", "text": "cd ." },
-			{ "key": "B", "text": "cd /" },
-			{ "key": "C", "text": "cd .." },
-			{ "key": "D", "text": "cd ~" }
-		],
-		"answer": "C",
-		"reason": "The '..' notation represents the parent directory."
-	},
-	{
-		"id": 39,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Management",
-		"difficulty": "easy",
-		"question": "Which symbol represents the user's home directory?",
-		"options": [
-			{ "key": "A", "text": "~" },
-			{ "key": "B", "text": "." },
-			{ "key": "C", "text": ".." },
-			{ "key": "D", "text": "/" }
-		],
-		"answer": "A",
-		"reason": "The tilde (~) is shorthand for the current user's home directory."
-	},
-	{
-		"id": 40,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Copy Command",
-		"difficulty": "medium",
-		"question": "Which option of cp preserves file attributes during copying?",
-		"options": [
-			{ "key": "A", "text": "-p" },
-			{ "key": "B", "text": "-f" },
-			{ "key": "C", "text": "-n" },
-			{ "key": "D", "text": "-x" }
-		],
-		"answer": "A",
-		"reason": "The -p option preserves timestamps, ownership, and permissions."
-	},
-	{
-		"id": 41,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Move Command",
-		"difficulty": "medium",
-		"question": "Which command can be used to rename a file?",
-		"options": [
-			{ "key": "A", "text": "cp" },
-			{ "key": "B", "text": "renamefile" },
-			{ "key": "C", "text": "mv" },
-			{ "key": "D", "text": "touch" }
-		],
-		"answer": "C",
-		"reason": "The mv command renames a file when the source and destination are in the same directory."
-	},
-	{
-		"id": 42,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Commands",
-		"difficulty": "medium",
-		"question": "Which command can create an empty file named test.txt?",
-		"options": [
-			{ "key": "A", "text": "touch test.txt" },
-			{ "key": "B", "text": "mkfile test.txt" },
-			{ "key": "C", "text": "create test.txt" },
-			{ "key": "D", "text": "new test.txt" }
-		],
-		"answer": "A",
-		"reason": "touch creates an empty file if it does not already exist."
-	},
-	{
-		"id": 43,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Commands",
-		"difficulty": "medium",
-		"question": "Which command forcefully removes a directory and all its contents?",
-		"options": [
-			{ "key": "A", "text": "rmdir -f" },
-			{ "key": "B", "text": "rm -r" },
-			{ "key": "C", "text": "remove -all" },
-			{ "key": "D", "text": "deltree" }
-		],
-		"answer": "B",
-		"reason": "The rm -r command recursively removes directories and their contents."
-	},
-	{
-		"id": 44,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Listing",
-		"difficulty": "easy",
-		"question": "Which option of ls displays hidden files?",
-		"options": [
-			{ "key": "A", "text": "-h" },
-			{ "key": "B", "text": "-l" },
-			{ "key": "C", "text": "-a" },
-			{ "key": "D", "text": "-s" }
-		],
-		"answer": "C",
-		"reason": "The -a option displays all files, including hidden files beginning with a dot."
-	},
-	{
-		"id": 45,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Listing",
-		"difficulty": "medium",
-		"question": "Which command displays file sizes in human-readable format?",
-		"options": [
-			{ "key": "A", "text": "ls -lh" },
-			{ "key": "B", "text": "ls -a" },
-			{ "key": "C", "text": "ls -r" },
-			{ "key": "D", "text": "ls -f" }
-		],
-		"answer": "A",
-		"reason": "The -h option with -l displays file sizes in KB, MB, and GB format."
-	},
-	{
-		"id": 46,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Types",
-		"difficulty": "hard",
-		"question": "Which file type is represented by 'c' in ls -l output?",
-		"options": [
-			{ "key": "A", "text": "Character device file" },
-			{ "key": "B", "text": "Compressed file" },
-			{ "key": "C", "text": "Configuration file" },
-			{ "key": "D", "text": "Control file" }
-		],
-		"answer": "A",
-		"reason": "The character 'c' denotes a character device file."
-	},
-	{
-		"id": 47,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Types",
-		"difficulty": "hard",
-		"question": "Which file type is represented by 'b' in ls -l output?",
-		"options": [
-			{ "key": "A", "text": "Binary file" },
-			{ "key": "B", "text": "Boot file" },
-			{ "key": "C", "text": "Block device file" },
-			{ "key": "D", "text": "Buffer file" }
-		],
-		"answer": "C",
-		"reason": "The character 'b' represents a block device file."
-	},
-	{
-		"id": 48,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Permissions",
-		"difficulty": "easy",
-		"question": "What does the permission string rwxr-xr-x correspond to numerically?",
-		"options": [
-			{ "key": "A", "text": "777" },
-			{ "key": "B", "text": "755" },
-			{ "key": "C", "text": "644" },
-			{ "key": "D", "text": "700" }
-		],
-		"answer": "B",
-		"reason": "rwx=7, r-x=5, r-x=5 giving 755."
-	},
-	{
-		"id": 49,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Permissions",
-		"difficulty": "medium",
-		"question": "Which command grants read, write, and execute permissions to everyone?",
-		"options": [
-			{ "key": "A", "text": "chmod 755 file" },
-			{ "key": "B", "text": "chmod 644 file" },
-			{ "key": "C", "text": "chmod 777 file" },
-			{ "key": "D", "text": "chmod 700 file" }
-		],
-		"answer": "C",
-		"reason": "777 grants rwx permissions to owner, group, and others."
-	},
-	{
-		"id": 50,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Permissions",
-		"difficulty": "medium",
-		"question": "Which permission allows a user to view file contents but not modify them?",
-		"options": [
-			{ "key": "A", "text": "Execute" },
-			{ "key": "B", "text": "Write" },
-			{ "key": "C", "text": "Read" },
-			{ "key": "D", "text": "Delete" }
-		],
-		"answer": "C",
-		"reason": "Read permission enables viewing file contents."
-	},
-	{
-		"id": 51,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Timestamps",
-		"difficulty": "medium",
-		"question": "Which command displays detailed file timestamp information?",
-		"options": [
-			{ "key": "A", "text": "stat" },
-			{ "key": "B", "text": "showtime" },
-			{ "key": "C", "text": "clock" },
-			{ "key": "D", "text": "ls -s" }
-		],
-		"answer": "A",
-		"reason": "The stat command displays atime, mtime, ctime, inode information, and more."
-	},
-	{
-		"id": 52,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Touch Command",
-		"difficulty": "hard",
-		"question": "Which touch option changes only the access time of a file?",
-		"options": [
-			{ "key": "A", "text": "-m" },
-			{ "key": "B", "text": "-a" },
-			{ "key": "C", "text": "-t" },
-			{ "key": "D", "text": "-d" }
-		],
-		"answer": "B",
-		"reason": "The -a option modifies only the access time (atime)."
-	},
-	{
-		"id": 53,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Touch Command",
-		"difficulty": "hard",
-		"question": "Which touch option changes only the modification time?",
-		"options": [
-			{ "key": "A", "text": "-a" },
-			{ "key": "B", "text": "-c" },
-			{ "key": "C", "text": "-m" },
-			{ "key": "D", "text": "-r" }
-		],
-		"answer": "C",
-		"reason": "The -m option updates only the modification time."
-	},
-	{
-		"id": 54,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Find Command",
-		"difficulty": "medium",
-		"question": "Which command finds all files named report.txt starting from the current directory?",
-		"options": [
-			{ "key": "A", "text": "find . -name report.txt" },
-			{ "key": "B", "text": "search report.txt" },
-			{ "key": "C", "text": "locate report.txt -current" },
-			{ "key": "D", "text": "grep report.txt" }
-		],
-		"answer": "A",
-		"reason": "find . -name searches recursively from the current directory."
-	},
-	{
-		"id": 55,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Find Command",
-		"difficulty": "hard",
-		"question": "Which option of find searches only directories?",
-		"options": [
-			{ "key": "A", "text": "-d" },
-			{ "key": "B", "text": "-type d" },
-			{ "key": "C", "text": "-dir" },
-			{ "key": "D", "text": "-folder" }
-		],
-		"answer": "B",
-		"reason": "The -type d option restricts results to directories."
-	},
-	{
-		"id": 56,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Find Command",
-		"difficulty": "hard",
-		"question": "Which option of find searches only regular files?",
-		"options": [
-			{ "key": "A", "text": "-type f" },
-			{ "key": "B", "text": "-file" },
-			{ "key": "C", "text": "-regular" },
-			{ "key": "D", "text": "-type r" }
-		],
-		"answer": "A",
-		"reason": "The -type f option limits search results to regular files."
-	},
-	{
-		"id": 57,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Soft Links",
-		"difficulty": "medium",
-		"question": "What happens to a symbolic link if the original file is deleted?",
-		"options": [
-			{ "key": "A", "text": "Nothing happens" },
-			{ "key": "B", "text": "The link becomes broken" },
-			{ "key": "C", "text": "The link becomes a hard link" },
-			{ "key": "D", "text": "The original file is restored" }
-		],
-		"answer": "B",
-		"reason": "A symbolic link stores the pathname, so it becomes invalid when the target is removed."
-	},
-	{
-		"id": 58,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Hard Links",
-		"difficulty": "hard",
-		"question": "Which statement about hard links is true?",
-		"options": [
-			{ "key": "A", "text": "They can span file systems" },
-			{ "key": "B", "text": "They point to pathnames" },
-			{ "key": "C", "text": "They share the same inode" },
-			{ "key": "D", "text": "They exist only for directories" }
-		],
-		"answer": "C",
-		"reason": "Hard links reference the same inode and data blocks."
-	},
-	{
-		"id": 59,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Hard Links",
-		"difficulty": "hard",
-		"question": "Which type of link can cross different file systems?",
-		"options": [
-			{ "key": "A", "text": "Hard link" },
-			{ "key": "B", "text": "Symbolic link" },
-			{ "key": "C", "text": "Inode link" },
-			{ "key": "D", "text": "Device link" }
-		],
-		"answer": "B",
-		"reason": "Symbolic links store pathnames and can reference files on different file systems."
-	},
-	{
-		"id": 60,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Inode",
-		"difficulty": "medium",
-		"question": "Which information is NOT stored in an inode?",
-		"options": [
-			{ "key": "A", "text": "File size" },
-			{ "key": "B", "text": "Permissions" },
-			{ "key": "C", "text": "Owner information" },
-			{ "key": "D", "text": "Filename" }
-		],
-		"answer": "D",
-		"reason": "File names are stored in directory entries, not inodes."
-	},
-	{
-		"id": 61,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Inode",
-		"difficulty": "hard",
-		"question": "Two hard-linked files have:",
-		"options": [
-			{ "key": "A", "text": "Different inode numbers" },
-			{ "key": "B", "text": "The same inode number" },
-			{ "key": "C", "text": "Different permissions always" },
-			{ "key": "D", "text": "Different contents always" }
-		],
-		"answer": "B",
-		"reason": "Hard-linked files reference the same inode."
-	},
-	{
-		"id": 62,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File System Size",
-		"difficulty": "medium",
-		"question": "Which command displays disk usage in human-readable format?",
-		"options": [
-			{ "key": "A", "text": "du -h" },
-			{ "key": "B", "text": "du -l" },
-			{ "key": "C", "text": "df -s" },
-			{ "key": "D", "text": "ls -h" }
-		],
-		"answer": "A",
-		"reason": "The -h option shows sizes in KB, MB, and GB."
-	},
-	{
-		"id": 63,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File System Size",
-		"difficulty": "medium",
-		"question": "Which command shows free space available on mounted file systems?",
-		"options": [
-			{ "key": "A", "text": "du" },
-			{ "key": "B", "text": "df" },
-			{ "key": "C", "text": "mount" },
-			{ "key": "D", "text": "size" }
-		],
-		"answer": "B",
-		"reason": "df reports free and used disk space for mounted file systems."
-	},
-	{
-		"id": 64,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Redirection",
-		"difficulty": "medium",
-		"question": "What happens when output is redirected using '>' to an existing file?",
-		"options": [
-			{ "key": "A", "text": "Output is appended" },
-			{ "key": "B", "text": "The file is overwritten" },
-			{ "key": "C", "text": "An error occurs" },
-			{ "key": "D", "text": "The file is deleted" }
-		],
-		"answer": "B",
-		"reason": "The > operator replaces the existing contents of the file."
-	},
-	{
-		"id": 65,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Pipe",
-		"difficulty": "medium",
-		"question": "What is the output of 'ls | wc -l'?",
-		"options": [
-			{ "key": "A", "text": "Number of files and directories listed" },
-			{ "key": "B", "text": "File sizes" },
-			{ "key": "C", "text": "Directory permissions" },
-			{ "key": "D", "text": "Current directory path" }
-		],
-		"answer": "A",
-		"reason": "The output of ls is passed to wc -l, which counts the lines."
-	},
-	{
-		"id": 66,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Pipe",
-		"difficulty": "hard",
-		"question": "Which operator connects the output of one command to the input of another?",
-		"options": [
-			{ "key": "A", "text": ">" },
-			{ "key": "B", "text": ">>" },
-			{ "key": "C", "text": "|" },
-			{ "key": "D", "text": "&" }
-		],
-		"answer": "C",
-		"reason": "The pipe operator transfers standard output from one command to another command's standard input."
-	},
-	{
-		"id": 67,
-		"subject": "UNIX and Shell Programming",
-		"topic": "tee Command",
-		"difficulty": "medium",
-		"question": "Which command displays output on screen and writes it to output.txt?",
-		"options": [
-			{ "key": "A", "text": "command > output.txt" },
-			{ "key": "B", "text": "command | tee output.txt" },
-			{ "key": "C", "text": "command >> output.txt" },
-			{ "key": "D", "text": "command < output.txt" }
-		],
-		"answer": "B",
-		"reason": "tee duplicates output to both the terminal and the specified file."
-	},
-	{
-		"id": 68,
-		"subject": "UNIX and Shell Programming",
-		"topic": "tee Command",
-		"difficulty": "hard",
-		"question": "Which option of tee appends to a file instead of overwriting it?",
-		"options": [
-			{ "key": "A", "text": "-a" },
-			{ "key": "B", "text": "-r" },
-			{ "key": "C", "text": "-p" },
-			{ "key": "D", "text": "-f" }
-		],
-		"answer": "A",
-		"reason": "The -a option appends output to an existing file."
-	},
-	{
-		"id": 69,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Combined Concepts",
-		"difficulty": "hard",
-		"question": "Which command creates a symbolic link named link.txt pointing to file.txt?",
-		"options": [
-			{ "key": "A", "text": "ln file.txt link.txt" },
-			{ "key": "B", "text": "ln -s file.txt link.txt" },
-			{ "key": "C", "text": "link file.txt link.txt" },
-			{ "key": "D", "text": "cp -s file.txt link.txt" }
-		],
-		"answer": "B",
-		"reason": "The ln -s command creates a symbolic (soft) link."
-	},
-	{
-		"id": 70,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Combined Concepts",
-		"difficulty": "hard",
-		"question": "Which command displays both inode numbers and detailed file information?",
-		"options": [
-			{ "key": "A", "text": "ls -li" },
-			{ "key": "B", "text": "ls -a" },
-			{ "key": "C", "text": "stat -l" },
-			{ "key": "D", "text": "inode -l" }
-		],
-		"answer": "A",
-		"reason": "The combination of -l and -i options displays detailed information along with inode numbers."
-	},
-	{
-		"id": 71,
-		"subject": "UNIX and Shell Programming",
-		"topic": "mkdir Command",
-		"difficulty": "easy",
-		"question": "Which command creates a directory named 'projects'?",
-		"options": [
-			{ "key": "A", "text": "mkdir projects" },
-			{ "key": "B", "text": "create projects" },
-			{ "key": "C", "text": "md projects" },
-			{ "key": "D", "text": "dir projects" }
-		],
-		"answer": "A",
-		"reason": "The mkdir command is used to create directories in UNIX."
-	},
-	{
-		"id": 72,
-		"subject": "UNIX and Shell Programming",
-		"topic": "cd Command",
-		"difficulty": "easy",
-		"question": "What does the command 'cd ~' do?",
-		"options": [
-			{ "key": "A", "text": "Moves to the root directory" },
-			{ "key": "B", "text": "Moves to the home directory" },
-			{ "key": "C", "text": "Moves to the parent directory" },
-			{ "key": "D", "text": "Displays the current directory" }
-		],
-		"answer": "B",
-		"reason": "The '~' symbol refers to the current user's home directory."
-	},
-	{
-		"id": 73,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Copy Command",
-		"difficulty": "medium",
-		"question": "Which command copies file1.txt to file2.txt?",
-		"options": [
-			{ "key": "A", "text": "mv file1.txt file2.txt" },
-			{ "key": "B", "text": "cp file1.txt file2.txt" },
-			{ "key": "C", "text": "copy file1.txt file2.txt" },
-			{ "key": "D", "text": "touch file2.txt" }
-		],
-		"answer": "B",
-		"reason": "The cp command duplicates files and directories."
-	},
-	{
-		"id": 74,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Move Command",
-		"difficulty": "medium",
-		"question": "Which command moves file.txt to the /tmp directory?",
-		"options": [
-			{ "key": "A", "text": "cp file.txt /tmp" },
-			{ "key": "B", "text": "mv file.txt /tmp" },
-			{ "key": "C", "text": "move file.txt /tmp" },
-			{ "key": "D", "text": "rename file.txt /tmp" }
-		],
-		"answer": "B",
-		"reason": "The mv command is used to move files and directories."
-	},
-	{
-		"id": 75,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Creation",
-		"difficulty": "easy",
-		"question": "Which command creates an empty file called notes.txt?",
-		"options": [
-			{ "key": "A", "text": "touch notes.txt" },
-			{ "key": "B", "text": "mkdir notes.txt" },
-			{ "key": "C", "text": "cat notes.txt" },
-			{ "key": "D", "text": "echo notes.txt" }
-		],
-		"answer": "A",
-		"reason": "touch creates an empty file if it does not already exist."
-	},
-	{
-		"id": 76,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Removal",
-		"difficulty": "easy",
-		"question": "Which command removes the file report.txt?",
-		"options": [
-			{ "key": "A", "text": "delete report.txt" },
-			{ "key": "B", "text": "rmdir report.txt" },
-			{ "key": "C", "text": "rm report.txt" },
-			{ "key": "D", "text": "erase report.txt" }
-		],
-		"answer": "C",
-		"reason": "rm is the standard UNIX command for removing files."
-	},
-	{
-		"id": 77,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Removal",
-		"difficulty": "easy",
-		"question": "What happens if rmdir is used on a non-empty directory?",
-		"options": [
-			{ "key": "A", "text": "The directory is removed" },
-			{ "key": "B", "text": "Only files are removed" },
-			{ "key": "C", "text": "An error occurs" },
-			{ "key": "D", "text": "The directory is renamed" }
-		],
-		"answer": "C",
-		"reason": "rmdir can remove only empty directories."
-	},
-	{
-		"id": 78,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Listing",
-		"difficulty": "medium",
-		"question": "Which option of ls sorts files by modification time?",
-		"options": [
-			{ "key": "A", "text": "-t" },
-			{ "key": "B", "text": "-i" },
-			{ "key": "C", "text": "-a" },
-			{ "key": "D", "text": "-d" }
-		],
-		"answer": "A",
-		"reason": "The -t option sorts directory contents by modification time."
-	},
-	{
-		"id": 79,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Directory Listing",
-		"difficulty": "medium",
-		"question": "Which option of ls displays inode numbers?",
-		"options": [
-			{ "key": "A", "text": "-l" },
-			{ "key": "B", "text": "-a" },
-			{ "key": "C", "text": "-i" },
-			{ "key": "D", "text": "-h" }
-		],
-		"answer": "C",
-		"reason": "The -i option displays inode numbers alongside filenames."
-	},
-	{
-		"id": 80,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Types",
-		"difficulty": "hard",
-		"question": "Which symbol represents a FIFO (named pipe) file in ls -l output?",
-		"options": [
-			{ "key": "A", "text": "p" },
-			{ "key": "B", "text": "f" },
-			{ "key": "C", "text": "n" },
-			{ "key": "D", "text": "|" }
-		],
-		"answer": "A",
-		"reason": "A FIFO or named pipe is represented by the character 'p'."
-	},
-	{
-		"id": 81,
-		"subject": "UNIX and Shell Programming",
-		"topic": "File Types",
-		"difficulty": "hard",
-		"question": "Which symbol denotes a socket file in ls -l output?",
-		"options": [
-			{ "key": "A", "text": "o" },
-			{ "key": "B", "text": "s" },
-			{ "key": "C", "text": "k" },
-			{ "key": "D", "text": "t" }
-		],
-		"answer": "B",
-		"reason": "Socket files are represented by the letter 's'."
-	},
-	{
-		"id": 82,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Permissions",
-		"difficulty": "medium",
-		"question": "What does chmod 644 file.txt assign?",
-		"options": [
-			{ "key": "A", "text": "rw-r--r--" },
-			{ "key": "B", "text": "rwxr-xr-x" },
-			{ "key": "C", "text": "rwx------" },
-			{ "key": "D", "text": "rwxrwxrwx" }
-		],
-		"answer": "A",
-		"reason": "644 gives read-write to owner and read-only to group and others."
-	},
-	{
-		"id": 83,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Permissions",
-		"difficulty": "medium",
-		"question": "Which permission is required to enter a directory?",
-		"options": [
-			{ "key": "A", "text": "Read" },
-			{ "key": "B", "text": "Write" },
-			{ "key": "C", "text": "Execute" },
-			{ "key": "D", "text": "Delete" }
-		],
-		"answer": "C",
-		"reason": "Execute permission on a directory allows traversal into that directory."
-	},
-	{
-		"id": 84,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Permissions",
-		"difficulty": "hard",
-		"question": "What does chmod 700 file assign?",
-		"options": [
-			{ "key": "A", "text": "Full access to everyone" },
-			{ "key": "B", "text": "Full access only to owner" },
-			{ "key": "C", "text": "Read access to everyone" },
-			{ "key": "D", "text": "Read and execute for everyone" }
-		],
-		"answer": "B",
-		"reason": "700 gives rwx only to the owner and no permissions to others."
-	},
-	{
-		"id": 85,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Touch Command",
-		"difficulty": "medium",
-		"question": "What happens if touch is executed on an existing file?",
-		"options": [
-			{ "key": "A", "text": "The file is deleted" },
-			{ "key": "B", "text": "The file is copied" },
-			{ "key": "C", "text": "Its timestamps are updated" },
-			{ "key": "D", "text": "Its permissions change" }
-		],
-		"answer": "C",
-		"reason": "touch updates timestamps if the file already exists."
-	},
-	{
-		"id": 86,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Timestamps",
-		"difficulty": "hard",
-		"question": "Which timestamp changes when file permissions are modified?",
-		"options": [
-			{ "key": "A", "text": "atime" },
-			{ "key": "B", "text": "mtime" },
-			{ "key": "C", "text": "ctime" },
-			{ "key": "D", "text": "btime" }
-		],
-		"answer": "C",
-		"reason": "ctime tracks metadata changes such as permissions and ownership."
-	},
-	{
-		"id": 87,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Find Command",
-		"difficulty": "medium",
-		"question": "Which command finds all directories named backup?",
-		"options": [
-			{ "key": "A", "text": "find . -type d -name backup" },
-			{ "key": "B", "text": "find backup -dir" },
-			{ "key": "C", "text": "locate backup -d" },
-			{ "key": "D", "text": "grep backup" }
-		],
-		"answer": "A",
-		"reason": "The combination of -type d and -name restricts results to directories."
-	},
-	{
-		"id": 88,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Find Command",
-		"difficulty": "hard",
-		"question": "Which option of find searches files larger than a specified size?",
-		"options": [
-			{ "key": "A", "text": "-size" },
-			{ "key": "B", "text": "-length" },
-			{ "key": "C", "text": "-bytes" },
-			{ "key": "D", "text": "-big" }
-		],
-		"answer": "A",
-		"reason": "The -size option is used to search files based on size."
-	},
-	{
-		"id": 89,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Soft Links",
-		"difficulty": "medium",
-		"question": "A symbolic link stores:",
-		"options": [
-			{ "key": "A", "text": "The target file's inode number directly" },
-			{ "key": "B", "text": "The pathname of the target file" },
-			{ "key": "C", "text": "The file contents" },
-			{ "key": "D", "text": "Only permissions" }
-		],
-		"answer": "B",
-		"reason": "A symbolic link contains a pathname reference to another file."
-	},
-	{
-		"id": 90,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Hard Links",
-		"difficulty": "hard",
-		"question": "Deleting the original file affects a hard link how?",
-		"options": [
-			{ "key": "A", "text": "The hard link becomes broken" },
-			{ "key": "B", "text": "The hard link continues to access the data" },
-			{ "key": "C", "text": "The hard link is automatically removed" },
-			{ "key": "D", "text": "The file becomes read-only" }
-		],
-		"answer": "B",
-		"reason": "Hard links point to the same inode, so data remains accessible until all links are removed."
-	},
-	{
-		"id": 91,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Inode",
-		"difficulty": "medium",
-		"question": "Which command provides detailed inode information about a file?",
-		"options": [
-			{ "key": "A", "text": "stat filename" },
-			{ "key": "B", "text": "inode filename" },
-			{ "key": "C", "text": "ls filename" },
-			{ "key": "D", "text": "file filename" }
-		],
-		"answer": "A",
-		"reason": "The stat command displays inode numbers and file metadata."
-	},
-	{
-		"id": 92,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Inode",
-		"difficulty": "hard",
-		"question": "What happens when all hard links to an inode are removed?",
-		"options": [
-			{ "key": "A", "text": "The inode and data blocks are freed" },
-			{ "key": "B", "text": "Only the filename is removed" },
-			{ "key": "C", "text": "The inode becomes a symbolic link" },
-			{ "key": "D", "text": "Nothing happens" }
-		],
-		"answer": "A",
-		"reason": "The filesystem frees storage when the inode's link count reaches zero."
-	},
-	{
-		"id": 93,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Disk Usage",
-		"difficulty": "medium",
-		"question": "Which command shows the size of a specific directory?",
-		"options": [
-			{ "key": "A", "text": "du directory" },
-			{ "key": "B", "text": "df directory" },
-			{ "key": "C", "text": "ls directory" },
-			{ "key": "D", "text": "size directory" }
-		],
-		"answer": "A",
-		"reason": "du reports disk usage of files and directories."
-	},
-	{
-		"id": 94,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Disk Usage",
-		"difficulty": "hard",
-		"question": "Which command displays inode usage of file systems?",
-		"options": [
-			{ "key": "A", "text": "df -i" },
-			{ "key": "B", "text": "du -i" },
-			{ "key": "C", "text": "ls -i" },
-			{ "key": "D", "text": "stat -i" }
-		],
-		"answer": "A",
-		"reason": "The df -i command displays inode statistics for mounted file systems."
-	},
-	{
-		"id": 95,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Output Redirection",
-		"difficulty": "easy",
-		"question": "Which operator redirects standard output to a new file?",
-		"options": [
-			{ "key": "A", "text": "<" },
-			{ "key": "B", "text": ">" },
-			{ "key": "C", "text": "|" },
-			{ "key": "D", "text": "&" }
-		],
-		"answer": "B",
-		"reason": "The > operator redirects output and overwrites the destination file."
-	},
-	{
-		"id": 96,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Output Redirection",
-		"difficulty": "medium",
-		"question": "What is the effect of 'echo Hello >> file.txt'?",
-		"options": [
-			{ "key": "A", "text": "Deletes file.txt" },
-			{ "key": "B", "text": "Overwrites file.txt" },
-			{ "key": "C", "text": "Appends Hello to file.txt" },
-			{ "key": "D", "text": "Displays Hello only" }
-		],
-		"answer": "C",
-		"reason": "The >> operator appends output to the end of a file."
-	},
-	{
-		"id": 97,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Pipe",
-		"difficulty": "medium",
-		"question": "Which command displays only the number of lines in file.txt?",
-		"options": [
-			{ "key": "A", "text": "cat file.txt | wc -l" },
-			{ "key": "B", "text": "cat file.txt | sort" },
-			{ "key": "C", "text": "cat file.txt | grep" },
-			{ "key": "D", "text": "cat file.txt > wc" }
-		],
-		"answer": "A",
-		"reason": "wc -l counts the number of lines received through the pipe."
-	},
-	{
-		"id": 98,
-		"subject": "UNIX and Shell Programming",
-		"topic": "Pipe",
-		"difficulty": "hard",
-		"question": "What is the primary advantage of using pipes?",
-		"options": [
-			{ "key": "A", "text": "They increase disk space" },
-			{ "key": "B", "text": "They connect commands without temporary files" },
-			{ "key": "C", "text": "They modify permissions" },
-			{ "key": "D", "text": "They create directories" }
-		],
-		"answer": "B",
-		"reason": "Pipes allow command output to be passed directly as input to another command."
-	},
-	{
-		"id": 99,
-		"subject": "UNIX and Shell Programming",
-		"topic": "tee Command",
-		"difficulty": "medium",
-		"question": "What does the command 'ls | tee output.txt' do?",
-		"options": [
-			{ "key": "A", "text": "Stores output only in output.txt" },
-			{ "key": "B", "text": "Displays output only on screen" },
-			{ "key": "C", "text": "Displays output and saves it to output.txt" },
-			{ "key": "D", "text": "Deletes output.txt" }
-		],
-		"answer": "C",
-		"reason": "tee duplicates input to both standard output and a file."
-	},
-	{
-		"id": 100,
-		"subject": "UNIX and Shell Programming",
-		"topic": "tee Command",
-		"difficulty": "hard",
-		"question": "Which statement about tee is correct?",
-		"options": [
-			{ "key": "A", "text": "It can only write to files" },
-			{ "key": "B", "text": "It can only display output" },
-			{ "key": "C", "text": "It splits input to both screen and file(s)" },
-			{ "key": "D", "text": "It creates hard links" }
-		],
-		"answer": "C",
-		"reason": "The tee command duplicates standard input to standard output and one or more files."
-	}
+  {
+    "id": 1,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "easy",
+    "question": "Which command is used to create a new directory in UNIX?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mkdir"
+      },
+      {
+        "key": "B",
+        "text": "rmdir"
+      },
+      {
+        "key": "C",
+        "text": "cd"
+      },
+      {
+        "key": "D",
+        "text": "touch"
+      }
+    ],
+    "answer": "A",
+    "reason": "The mkdir command creates one or more new directories."
+  },
+  {
+    "id": 2,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "easy",
+    "question": "Which command is used to change the current working directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pwd"
+      },
+      {
+        "key": "B",
+        "text": "cd"
+      },
+      {
+        "key": "C",
+        "text": "ls"
+      },
+      {
+        "key": "D",
+        "text": "mv"
+      }
+    ],
+    "answer": "B",
+    "reason": "The cd command changes the current working directory."
+  },
+  {
+    "id": 3,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "easy",
+    "question": "Which command displays the current working directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pwd"
+      },
+      {
+        "key": "B",
+        "text": "cd"
+      },
+      {
+        "key": "C",
+        "text": "ls"
+      },
+      {
+        "key": "D",
+        "text": "mkdir"
+      }
+    ],
+    "answer": "A",
+    "reason": "pwd stands for Print Working Directory."
+  },
+  {
+    "id": 4,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "easy",
+    "question": "Which command is used to move a directory from one location to another?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cp"
+      },
+      {
+        "key": "B",
+        "text": "mv"
+      },
+      {
+        "key": "C",
+        "text": "mkdir"
+      },
+      {
+        "key": "D",
+        "text": "ls"
+      }
+    ],
+    "answer": "B",
+    "reason": "The mv command is used to move or rename files and directories."
+  },
+  {
+    "id": 5,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "medium",
+    "question": "Which option is commonly used with cp to copy directories recursively?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-l"
+      },
+      {
+        "key": "B",
+        "text": "-r"
+      },
+      {
+        "key": "C",
+        "text": "-a"
+      },
+      {
+        "key": "D",
+        "text": "-d"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -r option copies a directory and all its contents recursively."
+  },
+  {
+    "id": 6,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Commands",
+    "difficulty": "easy",
+    "question": "Which command creates an empty file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mkfile"
+      },
+      {
+        "key": "B",
+        "text": "create"
+      },
+      {
+        "key": "C",
+        "text": "touch"
+      },
+      {
+        "key": "D",
+        "text": "new"
+      }
+    ],
+    "answer": "C",
+    "reason": "touch creates an empty file if it does not already exist."
+  },
+  {
+    "id": 7,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Commands",
+    "difficulty": "easy",
+    "question": "Which command removes a file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "delete"
+      },
+      {
+        "key": "B",
+        "text": "erase"
+      },
+      {
+        "key": "C",
+        "text": "rm"
+      },
+      {
+        "key": "D",
+        "text": "rmdir"
+      }
+    ],
+    "answer": "C",
+    "reason": "The rm command removes files and directories."
+  },
+  {
+    "id": 8,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Commands",
+    "difficulty": "easy",
+    "question": "Which command removes an empty directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "rm"
+      },
+      {
+        "key": "B",
+        "text": "rmdir"
+      },
+      {
+        "key": "C",
+        "text": "delete"
+      },
+      {
+        "key": "D",
+        "text": "remove"
+      }
+    ],
+    "answer": "B",
+    "reason": "rmdir removes directories that are empty."
+  },
+  {
+    "id": 9,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Listing",
+    "difficulty": "easy",
+    "question": "Which command lists the contents of a directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cat"
+      },
+      {
+        "key": "B",
+        "text": "pwd"
+      },
+      {
+        "key": "C",
+        "text": "ls"
+      },
+      {
+        "key": "D",
+        "text": "dirlist"
+      }
+    ],
+    "answer": "C",
+    "reason": "The ls command displays files and directories."
+  },
+  {
+    "id": 10,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Listing",
+    "difficulty": "medium",
+    "question": "Which command displays detailed file information including permissions and ownership?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`ls -l`"
+      },
+      {
+        "key": "B",
+        "text": "`ls -a`"
+      },
+      {
+        "key": "C",
+        "text": "`pwd -l`"
+      },
+      {
+        "key": "D",
+        "text": "`cat -l`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -l option displays detailed file information in long format."
+  },
+  {
+    "id": 11,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Types",
+    "difficulty": "medium",
+    "question": "Which symbol represents a regular file in `ls -l` output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-"
+      },
+      {
+        "key": "B",
+        "text": "d"
+      },
+      {
+        "key": "C",
+        "text": "l"
+      },
+      {
+        "key": "D",
+        "text": "b"
+      }
+    ],
+    "answer": "A",
+    "reason": "A regular file is represented by `-` in the first column."
+  },
+  {
+    "id": 12,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Types",
+    "difficulty": "medium",
+    "question": "Which symbol indicates a directory in `ls -l` output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "l"
+      },
+      {
+        "key": "B",
+        "text": "-"
+      },
+      {
+        "key": "C",
+        "text": "d"
+      },
+      {
+        "key": "D",
+        "text": "c"
+      }
+    ],
+    "answer": "C",
+    "reason": "The character `d` indicates a directory."
+  },
+  {
+    "id": 13,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Types",
+    "difficulty": "medium",
+    "question": "Which symbol represents a symbolic link?",
+    "options": [
+      {
+        "key": "A",
+        "text": "d"
+      },
+      {
+        "key": "B",
+        "text": "l"
+      },
+      {
+        "key": "C",
+        "text": "-"
+      },
+      {
+        "key": "D",
+        "text": "s"
+      }
+    ],
+    "answer": "B",
+    "reason": "The letter `l` identifies a symbolic link."
+  },
+  {
+    "id": 14,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Permissions",
+    "difficulty": "easy",
+    "question": "Which command changes file permissions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "chown"
+      },
+      {
+        "key": "B",
+        "text": "chmod"
+      },
+      {
+        "key": "C",
+        "text": "touch"
+      },
+      {
+        "key": "D",
+        "text": "passwd"
+      }
+    ],
+    "answer": "B",
+    "reason": "chmod is used to modify file and directory permissions."
+  },
+  {
+    "id": 15,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Permissions",
+    "difficulty": "medium",
+    "question": "What permission does the numeric value 7 represent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Read only"
+      },
+      {
+        "key": "B",
+        "text": "Read and Write"
+      },
+      {
+        "key": "C",
+        "text": "Read, Write and Execute"
+      },
+      {
+        "key": "D",
+        "text": "Execute only"
+      }
+    ],
+    "answer": "C",
+    "reason": "7 = 4 + 2 + 1, corresponding to read, write, and execute permissions."
+  },
+  {
+    "id": 16,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Touch Command",
+    "difficulty": "medium",
+    "question": "What is the primary use of the touch command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Delete files"
+      },
+      {
+        "key": "B",
+        "text": "Create empty files or modify timestamps"
+      },
+      {
+        "key": "C",
+        "text": "Change permissions"
+      },
+      {
+        "key": "D",
+        "text": "Copy files"
+      }
+    ],
+    "answer": "B",
+    "reason": "touch creates empty files and updates file timestamps."
+  },
+  {
+    "id": 17,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Timestamps",
+    "difficulty": "medium",
+    "question": "What does Access Time (atime) indicate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Last file read time"
+      },
+      {
+        "key": "B",
+        "text": "Last file modified time"
+      },
+      {
+        "key": "C",
+        "text": "File creation time"
+      },
+      {
+        "key": "D",
+        "text": "Last permission change time"
+      }
+    ],
+    "answer": "A",
+    "reason": "Access time records when a file was last accessed or read."
+  },
+  {
+    "id": 18,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Timestamps",
+    "difficulty": "medium",
+    "question": "What does Modification Time (mtime) represent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Last access time"
+      },
+      {
+        "key": "B",
+        "text": "Last content modification time"
+      },
+      {
+        "key": "C",
+        "text": "Last ownership change time"
+      },
+      {
+        "key": "D",
+        "text": "Creation time"
+      }
+    ],
+    "answer": "B",
+    "reason": "mtime changes whenever file contents are modified."
+  },
+  {
+    "id": 19,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Timestamps",
+    "difficulty": "hard",
+    "question": "What does Change Time (ctime) indicate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Creation time"
+      },
+      {
+        "key": "B",
+        "text": "Last metadata change time"
+      },
+      {
+        "key": "C",
+        "text": "Last read time"
+      },
+      {
+        "key": "D",
+        "text": "Backup time"
+      }
+    ],
+    "answer": "B",
+    "reason": "ctime records changes to metadata such as permissions, ownership, or links."
+  },
+  {
+    "id": 20,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Touch Command",
+    "difficulty": "hard",
+    "question": "Which touch option is used to specify a custom date and time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-r"
+      },
+      {
+        "key": "B",
+        "text": "-a"
+      },
+      {
+        "key": "C",
+        "text": "-t"
+      },
+      {
+        "key": "D",
+        "text": "-u"
+      }
+    ],
+    "answer": "C",
+    "reason": "The -t option allows setting a specific timestamp."
+  },
+  {
+    "id": 21,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Touch Command",
+    "difficulty": "hard",
+    "question": "Which touch option accepts a date string such as `2025-01-01 10:00`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-d"
+      },
+      {
+        "key": "B",
+        "text": "-t"
+      },
+      {
+        "key": "C",
+        "text": "-m"
+      },
+      {
+        "key": "D",
+        "text": "-c"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -d option allows timestamps to be specified using human-readable date strings."
+  },
+  {
+    "id": 22,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Find Command",
+    "difficulty": "easy",
+    "question": "Which command is used to search for files and directories?",
+    "options": [
+      {
+        "key": "A",
+        "text": "locate"
+      },
+      {
+        "key": "B",
+        "text": "find"
+      },
+      {
+        "key": "C",
+        "text": "grep"
+      },
+      {
+        "key": "D",
+        "text": "where"
+      }
+    ],
+    "answer": "B",
+    "reason": "The find command searches files and directories based on specified criteria."
+  },
+  {
+    "id": 23,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Find Command",
+    "difficulty": "medium",
+    "question": "Which option of find is commonly used to search by file name?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-name"
+      },
+      {
+        "key": "B",
+        "text": "-file"
+      },
+      {
+        "key": "C",
+        "text": "-search"
+      },
+      {
+        "key": "D",
+        "text": "-find"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -name option matches file and directory names."
+  },
+  {
+    "id": 24,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Links",
+    "difficulty": "medium",
+    "question": "Which command creates a hard link?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ln"
+      },
+      {
+        "key": "B",
+        "text": "`ln -s`"
+      },
+      {
+        "key": "C",
+        "text": "`link -s`"
+      },
+      {
+        "key": "D",
+        "text": "`cp -l`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The ln command without options creates a hard link."
+  },
+  {
+    "id": 25,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Links",
+    "difficulty": "medium",
+    "question": "Which command creates a symbolic (soft) link?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ln"
+      },
+      {
+        "key": "B",
+        "text": "`ln -s`"
+      },
+      {
+        "key": "C",
+        "text": "`cp -s`"
+      },
+      {
+        "key": "D",
+        "text": "mklink"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -s option of ln creates a symbolic link."
+  },
+  {
+    "id": 26,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Links",
+    "difficulty": "hard",
+    "question": "A hard link points directly to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Another filename"
+      },
+      {
+        "key": "B",
+        "text": "An inode"
+      },
+      {
+        "key": "C",
+        "text": "A directory"
+      },
+      {
+        "key": "D",
+        "text": "A process"
+      }
+    ],
+    "answer": "B",
+    "reason": "Hard links reference the same inode as the original file."
+  },
+  {
+    "id": 27,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inode",
+    "difficulty": "medium",
+    "question": "What is an inode in UNIX?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A command"
+      },
+      {
+        "key": "B",
+        "text": "A file metadata structure"
+      },
+      {
+        "key": "C",
+        "text": "A shell variable"
+      },
+      {
+        "key": "D",
+        "text": "A directory entry only"
+      }
+    ],
+    "answer": "B",
+    "reason": "An inode stores metadata about a file except its filename."
+  },
+  {
+    "id": 28,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inode",
+    "difficulty": "hard",
+    "question": "Which command displays inode numbers of files?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`ls -i`"
+      },
+      {
+        "key": "B",
+        "text": "`ls -a`"
+      },
+      {
+        "key": "C",
+        "text": "inode"
+      },
+      {
+        "key": "D",
+        "text": "`stat -n`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `ls -i` command displays inode numbers alongside filenames."
+  },
+  {
+    "id": 29,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File System Size",
+    "difficulty": "medium",
+    "question": "Which command displays file system disk space usage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "du"
+      },
+      {
+        "key": "B",
+        "text": "df"
+      },
+      {
+        "key": "C",
+        "text": "size"
+      },
+      {
+        "key": "D",
+        "text": "mount"
+      }
+    ],
+    "answer": "B",
+    "reason": "df displays total, used, and available space on file systems."
+  },
+  {
+    "id": 30,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File System Size",
+    "difficulty": "medium",
+    "question": "Which command displays the disk usage of files and directories?",
+    "options": [
+      {
+        "key": "A",
+        "text": "df"
+      },
+      {
+        "key": "B",
+        "text": "du"
+      },
+      {
+        "key": "C",
+        "text": "ls"
+      },
+      {
+        "key": "D",
+        "text": "size"
+      }
+    ],
+    "answer": "B",
+    "reason": "du reports disk usage for files and directories."
+  },
+  {
+    "id": 31,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Redirection",
+    "difficulty": "easy",
+    "question": "What does the `>` operator do in UNIX?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Append output to a file"
+      },
+      {
+        "key": "B",
+        "text": "Redirect output and overwrite the file"
+      },
+      {
+        "key": "C",
+        "text": "Read input from a file"
+      },
+      {
+        "key": "D",
+        "text": "Create a pipe"
+      }
+    ],
+    "answer": "B",
+    "reason": "The > operator redirects output and replaces existing file contents."
+  },
+  {
+    "id": 32,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Redirection",
+    "difficulty": "easy",
+    "question": "What does the `>>` operator do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Overwrite a file"
+      },
+      {
+        "key": "B",
+        "text": "Delete a file"
+      },
+      {
+        "key": "C",
+        "text": "Append output to a file"
+      },
+      {
+        "key": "D",
+        "text": "Pipe output"
+      }
+    ],
+    "answer": "C",
+    "reason": "The >> operator appends output to the end of a file."
+  },
+  {
+    "id": 33,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Pipe",
+    "difficulty": "medium",
+    "question": "What is the purpose of the pipe (|) operator?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Join two files"
+      },
+      {
+        "key": "B",
+        "text": "Send output of one command as input to another"
+      },
+      {
+        "key": "C",
+        "text": "Create directories"
+      },
+      {
+        "key": "D",
+        "text": "Copy files"
+      }
+    ],
+    "answer": "B",
+    "reason": "The pipe operator connects commands by passing output from one to another."
+  },
+  {
+    "id": 34,
+    "subject": "UNIX and Shell Programming",
+    "topic": "tee Command",
+    "difficulty": "medium",
+    "question": "What is the primary purpose of the tee command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Display and save output simultaneously"
+      },
+      {
+        "key": "B",
+        "text": "Delete temporary files"
+      },
+      {
+        "key": "C",
+        "text": "Create links"
+      },
+      {
+        "key": "D",
+        "text": "Change timestamps"
+      }
+    ],
+    "answer": "A",
+    "reason": "tee writes output to both the terminal and a file."
+  },
+  {
+    "id": 35,
+    "subject": "UNIX and Shell Programming",
+    "topic": "tee Command",
+    "difficulty": "hard",
+    "question": "Which command appends output to a file while displaying it on the screen using tee?",
+    "options": [
+      {
+        "key": "A",
+        "text": "tee file.txt"
+      },
+      {
+        "key": "B",
+        "text": "tee > file.txt"
+      },
+      {
+        "key": "C",
+        "text": "`tee -a` file.txt"
+      },
+      {
+        "key": "D",
+        "text": "`tee -r` file.txt"
+      }
+    ],
+    "answer": "C",
+    "reason": "The -a option of tee appends output to the specified file instead of overwriting it."
+  },
+  {
+    "id": 36,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "medium",
+    "question": "Which command creates multiple directories at once?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mkdir dir1 dir2 dir3"
+      },
+      {
+        "key": "B",
+        "text": "mkmulti dir1 dir2 dir3"
+      },
+      {
+        "key": "C",
+        "text": "createdir dir1 dir2 dir3"
+      },
+      {
+        "key": "D",
+        "text": "`mkdir -m` dir1 dir2 dir3"
+      }
+    ],
+    "answer": "A",
+    "reason": "The mkdir command can accept multiple directory names and create them simultaneously."
+  },
+  {
+    "id": 37,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "medium",
+    "question": "What does the command ``mkdir -p` a/b/c` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deletes directories"
+      },
+      {
+        "key": "B",
+        "text": "Creates parent directories if needed"
+      },
+      {
+        "key": "C",
+        "text": "Moves directories"
+      },
+      {
+        "key": "D",
+        "text": "Copies directories"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -p option creates intermediate parent directories automatically."
+  },
+  {
+    "id": 38,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "easy",
+    "question": "Which command changes to the parent directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cd ."
+      },
+      {
+        "key": "B",
+        "text": "cd /"
+      },
+      {
+        "key": "C",
+        "text": "cd .."
+      },
+      {
+        "key": "D",
+        "text": "cd ~"
+      }
+    ],
+    "answer": "C",
+    "reason": "The `..` notation represents the parent directory."
+  },
+  {
+    "id": 39,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Management",
+    "difficulty": "easy",
+    "question": "Which symbol represents the user's home directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "~"
+      },
+      {
+        "key": "B",
+        "text": "."
+      },
+      {
+        "key": "C",
+        "text": ".."
+      },
+      {
+        "key": "D",
+        "text": "/"
+      }
+    ],
+    "answer": "A",
+    "reason": "The tilde (~) is shorthand for the current user's home directory."
+  },
+  {
+    "id": 40,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy Command",
+    "difficulty": "medium",
+    "question": "Which option of cp preserves file attributes during copying?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-p"
+      },
+      {
+        "key": "B",
+        "text": "-f"
+      },
+      {
+        "key": "C",
+        "text": "-n"
+      },
+      {
+        "key": "D",
+        "text": "-x"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -p option preserves timestamps, ownership, and permissions."
+  },
+  {
+    "id": 41,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Move Command",
+    "difficulty": "medium",
+    "question": "Which command can be used to rename a file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cp"
+      },
+      {
+        "key": "B",
+        "text": "renamefile"
+      },
+      {
+        "key": "C",
+        "text": "mv"
+      },
+      {
+        "key": "D",
+        "text": "touch"
+      }
+    ],
+    "answer": "C",
+    "reason": "The mv command renames a file when the source and destination are in the same directory."
+  },
+  {
+    "id": 42,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Commands",
+    "difficulty": "medium",
+    "question": "Which command can create an empty file named test.txt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "touch test.txt"
+      },
+      {
+        "key": "B",
+        "text": "mkfile test.txt"
+      },
+      {
+        "key": "C",
+        "text": "create test.txt"
+      },
+      {
+        "key": "D",
+        "text": "new test.txt"
+      }
+    ],
+    "answer": "A",
+    "reason": "touch creates an empty file if it does not already exist."
+  },
+  {
+    "id": 43,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Commands",
+    "difficulty": "medium",
+    "question": "Which command forcefully removes a directory and all its contents?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`rmdir -f`"
+      },
+      {
+        "key": "B",
+        "text": "`rm -r`"
+      },
+      {
+        "key": "C",
+        "text": "`remove -all`"
+      },
+      {
+        "key": "D",
+        "text": "deltree"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `rm -r` command recursively removes directories and their contents."
+  },
+  {
+    "id": 44,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Listing",
+    "difficulty": "easy",
+    "question": "Which option of ls displays hidden files?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-h"
+      },
+      {
+        "key": "B",
+        "text": "-l"
+      },
+      {
+        "key": "C",
+        "text": "-a"
+      },
+      {
+        "key": "D",
+        "text": "-s"
+      }
+    ],
+    "answer": "C",
+    "reason": "The -a option displays all files, including hidden files beginning with a dot."
+  },
+  {
+    "id": 45,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Listing",
+    "difficulty": "medium",
+    "question": "Which command displays file sizes in human-readable format?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`ls -lh`"
+      },
+      {
+        "key": "B",
+        "text": "`ls -a`"
+      },
+      {
+        "key": "C",
+        "text": "`ls -r`"
+      },
+      {
+        "key": "D",
+        "text": "`ls -f`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -h option `with -l` displays file sizes in KB, MB, and GB format."
+  },
+  {
+    "id": 46,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Types",
+    "difficulty": "hard",
+    "question": "Which file type is represented by `c` in `ls -l` output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Character device file"
+      },
+      {
+        "key": "B",
+        "text": "Compressed file"
+      },
+      {
+        "key": "C",
+        "text": "Configuration file"
+      },
+      {
+        "key": "D",
+        "text": "Control file"
+      }
+    ],
+    "answer": "A",
+    "reason": "The character `c` denotes a character device file."
+  },
+  {
+    "id": 47,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Types",
+    "difficulty": "hard",
+    "question": "Which file type is represented by `b` in `ls -l` output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Binary file"
+      },
+      {
+        "key": "B",
+        "text": "Boot file"
+      },
+      {
+        "key": "C",
+        "text": "Block device file"
+      },
+      {
+        "key": "D",
+        "text": "Buffer file"
+      }
+    ],
+    "answer": "C",
+    "reason": "The character `b` represents a block device file."
+  },
+  {
+    "id": 48,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Permissions",
+    "difficulty": "easy",
+    "question": "What does the permission string rwxr-xr-x correspond to numerically?",
+    "options": [
+      {
+        "key": "A",
+        "text": "777"
+      },
+      {
+        "key": "B",
+        "text": "755"
+      },
+      {
+        "key": "C",
+        "text": "644"
+      },
+      {
+        "key": "D",
+        "text": "700"
+      }
+    ],
+    "answer": "B",
+    "reason": "rwx=7, r-x=5, r-x=5 giving 755."
+  },
+  {
+    "id": 49,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Permissions",
+    "difficulty": "medium",
+    "question": "Which command grants read, write, and execute permissions to everyone?",
+    "options": [
+      {
+        "key": "A",
+        "text": "chmod 755 file"
+      },
+      {
+        "key": "B",
+        "text": "chmod 644 file"
+      },
+      {
+        "key": "C",
+        "text": "chmod 777 file"
+      },
+      {
+        "key": "D",
+        "text": "chmod 700 file"
+      }
+    ],
+    "answer": "C",
+    "reason": "777 grants rwx permissions to owner, group, and others."
+  },
+  {
+    "id": 50,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Permissions",
+    "difficulty": "medium",
+    "question": "Which permission allows a user to view file contents but not modify them?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Execute"
+      },
+      {
+        "key": "B",
+        "text": "Write"
+      },
+      {
+        "key": "C",
+        "text": "Read"
+      },
+      {
+        "key": "D",
+        "text": "Delete"
+      }
+    ],
+    "answer": "C",
+    "reason": "Read permission enables viewing file contents."
+  },
+  {
+    "id": 51,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Timestamps",
+    "difficulty": "medium",
+    "question": "Which command displays detailed file timestamp information?",
+    "options": [
+      {
+        "key": "A",
+        "text": "stat"
+      },
+      {
+        "key": "B",
+        "text": "showtime"
+      },
+      {
+        "key": "C",
+        "text": "clock"
+      },
+      {
+        "key": "D",
+        "text": "`ls -s`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The stat command displays atime, mtime, ctime, inode information, and more."
+  },
+  {
+    "id": 52,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Touch Command",
+    "difficulty": "hard",
+    "question": "Which touch option changes only the access time of a file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-m"
+      },
+      {
+        "key": "B",
+        "text": "-a"
+      },
+      {
+        "key": "C",
+        "text": "-t"
+      },
+      {
+        "key": "D",
+        "text": "-d"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -a option modifies only the access time (atime)."
+  },
+  {
+    "id": 53,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Touch Command",
+    "difficulty": "hard",
+    "question": "Which touch option changes only the modification time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-a"
+      },
+      {
+        "key": "B",
+        "text": "-c"
+      },
+      {
+        "key": "C",
+        "text": "-m"
+      },
+      {
+        "key": "D",
+        "text": "-r"
+      }
+    ],
+    "answer": "C",
+    "reason": "The -m option updates only the modification time."
+  },
+  {
+    "id": 54,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Find Command",
+    "difficulty": "medium",
+    "question": "Which command finds all files named report.txt starting from the current directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "find . -name report.txt"
+      },
+      {
+        "key": "B",
+        "text": "search report.txt"
+      },
+      {
+        "key": "C",
+        "text": "locate report.txt -current"
+      },
+      {
+        "key": "D",
+        "text": "grep report.txt"
+      }
+    ],
+    "answer": "A",
+    "reason": "find . -name searches recursively from the current directory."
+  },
+  {
+    "id": 55,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Find Command",
+    "difficulty": "hard",
+    "question": "Which option of find searches only directories?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-d"
+      },
+      {
+        "key": "B",
+        "text": "-type d"
+      },
+      {
+        "key": "C",
+        "text": "-dir"
+      },
+      {
+        "key": "D",
+        "text": "-folder"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -type d option restricts results to directories."
+  },
+  {
+    "id": 56,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Find Command",
+    "difficulty": "hard",
+    "question": "Which option of find searches only regular files?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-type f"
+      },
+      {
+        "key": "B",
+        "text": "-file"
+      },
+      {
+        "key": "C",
+        "text": "-regular"
+      },
+      {
+        "key": "D",
+        "text": "-type r"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -type f option limits search results to regular files."
+  },
+  {
+    "id": 57,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Soft Links",
+    "difficulty": "medium",
+    "question": "What happens to a symbolic link if the original file is deleted?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nothing happens"
+      },
+      {
+        "key": "B",
+        "text": "The link becomes broken"
+      },
+      {
+        "key": "C",
+        "text": "The link becomes a hard link"
+      },
+      {
+        "key": "D",
+        "text": "The original file is restored"
+      }
+    ],
+    "answer": "B",
+    "reason": "A symbolic link stores the pathname, so it becomes invalid when the target is removed."
+  },
+  {
+    "id": 58,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Hard Links",
+    "difficulty": "hard",
+    "question": "Which statement about hard links is true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They can span file systems"
+      },
+      {
+        "key": "B",
+        "text": "They point to pathnames"
+      },
+      {
+        "key": "C",
+        "text": "They share the same inode"
+      },
+      {
+        "key": "D",
+        "text": "They exist only for directories"
+      }
+    ],
+    "answer": "C",
+    "reason": "Hard links reference the same inode and data blocks."
+  },
+  {
+    "id": 59,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Hard Links",
+    "difficulty": "hard",
+    "question": "Which type of link can cross different file systems?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hard link"
+      },
+      {
+        "key": "B",
+        "text": "Symbolic link"
+      },
+      {
+        "key": "C",
+        "text": "Inode link"
+      },
+      {
+        "key": "D",
+        "text": "Device link"
+      }
+    ],
+    "answer": "B",
+    "reason": "Symbolic links store pathnames and can reference files on different file systems."
+  },
+  {
+    "id": 60,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inode",
+    "difficulty": "medium",
+    "question": "Which information is NOT stored in an inode?",
+    "options": [
+      {
+        "key": "A",
+        "text": "File size"
+      },
+      {
+        "key": "B",
+        "text": "Permissions"
+      },
+      {
+        "key": "C",
+        "text": "Owner information"
+      },
+      {
+        "key": "D",
+        "text": "Filename"
+      }
+    ],
+    "answer": "D",
+    "reason": "File names are stored in directory entries, not inodes."
+  },
+  {
+    "id": 61,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inode",
+    "difficulty": "hard",
+    "question": "Two hard-linked files have:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Different inode numbers"
+      },
+      {
+        "key": "B",
+        "text": "The same inode number"
+      },
+      {
+        "key": "C",
+        "text": "Different permissions always"
+      },
+      {
+        "key": "D",
+        "text": "Different contents always"
+      }
+    ],
+    "answer": "B",
+    "reason": "Hard-linked files reference the same inode."
+  },
+  {
+    "id": 62,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File System Size",
+    "difficulty": "medium",
+    "question": "Which command displays disk usage in human-readable format?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`du -h`"
+      },
+      {
+        "key": "B",
+        "text": "`du -l`"
+      },
+      {
+        "key": "C",
+        "text": "`df -s`"
+      },
+      {
+        "key": "D",
+        "text": "`ls -h`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -h option shows sizes in KB, MB, and GB."
+  },
+  {
+    "id": 63,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File System Size",
+    "difficulty": "medium",
+    "question": "Which command shows free space available on mounted file systems?",
+    "options": [
+      {
+        "key": "A",
+        "text": "du"
+      },
+      {
+        "key": "B",
+        "text": "df"
+      },
+      {
+        "key": "C",
+        "text": "mount"
+      },
+      {
+        "key": "D",
+        "text": "size"
+      }
+    ],
+    "answer": "B",
+    "reason": "df reports free and used disk space for mounted file systems."
+  },
+  {
+    "id": 64,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Redirection",
+    "difficulty": "medium",
+    "question": "What happens when output is redirected using `>` to an existing file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Output is appended"
+      },
+      {
+        "key": "B",
+        "text": "The file is overwritten"
+      },
+      {
+        "key": "C",
+        "text": "An error occurs"
+      },
+      {
+        "key": "D",
+        "text": "The file is deleted"
+      }
+    ],
+    "answer": "B",
+    "reason": "The > operator replaces the existing contents of the file."
+  },
+  {
+    "id": 65,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Pipe",
+    "difficulty": "medium",
+    "question": "What is the output of `ls | `wc -l``?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Number of files and directories listed"
+      },
+      {
+        "key": "B",
+        "text": "File sizes"
+      },
+      {
+        "key": "C",
+        "text": "Directory permissions"
+      },
+      {
+        "key": "D",
+        "text": "Current directory path"
+      }
+    ],
+    "answer": "A",
+    "reason": "The output of ls is passed to `wc -l`, which counts the lines."
+  },
+  {
+    "id": 66,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Pipe",
+    "difficulty": "hard",
+    "question": "Which operator connects the output of one command to the input of another?",
+    "options": [
+      {
+        "key": "A",
+        "text": ">"
+      },
+      {
+        "key": "B",
+        "text": ">>"
+      },
+      {
+        "key": "C",
+        "text": "|"
+      },
+      {
+        "key": "D",
+        "text": "&"
+      }
+    ],
+    "answer": "C",
+    "reason": "The pipe operator transfers standard output from one command to another command's standard input."
+  },
+  {
+    "id": 67,
+    "subject": "UNIX and Shell Programming",
+    "topic": "tee Command",
+    "difficulty": "medium",
+    "question": "Which command displays output on screen and writes it to output.txt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "command > output.txt"
+      },
+      {
+        "key": "B",
+        "text": "command | tee output.txt"
+      },
+      {
+        "key": "C",
+        "text": "command >> output.txt"
+      },
+      {
+        "key": "D",
+        "text": "command < output.txt"
+      }
+    ],
+    "answer": "B",
+    "reason": "tee duplicates output to both the terminal and the specified file."
+  },
+  {
+    "id": 68,
+    "subject": "UNIX and Shell Programming",
+    "topic": "tee Command",
+    "difficulty": "hard",
+    "question": "Which option of tee appends to a file instead of overwriting it?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-a"
+      },
+      {
+        "key": "B",
+        "text": "-r"
+      },
+      {
+        "key": "C",
+        "text": "-p"
+      },
+      {
+        "key": "D",
+        "text": "-f"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -a option appends output to an existing file."
+  },
+  {
+    "id": 69,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Combined Concepts",
+    "difficulty": "hard",
+    "question": "Which command creates a symbolic link named link.txt pointing to file.txt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ln file.txt link.txt"
+      },
+      {
+        "key": "B",
+        "text": "`ln -s` file.txt link.txt"
+      },
+      {
+        "key": "C",
+        "text": "link file.txt link.txt"
+      },
+      {
+        "key": "D",
+        "text": "`cp -s` file.txt link.txt"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `ln -s` command creates a symbolic (soft) link."
+  },
+  {
+    "id": 70,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Combined Concepts",
+    "difficulty": "hard",
+    "question": "Which command displays both inode numbers and detailed file information?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`ls -li`"
+      },
+      {
+        "key": "B",
+        "text": "`ls -a`"
+      },
+      {
+        "key": "C",
+        "text": "`stat -l`"
+      },
+      {
+        "key": "D",
+        "text": "`inode -l`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The combination `of -l` `and -i` options displays detailed information along with inode numbers."
+  },
+  {
+    "id": 71,
+    "subject": "UNIX and Shell Programming",
+    "topic": "mkdir Command",
+    "difficulty": "easy",
+    "question": "Which command creates a directory named `projects`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mkdir projects"
+      },
+      {
+        "key": "B",
+        "text": "create projects"
+      },
+      {
+        "key": "C",
+        "text": "md projects"
+      },
+      {
+        "key": "D",
+        "text": "dir projects"
+      }
+    ],
+    "answer": "A",
+    "reason": "The mkdir command is used to create directories in UNIX."
+  },
+  {
+    "id": 72,
+    "subject": "UNIX and Shell Programming",
+    "topic": "cd Command",
+    "difficulty": "easy",
+    "question": "What does the command `cd ~` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Moves to the root directory"
+      },
+      {
+        "key": "B",
+        "text": "Moves to the home directory"
+      },
+      {
+        "key": "C",
+        "text": "Moves to the parent directory"
+      },
+      {
+        "key": "D",
+        "text": "Displays the current directory"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `~` symbol refers to the current user's home directory."
+  },
+  {
+    "id": 73,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy Command",
+    "difficulty": "medium",
+    "question": "Which command copies file1.txt to file2.txt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mv file1.txt file2.txt"
+      },
+      {
+        "key": "B",
+        "text": "cp file1.txt file2.txt"
+      },
+      {
+        "key": "C",
+        "text": "copy file1.txt file2.txt"
+      },
+      {
+        "key": "D",
+        "text": "touch file2.txt"
+      }
+    ],
+    "answer": "B",
+    "reason": "The cp command duplicates files and directories."
+  },
+  {
+    "id": 74,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Move Command",
+    "difficulty": "medium",
+    "question": "Which command moves file.txt to the `/tmp` directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cp file.txt `/tmp`"
+      },
+      {
+        "key": "B",
+        "text": "mv file.txt `/tmp`"
+      },
+      {
+        "key": "C",
+        "text": "move file.txt `/tmp`"
+      },
+      {
+        "key": "D",
+        "text": "rename file.txt `/tmp`"
+      }
+    ],
+    "answer": "B",
+    "reason": "The mv command is used to move files and directories."
+  },
+  {
+    "id": 75,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Creation",
+    "difficulty": "easy",
+    "question": "Which command creates an empty file called notes.txt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "touch notes.txt"
+      },
+      {
+        "key": "B",
+        "text": "mkdir notes.txt"
+      },
+      {
+        "key": "C",
+        "text": "cat notes.txt"
+      },
+      {
+        "key": "D",
+        "text": "echo notes.txt"
+      }
+    ],
+    "answer": "A",
+    "reason": "touch creates an empty file if it does not already exist."
+  },
+  {
+    "id": 76,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Removal",
+    "difficulty": "easy",
+    "question": "Which command removes the file report.txt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "delete report.txt"
+      },
+      {
+        "key": "B",
+        "text": "rmdir report.txt"
+      },
+      {
+        "key": "C",
+        "text": "rm report.txt"
+      },
+      {
+        "key": "D",
+        "text": "erase report.txt"
+      }
+    ],
+    "answer": "C",
+    "reason": "rm is the standard UNIX command for removing files."
+  },
+  {
+    "id": 77,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Removal",
+    "difficulty": "easy",
+    "question": "What happens if rmdir is used on a non-empty directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The directory is removed"
+      },
+      {
+        "key": "B",
+        "text": "Only files are removed"
+      },
+      {
+        "key": "C",
+        "text": "An error occurs"
+      },
+      {
+        "key": "D",
+        "text": "The directory is renamed"
+      }
+    ],
+    "answer": "C",
+    "reason": "rmdir can remove only empty directories."
+  },
+  {
+    "id": 78,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Listing",
+    "difficulty": "medium",
+    "question": "Which option of ls sorts files by modification time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-t"
+      },
+      {
+        "key": "B",
+        "text": "-i"
+      },
+      {
+        "key": "C",
+        "text": "-a"
+      },
+      {
+        "key": "D",
+        "text": "-d"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -t option sorts directory contents by modification time."
+  },
+  {
+    "id": 79,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Directory Listing",
+    "difficulty": "medium",
+    "question": "Which option of ls displays inode numbers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-l"
+      },
+      {
+        "key": "B",
+        "text": "-a"
+      },
+      {
+        "key": "C",
+        "text": "-i"
+      },
+      {
+        "key": "D",
+        "text": "-h"
+      }
+    ],
+    "answer": "C",
+    "reason": "The -i option displays inode numbers alongside filenames."
+  },
+  {
+    "id": 80,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Types",
+    "difficulty": "hard",
+    "question": "Which symbol represents a FIFO (named pipe) file in `ls -l` output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "p"
+      },
+      {
+        "key": "B",
+        "text": "f"
+      },
+      {
+        "key": "C",
+        "text": "n"
+      },
+      {
+        "key": "D",
+        "text": "|"
+      }
+    ],
+    "answer": "A",
+    "reason": "A FIFO or named pipe is represented by the character `p`."
+  },
+  {
+    "id": 81,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Types",
+    "difficulty": "hard",
+    "question": "Which symbol denotes a socket file in `ls -l` output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "o"
+      },
+      {
+        "key": "B",
+        "text": "s"
+      },
+      {
+        "key": "C",
+        "text": "k"
+      },
+      {
+        "key": "D",
+        "text": "t"
+      }
+    ],
+    "answer": "B",
+    "reason": "Socket files are represented by the letter `s`."
+  },
+  {
+    "id": 82,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Permissions",
+    "difficulty": "medium",
+    "question": "What does chmod 644 file.txt assign?",
+    "options": [
+      {
+        "key": "A",
+        "text": "rw-r--r--"
+      },
+      {
+        "key": "B",
+        "text": "rwxr-xr-x"
+      },
+      {
+        "key": "C",
+        "text": "rwx------"
+      },
+      {
+        "key": "D",
+        "text": "rwxrwxrwx"
+      }
+    ],
+    "answer": "A",
+    "reason": "644 gives read-write to owner and read-only to group and others."
+  },
+  {
+    "id": 83,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Permissions",
+    "difficulty": "medium",
+    "question": "Which permission is required to enter a directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Read"
+      },
+      {
+        "key": "B",
+        "text": "Write"
+      },
+      {
+        "key": "C",
+        "text": "Execute"
+      },
+      {
+        "key": "D",
+        "text": "Delete"
+      }
+    ],
+    "answer": "C",
+    "reason": "Execute permission on a directory allows traversal into that directory."
+  },
+  {
+    "id": 84,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Permissions",
+    "difficulty": "hard",
+    "question": "What does chmod 700 file assign?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Full access to everyone"
+      },
+      {
+        "key": "B",
+        "text": "Full access only to owner"
+      },
+      {
+        "key": "C",
+        "text": "Read access to everyone"
+      },
+      {
+        "key": "D",
+        "text": "Read and execute for everyone"
+      }
+    ],
+    "answer": "B",
+    "reason": "700 gives rwx only to the owner and no permissions to others."
+  },
+  {
+    "id": 85,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Touch Command",
+    "difficulty": "medium",
+    "question": "What happens if touch is executed on an existing file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The file is deleted"
+      },
+      {
+        "key": "B",
+        "text": "The file is copied"
+      },
+      {
+        "key": "C",
+        "text": "Its timestamps are updated"
+      },
+      {
+        "key": "D",
+        "text": "Its permissions change"
+      }
+    ],
+    "answer": "C",
+    "reason": "touch updates timestamps if the file already exists."
+  },
+  {
+    "id": 86,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Timestamps",
+    "difficulty": "hard",
+    "question": "Which timestamp changes when file permissions are modified?",
+    "options": [
+      {
+        "key": "A",
+        "text": "atime"
+      },
+      {
+        "key": "B",
+        "text": "mtime"
+      },
+      {
+        "key": "C",
+        "text": "ctime"
+      },
+      {
+        "key": "D",
+        "text": "btime"
+      }
+    ],
+    "answer": "C",
+    "reason": "ctime tracks metadata changes such as permissions and ownership."
+  },
+  {
+    "id": 87,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Find Command",
+    "difficulty": "medium",
+    "question": "Which command finds all directories named backup?",
+    "options": [
+      {
+        "key": "A",
+        "text": "find . -type d -name backup"
+      },
+      {
+        "key": "B",
+        "text": "find `backup -dir`"
+      },
+      {
+        "key": "C",
+        "text": "locate `backup -d`"
+      },
+      {
+        "key": "D",
+        "text": "grep backup"
+      }
+    ],
+    "answer": "A",
+    "reason": "The combination `of -type` d `and -name` restricts results to directories."
+  },
+  {
+    "id": 88,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Find Command",
+    "difficulty": "hard",
+    "question": "Which option of find searches files larger than a specified size?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-size"
+      },
+      {
+        "key": "B",
+        "text": "-length"
+      },
+      {
+        "key": "C",
+        "text": "-bytes"
+      },
+      {
+        "key": "D",
+        "text": "-big"
+      }
+    ],
+    "answer": "A",
+    "reason": "The -size option is used to search files based on size."
+  },
+  {
+    "id": 89,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Soft Links",
+    "difficulty": "medium",
+    "question": "A symbolic link stores:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The target file's inode number directly"
+      },
+      {
+        "key": "B",
+        "text": "The pathname of the target file"
+      },
+      {
+        "key": "C",
+        "text": "The file contents"
+      },
+      {
+        "key": "D",
+        "text": "Only permissions"
+      }
+    ],
+    "answer": "B",
+    "reason": "A symbolic link contains a pathname reference to another file."
+  },
+  {
+    "id": 90,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Hard Links",
+    "difficulty": "hard",
+    "question": "Deleting the original file affects a hard link how?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The hard link becomes broken"
+      },
+      {
+        "key": "B",
+        "text": "The hard link continues to access the data"
+      },
+      {
+        "key": "C",
+        "text": "The hard link is automatically removed"
+      },
+      {
+        "key": "D",
+        "text": "The file becomes read-only"
+      }
+    ],
+    "answer": "B",
+    "reason": "Hard links point to the same inode, so data remains accessible until all links are removed."
+  },
+  {
+    "id": 91,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inode",
+    "difficulty": "medium",
+    "question": "Which command provides detailed inode information about a file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "stat filename"
+      },
+      {
+        "key": "B",
+        "text": "inode filename"
+      },
+      {
+        "key": "C",
+        "text": "ls filename"
+      },
+      {
+        "key": "D",
+        "text": "file filename"
+      }
+    ],
+    "answer": "A",
+    "reason": "The stat command displays inode numbers and file metadata."
+  },
+  {
+    "id": 92,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Inode",
+    "difficulty": "hard",
+    "question": "What happens when all hard links to an inode are removed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The inode and data blocks are freed"
+      },
+      {
+        "key": "B",
+        "text": "Only the filename is removed"
+      },
+      {
+        "key": "C",
+        "text": "The inode becomes a symbolic link"
+      },
+      {
+        "key": "D",
+        "text": "Nothing happens"
+      }
+    ],
+    "answer": "A",
+    "reason": "The filesystem frees storage when the inode's link count reaches zero."
+  },
+  {
+    "id": 93,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Disk Usage",
+    "difficulty": "medium",
+    "question": "Which command shows the size of a specific directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "du directory"
+      },
+      {
+        "key": "B",
+        "text": "df directory"
+      },
+      {
+        "key": "C",
+        "text": "ls directory"
+      },
+      {
+        "key": "D",
+        "text": "size directory"
+      }
+    ],
+    "answer": "A",
+    "reason": "du reports disk usage of files and directories."
+  },
+  {
+    "id": 94,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Disk Usage",
+    "difficulty": "hard",
+    "question": "Which command displays inode usage of file systems?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`df -i`"
+      },
+      {
+        "key": "B",
+        "text": "`du -i`"
+      },
+      {
+        "key": "C",
+        "text": "`ls -i`"
+      },
+      {
+        "key": "D",
+        "text": "`stat -i`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `df -i` command displays inode statistics for mounted file systems."
+  },
+  {
+    "id": 95,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Output Redirection",
+    "difficulty": "easy",
+    "question": "Which operator redirects standard output to a new file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "<"
+      },
+      {
+        "key": "B",
+        "text": ">"
+      },
+      {
+        "key": "C",
+        "text": "|"
+      },
+      {
+        "key": "D",
+        "text": "&"
+      }
+    ],
+    "answer": "B",
+    "reason": "The > operator redirects output and overwrites the destination file."
+  },
+  {
+    "id": 96,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Output Redirection",
+    "difficulty": "medium",
+    "question": "What is the effect of `echo Hello >> file.txt`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deletes file.txt"
+      },
+      {
+        "key": "B",
+        "text": "Overwrites file.txt"
+      },
+      {
+        "key": "C",
+        "text": "Appends Hello to file.txt"
+      },
+      {
+        "key": "D",
+        "text": "Displays Hello only"
+      }
+    ],
+    "answer": "C",
+    "reason": "The >> operator appends output to the end of a file."
+  },
+  {
+    "id": 97,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Pipe",
+    "difficulty": "medium",
+    "question": "Which command displays only the number of lines in file.txt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cat file.txt | `wc -l`"
+      },
+      {
+        "key": "B",
+        "text": "cat file.txt | sort"
+      },
+      {
+        "key": "C",
+        "text": "cat file.txt | grep"
+      },
+      {
+        "key": "D",
+        "text": "cat file.txt > wc"
+      }
+    ],
+    "answer": "A",
+    "reason": "`wc -l` counts the number of lines received through the pipe."
+  },
+  {
+    "id": 98,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Pipe",
+    "difficulty": "hard",
+    "question": "What is the primary advantage of using pipes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They increase disk space"
+      },
+      {
+        "key": "B",
+        "text": "They connect commands without temporary files"
+      },
+      {
+        "key": "C",
+        "text": "They modify permissions"
+      },
+      {
+        "key": "D",
+        "text": "They create directories"
+      }
+    ],
+    "answer": "B",
+    "reason": "Pipes allow command output to be passed directly as input to another command."
+  },
+  {
+    "id": 99,
+    "subject": "UNIX and Shell Programming",
+    "topic": "tee Command",
+    "difficulty": "medium",
+    "question": "What does the command `ls | tee output.txt` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stores output only in output.txt"
+      },
+      {
+        "key": "B",
+        "text": "Displays output only on screen"
+      },
+      {
+        "key": "C",
+        "text": "Displays output and saves it to output.txt"
+      },
+      {
+        "key": "D",
+        "text": "Deletes output.txt"
+      }
+    ],
+    "answer": "C",
+    "reason": "tee duplicates input to both standard output and a file."
+  },
+  {
+    "id": 100,
+    "subject": "UNIX and Shell Programming",
+    "topic": "tee Command",
+    "difficulty": "hard",
+    "question": "Which statement about tee is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It can only write to files"
+      },
+      {
+        "key": "B",
+        "text": "It can only display output"
+      },
+      {
+        "key": "C",
+        "text": "It splits input to both screen and file(s)"
+      },
+      {
+        "key": "D",
+        "text": "It creates hard links"
+      }
+    ],
+    "answer": "C",
+    "reason": "The tee command duplicates standard input to standard output and one or more files."
+  }
 ]

@@ -1,2702 +1,2702 @@
 [
-    {
-        "id": 1,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Introduction to Shell",
-        "difficulty": "easy",
-        "question": "What is a shell in UNIX?",
-        "options": [
-            {
-                "key": "A",
-                "text": "A hardware component"
-            },
-            {
-                "key": "B",
-                "text": "A command interpreter"
-            },
-            {
-                "key": "C",
-                "text": "A file system"
-            },
-            {
-                "key": "D",
-                "text": "A compiler"
-            }
-        ],
-        "answer": "B",
-        "reason": "A shell acts as an interface between the user and the UNIX kernel by interpreting commands."
-    },
-    {
-        "id": 2,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Introduction to Shell",
-        "difficulty": "easy",
-        "question": "Which component receives commands from the shell for execution?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Compiler"
-            },
-            {
-                "key": "B",
-                "text": "Editor"
-            },
-            {
-                "key": "C",
-                "text": "Kernel"
-            },
-            {
-                "key": "D",
-                "text": "Linker"
-            }
-        ],
-        "answer": "C",
-        "reason": "The shell passes commands to the kernel for execution."
-    },
-    {
-        "id": 3,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Types of Shell",
-        "difficulty": "easy",
-        "question": "Which of the following is a UNIX shell?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Bash"
-            },
-            {
-                "key": "B",
-                "text": "Oracle"
-            },
-            {
-                "key": "C",
-                "text": "MySQL"
-            },
-            {
-                "key": "D",
-                "text": "Apache"
-            }
-        ],
-        "answer": "A",
-        "reason": "Bash (Bourne Again Shell) is one of the most widely used UNIX shells."
-    },
-    {
-        "id": 4,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Types of Shell",
-        "difficulty": "easy",
-        "question": "What does Bash stand for?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Basic Shell"
-            },
-            {
-                "key": "B",
-                "text": "Bourne Again Shell"
-            },
-            {
-                "key": "C",
-                "text": "Binary Application Shell"
-            },
-            {
-                "key": "D",
-                "text": "Bourne Application Shell"
-            }
-        ],
-        "answer": "B",
-        "reason": "Bash stands for Bourne Again Shell."
-    },
-    {
-        "id": 5,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Types of Shell",
-        "difficulty": "medium",
-        "question": "Which shell was developed as an enhanced version of the Bourne Shell?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Bash"
-            },
-            {
-                "key": "B",
-                "text": "C Shell"
-            },
-            {
-                "key": "C",
-                "text": "Korn Shell"
-            },
-            {
-                "key": "D",
-                "text": "Z Shell"
-            }
-        ],
-        "answer": "A",
-        "reason": "Bash was developed as an enhanced and free replacement for Bourne Shell."
-    },
-    {
-        "id": 6,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Types of Shell",
-        "difficulty": "medium",
-        "question": "Which shell is commonly represented by 'csh'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Korn Shell"
-            },
-            {
-                "key": "B",
-                "text": "C Shell"
-            },
-            {
-                "key": "C",
-                "text": "Bourne Shell"
-            },
-            {
-                "key": "D",
-                "text": "Z Shell"
-            }
-        ],
-        "answer": "B",
-        "reason": "csh stands for C Shell."
-    },
-    {
-        "id": 7,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Use of Shell",
-        "difficulty": "easy",
-        "question": "Which of the following is a primary use of the shell?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Executing commands"
-            },
-            {
-                "key": "B",
-                "text": "Manufacturing hardware"
-            },
-            {
-                "key": "C",
-                "text": "Formatting disks physically"
-            },
-            {
-                "key": "D",
-                "text": "Creating processors"
-            }
-        ],
-        "answer": "A",
-        "reason": "The shell is used to execute commands and automate tasks."
-    },
-    {
-        "id": 8,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Use of Shell",
-        "difficulty": "medium",
-        "question": "Shell scripts are primarily used for:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Automation"
-            },
-            {
-                "key": "B",
-                "text": "Hardware repair"
-            },
-            {
-                "key": "C",
-                "text": "Database design"
-            },
-            {
-                "key": "D",
-                "text": "Network cabling"
-            }
-        ],
-        "answer": "A",
-        "reason": "Shell scripts automate repetitive system administration and processing tasks."
-    },
-    {
-        "id": 9,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Variables",
-        "difficulty": "easy",
-        "question": "Which symbol is used before a variable name to access its value?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$"
-            },
-            {
-                "key": "B",
-                "text": "#"
-            },
-            {
-                "key": "C",
-                "text": "&"
-            },
-            {
-                "key": "D",
-                "text": "%"
-            }
-        ],
-        "answer": "A",
-        "reason": "The $ symbol is used to access the value stored in a variable."
-    },
-    {
-        "id": 10,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Variables",
-        "difficulty": "easy",
-        "question": "Which is a valid variable assignment in shell scripting?",
-        "options": [
-            {
-                "key": "A",
-                "text": "name = John"
-            },
-            {
-                "key": "B",
-                "text": "$name=John"
-            },
-            {
-                "key": "C",
-                "text": "name=John"
-            },
-            {
-                "key": "D",
-                "text": "name := John"
-            }
-        ],
-        "answer": "C",
-        "reason": "Variable assignment in shell scripting must not contain spaces around '='."
-    },
-    {
-        "id": 11,
-        "subject": "UNIX and Shell Programming",
-        "topic": "System Variables",
-        "difficulty": "medium",
-        "question": "Which variable stores the current user's home directory?",
-        "options": [
-            {
-                "key": "A",
-                "text": "HOME"
-            },
-            {
-                "key": "B",
-                "text": "USERID"
-            },
-            {
-                "key": "C",
-                "text": "DIR"
-            },
-            {
-                "key": "D",
-                "text": "PATHNAME"
-            }
-        ],
-        "answer": "A",
-        "reason": "HOME stores the path of the user's home directory."
-    },
-    {
-        "id": 12,
-        "subject": "UNIX and Shell Programming",
-        "topic": "System Variables",
-        "difficulty": "medium",
-        "question": "Which variable contains directories searched for commands?",
-        "options": [
-            {
-                "key": "A",
-                "text": "PATH"
-            },
-            {
-                "key": "B",
-                "text": "PWD"
-            },
-            {
-                "key": "C",
-                "text": "HOME"
-            },
-            {
-                "key": "D",
-                "text": "TERM"
-            }
-        ],
-        "answer": "A",
-        "reason": "PATH specifies where the shell searches for executable commands."
-    },
-    {
-        "id": 13,
-        "subject": "UNIX and Shell Programming",
-        "topic": "User Defined Variables",
-        "difficulty": "easy",
-        "question": "Which type of variable is created by the programmer?",
-        "options": [
-            {
-                "key": "A",
-                "text": "System variable"
-            },
-            {
-                "key": "B",
-                "text": "User-defined variable"
-            },
-            {
-                "key": "C",
-                "text": "Kernel variable"
-            },
-            {
-                "key": "D",
-                "text": "Process variable"
-            }
-        ],
-        "answer": "B",
-        "reason": "User-defined variables are created and managed by the script writer."
-    },
-    {
-        "id": 14,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Quotes",
-        "difficulty": "easy",
-        "question": "Which quotes prevent variable expansion?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Double quotes"
-            },
-            {
-                "key": "B",
-                "text": "Single quotes"
-            },
-            {
-                "key": "C",
-                "text": "Backticks"
-            },
-            {
-                "key": "D",
-                "text": "Parentheses"
-            }
-        ],
-        "answer": "B",
-        "reason": "Single quotes preserve the literal value of characters."
-    },
-    {
-        "id": 15,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Quotes",
-        "difficulty": "medium",
-        "question": "Which quotes allow variable expansion?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Single quotes"
-            },
-            {
-                "key": "B",
-                "text": "Double quotes"
-            },
-            {
-                "key": "C",
-                "text": "Curly braces"
-            },
-            {
-                "key": "D",
-                "text": "Square brackets"
-            }
-        ],
-        "answer": "B",
-        "reason": "Variables inside double quotes are expanded by the shell."
-    },
-    {
-        "id": 16,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Backslash",
-        "difficulty": "easy",
-        "question": "What is the purpose of the backslash (\\) character?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Comment symbol"
-            },
-            {
-                "key": "B",
-                "text": "Escape special characters"
-            },
-            {
-                "key": "C",
-                "text": "Create variables"
-            },
-            {
-                "key": "D",
-                "text": "Terminate scripts"
-            }
-        ],
-        "answer": "B",
-        "reason": "Backslash is used to escape special characters."
-    },
-    {
-        "id": 17,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Substitution",
-        "difficulty": "medium",
-        "question": "Which syntax is used for command substitution?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$(command)"
-            },
-            {
-                "key": "B",
-                "text": "{command}"
-            },
-            {
-                "key": "C",
-                "text": "[command]"
-            },
-            {
-                "key": "D",
-                "text": "<command>"
-            }
-        ],
-        "answer": "A",
-        "reason": "The $(command) syntax executes a command and substitutes its output."
-    },
-    {
-        "id": 18,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Substitution",
-        "difficulty": "hard",
-        "question": "What is the output of command substitution used for?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Process creation"
-            },
-            {
-                "key": "B",
-                "text": "Variable assignment or command arguments"
-            },
-            {
-                "key": "C",
-                "text": "Memory allocation"
-            },
-            {
-                "key": "D",
-                "text": "File deletion"
-            }
-        ],
-        "answer": "B",
-        "reason": "Command substitution captures command output for further use."
-    },
-    {
-        "id": 19,
-        "subject": "UNIX and Shell Programming",
-        "topic": "let Command",
-        "difficulty": "easy",
-        "question": "Which command is commonly used for arithmetic evaluation in shell scripts?",
-        "options": [
-            {
-                "key": "A",
-                "text": "expr"
-            },
-            {
-                "key": "B",
-                "text": "let"
-            },
-            {
-                "key": "C",
-                "text": "calc"
-            },
-            {
-                "key": "D",
-                "text": "math"
-            }
-        ],
-        "answer": "B",
-        "reason": "let performs arithmetic operations in shell scripts."
-    },
-    {
-        "id": 20,
-        "subject": "UNIX and Shell Programming",
-        "topic": "let Command",
-        "difficulty": "medium",
-        "question": "What does 'let a=a+1' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Deletes variable a"
-            },
-            {
-                "key": "B",
-                "text": "Increments a by 1"
-            },
-            {
-                "key": "C",
-                "text": "Creates a file"
-            },
-            {
-                "key": "D",
-                "text": "Prints a"
-            }
-        ],
-        "answer": "B",
-        "reason": "The expression increases the value stored in variable a by one."
-    },
-    {
-        "id": 21,
-        "subject": "UNIX and Shell Programming",
-        "topic": "User Input",
-        "difficulty": "easy",
-        "question": "Which command is used to take input from the user?",
-        "options": [
-            {
-                "key": "A",
-                "text": "scan"
-            },
-            {
-                "key": "B",
-                "text": "input"
-            },
-            {
-                "key": "C",
-                "text": "read"
-            },
-            {
-                "key": "D",
-                "text": "accept"
-            }
-        ],
-        "answer": "C",
-        "reason": "The read command accepts input from the keyboard."
-    },
-    {
-        "id": 22,
-        "subject": "UNIX and Shell Programming",
-        "topic": "User Input",
-        "difficulty": "medium",
-        "question": "Which command displays a message before reading input?",
-        "options": [
-            {
-                "key": "A",
-                "text": "echo"
-            },
-            {
-                "key": "B",
-                "text": "printf"
-            },
-            {
-                "key": "C",
-                "text": "echo followed by read"
-            },
-            {
-                "key": "D",
-                "text": "cat"
-            }
-        ],
-        "answer": "C",
-        "reason": "A common approach is to display a prompt using echo and then use read."
-    },
-    {
-        "id": 23,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Line Parameters",
-        "difficulty": "easy",
-        "question": "Which symbol represents the first command-line argument?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$0"
-            },
-            {
-                "key": "B",
-                "text": "$1"
-            },
-            {
-                "key": "C",
-                "text": "$#"
-            },
-            {
-                "key": "D",
-                "text": "$*"
-            }
-        ],
-        "answer": "B",
-        "reason": "$1 refers to the first command-line argument."
-    },
-    {
-        "id": 24,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Line Parameters",
-        "difficulty": "medium",
-        "question": "What does $0 represent?",
-        "options": [
-            {
-                "key": "A",
-                "text": "First argument"
-            },
-            {
-                "key": "B",
-                "text": "Second argument"
-            },
-            {
-                "key": "C",
-                "text": "Script name"
-            },
-            {
-                "key": "D",
-                "text": "Number of arguments"
-            }
-        ],
-        "answer": "C",
-        "reason": "$0 stores the script name."
-    },
-    {
-        "id": 25,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Line Parameters",
-        "difficulty": "medium",
-        "question": "Which special variable stores the number of command-line arguments?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$#"
-            },
-            {
-                "key": "B",
-                "text": "$@"
-            },
-            {
-                "key": "C",
-                "text": "$*"
-            },
-            {
-                "key": "D",
-                "text": "$0"
-            }
-        ],
-        "answer": "A",
-        "reason": "$# stores the total number of arguments supplied."
-    },
-    {
-        "id": 26,
-        "subject": "UNIX and Shell Programming",
-        "topic": "if Statement",
-        "difficulty": "easy",
-        "question": "Which keyword begins a conditional statement in shell scripting?",
-        "options": [
-            {
-                "key": "A",
-                "text": "if"
-            },
-            {
-                "key": "B",
-                "text": "when"
-            },
-            {
-                "key": "C",
-                "text": "case"
-            },
-            {
-                "key": "D",
-                "text": "switch"
-            }
-        ],
-        "answer": "A",
-        "reason": "The if keyword starts a conditional block."
-    },
-    {
-        "id": 27,
-        "subject": "UNIX and Shell Programming",
-        "topic": "if Statement",
-        "difficulty": "medium",
-        "question": "Which keyword terminates an if statement block?",
-        "options": [
-            {
-                "key": "A",
-                "text": "endif"
-            },
-            {
-                "key": "B",
-                "text": "done"
-            },
-            {
-                "key": "C",
-                "text": "fi"
-            },
-            {
-                "key": "D",
-                "text": "end"
-            }
-        ],
-        "answer": "C",
-        "reason": "The keyword fi ends an if statement."
-    },
-    {
-        "id": 28,
-        "subject": "UNIX and Shell Programming",
-        "topic": "if Statement",
-        "difficulty": "hard",
-        "question": "Which keyword provides an alternative branch in an if statement?",
-        "options": [
-            {
-                "key": "A",
-                "text": "otherwise"
-            },
-            {
-                "key": "B",
-                "text": "alternate"
-            },
-            {
-                "key": "C",
-                "text": "elseif"
-            },
-            {
-                "key": "D",
-                "text": "else"
-            }
-        ],
-        "answer": "D",
-        "reason": "The else block executes when the condition is false."
-    },
-    {
-        "id": 29,
-        "subject": "UNIX and Shell Programming",
-        "topic": "for Loop",
-        "difficulty": "easy",
-        "question": "Which loop is commonly used when the number of iterations is known?",
-        "options": [
-            {
-                "key": "A",
-                "text": "while"
-            },
-            {
-                "key": "B",
-                "text": "until"
-            },
-            {
-                "key": "C",
-                "text": "for"
-            },
-            {
-                "key": "D",
-                "text": "select"
-            }
-        ],
-        "answer": "C",
-        "reason": "The for loop is typically used for a known number of iterations."
-    },
-    {
-        "id": 30,
-        "subject": "UNIX and Shell Programming",
-        "topic": "for Loop",
-        "difficulty": "medium",
-        "question": "Which keyword ends a for loop block?",
-        "options": [
-            {
-                "key": "A",
-                "text": "fi"
-            },
-            {
-                "key": "B",
-                "text": "done"
-            },
-            {
-                "key": "C",
-                "text": "endfor"
-            },
-            {
-                "key": "D",
-                "text": "stop"
-            }
-        ],
-        "answer": "B",
-        "reason": "The done keyword terminates for, while, and until loops."
-    },
-    {
-        "id": 31,
-        "subject": "UNIX and Shell Programming",
-        "topic": "while Loop",
-        "difficulty": "easy",
-        "question": "A while loop executes as long as:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Condition is true"
-            },
-            {
-                "key": "B",
-                "text": "Condition is false"
-            },
-            {
-                "key": "C",
-                "text": "File exists"
-            },
-            {
-                "key": "D",
-                "text": "User logs out"
-            }
-        ],
-        "answer": "A",
-        "reason": "A while loop continues execution while its condition remains true."
-    },
-    {
-        "id": 32,
-        "subject": "UNIX and Shell Programming",
-        "topic": "while Loop",
-        "difficulty": "medium",
-        "question": "Which loop is best suited for reading lines from a file until EOF?",
-        "options": [
-            {
-                "key": "A",
-                "text": "for"
-            },
-            {
-                "key": "B",
-                "text": "while"
-            },
-            {
-                "key": "C",
-                "text": "until"
-            },
-            {
-                "key": "D",
-                "text": "case"
-            }
-        ],
-        "answer": "B",
-        "reason": "while loops are commonly used to process file input line by line."
-    },
-    {
-        "id": 33,
-        "subject": "UNIX and Shell Programming",
-        "topic": "until Loop",
-        "difficulty": "easy",
-        "question": "An until loop continues execution until:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Condition becomes true"
-            },
-            {
-                "key": "B",
-                "text": "Condition becomes false"
-            },
-            {
-                "key": "C",
-                "text": "User exits"
-            },
-            {
-                "key": "D",
-                "text": "File is deleted"
-            }
-        ],
-        "answer": "A",
-        "reason": "The until loop runs while the condition is false and stops when it becomes true."
-    },
-    {
-        "id": 34,
-        "subject": "UNIX and Shell Programming",
-        "topic": "until Loop",
-        "difficulty": "medium",
-        "question": "Which loop is logically opposite to a while loop?",
-        "options": [
-            {
-                "key": "A",
-                "text": "for"
-            },
-            {
-                "key": "B",
-                "text": "case"
-            },
-            {
-                "key": "C",
-                "text": "until"
-            },
-            {
-                "key": "D",
-                "text": "select"
-            }
-        ],
-        "answer": "C",
-        "reason": "until executes while a condition is false, making it the opposite of while."
-    },
-    {
-        "id": 35,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exit Status",
-        "difficulty": "easy",
-        "question": "Which special variable stores the exit status of the last command?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$!"
-            },
-            {
-                "key": "B",
-                "text": "$?"
-            },
-            {
-                "key": "C",
-                "text": "$#"
-            },
-            {
-                "key": "D",
-                "text": "$@"
-            }
-        ],
-        "answer": "B",
-        "reason": "$? contains the exit status of the most recently executed command."
-    },
-    {
-        "id": 36,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exit Status",
-        "difficulty": "medium",
-        "question": "What exit status usually indicates successful execution?",
-        "options": [
-            {
-                "key": "A",
-                "text": "0"
-            },
-            {
-                "key": "B",
-                "text": "1"
-            },
-            {
-                "key": "C",
-                "text": "-1"
-            },
-            {
-                "key": "D",
-                "text": "255"
-            }
-        ],
-        "answer": "A",
-        "reason": "An exit status of 0 conventionally indicates success."
-    },
-    {
-        "id": 37,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exit Status",
-        "difficulty": "medium",
-        "question": "A non-zero exit status generally indicates:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Success"
-            },
-            {
-                "key": "B",
-                "text": "Warning or error condition"
-            },
-            {
-                "key": "C",
-                "text": "Kernel panic"
-            },
-            {
-                "key": "D",
-                "text": "User logout"
-            }
-        ],
-        "answer": "B",
-        "reason": "Non-zero values are typically used to indicate errors or special conditions."
-    },
-    {
-        "id": 38,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Scripting",
-        "difficulty": "hard",
-        "question": "What is the purpose of '#!/bin/bash' at the beginning of a script?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Comment only"
-            },
-            {
-                "key": "B",
-                "text": "Specifies the interpreter"
-            },
-            {
-                "key": "C",
-                "text": "Defines a variable"
-            },
-            {
-                "key": "D",
-                "text": "Ends the script"
-            }
-        ],
-        "answer": "B",
-        "reason": "The shebang line tells the system which interpreter should execute the script."
-    },
-    {
-        "id": 39,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Scripting",
-        "difficulty": "hard",
-        "question": "Which symbol is used to begin a comment in shell scripts?",
-        "options": [
-            {
-                "key": "A",
-                "text": "//"
-            },
-            {
-                "key": "B",
-                "text": "/*"
-            },
-            {
-                "key": "C",
-                "text": "#"
-            },
-            {
-                "key": "D",
-                "text": "--"
-            }
-        ],
-        "answer": "C",
-        "reason": "The # symbol starts a comment in shell scripts."
-    },
-    {
-        "id": 40,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Programming Concepts",
-        "difficulty": "hard",
-        "question": "Which combination is most closely associated with shell scripting fundamentals?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Variables, loops, conditionals, command substitution"
-            },
-            {
-                "key": "B",
-                "text": "Tables, triggers, views, indexes"
-            },
-            {
-                "key": "C",
-                "text": "Classes, interfaces, inheritance, packages"
-            },
-            {
-                "key": "D",
-                "text": "Routers, switches, hubs, bridges"
-            }
-        ],
-        "answer": "A",
-        "reason": "Variables, loops, conditionals, and command substitution form the foundation of shell scripting."
-    },
-    {
-        "id": 41,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Types of Shell",
-        "difficulty": "medium",
-        "question": "Which shell is commonly represented by the executable name 'ksh'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Korn Shell"
-            },
-            {
-                "key": "B",
-                "text": "C Shell"
-            },
-            {
-                "key": "C",
-                "text": "Bourne Shell"
-            },
-            {
-                "key": "D",
-                "text": "Z Shell"
-            }
-        ],
-        "answer": "A",
-        "reason": "ksh stands for Korn Shell, developed by David Korn."
-    },
-    {
-        "id": 42,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Types of Shell",
-        "difficulty": "medium",
-        "question": "Which shell is commonly represented by 'sh'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Bash Shell"
-            },
-            {
-                "key": "B",
-                "text": "Bourne Shell"
-            },
-            {
-                "key": "C",
-                "text": "C Shell"
-            },
-            {
-                "key": "D",
-                "text": "Z Shell"
-            }
-        ],
-        "answer": "B",
-        "reason": "sh is the traditional Bourne Shell."
-    },
-    {
-        "id": 43,
-        "subject": "UNIX and Shell Programming",
-        "topic": "System Variables",
-        "difficulty": "easy",
-        "question": "Which variable stores the current working directory?",
-        "options": [
-            {
-                "key": "A",
-                "text": "HOME"
-            },
-            {
-                "key": "B",
-                "text": "PWD"
-            },
-            {
-                "key": "C",
-                "text": "PATH"
-            },
-            {
-                "key": "D",
-                "text": "USER"
-            }
-        ],
-        "answer": "B",
-        "reason": "PWD contains the present working directory."
-    },
-    {
-        "id": 44,
-        "subject": "UNIX and Shell Programming",
-        "topic": "System Variables",
-        "difficulty": "easy",
-        "question": "Which variable usually stores the username of the current user?",
-        "options": [
-            {
-                "key": "A",
-                "text": "USER"
-            },
-            {
-                "key": "B",
-                "text": "PATH"
-            },
-            {
-                "key": "C",
-                "text": "TERM"
-            },
-            {
-                "key": "D",
-                "text": "PWD"
-            }
-        ],
-        "answer": "A",
-        "reason": "The USER environment variable generally stores the current username."
-    },
-    {
-        "id": 45,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Variables",
-        "difficulty": "medium",
-        "question": "Which command displays the value of a variable named city?",
-        "options": [
-            {
-                "key": "A",
-                "text": "echo city"
-            },
-            {
-                "key": "B",
-                "text": "print city"
-            },
-            {
-                "key": "C",
-                "text": "echo $city"
-            },
-            {
-                "key": "D",
-                "text": "display city"
-            }
-        ],
-        "answer": "C",
-        "reason": "The $ symbol is used to access a variable's value."
-    },
-    {
-        "id": 46,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Variables",
-        "difficulty": "hard",
-        "question": "Which variable name is invalid in shell scripting?",
-        "options": [
-            {
-                "key": "A",
-                "text": "student_name"
-            },
-            {
-                "key": "B",
-                "text": "_count"
-            },
-            {
-                "key": "C",
-                "text": "2marks"
-            },
-            {
-                "key": "D",
-                "text": "totalMarks"
-            }
-        ],
-        "answer": "C",
-        "reason": "Variable names cannot begin with a digit."
-    },
-    {
-        "id": 47,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Quotes",
-        "difficulty": "medium",
-        "question": "What will be printed if name=John and command is echo '$name'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "John"
-            },
-            {
-                "key": "B",
-                "text": "$name"
-            },
-            {
-                "key": "C",
-                "text": "name"
-            },
-            {
-                "key": "D",
-                "text": "Error"
-            }
-        ],
-        "answer": "B",
-        "reason": "Single quotes prevent variable expansion."
-    },
-    {
-        "id": 48,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Quotes",
-        "difficulty": "medium",
-        "question": "What will be printed if name=John and command is echo \"$name\"?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$name"
-            },
-            {
-                "key": "B",
-                "text": "John"
-            },
-            {
-                "key": "C",
-                "text": "name"
-            },
-            {
-                "key": "D",
-                "text": "\"John\""
-            }
-        ],
-        "answer": "B",
-        "reason": "Double quotes allow variable expansion."
-    },
-    {
-        "id": 49,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Backslash",
-        "difficulty": "medium",
-        "question": "Which command prints a dollar sign instead of treating it as a variable symbol?",
-        "options": [
-            {
-                "key": "A",
-                "text": "echo $"
-            },
-            {
-                "key": "B",
-                "text": "echo \\$"
-            },
-            {
-                "key": "C",
-                "text": "echo $$"
-            },
-            {
-                "key": "D",
-                "text": "echo &$"
-            }
-        ],
-        "answer": "B",
-        "reason": "Backslash escapes the special meaning of $."
-    },
-    {
-        "id": 50,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Substitution",
-        "difficulty": "easy",
-        "question": "What does command substitution return?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Exit status"
-            },
-            {
-                "key": "B",
-                "text": "Command output"
-            },
-            {
-                "key": "C",
-                "text": "Process ID"
-            },
-            {
-                "key": "D",
-                "text": "Error message only"
-            }
-        ],
-        "answer": "B",
-        "reason": "Command substitution captures the standard output of a command."
-    },
-    {
-        "id": 51,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Substitution",
-        "difficulty": "hard",
-        "question": "Which older syntax also performs command substitution?",
-        "options": [
-            {
-                "key": "A",
-                "text": "{command}"
-            },
-            {
-                "key": "B",
-                "text": "[command]"
-            },
-            {
-                "key": "C",
-                "text": "`command`"
-            },
-            {
-                "key": "D",
-                "text": "<command>"
-            }
-        ],
-        "answer": "C",
-        "reason": "Backticks are the traditional command substitution syntax."
-    },
-    {
-        "id": 52,
-        "subject": "UNIX and Shell Programming",
-        "topic": "let Command",
-        "difficulty": "medium",
-        "question": "What is the value of x after executing let x=5*4?",
-        "options": [
-            {
-                "key": "A",
-                "text": "9"
-            },
-            {
-                "key": "B",
-                "text": "20"
-            },
-            {
-                "key": "C",
-                "text": "54"
-            },
-            {
-                "key": "D",
-                "text": "Error"
-            }
-        ],
-        "answer": "B",
-        "reason": "let evaluates arithmetic expressions."
-    },
-    {
-        "id": 53,
-        "subject": "UNIX and Shell Programming",
-        "topic": "let Command",
-        "difficulty": "hard",
-        "question": "Which operator is used for modulus in let expressions?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/"
-            },
-            {
-                "key": "B",
-                "text": "*"
-            },
-            {
-                "key": "C",
-                "text": "%"
-            },
-            {
-                "key": "D",
-                "text": "^"
-            }
-        ],
-        "answer": "C",
-        "reason": "The % operator calculates the remainder."
-    },
-    {
-        "id": 54,
-        "subject": "UNIX and Shell Programming",
-        "topic": "User Input",
-        "difficulty": "easy",
-        "question": "Where does the read command obtain input from by default?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Printer"
-            },
-            {
-                "key": "B",
-                "text": "Keyboard"
-            },
-            {
-                "key": "C",
-                "text": "File system"
-            },
-            {
-                "key": "D",
-                "text": "Network"
-            }
-        ],
-        "answer": "B",
-        "reason": "read takes input from standard input, usually the keyboard."
-    },
-    {
-        "id": 55,
-        "subject": "UNIX and Shell Programming",
-        "topic": "User Input",
-        "difficulty": "medium",
-        "question": "Which command stores user input in a variable named age?",
-        "options": [
-            {
-                "key": "A",
-                "text": "input age"
-            },
-            {
-                "key": "B",
-                "text": "scan age"
-            },
-            {
-                "key": "C",
-                "text": "read age"
-            },
-            {
-                "key": "D",
-                "text": "accept age"
-            }
-        ],
-        "answer": "C",
-        "reason": "read age stores entered data in the variable age."
-    },
-    {
-        "id": 56,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Line Parameters",
-        "difficulty": "medium",
-        "question": "Which special variable contains all command-line arguments as a single string?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$*"
-            },
-            {
-                "key": "B",
-                "text": "$0"
-            },
-            {
-                "key": "C",
-                "text": "$?"
-            },
-            {
-                "key": "D",
-                "text": "$$"
-            }
-        ],
-        "answer": "A",
-        "reason": "$* represents all positional parameters."
-    },
-    {
-        "id": 57,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Line Parameters",
-        "difficulty": "hard",
-        "question": "Which variable stores the process ID of the current shell?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$#"
-            },
-            {
-                "key": "B",
-                "text": "$!"
-            },
-            {
-                "key": "C",
-                "text": "$$"
-            },
-            {
-                "key": "D",
-                "text": "$@"
-            }
-        ],
-        "answer": "C",
-        "reason": "$$ contains the PID of the current shell process."
-    },
-    {
-        "id": 58,
-        "subject": "UNIX and Shell Programming",
-        "topic": "if Statement",
-        "difficulty": "medium",
-        "question": "Which test operator checks if two strings are equal?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-eq"
-            },
-            {
-                "key": "B",
-                "text": "="
-            },
-            {
-                "key": "C",
-                "text": "-gt"
-            },
-            {
-                "key": "D",
-                "text": "-lt"
-            }
-        ],
-        "answer": "B",
-        "reason": "= is commonly used for string comparison."
-    },
-    {
-        "id": 59,
-        "subject": "UNIX and Shell Programming",
-        "topic": "if Statement",
-        "difficulty": "hard",
-        "question": "Which operator checks numeric equality?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-eq"
-            },
-            {
-                "key": "B",
-                "text": "="
-            },
-            {
-                "key": "C",
-                "text": "-ge"
-            },
-            {
-                "key": "D",
-                "text": "-ne"
-            }
-        ],
-        "answer": "A",
-        "reason": "-eq is used for numeric equality testing."
-    },
-    {
-        "id": 60,
-        "subject": "UNIX and Shell Programming",
-        "topic": "if Statement",
-        "difficulty": "hard",
-        "question": "Which keyword is used to test multiple conditions after if?",
-        "options": [
-            {
-                "key": "A",
-                "text": "elseif"
-            },
-            {
-                "key": "B",
-                "text": "elif"
-            },
-            {
-                "key": "C",
-                "text": "else if"
-            },
-            {
-                "key": "D",
-                "text": "otherwise"
-            }
-        ],
-        "answer": "B",
-        "reason": "Shell scripting uses the keyword elif."
-    },
-    {
-        "id": 61,
-        "subject": "UNIX and Shell Programming",
-        "topic": "for Loop",
-        "difficulty": "medium",
-        "question": "How many times will 'for i in 1 2 3' execute?",
-        "options": [
-            {
-                "key": "A",
-                "text": "1"
-            },
-            {
-                "key": "B",
-                "text": "2"
-            },
-            {
-                "key": "C",
-                "text": "3"
-            },
-            {
-                "key": "D",
-                "text": "Infinite"
-            }
-        ],
-        "answer": "C",
-        "reason": "The loop iterates once for each listed value."
-    },
-    {
-        "id": 62,
-        "subject": "UNIX and Shell Programming",
-        "topic": "for Loop",
-        "difficulty": "hard",
-        "question": "Which variable changes value automatically during a for loop iteration?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Loop variable"
-            },
-            {
-                "key": "B",
-                "text": "PATH"
-            },
-            {
-                "key": "C",
-                "text": "HOME"
-            },
-            {
-                "key": "D",
-                "text": "PWD"
-            }
-        ],
-        "answer": "A",
-        "reason": "The loop variable takes each value in the sequence."
-    },
-    {
-        "id": 63,
-        "subject": "UNIX and Shell Programming",
-        "topic": "while Loop",
-        "difficulty": "medium",
-        "question": "A while loop checks its condition:",
-        "options": [
-            {
-                "key": "A",
-                "text": "Before execution"
-            },
-            {
-                "key": "B",
-                "text": "After execution"
-            },
-            {
-                "key": "C",
-                "text": "Never"
-            },
-            {
-                "key": "D",
-                "text": "Twice only"
-            }
-        ],
-        "answer": "A",
-        "reason": "while is a pre-test loop."
-    },
-    {
-        "id": 64,
-        "subject": "UNIX and Shell Programming",
-        "topic": "while Loop",
-        "difficulty": "hard",
-        "question": "What happens if a while condition never becomes false?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Compilation error"
-            },
-            {
-                "key": "B",
-                "text": "Infinite loop"
-            },
-            {
-                "key": "C",
-                "text": "System shutdown"
-            },
-            {
-                "key": "D",
-                "text": "Variable reset"
-            }
-        ],
-        "answer": "B",
-        "reason": "The loop continues indefinitely."
-    },
-    {
-        "id": 65,
-        "subject": "UNIX and Shell Programming",
-        "topic": "until Loop",
-        "difficulty": "medium",
-        "question": "An until loop executes while the condition is:",
-        "options": [
-            {
-                "key": "A",
-                "text": "True"
-            },
-            {
-                "key": "B",
-                "text": "False"
-            },
-            {
-                "key": "C",
-                "text": "Undefined"
-            },
-            {
-                "key": "D",
-                "text": "Numeric"
-            }
-        ],
-        "answer": "B",
-        "reason": "until repeats as long as the condition remains false."
-    },
-    {
-        "id": 66,
-        "subject": "UNIX and Shell Programming",
-        "topic": "until Loop",
-        "difficulty": "hard",
-        "question": "Which statement best describes an until loop?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Opposite of while"
-            },
-            {
-                "key": "B",
-                "text": "Same as for"
-            },
-            {
-                "key": "C",
-                "text": "Recursive loop"
-            },
-            {
-                "key": "D",
-                "text": "Conditional function"
-            }
-        ],
-        "answer": "A",
-        "reason": "until runs until a condition becomes true."
-    },
-    {
-        "id": 67,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exit Status",
-        "difficulty": "easy",
-        "question": "Which command can display the last exit status?",
-        "options": [
-            {
-                "key": "A",
-                "text": "echo $?"
-            },
-            {
-                "key": "B",
-                "text": "echo $$"
-            },
-            {
-                "key": "C",
-                "text": "echo $#"
-            },
-            {
-                "key": "D",
-                "text": "echo $*"
-            }
-        ],
-        "answer": "A",
-        "reason": "$? stores the exit status of the previous command."
-    },
-    {
-        "id": 68,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exit Status",
-        "difficulty": "medium",
-        "question": "What is the exit status of a successful grep search?",
-        "options": [
-            {
-                "key": "A",
-                "text": "0"
-            },
-            {
-                "key": "B",
-                "text": "1"
-            },
-            {
-                "key": "C",
-                "text": "255"
-            },
-            {
-                "key": "D",
-                "text": "-1"
-            }
-        ],
-        "answer": "A",
-        "reason": "A successful command execution generally returns 0."
-    },
-    {
-        "id": 69,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Special Variables",
-        "difficulty": "hard",
-        "question": "Which special variable stores the PID of the most recent background process?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$!"
-            },
-            {
-                "key": "B",
-                "text": "$?"
-            },
-            {
-                "key": "C",
-                "text": "$#"
-            },
-            {
-                "key": "D",
-                "text": "$$"
-            }
-        ],
-        "answer": "A",
-        "reason": "$! contains the process ID of the last background process."
-    },
-    {
-        "id": 70,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Special Variables",
-        "difficulty": "hard",
-        "question": "Which variable expands to all arguments individually?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$@"
-            },
-            {
-                "key": "B",
-                "text": "$0"
-            },
-            {
-                "key": "C",
-                "text": "$$"
-            },
-            {
-                "key": "D",
-                "text": "$?"
-            }
-        ],
-        "answer": "A",
-        "reason": "$@ expands all positional parameters separately."
-    },
-    {
-        "id": 71,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Programming",
-        "difficulty": "easy",
-        "question": "Which command is commonly used to display text in shell scripts?",
-        "options": [
-            {
-                "key": "A",
-                "text": "show"
-            },
-            {
-                "key": "B",
-                "text": "display"
-            },
-            {
-                "key": "C",
-                "text": "echo"
-            },
-            {
-                "key": "D",
-                "text": "write"
-            }
-        ],
-        "answer": "C",
-        "reason": "echo prints text or variable values."
-    },
-    {
-        "id": 72,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Programming",
-        "difficulty": "medium",
-        "question": "Which command makes a shell script executable?",
-        "options": [
-            {
-                "key": "A",
-                "text": "chmod +x script.sh"
-            },
-            {
-                "key": "B",
-                "text": "execute script.sh"
-            },
-            {
-                "key": "C",
-                "text": "run script.sh"
-            },
-            {
-                "key": "D",
-                "text": "permit script.sh"
-            }
-        ],
-        "answer": "A",
-        "reason": "chmod +x grants execute permission."
-    },
-    {
-        "id": 73,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Programming",
-        "difficulty": "medium",
-        "question": "Which file extension is commonly used for shell scripts?",
-        "options": [
-            {
-                "key": "A",
-                "text": ".java"
-            },
-            {
-                "key": "B",
-                "text": ".sh"
-            },
-            {
-                "key": "C",
-                "text": ".sql"
-            },
-            {
-                "key": "D",
-                "text": ".cpp"
-            }
-        ],
-        "answer": "B",
-        "reason": ".sh is the conventional extension for shell scripts."
-    },
-    {
-        "id": 74,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Arithmetic Operations",
-        "difficulty": "medium",
-        "question": "Which operator performs exponentiation in many shell arithmetic contexts?",
-        "options": [
-            {
-                "key": "A",
-                "text": "**"
-            },
-            {
-                "key": "B",
-                "text": "^^"
-            },
-            {
-                "key": "C",
-                "text": "//"
-            },
-            {
-                "key": "D",
-                "text": "%%"
-            }
-        ],
-        "answer": "A",
-        "reason": "** is commonly used for exponentiation in shell arithmetic expansion."
-    },
-    {
-        "id": 75,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Arithmetic Operations",
-        "difficulty": "hard",
-        "question": "What is the result of let x=10/2?",
-        "options": [
-            {
-                "key": "A",
-                "text": "2"
-            },
-            {
-                "key": "B",
-                "text": "5"
-            },
-            {
-                "key": "C",
-                "text": "20"
-            },
-            {
-                "key": "D",
-                "text": "0"
-            }
-        ],
-        "answer": "B",
-        "reason": "10 divided by 2 equals 5."
-    },
-    {
-        "id": 76,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Variables",
-        "difficulty": "hard",
-        "question": "Which command exports a variable to child processes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "set"
-            },
-            {
-                "key": "B",
-                "text": "export"
-            },
-            {
-                "key": "C",
-                "text": "share"
-            },
-            {
-                "key": "D",
-                "text": "declare"
-            }
-        ],
-        "answer": "B",
-        "reason": "export makes variables available to child processes."
-    },
-    {
-        "id": 77,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Variables",
-        "difficulty": "medium",
-        "question": "What is the purpose of the export command?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Delete variables"
-            },
-            {
-                "key": "B",
-                "text": "Create comments"
-            },
-            {
-                "key": "C",
-                "text": "Pass variables to child processes"
-            },
-            {
-                "key": "D",
-                "text": "Execute loops"
-            }
-        ],
-        "answer": "C",
-        "reason": "export promotes shell variables to environment variables."
-    },
-    {
-        "id": 78,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Conditional Testing",
-        "difficulty": "hard",
-        "question": "Which operator checks if two numbers are not equal?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-eq"
-            },
-            {
-                "key": "B",
-                "text": "-gt"
-            },
-            {
-                "key": "C",
-                "text": "-ne"
-            },
-            {
-                "key": "D",
-                "text": "-lt"
-            }
-        ],
-        "answer": "C",
-        "reason": "-ne stands for not equal."
-    },
-    {
-        "id": 79,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Conditional Testing",
-        "difficulty": "hard",
-        "question": "Which operator checks whether one number is greater than another?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-gt"
-            },
-            {
-                "key": "B",
-                "text": "-lt"
-            },
-            {
-                "key": "C",
-                "text": "-eq"
-            },
-            {
-                "key": "D",
-                "text": "-ne"
-            }
-        ],
-        "answer": "A",
-        "reason": "-gt means greater than."
-    },
-    {
-        "id": 80,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Programming Concepts",
-        "difficulty": "hard",
-        "question": "Which feature allows shell scripts to automate repetitive tasks without user intervention?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Loops and conditionals"
-            },
-            {
-                "key": "B",
-                "text": "Directory permissions"
-            },
-            {
-                "key": "C",
-                "text": "Kernel modules"
-            },
-            {
-                "key": "D",
-                "text": "Device drivers"
-            }
-        ],
-        "answer": "A",
-        "reason": "Loops and conditional statements enable automation and decision-making in shell scripts."
-    },
-    {
-        "id": 81,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Variables",
-        "difficulty": "medium",
-        "question": "Which command displays all environment variables in a shell session?",
-        "options": [
-            {
-                "key": "A",
-                "text": "env"
-            },
-            {
-                "key": "B",
-                "text": "vars"
-            },
-            {
-                "key": "C",
-                "text": "showenv"
-            },
-            {
-                "key": "D",
-                "text": "listvar"
-            }
-        ],
-        "answer": "A",
-        "reason": "The env command displays the current environment variables."
-    },
-    {
-        "id": 82,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Variables",
-        "difficulty": "hard",
-        "question": "What happens if spaces are used around '=' during variable assignment?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Variable is assigned normally"
-            },
-            {
-                "key": "B",
-                "text": "Shell treats it as a command"
-            },
-            {
-                "key": "C",
-                "text": "Value becomes empty"
-            },
-            {
-                "key": "D",
-                "text": "Variable becomes global"
-            }
-        ],
-        "answer": "B",
-        "reason": "Shell variable assignments must not contain spaces around '='."
-    },
-    {
-        "id": 83,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Quotes",
-        "difficulty": "medium",
-        "question": "Which quote type allows command substitution and variable expansion?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Single quotes"
-            },
-            {
-                "key": "B",
-                "text": "Double quotes"
-            },
-            {
-                "key": "C",
-                "text": "No quotes only"
-            },
-            {
-                "key": "D",
-                "text": "Square brackets"
-            }
-        ],
-        "answer": "B",
-        "reason": "Double quotes preserve spaces while allowing variable and command expansion."
-    },
-    {
-        "id": 84,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Backslash",
-        "difficulty": "medium",
-        "question": "What is the purpose of a backslash at the end of a shell command line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "End execution"
-            },
-            {
-                "key": "B",
-                "text": "Continue command on the next line"
-            },
-            {
-                "key": "C",
-                "text": "Create comments"
-            },
-            {
-                "key": "D",
-                "text": "Redirect output"
-            }
-        ],
-        "answer": "B",
-        "reason": "A trailing backslash escapes the newline and continues the command."
-    },
-    {
-        "id": 85,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Substitution",
-        "difficulty": "hard",
-        "question": "What will be stored in variable d after executing d=$(date)?",
-        "options": [
-            {
-                "key": "A",
-                "text": "The date command itself"
-            },
-            {
-                "key": "B",
-                "text": "Current date and time output"
-            },
-            {
-                "key": "C",
-                "text": "Exit status of date"
-            },
-            {
-                "key": "D",
-                "text": "PID of shell"
-            }
-        ],
-        "answer": "B",
-        "reason": "Command substitution stores the output generated by the command."
-    },
-    {
-        "id": 86,
-        "subject": "UNIX and Shell Programming",
-        "topic": "let Command",
-        "difficulty": "medium",
-        "question": "What will be the value of x after 'let x=7%3'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "1"
-            },
-            {
-                "key": "B",
-                "text": "2"
-            },
-            {
-                "key": "C",
-                "text": "3"
-            },
-            {
-                "key": "D",
-                "text": "4"
-            }
-        ],
-        "answer": "A",
-        "reason": "7 modulo 3 leaves a remainder of 1."
-    },
-    {
-        "id": 87,
-        "subject": "UNIX and Shell Programming",
-        "topic": "User Input",
-        "difficulty": "hard",
-        "question": "Which option of read suppresses input display while typing passwords in Bash?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-p"
-            },
-            {
-                "key": "B",
-                "text": "-s"
-            },
-            {
-                "key": "C",
-                "text": "-n"
-            },
-            {
-                "key": "D",
-                "text": "-t"
-            }
-        ],
-        "answer": "B",
-        "reason": "The -s option reads input silently without displaying typed characters."
-    },
-    {
-        "id": 88,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Line Parameters",
-        "difficulty": "medium",
-        "question": "Which special variable represents the second command-line argument?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$0"
-            },
-            {
-                "key": "B",
-                "text": "$1"
-            },
-            {
-                "key": "C",
-                "text": "$2"
-            },
-            {
-                "key": "D",
-                "text": "$#"
-            }
-        ],
-        "answer": "C",
-        "reason": "$2 refers to the second positional parameter."
-    },
-    {
-        "id": 89,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Command Line Parameters",
-        "difficulty": "hard",
-        "question": "If a script is executed as './test.sh a b c', what is the value of $#?",
-        "options": [
-            {
-                "key": "A",
-                "text": "2"
-            },
-            {
-                "key": "B",
-                "text": "3"
-            },
-            {
-                "key": "C",
-                "text": "4"
-            },
-            {
-                "key": "D",
-                "text": "0"
-            }
-        ],
-        "answer": "B",
-        "reason": "$# stores the number of command-line arguments excluding the script name."
-    },
-    {
-        "id": 90,
-        "subject": "UNIX and Shell Programming",
-        "topic": "if Statement",
-        "difficulty": "medium",
-        "question": "Which test operator checks whether a file exists?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-f"
-            },
-            {
-                "key": "B",
-                "text": "-e"
-            },
-            {
-                "key": "C",
-                "text": "-x"
-            },
-            {
-                "key": "D",
-                "text": "-r"
-            }
-        ],
-        "answer": "B",
-        "reason": "The -e operator checks whether a file or directory exists."
-    },
-    {
-        "id": 91,
-        "subject": "UNIX and Shell Programming",
-        "topic": "if Statement",
-        "difficulty": "hard",
-        "question": "Which operator checks whether a file is executable?",
-        "options": [
-            {
-                "key": "A",
-                "text": "-r"
-            },
-            {
-                "key": "B",
-                "text": "-w"
-            },
-            {
-                "key": "C",
-                "text": "-x"
-            },
-            {
-                "key": "D",
-                "text": "-e"
-            }
-        ],
-        "answer": "C",
-        "reason": "The -x test operator checks execute permission."
-    },
-    {
-        "id": 92,
-        "subject": "UNIX and Shell Programming",
-        "topic": "for Loop",
-        "difficulty": "medium",
-        "question": "Which loop is commonly used to iterate through filenames in a directory?",
-        "options": [
-            {
-                "key": "A",
-                "text": "for"
-            },
-            {
-                "key": "B",
-                "text": "until"
-            },
-            {
-                "key": "C",
-                "text": "case"
-            },
-            {
-                "key": "D",
-                "text": "select"
-            }
-        ],
-        "answer": "A",
-        "reason": "for loops are frequently used to process lists such as filenames."
-    },
-    {
-        "id": 93,
-        "subject": "UNIX and Shell Programming",
-        "topic": "for Loop",
-        "difficulty": "hard",
-        "question": "How many iterations occur in 'for i in A B C D'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "3"
-            },
-            {
-                "key": "B",
-                "text": "4"
-            },
-            {
-                "key": "C",
-                "text": "5"
-            },
-            {
-                "key": "D",
-                "text": "Infinite"
-            }
-        ],
-        "answer": "B",
-        "reason": "The loop executes once for each listed item."
-    },
-    {
-        "id": 94,
-        "subject": "UNIX and Shell Programming",
-        "topic": "while Loop",
-        "difficulty": "medium",
-        "question": "Which keyword terminates a while loop block?",
-        "options": [
-            {
-                "key": "A",
-                "text": "fi"
-            },
-            {
-                "key": "B",
-                "text": "end"
-            },
-            {
-                "key": "C",
-                "text": "done"
-            },
-            {
-                "key": "D",
-                "text": "stop"
-            }
-        ],
-        "answer": "C",
-        "reason": "The done keyword ends while, for, and until loops."
-    },
-    {
-        "id": 95,
-        "subject": "UNIX and Shell Programming",
-        "topic": "while Loop",
-        "difficulty": "hard",
-        "question": "Which loop is best suited when the number of iterations is unknown beforehand?",
-        "options": [
-            {
-                "key": "A",
-                "text": "for"
-            },
-            {
-                "key": "B",
-                "text": "while"
-            },
-            {
-                "key": "C",
-                "text": "case"
-            },
-            {
-                "key": "D",
-                "text": "select"
-            }
-        ],
-        "answer": "B",
-        "reason": "while loops continue until a condition changes, making them suitable for unknown iteration counts."
-    },
-    {
-        "id": 96,
-        "subject": "UNIX and Shell Programming",
-        "topic": "until Loop",
-        "difficulty": "medium",
-        "question": "When does an until loop stop executing?",
-        "options": [
-            {
-                "key": "A",
-                "text": "When condition becomes true"
-            },
-            {
-                "key": "B",
-                "text": "When condition becomes false"
-            },
-            {
-                "key": "C",
-                "text": "After one iteration"
-            },
-            {
-                "key": "D",
-                "text": "Never"
-            }
-        ],
-        "answer": "A",
-        "reason": "An until loop continues while the condition is false and stops when it becomes true."
-    },
-    {
-        "id": 97,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exit Status",
-        "difficulty": "medium",
-        "question": "Which exit status value usually indicates an error condition?",
-        "options": [
-            {
-                "key": "A",
-                "text": "0"
-            },
-            {
-                "key": "B",
-                "text": "Any non-zero value"
-            },
-            {
-                "key": "C",
-                "text": "-1 only"
-            },
-            {
-                "key": "D",
-                "text": "255 only"
-            }
-        ],
-        "answer": "B",
-        "reason": "By convention, non-zero exit codes indicate errors or special conditions."
-    },
-    {
-        "id": 98,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exit Status",
-        "difficulty": "hard",
-        "question": "What does '$?' contain immediately after executing a command?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Current shell PID"
-            },
-            {
-                "key": "B",
-                "text": "Last command output"
-            },
-            {
-                "key": "C",
-                "text": "Last command exit status"
-            },
-            {
-                "key": "D",
-                "text": "Number of arguments"
-            }
-        ],
-        "answer": "C",
-        "reason": "$? stores the exit status returned by the most recently executed command."
-    },
-    {
-        "id": 99,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Programming Concepts",
-        "difficulty": "hard",
-        "question": "Which shell feature allows decisions to be made based on conditions?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Variables"
-            },
-            {
-                "key": "B",
-                "text": "Comments"
-            },
-            {
-                "key": "C",
-                "text": "if statements"
-            },
-            {
-                "key": "D",
-                "text": "Echo commands"
-            }
-        ],
-        "answer": "C",
-        "reason": "if statements provide decision-making capability in shell scripts."
-    },
-    {
-        "id": 100,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Shell Programming Concepts",
-        "difficulty": "hard",
-        "question": "Which combination best represents the core building blocks of shell scripting?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Variables, Input, Conditions, Loops"
-            },
-            {
-                "key": "B",
-                "text": "Tables, Views, Triggers, Joins"
-            },
-            {
-                "key": "C",
-                "text": "Classes, Objects, Packages, Interfaces"
-            },
-            {
-                "key": "D",
-                "text": "Routers, Switches, Bridges, Hubs"
-            }
-        ],
-        "answer": "A",
-        "reason": "Variables, user input, conditional statements, and loops form the foundation of shell scripting."
-    }
+  {
+    "id": 1,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Introduction to Shell",
+    "difficulty": "easy",
+    "question": "What is a shell in UNIX?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A hardware component"
+      },
+      {
+        "key": "B",
+        "text": "A command interpreter"
+      },
+      {
+        "key": "C",
+        "text": "A file system"
+      },
+      {
+        "key": "D",
+        "text": "A compiler"
+      }
+    ],
+    "answer": "B",
+    "reason": "A shell acts as an interface between the user and the UNIX kernel by interpreting commands."
+  },
+  {
+    "id": 2,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Introduction to Shell",
+    "difficulty": "easy",
+    "question": "Which component receives commands from the shell for execution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Compiler"
+      },
+      {
+        "key": "B",
+        "text": "Editor"
+      },
+      {
+        "key": "C",
+        "text": "Kernel"
+      },
+      {
+        "key": "D",
+        "text": "Linker"
+      }
+    ],
+    "answer": "C",
+    "reason": "The shell passes commands to the kernel for execution."
+  },
+  {
+    "id": 3,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Types of Shell",
+    "difficulty": "easy",
+    "question": "Which of the following is a UNIX shell?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bash"
+      },
+      {
+        "key": "B",
+        "text": "Oracle"
+      },
+      {
+        "key": "C",
+        "text": "MySQL"
+      },
+      {
+        "key": "D",
+        "text": "Apache"
+      }
+    ],
+    "answer": "A",
+    "reason": "Bash (Bourne Again Shell) is one of the most widely used UNIX shells."
+  },
+  {
+    "id": 4,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Types of Shell",
+    "difficulty": "easy",
+    "question": "What does Bash stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Basic Shell"
+      },
+      {
+        "key": "B",
+        "text": "Bourne Again Shell"
+      },
+      {
+        "key": "C",
+        "text": "Binary Application Shell"
+      },
+      {
+        "key": "D",
+        "text": "Bourne Application Shell"
+      }
+    ],
+    "answer": "B",
+    "reason": "Bash stands for Bourne Again Shell."
+  },
+  {
+    "id": 5,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Types of Shell",
+    "difficulty": "medium",
+    "question": "Which shell was developed as an enhanced version of the Bourne Shell?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bash"
+      },
+      {
+        "key": "B",
+        "text": "C Shell"
+      },
+      {
+        "key": "C",
+        "text": "Korn Shell"
+      },
+      {
+        "key": "D",
+        "text": "Z Shell"
+      }
+    ],
+    "answer": "A",
+    "reason": "Bash was developed as an enhanced and free replacement for Bourne Shell."
+  },
+  {
+    "id": 6,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Types of Shell",
+    "difficulty": "medium",
+    "question": "Which shell is commonly represented by `csh`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Korn Shell"
+      },
+      {
+        "key": "B",
+        "text": "C Shell"
+      },
+      {
+        "key": "C",
+        "text": "Bourne Shell"
+      },
+      {
+        "key": "D",
+        "text": "Z Shell"
+      }
+    ],
+    "answer": "B",
+    "reason": "csh stands for C Shell."
+  },
+  {
+    "id": 7,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Use of Shell",
+    "difficulty": "easy",
+    "question": "Which of the following is a primary use of the shell?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Executing commands"
+      },
+      {
+        "key": "B",
+        "text": "Manufacturing hardware"
+      },
+      {
+        "key": "C",
+        "text": "Formatting disks physically"
+      },
+      {
+        "key": "D",
+        "text": "Creating processors"
+      }
+    ],
+    "answer": "A",
+    "reason": "The shell is used to execute commands and automate tasks."
+  },
+  {
+    "id": 8,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Use of Shell",
+    "difficulty": "medium",
+    "question": "Shell scripts are primarily used for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Automation"
+      },
+      {
+        "key": "B",
+        "text": "Hardware repair"
+      },
+      {
+        "key": "C",
+        "text": "Database design"
+      },
+      {
+        "key": "D",
+        "text": "Network cabling"
+      }
+    ],
+    "answer": "A",
+    "reason": "Shell scripts automate repetitive system administration and processing tasks."
+  },
+  {
+    "id": 9,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Variables",
+    "difficulty": "easy",
+    "question": "Which symbol is used before a variable name to access its value?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$"
+      },
+      {
+        "key": "B",
+        "text": "#"
+      },
+      {
+        "key": "C",
+        "text": "&"
+      },
+      {
+        "key": "D",
+        "text": "%"
+      }
+    ],
+    "answer": "A",
+    "reason": "The $ symbol is used to access the value stored in a variable."
+  },
+  {
+    "id": 10,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Variables",
+    "difficulty": "easy",
+    "question": "Which is a valid variable assignment in shell scripting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "name = John"
+      },
+      {
+        "key": "B",
+        "text": "$name=John"
+      },
+      {
+        "key": "C",
+        "text": "name=John"
+      },
+      {
+        "key": "D",
+        "text": "name := John"
+      }
+    ],
+    "answer": "C",
+    "reason": "Variable assignment in shell scripting must not contain spaces around `=`."
+  },
+  {
+    "id": 11,
+    "subject": "UNIX and Shell Programming",
+    "topic": "System Variables",
+    "difficulty": "medium",
+    "question": "Which variable stores the current user's home directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "HOME"
+      },
+      {
+        "key": "B",
+        "text": "USERID"
+      },
+      {
+        "key": "C",
+        "text": "DIR"
+      },
+      {
+        "key": "D",
+        "text": "PATHNAME"
+      }
+    ],
+    "answer": "A",
+    "reason": "HOME stores the path of the user's home directory."
+  },
+  {
+    "id": 12,
+    "subject": "UNIX and Shell Programming",
+    "topic": "System Variables",
+    "difficulty": "medium",
+    "question": "Which variable contains directories searched for commands?",
+    "options": [
+      {
+        "key": "A",
+        "text": "PATH"
+      },
+      {
+        "key": "B",
+        "text": "PWD"
+      },
+      {
+        "key": "C",
+        "text": "HOME"
+      },
+      {
+        "key": "D",
+        "text": "TERM"
+      }
+    ],
+    "answer": "A",
+    "reason": "PATH specifies where the shell searches for executable commands."
+  },
+  {
+    "id": 13,
+    "subject": "UNIX and Shell Programming",
+    "topic": "User Defined Variables",
+    "difficulty": "easy",
+    "question": "Which type of variable is created by the programmer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "System variable"
+      },
+      {
+        "key": "B",
+        "text": "User-defined variable"
+      },
+      {
+        "key": "C",
+        "text": "Kernel variable"
+      },
+      {
+        "key": "D",
+        "text": "Process variable"
+      }
+    ],
+    "answer": "B",
+    "reason": "User-defined variables are created and managed by the script writer."
+  },
+  {
+    "id": 14,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Quotes",
+    "difficulty": "easy",
+    "question": "Which quotes prevent variable expansion?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Double quotes"
+      },
+      {
+        "key": "B",
+        "text": "Single quotes"
+      },
+      {
+        "key": "C",
+        "text": "Backticks"
+      },
+      {
+        "key": "D",
+        "text": "Parentheses"
+      }
+    ],
+    "answer": "B",
+    "reason": "Single quotes preserve the literal value of characters."
+  },
+  {
+    "id": 15,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Quotes",
+    "difficulty": "medium",
+    "question": "Which quotes allow variable expansion?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Single quotes"
+      },
+      {
+        "key": "B",
+        "text": "Double quotes"
+      },
+      {
+        "key": "C",
+        "text": "Curly braces"
+      },
+      {
+        "key": "D",
+        "text": "Square brackets"
+      }
+    ],
+    "answer": "B",
+    "reason": "Variables inside double quotes are expanded by the shell."
+  },
+  {
+    "id": 16,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Backslash",
+    "difficulty": "easy",
+    "question": "What is the purpose of the backslash (\\) character?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Comment symbol"
+      },
+      {
+        "key": "B",
+        "text": "Escape special characters"
+      },
+      {
+        "key": "C",
+        "text": "Create variables"
+      },
+      {
+        "key": "D",
+        "text": "Terminate scripts"
+      }
+    ],
+    "answer": "B",
+    "reason": "Backslash is used to escape special characters."
+  },
+  {
+    "id": 17,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Substitution",
+    "difficulty": "medium",
+    "question": "Which syntax is used for command substitution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(command)"
+      },
+      {
+        "key": "B",
+        "text": "{command}"
+      },
+      {
+        "key": "C",
+        "text": "[command]"
+      },
+      {
+        "key": "D",
+        "text": "`<command>`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The $(command) syntax executes a command and substitutes its output."
+  },
+  {
+    "id": 18,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Substitution",
+    "difficulty": "hard",
+    "question": "What is the output of command substitution used for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Process creation"
+      },
+      {
+        "key": "B",
+        "text": "Variable assignment or command arguments"
+      },
+      {
+        "key": "C",
+        "text": "Memory allocation"
+      },
+      {
+        "key": "D",
+        "text": "File deletion"
+      }
+    ],
+    "answer": "B",
+    "reason": "Command substitution captures command output for further use."
+  },
+  {
+    "id": 19,
+    "subject": "UNIX and Shell Programming",
+    "topic": "let Command",
+    "difficulty": "easy",
+    "question": "Which command is commonly used for arithmetic evaluation in shell scripts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "expr"
+      },
+      {
+        "key": "B",
+        "text": "let"
+      },
+      {
+        "key": "C",
+        "text": "calc"
+      },
+      {
+        "key": "D",
+        "text": "math"
+      }
+    ],
+    "answer": "B",
+    "reason": "let performs arithmetic operations in shell scripts."
+  },
+  {
+    "id": 20,
+    "subject": "UNIX and Shell Programming",
+    "topic": "let Command",
+    "difficulty": "medium",
+    "question": "What does `let a=a+1` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deletes variable a"
+      },
+      {
+        "key": "B",
+        "text": "Increments a by 1"
+      },
+      {
+        "key": "C",
+        "text": "Creates a file"
+      },
+      {
+        "key": "D",
+        "text": "Prints a"
+      }
+    ],
+    "answer": "B",
+    "reason": "The expression increases the value stored in variable a by one."
+  },
+  {
+    "id": 21,
+    "subject": "UNIX and Shell Programming",
+    "topic": "User Input",
+    "difficulty": "easy",
+    "question": "Which command is used to take input from the user?",
+    "options": [
+      {
+        "key": "A",
+        "text": "scan"
+      },
+      {
+        "key": "B",
+        "text": "input"
+      },
+      {
+        "key": "C",
+        "text": "read"
+      },
+      {
+        "key": "D",
+        "text": "accept"
+      }
+    ],
+    "answer": "C",
+    "reason": "The read command accepts input from the keyboard."
+  },
+  {
+    "id": 22,
+    "subject": "UNIX and Shell Programming",
+    "topic": "User Input",
+    "difficulty": "medium",
+    "question": "Which command displays a message before reading input?",
+    "options": [
+      {
+        "key": "A",
+        "text": "echo"
+      },
+      {
+        "key": "B",
+        "text": "printf"
+      },
+      {
+        "key": "C",
+        "text": "echo followed by read"
+      },
+      {
+        "key": "D",
+        "text": "cat"
+      }
+    ],
+    "answer": "C",
+    "reason": "A common approach is to display a prompt using echo and then use read."
+  },
+  {
+    "id": 23,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Line Parameters",
+    "difficulty": "easy",
+    "question": "Which symbol represents the first command-line argument?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0"
+      },
+      {
+        "key": "B",
+        "text": "$1"
+      },
+      {
+        "key": "C",
+        "text": "$#"
+      },
+      {
+        "key": "D",
+        "text": "$*"
+      }
+    ],
+    "answer": "B",
+    "reason": "$1 refers to the first command-line argument."
+  },
+  {
+    "id": 24,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Line Parameters",
+    "difficulty": "medium",
+    "question": "What does $0 represent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "First argument"
+      },
+      {
+        "key": "B",
+        "text": "Second argument"
+      },
+      {
+        "key": "C",
+        "text": "Script name"
+      },
+      {
+        "key": "D",
+        "text": "Number of arguments"
+      }
+    ],
+    "answer": "C",
+    "reason": "$0 stores the script name."
+  },
+  {
+    "id": 25,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Line Parameters",
+    "difficulty": "medium",
+    "question": "Which special variable stores the number of command-line arguments?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$#"
+      },
+      {
+        "key": "B",
+        "text": "$@"
+      },
+      {
+        "key": "C",
+        "text": "$*"
+      },
+      {
+        "key": "D",
+        "text": "$0"
+      }
+    ],
+    "answer": "A",
+    "reason": "$# stores the total number of arguments supplied."
+  },
+  {
+    "id": 26,
+    "subject": "UNIX and Shell Programming",
+    "topic": "if Statement",
+    "difficulty": "easy",
+    "question": "Which keyword begins a conditional statement in shell scripting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "if"
+      },
+      {
+        "key": "B",
+        "text": "when"
+      },
+      {
+        "key": "C",
+        "text": "case"
+      },
+      {
+        "key": "D",
+        "text": "switch"
+      }
+    ],
+    "answer": "A",
+    "reason": "The if keyword starts a conditional block."
+  },
+  {
+    "id": 27,
+    "subject": "UNIX and Shell Programming",
+    "topic": "if Statement",
+    "difficulty": "medium",
+    "question": "Which keyword terminates an if statement block?",
+    "options": [
+      {
+        "key": "A",
+        "text": "endif"
+      },
+      {
+        "key": "B",
+        "text": "done"
+      },
+      {
+        "key": "C",
+        "text": "fi"
+      },
+      {
+        "key": "D",
+        "text": "end"
+      }
+    ],
+    "answer": "C",
+    "reason": "The keyword fi ends an if statement."
+  },
+  {
+    "id": 28,
+    "subject": "UNIX and Shell Programming",
+    "topic": "if Statement",
+    "difficulty": "hard",
+    "question": "Which keyword provides an alternative branch in an if statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "otherwise"
+      },
+      {
+        "key": "B",
+        "text": "alternate"
+      },
+      {
+        "key": "C",
+        "text": "elseif"
+      },
+      {
+        "key": "D",
+        "text": "else"
+      }
+    ],
+    "answer": "D",
+    "reason": "The else block executes when the condition is false."
+  },
+  {
+    "id": 29,
+    "subject": "UNIX and Shell Programming",
+    "topic": "for Loop",
+    "difficulty": "easy",
+    "question": "Which loop is commonly used when the number of iterations is known?",
+    "options": [
+      {
+        "key": "A",
+        "text": "while"
+      },
+      {
+        "key": "B",
+        "text": "until"
+      },
+      {
+        "key": "C",
+        "text": "for"
+      },
+      {
+        "key": "D",
+        "text": "select"
+      }
+    ],
+    "answer": "C",
+    "reason": "The for loop is typically used for a known number of iterations."
+  },
+  {
+    "id": 30,
+    "subject": "UNIX and Shell Programming",
+    "topic": "for Loop",
+    "difficulty": "medium",
+    "question": "Which keyword ends a for loop block?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fi"
+      },
+      {
+        "key": "B",
+        "text": "done"
+      },
+      {
+        "key": "C",
+        "text": "endfor"
+      },
+      {
+        "key": "D",
+        "text": "stop"
+      }
+    ],
+    "answer": "B",
+    "reason": "The done keyword terminates for, while, and until loops."
+  },
+  {
+    "id": 31,
+    "subject": "UNIX and Shell Programming",
+    "topic": "while Loop",
+    "difficulty": "easy",
+    "question": "A while loop executes as long as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Condition is true"
+      },
+      {
+        "key": "B",
+        "text": "Condition is false"
+      },
+      {
+        "key": "C",
+        "text": "File exists"
+      },
+      {
+        "key": "D",
+        "text": "User logs out"
+      }
+    ],
+    "answer": "A",
+    "reason": "A while loop continues execution while its condition remains true."
+  },
+  {
+    "id": 32,
+    "subject": "UNIX and Shell Programming",
+    "topic": "while Loop",
+    "difficulty": "medium",
+    "question": "Which loop is best suited for reading lines from a file until EOF?",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "while"
+      },
+      {
+        "key": "C",
+        "text": "until"
+      },
+      {
+        "key": "D",
+        "text": "case"
+      }
+    ],
+    "answer": "B",
+    "reason": "while loops are commonly used to process file input line by line."
+  },
+  {
+    "id": 33,
+    "subject": "UNIX and Shell Programming",
+    "topic": "until Loop",
+    "difficulty": "easy",
+    "question": "An until loop continues execution until:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Condition becomes true"
+      },
+      {
+        "key": "B",
+        "text": "Condition becomes false"
+      },
+      {
+        "key": "C",
+        "text": "User exits"
+      },
+      {
+        "key": "D",
+        "text": "File is deleted"
+      }
+    ],
+    "answer": "A",
+    "reason": "The until loop runs while the condition is false and stops when it becomes true."
+  },
+  {
+    "id": 34,
+    "subject": "UNIX and Shell Programming",
+    "topic": "until Loop",
+    "difficulty": "medium",
+    "question": "Which loop is logically opposite to a while loop?",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "case"
+      },
+      {
+        "key": "C",
+        "text": "until"
+      },
+      {
+        "key": "D",
+        "text": "select"
+      }
+    ],
+    "answer": "C",
+    "reason": "until executes while a condition is false, making it the opposite of while."
+  },
+  {
+    "id": 35,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exit Status",
+    "difficulty": "easy",
+    "question": "Which special variable stores the exit status of the last command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$!"
+      },
+      {
+        "key": "B",
+        "text": "$?"
+      },
+      {
+        "key": "C",
+        "text": "$#"
+      },
+      {
+        "key": "D",
+        "text": "$@"
+      }
+    ],
+    "answer": "B",
+    "reason": "$? contains the exit status of the most recently executed command."
+  },
+  {
+    "id": 36,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exit Status",
+    "difficulty": "medium",
+    "question": "What exit status usually indicates successful execution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "255"
+      }
+    ],
+    "answer": "A",
+    "reason": "An exit status of 0 conventionally indicates success."
+  },
+  {
+    "id": 37,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exit Status",
+    "difficulty": "medium",
+    "question": "A non-zero exit status generally indicates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Success"
+      },
+      {
+        "key": "B",
+        "text": "Warning or error condition"
+      },
+      {
+        "key": "C",
+        "text": "Kernel panic"
+      },
+      {
+        "key": "D",
+        "text": "User logout"
+      }
+    ],
+    "answer": "B",
+    "reason": "Non-zero values are typically used to indicate errors or special conditions."
+  },
+  {
+    "id": 38,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Scripting",
+    "difficulty": "hard",
+    "question": "What is the purpose of `#!/bin/bash` at the beginning of a script?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Comment only"
+      },
+      {
+        "key": "B",
+        "text": "Specifies the interpreter"
+      },
+      {
+        "key": "C",
+        "text": "Defines a variable"
+      },
+      {
+        "key": "D",
+        "text": "Ends the script"
+      }
+    ],
+    "answer": "B",
+    "reason": "The shebang line tells the system which interpreter should execute the script."
+  },
+  {
+    "id": 39,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Scripting",
+    "difficulty": "hard",
+    "question": "Which symbol is used to begin a comment in shell scripts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "//"
+      },
+      {
+        "key": "B",
+        "text": "/*"
+      },
+      {
+        "key": "C",
+        "text": "#"
+      },
+      {
+        "key": "D",
+        "text": "--"
+      }
+    ],
+    "answer": "C",
+    "reason": "The # symbol starts a comment in shell scripts."
+  },
+  {
+    "id": 40,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Programming Concepts",
+    "difficulty": "hard",
+    "question": "Which combination is most closely associated with shell scripting fundamentals?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Variables, loops, conditionals, command substitution"
+      },
+      {
+        "key": "B",
+        "text": "Tables, triggers, views, indexes"
+      },
+      {
+        "key": "C",
+        "text": "Classes, interfaces, inheritance, packages"
+      },
+      {
+        "key": "D",
+        "text": "Routers, switches, hubs, bridges"
+      }
+    ],
+    "answer": "A",
+    "reason": "Variables, loops, conditionals, and command substitution form the foundation of shell scripting."
+  },
+  {
+    "id": 41,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Types of Shell",
+    "difficulty": "medium",
+    "question": "Which shell is commonly represented by the executable name `ksh`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Korn Shell"
+      },
+      {
+        "key": "B",
+        "text": "C Shell"
+      },
+      {
+        "key": "C",
+        "text": "Bourne Shell"
+      },
+      {
+        "key": "D",
+        "text": "Z Shell"
+      }
+    ],
+    "answer": "A",
+    "reason": "ksh stands for Korn Shell, developed by David Korn."
+  },
+  {
+    "id": 42,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Types of Shell",
+    "difficulty": "medium",
+    "question": "Which shell is commonly represented by `sh`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bash Shell"
+      },
+      {
+        "key": "B",
+        "text": "Bourne Shell"
+      },
+      {
+        "key": "C",
+        "text": "C Shell"
+      },
+      {
+        "key": "D",
+        "text": "Z Shell"
+      }
+    ],
+    "answer": "B",
+    "reason": "sh is the traditional Bourne Shell."
+  },
+  {
+    "id": 43,
+    "subject": "UNIX and Shell Programming",
+    "topic": "System Variables",
+    "difficulty": "easy",
+    "question": "Which variable stores the current working directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "HOME"
+      },
+      {
+        "key": "B",
+        "text": "PWD"
+      },
+      {
+        "key": "C",
+        "text": "PATH"
+      },
+      {
+        "key": "D",
+        "text": "USER"
+      }
+    ],
+    "answer": "B",
+    "reason": "PWD contains the present working directory."
+  },
+  {
+    "id": 44,
+    "subject": "UNIX and Shell Programming",
+    "topic": "System Variables",
+    "difficulty": "easy",
+    "question": "Which variable usually stores the username of the current user?",
+    "options": [
+      {
+        "key": "A",
+        "text": "USER"
+      },
+      {
+        "key": "B",
+        "text": "PATH"
+      },
+      {
+        "key": "C",
+        "text": "TERM"
+      },
+      {
+        "key": "D",
+        "text": "PWD"
+      }
+    ],
+    "answer": "A",
+    "reason": "The USER environment variable generally stores the current username."
+  },
+  {
+    "id": 45,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Variables",
+    "difficulty": "medium",
+    "question": "Which command displays the value of a variable named city?",
+    "options": [
+      {
+        "key": "A",
+        "text": "echo city"
+      },
+      {
+        "key": "B",
+        "text": "print city"
+      },
+      {
+        "key": "C",
+        "text": "echo $city"
+      },
+      {
+        "key": "D",
+        "text": "display city"
+      }
+    ],
+    "answer": "C",
+    "reason": "The $ symbol is used to access a variable's value."
+  },
+  {
+    "id": 46,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Variables",
+    "difficulty": "hard",
+    "question": "Which variable name is invalid in shell scripting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "student_name"
+      },
+      {
+        "key": "B",
+        "text": "_count"
+      },
+      {
+        "key": "C",
+        "text": "2marks"
+      },
+      {
+        "key": "D",
+        "text": "totalMarks"
+      }
+    ],
+    "answer": "C",
+    "reason": "Variable names cannot begin with a digit."
+  },
+  {
+    "id": 47,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Quotes",
+    "difficulty": "medium",
+    "question": "What will be printed if name=John and command is echo `$name`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "John"
+      },
+      {
+        "key": "B",
+        "text": "$name"
+      },
+      {
+        "key": "C",
+        "text": "name"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "B",
+    "reason": "Single quotes prevent variable expansion."
+  },
+  {
+    "id": 48,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Quotes",
+    "difficulty": "medium",
+    "question": "What will be printed if name=John and command is echo \"$name\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$name"
+      },
+      {
+        "key": "B",
+        "text": "John"
+      },
+      {
+        "key": "C",
+        "text": "name"
+      },
+      {
+        "key": "D",
+        "text": "\"John\""
+      }
+    ],
+    "answer": "B",
+    "reason": "Double quotes allow variable expansion."
+  },
+  {
+    "id": 49,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Backslash",
+    "difficulty": "medium",
+    "question": "Which command prints a dollar sign instead of treating it as a variable symbol?",
+    "options": [
+      {
+        "key": "A",
+        "text": "echo $"
+      },
+      {
+        "key": "B",
+        "text": "echo \\$"
+      },
+      {
+        "key": "C",
+        "text": "echo $$"
+      },
+      {
+        "key": "D",
+        "text": "echo &$"
+      }
+    ],
+    "answer": "B",
+    "reason": "Backslash escapes the special meaning of $."
+  },
+  {
+    "id": 50,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Substitution",
+    "difficulty": "easy",
+    "question": "What does command substitution return?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Exit status"
+      },
+      {
+        "key": "B",
+        "text": "Command output"
+      },
+      {
+        "key": "C",
+        "text": "Process ID"
+      },
+      {
+        "key": "D",
+        "text": "Error message only"
+      }
+    ],
+    "answer": "B",
+    "reason": "Command substitution captures the standard output of a command."
+  },
+  {
+    "id": 51,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Substitution",
+    "difficulty": "hard",
+    "question": "Which older syntax also performs command substitution?",
+    "options": [
+      {
+        "key": "A",
+        "text": "{command}"
+      },
+      {
+        "key": "B",
+        "text": "[command]"
+      },
+      {
+        "key": "C",
+        "text": "`command`"
+      },
+      {
+        "key": "D",
+        "text": "`<command>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "Backticks are the traditional command substitution syntax."
+  },
+  {
+    "id": 52,
+    "subject": "UNIX and Shell Programming",
+    "topic": "let Command",
+    "difficulty": "medium",
+    "question": "What is the value of x after executing let x=5*4?",
+    "options": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "54"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "B",
+    "reason": "let evaluates arithmetic expressions."
+  },
+  {
+    "id": 53,
+    "subject": "UNIX and Shell Programming",
+    "topic": "let Command",
+    "difficulty": "hard",
+    "question": "Which operator is used for modulus in let expressions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "/"
+      },
+      {
+        "key": "B",
+        "text": "*"
+      },
+      {
+        "key": "C",
+        "text": "%"
+      },
+      {
+        "key": "D",
+        "text": "^"
+      }
+    ],
+    "answer": "C",
+    "reason": "The % operator calculates the remainder."
+  },
+  {
+    "id": 54,
+    "subject": "UNIX and Shell Programming",
+    "topic": "User Input",
+    "difficulty": "easy",
+    "question": "Where does the read command obtain input from by default?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Printer"
+      },
+      {
+        "key": "B",
+        "text": "Keyboard"
+      },
+      {
+        "key": "C",
+        "text": "File system"
+      },
+      {
+        "key": "D",
+        "text": "Network"
+      }
+    ],
+    "answer": "B",
+    "reason": "read takes input from standard input, usually the keyboard."
+  },
+  {
+    "id": 55,
+    "subject": "UNIX and Shell Programming",
+    "topic": "User Input",
+    "difficulty": "medium",
+    "question": "Which command stores user input in a variable named age?",
+    "options": [
+      {
+        "key": "A",
+        "text": "input age"
+      },
+      {
+        "key": "B",
+        "text": "scan age"
+      },
+      {
+        "key": "C",
+        "text": "read age"
+      },
+      {
+        "key": "D",
+        "text": "accept age"
+      }
+    ],
+    "answer": "C",
+    "reason": "read age stores entered data in the variable age."
+  },
+  {
+    "id": 56,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Line Parameters",
+    "difficulty": "medium",
+    "question": "Which special variable contains all command-line arguments as a single string?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$*"
+      },
+      {
+        "key": "B",
+        "text": "$0"
+      },
+      {
+        "key": "C",
+        "text": "$?"
+      },
+      {
+        "key": "D",
+        "text": "$$"
+      }
+    ],
+    "answer": "A",
+    "reason": "$* represents all positional parameters."
+  },
+  {
+    "id": 57,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Line Parameters",
+    "difficulty": "hard",
+    "question": "Which variable stores the process ID of the current shell?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$#"
+      },
+      {
+        "key": "B",
+        "text": "$!"
+      },
+      {
+        "key": "C",
+        "text": "$$"
+      },
+      {
+        "key": "D",
+        "text": "$@"
+      }
+    ],
+    "answer": "C",
+    "reason": "$$ contains the PID of the current shell process."
+  },
+  {
+    "id": 58,
+    "subject": "UNIX and Shell Programming",
+    "topic": "if Statement",
+    "difficulty": "medium",
+    "question": "Which test operator checks if two strings are equal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-eq"
+      },
+      {
+        "key": "B",
+        "text": "="
+      },
+      {
+        "key": "C",
+        "text": "-gt"
+      },
+      {
+        "key": "D",
+        "text": "-lt"
+      }
+    ],
+    "answer": "B",
+    "reason": "= is commonly used for string comparison."
+  },
+  {
+    "id": 59,
+    "subject": "UNIX and Shell Programming",
+    "topic": "if Statement",
+    "difficulty": "hard",
+    "question": "Which operator checks numeric equality?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-eq"
+      },
+      {
+        "key": "B",
+        "text": "="
+      },
+      {
+        "key": "C",
+        "text": "-ge"
+      },
+      {
+        "key": "D",
+        "text": "-ne"
+      }
+    ],
+    "answer": "A",
+    "reason": "-eq is used for numeric equality testing."
+  },
+  {
+    "id": 60,
+    "subject": "UNIX and Shell Programming",
+    "topic": "if Statement",
+    "difficulty": "hard",
+    "question": "Which keyword is used to test multiple conditions after if?",
+    "options": [
+      {
+        "key": "A",
+        "text": "elseif"
+      },
+      {
+        "key": "B",
+        "text": "elif"
+      },
+      {
+        "key": "C",
+        "text": "else if"
+      },
+      {
+        "key": "D",
+        "text": "otherwise"
+      }
+    ],
+    "answer": "B",
+    "reason": "Shell scripting uses the keyword elif."
+  },
+  {
+    "id": 61,
+    "subject": "UNIX and Shell Programming",
+    "topic": "for Loop",
+    "difficulty": "medium",
+    "question": "How many times will `for i in 1 2 3` execute?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "answer": "C",
+    "reason": "The loop iterates once for each listed value."
+  },
+  {
+    "id": 62,
+    "subject": "UNIX and Shell Programming",
+    "topic": "for Loop",
+    "difficulty": "hard",
+    "question": "Which variable changes value automatically during a for loop iteration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loop variable"
+      },
+      {
+        "key": "B",
+        "text": "PATH"
+      },
+      {
+        "key": "C",
+        "text": "HOME"
+      },
+      {
+        "key": "D",
+        "text": "PWD"
+      }
+    ],
+    "answer": "A",
+    "reason": "The loop variable takes each value in the sequence."
+  },
+  {
+    "id": 63,
+    "subject": "UNIX and Shell Programming",
+    "topic": "while Loop",
+    "difficulty": "medium",
+    "question": "A while loop checks its condition:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Before execution"
+      },
+      {
+        "key": "B",
+        "text": "After execution"
+      },
+      {
+        "key": "C",
+        "text": "Never"
+      },
+      {
+        "key": "D",
+        "text": "Twice only"
+      }
+    ],
+    "answer": "A",
+    "reason": "while is a pre-test loop."
+  },
+  {
+    "id": 64,
+    "subject": "UNIX and Shell Programming",
+    "topic": "while Loop",
+    "difficulty": "hard",
+    "question": "What happens if a while condition never becomes false?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Compilation error"
+      },
+      {
+        "key": "B",
+        "text": "Infinite loop"
+      },
+      {
+        "key": "C",
+        "text": "System shutdown"
+      },
+      {
+        "key": "D",
+        "text": "Variable reset"
+      }
+    ],
+    "answer": "B",
+    "reason": "The loop continues indefinitely."
+  },
+  {
+    "id": 65,
+    "subject": "UNIX and Shell Programming",
+    "topic": "until Loop",
+    "difficulty": "medium",
+    "question": "An until loop executes while the condition is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      },
+      {
+        "key": "C",
+        "text": "Undefined"
+      },
+      {
+        "key": "D",
+        "text": "Numeric"
+      }
+    ],
+    "answer": "B",
+    "reason": "until repeats as long as the condition remains false."
+  },
+  {
+    "id": 66,
+    "subject": "UNIX and Shell Programming",
+    "topic": "until Loop",
+    "difficulty": "hard",
+    "question": "Which statement best describes an until loop?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Opposite of while"
+      },
+      {
+        "key": "B",
+        "text": "Same as for"
+      },
+      {
+        "key": "C",
+        "text": "Recursive loop"
+      },
+      {
+        "key": "D",
+        "text": "Conditional function"
+      }
+    ],
+    "answer": "A",
+    "reason": "until runs until a condition becomes true."
+  },
+  {
+    "id": 67,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exit Status",
+    "difficulty": "easy",
+    "question": "Which command can display the last exit status?",
+    "options": [
+      {
+        "key": "A",
+        "text": "echo $?"
+      },
+      {
+        "key": "B",
+        "text": "echo $$"
+      },
+      {
+        "key": "C",
+        "text": "echo $#"
+      },
+      {
+        "key": "D",
+        "text": "echo $*"
+      }
+    ],
+    "answer": "A",
+    "reason": "$? stores the exit status of the previous command."
+  },
+  {
+    "id": 68,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exit Status",
+    "difficulty": "medium",
+    "question": "What is the exit status of a successful grep search?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "255"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "answer": "A",
+    "reason": "A successful command execution generally returns 0."
+  },
+  {
+    "id": 69,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Special Variables",
+    "difficulty": "hard",
+    "question": "Which special variable stores the PID of the most recent background process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$!"
+      },
+      {
+        "key": "B",
+        "text": "$?"
+      },
+      {
+        "key": "C",
+        "text": "$#"
+      },
+      {
+        "key": "D",
+        "text": "$$"
+      }
+    ],
+    "answer": "A",
+    "reason": "$! contains the process ID of the last background process."
+  },
+  {
+    "id": 70,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Special Variables",
+    "difficulty": "hard",
+    "question": "Which variable expands to all arguments individually?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$@"
+      },
+      {
+        "key": "B",
+        "text": "$0"
+      },
+      {
+        "key": "C",
+        "text": "$$"
+      },
+      {
+        "key": "D",
+        "text": "$?"
+      }
+    ],
+    "answer": "A",
+    "reason": "$@ expands all positional parameters separately."
+  },
+  {
+    "id": 71,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Programming",
+    "difficulty": "easy",
+    "question": "Which command is commonly used to display text in shell scripts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "show"
+      },
+      {
+        "key": "B",
+        "text": "display"
+      },
+      {
+        "key": "C",
+        "text": "echo"
+      },
+      {
+        "key": "D",
+        "text": "write"
+      }
+    ],
+    "answer": "C",
+    "reason": "echo prints text or variable values."
+  },
+  {
+    "id": 72,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Programming",
+    "difficulty": "medium",
+    "question": "Which command makes a shell script executable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "chmod +x script.sh"
+      },
+      {
+        "key": "B",
+        "text": "execute script.sh"
+      },
+      {
+        "key": "C",
+        "text": "run script.sh"
+      },
+      {
+        "key": "D",
+        "text": "permit script.sh"
+      }
+    ],
+    "answer": "A",
+    "reason": "chmod +x grants execute permission."
+  },
+  {
+    "id": 73,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Programming",
+    "difficulty": "medium",
+    "question": "Which file extension is commonly used for shell scripts?",
+    "options": [
+      {
+        "key": "A",
+        "text": ".java"
+      },
+      {
+        "key": "B",
+        "text": ".sh"
+      },
+      {
+        "key": "C",
+        "text": ".sql"
+      },
+      {
+        "key": "D",
+        "text": ".cpp"
+      }
+    ],
+    "answer": "B",
+    "reason": ".sh is the conventional extension for shell scripts."
+  },
+  {
+    "id": 74,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Arithmetic Operations",
+    "difficulty": "medium",
+    "question": "Which operator performs exponentiation in many shell arithmetic contexts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "**"
+      },
+      {
+        "key": "B",
+        "text": "^^"
+      },
+      {
+        "key": "C",
+        "text": "//"
+      },
+      {
+        "key": "D",
+        "text": "%%"
+      }
+    ],
+    "answer": "A",
+    "reason": "** is commonly used for exponentiation in shell arithmetic expansion."
+  },
+  {
+    "id": 75,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Arithmetic Operations",
+    "difficulty": "hard",
+    "question": "What is the result of let x=10/2?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "B",
+    "reason": "10 divided by 2 equals 5."
+  },
+  {
+    "id": 76,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Variables",
+    "difficulty": "hard",
+    "question": "Which command exports a variable to child processes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "set"
+      },
+      {
+        "key": "B",
+        "text": "export"
+      },
+      {
+        "key": "C",
+        "text": "share"
+      },
+      {
+        "key": "D",
+        "text": "declare"
+      }
+    ],
+    "answer": "B",
+    "reason": "export makes variables available to child processes."
+  },
+  {
+    "id": 77,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Variables",
+    "difficulty": "medium",
+    "question": "What is the purpose of the export command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Delete variables"
+      },
+      {
+        "key": "B",
+        "text": "Create comments"
+      },
+      {
+        "key": "C",
+        "text": "Pass variables to child processes"
+      },
+      {
+        "key": "D",
+        "text": "Execute loops"
+      }
+    ],
+    "answer": "C",
+    "reason": "export promotes shell variables to environment variables."
+  },
+  {
+    "id": 78,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Conditional Testing",
+    "difficulty": "hard",
+    "question": "Which operator checks if two numbers are not equal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-eq"
+      },
+      {
+        "key": "B",
+        "text": "-gt"
+      },
+      {
+        "key": "C",
+        "text": "-ne"
+      },
+      {
+        "key": "D",
+        "text": "-lt"
+      }
+    ],
+    "answer": "C",
+    "reason": "-ne stands for not equal."
+  },
+  {
+    "id": 79,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Conditional Testing",
+    "difficulty": "hard",
+    "question": "Which operator checks whether one number is greater than another?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-gt"
+      },
+      {
+        "key": "B",
+        "text": "-lt"
+      },
+      {
+        "key": "C",
+        "text": "-eq"
+      },
+      {
+        "key": "D",
+        "text": "-ne"
+      }
+    ],
+    "answer": "A",
+    "reason": "-gt means greater than."
+  },
+  {
+    "id": 80,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Programming Concepts",
+    "difficulty": "hard",
+    "question": "Which feature allows shell scripts to automate repetitive tasks without user intervention?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loops and conditionals"
+      },
+      {
+        "key": "B",
+        "text": "Directory permissions"
+      },
+      {
+        "key": "C",
+        "text": "Kernel modules"
+      },
+      {
+        "key": "D",
+        "text": "Device drivers"
+      }
+    ],
+    "answer": "A",
+    "reason": "Loops and conditional statements enable automation and decision-making in shell scripts."
+  },
+  {
+    "id": 81,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Variables",
+    "difficulty": "medium",
+    "question": "Which command displays all environment variables in a shell session?",
+    "options": [
+      {
+        "key": "A",
+        "text": "env"
+      },
+      {
+        "key": "B",
+        "text": "vars"
+      },
+      {
+        "key": "C",
+        "text": "showenv"
+      },
+      {
+        "key": "D",
+        "text": "listvar"
+      }
+    ],
+    "answer": "A",
+    "reason": "The env command displays the current environment variables."
+  },
+  {
+    "id": 82,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Variables",
+    "difficulty": "hard",
+    "question": "What happens if spaces are used around `=` during variable assignment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Variable is assigned normally"
+      },
+      {
+        "key": "B",
+        "text": "Shell treats it as a command"
+      },
+      {
+        "key": "C",
+        "text": "Value becomes empty"
+      },
+      {
+        "key": "D",
+        "text": "Variable becomes global"
+      }
+    ],
+    "answer": "B",
+    "reason": "Shell variable assignments must not contain spaces around `=`."
+  },
+  {
+    "id": 83,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Quotes",
+    "difficulty": "medium",
+    "question": "Which quote type allows command substitution and variable expansion?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Single quotes"
+      },
+      {
+        "key": "B",
+        "text": "Double quotes"
+      },
+      {
+        "key": "C",
+        "text": "No quotes only"
+      },
+      {
+        "key": "D",
+        "text": "Square brackets"
+      }
+    ],
+    "answer": "B",
+    "reason": "Double quotes preserve spaces while allowing variable and command expansion."
+  },
+  {
+    "id": 84,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Backslash",
+    "difficulty": "medium",
+    "question": "What is the purpose of a backslash at the end of a shell command line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "End execution"
+      },
+      {
+        "key": "B",
+        "text": "Continue command on the next line"
+      },
+      {
+        "key": "C",
+        "text": "Create comments"
+      },
+      {
+        "key": "D",
+        "text": "Redirect output"
+      }
+    ],
+    "answer": "B",
+    "reason": "A trailing backslash escapes the newline and continues the command."
+  },
+  {
+    "id": 85,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Substitution",
+    "difficulty": "hard",
+    "question": "What will be stored in variable d after executing d=$(date)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The date command itself"
+      },
+      {
+        "key": "B",
+        "text": "Current date and time output"
+      },
+      {
+        "key": "C",
+        "text": "Exit status of date"
+      },
+      {
+        "key": "D",
+        "text": "PID of shell"
+      }
+    ],
+    "answer": "B",
+    "reason": "Command substitution stores the output generated by the command."
+  },
+  {
+    "id": 86,
+    "subject": "UNIX and Shell Programming",
+    "topic": "let Command",
+    "difficulty": "medium",
+    "question": "What will be the value of x after `let x=7%3`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "A",
+    "reason": "7 modulo 3 leaves a remainder of 1."
+  },
+  {
+    "id": 87,
+    "subject": "UNIX and Shell Programming",
+    "topic": "User Input",
+    "difficulty": "hard",
+    "question": "Which option of read suppresses input display while typing passwords in Bash?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-p"
+      },
+      {
+        "key": "B",
+        "text": "-s"
+      },
+      {
+        "key": "C",
+        "text": "-n"
+      },
+      {
+        "key": "D",
+        "text": "-t"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -s option reads input silently without displaying typed characters."
+  },
+  {
+    "id": 88,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Line Parameters",
+    "difficulty": "medium",
+    "question": "Which special variable represents the second command-line argument?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0"
+      },
+      {
+        "key": "B",
+        "text": "$1"
+      },
+      {
+        "key": "C",
+        "text": "$2"
+      },
+      {
+        "key": "D",
+        "text": "$#"
+      }
+    ],
+    "answer": "C",
+    "reason": "$2 refers to the second positional parameter."
+  },
+  {
+    "id": 89,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Command Line Parameters",
+    "difficulty": "hard",
+    "question": "If a script is executed as `.`/test.sh` a b c`, what is the value of $#?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "B",
+    "reason": "$# stores the number of command-line arguments excluding the script name."
+  },
+  {
+    "id": 90,
+    "subject": "UNIX and Shell Programming",
+    "topic": "if Statement",
+    "difficulty": "medium",
+    "question": "Which test operator checks whether a file exists?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-f"
+      },
+      {
+        "key": "B",
+        "text": "-e"
+      },
+      {
+        "key": "C",
+        "text": "-x"
+      },
+      {
+        "key": "D",
+        "text": "-r"
+      }
+    ],
+    "answer": "B",
+    "reason": "The -e operator checks whether a file or directory exists."
+  },
+  {
+    "id": 91,
+    "subject": "UNIX and Shell Programming",
+    "topic": "if Statement",
+    "difficulty": "hard",
+    "question": "Which operator checks whether a file is executable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-r"
+      },
+      {
+        "key": "B",
+        "text": "-w"
+      },
+      {
+        "key": "C",
+        "text": "-x"
+      },
+      {
+        "key": "D",
+        "text": "-e"
+      }
+    ],
+    "answer": "C",
+    "reason": "The -x test operator checks execute permission."
+  },
+  {
+    "id": 92,
+    "subject": "UNIX and Shell Programming",
+    "topic": "for Loop",
+    "difficulty": "medium",
+    "question": "Which loop is commonly used to iterate through filenames in a directory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "until"
+      },
+      {
+        "key": "C",
+        "text": "case"
+      },
+      {
+        "key": "D",
+        "text": "select"
+      }
+    ],
+    "answer": "A",
+    "reason": "for loops are frequently used to process lists such as filenames."
+  },
+  {
+    "id": 93,
+    "subject": "UNIX and Shell Programming",
+    "topic": "for Loop",
+    "difficulty": "hard",
+    "question": "How many iterations occur in `for i in A B C D`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "answer": "B",
+    "reason": "The loop executes once for each listed item."
+  },
+  {
+    "id": 94,
+    "subject": "UNIX and Shell Programming",
+    "topic": "while Loop",
+    "difficulty": "medium",
+    "question": "Which keyword terminates a while loop block?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fi"
+      },
+      {
+        "key": "B",
+        "text": "end"
+      },
+      {
+        "key": "C",
+        "text": "done"
+      },
+      {
+        "key": "D",
+        "text": "stop"
+      }
+    ],
+    "answer": "C",
+    "reason": "The done keyword ends while, for, and until loops."
+  },
+  {
+    "id": 95,
+    "subject": "UNIX and Shell Programming",
+    "topic": "while Loop",
+    "difficulty": "hard",
+    "question": "Which loop is best suited when the number of iterations is unknown beforehand?",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "while"
+      },
+      {
+        "key": "C",
+        "text": "case"
+      },
+      {
+        "key": "D",
+        "text": "select"
+      }
+    ],
+    "answer": "B",
+    "reason": "while loops continue until a condition changes, making them suitable for unknown iteration counts."
+  },
+  {
+    "id": 96,
+    "subject": "UNIX and Shell Programming",
+    "topic": "until Loop",
+    "difficulty": "medium",
+    "question": "When does an until loop stop executing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "When condition becomes true"
+      },
+      {
+        "key": "B",
+        "text": "When condition becomes false"
+      },
+      {
+        "key": "C",
+        "text": "After one iteration"
+      },
+      {
+        "key": "D",
+        "text": "Never"
+      }
+    ],
+    "answer": "A",
+    "reason": "An until loop continues while the condition is false and stops when it becomes true."
+  },
+  {
+    "id": 97,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exit Status",
+    "difficulty": "medium",
+    "question": "Which exit status value usually indicates an error condition?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "Any non-zero value"
+      },
+      {
+        "key": "C",
+        "text": "-1 only"
+      },
+      {
+        "key": "D",
+        "text": "255 only"
+      }
+    ],
+    "answer": "B",
+    "reason": "By convention, non-zero exit codes indicate errors or special conditions."
+  },
+  {
+    "id": 98,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exit Status",
+    "difficulty": "hard",
+    "question": "What does `$?` contain immediately after executing a command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Current shell PID"
+      },
+      {
+        "key": "B",
+        "text": "Last command output"
+      },
+      {
+        "key": "C",
+        "text": "Last command exit status"
+      },
+      {
+        "key": "D",
+        "text": "Number of arguments"
+      }
+    ],
+    "answer": "C",
+    "reason": "$? stores the exit status returned by the most recently executed command."
+  },
+  {
+    "id": 99,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Programming Concepts",
+    "difficulty": "hard",
+    "question": "Which shell feature allows decisions to be made based on conditions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Variables"
+      },
+      {
+        "key": "B",
+        "text": "Comments"
+      },
+      {
+        "key": "C",
+        "text": "if statements"
+      },
+      {
+        "key": "D",
+        "text": "Echo commands"
+      }
+    ],
+    "answer": "C",
+    "reason": "if statements provide decision-making capability in shell scripts."
+  },
+  {
+    "id": 100,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Shell Programming Concepts",
+    "difficulty": "hard",
+    "question": "Which combination best represents the core building blocks of shell scripting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Variables, Input, Conditions, Loops"
+      },
+      {
+        "key": "B",
+        "text": "Tables, Views, Triggers, Joins"
+      },
+      {
+        "key": "C",
+        "text": "Classes, Objects, Packages, Interfaces"
+      },
+      {
+        "key": "D",
+        "text": "Routers, Switches, Bridges, Hubs"
+      }
+    ],
+    "answer": "A",
+    "reason": "Variables, user input, conditional statements, and loops form the foundation of shell scripting."
+  }
 ]

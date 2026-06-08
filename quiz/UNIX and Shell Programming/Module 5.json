@@ -1,2702 +1,2702 @@
 [
-    {
-        "id": 1,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Editor Introduction",
-        "difficulty": "easy",
-        "question": "What is VI in UNIX/Linux?",
-        "options": [
-            {
-                "key": "A",
-                "text": "A compiler"
-            },
-            {
-                "key": "B",
-                "text": "A text editor"
-            },
-            {
-                "key": "C",
-                "text": "A shell"
-            },
-            {
-                "key": "D",
-                "text": "A file manager"
-            }
-        ],
-        "answer": "B",
-        "reason": "VI is a screen-oriented text editor available on UNIX and Linux systems."
-    },
-    {
-        "id": 2,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Modes",
-        "difficulty": "easy",
-        "question": "Which mode is the default mode when VI starts?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Insert Mode"
-            },
-            {
-                "key": "B",
-                "text": "Last-line Mode"
-            },
-            {
-                "key": "C",
-                "text": "Command Mode"
-            },
-            {
-                "key": "D",
-                "text": "Visual Mode"
-            }
-        ],
-        "answer": "C",
-        "reason": "VI starts in Command Mode by default."
-    },
-    {
-        "id": 3,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Modes",
-        "difficulty": "easy",
-        "question": "Which mode is used to enter and edit text?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Command Mode"
-            },
-            {
-                "key": "B",
-                "text": "Insert Mode"
-            },
-            {
-                "key": "C",
-                "text": "Last-line Mode"
-            },
-            {
-                "key": "D",
-                "text": "Replace Mode"
-            }
-        ],
-        "answer": "B",
-        "reason": "Insert Mode allows text entry and editing."
-    },
-    {
-        "id": 4,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Modes",
-        "difficulty": "medium",
-        "question": "Which key is used to return from Insert Mode to Command Mode?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Enter"
-            },
-            {
-                "key": "B",
-                "text": "Ctrl+C"
-            },
-            {
-                "key": "C",
-                "text": "Esc"
-            },
-            {
-                "key": "D",
-                "text": "Tab"
-            }
-        ],
-        "answer": "C",
-        "reason": "Pressing Esc exits Insert Mode and returns to Command Mode."
-    },
-    {
-        "id": 5,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Modes",
-        "difficulty": "medium",
-        "question": "Which mode is used for commands such as :w and :q?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Insert Mode"
-            },
-            {
-                "key": "B",
-                "text": "Command Mode"
-            },
-            {
-                "key": "C",
-                "text": "Last-line Mode"
-            },
-            {
-                "key": "D",
-                "text": "Visual Mode"
-            }
-        ],
-        "answer": "C",
-        "reason": "Commands beginning with ':' are executed in Last-line Mode."
-    },
-    {
-        "id": 6,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Starting VI",
-        "difficulty": "easy",
-        "question": "Which command opens a file named test.txt in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": "vi test.txt"
-            },
-            {
-                "key": "B",
-                "text": "open test.txt"
-            },
-            {
-                "key": "C",
-                "text": "edit test.txt"
-            },
-            {
-                "key": "D",
-                "text": "vimopen test.txt"
-            }
-        ],
-        "answer": "A",
-        "reason": "The command 'vi filename' opens or creates a file."
-    },
-    {
-        "id": 7,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "easy",
-        "question": "Which key moves the cursor one character to the left?",
-        "options": [
-            {
-                "key": "A",
-                "text": "h"
-            },
-            {
-                "key": "B",
-                "text": "j"
-            },
-            {
-                "key": "C",
-                "text": "k"
-            },
-            {
-                "key": "D",
-                "text": "l"
-            }
-        ],
-        "answer": "A",
-        "reason": "The h key moves the cursor left in Command Mode."
-    },
-    {
-        "id": 8,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "easy",
-        "question": "Which key moves the cursor down one line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "h"
-            },
-            {
-                "key": "B",
-                "text": "j"
-            },
-            {
-                "key": "C",
-                "text": "k"
-            },
-            {
-                "key": "D",
-                "text": "l"
-            }
-        ],
-        "answer": "B",
-        "reason": "The j key moves the cursor downward."
-    },
-    {
-        "id": 9,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "easy",
-        "question": "Which key moves the cursor up one line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "h"
-            },
-            {
-                "key": "B",
-                "text": "j"
-            },
-            {
-                "key": "C",
-                "text": "k"
-            },
-            {
-                "key": "D",
-                "text": "l"
-            }
-        ],
-        "answer": "C",
-        "reason": "The k key moves the cursor upward."
-    },
-    {
-        "id": 10,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "easy",
-        "question": "Which key moves the cursor one character to the right?",
-        "options": [
-            {
-                "key": "A",
-                "text": "h"
-            },
-            {
-                "key": "B",
-                "text": "j"
-            },
-            {
-                "key": "C",
-                "text": "k"
-            },
-            {
-                "key": "D",
-                "text": "l"
-            }
-        ],
-        "answer": "D",
-        "reason": "The l key moves the cursor right."
-    },
-    {
-        "id": 11,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "medium",
-        "question": "Which command moves the cursor to the beginning of the next word?",
-        "options": [
-            {
-                "key": "A",
-                "text": "w"
-            },
-            {
-                "key": "B",
-                "text": "b"
-            },
-            {
-                "key": "C",
-                "text": "e"
-            },
-            {
-                "key": "D",
-                "text": "0"
-            }
-        ],
-        "answer": "A",
-        "reason": "The w command moves forward word by word."
-    },
-    {
-        "id": 12,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "medium",
-        "question": "Which command moves to the beginning of the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$"
-            },
-            {
-                "key": "B",
-                "text": "0"
-            },
-            {
-                "key": "C",
-                "text": "G"
-            },
-            {
-                "key": "D",
-                "text": "w"
-            }
-        ],
-        "answer": "B",
-        "reason": "The 0 command moves the cursor to the first character of the line."
-    },
-    {
-        "id": 13,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "medium",
-        "question": "Which command moves to the end of the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "$"
-            },
-            {
-                "key": "B",
-                "text": "0"
-            },
-            {
-                "key": "C",
-                "text": "G"
-            },
-            {
-                "key": "D",
-                "text": "e"
-            }
-        ],
-        "answer": "A",
-        "reason": "The $ command moves the cursor to the end of the line."
-    },
-    {
-        "id": 14,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "easy",
-        "question": "Which command enters Insert Mode before the cursor?",
-        "options": [
-            {
-                "key": "A",
-                "text": "a"
-            },
-            {
-                "key": "B",
-                "text": "i"
-            },
-            {
-                "key": "C",
-                "text": "o"
-            },
-            {
-                "key": "D",
-                "text": "A"
-            }
-        ],
-        "answer": "B",
-        "reason": "The i command inserts text before the current cursor position."
-    },
-    {
-        "id": 15,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "easy",
-        "question": "Which command enters Insert Mode after the cursor?",
-        "options": [
-            {
-                "key": "A",
-                "text": "a"
-            },
-            {
-                "key": "B",
-                "text": "i"
-            },
-            {
-                "key": "C",
-                "text": "o"
-            },
-            {
-                "key": "D",
-                "text": "I"
-            }
-        ],
-        "answer": "A",
-        "reason": "The a command appends text after the cursor."
-    },
-    {
-        "id": 16,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "medium",
-        "question": "Which command opens a new line below the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "O"
-            },
-            {
-                "key": "B",
-                "text": "o"
-            },
-            {
-                "key": "C",
-                "text": "A"
-            },
-            {
-                "key": "D",
-                "text": "I"
-            }
-        ],
-        "answer": "B",
-        "reason": "The o command opens a new line below and enters Insert Mode."
-    },
-    {
-        "id": 17,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "medium",
-        "question": "Which command opens a new line above the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "o"
-            },
-            {
-                "key": "B",
-                "text": "a"
-            },
-            {
-                "key": "C",
-                "text": "O"
-            },
-            {
-                "key": "D",
-                "text": "I"
-            }
-        ],
-        "answer": "C",
-        "reason": "The O command creates a new line above the current line."
-    },
-    {
-        "id": 18,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "hard",
-        "question": "Which command inserts text at the beginning of the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "I"
-            },
-            {
-                "key": "B",
-                "text": "A"
-            },
-            {
-                "key": "C",
-                "text": "i"
-            },
-            {
-                "key": "D",
-                "text": "o"
-            }
-        ],
-        "answer": "A",
-        "reason": "The I command inserts text at the beginning of the line."
-    },
-    {
-        "id": 19,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "easy",
-        "question": "Which command deletes the character under the cursor?",
-        "options": [
-            {
-                "key": "A",
-                "text": "dd"
-            },
-            {
-                "key": "B",
-                "text": "dw"
-            },
-            {
-                "key": "C",
-                "text": "x"
-            },
-            {
-                "key": "D",
-                "text": "D"
-            }
-        ],
-        "answer": "C",
-        "reason": "The x command deletes the current character."
-    },
-    {
-        "id": 20,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "easy",
-        "question": "Which command deletes an entire line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "x"
-            },
-            {
-                "key": "B",
-                "text": "dw"
-            },
-            {
-                "key": "C",
-                "text": "dd"
-            },
-            {
-                "key": "D",
-                "text": "yy"
-            }
-        ],
-        "answer": "C",
-        "reason": "The dd command deletes the entire current line."
-    },
-    {
-        "id": 21,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "medium",
-        "question": "Which command deletes a word starting from the cursor?",
-        "options": [
-            {
-                "key": "A",
-                "text": "dw"
-            },
-            {
-                "key": "B",
-                "text": "dd"
-            },
-            {
-                "key": "C",
-                "text": "yy"
-            },
-            {
-                "key": "D",
-                "text": "D"
-            }
-        ],
-        "answer": "A",
-        "reason": "The dw command deletes from the cursor to the end of the word."
-    },
-    {
-        "id": 22,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "medium",
-        "question": "What does the D command do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Deletes the current line"
-            },
-            {
-                "key": "B",
-                "text": "Deletes from cursor to end of line"
-            },
-            {
-                "key": "C",
-                "text": "Deletes a word"
-            },
-            {
-                "key": "D",
-                "text": "Deletes all lines"
-            }
-        ],
-        "answer": "B",
-        "reason": "D removes text from the cursor position to the end of the line."
-    },
-    {
-        "id": 23,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "easy",
-        "question": "Which command copies the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "dd"
-            },
-            {
-                "key": "B",
-                "text": "yy"
-            },
-            {
-                "key": "C",
-                "text": "pp"
-            },
-            {
-                "key": "D",
-                "text": "dw"
-            }
-        ],
-        "answer": "B",
-        "reason": "The yy command yanks (copies) the current line."
-    },
-    {
-        "id": 24,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "easy",
-        "question": "Which command pastes copied text after the cursor?",
-        "options": [
-            {
-                "key": "A",
-                "text": "P"
-            },
-            {
-                "key": "B",
-                "text": "yy"
-            },
-            {
-                "key": "C",
-                "text": "p"
-            },
-            {
-                "key": "D",
-                "text": "dd"
-            }
-        ],
-        "answer": "C",
-        "reason": "The p command pastes text after the cursor position."
-    },
-    {
-        "id": 25,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "medium",
-        "question": "Which command pastes copied text before the cursor?",
-        "options": [
-            {
-                "key": "A",
-                "text": "P"
-            },
-            {
-                "key": "B",
-                "text": "p"
-            },
-            {
-                "key": "C",
-                "text": "yy"
-            },
-            {
-                "key": "D",
-                "text": "dd"
-            }
-        ],
-        "answer": "A",
-        "reason": "The P command pastes before the cursor."
-    },
-    {
-        "id": 26,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "hard",
-        "question": "What does '3yy' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Copies 3 words"
-            },
-            {
-                "key": "B",
-                "text": "Copies 3 characters"
-            },
-            {
-                "key": "C",
-                "text": "Copies 3 lines"
-            },
-            {
-                "key": "D",
-                "text": "Copies the third line"
-            }
-        ],
-        "answer": "C",
-        "reason": "A numeric prefix repeats the command; 3yy copies three lines."
-    },
-    {
-        "id": 27,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Undo and Redo",
-        "difficulty": "easy",
-        "question": "Which command undoes the last change?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ctrl+r"
-            },
-            {
-                "key": "B",
-                "text": "u"
-            },
-            {
-                "key": "C",
-                "text": "dd"
-            },
-            {
-                "key": "D",
-                "text": "yy"
-            }
-        ],
-        "answer": "B",
-        "reason": "The u command undoes the most recent change."
-    },
-    {
-        "id": 28,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Undo and Redo",
-        "difficulty": "medium",
-        "question": "Which command redoes an undone change?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ctrl+r"
-            },
-            {
-                "key": "B",
-                "text": "u"
-            },
-            {
-                "key": "C",
-                "text": "r"
-            },
-            {
-                "key": "D",
-                "text": "redo"
-            }
-        ],
-        "answer": "A",
-        "reason": "Ctrl+r redoes changes that were undone."
-    },
-    {
-        "id": 29,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Saving Files",
-        "difficulty": "easy",
-        "question": "Which command saves the current file?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":q"
-            },
-            {
-                "key": "B",
-                "text": ":w"
-            },
-            {
-                "key": "C",
-                "text": ":e"
-            },
-            {
-                "key": "D",
-                "text": ":x"
-            }
-        ],
-        "answer": "B",
-        "reason": "The :w command writes changes to disk."
-    },
-    {
-        "id": 30,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Saving Files",
-        "difficulty": "medium",
-        "question": "Which command saves the current file as another filename?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":w filename"
-            },
-            {
-                "key": "B",
-                "text": ":q filename"
-            },
-            {
-                "key": "C",
-                "text": ":e filename"
-            },
-            {
-                "key": "D",
-                "text": ":r filename"
-            }
-        ],
-        "answer": "A",
-        "reason": "The command :w filename saves the contents to a specified file."
-    },
-    {
-        "id": 31,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exiting",
-        "difficulty": "easy",
-        "question": "Which command quits VI if no changes were made?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":q"
-            },
-            {
-                "key": "B",
-                "text": ":w"
-            },
-            {
-                "key": "C",
-                "text": ":wq"
-            },
-            {
-                "key": "D",
-                "text": "ZZ"
-            }
-        ],
-        "answer": "A",
-        "reason": "The :q command exits the editor."
-    },
-    {
-        "id": 32,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exiting",
-        "difficulty": "medium",
-        "question": "Which command forces quitting without saving changes?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":q"
-            },
-            {
-                "key": "B",
-                "text": ":wq"
-            },
-            {
-                "key": "C",
-                "text": ":q!"
-            },
-            {
-                "key": "D",
-                "text": "ZZ"
-            }
-        ],
-        "answer": "C",
-        "reason": "The :q! command discards changes and exits."
-    },
-    {
-        "id": 33,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exiting",
-        "difficulty": "medium",
-        "question": "Which command saves changes and exits?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":wq"
-            },
-            {
-                "key": "B",
-                "text": ":q!"
-            },
-            {
-                "key": "C",
-                "text": ":e"
-            },
-            {
-                "key": "D",
-                "text": ":w"
-            }
-        ],
-        "answer": "A",
-        "reason": "The :wq command writes changes and quits."
-    },
-    {
-        "id": 34,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Exiting",
-        "difficulty": "hard",
-        "question": "Which command also saves and exits the editor?",
-        "options": [
-            {
-                "key": "A",
-                "text": "ZZ"
-            },
-            {
-                "key": "B",
-                "text": ":q!"
-            },
-            {
-                "key": "C",
-                "text": ":e"
-            },
-            {
-                "key": "D",
-                "text": ":r"
-            }
-        ],
-        "answer": "A",
-        "reason": "ZZ is a shortcut for save-and-exit when changes exist."
-    },
-    {
-        "id": 35,
-        "subject": "UNIX and Shell Programming",
-        "topic": "File Operations",
-        "difficulty": "medium",
-        "question": "Which command opens another file from within VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":w filename"
-            },
-            {
-                "key": "B",
-                "text": ":q"
-            },
-            {
-                "key": "C",
-                "text": ":e filename"
-            },
-            {
-                "key": "D",
-                "text": ":x"
-            }
-        ],
-        "answer": "C",
-        "reason": "The :e command opens a specified file."
-    },
-    {
-        "id": 36,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "easy",
-        "question": "Which symbol is used to search forward in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/"
-            },
-            {
-                "key": "B",
-                "text": "?"
-            },
-            {
-                "key": "C",
-                "text": ":"
-            },
-            {
-                "key": "D",
-                "text": "*"
-            }
-        ],
-        "answer": "A",
-        "reason": "Forward searches begin with '/'."
-    },
-    {
-        "id": 37,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "medium",
-        "question": "Which symbol is used to search backward in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/"
-            },
-            {
-                "key": "B",
-                "text": "?"
-            },
-            {
-                "key": "C",
-                "text": ":"
-            },
-            {
-                "key": "D",
-                "text": "&"
-            }
-        ],
-        "answer": "B",
-        "reason": "Backward searches begin with '?'."
-    },
-    {
-        "id": 38,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "medium",
-        "question": "Which command replaces the first occurrence of 'old' with 'new' in the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":s/old/new/"
-            },
-            {
-                "key": "B",
-                "text": ":replace old new"
-            },
-            {
-                "key": "C",
-                "text": ":g/old/new"
-            },
-            {
-                "key": "D",
-                "text": ":r old new"
-            }
-        ],
-        "answer": "A",
-        "reason": "The substitute command :s performs replacements."
-    },
-    {
-        "id": 39,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "hard",
-        "question": "What does ':s/old/new/g' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Replaces first occurrence only"
-            },
-            {
-                "key": "B",
-                "text": "Replaces all occurrences in the current line"
-            },
-            {
-                "key": "C",
-                "text": "Replaces all occurrences in the entire file"
-            },
-            {
-                "key": "D",
-                "text": "Deletes all occurrences"
-            }
-        ],
-        "answer": "B",
-        "reason": "The g flag replaces every occurrence in the current line."
-    },
-    {
-        "id": 40,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "hard",
-        "question": "Which command replaces all occurrences of 'old' with 'new' throughout the entire file?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":s/old/new/g"
-            },
-            {
-                "key": "B",
-                "text": ":%s/old/new/g"
-            },
-            {
-                "key": "C",
-                "text": ":replace old new"
-            },
-            {
-                "key": "D",
-                "text": ":g/old/new"
-            }
-        ],
-        "answer": "B",
-        "reason": ":%s/old/new/g applies the substitution to every line in the file."
-    },
-    {
-        "id": 41,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Modes",
-        "difficulty": "easy",
-        "question": "How can a user enter Last-line Mode from Command Mode?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Press :"
-            },
-            {
-                "key": "B",
-                "text": "Press i"
-            },
-            {
-                "key": "C",
-                "text": "Press Esc"
-            },
-            {
-                "key": "D",
-                "text": "Press a"
-            }
-        ],
-        "answer": "A",
-        "reason": "Typing ':' from Command Mode enters Last-line Mode."
-    },
-    {
-        "id": 42,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "medium",
-        "question": "Which command moves the cursor backward by one word?",
-        "options": [
-            {
-                "key": "A",
-                "text": "w"
-            },
-            {
-                "key": "B",
-                "text": "b"
-            },
-            {
-                "key": "C",
-                "text": "e"
-            },
-            {
-                "key": "D",
-                "text": "$"
-            }
-        ],
-        "answer": "B",
-        "reason": "The b command moves the cursor to the beginning of the previous word."
-    },
-    {
-        "id": 43,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "medium",
-        "question": "Which command moves the cursor to the end of the current word?",
-        "options": [
-            {
-                "key": "A",
-                "text": "w"
-            },
-            {
-                "key": "B",
-                "text": "b"
-            },
-            {
-                "key": "C",
-                "text": "e"
-            },
-            {
-                "key": "D",
-                "text": "0"
-            }
-        ],
-        "answer": "C",
-        "reason": "The e command moves the cursor to the end of the current word."
-    },
-    {
-        "id": 44,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "hard",
-        "question": "Which command moves the cursor to the last line of the file?",
-        "options": [
-            {
-                "key": "A",
-                "text": "gg"
-            },
-            {
-                "key": "B",
-                "text": "G"
-            },
-            {
-                "key": "C",
-                "text": "$"
-            },
-            {
-                "key": "D",
-                "text": "L"
-            }
-        ],
-        "answer": "B",
-        "reason": "The G command moves directly to the last line of the file."
-    },
-    {
-        "id": 45,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "hard",
-        "question": "Which command moves the cursor to the first line of the file?",
-        "options": [
-            {
-                "key": "A",
-                "text": "gg"
-            },
-            {
-                "key": "B",
-                "text": "G"
-            },
-            {
-                "key": "C",
-                "text": "0"
-            },
-            {
-                "key": "D",
-                "text": "1G"
-            }
-        ],
-        "answer": "A",
-        "reason": "The gg command moves to the first line of the file."
-    },
-    {
-        "id": 46,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "medium",
-        "question": "Which key combination moves one page forward in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ctrl+F"
-            },
-            {
-                "key": "B",
-                "text": "Ctrl+B"
-            },
-            {
-                "key": "C",
-                "text": "Ctrl+U"
-            },
-            {
-                "key": "D",
-                "text": "Ctrl+E"
-            }
-        ],
-        "answer": "A",
-        "reason": "Ctrl+F scrolls one full page forward."
-    },
-    {
-        "id": 47,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "medium",
-        "question": "Which key combination moves one page backward in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Ctrl+F"
-            },
-            {
-                "key": "B",
-                "text": "Ctrl+B"
-            },
-            {
-                "key": "C",
-                "text": "Ctrl+D"
-            },
-            {
-                "key": "D",
-                "text": "Ctrl+R"
-            }
-        ],
-        "answer": "B",
-        "reason": "Ctrl+B scrolls one full page backward."
-    },
-    {
-        "id": 48,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "medium",
-        "question": "Which command appends text at the end of the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "I"
-            },
-            {
-                "key": "B",
-                "text": "A"
-            },
-            {
-                "key": "C",
-                "text": "a"
-            },
-            {
-                "key": "D",
-                "text": "o"
-            }
-        ],
-        "answer": "B",
-        "reason": "The A command moves to the end of the line and enters Insert Mode."
-    },
-    {
-        "id": 49,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "hard",
-        "question": "What is the difference between 'i' and 'a'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "No difference"
-            },
-            {
-                "key": "B",
-                "text": "i inserts before cursor, a inserts after cursor"
-            },
-            {
-                "key": "C",
-                "text": "i deletes text, a inserts text"
-            },
-            {
-                "key": "D",
-                "text": "a works only at line end"
-            }
-        ],
-        "answer": "B",
-        "reason": "The i command inserts before the cursor, while a inserts after it."
-    },
-    {
-        "id": 50,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "easy",
-        "question": "Which command deletes two consecutive lines?",
-        "options": [
-            {
-                "key": "A",
-                "text": "2dd"
-            },
-            {
-                "key": "B",
-                "text": "dd2"
-            },
-            {
-                "key": "C",
-                "text": "dw2"
-            },
-            {
-                "key": "D",
-                "text": "2x"
-            }
-        ],
-        "answer": "A",
-        "reason": "A numeric prefix repeats the delete-line command."
-    },
-    {
-        "id": 51,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "medium",
-        "question": "What does '5dd' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Deletes 5 words"
-            },
-            {
-                "key": "B",
-                "text": "Deletes 5 characters"
-            },
-            {
-                "key": "C",
-                "text": "Deletes 5 lines"
-            },
-            {
-                "key": "D",
-                "text": "Deletes line 5"
-            }
-        ],
-        "answer": "C",
-        "reason": "The prefix 5 causes dd to delete five lines."
-    },
-    {
-        "id": 52,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "hard",
-        "question": "Which command deletes from the cursor to the end of the word?",
-        "options": [
-            {
-                "key": "A",
-                "text": "dd"
-            },
-            {
-                "key": "B",
-                "text": "D"
-            },
-            {
-                "key": "C",
-                "text": "dw"
-            },
-            {
-                "key": "D",
-                "text": "x"
-            }
-        ],
-        "answer": "C",
-        "reason": "The dw command removes text from the cursor position through the current word."
-    },
-    {
-        "id": 53,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "easy",
-        "question": "What is another name for copying text in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Deleting"
-            },
-            {
-                "key": "B",
-                "text": "Yanking"
-            },
-            {
-                "key": "C",
-                "text": "Appending"
-            },
-            {
-                "key": "D",
-                "text": "Substituting"
-            }
-        ],
-        "answer": "B",
-        "reason": "VI uses the term 'yank' for copy operations."
-    },
-    {
-        "id": 54,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "medium",
-        "question": "What does '4yy' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Copies 4 words"
-            },
-            {
-                "key": "B",
-                "text": "Copies 4 characters"
-            },
-            {
-                "key": "C",
-                "text": "Copies 4 lines"
-            },
-            {
-                "key": "D",
-                "text": "Copies line number 4"
-            }
-        ],
-        "answer": "C",
-        "reason": "The prefix 4 repeats the yank-line operation four times."
-    },
-    {
-        "id": 55,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "hard",
-        "question": "What does '3p' do after copying a line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Pastes 3 times"
-            },
-            {
-                "key": "B",
-                "text": "Copies 3 times"
-            },
-            {
-                "key": "C",
-                "text": "Deletes 3 lines"
-            },
-            {
-                "key": "D",
-                "text": "Moves 3 lines"
-            }
-        ],
-        "answer": "A",
-        "reason": "A numeric prefix repeats the paste operation."
-    },
-    {
-        "id": 56,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Undo and Redo",
-        "difficulty": "medium",
-        "question": "Which command can be repeatedly used to undo multiple changes?",
-        "options": [
-            {
-                "key": "A",
-                "text": "u"
-            },
-            {
-                "key": "B",
-                "text": "Ctrl+r"
-            },
-            {
-                "key": "C",
-                "text": "dd"
-            },
-            {
-                "key": "D",
-                "text": ":undo"
-            }
-        ],
-        "answer": "A",
-        "reason": "Repeated presses of u undo successive changes."
-    },
-    {
-        "id": 57,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Working with Files",
-        "difficulty": "easy",
-        "question": "Which command writes changes to disk without exiting?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":q"
-            },
-            {
-                "key": "B",
-                "text": ":w"
-            },
-            {
-                "key": "C",
-                "text": ":wq"
-            },
-            {
-                "key": "D",
-                "text": "ZZ"
-            }
-        ],
-        "answer": "B",
-        "reason": "The :w command saves the file but keeps VI open."
-    },
-    {
-        "id": 58,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Working with Files",
-        "difficulty": "medium",
-        "question": "Which command opens a file named notes.txt from within VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":open notes.txt"
-            },
-            {
-                "key": "B",
-                "text": ":e notes.txt"
-            },
-            {
-                "key": "C",
-                "text": ":file notes.txt"
-            },
-            {
-                "key": "D",
-                "text": ":read notes.txt"
-            }
-        ],
-        "answer": "B",
-        "reason": "The :e command edits or opens another file."
-    },
-    {
-        "id": 59,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Working with Files",
-        "difficulty": "hard",
-        "question": "What happens when ':q' is executed on a modified file?",
-        "options": [
-            {
-                "key": "A",
-                "text": "VI exits immediately"
-            },
-            {
-                "key": "B",
-                "text": "File is automatically saved"
-            },
-            {
-                "key": "C",
-                "text": "VI warns about unsaved changes"
-            },
-            {
-                "key": "D",
-                "text": "File is deleted"
-            }
-        ],
-        "answer": "C",
-        "reason": "VI prevents accidental loss of unsaved changes."
-    },
-    {
-        "id": 60,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "easy",
-        "question": "Which command searches forward for the word 'linux'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/linux"
-            },
-            {
-                "key": "B",
-                "text": "?linux"
-            },
-            {
-                "key": "C",
-                "text": ":linux"
-            },
-            {
-                "key": "D",
-                "text": "*linux"
-            }
-        ],
-        "answer": "A",
-        "reason": "Forward searches begin with '/'."
-    },
-    {
-        "id": 61,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "medium",
-        "question": "Which command searches backward for the word 'unix'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/unix"
-            },
-            {
-                "key": "B",
-                "text": "?unix"
-            },
-            {
-                "key": "C",
-                "text": ":unix"
-            },
-            {
-                "key": "D",
-                "text": "*unix"
-            }
-        ],
-        "answer": "B",
-        "reason": "Backward searches begin with '?'."
-    },
-    {
-        "id": 62,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "medium",
-        "question": "After a search, which key repeats the search in the same direction?",
-        "options": [
-            {
-                "key": "A",
-                "text": "n"
-            },
-            {
-                "key": "B",
-                "text": "p"
-            },
-            {
-                "key": "C",
-                "text": "r"
-            },
-            {
-                "key": "D",
-                "text": "s"
-            }
-        ],
-        "answer": "A",
-        "reason": "The n key repeats the previous search."
-    },
-    {
-        "id": 63,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "hard",
-        "question": "Which feature allows pattern-based searching in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Aliases"
-            },
-            {
-                "key": "B",
-                "text": "Regular Expressions"
-            },
-            {
-                "key": "C",
-                "text": "Macros"
-            },
-            {
-                "key": "D",
-                "text": "Pipelines"
-            }
-        ],
-        "answer": "B",
-        "reason": "VI supports regular expressions for advanced search operations."
-    },
-    {
-        "id": 64,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "easy",
-        "question": "Which command starts a substitution operation in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":s"
-            },
-            {
-                "key": "B",
-                "text": ":r"
-            },
-            {
-                "key": "C",
-                "text": ":e"
-            },
-            {
-                "key": "D",
-                "text": ":w"
-            }
-        ],
-        "answer": "A",
-        "reason": "The substitute command begins with :s."
-    },
-    {
-        "id": 65,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "medium",
-        "question": "What does ':s/cat/dog/' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Replaces all occurrences in the file"
-            },
-            {
-                "key": "B",
-                "text": "Replaces the first occurrence in the current line"
-            },
-            {
-                "key": "C",
-                "text": "Deletes cat"
-            },
-            {
-                "key": "D",
-                "text": "Searches for dog"
-            }
-        ],
-        "answer": "B",
-        "reason": "Without the g flag, only the first match on the current line is replaced."
-    },
-    {
-        "id": 66,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "medium",
-        "question": "What is the purpose of the 'g' flag in substitution commands?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Go to line"
-            },
-            {
-                "key": "B",
-                "text": "Global replacement within a line"
-            },
-            {
-                "key": "C",
-                "text": "Group matches"
-            },
-            {
-                "key": "D",
-                "text": "Generate output"
-            }
-        ],
-        "answer": "B",
-        "reason": "The g flag replaces all matches on the selected line."
-    },
-    {
-        "id": 67,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "hard",
-        "question": "Which command replaces all occurrences of 'red' with 'blue' in the entire file?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":s/red/blue/g"
-            },
-            {
-                "key": "B",
-                "text": ":%s/red/blue/g"
-            },
-            {
-                "key": "C",
-                "text": ":replace red blue"
-            },
-            {
-                "key": "D",
-                "text": ":g/red/blue"
-            }
-        ],
-        "answer": "B",
-        "reason": "The % range applies the substitution to every line in the file."
-    },
-    {
-        "id": 68,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "hard",
-        "question": "What does '%' represent in ':%s/old/new/g'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Current line"
-            },
-            {
-                "key": "B",
-                "text": "Current word"
-            },
-            {
-                "key": "C",
-                "text": "Entire file"
-            },
-            {
-                "key": "D",
-                "text": "Current paragraph"
-            }
-        ],
-        "answer": "C",
-        "reason": "The % symbol specifies all lines in the file."
-    },
-    {
-        "id": 69,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Regular Expressions",
-        "difficulty": "medium",
-        "question": "Which search pattern finds lines beginning with 'A'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/A$"
-            },
-            {
-                "key": "B",
-                "text": "/^A"
-            },
-            {
-                "key": "C",
-                "text": "/A*"
-            },
-            {
-                "key": "D",
-                "text": "/.A"
-            }
-        ],
-        "answer": "B",
-        "reason": "The '^' symbol matches the beginning of a line."
-    },
-    {
-        "id": 70,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Regular Expressions",
-        "difficulty": "medium",
-        "question": "Which search pattern finds lines ending with 'A'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/A$"
-            },
-            {
-                "key": "B",
-                "text": "/^A"
-            },
-            {
-                "key": "C",
-                "text": "/A+"
-            },
-            {
-                "key": "D",
-                "text": "/A?"
-            }
-        ],
-        "answer": "A",
-        "reason": "The '$' symbol matches the end of a line."
-    },
-    {
-        "id": 71,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Regular Expressions",
-        "difficulty": "hard",
-        "question": "In VI regular expressions, what does '.' represent?",
-        "options": [
-            {
-                "key": "A",
-                "text": "End of line"
-            },
-            {
-                "key": "B",
-                "text": "Any single character"
-            },
-            {
-                "key": "C",
-                "text": "Beginning of line"
-            },
-            {
-                "key": "D",
-                "text": "Whitespace only"
-            }
-        ],
-        "answer": "B",
-        "reason": "The dot wildcard matches any single character."
-    },
-    {
-        "id": 72,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Regular Expressions",
-        "difficulty": "hard",
-        "question": "Which pattern matches lines beginning with the word 'Unix'?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/Unix$"
-            },
-            {
-                "key": "B",
-                "text": "/^Unix"
-            },
-            {
-                "key": "C",
-                "text": "/.Unix"
-            },
-            {
-                "key": "D",
-                "text": "/Unix*"
-            }
-        ],
-        "answer": "B",
-        "reason": "The '^' anchor specifies the beginning of a line."
-    },
-    {
-        "id": 73,
-        "subject": "UNIX and Shell Programming",
-        "topic": "File Operations",
-        "difficulty": "medium",
-        "question": "Which command saves changes and exits in one step?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":wq"
-            },
-            {
-                "key": "B",
-                "text": ":q!"
-            },
-            {
-                "key": "C",
-                "text": ":e"
-            },
-            {
-                "key": "D",
-                "text": ":w"
-            }
-        ],
-        "answer": "A",
-        "reason": "The :wq command combines write and quit operations."
-    },
-    {
-        "id": 74,
-        "subject": "UNIX and Shell Programming",
-        "topic": "File Operations",
-        "difficulty": "hard",
-        "question": "What does ':w report.txt' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Opens report.txt"
-            },
-            {
-                "key": "B",
-                "text": "Saves current content to report.txt"
-            },
-            {
-                "key": "C",
-                "text": "Deletes report.txt"
-            },
-            {
-                "key": "D",
-                "text": "Searches report.txt"
-            }
-        ],
-        "answer": "B",
-        "reason": "It writes the current buffer to the specified file."
-    },
-    {
-        "id": 75,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search and Replace",
-        "difficulty": "hard",
-        "question": "Which command replaces every occurrence of 'Linux' with 'UNIX' throughout the file?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":%s/Linux/UNIX/g"
-            },
-            {
-                "key": "B",
-                "text": ":s/Linux/UNIX/g"
-            },
-            {
-                "key": "C",
-                "text": ":replace/Linux/UNIX"
-            },
-            {
-                "key": "D",
-                "text": ":g/Linux/UNIX"
-            }
-        ],
-        "answer": "A",
-        "reason": "Using '%' applies substitution to all lines in the file."
-    },
-    {
-        "id": 76,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "easy",
-        "question": "Which symbol starts a forward search command?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":"
-            },
-            {
-                "key": "B",
-                "text": "/"
-            },
-            {
-                "key": "C",
-                "text": "?"
-            },
-            {
-                "key": "D",
-                "text": ";"
-            }
-        ],
-        "answer": "B",
-        "reason": "Forward searches are initiated with '/'."
-    },
-    {
-        "id": 77,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "easy",
-        "question": "Which symbol starts a backward search command?",
-        "options": [
-            {
-                "key": "A",
-                "text": "/"
-            },
-            {
-                "key": "B",
-                "text": ":"
-            },
-            {
-                "key": "C",
-                "text": "?"
-            },
-            {
-                "key": "D",
-                "text": "&"
-            }
-        ],
-        "answer": "C",
-        "reason": "Backward searches are initiated with '?'."
-    },
-    {
-        "id": 78,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Editor Basics",
-        "difficulty": "medium",
-        "question": "Which key must generally be pressed before entering most VI commands after editing text?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Tab"
-            },
-            {
-                "key": "B",
-                "text": "Enter"
-            },
-            {
-                "key": "C",
-                "text": "Esc"
-            },
-            {
-                "key": "D",
-                "text": "Ctrl+R"
-            }
-        ],
-        "answer": "C",
-        "reason": "Esc returns the editor to Command Mode."
-    },
-    {
-        "id": 79,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Editor Basics",
-        "difficulty": "medium",
-        "question": "Which mode allows cursor movement commands such as h, j, k, and l?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Insert Mode"
-            },
-            {
-                "key": "B",
-                "text": "Command Mode"
-            },
-            {
-                "key": "C",
-                "text": "Replace Mode"
-            },
-            {
-                "key": "D",
-                "text": "Last-line Mode"
-            }
-        ],
-        "answer": "B",
-        "reason": "Navigation commands are executed in Command Mode."
-    },
-    {
-        "id": 80,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Editor Basics",
-        "difficulty": "hard",
-        "question": "Why is VI called a modal editor?",
-        "options": [
-            {
-                "key": "A",
-                "text": "It works only with modules"
-            },
-            {
-                "key": "B",
-                "text": "It uses different operating modes for different tasks"
-            },
-            {
-                "key": "C",
-                "text": "It supports multiple monitors"
-            },
-            {
-                "key": "D",
-                "text": "It can edit only model files"
-            }
-        ],
-        "answer": "B",
-        "reason": "VI separates editing tasks into Command, Insert, and Last-line modes."
-    },
-    {
-        "id": 81,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "medium",
-        "question": "Which command moves the cursor directly to line number 25?",
-        "options": [
-            {
-                "key": "A",
-                "text": "25L"
-            },
-            {
-                "key": "B",
-                "text": "25G"
-            },
-            {
-                "key": "C",
-                "text": "G25"
-            },
-            {
-                "key": "D",
-                "text": ":25w"
-            }
-        ],
-        "answer": "B",
-        "reason": "The command nG moves the cursor directly to line number n."
-    },
-    {
-        "id": 82,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "hard",
-        "question": "Which command moves the cursor to the middle of the screen?",
-        "options": [
-            {
-                "key": "A",
-                "text": "H"
-            },
-            {
-                "key": "B",
-                "text": "L"
-            },
-            {
-                "key": "C",
-                "text": "M"
-            },
-            {
-                "key": "D",
-                "text": "G"
-            }
-        ],
-        "answer": "C",
-        "reason": "The M command positions the cursor on the middle line of the screen."
-    },
-    {
-        "id": 83,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "hard",
-        "question": "Which command moves the cursor to the top line of the screen?",
-        "options": [
-            {
-                "key": "A",
-                "text": "H"
-            },
-            {
-                "key": "B",
-                "text": "M"
-            },
-            {
-                "key": "C",
-                "text": "L"
-            },
-            {
-                "key": "D",
-                "text": "0"
-            }
-        ],
-        "answer": "A",
-        "reason": "The H command moves the cursor to the highest visible line on the screen."
-    },
-    {
-        "id": 84,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Navigation",
-        "difficulty": "hard",
-        "question": "Which command moves the cursor to the bottom line of the screen?",
-        "options": [
-            {
-                "key": "A",
-                "text": "H"
-            },
-            {
-                "key": "B",
-                "text": "M"
-            },
-            {
-                "key": "C",
-                "text": "L"
-            },
-            {
-                "key": "D",
-                "text": "G"
-            }
-        ],
-        "answer": "C",
-        "reason": "The L command positions the cursor on the lowest visible line."
-    },
-    {
-        "id": 85,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "medium",
-        "question": "Which command inserts text at the beginning of the current line regardless of cursor position?",
-        "options": [
-            {
-                "key": "A",
-                "text": "i"
-            },
-            {
-                "key": "B",
-                "text": "I"
-            },
-            {
-                "key": "C",
-                "text": "a"
-            },
-            {
-                "key": "D",
-                "text": "A"
-            }
-        ],
-        "answer": "B",
-        "reason": "The I command moves to the beginning of the line and enters Insert Mode."
-    },
-    {
-        "id": 86,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Insert Mode",
-        "difficulty": "medium",
-        "question": "Which command appends text at the end of the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "A"
-            },
-            {
-                "key": "B",
-                "text": "I"
-            },
-            {
-                "key": "C",
-                "text": "i"
-            },
-            {
-                "key": "D",
-                "text": "o"
-            }
-        ],
-        "answer": "A",
-        "reason": "The A command jumps to the end of the line and enters Insert Mode."
-    },
-    {
-        "id": 87,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "medium",
-        "question": "What does '3dw' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Deletes 3 lines"
-            },
-            {
-                "key": "B",
-                "text": "Deletes 3 words"
-            },
-            {
-                "key": "C",
-                "text": "Deletes 3 characters"
-            },
-            {
-                "key": "D",
-                "text": "Deletes line 3"
-            }
-        ],
-        "answer": "B",
-        "reason": "The numeric prefix causes dw to delete three words."
-    },
-    {
-        "id": 88,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Deletion",
-        "difficulty": "hard",
-        "question": "What does '10dd' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Deletes 10 characters"
-            },
-            {
-                "key": "B",
-                "text": "Deletes 10 words"
-            },
-            {
-                "key": "C",
-                "text": "Deletes 10 lines"
-            },
-            {
-                "key": "D",
-                "text": "Deletes line number 10"
-            }
-        ],
-        "answer": "C",
-        "reason": "The command dd deletes lines, and 10dd deletes ten consecutive lines."
-    },
-    {
-        "id": 89,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "medium",
-        "question": "What does '5yy' do?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Copies 5 characters"
-            },
-            {
-                "key": "B",
-                "text": "Copies 5 words"
-            },
-            {
-                "key": "C",
-                "text": "Copies 5 lines"
-            },
-            {
-                "key": "D",
-                "text": "Copies line 5"
-            }
-        ],
-        "answer": "C",
-        "reason": "The yy command yanks lines, and the numeric prefix specifies the count."
-    },
-    {
-        "id": 90,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Copy and Paste",
-        "difficulty": "hard",
-        "question": "After executing 'yy', which command pastes the copied line before the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": "p"
-            },
-            {
-                "key": "B",
-                "text": "P"
-            },
-            {
-                "key": "C",
-                "text": "pp"
-            },
-            {
-                "key": "D",
-                "text": "yy"
-            }
-        ],
-        "answer": "B",
-        "reason": "The P command pastes before the current cursor position or line."
-    },
-    {
-        "id": 91,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Undo and Redo",
-        "difficulty": "easy",
-        "question": "Which command restores a change that was previously undone?",
-        "options": [
-            {
-                "key": "A",
-                "text": "u"
-            },
-            {
-                "key": "B",
-                "text": "Ctrl+r"
-            },
-            {
-                "key": "C",
-                "text": "yy"
-            },
-            {
-                "key": "D",
-                "text": "dd"
-            }
-        ],
-        "answer": "B",
-        "reason": "Ctrl+r performs the redo operation."
-    },
-    {
-        "id": 92,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Working with Files",
-        "difficulty": "medium",
-        "question": "Which command writes the contents of the current buffer to a file named backup.txt?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":w backup.txt"
-            },
-            {
-                "key": "B",
-                "text": ":q backup.txt"
-            },
-            {
-                "key": "C",
-                "text": ":e backup.txt"
-            },
-            {
-                "key": "D",
-                "text": ":r backup.txt"
-            }
-        ],
-        "answer": "A",
-        "reason": "The :w command followed by a filename saves the contents to that file."
-    },
-    {
-        "id": 93,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Working with Files",
-        "difficulty": "hard",
-        "question": "Which command saves the current file and exits VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":q!"
-            },
-            {
-                "key": "B",
-                "text": ":w"
-            },
-            {
-                "key": "C",
-                "text": ":wq"
-            },
-            {
-                "key": "D",
-                "text": ":e"
-            }
-        ],
-        "answer": "C",
-        "reason": "The :wq command combines save and quit operations."
-    },
-    {
-        "id": 94,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "medium",
-        "question": "After searching with '/word', which key moves to the next occurrence?",
-        "options": [
-            {
-                "key": "A",
-                "text": "n"
-            },
-            {
-                "key": "B",
-                "text": "N"
-            },
-            {
-                "key": "C",
-                "text": "p"
-            },
-            {
-                "key": "D",
-                "text": "r"
-            }
-        ],
-        "answer": "A",
-        "reason": "The n key repeats the search in the same direction."
-    },
-    {
-        "id": 95,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Search",
-        "difficulty": "hard",
-        "question": "After searching with '/word', which key moves to the previous occurrence?",
-        "options": [
-            {
-                "key": "A",
-                "text": "n"
-            },
-            {
-                "key": "B",
-                "text": "N"
-            },
-            {
-                "key": "C",
-                "text": "p"
-            },
-            {
-                "key": "D",
-                "text": "?"
-            }
-        ],
-        "answer": "B",
-        "reason": "The N key repeats the search in the opposite direction."
-    },
-    {
-        "id": 96,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "medium",
-        "question": "Which command replaces the first occurrence of 'apple' with 'orange' in the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":s/apple/orange/"
-            },
-            {
-                "key": "B",
-                "text": ":%s/apple/orange/g"
-            },
-            {
-                "key": "C",
-                "text": ":g/apple/orange/"
-            },
-            {
-                "key": "D",
-                "text": ":replace apple orange"
-            }
-        ],
-        "answer": "A",
-        "reason": "Without the g flag, substitution affects only the first occurrence in the current line."
-    },
-    {
-        "id": 97,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Replace",
-        "difficulty": "hard",
-        "question": "Which command replaces all occurrences of 'cat' with 'dog' only in the current line?",
-        "options": [
-            {
-                "key": "A",
-                "text": ":s/cat/dog/g"
-            },
-            {
-                "key": "B",
-                "text": ":%s/cat/dog/g"
-            },
-            {
-                "key": "C",
-                "text": ":g/cat/dog"
-            },
-            {
-                "key": "D",
-                "text": ":replace/cat/dog"
-            }
-        ],
-        "answer": "A",
-        "reason": "The g flag replaces all matches on the current line, while % would affect the whole file."
-    },
-    {
-        "id": 98,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Regular Expressions",
-        "difficulty": "medium",
-        "question": "In VI regular expressions, what does '^' represent?",
-        "options": [
-            {
-                "key": "A",
-                "text": "End of line"
-            },
-            {
-                "key": "B",
-                "text": "Beginning of line"
-            },
-            {
-                "key": "C",
-                "text": "Any character"
-            },
-            {
-                "key": "D",
-                "text": "A digit"
-            }
-        ],
-        "answer": "B",
-        "reason": "The caret (^) anchors a pattern at the beginning of a line."
-    },
-    {
-        "id": 99,
-        "subject": "UNIX and Shell Programming",
-        "topic": "Regular Expressions",
-        "difficulty": "medium",
-        "question": "In VI regular expressions, what does '$' represent?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Beginning of line"
-            },
-            {
-                "key": "B",
-                "text": "Any character"
-            },
-            {
-                "key": "C",
-                "text": "End of line"
-            },
-            {
-                "key": "D",
-                "text": "A word boundary"
-            }
-        ],
-        "answer": "C",
-        "reason": "The dollar sign ($) anchors a pattern at the end of a line."
-    },
-    {
-        "id": 100,
-        "subject": "UNIX and Shell Programming",
-        "topic": "VI Editor Concepts",
-        "difficulty": "hard",
-        "question": "Which statement best describes Command Mode in VI?",
-        "options": [
-            {
-                "key": "A",
-                "text": "Used for entering text directly"
-            },
-            {
-                "key": "B",
-                "text": "Used for cursor movement and editing commands"
-            },
-            {
-                "key": "C",
-                "text": "Used only for saving files"
-            },
-            {
-                "key": "D",
-                "text": "Used only for search operations"
-            }
-        ],
-        "answer": "B",
-        "reason": "Command Mode is the primary mode for navigation, editing, deletion, copying, and other editor commands."
-    }
+  {
+    "id": 1,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Editor Introduction",
+    "difficulty": "easy",
+    "question": "What is VI in UNIX/Linux?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A compiler"
+      },
+      {
+        "key": "B",
+        "text": "A text editor"
+      },
+      {
+        "key": "C",
+        "text": "A shell"
+      },
+      {
+        "key": "D",
+        "text": "A file manager"
+      }
+    ],
+    "answer": "B",
+    "reason": "VI is a screen-oriented text editor available on UNIX and Linux systems."
+  },
+  {
+    "id": 2,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Modes",
+    "difficulty": "easy",
+    "question": "Which mode is the default mode when VI starts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Insert Mode"
+      },
+      {
+        "key": "B",
+        "text": "Last-line Mode"
+      },
+      {
+        "key": "C",
+        "text": "Command Mode"
+      },
+      {
+        "key": "D",
+        "text": "Visual Mode"
+      }
+    ],
+    "answer": "C",
+    "reason": "VI starts in Command Mode by default."
+  },
+  {
+    "id": 3,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Modes",
+    "difficulty": "easy",
+    "question": "Which mode is used to enter and edit text?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Command Mode"
+      },
+      {
+        "key": "B",
+        "text": "Insert Mode"
+      },
+      {
+        "key": "C",
+        "text": "Last-line Mode"
+      },
+      {
+        "key": "D",
+        "text": "Replace Mode"
+      }
+    ],
+    "answer": "B",
+    "reason": "Insert Mode allows text entry and editing."
+  },
+  {
+    "id": 4,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Modes",
+    "difficulty": "medium",
+    "question": "Which key is used to return from Insert Mode to Command Mode?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Enter"
+      },
+      {
+        "key": "B",
+        "text": "Ctrl+C"
+      },
+      {
+        "key": "C",
+        "text": "Esc"
+      },
+      {
+        "key": "D",
+        "text": "Tab"
+      }
+    ],
+    "answer": "C",
+    "reason": "Pressing Esc exits Insert Mode and returns to Command Mode."
+  },
+  {
+    "id": 5,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Modes",
+    "difficulty": "medium",
+    "question": "Which mode is used for commands such as :w and :q?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Insert Mode"
+      },
+      {
+        "key": "B",
+        "text": "Command Mode"
+      },
+      {
+        "key": "C",
+        "text": "Last-line Mode"
+      },
+      {
+        "key": "D",
+        "text": "Visual Mode"
+      }
+    ],
+    "answer": "C",
+    "reason": "Commands beginning with `:` are executed in Last-line Mode."
+  },
+  {
+    "id": 6,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Starting VI",
+    "difficulty": "easy",
+    "question": "Which command opens a file named test.txt in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "vi test.txt"
+      },
+      {
+        "key": "B",
+        "text": "open test.txt"
+      },
+      {
+        "key": "C",
+        "text": "edit test.txt"
+      },
+      {
+        "key": "D",
+        "text": "vimopen test.txt"
+      }
+    ],
+    "answer": "A",
+    "reason": "The command `vi filename` opens or creates a file."
+  },
+  {
+    "id": 7,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "easy",
+    "question": "Which key moves the cursor one character to the left?",
+    "options": [
+      {
+        "key": "A",
+        "text": "h"
+      },
+      {
+        "key": "B",
+        "text": "j"
+      },
+      {
+        "key": "C",
+        "text": "k"
+      },
+      {
+        "key": "D",
+        "text": "l"
+      }
+    ],
+    "answer": "A",
+    "reason": "The h key moves the cursor left in Command Mode."
+  },
+  {
+    "id": 8,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "easy",
+    "question": "Which key moves the cursor down one line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "h"
+      },
+      {
+        "key": "B",
+        "text": "j"
+      },
+      {
+        "key": "C",
+        "text": "k"
+      },
+      {
+        "key": "D",
+        "text": "l"
+      }
+    ],
+    "answer": "B",
+    "reason": "The j key moves the cursor downward."
+  },
+  {
+    "id": 9,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "easy",
+    "question": "Which key moves the cursor up one line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "h"
+      },
+      {
+        "key": "B",
+        "text": "j"
+      },
+      {
+        "key": "C",
+        "text": "k"
+      },
+      {
+        "key": "D",
+        "text": "l"
+      }
+    ],
+    "answer": "C",
+    "reason": "The k key moves the cursor upward."
+  },
+  {
+    "id": 10,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "easy",
+    "question": "Which key moves the cursor one character to the right?",
+    "options": [
+      {
+        "key": "A",
+        "text": "h"
+      },
+      {
+        "key": "B",
+        "text": "j"
+      },
+      {
+        "key": "C",
+        "text": "k"
+      },
+      {
+        "key": "D",
+        "text": "l"
+      }
+    ],
+    "answer": "D",
+    "reason": "The l key moves the cursor right."
+  },
+  {
+    "id": 11,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "medium",
+    "question": "Which command moves the cursor to the beginning of the next word?",
+    "options": [
+      {
+        "key": "A",
+        "text": "w"
+      },
+      {
+        "key": "B",
+        "text": "b"
+      },
+      {
+        "key": "C",
+        "text": "e"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "A",
+    "reason": "The w command moves forward word by word."
+  },
+  {
+    "id": 12,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "medium",
+    "question": "Which command moves to the beginning of the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "G"
+      },
+      {
+        "key": "D",
+        "text": "w"
+      }
+    ],
+    "answer": "B",
+    "reason": "The 0 command moves the cursor to the first character of the line."
+  },
+  {
+    "id": 13,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "medium",
+    "question": "Which command moves to the end of the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "$"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "G"
+      },
+      {
+        "key": "D",
+        "text": "e"
+      }
+    ],
+    "answer": "A",
+    "reason": "The $ command moves the cursor to the end of the line."
+  },
+  {
+    "id": 14,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "easy",
+    "question": "Which command enters Insert Mode before the cursor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "i"
+      },
+      {
+        "key": "C",
+        "text": "o"
+      },
+      {
+        "key": "D",
+        "text": "A"
+      }
+    ],
+    "answer": "B",
+    "reason": "The i command inserts text before the current cursor position."
+  },
+  {
+    "id": 15,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "easy",
+    "question": "Which command enters Insert Mode after the cursor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "i"
+      },
+      {
+        "key": "C",
+        "text": "o"
+      },
+      {
+        "key": "D",
+        "text": "I"
+      }
+    ],
+    "answer": "A",
+    "reason": "The a command appends text after the cursor."
+  },
+  {
+    "id": 16,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "medium",
+    "question": "Which command opens a new line below the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "O"
+      },
+      {
+        "key": "B",
+        "text": "o"
+      },
+      {
+        "key": "C",
+        "text": "A"
+      },
+      {
+        "key": "D",
+        "text": "I"
+      }
+    ],
+    "answer": "B",
+    "reason": "The o command opens a new line below and enters Insert Mode."
+  },
+  {
+    "id": 17,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "medium",
+    "question": "Which command opens a new line above the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "o"
+      },
+      {
+        "key": "B",
+        "text": "a"
+      },
+      {
+        "key": "C",
+        "text": "O"
+      },
+      {
+        "key": "D",
+        "text": "I"
+      }
+    ],
+    "answer": "C",
+    "reason": "The O command creates a new line above the current line."
+  },
+  {
+    "id": 18,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "hard",
+    "question": "Which command inserts text at the beginning of the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I"
+      },
+      {
+        "key": "B",
+        "text": "A"
+      },
+      {
+        "key": "C",
+        "text": "i"
+      },
+      {
+        "key": "D",
+        "text": "o"
+      }
+    ],
+    "answer": "A",
+    "reason": "The I command inserts text at the beginning of the line."
+  },
+  {
+    "id": 19,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "easy",
+    "question": "Which command deletes the character under the cursor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "dd"
+      },
+      {
+        "key": "B",
+        "text": "dw"
+      },
+      {
+        "key": "C",
+        "text": "x"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "C",
+    "reason": "The x command deletes the current character."
+  },
+  {
+    "id": 20,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "easy",
+    "question": "Which command deletes an entire line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "x"
+      },
+      {
+        "key": "B",
+        "text": "dw"
+      },
+      {
+        "key": "C",
+        "text": "dd"
+      },
+      {
+        "key": "D",
+        "text": "yy"
+      }
+    ],
+    "answer": "C",
+    "reason": "The dd command deletes the entire current line."
+  },
+  {
+    "id": 21,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "medium",
+    "question": "Which command deletes a word starting from the cursor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "dw"
+      },
+      {
+        "key": "B",
+        "text": "dd"
+      },
+      {
+        "key": "C",
+        "text": "yy"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "A",
+    "reason": "The dw command deletes from the cursor to the end of the word."
+  },
+  {
+    "id": 22,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "medium",
+    "question": "What does the D command do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deletes the current line"
+      },
+      {
+        "key": "B",
+        "text": "Deletes from cursor to end of line"
+      },
+      {
+        "key": "C",
+        "text": "Deletes a word"
+      },
+      {
+        "key": "D",
+        "text": "Deletes all lines"
+      }
+    ],
+    "answer": "B",
+    "reason": "D removes text from the cursor position to the end of the line."
+  },
+  {
+    "id": 23,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "easy",
+    "question": "Which command copies the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "dd"
+      },
+      {
+        "key": "B",
+        "text": "yy"
+      },
+      {
+        "key": "C",
+        "text": "pp"
+      },
+      {
+        "key": "D",
+        "text": "dw"
+      }
+    ],
+    "answer": "B",
+    "reason": "The yy command yanks (copies) the current line."
+  },
+  {
+    "id": 24,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "easy",
+    "question": "Which command pastes copied text after the cursor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P"
+      },
+      {
+        "key": "B",
+        "text": "yy"
+      },
+      {
+        "key": "C",
+        "text": "p"
+      },
+      {
+        "key": "D",
+        "text": "dd"
+      }
+    ],
+    "answer": "C",
+    "reason": "The p command pastes text after the cursor position."
+  },
+  {
+    "id": 25,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "medium",
+    "question": "Which command pastes copied text before the cursor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "P"
+      },
+      {
+        "key": "B",
+        "text": "p"
+      },
+      {
+        "key": "C",
+        "text": "yy"
+      },
+      {
+        "key": "D",
+        "text": "dd"
+      }
+    ],
+    "answer": "A",
+    "reason": "The P command pastes before the cursor."
+  },
+  {
+    "id": 26,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "hard",
+    "question": "What does `3yy` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Copies 3 words"
+      },
+      {
+        "key": "B",
+        "text": "Copies 3 characters"
+      },
+      {
+        "key": "C",
+        "text": "Copies 3 lines"
+      },
+      {
+        "key": "D",
+        "text": "Copies the third line"
+      }
+    ],
+    "answer": "C",
+    "reason": "A numeric prefix repeats the command; 3yy copies three lines."
+  },
+  {
+    "id": 27,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Undo and Redo",
+    "difficulty": "easy",
+    "question": "Which command undoes the last change?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ctrl+r"
+      },
+      {
+        "key": "B",
+        "text": "u"
+      },
+      {
+        "key": "C",
+        "text": "dd"
+      },
+      {
+        "key": "D",
+        "text": "yy"
+      }
+    ],
+    "answer": "B",
+    "reason": "The u command undoes the most recent change."
+  },
+  {
+    "id": 28,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Undo and Redo",
+    "difficulty": "medium",
+    "question": "Which command redoes an undone change?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ctrl+r"
+      },
+      {
+        "key": "B",
+        "text": "u"
+      },
+      {
+        "key": "C",
+        "text": "r"
+      },
+      {
+        "key": "D",
+        "text": "redo"
+      }
+    ],
+    "answer": "A",
+    "reason": "Ctrl+r redoes changes that were undone."
+  },
+  {
+    "id": 29,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Saving Files",
+    "difficulty": "easy",
+    "question": "Which command saves the current file?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":q"
+      },
+      {
+        "key": "B",
+        "text": ":w"
+      },
+      {
+        "key": "C",
+        "text": ":e"
+      },
+      {
+        "key": "D",
+        "text": ":x"
+      }
+    ],
+    "answer": "B",
+    "reason": "The :w command writes changes to disk."
+  },
+  {
+    "id": 30,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Saving Files",
+    "difficulty": "medium",
+    "question": "Which command saves the current file as another filename?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":w filename"
+      },
+      {
+        "key": "B",
+        "text": ":q filename"
+      },
+      {
+        "key": "C",
+        "text": ":e filename"
+      },
+      {
+        "key": "D",
+        "text": ":r filename"
+      }
+    ],
+    "answer": "A",
+    "reason": "The command :w filename saves the contents to a specified file."
+  },
+  {
+    "id": 31,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exiting",
+    "difficulty": "easy",
+    "question": "Which command quits VI if no changes were made?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":q"
+      },
+      {
+        "key": "B",
+        "text": ":w"
+      },
+      {
+        "key": "C",
+        "text": ":wq"
+      },
+      {
+        "key": "D",
+        "text": "ZZ"
+      }
+    ],
+    "answer": "A",
+    "reason": "The :q command exits the editor."
+  },
+  {
+    "id": 32,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exiting",
+    "difficulty": "medium",
+    "question": "Which command forces quitting without saving changes?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":q"
+      },
+      {
+        "key": "B",
+        "text": ":wq"
+      },
+      {
+        "key": "C",
+        "text": ":q!"
+      },
+      {
+        "key": "D",
+        "text": "ZZ"
+      }
+    ],
+    "answer": "C",
+    "reason": "The :q! command discards changes and exits."
+  },
+  {
+    "id": 33,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exiting",
+    "difficulty": "medium",
+    "question": "Which command saves changes and exits?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":wq"
+      },
+      {
+        "key": "B",
+        "text": ":q!"
+      },
+      {
+        "key": "C",
+        "text": ":e"
+      },
+      {
+        "key": "D",
+        "text": ":w"
+      }
+    ],
+    "answer": "A",
+    "reason": "The :wq command writes changes and quits."
+  },
+  {
+    "id": 34,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Exiting",
+    "difficulty": "hard",
+    "question": "Which command also saves and exits the editor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ZZ"
+      },
+      {
+        "key": "B",
+        "text": ":q!"
+      },
+      {
+        "key": "C",
+        "text": ":e"
+      },
+      {
+        "key": "D",
+        "text": ":r"
+      }
+    ],
+    "answer": "A",
+    "reason": "ZZ is a shortcut for save-and-exit when changes exist."
+  },
+  {
+    "id": 35,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Operations",
+    "difficulty": "medium",
+    "question": "Which command opens another file from within VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":w filename"
+      },
+      {
+        "key": "B",
+        "text": ":q"
+      },
+      {
+        "key": "C",
+        "text": ":e filename"
+      },
+      {
+        "key": "D",
+        "text": ":x"
+      }
+    ],
+    "answer": "C",
+    "reason": "The :e command opens a specified file."
+  },
+  {
+    "id": 36,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "easy",
+    "question": "Which symbol is used to search forward in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "/"
+      },
+      {
+        "key": "B",
+        "text": "?"
+      },
+      {
+        "key": "C",
+        "text": ":"
+      },
+      {
+        "key": "D",
+        "text": "*"
+      }
+    ],
+    "answer": "A",
+    "reason": "Forward searches begin with `/`."
+  },
+  {
+    "id": 37,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "medium",
+    "question": "Which symbol is used to search backward in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "/"
+      },
+      {
+        "key": "B",
+        "text": "?"
+      },
+      {
+        "key": "C",
+        "text": ":"
+      },
+      {
+        "key": "D",
+        "text": "&"
+      }
+    ],
+    "answer": "B",
+    "reason": "Backward searches begin with `?`."
+  },
+  {
+    "id": 38,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "medium",
+    "question": "Which command replaces the first occurrence of `old` with `new` in the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":s/old/new/"
+      },
+      {
+        "key": "B",
+        "text": ":replace old new"
+      },
+      {
+        "key": "C",
+        "text": ":g/old/new"
+      },
+      {
+        "key": "D",
+        "text": ":r old new"
+      }
+    ],
+    "answer": "A",
+    "reason": "The substitute command :s performs replacements."
+  },
+  {
+    "id": 39,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "hard",
+    "question": "What does `:s/old/new/g` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Replaces first occurrence only"
+      },
+      {
+        "key": "B",
+        "text": "Replaces all occurrences in the current line"
+      },
+      {
+        "key": "C",
+        "text": "Replaces all occurrences in the entire file"
+      },
+      {
+        "key": "D",
+        "text": "Deletes all occurrences"
+      }
+    ],
+    "answer": "B",
+    "reason": "The g flag replaces every occurrence in the current line."
+  },
+  {
+    "id": 40,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "hard",
+    "question": "Which command replaces all occurrences of `old` with `new` throughout the entire file?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":s/old/new/g"
+      },
+      {
+        "key": "B",
+        "text": ":%s/old/new/g"
+      },
+      {
+        "key": "C",
+        "text": ":replace old new"
+      },
+      {
+        "key": "D",
+        "text": ":g/old/new"
+      }
+    ],
+    "answer": "B",
+    "reason": ":%s/old/new/g applies the substitution to every line in the file."
+  },
+  {
+    "id": 41,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Modes",
+    "difficulty": "easy",
+    "question": "How can a user enter Last-line Mode from Command Mode?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Press :"
+      },
+      {
+        "key": "B",
+        "text": "Press i"
+      },
+      {
+        "key": "C",
+        "text": "Press Esc"
+      },
+      {
+        "key": "D",
+        "text": "Press a"
+      }
+    ],
+    "answer": "A",
+    "reason": "Typing `:` from Command Mode enters Last-line Mode."
+  },
+  {
+    "id": 42,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "medium",
+    "question": "Which command moves the cursor backward by one word?",
+    "options": [
+      {
+        "key": "A",
+        "text": "w"
+      },
+      {
+        "key": "B",
+        "text": "b"
+      },
+      {
+        "key": "C",
+        "text": "e"
+      },
+      {
+        "key": "D",
+        "text": "$"
+      }
+    ],
+    "answer": "B",
+    "reason": "The b command moves the cursor to the beginning of the previous word."
+  },
+  {
+    "id": 43,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "medium",
+    "question": "Which command moves the cursor to the end of the current word?",
+    "options": [
+      {
+        "key": "A",
+        "text": "w"
+      },
+      {
+        "key": "B",
+        "text": "b"
+      },
+      {
+        "key": "C",
+        "text": "e"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "C",
+    "reason": "The e command moves the cursor to the end of the current word."
+  },
+  {
+    "id": 44,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "hard",
+    "question": "Which command moves the cursor to the last line of the file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "gg"
+      },
+      {
+        "key": "B",
+        "text": "G"
+      },
+      {
+        "key": "C",
+        "text": "$"
+      },
+      {
+        "key": "D",
+        "text": "L"
+      }
+    ],
+    "answer": "B",
+    "reason": "The G command moves directly to the last line of the file."
+  },
+  {
+    "id": 45,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "hard",
+    "question": "Which command moves the cursor to the first line of the file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "gg"
+      },
+      {
+        "key": "B",
+        "text": "G"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "1G"
+      }
+    ],
+    "answer": "A",
+    "reason": "The gg command moves to the first line of the file."
+  },
+  {
+    "id": 46,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "medium",
+    "question": "Which key combination moves one page forward in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ctrl+F"
+      },
+      {
+        "key": "B",
+        "text": "Ctrl+B"
+      },
+      {
+        "key": "C",
+        "text": "Ctrl+U"
+      },
+      {
+        "key": "D",
+        "text": "Ctrl+E"
+      }
+    ],
+    "answer": "A",
+    "reason": "Ctrl+F scrolls one full page forward."
+  },
+  {
+    "id": 47,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "medium",
+    "question": "Which key combination moves one page backward in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ctrl+F"
+      },
+      {
+        "key": "B",
+        "text": "Ctrl+B"
+      },
+      {
+        "key": "C",
+        "text": "Ctrl+D"
+      },
+      {
+        "key": "D",
+        "text": "Ctrl+R"
+      }
+    ],
+    "answer": "B",
+    "reason": "Ctrl+B scrolls one full page backward."
+  },
+  {
+    "id": 48,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "medium",
+    "question": "Which command appends text at the end of the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I"
+      },
+      {
+        "key": "B",
+        "text": "A"
+      },
+      {
+        "key": "C",
+        "text": "a"
+      },
+      {
+        "key": "D",
+        "text": "o"
+      }
+    ],
+    "answer": "B",
+    "reason": "The A command moves to the end of the line and enters Insert Mode."
+  },
+  {
+    "id": 49,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "hard",
+    "question": "What is the difference between `i` and `a`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "No difference"
+      },
+      {
+        "key": "B",
+        "text": "i inserts before cursor, a inserts after cursor"
+      },
+      {
+        "key": "C",
+        "text": "i deletes text, a inserts text"
+      },
+      {
+        "key": "D",
+        "text": "a works only at line end"
+      }
+    ],
+    "answer": "B",
+    "reason": "The i command inserts before the cursor, while a inserts after it."
+  },
+  {
+    "id": 50,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "easy",
+    "question": "Which command deletes two consecutive lines?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2dd"
+      },
+      {
+        "key": "B",
+        "text": "dd2"
+      },
+      {
+        "key": "C",
+        "text": "dw2"
+      },
+      {
+        "key": "D",
+        "text": "2x"
+      }
+    ],
+    "answer": "A",
+    "reason": "A numeric prefix repeats the delete-line command."
+  },
+  {
+    "id": 51,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "medium",
+    "question": "What does `5dd` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deletes 5 words"
+      },
+      {
+        "key": "B",
+        "text": "Deletes 5 characters"
+      },
+      {
+        "key": "C",
+        "text": "Deletes 5 lines"
+      },
+      {
+        "key": "D",
+        "text": "Deletes line 5"
+      }
+    ],
+    "answer": "C",
+    "reason": "The prefix 5 causes dd to delete five lines."
+  },
+  {
+    "id": 52,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "hard",
+    "question": "Which command deletes from the cursor to the end of the word?",
+    "options": [
+      {
+        "key": "A",
+        "text": "dd"
+      },
+      {
+        "key": "B",
+        "text": "D"
+      },
+      {
+        "key": "C",
+        "text": "dw"
+      },
+      {
+        "key": "D",
+        "text": "x"
+      }
+    ],
+    "answer": "C",
+    "reason": "The dw command removes text from the cursor position through the current word."
+  },
+  {
+    "id": 53,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "easy",
+    "question": "What is another name for copying text in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deleting"
+      },
+      {
+        "key": "B",
+        "text": "Yanking"
+      },
+      {
+        "key": "C",
+        "text": "Appending"
+      },
+      {
+        "key": "D",
+        "text": "Substituting"
+      }
+    ],
+    "answer": "B",
+    "reason": "VI uses the term `yank` for copy operations."
+  },
+  {
+    "id": 54,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "medium",
+    "question": "What does `4yy` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Copies 4 words"
+      },
+      {
+        "key": "B",
+        "text": "Copies 4 characters"
+      },
+      {
+        "key": "C",
+        "text": "Copies 4 lines"
+      },
+      {
+        "key": "D",
+        "text": "Copies line number 4"
+      }
+    ],
+    "answer": "C",
+    "reason": "The prefix 4 repeats the yank-line operation four times."
+  },
+  {
+    "id": 55,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "hard",
+    "question": "What does `3p` do after copying a line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pastes 3 times"
+      },
+      {
+        "key": "B",
+        "text": "Copies 3 times"
+      },
+      {
+        "key": "C",
+        "text": "Deletes 3 lines"
+      },
+      {
+        "key": "D",
+        "text": "Moves 3 lines"
+      }
+    ],
+    "answer": "A",
+    "reason": "A numeric prefix repeats the paste operation."
+  },
+  {
+    "id": 56,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Undo and Redo",
+    "difficulty": "medium",
+    "question": "Which command can be repeatedly used to undo multiple changes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "u"
+      },
+      {
+        "key": "B",
+        "text": "Ctrl+r"
+      },
+      {
+        "key": "C",
+        "text": "dd"
+      },
+      {
+        "key": "D",
+        "text": ":undo"
+      }
+    ],
+    "answer": "A",
+    "reason": "Repeated presses of u undo successive changes."
+  },
+  {
+    "id": 57,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Working with Files",
+    "difficulty": "easy",
+    "question": "Which command writes changes to disk without exiting?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":q"
+      },
+      {
+        "key": "B",
+        "text": ":w"
+      },
+      {
+        "key": "C",
+        "text": ":wq"
+      },
+      {
+        "key": "D",
+        "text": "ZZ"
+      }
+    ],
+    "answer": "B",
+    "reason": "The :w command saves the file but keeps VI open."
+  },
+  {
+    "id": 58,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Working with Files",
+    "difficulty": "medium",
+    "question": "Which command opens a file named notes.txt from within VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":open notes.txt"
+      },
+      {
+        "key": "B",
+        "text": ":e notes.txt"
+      },
+      {
+        "key": "C",
+        "text": ":file notes.txt"
+      },
+      {
+        "key": "D",
+        "text": ":read notes.txt"
+      }
+    ],
+    "answer": "B",
+    "reason": "The :e command edits or opens another file."
+  },
+  {
+    "id": 59,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Working with Files",
+    "difficulty": "hard",
+    "question": "What happens when `:q` is executed on a modified file?",
+    "options": [
+      {
+        "key": "A",
+        "text": "VI exits immediately"
+      },
+      {
+        "key": "B",
+        "text": "File is automatically saved"
+      },
+      {
+        "key": "C",
+        "text": "VI warns about unsaved changes"
+      },
+      {
+        "key": "D",
+        "text": "File is deleted"
+      }
+    ],
+    "answer": "C",
+    "reason": "VI prevents accidental loss of unsaved changes."
+  },
+  {
+    "id": 60,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "easy",
+    "question": "Which command searches forward for the word `linux`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`/linux`"
+      },
+      {
+        "key": "B",
+        "text": "?linux"
+      },
+      {
+        "key": "C",
+        "text": ":linux"
+      },
+      {
+        "key": "D",
+        "text": "*linux"
+      }
+    ],
+    "answer": "A",
+    "reason": "Forward searches begin with `/`."
+  },
+  {
+    "id": 61,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "medium",
+    "question": "Which command searches backward for the word `unix`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`/unix`"
+      },
+      {
+        "key": "B",
+        "text": "?unix"
+      },
+      {
+        "key": "C",
+        "text": ":unix"
+      },
+      {
+        "key": "D",
+        "text": "*unix"
+      }
+    ],
+    "answer": "B",
+    "reason": "Backward searches begin with `?`."
+  },
+  {
+    "id": 62,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "medium",
+    "question": "After a search, which key repeats the search in the same direction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "n"
+      },
+      {
+        "key": "B",
+        "text": "p"
+      },
+      {
+        "key": "C",
+        "text": "r"
+      },
+      {
+        "key": "D",
+        "text": "s"
+      }
+    ],
+    "answer": "A",
+    "reason": "The n key repeats the previous search."
+  },
+  {
+    "id": 63,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "hard",
+    "question": "Which feature allows pattern-based searching in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aliases"
+      },
+      {
+        "key": "B",
+        "text": "Regular Expressions"
+      },
+      {
+        "key": "C",
+        "text": "Macros"
+      },
+      {
+        "key": "D",
+        "text": "Pipelines"
+      }
+    ],
+    "answer": "B",
+    "reason": "VI supports regular expressions for advanced search operations."
+  },
+  {
+    "id": 64,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "easy",
+    "question": "Which command starts a substitution operation in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":s"
+      },
+      {
+        "key": "B",
+        "text": ":r"
+      },
+      {
+        "key": "C",
+        "text": ":e"
+      },
+      {
+        "key": "D",
+        "text": ":w"
+      }
+    ],
+    "answer": "A",
+    "reason": "The substitute command begins with :s."
+  },
+  {
+    "id": 65,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "medium",
+    "question": "What does `:s/cat/dog/` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Replaces all occurrences in the file"
+      },
+      {
+        "key": "B",
+        "text": "Replaces the first occurrence in the current line"
+      },
+      {
+        "key": "C",
+        "text": "Deletes cat"
+      },
+      {
+        "key": "D",
+        "text": "Searches for dog"
+      }
+    ],
+    "answer": "B",
+    "reason": "Without the g flag, only the first match on the current line is replaced."
+  },
+  {
+    "id": 66,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "medium",
+    "question": "What is the purpose of the `g` flag in substitution commands?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Go to line"
+      },
+      {
+        "key": "B",
+        "text": "Global replacement within a line"
+      },
+      {
+        "key": "C",
+        "text": "Group matches"
+      },
+      {
+        "key": "D",
+        "text": "Generate output"
+      }
+    ],
+    "answer": "B",
+    "reason": "The g flag replaces all matches on the selected line."
+  },
+  {
+    "id": 67,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "hard",
+    "question": "Which command replaces all occurrences of `red` with `blue` in the entire file?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":s/red/blue/g"
+      },
+      {
+        "key": "B",
+        "text": ":%s/red/blue/g"
+      },
+      {
+        "key": "C",
+        "text": ":replace red blue"
+      },
+      {
+        "key": "D",
+        "text": ":g/red/blue"
+      }
+    ],
+    "answer": "B",
+    "reason": "The % range applies the substitution to every line in the file."
+  },
+  {
+    "id": 68,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "hard",
+    "question": "What does `%` represent in `:%s/old/new/g`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Current line"
+      },
+      {
+        "key": "B",
+        "text": "Current word"
+      },
+      {
+        "key": "C",
+        "text": "Entire file"
+      },
+      {
+        "key": "D",
+        "text": "Current paragraph"
+      }
+    ],
+    "answer": "C",
+    "reason": "The % symbol specifies all lines in the file."
+  },
+  {
+    "id": 69,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Regular Expressions",
+    "difficulty": "medium",
+    "question": "Which search pattern finds lines beginning with `A`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "/A$"
+      },
+      {
+        "key": "B",
+        "text": "/^A"
+      },
+      {
+        "key": "C",
+        "text": "/A*"
+      },
+      {
+        "key": "D",
+        "text": "`/.A`"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `^` symbol matches the beginning of a line."
+  },
+  {
+    "id": 70,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Regular Expressions",
+    "difficulty": "medium",
+    "question": "Which search pattern finds lines ending with `A`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "/A$"
+      },
+      {
+        "key": "B",
+        "text": "/^A"
+      },
+      {
+        "key": "C",
+        "text": "/A+"
+      },
+      {
+        "key": "D",
+        "text": "`/A`?"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `$` symbol matches the end of a line."
+  },
+  {
+    "id": 71,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Regular Expressions",
+    "difficulty": "hard",
+    "question": "In VI regular expressions, what does `.` represent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "End of line"
+      },
+      {
+        "key": "B",
+        "text": "Any single character"
+      },
+      {
+        "key": "C",
+        "text": "Beginning of line"
+      },
+      {
+        "key": "D",
+        "text": "Whitespace only"
+      }
+    ],
+    "answer": "B",
+    "reason": "The dot wildcard matches any single character."
+  },
+  {
+    "id": 72,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Regular Expressions",
+    "difficulty": "hard",
+    "question": "Which pattern matches lines beginning with the word `Unix`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "/Unix$"
+      },
+      {
+        "key": "B",
+        "text": "/^Unix"
+      },
+      {
+        "key": "C",
+        "text": "`/.Unix`"
+      },
+      {
+        "key": "D",
+        "text": "/Unix*"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `^` anchor specifies the beginning of a line."
+  },
+  {
+    "id": 73,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Operations",
+    "difficulty": "medium",
+    "question": "Which command saves changes and exits in one step?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":wq"
+      },
+      {
+        "key": "B",
+        "text": ":q!"
+      },
+      {
+        "key": "C",
+        "text": ":e"
+      },
+      {
+        "key": "D",
+        "text": ":w"
+      }
+    ],
+    "answer": "A",
+    "reason": "The :wq command combines write and quit operations."
+  },
+  {
+    "id": 74,
+    "subject": "UNIX and Shell Programming",
+    "topic": "File Operations",
+    "difficulty": "hard",
+    "question": "What does `:w report.txt` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Opens report.txt"
+      },
+      {
+        "key": "B",
+        "text": "Saves current content to report.txt"
+      },
+      {
+        "key": "C",
+        "text": "Deletes report.txt"
+      },
+      {
+        "key": "D",
+        "text": "Searches report.txt"
+      }
+    ],
+    "answer": "B",
+    "reason": "It writes the current buffer to the specified file."
+  },
+  {
+    "id": 75,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search and Replace",
+    "difficulty": "hard",
+    "question": "Which command replaces every occurrence of `Linux` with `UNIX` throughout the file?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":%s/Linux/UNIX/g"
+      },
+      {
+        "key": "B",
+        "text": ":s/Linux/UNIX/g"
+      },
+      {
+        "key": "C",
+        "text": ":replace/Linux/UNIX"
+      },
+      {
+        "key": "D",
+        "text": ":g/Linux/UNIX"
+      }
+    ],
+    "answer": "A",
+    "reason": "Using `%` applies substitution to all lines in the file."
+  },
+  {
+    "id": 76,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "easy",
+    "question": "Which symbol starts a forward search command?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":"
+      },
+      {
+        "key": "B",
+        "text": "/"
+      },
+      {
+        "key": "C",
+        "text": "?"
+      },
+      {
+        "key": "D",
+        "text": ";"
+      }
+    ],
+    "answer": "B",
+    "reason": "Forward searches are initiated with `/`."
+  },
+  {
+    "id": 77,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "easy",
+    "question": "Which symbol starts a backward search command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "/"
+      },
+      {
+        "key": "B",
+        "text": ":"
+      },
+      {
+        "key": "C",
+        "text": "?"
+      },
+      {
+        "key": "D",
+        "text": "&"
+      }
+    ],
+    "answer": "C",
+    "reason": "Backward searches are initiated with `?`."
+  },
+  {
+    "id": 78,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Editor Basics",
+    "difficulty": "medium",
+    "question": "Which key must generally be pressed before entering most VI commands after editing text?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tab"
+      },
+      {
+        "key": "B",
+        "text": "Enter"
+      },
+      {
+        "key": "C",
+        "text": "Esc"
+      },
+      {
+        "key": "D",
+        "text": "Ctrl+R"
+      }
+    ],
+    "answer": "C",
+    "reason": "Esc returns the editor to Command Mode."
+  },
+  {
+    "id": 79,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Editor Basics",
+    "difficulty": "medium",
+    "question": "Which mode allows cursor movement commands such as h, j, k, and l?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Insert Mode"
+      },
+      {
+        "key": "B",
+        "text": "Command Mode"
+      },
+      {
+        "key": "C",
+        "text": "Replace Mode"
+      },
+      {
+        "key": "D",
+        "text": "Last-line Mode"
+      }
+    ],
+    "answer": "B",
+    "reason": "Navigation commands are executed in Command Mode."
+  },
+  {
+    "id": 80,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Editor Basics",
+    "difficulty": "hard",
+    "question": "Why is VI called a modal editor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It works only with modules"
+      },
+      {
+        "key": "B",
+        "text": "It uses different operating modes for different tasks"
+      },
+      {
+        "key": "C",
+        "text": "It supports multiple monitors"
+      },
+      {
+        "key": "D",
+        "text": "It can edit only model files"
+      }
+    ],
+    "answer": "B",
+    "reason": "VI separates editing tasks into Command, Insert, and Last-line modes."
+  },
+  {
+    "id": 81,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "medium",
+    "question": "Which command moves the cursor directly to line number 25?",
+    "options": [
+      {
+        "key": "A",
+        "text": "25L"
+      },
+      {
+        "key": "B",
+        "text": "25G"
+      },
+      {
+        "key": "C",
+        "text": "G25"
+      },
+      {
+        "key": "D",
+        "text": ":25w"
+      }
+    ],
+    "answer": "B",
+    "reason": "The command nG moves the cursor directly to line number n."
+  },
+  {
+    "id": 82,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "hard",
+    "question": "Which command moves the cursor to the middle of the screen?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H"
+      },
+      {
+        "key": "B",
+        "text": "L"
+      },
+      {
+        "key": "C",
+        "text": "M"
+      },
+      {
+        "key": "D",
+        "text": "G"
+      }
+    ],
+    "answer": "C",
+    "reason": "The M command positions the cursor on the middle line of the screen."
+  },
+  {
+    "id": 83,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "hard",
+    "question": "Which command moves the cursor to the top line of the screen?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H"
+      },
+      {
+        "key": "B",
+        "text": "M"
+      },
+      {
+        "key": "C",
+        "text": "L"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "A",
+    "reason": "The H command moves the cursor to the highest visible line on the screen."
+  },
+  {
+    "id": 84,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Navigation",
+    "difficulty": "hard",
+    "question": "Which command moves the cursor to the bottom line of the screen?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H"
+      },
+      {
+        "key": "B",
+        "text": "M"
+      },
+      {
+        "key": "C",
+        "text": "L"
+      },
+      {
+        "key": "D",
+        "text": "G"
+      }
+    ],
+    "answer": "C",
+    "reason": "The L command positions the cursor on the lowest visible line."
+  },
+  {
+    "id": 85,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "medium",
+    "question": "Which command inserts text at the beginning of the current line regardless of cursor position?",
+    "options": [
+      {
+        "key": "A",
+        "text": "i"
+      },
+      {
+        "key": "B",
+        "text": "I"
+      },
+      {
+        "key": "C",
+        "text": "a"
+      },
+      {
+        "key": "D",
+        "text": "A"
+      }
+    ],
+    "answer": "B",
+    "reason": "The I command moves to the beginning of the line and enters Insert Mode."
+  },
+  {
+    "id": 86,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Insert Mode",
+    "difficulty": "medium",
+    "question": "Which command appends text at the end of the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "I"
+      },
+      {
+        "key": "C",
+        "text": "i"
+      },
+      {
+        "key": "D",
+        "text": "o"
+      }
+    ],
+    "answer": "A",
+    "reason": "The A command jumps to the end of the line and enters Insert Mode."
+  },
+  {
+    "id": 87,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "medium",
+    "question": "What does `3dw` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deletes 3 lines"
+      },
+      {
+        "key": "B",
+        "text": "Deletes 3 words"
+      },
+      {
+        "key": "C",
+        "text": "Deletes 3 characters"
+      },
+      {
+        "key": "D",
+        "text": "Deletes line 3"
+      }
+    ],
+    "answer": "B",
+    "reason": "The numeric prefix causes dw to delete three words."
+  },
+  {
+    "id": 88,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Deletion",
+    "difficulty": "hard",
+    "question": "What does `10dd` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deletes 10 characters"
+      },
+      {
+        "key": "B",
+        "text": "Deletes 10 words"
+      },
+      {
+        "key": "C",
+        "text": "Deletes 10 lines"
+      },
+      {
+        "key": "D",
+        "text": "Deletes line number 10"
+      }
+    ],
+    "answer": "C",
+    "reason": "The command dd deletes lines, and 10dd deletes ten consecutive lines."
+  },
+  {
+    "id": 89,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "medium",
+    "question": "What does `5yy` do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Copies 5 characters"
+      },
+      {
+        "key": "B",
+        "text": "Copies 5 words"
+      },
+      {
+        "key": "C",
+        "text": "Copies 5 lines"
+      },
+      {
+        "key": "D",
+        "text": "Copies line 5"
+      }
+    ],
+    "answer": "C",
+    "reason": "The yy command yanks lines, and the numeric prefix specifies the count."
+  },
+  {
+    "id": 90,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Copy and Paste",
+    "difficulty": "hard",
+    "question": "After executing `yy`, which command pastes the copied line before the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "p"
+      },
+      {
+        "key": "B",
+        "text": "P"
+      },
+      {
+        "key": "C",
+        "text": "pp"
+      },
+      {
+        "key": "D",
+        "text": "yy"
+      }
+    ],
+    "answer": "B",
+    "reason": "The P command pastes before the current cursor position or line."
+  },
+  {
+    "id": 91,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Undo and Redo",
+    "difficulty": "easy",
+    "question": "Which command restores a change that was previously undone?",
+    "options": [
+      {
+        "key": "A",
+        "text": "u"
+      },
+      {
+        "key": "B",
+        "text": "Ctrl+r"
+      },
+      {
+        "key": "C",
+        "text": "yy"
+      },
+      {
+        "key": "D",
+        "text": "dd"
+      }
+    ],
+    "answer": "B",
+    "reason": "Ctrl+r performs the redo operation."
+  },
+  {
+    "id": 92,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Working with Files",
+    "difficulty": "medium",
+    "question": "Which command writes the contents of the current buffer to a file named backup.txt?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":w backup.txt"
+      },
+      {
+        "key": "B",
+        "text": ":q backup.txt"
+      },
+      {
+        "key": "C",
+        "text": ":e backup.txt"
+      },
+      {
+        "key": "D",
+        "text": ":r backup.txt"
+      }
+    ],
+    "answer": "A",
+    "reason": "The :w command followed by a filename saves the contents to that file."
+  },
+  {
+    "id": 93,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Working with Files",
+    "difficulty": "hard",
+    "question": "Which command saves the current file and exits VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":q!"
+      },
+      {
+        "key": "B",
+        "text": ":w"
+      },
+      {
+        "key": "C",
+        "text": ":wq"
+      },
+      {
+        "key": "D",
+        "text": ":e"
+      }
+    ],
+    "answer": "C",
+    "reason": "The :wq command combines save and quit operations."
+  },
+  {
+    "id": 94,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "medium",
+    "question": "After searching with `/word`, which key moves to the next occurrence?",
+    "options": [
+      {
+        "key": "A",
+        "text": "n"
+      },
+      {
+        "key": "B",
+        "text": "N"
+      },
+      {
+        "key": "C",
+        "text": "p"
+      },
+      {
+        "key": "D",
+        "text": "r"
+      }
+    ],
+    "answer": "A",
+    "reason": "The n key repeats the search in the same direction."
+  },
+  {
+    "id": 95,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Search",
+    "difficulty": "hard",
+    "question": "After searching with `/word`, which key moves to the previous occurrence?",
+    "options": [
+      {
+        "key": "A",
+        "text": "n"
+      },
+      {
+        "key": "B",
+        "text": "N"
+      },
+      {
+        "key": "C",
+        "text": "p"
+      },
+      {
+        "key": "D",
+        "text": "?"
+      }
+    ],
+    "answer": "B",
+    "reason": "The N key repeats the search in the opposite direction."
+  },
+  {
+    "id": 96,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "medium",
+    "question": "Which command replaces the first occurrence of `apple` with `orange` in the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":s/apple/orange/"
+      },
+      {
+        "key": "B",
+        "text": ":%s/apple/orange/g"
+      },
+      {
+        "key": "C",
+        "text": ":g/apple/orange/"
+      },
+      {
+        "key": "D",
+        "text": ":replace apple orange"
+      }
+    ],
+    "answer": "A",
+    "reason": "Without the g flag, substitution affects only the first occurrence in the current line."
+  },
+  {
+    "id": 97,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Replace",
+    "difficulty": "hard",
+    "question": "Which command replaces all occurrences of `cat` with `dog` only in the current line?",
+    "options": [
+      {
+        "key": "A",
+        "text": ":s/cat/dog/g"
+      },
+      {
+        "key": "B",
+        "text": ":%s/cat/dog/g"
+      },
+      {
+        "key": "C",
+        "text": ":g/cat/dog"
+      },
+      {
+        "key": "D",
+        "text": ":replace/cat/dog"
+      }
+    ],
+    "answer": "A",
+    "reason": "The g flag replaces all matches on the current line, while % would affect the whole file."
+  },
+  {
+    "id": 98,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Regular Expressions",
+    "difficulty": "medium",
+    "question": "In VI regular expressions, what does `^` represent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "End of line"
+      },
+      {
+        "key": "B",
+        "text": "Beginning of line"
+      },
+      {
+        "key": "C",
+        "text": "Any character"
+      },
+      {
+        "key": "D",
+        "text": "A digit"
+      }
+    ],
+    "answer": "B",
+    "reason": "The caret (^) anchors a pattern at the beginning of a line."
+  },
+  {
+    "id": 99,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Regular Expressions",
+    "difficulty": "medium",
+    "question": "In VI regular expressions, what does `$` represent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Beginning of line"
+      },
+      {
+        "key": "B",
+        "text": "Any character"
+      },
+      {
+        "key": "C",
+        "text": "End of line"
+      },
+      {
+        "key": "D",
+        "text": "A word boundary"
+      }
+    ],
+    "answer": "C",
+    "reason": "The dollar sign ($) anchors a pattern at the end of a line."
+  },
+  {
+    "id": 100,
+    "subject": "UNIX and Shell Programming",
+    "topic": "VI Editor Concepts",
+    "difficulty": "hard",
+    "question": "Which statement best describes Command Mode in VI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Used for entering text directly"
+      },
+      {
+        "key": "B",
+        "text": "Used for cursor movement and editing commands"
+      },
+      {
+        "key": "C",
+        "text": "Used only for saving files"
+      },
+      {
+        "key": "D",
+        "text": "Used only for search operations"
+      }
+    ],
+    "answer": "B",
+    "reason": "Command Mode is the primary mode for navigation, editing, deletion, copying, and other editor commands."
+  }
 ]

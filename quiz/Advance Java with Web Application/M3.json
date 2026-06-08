@@ -1,1502 +1,2702 @@
 [
-	{
-		"id": 1,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Lifecycle",
-		"difficulty": "medium",
-		"question": "Which JSP lifecycle method is called only once when a JSP page is initialized?",
-		"options": [
-			{ "key": "A", "text": "_jspService()" },
-			{ "key": "B", "text": "jspInit()" },
-			{ "key": "C", "text": "jspDestroy()" },
-			{ "key": "D", "text": "service()" }
-		],
-		"answer": "B",
-		"reason": "jspInit() is invoked only once when the JSP is initialized."
-	},
-	{
-		"id": 2,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Lifecycle",
-		"difficulty": "medium",
-		"question": "Which JSP lifecycle method handles every client request?",
-		"options": [
-			{ "key": "A", "text": "_jspService()" },
-			{ "key": "B", "text": "jspInit()" },
-			{ "key": "C", "text": "jspDestroy()" },
-			{ "key": "D", "text": "doGet()" }
-		],
-		"answer": "A",
-		"reason": "_jspService() is automatically generated and executed for each request."
-	},
-	{
-		"id": 3,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Lifecycle",
-		"difficulty": "hard",
-		"question": "Which method is called before a JSP page is unloaded from memory?",
-		"options": [
-			{ "key": "A", "text": "destroy()" },
-			{ "key": "B", "text": "finalize()" },
-			{ "key": "C", "text": "jspDestroy()" },
-			{ "key": "D", "text": "_jspDestroy()" }
-		],
-		"answer": "C",
-		"reason": "jspDestroy() is called once before JSP removal."
-	},
-	{
-		"id": 4,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Directives",
-		"difficulty": "easy",
-		"question": "Which directive is used to import Java packages into a JSP page?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "include" },
-			{ "key": "C", "text": "taglib" },
-			{ "key": "D", "text": "import" }
-		],
-		"answer": "A",
-		"reason": "The page directive with the import attribute imports Java packages."
-	},
-	{
-		"id": 5,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Directives",
-		"difficulty": "medium",
-		"question": "Which directive includes a file during JSP translation time?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "include" },
-			{ "key": "C", "text": "taglib" },
-			{ "key": "D", "text": "forward" }
-		],
-		"answer": "B",
-		"reason": "The include directive performs static inclusion during translation."
-	},
-	{
-		"id": 6,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Directives",
-		"difficulty": "medium",
-		"question": "Which directive is used to declare a JSTL or custom tag library?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "include" },
-			{ "key": "C", "text": "taglib" },
-			{ "key": "D", "text": "library" }
-		],
-		"answer": "C",
-		"reason": "The taglib directive makes custom tags available in JSP."
-	},
-	{
-		"id": 7,
-		"subject": "Advance Java with Web Application",
-		"topic": "Scriptlets",
-		"difficulty": "easy",
-		"question": "Which JSP syntax represents a scriptlet?",
-		"options": [
-			{ "key": "A", "text": "<%= %>" },
-			{ "key": "B", "text": "<%! %>" },
-			{ "key": "C", "text": "<% %>" },
-			{ "key": "D", "text": "${}" }
-		],
-		"answer": "C",
-		"reason": "Scriptlets contain Java statements enclosed within <% %>."
-	},
-	{
-		"id": 8,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expressions",
-		"difficulty": "easy",
-		"question": "Which JSP syntax prints the value of an expression?",
-		"options": [
-			{ "key": "A", "text": "<%= expression %>" },
-			{ "key": "B", "text": "<%! expression %>" },
-			{ "key": "C", "text": "<% expression %>" },
-			{ "key": "D", "text": "${expression}" }
-		],
-		"answer": "A",
-		"reason": "Expression tags output evaluated values directly to the response."
-	},
-	{
-		"id": 9,
-		"subject": "Advance Java with Web Application",
-		"topic": "Declarations",
-		"difficulty": "medium",
-		"question": "Which JSP syntax is used to declare methods and variables?",
-		"options": [
-			{ "key": "A", "text": "<%= %>" },
-			{ "key": "B", "text": "<%! %>" },
-			{ "key": "C", "text": "<% %>" },
-			{ "key": "D", "text": "<jsp:declaration>" }
-		],
-		"answer": "B",
-		"reason": "Declarations create class-level members in the generated servlet."
-	},
-	{
-		"id": 10,
-		"subject": "Advance Java with Web Application",
-		"topic": "Implicit Objects",
-		"difficulty": "medium",
-		"question": "Which implicit object represents the current HTTP request?",
-		"options": [
-			{ "key": "A", "text": "response" },
-			{ "key": "B", "text": "request" },
-			{ "key": "C", "text": "application" },
-			{ "key": "D", "text": "config" }
-		],
-		"answer": "B",
-		"reason": "request contains client request information."
-	},
-	{
-		"id": 11,
-		"subject": "Advance Java with Web Application",
-		"topic": "Implicit Objects",
-		"difficulty": "medium",
-		"question": "Which implicit object is used to write output to the browser?",
-		"options": [
-			{ "key": "A", "text": "request" },
-			{ "key": "B", "text": "response" },
-			{ "key": "C", "text": "out" },
-			{ "key": "D", "text": "page" }
-		],
-		"answer": "C",
-		"reason": "The out object writes content to the response stream."
-	},
-	{
-		"id": 12,
-		"subject": "Advance Java with Web Application",
-		"topic": "Implicit Objects",
-		"difficulty": "hard",
-		"question": "Which implicit object provides access to ServletContext?",
-		"options": [
-			{ "key": "A", "text": "session" },
-			{ "key": "B", "text": "application" },
-			{ "key": "C", "text": "config" },
-			{ "key": "D", "text": "pageContext" }
-		],
-		"answer": "B",
-		"reason": "application references the shared ServletContext object."
-	},
-	{
-		"id": 13,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Action Tags",
-		"difficulty": "medium",
-		"question": "Which action tag forwards a request to another resource?",
-		"options": [
-			{ "key": "A", "text": "<jsp:include>" },
-			{ "key": "B", "text": "<jsp:param>" },
-			{ "key": "C", "text": "<jsp:forward>" },
-			{ "key": "D", "text": "<jsp:plugin>" }
-		],
-		"answer": "C",
-		"reason": "jsp:forward transfers request processing to another resource."
-	},
-	{
-		"id": 14,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Action Tags",
-		"difficulty": "medium",
-		"question": "Which action tag includes another resource at request time?",
-		"options": [
-			{ "key": "A", "text": "<jsp:include>" },
-			{ "key": "B", "text": "<jsp:forward>" },
-			{ "key": "C", "text": "<jsp:param>" },
-			{ "key": "D", "text": "<jsp:useBean>" }
-		],
-		"answer": "A",
-		"reason": "jsp:include performs dynamic inclusion during request processing."
-	},
-	{
-		"id": 15,
-		"subject": "Advance Java with Web Application",
-		"topic": "JavaBeans",
-		"difficulty": "easy",
-		"question": "Which action tag creates or locates a JavaBean?",
-		"options": [
-			{ "key": "A", "text": "<jsp:getProperty>" },
-			{ "key": "B", "text": "<jsp:setProperty>" },
-			{ "key": "C", "text": "<jsp:bean>" },
-			{ "key": "D", "text": "<jsp:useBean>" }
-		],
-		"answer": "D",
-		"reason": "jsp:useBean locates or instantiates a bean."
-	},
-	{
-		"id": 16,
-		"subject": "Advance Java with Web Application",
-		"topic": "JavaBeans",
-		"difficulty": "medium",
-		"question": "Which action tag reads a bean property value?",
-		"options": [
-			{ "key": "A", "text": "<jsp:getProperty>" },
-			{ "key": "B", "text": "<jsp:setProperty>" },
-			{ "key": "C", "text": "<jsp:useBean>" },
-			{ "key": "D", "text": "<jsp:param>" }
-		],
-		"answer": "A",
-		"reason": "jsp:getProperty retrieves and displays bean properties."
-	},
-	{
-		"id": 17,
-		"subject": "Advance Java with Web Application",
-		"topic": "JavaBeans",
-		"difficulty": "medium",
-		"question": "Which action tag assigns a value to a bean property?",
-		"options": [
-			{ "key": "A", "text": "<jsp:property>" },
-			{ "key": "B", "text": "<jsp:setProperty>" },
-			{ "key": "C", "text": "<jsp:getProperty>" },
-			{ "key": "D", "text": "<jsp:useBean>" }
-		],
-		"answer": "B",
-		"reason": "jsp:setProperty updates bean property values."
-	},
-	{
-		"id": 18,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "easy",
-		"question": "Which symbol starts a JSP Expression Language expression?",
-		"options": [
-			{ "key": "A", "text": "#" },
-			{ "key": "B", "text": "$" },
-			{ "key": "C", "text": "@" },
-			{ "key": "D", "text": "%" }
-		],
-		"answer": "B",
-		"reason": "EL expressions are written using ${...}."
-	},
-	{
-		"id": 19,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "medium",
-		"question": "Which EL expression accesses a variable named user?",
-		"options": [
-			{ "key": "A", "text": "<%= user %>" },
-			{ "key": "B", "text": "${user}" },
-			{ "key": "C", "text": "#{user}" },
-			{ "key": "D", "text": "@{user}" }
-		],
-		"answer": "B",
-		"reason": "EL accesses scoped variables using ${variableName}."
-	},
-	{
-		"id": 20,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "medium",
-		"question": "Which JSTL tag acts like an if statement?",
-		"options": [
-			{ "key": "A", "text": "<c:choose>" },
-			{ "key": "B", "text": "<c:when>" },
-			{ "key": "C", "text": "<c:if>" },
-			{ "key": "D", "text": "<c:otherwise>" }
-		],
-		"answer": "C",
-		"reason": "c:if conditionally executes its body."
-	},
-	{
-		"id": 21,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "medium",
-		"question": "Which JSTL tag works like a switch statement?",
-		"options": [
-			{ "key": "A", "text": "<c:if>" },
-			{ "key": "B", "text": "<c:choose>" },
-			{ "key": "C", "text": "<c:forEach>" },
-			{ "key": "D", "text": "<c:param>" }
-		],
-		"answer": "B",
-		"reason": "c:choose groups c:when and c:otherwise tags similar to switch-case."
-	},
-	{
-		"id": 22,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "medium",
-		"question": "Which JSTL tag provides the default branch inside c:choose?",
-		"options": [
-			{ "key": "A", "text": "<c:if>" },
-			{ "key": "B", "text": "<c:when>" },
-			{ "key": "C", "text": "<c:default>" },
-			{ "key": "D", "text": "<c:otherwise>" }
-		],
-		"answer": "D",
-		"reason": "c:otherwise executes when no c:when condition is true."
-	},
-	{
-		"id": 23,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Iteration",
-		"difficulty": "medium",
-		"question": "Which JSTL tag is used to iterate over collections?",
-		"options": [
-			{ "key": "A", "text": "<c:loop>" },
-			{ "key": "B", "text": "<c:iterate>" },
-			{ "key": "C", "text": "<c:forEach>" },
-			{ "key": "D", "text": "<c:while>" }
-		],
-		"answer": "C",
-		"reason": "c:forEach is used for collection and array iteration."
-	},
-	{
-		"id": 24,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "hard",
-		"question": "Which JSTL library provides string manipulation functions?",
-		"options": [
-			{ "key": "A", "text": "fmt" },
-			{ "key": "B", "text": "sql" },
-			{ "key": "C", "text": "core" },
-			{ "key": "D", "text": "fn" }
-		],
-		"answer": "D",
-		"reason": "The fn library contains JSTL string and collection functions."
-	},
-	{
-		"id": 25,
-		"subject": "Advance Java with Web Application",
-		"topic": "Custom Tag Library",
-		"difficulty": "hard",
-		"question": "What is the primary purpose of a custom tag library?",
-		"options": [
-			{ "key": "A", "text": "Replace JDBC" },
-			{ "key": "B", "text": "Create reusable JSP functionality" },
-			{ "key": "C", "text": "Compile JSP pages" },
-			{ "key": "D", "text": "Manage sessions" }
-		],
-		"answer": "B",
-		"reason": "Custom tags encapsulate reusable presentation logic and reduce scriptlet usage."
-	},
-	{
-		"id": 26,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Lifecycle",
-		"difficulty": "hard",
-		"question": "Which phase occurs immediately before JSP initialization?",
-		"options": [
-			{ "key": "A", "text": "Compilation" },
-			{ "key": "B", "text": "Destruction" },
-			{ "key": "C", "text": "Request Processing" },
-			{ "key": "D", "text": "Forwarding" }
-		],
-		"answer": "A",
-		"reason": "A JSP is translated and compiled into a servlet before initialization."
-	},
-	{
-		"id": 27,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Lifecycle",
-		"difficulty": "medium",
-		"question": "Who automatically generates the _jspService() method?",
-		"options": [
-			{ "key": "A", "text": "Programmer" },
-			{ "key": "B", "text": "JVM" },
-			{ "key": "C", "text": "JSP Container" },
-			{ "key": "D", "text": "ServletContext" }
-		],
-		"answer": "C",
-		"reason": "The JSP container generates the servlet code including _jspService()."
-	},
-	{
-		"id": 28,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Directives",
-		"difficulty": "medium",
-		"question": "Which page directive attribute is used to specify an error page?",
-		"options": [
-			{ "key": "A", "text": "errorPage" },
-			{ "key": "B", "text": "errorFile" },
-			{ "key": "C", "text": "exceptionPage" },
-			{ "key": "D", "text": "errorURL" }
-		],
-		"answer": "A",
-		"reason": "The errorPage attribute specifies a JSP page to handle exceptions."
-	},
-	{
-		"id": 29,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Directives",
-		"difficulty": "hard",
-		"question": "Which page directive attribute indicates that a JSP acts as an error page?",
-		"options": [
-			{ "key": "A", "text": "isError" },
-			{ "key": "B", "text": "errorHandler" },
-			{ "key": "C", "text": "isErrorPage" },
-			{ "key": "D", "text": "errorPageMode" }
-		],
-		"answer": "C",
-		"reason": "isErrorPage='true' enables access to the exception object."
-	},
-	{
-		"id": 30,
-		"subject": "Advance Java with Web Application",
-		"topic": "Scriptlets",
-		"difficulty": "medium",
-		"question": "Where is scriptlet code placed in the generated servlet?",
-		"options": [
-			{ "key": "A", "text": "jspInit()" },
-			{ "key": "B", "text": "_jspService()" },
-			{ "key": "C", "text": "jspDestroy()" },
-			{ "key": "D", "text": "Constructor" }
-		],
-		"answer": "B",
-		"reason": "Scriptlet code becomes part of the generated _jspService() method."
-	},
-	{
-		"id": 31,
-		"subject": "Advance Java with Web Application",
-		"topic": "Declarations",
-		"difficulty": "medium",
-		"question": "Variables declared using <%! %> become:",
-		"options": [
-			{ "key": "A", "text": "Local variables" },
-			{ "key": "B", "text": "Method parameters" },
-			{ "key": "C", "text": "Instance variables" },
-			{ "key": "D", "text": "Constants only" }
-		],
-		"answer": "C",
-		"reason": "Declaration tags create class-level members in the generated servlet."
-	},
-	{
-		"id": 32,
-		"subject": "Advance Java with Web Application",
-		"topic": "Implicit Objects",
-		"difficulty": "medium",
-		"question": "Which implicit object represents the current user session?",
-		"options": [
-			{ "key": "A", "text": "request" },
-			{ "key": "B", "text": "application" },
-			{ "key": "C", "text": "session" },
-			{ "key": "D", "text": "config" }
-		],
-		"answer": "C",
-		"reason": "The session object represents the current HttpSession."
-	},
-	{
-		"id": 33,
-		"subject": "Advance Java with Web Application",
-		"topic": "Implicit Objects",
-		"difficulty": "hard",
-		"question": "Which implicit object provides access to all JSP scope objects?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "pageContext" },
-			{ "key": "C", "text": "config" },
-			{ "key": "D", "text": "application" }
-		],
-		"answer": "B",
-		"reason": "pageContext provides access to page, request, session, and application scopes."
-	},
-	{
-		"id": 34,
-		"subject": "Advance Java with Web Application",
-		"topic": "Implicit Objects",
-		"difficulty": "hard",
-		"question": "Which implicit object becomes available only on error pages?",
-		"options": [
-			{ "key": "A", "text": "error" },
-			{ "key": "B", "text": "exception" },
-			{ "key": "C", "text": "throwable" },
-			{ "key": "D", "text": "errorObject" }
-		],
-		"answer": "B",
-		"reason": "The exception implicit object is available when isErrorPage='true'."
-	},
-	{
-		"id": 35,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Action Tags",
-		"difficulty": "medium",
-		"question": "Which action tag passes parameters to another resource?",
-		"options": [
-			{ "key": "A", "text": "<jsp:param>" },
-			{ "key": "B", "text": "<jsp:include>" },
-			{ "key": "C", "text": "<jsp:plugin>" },
-			{ "key": "D", "text": "<jsp:attribute>" }
-		],
-		"answer": "A",
-		"reason": "jsp:param adds request parameters to include and forward actions."
-	},
-	{
-		"id": 36,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Action Tags",
-		"difficulty": "hard",
-		"question": "Which action tag is used to instantiate JavaBeans dynamically?",
-		"options": [
-			{ "key": "A", "text": "<jsp:getProperty>" },
-			{ "key": "B", "text": "<jsp:setProperty>" },
-			{ "key": "C", "text": "<jsp:useBean>" },
-			{ "key": "D", "text": "<jsp:param>" }
-		],
-		"answer": "C",
-		"reason": "jsp:useBean locates or creates bean instances."
-	},
-	{
-		"id": 37,
-		"subject": "Advance Java with Web Application",
-		"topic": "JavaBeans",
-		"difficulty": "medium",
-		"question": "A JavaBean must provide:",
-		"options": [
-			{ "key": "A", "text": "A public no-argument constructor" },
-			{ "key": "B", "text": "A main() method" },
-			{ "key": "C", "text": "A static block" },
-			{ "key": "D", "text": "A servlet mapping" }
-		],
-		"answer": "A",
-		"reason": "JavaBeans require a public no-argument constructor."
-	},
-	{
-		"id": 38,
-		"subject": "Advance Java with Web Application",
-		"topic": "JavaBeans",
-		"difficulty": "hard",
-		"question": "Which naming convention is used for bean getter methods?",
-		"options": [
-			{ "key": "A", "text": "fetchProperty()" },
-			{ "key": "B", "text": "readProperty()" },
-			{ "key": "C", "text": "getProperty()" },
-			{ "key": "D", "text": "propertyGet()" }
-		],
-		"answer": "C",
-		"reason": "JavaBeans use standard getter methods beginning with 'get'."
-	},
-	{
-		"id": 39,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "medium",
-		"question": "Which EL operator is used for logical AND?",
-		"options": [
-			{ "key": "A", "text": "&&" },
-			{ "key": "B", "text": "&" },
-			{ "key": "C", "text": "and" },
-			{ "key": "D", "text": "AND()" }
-		],
-		"answer": "C",
-		"reason": "EL uses word-based operators such as and, or, and not."
-	},
-	{
-		"id": 40,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "medium",
-		"question": "Which EL operator checks equality?",
-		"options": [
-			{ "key": "A", "text": "==" },
-			{ "key": "B", "text": "eq" },
-			{ "key": "C", "text": "=" },
-			{ "key": "D", "text": "equals" }
-		],
-		"answer": "B",
-		"reason": "EL provides eq, ne, gt, lt, ge, and le operators."
-	},
-	{
-		"id": 41,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "hard",
-		"question": "Which EL implicit object accesses request parameters?",
-		"options": [
-			{ "key": "A", "text": "requestScope" },
-			{ "key": "B", "text": "param" },
-			{ "key": "C", "text": "params" },
-			{ "key": "D", "text": "request" }
-		],
-		"answer": "B",
-		"reason": "The param object provides access to request parameters."
-	},
-	{
-		"id": 42,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "medium",
-		"question": "Which tag is used inside <c:choose> to define conditions?",
-		"options": [
-			{ "key": "A", "text": "<c:condition>" },
-			{ "key": "B", "text": "<c:if>" },
-			{ "key": "C", "text": "<c:when>" },
-			{ "key": "D", "text": "<c:test>" }
-		],
-		"answer": "C",
-		"reason": "c:when specifies conditional branches within c:choose."
-	},
-	{
-		"id": 43,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "hard",
-		"question": "Which attribute contains the condition in <c:if>?",
-		"options": [
-			{ "key": "A", "text": "condition" },
-			{ "key": "B", "text": "check" },
-			{ "key": "C", "text": "test" },
-			{ "key": "D", "text": "verify" }
-		],
-		"answer": "C",
-		"reason": "The test attribute evaluates the specified expression."
-	},
-	{
-		"id": 44,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Iteration",
-		"difficulty": "medium",
-		"question": "Which JSTL tag splits a string into tokens and iterates over them?",
-		"options": [
-			{ "key": "A", "text": "<c:forEach>" },
-			{ "key": "B", "text": "<c:iterate>" },
-			{ "key": "C", "text": "<c:forTokens>" },
-			{ "key": "D", "text": "<c:tokenize>" }
-		],
-		"answer": "C",
-		"reason": "c:forTokens iterates through tokenized string values."
-	},
-	{
-		"id": 45,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Iteration",
-		"difficulty": "hard",
-		"question": "Which attribute in c:forEach represents the current item?",
-		"options": [
-			{ "key": "A", "text": "item" },
-			{ "key": "B", "text": "var" },
-			{ "key": "C", "text": "value" },
-			{ "key": "D", "text": "current" }
-		],
-		"answer": "B",
-		"reason": "The var attribute stores the current iteration value."
-	},
-	{
-		"id": 46,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "medium",
-		"question": "Which JSTL function returns the length of a string or collection?",
-		"options": [
-			{ "key": "A", "text": "fn:size()" },
-			{ "key": "B", "text": "fn:length()" },
-			{ "key": "C", "text": "fn:count()" },
-			{ "key": "D", "text": "fn:len()" }
-		],
-		"answer": "B",
-		"reason": "fn:length() returns the number of characters or elements."
-	},
-	{
-		"id": 47,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "hard",
-		"question": "Which JSTL function converts text to uppercase?",
-		"options": [
-			{ "key": "A", "text": "fn:upper()" },
-			{ "key": "B", "text": "fn:toUpper()" },
-			{ "key": "C", "text": "fn:toUpperCase()" },
-			{ "key": "D", "text": "fn:uppercase()" }
-		],
-		"answer": "C",
-		"reason": "fn:toUpperCase() converts a string to uppercase."
-	},
-	{
-		"id": 48,
-		"subject": "Advance Java with Web Application",
-		"topic": "Custom Tag Library",
-		"difficulty": "medium",
-		"question": "What does TLD stand for in JSP custom tags?",
-		"options": [
-			{ "key": "A", "text": "Tag Library Descriptor" },
-			{ "key": "B", "text": "Template Library Definition" },
-			{ "key": "C", "text": "Tag Logic Definition" },
-			{ "key": "D", "text": "Template Logic Descriptor" }
-		],
-		"answer": "A",
-		"reason": "TLD files define custom tag metadata and configuration."
-	},
-	{
-		"id": 49,
-		"subject": "Advance Java with Web Application",
-		"topic": "Custom Tag Library",
-		"difficulty": "hard",
-		"question": "Which directive is required to use a custom tag library in JSP?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "include" },
-			{ "key": "C", "text": "taglib" },
-			{ "key": "D", "text": "custom" }
-		],
-		"answer": "C",
-		"reason": "The taglib directive imports custom tag libraries into a JSP page."
-	},
-	{
-		"id": 50,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What will be displayed?\n<c:set var=\"x\" value=\"10\" />\n<c:if test=\"${x > 5}\">\n  Success\n</c:if>",
-		"options": [
-			{ "key": "A", "text": "Nothing" },
-			{ "key": "B", "text": "Error" },
-			{ "key": "C", "text": "Success" },
-			{ "key": "D", "text": "10" }
-		],
-		"answer": "C",
-		"reason": "The condition evaluates to true, so 'Success' is displayed."
-	},
-	{
-		"id": 51,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Directives",
-		"difficulty": "medium",
-		"question": "Which page directive attribute controls whether EL expressions are evaluated?",
-		"options": [
-			{ "key": "A", "text": "enableEL" },
-			{ "key": "B", "text": "isELIgnored" },
-			{ "key": "C", "text": "allowEL" },
-			{ "key": "D", "text": "useEL" }
-		],
-		"answer": "B",
-		"reason": "The isELIgnored attribute enables or disables EL evaluation."
-	},
-	{
-		"id": 52,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Directives",
-		"difficulty": "medium",
-		"question": "Which page directive attribute specifies the MIME type of the response?",
-		"options": [
-			{ "key": "A", "text": "responseType" },
-			{ "key": "B", "text": "contentType" },
-			{ "key": "C", "text": "mimeType" },
-			{ "key": "D", "text": "encoding" }
-		],
-		"answer": "B",
-		"reason": "contentType specifies the MIME type sent to the browser."
-	},
-	{
-		"id": 53,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSP Directives",
-		"difficulty": "hard",
-		"question": "Which page directive attribute specifies the character encoding?",
-		"options": [
-			{ "key": "A", "text": "charset" },
-			{ "key": "B", "text": "encoding" },
-			{ "key": "C", "text": "pageEncoding" },
-			{ "key": "D", "text": "characterSet" }
-		],
-		"answer": "C",
-		"reason": "pageEncoding defines the character encoding used by the JSP page."
-	},
-	{
-		"id": 54,
-		"subject": "Advance Java with Web Application",
-		"topic": "Implicit Objects",
-		"difficulty": "medium",
-		"question": "Which implicit object represents the generated servlet instance?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "config" },
-			{ "key": "C", "text": "pageContext" },
-			{ "key": "D", "text": "application" }
-		],
-		"answer": "A",
-		"reason": "The page object references the current JSP servlet instance."
-	},
-	{
-		"id": 55,
-		"subject": "Advance Java with Web Application",
-		"topic": "Implicit Objects",
-		"difficulty": "medium",
-		"question": "Which implicit object provides servlet initialization parameters?",
-		"options": [
-			{ "key": "A", "text": "request" },
-			{ "key": "B", "text": "config" },
-			{ "key": "C", "text": "session" },
-			{ "key": "D", "text": "out" }
-		],
-		"answer": "B",
-		"reason": "config represents the ServletConfig object."
-	},
-	{
-		"id": 56,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "easy",
-		"question": "Which EL operator represents logical OR?",
-		"options": [
-			{ "key": "A", "text": "||" },
-			{ "key": "B", "text": "or" },
-			{ "key": "C", "text": "|" },
-			{ "key": "D", "text": "OR()" }
-		],
-		"answer": "B",
-		"reason": "EL uses the keyword 'or' for logical OR operations."
-	},
-	{
-		"id": 57,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "easy",
-		"question": "Which EL operator represents logical NOT?",
-		"options": [
-			{ "key": "A", "text": "!" },
-			{ "key": "B", "text": "~" },
-			{ "key": "C", "text": "not" },
-			{ "key": "D", "text": "NOT()" }
-		],
-		"answer": "C",
-		"reason": "EL uses the keyword 'not' for logical negation."
-	},
-	{
-		"id": 58,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "medium",
-		"question": "Which EL implicit object accesses request-scope attributes?",
-		"options": [
-			{ "key": "A", "text": "requestScope" },
-			{ "key": "B", "text": "request" },
-			{ "key": "C", "text": "param" },
-			{ "key": "D", "text": "header" }
-		],
-		"answer": "A",
-		"reason": "requestScope provides access to attributes stored in request scope."
-	},
-	{
-		"id": 59,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "medium",
-		"question": "Which EL implicit object accesses session attributes?",
-		"options": [
-			{ "key": "A", "text": "session" },
-			{ "key": "B", "text": "sessionScope" },
-			{ "key": "C", "text": "scope" },
-			{ "key": "D", "text": "userScope" }
-		],
-		"answer": "B",
-		"reason": "sessionScope is used to access session-scoped attributes."
-	},
-	{
-		"id": 60,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "hard",
-		"question": "Which EL implicit object provides access to HTTP headers?",
-		"options": [
-			{ "key": "A", "text": "header" },
-			{ "key": "B", "text": "headers" },
-			{ "key": "C", "text": "requestHeader" },
-			{ "key": "D", "text": "httpHeader" }
-		],
-		"answer": "A",
-		"reason": "The header object provides access to HTTP request headers."
-	},
-	{
-		"id": 61,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "hard",
-		"question": "Which EL implicit object provides access to cookie values?",
-		"options": [
-			{ "key": "A", "text": "cookies" },
-			{ "key": "B", "text": "cookie" },
-			{ "key": "C", "text": "cookieScope" },
-			{ "key": "D", "text": "browserCookie" }
-		],
-		"answer": "B",
-		"reason": "The cookie implicit object exposes HTTP cookie data."
-	},
-	{
-		"id": 62,
-		"subject": "Advance Java with Web Application",
-		"topic": "JavaBeans",
-		"difficulty": "medium",
-		"question": "Which scope shares a bean among all users of the application?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "request" },
-			{ "key": "C", "text": "session" },
-			{ "key": "D", "text": "application" }
-		],
-		"answer": "D",
-		"reason": "Application scope makes the bean available throughout the web application."
-	},
-	{
-		"id": 63,
-		"subject": "Advance Java with Web Application",
-		"topic": "JavaBeans",
-		"difficulty": "medium",
-		"question": "Which scope keeps a bean available for a single request?",
-		"options": [
-			{ "key": "A", "text": "request" },
-			{ "key": "B", "text": "page" },
-			{ "key": "C", "text": "session" },
-			{ "key": "D", "text": "application" }
-		],
-		"answer": "A",
-		"reason": "Request scope lasts only for the current request."
-	},
-	{
-		"id": 64,
-		"subject": "Advance Java with Web Application",
-		"topic": "JavaBeans",
-		"difficulty": "hard",
-		"question": "Which scope keeps a bean alive throughout a user's session?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "request" },
-			{ "key": "C", "text": "session" },
-			{ "key": "D", "text": "application" }
-		],
-		"answer": "C",
-		"reason": "Session scope persists until the user session ends."
-	},
-	{
-		"id": 65,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "easy",
-		"question": "Which JSTL tag is used to create a scoped variable?",
-		"options": [
-			{ "key": "A", "text": "<c:set>" },
-			{ "key": "B", "text": "<c:var>" },
-			{ "key": "C", "text": "<c:create>" },
-			{ "key": "D", "text": "<c:assign>" }
-		],
-		"answer": "A",
-		"reason": "c:set creates or updates scoped variables."
-	},
-	{
-		"id": 66,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "medium",
-		"question": "Which JSTL tag removes a scoped variable?",
-		"options": [
-			{ "key": "A", "text": "<c:delete>" },
-			{ "key": "B", "text": "<c:remove>" },
-			{ "key": "C", "text": "<c:unset>" },
-			{ "key": "D", "text": "<c:clear>" }
-		],
-		"answer": "B",
-		"reason": "c:remove removes scoped variables."
-	},
-	{
-		"id": 67,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "medium",
-		"question": "Which JSTL tag outputs a value to the page?",
-		"options": [
-			{ "key": "A", "text": "<c:write>" },
-			{ "key": "B", "text": "<c:print>" },
-			{ "key": "C", "text": "<c:out>" },
-			{ "key": "D", "text": "<c:display>" }
-		],
-		"answer": "C",
-		"reason": "c:out displays values safely in JSP pages."
-	},
-	{
-		"id": 68,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "hard",
-		"question": "Which JSTL tag is used to catch exceptions?",
-		"options": [
-			{ "key": "A", "text": "<c:catch>" },
-			{ "key": "B", "text": "<c:try>" },
-			{ "key": "C", "text": "<c:error>" },
-			{ "key": "D", "text": "<c:exception>" }
-		],
-		"answer": "A",
-		"reason": "c:catch captures exceptions generated by nested actions."
-	},
-	{
-		"id": 69,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "medium",
-		"question": "Which JSTL tag redirects the client to another URL?",
-		"options": [
-			{ "key": "A", "text": "<c:redirect>" },
-			{ "key": "B", "text": "<c:forward>" },
-			{ "key": "C", "text": "<c:url>" },
-			{ "key": "D", "text": "<c:path>" }
-		],
-		"answer": "A",
-		"reason": "c:redirect performs a client-side redirect."
-	},
-	{
-		"id": 70,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "hard",
-		"question": "Which JSTL tag builds a URL and supports parameters?",
-		"options": [
-			{ "key": "A", "text": "<c:link>" },
-			{ "key": "B", "text": "<c:url>" },
-			{ "key": "C", "text": "<c:path>" },
-			{ "key": "D", "text": "<c:href>" }
-		],
-		"answer": "B",
-		"reason": "c:url constructs URLs and can include c:param tags."
-	},
-	{
-		"id": 71,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "medium",
-		"question": "Which EL operator represents 'not equal'?",
-		"options": [
-			{ "key": "A", "text": "!=" },
-			{ "key": "B", "text": "<>" },
-			{ "key": "C", "text": "ne" },
-			{ "key": "D", "text": "neq" }
-		],
-		"answer": "C",
-		"reason": "EL uses 'ne' as the not-equal operator."
-	},
-	{
-		"id": 72,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "medium",
-		"question": "Which EL operator represents 'greater than'?",
-		"options": [
-			{ "key": "A", "text": ">" },
-			{ "key": "B", "text": "gt" },
-			{ "key": "C", "text": "greater" },
-			{ "key": "D", "text": "gte" }
-		],
-		"answer": "B",
-		"reason": "EL uses 'gt' for greater-than comparisons."
-	},
-	{
-		"id": 73,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "hard",
-		"question": "Which EL implicit object accesses application-scoped attributes?",
-		"options": [
-			{ "key": "A", "text": "application" },
-			{ "key": "B", "text": "appScope" },
-			{ "key": "C", "text": "applicationScope" },
-			{ "key": "D", "text": "globalScope" }
-		],
-		"answer": "C",
-		"reason": "applicationScope provides access to attributes stored in application scope."
-	},
-	{
-		"id": 74,
-		"subject": "Advance Java with Web Application",
-		"topic": "Expression Language",
-		"difficulty": "hard",
-		"question": "Which EL implicit object accesses initialization parameters from web.xml?",
-		"options": [
-			{ "key": "A", "text": "param" },
-			{ "key": "B", "text": "initParam" },
-			{ "key": "C", "text": "contextParam" },
-			{ "key": "D", "text": "configParam" }
-		],
-		"answer": "B",
-		"reason": "initParam provides access to context initialization parameters."
-	},
-	{
-		"id": 75,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "medium",
-		"question": "Which tag is commonly nested inside <c:url> to append query parameters?",
-		"options": [
-			{ "key": "A", "text": "<c:query>" },
-			{ "key": "B", "text": "<c:param>" },
-			{ "key": "C", "text": "<c:args>" },
-			{ "key": "D", "text": "<c:value>" }
-		],
-		"answer": "B",
-		"reason": "c:param is used to add parameters to URLs."
-	},
-	{
-		"id": 76,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Core Tags",
-		"difficulty": "hard",
-		"question": "Which tag imports content from another URL or resource?",
-		"options": [
-			{ "key": "A", "text": "<c:load>" },
-			{ "key": "B", "text": "<c:include>" },
-			{ "key": "C", "text": "<c:import>" },
-			{ "key": "D", "text": "<c:fetch>" }
-		],
-		"answer": "C",
-		"reason": "c:import retrieves and includes content from URLs or resources."
-	},
-	{
-		"id": 77,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "easy",
-		"question": "Which JSTL function checks whether a string contains another string?",
-		"options": [
-			{ "key": "A", "text": "fn:find()" },
-			{ "key": "B", "text": "fn:contains()" },
-			{ "key": "C", "text": "fn:match()" },
-			{ "key": "D", "text": "fn:exists()" }
-		],
-		"answer": "B",
-		"reason": "fn:contains() returns true if the substring exists."
-	},
-	{
-		"id": 78,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "medium",
-		"question": "Which JSTL function checks whether a string starts with a specified prefix?",
-		"options": [
-			{ "key": "A", "text": "fn:startsWith()" },
-			{ "key": "B", "text": "fn:beginWith()" },
-			{ "key": "C", "text": "fn:prefix()" },
-			{ "key": "D", "text": "fn:start()" }
-		],
-		"answer": "A",
-		"reason": "fn:startsWith() checks the beginning of a string."
-	},
-	{
-		"id": 79,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "medium",
-		"question": "Which JSTL function checks whether a string ends with a specified suffix?",
-		"options": [
-			{ "key": "A", "text": "fn:ends()" },
-			{ "key": "B", "text": "fn:endsWith()" },
-			{ "key": "C", "text": "fn:suffix()" },
-			{ "key": "D", "text": "fn:last()" }
-		],
-		"answer": "B",
-		"reason": "fn:endsWith() verifies the ending portion of a string."
-	},
-	{
-		"id": 80,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "medium",
-		"question": "Which JSTL function converts text to lowercase?",
-		"options": [
-			{ "key": "A", "text": "fn:lower()" },
-			{ "key": "B", "text": "fn:toLowerCase()" },
-			{ "key": "C", "text": "fn:small()" },
-			{ "key": "D", "text": "fn:lowerCase()" }
-		],
-		"answer": "B",
-		"reason": "fn:toLowerCase() converts all characters to lowercase."
-	},
-	{
-		"id": 81,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "hard",
-		"question": "Which JSTL function extracts a substring from a string?",
-		"options": [
-			{ "key": "A", "text": "fn:extract()" },
-			{ "key": "B", "text": "fn:split()" },
-			{ "key": "C", "text": "fn:substring()" },
-			{ "key": "D", "text": "fn:part()" }
-		],
-		"answer": "C",
-		"reason": "fn:substring() extracts a specified portion of a string."
-	},
-	{
-		"id": 82,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "hard",
-		"question": "Which JSTL function replaces occurrences of text within a string?",
-		"options": [
-			{ "key": "A", "text": "fn:replace()" },
-			{ "key": "B", "text": "fn:change()" },
-			{ "key": "C", "text": "fn:modify()" },
-			{ "key": "D", "text": "fn:update()" }
-		],
-		"answer": "A",
-		"reason": "fn:replace() substitutes matching text with new text."
-	},
-	{
-		"id": 83,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "hard",
-		"question": "Which JSTL function splits a string into an array?",
-		"options": [
-			{ "key": "A", "text": "fn:tokenize()" },
-			{ "key": "B", "text": "fn:split()" },
-			{ "key": "C", "text": "fn:divide()" },
-			{ "key": "D", "text": "fn:array()" }
-		],
-		"answer": "B",
-		"reason": "fn:split() divides a string into an array based on a delimiter."
-	},
-	{
-		"id": 84,
-		"subject": "Advance Java with Web Application",
-		"topic": "JSTL Functions",
-		"difficulty": "hard",
-		"question": "Which JSTL function joins array elements into a single string?",
-		"options": [
-			{ "key": "A", "text": "fn:concat()" },
-			{ "key": "B", "text": "fn:join()" },
-			{ "key": "C", "text": "fn:merge()" },
-			{ "key": "D", "text": "fn:combine()" }
-		],
-		"answer": "B",
-		"reason": "fn:join() combines array elements using a delimiter."
-	},
-	{
-		"id": 85,
-		"subject": "Advance Java with Web Application",
-		"topic": "Custom Tag Library",
-		"difficulty": "medium",
-		"question": "A custom tag library primarily helps in:",
-		"options": [
-			{ "key": "A", "text": "Database optimization" },
-			{ "key": "B", "text": "Code reusability" },
-			{ "key": "C", "text": "Driver loading" },
-			{ "key": "D", "text": "Session destruction" }
-		],
-		"answer": "B",
-		"reason": "Custom tags encapsulate reusable functionality."
-	},
-	{
-		"id": 86,
-		"subject": "Advance Java with Web Application",
-		"topic": "Custom Tag Library",
-		"difficulty": "medium",
-		"question": "Which file describes custom tag definitions?",
-		"options": [
-			{ "key": "A", "text": "web.xml" },
-			{ "key": "B", "text": "beans.xml" },
-			{ "key": "C", "text": "TLD file" },
-			{ "key": "D", "text": "context.xml" }
-		],
-		"answer": "C",
-		"reason": "Tag Library Descriptor (TLD) files define custom tags."
-	},
-	{
-		"id": 87,
-		"subject": "Advance Java with Web Application",
-		"topic": "Custom Tag Library",
-		"difficulty": "hard",
-		"question": "What does URI stand for in a taglib directive?",
-		"options": [
-			{ "key": "A", "text": "Uniform Resource Identifier" },
-			{ "key": "B", "text": "Universal Resource Interface" },
-			{ "key": "C", "text": "Unified Resource Information" },
-			{ "key": "D", "text": "Unique Resource Identifier" }
-		],
-		"answer": "A",
-		"reason": "URI uniquely identifies the tag library."
-	},
-	{
-		"id": 88,
-		"subject": "Advance Java with Web Application",
-		"topic": "Custom Tag Library",
-		"difficulty": "hard",
-		"question": "Which directive is used to assign a prefix to a custom tag library?",
-		"options": [
-			{ "key": "A", "text": "page" },
-			{ "key": "B", "text": "include" },
-			{ "key": "C", "text": "taglib" },
-			{ "key": "D", "text": "library" }
-		],
-		"answer": "C",
-		"reason": "The taglib directive associates a prefix with a tag library."
-	},
-	{
-		"id": 89,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "What is the output?\n${10 + 5}",
-		"options": [
-			{ "key": "A", "text": "105" },
-			{ "key": "B", "text": "15" },
-			{ "key": "C", "text": "Error" },
-			{ "key": "D", "text": "10+5" }
-		],
-		"answer": "B",
-		"reason": "EL evaluates arithmetic expressions."
-	},
-	{
-		"id": 90,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "medium",
-		"question": "What is the result of:\n${10 gt 5}",
-		"options": [
-			{ "key": "A", "text": "false" },
-			{ "key": "B", "text": "10" },
-			{ "key": "C", "text": "true" },
-			{ "key": "D", "text": "Error" }
-		],
-		"answer": "C",
-		"reason": "10 is greater than 5, so the expression evaluates to true."
-	},
-	{
-		"id": 91,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is displayed?\n<c:set var=\"name\" value=\"John\" />\n<c:out value=\"${name}\" />",
-		"options": [
-			{ "key": "A", "text": "name" },
-			{ "key": "B", "text": "John" },
-			{ "key": "C", "text": "${name}" },
-			{ "key": "D", "text": "null" }
-		],
-		"answer": "B",
-		"reason": "c:out prints the evaluated EL value."
-	},
-	{
-		"id": 92,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is displayed?\n<c:if test=\"${5 lt 3}\">YES</c:if>",
-		"options": [
-			{ "key": "A", "text": "YES" },
-			{ "key": "B", "text": "NO" },
-			{ "key": "C", "text": "Nothing" },
-			{ "key": "D", "text": "Error" }
-		],
-		"answer": "C",
-		"reason": "The condition is false, so nothing is rendered."
-	},
-	{
-		"id": 93,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "How many times will 'Hi' be printed?\n<c:forEach begin=\"1\" end=\"3\">\nHi\n</c:forEach>",
-		"options": [
-			{ "key": "A", "text": "1" },
-			{ "key": "B", "text": "2" },
-			{ "key": "C", "text": "3" },
-			{ "key": "D", "text": "4" }
-		],
-		"answer": "C",
-		"reason": "The loop executes for 1, 2, and 3."
-	},
-	{
-		"id": 94,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the result?\n${not false}",
-		"options": [
-			{ "key": "A", "text": "false" },
-			{ "key": "B", "text": "true" },
-			{ "key": "C", "text": "0" },
-			{ "key": "D", "text": "Error" }
-		],
-		"answer": "B",
-		"reason": "Logical NOT of false is true."
-	},
-	{
-		"id": 95,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the result?\n${10 eq 10}",
-		"options": [
-			{ "key": "A", "text": "true" },
-			{ "key": "B", "text": "false" },
-			{ "key": "C", "text": "10" },
-			{ "key": "D", "text": "Error" }
-		],
-		"answer": "A",
-		"reason": "eq checks equality and both values are equal."
-	},
-	{
-		"id": 96,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the output?\n${20 div 5}",
-		"options": [
-			{ "key": "A", "text": "4" },
-			{ "key": "B", "text": "5" },
-			{ "key": "C", "text": "25" },
-			{ "key": "D", "text": "Error" }
-		],
-		"answer": "A",
-		"reason": "EL uses div for division operations."
-	},
-	{
-		"id": 97,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the result?\n${7 mod 3}",
-		"options": [
-			{ "key": "A", "text": "1" },
-			{ "key": "B", "text": "2" },
-			{ "key": "C", "text": "3" },
-			{ "key": "D", "text": "0" }
-		],
-		"answer": "A",
-		"reason": "mod performs modulus operation."
-	},
-	{
-		"id": 98,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is displayed?\n<c:choose>\n<c:when test=\"${2 gt 5}\">A</c:when>\n<c:otherwise>B</c:otherwise>\n</c:choose>",
-		"options": [
-			{ "key": "A", "text": "A" },
-			{ "key": "B", "text": "B" },
-			{ "key": "C", "text": "AB" },
-			{ "key": "D", "text": "Nothing" }
-		],
-		"answer": "B",
-		"reason": "The condition is false, so c:otherwise executes."
-	},
-	{
-		"id": 99,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the output of fn:length('Hello')?",
-		"options": [
-			{ "key": "A", "text": "4" },
-			{ "key": "B", "text": "5" },
-			{ "key": "C", "text": "6" },
-			{ "key": "D", "text": "Error" }
-		],
-		"answer": "B",
-		"reason": "The string 'Hello' contains 5 characters."
-	},
-	{
-		"id": 100,
-		"subject": "Advance Java with Web Application",
-		"topic": "Code Snippet",
-		"difficulty": "hard",
-		"question": "What is the output of fn:toUpperCase('jsp')?",
-		"options": [
-			{ "key": "A", "text": "jsp" },
-			{ "key": "B", "text": "Jsp" },
-			{ "key": "C", "text": "JSP" },
-			{ "key": "D", "text": "Error" }
-		],
-		"answer": "C",
-		"reason": "fn:toUpperCase() converts all letters to uppercase."
-	}
+  {
+    "id": 1,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Lifecycle",
+    "difficulty": "medium",
+    "question": "Which JSP lifecycle method is called only once when a JSP page is initialized?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`_jspService()`"
+      },
+      {
+        "key": "B",
+        "text": "`jspInit()`"
+      },
+      {
+        "key": "C",
+        "text": "`jspDestroy()`"
+      },
+      {
+        "key": "D",
+        "text": "`service()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "`jspInit()` is invoked only once when the JSP is initialized."
+  },
+  {
+    "id": 2,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Lifecycle",
+    "difficulty": "medium",
+    "question": "Which JSP lifecycle method handles every client request?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`_jspService()`"
+      },
+      {
+        "key": "B",
+        "text": "`jspInit()`"
+      },
+      {
+        "key": "C",
+        "text": "`jspDestroy()`"
+      },
+      {
+        "key": "D",
+        "text": "`doGet()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "`_jspService()` is automatically generated and executed for each request."
+  },
+  {
+    "id": 3,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Lifecycle",
+    "difficulty": "hard",
+    "question": "Which method is called before a JSP page is unloaded from memory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`destroy()`"
+      },
+      {
+        "key": "B",
+        "text": "`finalize()`"
+      },
+      {
+        "key": "C",
+        "text": "`jspDestroy()`"
+      },
+      {
+        "key": "D",
+        "text": "`_jspDestroy()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "`jspDestroy()` is called once before JSP removal."
+  },
+  {
+    "id": 4,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Directives",
+    "difficulty": "easy",
+    "question": "Which directive is used to import Java packages into a JSP page?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "include"
+      },
+      {
+        "key": "C",
+        "text": "taglib"
+      },
+      {
+        "key": "D",
+        "text": "import"
+      }
+    ],
+    "answer": "A",
+    "reason": "The page directive with the import attribute imports Java packages."
+  },
+  {
+    "id": 5,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Directives",
+    "difficulty": "medium",
+    "question": "Which directive includes a file during JSP translation time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "include"
+      },
+      {
+        "key": "C",
+        "text": "taglib"
+      },
+      {
+        "key": "D",
+        "text": "forward"
+      }
+    ],
+    "answer": "B",
+    "reason": "The include directive performs static inclusion during translation."
+  },
+  {
+    "id": 6,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Directives",
+    "difficulty": "medium",
+    "question": "Which directive is used to declare a JSTL or custom tag library?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "include"
+      },
+      {
+        "key": "C",
+        "text": "taglib"
+      },
+      {
+        "key": "D",
+        "text": "library"
+      }
+    ],
+    "answer": "C",
+    "reason": "The taglib directive makes custom tags available in JSP."
+  },
+  {
+    "id": 7,
+    "subject": "Advance Java with Web Application",
+    "topic": "Scriptlets",
+    "difficulty": "easy",
+    "question": "Which JSP syntax represents a scriptlet?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<%= %>`"
+      },
+      {
+        "key": "B",
+        "text": "`<%! %>`"
+      },
+      {
+        "key": "C",
+        "text": "`<% %>`"
+      },
+      {
+        "key": "D",
+        "text": "${}"
+      }
+    ],
+    "answer": "C",
+    "reason": "Scriptlets contain Java statements enclosed within `<% %>`."
+  },
+  {
+    "id": 8,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expressions",
+    "difficulty": "easy",
+    "question": "Which JSP syntax prints the value of an expression?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<%= expression %>`"
+      },
+      {
+        "key": "B",
+        "text": "`<%! expression %>`"
+      },
+      {
+        "key": "C",
+        "text": "`<% expression %>`"
+      },
+      {
+        "key": "D",
+        "text": "${expression}"
+      }
+    ],
+    "answer": "A",
+    "reason": "Expression tags output evaluated values directly to the response."
+  },
+  {
+    "id": 9,
+    "subject": "Advance Java with Web Application",
+    "topic": "Declarations",
+    "difficulty": "medium",
+    "question": "Which JSP syntax is used to declare methods and variables?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<%= %>`"
+      },
+      {
+        "key": "B",
+        "text": "`<%! %>`"
+      },
+      {
+        "key": "C",
+        "text": "`<% %>`"
+      },
+      {
+        "key": "D",
+        "text": "`<jsp:declaration>`"
+      }
+    ],
+    "answer": "B",
+    "reason": "Declarations create class-level members in the generated servlet."
+  },
+  {
+    "id": 10,
+    "subject": "Advance Java with Web Application",
+    "topic": "Implicit Objects",
+    "difficulty": "medium",
+    "question": "Which implicit object represents the current HTTP request?",
+    "options": [
+      {
+        "key": "A",
+        "text": "response"
+      },
+      {
+        "key": "B",
+        "text": "request"
+      },
+      {
+        "key": "C",
+        "text": "application"
+      },
+      {
+        "key": "D",
+        "text": "config"
+      }
+    ],
+    "answer": "B",
+    "reason": "request contains client request information."
+  },
+  {
+    "id": 11,
+    "subject": "Advance Java with Web Application",
+    "topic": "Implicit Objects",
+    "difficulty": "medium",
+    "question": "Which implicit object is used to write output to the browser?",
+    "options": [
+      {
+        "key": "A",
+        "text": "request"
+      },
+      {
+        "key": "B",
+        "text": "response"
+      },
+      {
+        "key": "C",
+        "text": "out"
+      },
+      {
+        "key": "D",
+        "text": "page"
+      }
+    ],
+    "answer": "C",
+    "reason": "The out object writes content to the response stream."
+  },
+  {
+    "id": 12,
+    "subject": "Advance Java with Web Application",
+    "topic": "Implicit Objects",
+    "difficulty": "hard",
+    "question": "Which implicit object provides access to `ServletContext`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "session"
+      },
+      {
+        "key": "B",
+        "text": "application"
+      },
+      {
+        "key": "C",
+        "text": "config"
+      },
+      {
+        "key": "D",
+        "text": "pageContext"
+      }
+    ],
+    "answer": "B",
+    "reason": "application references the shared `ServletContext` object."
+  },
+  {
+    "id": 13,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Action Tags",
+    "difficulty": "medium",
+    "question": "Which action tag forwards a request to another resource?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<jsp:include>`"
+      },
+      {
+        "key": "B",
+        "text": "`<jsp:param>`"
+      },
+      {
+        "key": "C",
+        "text": "`<jsp:forward>`"
+      },
+      {
+        "key": "D",
+        "text": "`<jsp:plugin>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "jsp:forward transfers request processing to another resource."
+  },
+  {
+    "id": 14,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Action Tags",
+    "difficulty": "medium",
+    "question": "Which action tag includes another resource at request time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<jsp:include>`"
+      },
+      {
+        "key": "B",
+        "text": "`<jsp:forward>`"
+      },
+      {
+        "key": "C",
+        "text": "`<jsp:param>`"
+      },
+      {
+        "key": "D",
+        "text": "`<jsp:useBean>`"
+      }
+    ],
+    "answer": "A",
+    "reason": "jsp:include performs dynamic inclusion during request processing."
+  },
+  {
+    "id": 15,
+    "subject": "Advance Java with Web Application",
+    "topic": "JavaBeans",
+    "difficulty": "easy",
+    "question": "Which action tag creates or locates a JavaBean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<jsp:getProperty>`"
+      },
+      {
+        "key": "B",
+        "text": "`<jsp:setProperty>`"
+      },
+      {
+        "key": "C",
+        "text": "`<jsp:bean>`"
+      },
+      {
+        "key": "D",
+        "text": "`<jsp:useBean>`"
+      }
+    ],
+    "answer": "D",
+    "reason": "jsp:useBean locates or instantiates a bean."
+  },
+  {
+    "id": 16,
+    "subject": "Advance Java with Web Application",
+    "topic": "JavaBeans",
+    "difficulty": "medium",
+    "question": "Which action tag reads a bean property value?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<jsp:getProperty>`"
+      },
+      {
+        "key": "B",
+        "text": "`<jsp:setProperty>`"
+      },
+      {
+        "key": "C",
+        "text": "`<jsp:useBean>`"
+      },
+      {
+        "key": "D",
+        "text": "`<jsp:param>`"
+      }
+    ],
+    "answer": "A",
+    "reason": "jsp:getProperty retrieves and displays bean properties."
+  },
+  {
+    "id": 17,
+    "subject": "Advance Java with Web Application",
+    "topic": "JavaBeans",
+    "difficulty": "medium",
+    "question": "Which action tag assigns a value to a bean property?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<jsp:property>`"
+      },
+      {
+        "key": "B",
+        "text": "`<jsp:setProperty>`"
+      },
+      {
+        "key": "C",
+        "text": "`<jsp:getProperty>`"
+      },
+      {
+        "key": "D",
+        "text": "`<jsp:useBean>`"
+      }
+    ],
+    "answer": "B",
+    "reason": "jsp:setProperty updates bean property values."
+  },
+  {
+    "id": 18,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "easy",
+    "question": "Which symbol starts a JSP Expression Language expression?",
+    "options": [
+      {
+        "key": "A",
+        "text": "#"
+      },
+      {
+        "key": "B",
+        "text": "$"
+      },
+      {
+        "key": "C",
+        "text": "@"
+      },
+      {
+        "key": "D",
+        "text": "%"
+      }
+    ],
+    "answer": "B",
+    "reason": "EL expressions are written using ${...}."
+  },
+  {
+    "id": 19,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "medium",
+    "question": "Which EL expression accesses a variable named user?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<%= user %>`"
+      },
+      {
+        "key": "B",
+        "text": "${user}"
+      },
+      {
+        "key": "C",
+        "text": "#{user}"
+      },
+      {
+        "key": "D",
+        "text": "@{user}"
+      }
+    ],
+    "answer": "B",
+    "reason": "EL accesses scoped variables using ${variableName}."
+  },
+  {
+    "id": 20,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "medium",
+    "question": "Which JSTL tag acts like an if statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:choose>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:when>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:if>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:otherwise>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "c:if conditionally executes its body."
+  },
+  {
+    "id": 21,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "medium",
+    "question": "Which JSTL tag works like a switch statement?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:if>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:choose>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:forEach>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:param>`"
+      }
+    ],
+    "answer": "B",
+    "reason": "c:choose groups c:when and c:otherwise tags similar to switch-case."
+  },
+  {
+    "id": 22,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "medium",
+    "question": "Which JSTL tag provides the default branch inside c:choose?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:if>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:when>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:default>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:otherwise>`"
+      }
+    ],
+    "answer": "D",
+    "reason": "c:otherwise executes when no c:when condition is true."
+  },
+  {
+    "id": 23,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Iteration",
+    "difficulty": "medium",
+    "question": "Which JSTL tag is used to iterate over collections?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:loop>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:iterate>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:forEach>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:while>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "c:forEach is used for collection and array iteration."
+  },
+  {
+    "id": 24,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "hard",
+    "question": "Which JSTL library provides string manipulation functions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fmt"
+      },
+      {
+        "key": "B",
+        "text": "sql"
+      },
+      {
+        "key": "C",
+        "text": "core"
+      },
+      {
+        "key": "D",
+        "text": "fn"
+      }
+    ],
+    "answer": "D",
+    "reason": "The fn library contains JSTL string and collection functions."
+  },
+  {
+    "id": 25,
+    "subject": "Advance Java with Web Application",
+    "topic": "Custom Tag Library",
+    "difficulty": "hard",
+    "question": "What is the primary purpose of a custom tag library?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Replace JDBC"
+      },
+      {
+        "key": "B",
+        "text": "Create reusable JSP functionality"
+      },
+      {
+        "key": "C",
+        "text": "Compile JSP pages"
+      },
+      {
+        "key": "D",
+        "text": "Manage sessions"
+      }
+    ],
+    "answer": "B",
+    "reason": "Custom tags encapsulate reusable presentation logic and reduce scriptlet usage."
+  },
+  {
+    "id": 26,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Lifecycle",
+    "difficulty": "hard",
+    "question": "Which phase occurs immediately before JSP initialization?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Compilation"
+      },
+      {
+        "key": "B",
+        "text": "Destruction"
+      },
+      {
+        "key": "C",
+        "text": "Request Processing"
+      },
+      {
+        "key": "D",
+        "text": "Forwarding"
+      }
+    ],
+    "answer": "A",
+    "reason": "A JSP is translated and compiled into a servlet before initialization."
+  },
+  {
+    "id": 27,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Lifecycle",
+    "difficulty": "medium",
+    "question": "Who automatically generates the `_jspService()` method?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Programmer"
+      },
+      {
+        "key": "B",
+        "text": "JVM"
+      },
+      {
+        "key": "C",
+        "text": "JSP Container"
+      },
+      {
+        "key": "D",
+        "text": "`ServletContext`"
+      }
+    ],
+    "answer": "C",
+    "reason": "The JSP container generates the servlet code including `_jspService()`."
+  },
+  {
+    "id": 28,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Directives",
+    "difficulty": "medium",
+    "question": "Which page directive attribute is used to specify an error page?",
+    "options": [
+      {
+        "key": "A",
+        "text": "errorPage"
+      },
+      {
+        "key": "B",
+        "text": "errorFile"
+      },
+      {
+        "key": "C",
+        "text": "exceptionPage"
+      },
+      {
+        "key": "D",
+        "text": "errorURL"
+      }
+    ],
+    "answer": "A",
+    "reason": "The errorPage attribute specifies a JSP page to handle exceptions."
+  },
+  {
+    "id": 29,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Directives",
+    "difficulty": "hard",
+    "question": "Which page directive attribute indicates that a JSP acts as an error page?",
+    "options": [
+      {
+        "key": "A",
+        "text": "isError"
+      },
+      {
+        "key": "B",
+        "text": "errorHandler"
+      },
+      {
+        "key": "C",
+        "text": "isErrorPage"
+      },
+      {
+        "key": "D",
+        "text": "errorPageMode"
+      }
+    ],
+    "answer": "C",
+    "reason": "isErrorPage='true' enables access to the exception object."
+  },
+  {
+    "id": 30,
+    "subject": "Advance Java with Web Application",
+    "topic": "Scriptlets",
+    "difficulty": "medium",
+    "question": "Where is scriptlet code placed in the generated servlet?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`jspInit()`"
+      },
+      {
+        "key": "B",
+        "text": "`_jspService()`"
+      },
+      {
+        "key": "C",
+        "text": "`jspDestroy()`"
+      },
+      {
+        "key": "D",
+        "text": "Constructor"
+      }
+    ],
+    "answer": "B",
+    "reason": "Scriptlet code becomes part of the generated `_jspService()` method."
+  },
+  {
+    "id": 31,
+    "subject": "Advance Java with Web Application",
+    "topic": "Declarations",
+    "difficulty": "medium",
+    "question": "Variables declared using `<%! %>` become:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Local variables"
+      },
+      {
+        "key": "B",
+        "text": "Method parameters"
+      },
+      {
+        "key": "C",
+        "text": "Instance variables"
+      },
+      {
+        "key": "D",
+        "text": "Constants only"
+      }
+    ],
+    "answer": "C",
+    "reason": "Declaration tags create class-level members in the generated servlet."
+  },
+  {
+    "id": 32,
+    "subject": "Advance Java with Web Application",
+    "topic": "Implicit Objects",
+    "difficulty": "medium",
+    "question": "Which implicit object represents the current user session?",
+    "options": [
+      {
+        "key": "A",
+        "text": "request"
+      },
+      {
+        "key": "B",
+        "text": "application"
+      },
+      {
+        "key": "C",
+        "text": "session"
+      },
+      {
+        "key": "D",
+        "text": "config"
+      }
+    ],
+    "answer": "C",
+    "reason": "The session object represents the current `HttpSession`."
+  },
+  {
+    "id": 33,
+    "subject": "Advance Java with Web Application",
+    "topic": "Implicit Objects",
+    "difficulty": "hard",
+    "question": "Which implicit object provides access to all JSP scope objects?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "pageContext"
+      },
+      {
+        "key": "C",
+        "text": "config"
+      },
+      {
+        "key": "D",
+        "text": "application"
+      }
+    ],
+    "answer": "B",
+    "reason": "pageContext provides access to page, request, session, and application scopes."
+  },
+  {
+    "id": 34,
+    "subject": "Advance Java with Web Application",
+    "topic": "Implicit Objects",
+    "difficulty": "hard",
+    "question": "Which implicit object becomes available only on error pages?",
+    "options": [
+      {
+        "key": "A",
+        "text": "error"
+      },
+      {
+        "key": "B",
+        "text": "exception"
+      },
+      {
+        "key": "C",
+        "text": "throwable"
+      },
+      {
+        "key": "D",
+        "text": "errorObject"
+      }
+    ],
+    "answer": "B",
+    "reason": "The exception implicit object is available when isErrorPage='true'."
+  },
+  {
+    "id": 35,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Action Tags",
+    "difficulty": "medium",
+    "question": "Which action tag passes parameters to another resource?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<jsp:param>`"
+      },
+      {
+        "key": "B",
+        "text": "`<jsp:include>`"
+      },
+      {
+        "key": "C",
+        "text": "`<jsp:plugin>`"
+      },
+      {
+        "key": "D",
+        "text": "`<jsp:attribute>`"
+      }
+    ],
+    "answer": "A",
+    "reason": "jsp:param adds request parameters to include and forward actions."
+  },
+  {
+    "id": 36,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Action Tags",
+    "difficulty": "hard",
+    "question": "Which action tag is used to instantiate JavaBeans dynamically?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<jsp:getProperty>`"
+      },
+      {
+        "key": "B",
+        "text": "`<jsp:setProperty>`"
+      },
+      {
+        "key": "C",
+        "text": "`<jsp:useBean>`"
+      },
+      {
+        "key": "D",
+        "text": "`<jsp:param>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "jsp:useBean locates or creates bean instances."
+  },
+  {
+    "id": 37,
+    "subject": "Advance Java with Web Application",
+    "topic": "JavaBeans",
+    "difficulty": "medium",
+    "question": "A JavaBean must provide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A public no-argument constructor"
+      },
+      {
+        "key": "B",
+        "text": "A `main()` method"
+      },
+      {
+        "key": "C",
+        "text": "A static block"
+      },
+      {
+        "key": "D",
+        "text": "A servlet mapping"
+      }
+    ],
+    "answer": "A",
+    "reason": "JavaBeans require a public no-argument constructor."
+  },
+  {
+    "id": 38,
+    "subject": "Advance Java with Web Application",
+    "topic": "JavaBeans",
+    "difficulty": "hard",
+    "question": "Which naming convention is used for bean getter methods?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`fetchProperty()`"
+      },
+      {
+        "key": "B",
+        "text": "`readProperty()`"
+      },
+      {
+        "key": "C",
+        "text": "`getProperty()`"
+      },
+      {
+        "key": "D",
+        "text": "`propertyGet()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "JavaBeans use standard getter methods beginning with `get`."
+  },
+  {
+    "id": 39,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "medium",
+    "question": "Which EL operator is used for logical AND?",
+    "options": [
+      {
+        "key": "A",
+        "text": "&&"
+      },
+      {
+        "key": "B",
+        "text": "&"
+      },
+      {
+        "key": "C",
+        "text": "and"
+      },
+      {
+        "key": "D",
+        "text": "`AND()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "EL uses word-based operators such as and, or, and not."
+  },
+  {
+    "id": 40,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "medium",
+    "question": "Which EL operator checks equality?",
+    "options": [
+      {
+        "key": "A",
+        "text": "=="
+      },
+      {
+        "key": "B",
+        "text": "eq"
+      },
+      {
+        "key": "C",
+        "text": "="
+      },
+      {
+        "key": "D",
+        "text": "equals"
+      }
+    ],
+    "answer": "B",
+    "reason": "EL provides eq, ne, gt, lt, ge, and le operators."
+  },
+  {
+    "id": 41,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "hard",
+    "question": "Which EL implicit object accesses request parameters?",
+    "options": [
+      {
+        "key": "A",
+        "text": "requestScope"
+      },
+      {
+        "key": "B",
+        "text": "param"
+      },
+      {
+        "key": "C",
+        "text": "params"
+      },
+      {
+        "key": "D",
+        "text": "request"
+      }
+    ],
+    "answer": "B",
+    "reason": "The param object provides access to request parameters."
+  },
+  {
+    "id": 42,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "medium",
+    "question": "Which tag is used inside `<c:choose>` to define conditions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:condition>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:if>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:when>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:test>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "c:when specifies conditional branches within c:choose."
+  },
+  {
+    "id": 43,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "hard",
+    "question": "Which attribute contains the condition in `<c:if>`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "condition"
+      },
+      {
+        "key": "B",
+        "text": "check"
+      },
+      {
+        "key": "C",
+        "text": "test"
+      },
+      {
+        "key": "D",
+        "text": "verify"
+      }
+    ],
+    "answer": "C",
+    "reason": "The test attribute evaluates the specified expression."
+  },
+  {
+    "id": 44,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Iteration",
+    "difficulty": "medium",
+    "question": "Which JSTL tag splits a string into tokens and iterates over them?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:forEach>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:iterate>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:forTokens>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:tokenize>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "c:forTokens iterates through tokenized string values."
+  },
+  {
+    "id": 45,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Iteration",
+    "difficulty": "hard",
+    "question": "Which attribute in c:forEach represents the current item?",
+    "options": [
+      {
+        "key": "A",
+        "text": "item"
+      },
+      {
+        "key": "B",
+        "text": "var"
+      },
+      {
+        "key": "C",
+        "text": "value"
+      },
+      {
+        "key": "D",
+        "text": "current"
+      }
+    ],
+    "answer": "B",
+    "reason": "The var attribute stores the current iteration value."
+  },
+  {
+    "id": 46,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "medium",
+    "question": "Which JSTL function returns the length of a string or collection?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`size()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`length()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`count()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`len()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "fn:`length()` returns the number of characters or elements."
+  },
+  {
+    "id": 47,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "hard",
+    "question": "Which JSTL function converts text to uppercase?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`upper()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`toUpper()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`toUpperCase()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`uppercase()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "fn:`toUpperCase()` converts a string to uppercase."
+  },
+  {
+    "id": 48,
+    "subject": "Advance Java with Web Application",
+    "topic": "Custom Tag Library",
+    "difficulty": "medium",
+    "question": "What does TLD stand for in JSP custom tags?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tag Library Descriptor"
+      },
+      {
+        "key": "B",
+        "text": "Template Library Definition"
+      },
+      {
+        "key": "C",
+        "text": "Tag Logic Definition"
+      },
+      {
+        "key": "D",
+        "text": "Template Logic Descriptor"
+      }
+    ],
+    "answer": "A",
+    "reason": "TLD files define custom tag metadata and configuration."
+  },
+  {
+    "id": 49,
+    "subject": "Advance Java with Web Application",
+    "topic": "Custom Tag Library",
+    "difficulty": "hard",
+    "question": "Which directive is required to use a custom tag library in JSP?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "include"
+      },
+      {
+        "key": "C",
+        "text": "taglib"
+      },
+      {
+        "key": "D",
+        "text": "custom"
+      }
+    ],
+    "answer": "C",
+    "reason": "The taglib directive imports custom tag libraries into a JSP page."
+  },
+  {
+    "id": 50,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What will be displayed?\n`<c:set var=\"x\" value=\"10\" />`\n`<c:if test=\"${x >` 5}\">\n  Success\n`</c:if>`",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nothing"
+      },
+      {
+        "key": "B",
+        "text": "Error"
+      },
+      {
+        "key": "C",
+        "text": "Success"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "C",
+    "reason": "The condition evaluates to true, so `Success` is displayed."
+  },
+  {
+    "id": 51,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Directives",
+    "difficulty": "medium",
+    "question": "Which page directive attribute controls whether EL expressions are evaluated?",
+    "options": [
+      {
+        "key": "A",
+        "text": "enableEL"
+      },
+      {
+        "key": "B",
+        "text": "isELIgnored"
+      },
+      {
+        "key": "C",
+        "text": "allowEL"
+      },
+      {
+        "key": "D",
+        "text": "useEL"
+      }
+    ],
+    "answer": "B",
+    "reason": "The isELIgnored attribute enables or disables EL evaluation."
+  },
+  {
+    "id": 52,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Directives",
+    "difficulty": "medium",
+    "question": "Which page directive attribute specifies the MIME type of the response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "responseType"
+      },
+      {
+        "key": "B",
+        "text": "contentType"
+      },
+      {
+        "key": "C",
+        "text": "mimeType"
+      },
+      {
+        "key": "D",
+        "text": "encoding"
+      }
+    ],
+    "answer": "B",
+    "reason": "contentType specifies the MIME type sent to the browser."
+  },
+  {
+    "id": 53,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSP Directives",
+    "difficulty": "hard",
+    "question": "Which page directive attribute specifies the character encoding?",
+    "options": [
+      {
+        "key": "A",
+        "text": "charset"
+      },
+      {
+        "key": "B",
+        "text": "encoding"
+      },
+      {
+        "key": "C",
+        "text": "pageEncoding"
+      },
+      {
+        "key": "D",
+        "text": "characterSet"
+      }
+    ],
+    "answer": "C",
+    "reason": "pageEncoding defines the character encoding used by the JSP page."
+  },
+  {
+    "id": 54,
+    "subject": "Advance Java with Web Application",
+    "topic": "Implicit Objects",
+    "difficulty": "medium",
+    "question": "Which implicit object represents the generated servlet instance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "config"
+      },
+      {
+        "key": "C",
+        "text": "pageContext"
+      },
+      {
+        "key": "D",
+        "text": "application"
+      }
+    ],
+    "answer": "A",
+    "reason": "The page object references the current JSP servlet instance."
+  },
+  {
+    "id": 55,
+    "subject": "Advance Java with Web Application",
+    "topic": "Implicit Objects",
+    "difficulty": "medium",
+    "question": "Which implicit object provides servlet initialization parameters?",
+    "options": [
+      {
+        "key": "A",
+        "text": "request"
+      },
+      {
+        "key": "B",
+        "text": "config"
+      },
+      {
+        "key": "C",
+        "text": "session"
+      },
+      {
+        "key": "D",
+        "text": "out"
+      }
+    ],
+    "answer": "B",
+    "reason": "config represents the `ServletConfig` object."
+  },
+  {
+    "id": 56,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "easy",
+    "question": "Which EL operator represents logical OR?",
+    "options": [
+      {
+        "key": "A",
+        "text": "||"
+      },
+      {
+        "key": "B",
+        "text": "or"
+      },
+      {
+        "key": "C",
+        "text": "|"
+      },
+      {
+        "key": "D",
+        "text": "`OR()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "EL uses the keyword `or` for logical OR operations."
+  },
+  {
+    "id": 57,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "easy",
+    "question": "Which EL operator represents logical NOT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "!"
+      },
+      {
+        "key": "B",
+        "text": "~"
+      },
+      {
+        "key": "C",
+        "text": "not"
+      },
+      {
+        "key": "D",
+        "text": "`NOT()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "EL uses the keyword `not` for logical negation."
+  },
+  {
+    "id": 58,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "medium",
+    "question": "Which EL implicit object accesses request-scope attributes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "requestScope"
+      },
+      {
+        "key": "B",
+        "text": "request"
+      },
+      {
+        "key": "C",
+        "text": "param"
+      },
+      {
+        "key": "D",
+        "text": "header"
+      }
+    ],
+    "answer": "A",
+    "reason": "requestScope provides access to attributes stored in request scope."
+  },
+  {
+    "id": 59,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "medium",
+    "question": "Which EL implicit object accesses session attributes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "session"
+      },
+      {
+        "key": "B",
+        "text": "sessionScope"
+      },
+      {
+        "key": "C",
+        "text": "scope"
+      },
+      {
+        "key": "D",
+        "text": "userScope"
+      }
+    ],
+    "answer": "B",
+    "reason": "sessionScope is used to access session-scoped attributes."
+  },
+  {
+    "id": 60,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "hard",
+    "question": "Which EL implicit object provides access to HTTP headers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "header"
+      },
+      {
+        "key": "B",
+        "text": "headers"
+      },
+      {
+        "key": "C",
+        "text": "requestHeader"
+      },
+      {
+        "key": "D",
+        "text": "httpHeader"
+      }
+    ],
+    "answer": "A",
+    "reason": "The header object provides access to HTTP request headers."
+  },
+  {
+    "id": 61,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "hard",
+    "question": "Which EL implicit object provides access to cookie values?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cookies"
+      },
+      {
+        "key": "B",
+        "text": "cookie"
+      },
+      {
+        "key": "C",
+        "text": "cookieScope"
+      },
+      {
+        "key": "D",
+        "text": "browserCookie"
+      }
+    ],
+    "answer": "B",
+    "reason": "The cookie implicit object exposes HTTP cookie data."
+  },
+  {
+    "id": 62,
+    "subject": "Advance Java with Web Application",
+    "topic": "JavaBeans",
+    "difficulty": "medium",
+    "question": "Which scope shares a bean among all users of the application?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "request"
+      },
+      {
+        "key": "C",
+        "text": "session"
+      },
+      {
+        "key": "D",
+        "text": "application"
+      }
+    ],
+    "answer": "D",
+    "reason": "Application scope makes the bean available throughout the web application."
+  },
+  {
+    "id": 63,
+    "subject": "Advance Java with Web Application",
+    "topic": "JavaBeans",
+    "difficulty": "medium",
+    "question": "Which scope keeps a bean available for a single request?",
+    "options": [
+      {
+        "key": "A",
+        "text": "request"
+      },
+      {
+        "key": "B",
+        "text": "page"
+      },
+      {
+        "key": "C",
+        "text": "session"
+      },
+      {
+        "key": "D",
+        "text": "application"
+      }
+    ],
+    "answer": "A",
+    "reason": "Request scope lasts only for the current request."
+  },
+  {
+    "id": 64,
+    "subject": "Advance Java with Web Application",
+    "topic": "JavaBeans",
+    "difficulty": "hard",
+    "question": "Which scope keeps a bean alive throughout a user's session?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "request"
+      },
+      {
+        "key": "C",
+        "text": "session"
+      },
+      {
+        "key": "D",
+        "text": "application"
+      }
+    ],
+    "answer": "C",
+    "reason": "Session scope persists until the user session ends."
+  },
+  {
+    "id": 65,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "easy",
+    "question": "Which JSTL tag is used to create a scoped variable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:set>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:var>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:create>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:assign>`"
+      }
+    ],
+    "answer": "A",
+    "reason": "c:set creates or updates scoped variables."
+  },
+  {
+    "id": 66,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "medium",
+    "question": "Which JSTL tag removes a scoped variable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:delete>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:remove>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:unset>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:clear>`"
+      }
+    ],
+    "answer": "B",
+    "reason": "c:remove removes scoped variables."
+  },
+  {
+    "id": 67,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "medium",
+    "question": "Which JSTL tag outputs a value to the page?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:write>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:print>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:out>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:display>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "c:out displays values safely in JSP pages."
+  },
+  {
+    "id": 68,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "hard",
+    "question": "Which JSTL tag is used to catch exceptions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:catch>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:try>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:error>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:exception>`"
+      }
+    ],
+    "answer": "A",
+    "reason": "c:catch captures exceptions generated by nested actions."
+  },
+  {
+    "id": 69,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "medium",
+    "question": "Which JSTL tag redirects the client to another URL?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:redirect>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:forward>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:url>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:path>`"
+      }
+    ],
+    "answer": "A",
+    "reason": "c:redirect performs a client-side redirect."
+  },
+  {
+    "id": 70,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "hard",
+    "question": "Which JSTL tag builds a URL and supports parameters?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:link>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:url>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:path>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:href>`"
+      }
+    ],
+    "answer": "B",
+    "reason": "c:url constructs URLs and can include c:param tags."
+  },
+  {
+    "id": 71,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "medium",
+    "question": "Which EL operator represents `not equal`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "!="
+      },
+      {
+        "key": "B",
+        "text": "<>"
+      },
+      {
+        "key": "C",
+        "text": "ne"
+      },
+      {
+        "key": "D",
+        "text": "neq"
+      }
+    ],
+    "answer": "C",
+    "reason": "EL uses `ne` as the not-equal operator."
+  },
+  {
+    "id": 72,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "medium",
+    "question": "Which EL operator represents `greater than`?",
+    "options": [
+      {
+        "key": "A",
+        "text": ">"
+      },
+      {
+        "key": "B",
+        "text": "gt"
+      },
+      {
+        "key": "C",
+        "text": "greater"
+      },
+      {
+        "key": "D",
+        "text": "gte"
+      }
+    ],
+    "answer": "B",
+    "reason": "EL uses `gt` for greater-than comparisons."
+  },
+  {
+    "id": 73,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "hard",
+    "question": "Which EL implicit object accesses application-scoped attributes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "application"
+      },
+      {
+        "key": "B",
+        "text": "appScope"
+      },
+      {
+        "key": "C",
+        "text": "applicationScope"
+      },
+      {
+        "key": "D",
+        "text": "globalScope"
+      }
+    ],
+    "answer": "C",
+    "reason": "applicationScope provides access to attributes stored in application scope."
+  },
+  {
+    "id": 74,
+    "subject": "Advance Java with Web Application",
+    "topic": "Expression Language",
+    "difficulty": "hard",
+    "question": "Which EL implicit object accesses initialization parameters from web.xml?",
+    "options": [
+      {
+        "key": "A",
+        "text": "param"
+      },
+      {
+        "key": "B",
+        "text": "initParam"
+      },
+      {
+        "key": "C",
+        "text": "contextParam"
+      },
+      {
+        "key": "D",
+        "text": "configParam"
+      }
+    ],
+    "answer": "B",
+    "reason": "initParam provides access to context initialization parameters."
+  },
+  {
+    "id": 75,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "medium",
+    "question": "Which tag is commonly nested inside `<c:url>` to append query parameters?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:query>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:param>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:args>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:value>`"
+      }
+    ],
+    "answer": "B",
+    "reason": "c:param is used to add parameters to URLs."
+  },
+  {
+    "id": 76,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Core Tags",
+    "difficulty": "hard",
+    "question": "Which tag imports content from another URL or resource?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`<c:load>`"
+      },
+      {
+        "key": "B",
+        "text": "`<c:include>`"
+      },
+      {
+        "key": "C",
+        "text": "`<c:import>`"
+      },
+      {
+        "key": "D",
+        "text": "`<c:fetch>`"
+      }
+    ],
+    "answer": "C",
+    "reason": "c:import retrieves and includes content from URLs or resources."
+  },
+  {
+    "id": 77,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "easy",
+    "question": "Which JSTL function checks whether a string contains another string?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`find()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`contains()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`match()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`exists()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "fn:`contains()` returns true if the substring exists."
+  },
+  {
+    "id": 78,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "medium",
+    "question": "Which JSTL function checks whether a string starts with a specified prefix?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`startsWith()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`beginWith()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`prefix()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`start()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "fn:`startsWith()` checks the beginning of a string."
+  },
+  {
+    "id": 79,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "medium",
+    "question": "Which JSTL function checks whether a string ends with a specified suffix?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`ends()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`endsWith()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`suffix()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`last()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "fn:`endsWith()` verifies the ending portion of a string."
+  },
+  {
+    "id": 80,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "medium",
+    "question": "Which JSTL function converts text to lowercase?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`lower()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`toLowerCase()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`small()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`lowerCase()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "fn:`toLowerCase()` converts all characters to lowercase."
+  },
+  {
+    "id": 81,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "hard",
+    "question": "Which JSTL function extracts a substring from a string?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`extract()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`split()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`substring()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`part()`"
+      }
+    ],
+    "answer": "C",
+    "reason": "fn:`substring()` extracts a specified portion of a string."
+  },
+  {
+    "id": 82,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "hard",
+    "question": "Which JSTL function replaces occurrences of text within a string?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`replace()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`change()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`modify()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`update()`"
+      }
+    ],
+    "answer": "A",
+    "reason": "fn:`replace()` substitutes matching text with new text."
+  },
+  {
+    "id": 83,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "hard",
+    "question": "Which JSTL function splits a string into an array?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`tokenize()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`split()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`divide()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`array()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "fn:`split()` divides a string into an array based on a delimiter."
+  },
+  {
+    "id": 84,
+    "subject": "Advance Java with Web Application",
+    "topic": "JSTL Functions",
+    "difficulty": "hard",
+    "question": "Which JSTL function joins array elements into a single string?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fn:`concat()`"
+      },
+      {
+        "key": "B",
+        "text": "fn:`join()`"
+      },
+      {
+        "key": "C",
+        "text": "fn:`merge()`"
+      },
+      {
+        "key": "D",
+        "text": "fn:`combine()`"
+      }
+    ],
+    "answer": "B",
+    "reason": "fn:`join()` combines array elements using a delimiter."
+  },
+  {
+    "id": 85,
+    "subject": "Advance Java with Web Application",
+    "topic": "Custom Tag Library",
+    "difficulty": "medium",
+    "question": "A custom tag library primarily helps in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Database optimization"
+      },
+      {
+        "key": "B",
+        "text": "Code reusability"
+      },
+      {
+        "key": "C",
+        "text": "Driver loading"
+      },
+      {
+        "key": "D",
+        "text": "Session destruction"
+      }
+    ],
+    "answer": "B",
+    "reason": "Custom tags encapsulate reusable functionality."
+  },
+  {
+    "id": 86,
+    "subject": "Advance Java with Web Application",
+    "topic": "Custom Tag Library",
+    "difficulty": "medium",
+    "question": "Which file describes custom tag definitions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "web.xml"
+      },
+      {
+        "key": "B",
+        "text": "beans.xml"
+      },
+      {
+        "key": "C",
+        "text": "TLD file"
+      },
+      {
+        "key": "D",
+        "text": "context.xml"
+      }
+    ],
+    "answer": "C",
+    "reason": "Tag Library Descriptor (TLD) files define custom tags."
+  },
+  {
+    "id": 87,
+    "subject": "Advance Java with Web Application",
+    "topic": "Custom Tag Library",
+    "difficulty": "hard",
+    "question": "What does URI stand for in a taglib directive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Uniform Resource Identifier"
+      },
+      {
+        "key": "B",
+        "text": "Universal Resource Interface"
+      },
+      {
+        "key": "C",
+        "text": "Unified Resource Information"
+      },
+      {
+        "key": "D",
+        "text": "Unique Resource Identifier"
+      }
+    ],
+    "answer": "A",
+    "reason": "URI uniquely identifies the tag library."
+  },
+  {
+    "id": 88,
+    "subject": "Advance Java with Web Application",
+    "topic": "Custom Tag Library",
+    "difficulty": "hard",
+    "question": "Which directive is used to assign a prefix to a custom tag library?",
+    "options": [
+      {
+        "key": "A",
+        "text": "page"
+      },
+      {
+        "key": "B",
+        "text": "include"
+      },
+      {
+        "key": "C",
+        "text": "taglib"
+      },
+      {
+        "key": "D",
+        "text": "library"
+      }
+    ],
+    "answer": "C",
+    "reason": "The taglib directive associates a prefix with a tag library."
+  },
+  {
+    "id": 89,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "What is the output?\n${10 + 5}",
+    "options": [
+      {
+        "key": "A",
+        "text": "105"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "Error"
+      },
+      {
+        "key": "D",
+        "text": "10+5"
+      }
+    ],
+    "answer": "B",
+    "reason": "EL evaluates arithmetic expressions."
+  },
+  {
+    "id": 90,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "medium",
+    "question": "What is the result of:\n${10 gt 5}",
+    "options": [
+      {
+        "key": "A",
+        "text": "false"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "true"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "C",
+    "reason": "10 is greater than 5, so the expression evaluates to true."
+  },
+  {
+    "id": 91,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is displayed?\n`<c:set var=\"name\" value=\"John\" />`\n`<c:out value=\"${name}\" />`",
+    "options": [
+      {
+        "key": "A",
+        "text": "name"
+      },
+      {
+        "key": "B",
+        "text": "John"
+      },
+      {
+        "key": "C",
+        "text": "${name}"
+      },
+      {
+        "key": "D",
+        "text": "null"
+      }
+    ],
+    "answer": "B",
+    "reason": "c:out prints the evaluated EL value."
+  },
+  {
+    "id": 92,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is displayed?\n`<c:if test=\"${5 lt 3}\">`YES`</c:if>`",
+    "options": [
+      {
+        "key": "A",
+        "text": "YES"
+      },
+      {
+        "key": "B",
+        "text": "NO"
+      },
+      {
+        "key": "C",
+        "text": "Nothing"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "C",
+    "reason": "The condition is false, so nothing is rendered."
+  },
+  {
+    "id": 93,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "How many times will `Hi` be printed?\n`<c:forEach begin=\"1\" end=\"3\">`\nHi\n`</c:forEach>`",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "C",
+    "reason": "The loop executes for 1, 2, and 3."
+  },
+  {
+    "id": 94,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the result?\n${not false}",
+    "options": [
+      {
+        "key": "A",
+        "text": "false"
+      },
+      {
+        "key": "B",
+        "text": "true"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "B",
+    "reason": "Logical NOT of false is true."
+  },
+  {
+    "id": 95,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the result?\n${10 eq 10}",
+    "options": [
+      {
+        "key": "A",
+        "text": "true"
+      },
+      {
+        "key": "B",
+        "text": "false"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "A",
+    "reason": "eq checks equality and both values are equal."
+  },
+  {
+    "id": 96,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the output?\n${20 div 5}",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "A",
+    "reason": "EL uses div for division operations."
+  },
+  {
+    "id": 97,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the result?\n${7 mod 3}",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "answer": "A",
+    "reason": "mod performs modulus operation."
+  },
+  {
+    "id": 98,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is displayed?\n`<c:choose>`\n`<c:when test=\"${2 gt 5}\">`A`</c:when>`\n`<c:otherwise>`B`</c:otherwise>`\n`</c:choose>`",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "AB"
+      },
+      {
+        "key": "D",
+        "text": "Nothing"
+      }
+    ],
+    "answer": "B",
+    "reason": "The condition is false, so c:otherwise executes."
+  },
+  {
+    "id": 99,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the output of fn:length(`Hello`)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "B",
+    "reason": "The string `Hello` contains 5 characters."
+  },
+  {
+    "id": 100,
+    "subject": "Advance Java with Web Application",
+    "topic": "Code Snippet",
+    "difficulty": "hard",
+    "question": "What is the output of fn:toUpperCase(`jsp`)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "jsp"
+      },
+      {
+        "key": "B",
+        "text": "Jsp"
+      },
+      {
+        "key": "C",
+        "text": "JSP"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "answer": "C",
+    "reason": "fn:`toUpperCase()` converts all letters to uppercase."
+  }
 ]

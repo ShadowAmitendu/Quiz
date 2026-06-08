@@ -71,6 +71,103 @@ function toast(msg) {
 	toastTimer = setTimeout(() => toastEl.classList.remove("show"), 3200);
 }
 
+function escapeHtml(text) {
+	if (!text) return "";
+	return String(text)
+		.replace(/&/g, "&amp;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;")
+		.replace(/"/g, "&quot;")
+		.replace(/'/g, "&#039;");
+}
+
+function formatQuizText(text) {
+	if (!text) return "";
+	
+	const placeholders = [];
+	let tempText = String(text);
+	
+	// 1. Triple backticks (code blocks)
+	tempText = tempText.replace(/```(?:[a-zA-Z0-9]+)?\n([\s\S]+?)\n```/g, (match, code) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<pre><code>${escapeHtml(code)}</code></pre>`);
+		return id;
+	});
+	
+	// 2. Single backticks (inline code)
+	tempText = tempText.replace(/`([^`]+)`/g, (match, code) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<code>${escapeHtml(code)}</code>`);
+		return id;
+	});
+
+	// 3. XML/HTML-like tags: <%= %>, <jsp:include>, <html>, etc.
+	tempText = tempText.replace(/<([a-zA-Z%!/?][^>]*)>/g, (match) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<code>${escapeHtml(match)}</code>`);
+		return id;
+	});
+
+	// 4. Single-quoted code, but avoid contractions (e.g. don't, user's)
+	tempText = tempText.replace(/(^|[\s().,;!?:])'([^']+)'([\s().,;!?:-]|$)/g, (match, before, code, after) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<code>${escapeHtml(code)}</code>`);
+		return before + id + after;
+	});
+
+	// 5. Method calls, e.g. doGet(), init(), service(), main()
+	tempText = tempText.replace(/\b([a-zA-Z_][a-zA-Z0-9_]*\(\))/g, (match, code) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<code>${escapeHtml(code)}</code>`);
+		return id;
+	});
+
+	// 6. Dot-notation packages or classes, e.g. java.sql, javax.servlet.http, System.out.println
+	tempText = tempText.replace(/\b([a-z0-9_]+\.[a-z0-9_]+(?:\.[a-zA-Z0-9_]+)+)\b/g, (match, code) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<code>${escapeHtml(code)}</code>`);
+		return id;
+	});
+
+	// 7. Unix commands with options/flags, e.g. ls -l, ls -lh, ls -li, tar -xvf
+	tempText = tempText.replace(/\b([a-z]{2,}\s+-[a-zA-Z0-9]{1,4})\b/g, (match, code) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<code>${escapeHtml(code)}</code>`);
+		return id;
+	});
+
+	// 8. Unix paths, e.g. /etc, /bin, /usr/bin, /tmp, /dev/null
+	tempText = tempText.replace(/(^|[\s().,;!?:])(\/[a-zA-Z0-9_.\/-]*[a-zA-Z0-9_-])([\s().,;!?:-]|$)/g, (match, before, path, after) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<code>${escapeHtml(path)}</code>`);
+		return before + id + after;
+	});
+
+	// 9. Specific single-word class/interface/keyword programming terms
+	const codeKeywords = [
+		"PreparedStatement", "DriverManager", "ResultSet", "HttpServletRequest", 
+		"HttpServletResponse", "ServletContext", "ServletConfig", "HttpServlet",
+		"HttpSession", "Cookie", "RequestDispatcher", "Filter", "FilterChain", "FilterConfig",
+		"tomcat", "wildfly", "glassfish", "weblogic"
+	];
+	const keywordRegex = new RegExp(`\\b(${codeKeywords.join("|")})\\b`, "g");
+	tempText = tempText.replace(keywordRegex, (match, code) => {
+		const id = `__CODE_BLOCK_${placeholders.length}__`;
+		placeholders.push(`<code>${escapeHtml(code)}</code>`);
+		return id;
+	});
+
+	// Escape any remaining HTML characters in the text
+	let escapedText = escapeHtml(tempText);
+
+	// Restore the placeholders containing safe HTML code tags
+	for (let i = 0; i < placeholders.length; i++) {
+		escapedText = escapedText.replace(`__CODE_BLOCK_${i}__`, placeholders[i]);
+	}
+
+	return escapedText;
+}
+
 /* ══ SCREEN SWITCHING ══ */
 function show(id) {
 	document
@@ -743,7 +840,7 @@ function renderQuestion(restoreChecked = false, restoreSelected = null) {
 	document.getElementById("prog-bar").style.width =
 		`${(current / questions.length) * 100}%`;
 	document.getElementById("qnum").textContent = `Question ${current + 1}`;
-	document.getElementById("qtext").textContent = q.question;
+	document.getElementById("qtext").innerHTML = formatQuizText(q.question);
 
 	/* options — shuffle and reassign display keys */
 	const displayKeys = ["A", "B", "C", "D"];
@@ -765,7 +862,7 @@ function renderQuestion(restoreChecked = false, restoreSelected = null) {
 		btn.className = "opt";
 		btn.dataset.key = dk;
 		btn.dataset.origKey = o.key;
-		btn.innerHTML = `<span class="opt-key">${dk}</span><span class="opt-text">${o.text}</span>`;
+		btn.innerHTML = `<span class="opt-key">${dk}</span><span class="opt-text">${formatQuizText(o.text)}</span>`;
 		btn.addEventListener("click", () => selectOpt(dk));
 		opts.appendChild(btn);
 	});
@@ -785,18 +882,18 @@ function renderQuestion(restoreChecked = false, restoreSelected = null) {
 
 		if (isCorrect) {
 			inner.className = "feedback-inner ok";
-			inner.textContent = "✓ Correct!";
+			inner.innerHTML = "✓ Correct!";
 		} else {
-			const correctBtn = document.querySelector(`.opt[data-key="${correctKey}"]`);
-			const correctText = correctBtn?.querySelector(".opt-text")?.textContent || "";
+			const correctOpt = q.options.find(opt => opt.key === q.answer);
+			const correctText = correctOpt ? correctOpt.text : "";
 			inner.className = "feedback-inner bad";
 			if (hardcoreMode) {
-				inner.textContent = `✗ INCORRECT — GAME OVER! Correct answer: ${correctKey}. ${correctText}`;
+				inner.innerHTML = `✗ INCORRECT — GAME OVER! Correct answer: ${correctKey}. ${formatQuizText(correctText)}`;
 			} else {
-				inner.textContent = `✗ Incorrect — correct answer: ${correctKey}. ${correctText}`;
+				inner.innerHTML = `✗ Incorrect — correct answer: ${correctKey}. ${formatQuizText(correctText)}`;
 			}
 		}
-		reasonEl.textContent = q.reason || "";
+		reasonEl.innerHTML = formatQuizText(q.reason || "");
 		document.getElementById("feedback").classList.remove("is-hidden");
 
 		const nextBtn = document.getElementById("btn-next");
@@ -871,18 +968,18 @@ function checkAnswer() {
 
 	if (isCorrect) {
 		inner.className = "feedback-inner ok";
-		inner.textContent = "✓ Correct!";
+		inner.innerHTML = "✓ Correct!";
 	} else {
-		const correctBtn = document.querySelector(`.opt[data-key="${correctKey}"]`);
-		const correctText = correctBtn?.querySelector(".opt-text")?.textContent || "";
+		const correctOpt = q.options.find(opt => opt.key === q.answer);
+		const correctText = correctOpt ? correctOpt.text : "";
 		inner.className = "feedback-inner bad";
 		if (hardcoreMode) {
-			inner.textContent = `✗ INCORRECT — GAME OVER! Correct answer: ${correctKey}. ${correctText}`;
+			inner.innerHTML = `✗ INCORRECT — GAME OVER! Correct answer: ${correctKey}. ${formatQuizText(correctText)}`;
 		} else {
-			inner.textContent = `✗ Incorrect — correct answer: ${correctKey}. ${correctText}`;
+			inner.innerHTML = `✗ Incorrect — correct answer: ${correctKey}. ${formatQuizText(correctText)}`;
 		}
 	}
-	reasonEl.textContent = q.reason || "";
+	reasonEl.innerHTML = formatQuizText(q.reason || "");
 	document.getElementById("feedback").classList.remove("is-hidden");
 	maybeCelebrateStreak();
 	stopTimer();
@@ -994,15 +1091,15 @@ function onTimerTimeout() {
 	/* feedback */
 	const inner = document.getElementById("feedback-inner");
 	const reasonEl = document.getElementById("reason");
-	const correctBtn = document.querySelector(`.opt[data-key="${correctKey}"]`);
-	const correctText = correctBtn?.querySelector(".opt-text")?.textContent || "";
+	const correctOpt = q.options.find(opt => opt.key === q.answer);
+	const correctText = correctOpt ? correctOpt.text : "";
 	inner.className = "feedback-inner bad";
 	if (hardcoreMode) {
-		inner.textContent = `⏱ TIME'S UP — GAME OVER! Correct answer: ${correctKey}. ${correctText}`;
+		inner.innerHTML = `⏱ TIME'S UP — GAME OVER! Correct answer: ${correctKey}. ${formatQuizText(correctText)}`;
 	} else {
-		inner.textContent = `⏱ Time's up! Correct answer: ${correctKey}. ${correctText}`;
+		inner.innerHTML = `⏱ Time's up! Correct answer: ${correctKey}. ${formatQuizText(correctText)}`;
 	}
-	reasonEl.textContent = q.reason || "";
+	reasonEl.innerHTML = formatQuizText(q.reason || "");
 	document.getElementById("feedback").classList.remove("is-hidden");
 
 	const nextBtn = document.getElementById("btn-next");
