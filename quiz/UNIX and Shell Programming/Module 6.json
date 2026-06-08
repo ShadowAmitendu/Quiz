@@ -2002,27 +2002,27 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Built-in Variables",
     "difficulty": "hard",
-    "question": "Which variable stores the number of fields in the current record?",
+    "question": "Which built-in variable stores the output record separator in `awk`?",
     "options": [
       {
         "key": "A",
-        "text": "NR"
+        "text": "OFS"
       },
       {
         "key": "B",
-        "text": "FS"
+        "text": "ORS"
       },
       {
         "key": "C",
-        "text": "NF"
+        "text": "RS"
       },
       {
         "key": "D",
-        "text": "OFS"
+        "text": "NR"
       }
     ],
-    "answer": "C",
-    "reason": "NF contains the total number of fields in the current input record."
+    "answer": "B",
+    "reason": "ORS (Output Record Separator) defines the string printed at the end of each output record, defaulting to a newline."
   },
   {
     "id": 76,

@@ -2299,27 +2299,27 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Insert Mode",
     "difficulty": "medium",
-    "question": "Which command appends text at the end of the current line?",
+    "question": "Which command opens a new line below the current line and enters Insert Mode?",
     "options": [
       {
         "key": "A",
-        "text": "A"
+        "text": "O"
       },
       {
         "key": "B",
-        "text": "I"
+        "text": "o"
       },
       {
         "key": "C",
-        "text": "i"
+        "text": "a"
       },
       {
         "key": "D",
-        "text": "o"
+        "text": "A"
       }
     ],
-    "answer": "A",
-    "reason": "The A command jumps to the end of the line and enters Insert Mode."
+    "answer": "B",
+    "reason": "The lowercase `o` command opens a new line below the cursor and switches to Insert Mode."
   },
   {
     "id": 87,

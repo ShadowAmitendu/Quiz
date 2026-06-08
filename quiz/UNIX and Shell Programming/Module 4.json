@@ -1890,146 +1890,200 @@
     "reason": "The `-t` option lists archive contents and `-v` provides detailed information."
   },
   {
-    "id": 36,
-    "subject": "UNIX and Shell Programming",
-    "topic": "cal Command",
-    "difficulty": "medium",
-    "question": "Which command displays the calendar for the year 2026?",
-    "options": [
-      {
-        "key": "A",
-        "text": "cal 2026"
-      },
-      {
-        "key": "B",
-        "text": "cal `-y` 2026"
-      },
-      {
-        "key": "C",
-        "text": "date 2026"
-      },
-      {
-        "key": "D",
-        "text": "year 2026"
-      }
-    ],
-    "answer": "A",
-    "reason": "Providing a year as an argument displays the calendar for that year."
-  },
-  {
-    "id": 37,
+    "id": 71,
     "subject": "UNIX and Shell Programming",
     "topic": "cal Command",
     "difficulty": "hard",
-    "question": "Which command displays the calendar for March 2026?",
+    "question": "What does the command `cal 9 1752` display that is unusual?",
     "options": [
       {
         "key": "A",
-        "text": "cal 3 2026"
+        "text": "September 1752 has missing dates due to the Gregorian calendar switch"
       },
       {
         "key": "B",
-        "text": "cal `-m` 3 2026"
+        "text": "It shows an error because 1752 is invalid"
       },
       {
         "key": "C",
-        "text": "date 3 2026"
+        "text": "It displays a blank calendar"
       },
       {
         "key": "D",
-        "text": "cal `-y` 2026"
+        "text": "It shows 30 days instead of the usual 28"
       }
     ],
     "answer": "A",
-    "reason": "The syntax cal month year displays a specific month's calendar."
+    "reason": "September 1752 reflects the switch from Julian to Gregorian calendar, with 11 days removed."
   },
   {
-    "id": 38,
+    "id": 72,
     "subject": "UNIX and Shell Programming",
-    "topic": "date Command",
+    "topic": "cal Command",
     "difficulty": "medium",
-    "question": "Which format specifier displays the current day of the month?",
+    "question": "Which command shows three months — previous, current, and next?",
     "options": [
       {
         "key": "A",
-        "text": "%Y"
+        "text": "cal `-3`"
       },
       {
         "key": "B",
-        "text": "%d"
+        "text": "cal `-y`"
       },
       {
         "key": "C",
-        "text": "%m"
+        "text": "cal `--tri`"
       },
       {
         "key": "D",
-        "text": "%H"
+        "text": "cal `-a`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `-3` option displays the previous, current, and next month together."
+  },
+  {
+    "id": 73,
+    "subject": "UNIX and Shell Programming",
+    "topic": "date Command",
+    "difficulty": "hard",
+    "question": "Which format specifier with the `date` command displays the abbreviated weekday name?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`%A`"
+      },
+      {
+        "key": "B",
+        "text": "`%a`"
+      },
+      {
+        "key": "C",
+        "text": "`%d`"
+      },
+      {
+        "key": "D",
+        "text": "`%w`"
       }
     ],
     "answer": "B",
-    "reason": "The %d format specifier outputs the day of the month."
+    "reason": "The `%a` specifier prints the abbreviated weekday name (e.g., Mon, Tue)."
   },
   {
-    "id": 39,
+    "id": 74,
     "subject": "UNIX and Shell Programming",
     "topic": "date Command",
     "difficulty": "medium",
-    "question": "Which format specifier displays the hour in 24-hour format?",
+    "question": "Which format specifier displays the full month name?",
     "options": [
       {
         "key": "A",
-        "text": "%M"
+        "text": "`%b`"
       },
       {
         "key": "B",
-        "text": "%S"
+        "text": "`%B`"
       },
       {
         "key": "C",
-        "text": "%H"
+        "text": "`%m`"
       },
       {
         "key": "D",
-        "text": "%T"
+        "text": "`%M`"
       }
     ],
-    "answer": "C",
-    "reason": "The %H format specifier displays hours from 00 to 23."
+    "answer": "B",
+    "reason": "The `%B` specifier displays the full month name (e.g., January, February)."
   },
   {
-    "id": 40,
+    "id": 75,
     "subject": "UNIX and Shell Programming",
     "topic": "date Command",
     "difficulty": "hard",
-    "question": "Which command displays the current date in YYYY-MM-DD format?",
+    "question": "Which format specifier displays the time in 12-hour format with AM/PM?",
     "options": [
       {
         "key": "A",
-        "text": "date +%Y-%m-%d"
+        "text": "`%T`"
       },
       {
         "key": "B",
-        "text": "date +%d-%m-%Y"
+        "text": "`%r`"
       },
       {
         "key": "C",
-        "text": "date `-y`"
+        "text": "`%H`"
       },
       {
         "key": "D",
-        "text": "date +%H-%M-%S"
+        "text": "`%S`"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `%r` specifier displays the time in 12-hour format with an AM/PM indicator."
+  },
+  {
+    "id": 76,
+    "subject": "UNIX and Shell Programming",
+    "topic": "date Command",
+    "difficulty": "medium",
+    "question": "Which format specifier displays the current minute?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`%H`"
+      },
+      {
+        "key": "B",
+        "text": "`%S`"
+      },
+      {
+        "key": "C",
+        "text": "`%M`"
+      },
+      {
+        "key": "D",
+        "text": "`%m`"
+      }
+    ],
+    "answer": "C",
+    "reason": "The `%M` specifier displays the minute (00–59). Note that `%m` displays the month number."
+  },
+  {
+    "id": 77,
+    "subject": "UNIX and Shell Programming",
+    "topic": "pr Command",
+    "difficulty": "hard",
+    "question": "Which option sets the page length (number of lines per page) in the `pr` command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`-l`"
+      },
+      {
+        "key": "B",
+        "text": "`-w`"
+      },
+      {
+        "key": "C",
+        "text": "`-d`"
+      },
+      {
+        "key": "D",
+        "text": "`-n`"
       }
     ],
     "answer": "A",
-    "reason": "The format string %Y-%m-%d produces a standard ISO-style date."
+    "reason": "The `-l` option sets the number of lines per page in `pr` output."
   },
   {
-    "id": 41,
+    "id": 78,
     "subject": "UNIX and Shell Programming",
     "topic": "pr Command",
     "difficulty": "medium",
-    "question": "Which option suppresses page headers in pr output?",
+    "question": "Which option formats output into multiple columns using the `pr` command?",
     "options": [
       {
         "key": "A",
@@ -2037,223 +2091,196 @@
       },
       {
         "key": "B",
-        "text": "`-n`"
-      },
-      {
-        "key": "C",
-        "text": "`-h`"
-      },
-      {
-        "key": "D",
-        "text": "`-m`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `-t` option removes headers and footers from the output."
-  },
-  {
-    "id": 42,
-    "subject": "UNIX and Shell Programming",
-    "topic": "pr Command",
-    "difficulty": "hard",
-    "question": "Which option merges files side by side using pr?",
-    "options": [
-      {
-        "key": "A",
         "text": "`-m`"
       },
       {
-        "key": "B",
-        "text": "`-n`"
-      },
-      {
         "key": "C",
-        "text": "`-p`"
+        "text": "The column count flag (e.g., `-2`, `-3`)"
       },
       {
         "key": "D",
-        "text": "`-r`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `-m` option merges files and displays them in parallel columns."
-  },
-  {
-    "id": 43,
-    "subject": "UNIX and Shell Programming",
-    "topic": "who Command",
-    "difficulty": "medium",
-    "question": "Which command displays the current user information?",
-    "options": [
-      {
-        "key": "A",
-        "text": "who am i"
-      },
-      {
-        "key": "B",
-        "text": "who all"
-      },
-      {
-        "key": "C",
-        "text": "who `-l`"
-      },
-      {
-        "key": "D",
-        "text": "who user"
-      }
-    ],
-    "answer": "A",
-    "reason": "The command who am i displays information about the current terminal session."
-  },
-  {
-    "id": 44,
-    "subject": "UNIX and Shell Programming",
-    "topic": "who Command",
-    "difficulty": "hard",
-    "question": "Which option displays all available information with who?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`-a`"
-      },
-      {
-        "key": "B",
-        "text": "`-b`"
-      },
-      {
-        "key": "C",
-        "text": "`-q`"
-      },
-      {
-        "key": "D",
-        "text": "`-u`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `-a` option displays all available details from the who database."
-  },
-  {
-    "id": 45,
-    "subject": "UNIX and Shell Programming",
-    "topic": "who Command",
-    "difficulty": "hard",
-    "question": "Which option displays only usernames and user counts?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`-a`"
-      },
-      {
-        "key": "B",
-        "text": "`-q`"
-      },
-      {
-        "key": "C",
-        "text": "`-b`"
-      },
-      {
-        "key": "D",
-        "text": "`-r`"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `-q` option provides a quick list of usernames and total users."
-  },
-  {
-    "id": 46,
-    "subject": "UNIX and Shell Programming",
-    "topic": "bc Command",
-    "difficulty": "easy",
-    "question": "What is the output of `echo 7*6 | bc?`",
-    "options": [
-      {
-        "key": "A",
-        "text": "42"
-      },
-      {
-        "key": "B",
-        "text": "13"
-      },
-      {
-        "key": "C",
-        "text": "76"
-      },
-      {
-        "key": "D",
-        "text": "Error"
-      }
-    ],
-    "answer": "A",
-    "reason": "bc evaluates multiplication expressions and returns 42."
-  },
-  {
-    "id": 47,
-    "subject": "UNIX and Shell Programming",
-    "topic": "bc Command",
-    "difficulty": "medium",
-    "question": "Which operator is used for exponentiation in bc?",
-    "options": [
-      {
-        "key": "A",
-        "text": "^"
-      },
-      {
-        "key": "B",
-        "text": "**"
-      },
-      {
-        "key": "C",
-        "text": "exp"
-      },
-      {
-        "key": "D",
-        "text": "pow"
-      }
-    ],
-    "answer": "A",
-    "reason": "The ^ operator performs exponentiation in bc."
-  },
-  {
-    "id": 48,
-    "subject": "UNIX and Shell Programming",
-    "topic": "bc Command",
-    "difficulty": "hard",
-    "question": "What is the output of `echo 2^5 | bc?`",
-    "options": [
-      {
-        "key": "A",
-        "text": "10"
-      },
-      {
-        "key": "B",
-        "text": "25"
-      },
-      {
-        "key": "C",
-        "text": "32"
-      },
-      {
-        "key": "D",
-        "text": "64"
+        "text": "`-s`"
       }
     ],
     "answer": "C",
-    "reason": "2 raised to the power 5 equals 32."
+    "reason": "Using a number like `-2` or `-3` arranges file content into that many columns."
   },
   {
-    "id": 49,
+    "id": 79,
     "subject": "UNIX and Shell Programming",
-    "topic": "echo Command",
-    "difficulty": "medium",
-    "question": "Which option enables interpretation of escape sequences in `echo`?",
+    "topic": "who Command",
+    "difficulty": "hard",
+    "question": "What does `who am i` display?",
     "options": [
       {
         "key": "A",
-        "text": "`-n`"
+        "text": "All logged-in users"
       },
       {
         "key": "B",
+        "text": "Only the current user's login information"
+      },
+      {
+        "key": "C",
+        "text": "System hostname"
+      },
+      {
+        "key": "D",
+        "text": "Current working directory"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `who am i` command shows the login details of the user executing the command."
+  },
+  {
+    "id": 80,
+    "subject": "UNIX and Shell Programming",
+    "topic": "who Command",
+    "difficulty": "medium",
+    "question": "Which command shows the total number of currently logged-in users?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`who | wc -l`"
+      },
+      {
+        "key": "B",
+        "text": "`who -r`"
+      },
+      {
+        "key": "C",
+        "text": "`who -d`"
+      },
+      {
+        "key": "D",
+        "text": "`who -t`"
+      }
+    ],
+    "answer": "A",
+    "reason": "Piping `who` output to `wc -l` counts the number of logged-in user lines."
+  },
+  {
+    "id": 81,
+    "subject": "UNIX and Shell Programming",
+    "topic": "bc Calculator",
+    "difficulty": "hard",
+    "question": "What does the `scale` variable control in `bc`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The number of decimal places in division results"
+      },
+      {
+        "key": "B",
+        "text": "The maximum number of digits allowed"
+      },
+      {
+        "key": "C",
+        "text": "The base of the number system"
+      },
+      {
+        "key": "D",
+        "text": "The precision of exponentiation"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `scale` variable determines the number of digits after the decimal point in division."
+  },
+  {
+    "id": 82,
+    "subject": "UNIX and Shell Programming",
+    "topic": "bc Calculator",
+    "difficulty": "medium",
+    "question": "What is the default value of `scale` in `bc`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "A",
+    "reason": "By default, `scale` is 0, so division returns only the integer part."
+  },
+  {
+    "id": 83,
+    "subject": "UNIX and Shell Programming",
+    "topic": "bc Calculator",
+    "difficulty": "hard",
+    "question": "Which command computes the square root of 144 using `bc`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`echo 'sqrt(144)' | bc -l`"
+      },
+      {
+        "key": "B",
+        "text": "`echo 'root(144)' | bc`"
+      },
+      {
+        "key": "C",
+        "text": "`echo '144^0.5' | bc`"
+      },
+      {
+        "key": "D",
+        "text": "`echo 'sqr 144' | bc`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `sqrt()` function computes square roots, and `-l` loads the math library."
+  },
+  {
+    "id": 84,
+    "subject": "UNIX and Shell Programming",
+    "topic": "echo Command",
+    "difficulty": "hard",
+    "question": "Which escape sequence produces a beep (alert) sound when used with `echo -e`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`\\b`"
+      },
+      {
+        "key": "B",
+        "text": "`\\a`"
+      },
+      {
+        "key": "C",
+        "text": "`\\r`"
+      },
+      {
+        "key": "D",
+        "text": "`\\0`"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `\\a` escape sequence produces the alert (bell) character."
+  },
+  {
+    "id": 85,
+    "subject": "UNIX and Shell Programming",
+    "topic": "echo Command",
+    "difficulty": "medium",
+    "question": "Which option of `echo` suppresses the trailing newline?",
+    "options": [
+      {
+        "key": "A",
         "text": "`-e`"
+      },
+      {
+        "key": "B",
+        "text": "`-n`"
       },
       {
         "key": "C",
@@ -2265,95 +2292,41 @@
       }
     ],
     "answer": "B",
-    "reason": "The `-e` option enables escape sequence processing."
+    "reason": "The `-n` option prevents `echo` from appending a newline at the end of the output."
   },
   {
-    "id": 50,
-    "subject": "UNIX and Shell Programming",
-    "topic": "echo Command",
-    "difficulty": "medium",
-    "question": "What does \\n represent when used with `echo -e`?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Tab"
-      },
-      {
-        "key": "B",
-        "text": "Backspace"
-      },
-      {
-        "key": "C",
-        "text": "New line"
-      },
-      {
-        "key": "D",
-        "text": "Carriage return"
-      }
-    ],
-    "answer": "C",
-    "reason": "The \\n escape sequence inserts a new line."
-  },
-  {
-    "id": 51,
+    "id": 86,
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "hard",
-    "question": "What does \\t represent when used with `echo -e`?",
+    "question": "What does `\\r` do when used with `echo -e`?",
     "options": [
       {
         "key": "A",
-        "text": "Tab space"
+        "text": "Moves cursor to the beginning of the line (carriage return)"
       },
       {
         "key": "B",
-        "text": "New line"
+        "text": "Inserts a newline"
       },
       {
         "key": "C",
-        "text": "Delete character"
+        "text": "Deletes the previous character"
       },
       {
         "key": "D",
-        "text": "End of file"
+        "text": "Produces a tab character"
       }
     ],
     "answer": "A",
-    "reason": "The \\t escape sequence inserts a horizontal tab."
+    "reason": "The `\\r` escape performs a carriage return, moving the cursor to the start of the current line."
   },
   {
-    "id": 52,
-    "subject": "UNIX and Shell Programming",
-    "topic": "zip Command",
-    "difficulty": "medium",
-    "question": "Which command displays the contents of a ZIP archive?",
-    "options": [
-      {
-        "key": "A",
-        "text": "zip `-l` archive.zip"
-      },
-      {
-        "key": "B",
-        "text": "unzip `-l` archive.zip"
-      },
-      {
-        "key": "C",
-        "text": "gzip `-l` archive.zip"
-      },
-      {
-        "key": "D",
-        "text": "`tar -l archive.zip`"
-      }
-    ],
-    "answer": "B",
-    "reason": "The unzip `-l` command lists archive contents without extraction."
-  },
-  {
-    "id": 53,
+    "id": 87,
     "subject": "UNIX and Shell Programming",
     "topic": "zip Command",
     "difficulty": "hard",
-    "question": "Which option encrypts files when creating a ZIP archive?",
+    "question": "Which option recursively includes all subdirectories when creating a ZIP archive?",
     "options": [
       {
         "key": "A",
@@ -2361,7 +2334,7 @@
       },
       {
         "key": "B",
-        "text": "`-e`"
+        "text": "`-a`"
       },
       {
         "key": "C",
@@ -2369,469 +2342,361 @@
       },
       {
         "key": "D",
-        "text": "`-x`"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `-e` option enables password protection for ZIP archives."
-  },
-  {
-    "id": 54,
-    "subject": "UNIX and Shell Programming",
-    "topic": "unzip Command",
-    "difficulty": "medium",
-    "question": "Which option extracts files to a specified directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`-d`"
-      },
-      {
-        "key": "B",
-        "text": "`-r`"
-      },
-      {
-        "key": "C",
-        "text": "`-c`"
-      },
-      {
-        "key": "D",
-        "text": "`-x`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `-d` option specifies the destination directory."
-  },
-  {
-    "id": 55,
-    "subject": "UNIX and Shell Programming",
-    "topic": "unzip Command",
-    "difficulty": "hard",
-    "question": "Which command extracts archive.zip into the backup directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": "unzip archive.zip backup"
-      },
-      {
-        "key": "B",
-        "text": "unzip `-d` backup archive.zip"
-      },
-      {
-        "key": "C",
-        "text": "zip `-d` backup archive.zip"
-      },
-      {
-        "key": "D",
-        "text": "`tar -x` backup archive.zip"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `-d` option specifies the extraction destination."
-  },
-  {
-    "id": 56,
-    "subject": "UNIX and Shell Programming",
-    "topic": "gzip Command",
-    "difficulty": "easy",
-    "question": "What happens to the original file after gzip compression by default?",
-    "options": [
-      {
-        "key": "A",
-        "text": "It is preserved"
-      },
-      {
-        "key": "B",
-        "text": "It is renamed with .gz extension"
-      },
-      {
-        "key": "C",
-        "text": "It is copied"
-      },
-      {
-        "key": "D",
-        "text": "It is archived"
-      }
-    ],
-    "answer": "B",
-    "reason": "gzip replaces the original file with a compressed .gz version."
-  },
-  {
-    "id": 57,
-    "subject": "UNIX and Shell Programming",
-    "topic": "gzip Command",
-    "difficulty": "medium",
-    "question": "Which option keeps the original file after compression?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`-d`"
-      },
-      {
-        "key": "B",
-        "text": "`-r`"
-      },
-      {
-        "key": "C",
-        "text": "`-k`"
-      },
-      {
-        "key": "D",
-        "text": "`-l`"
-      }
-    ],
-    "answer": "C",
-    "reason": "The `-k` option keeps the original file while creating the compressed file."
-  },
-  {
-    "id": 58,
-    "subject": "UNIX and Shell Programming",
-    "topic": "gzip Command",
-    "difficulty": "hard",
-    "question": "Which command displays compression information about a .gz file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "gzip `-l` file.gz"
-      },
-      {
-        "key": "B",
-        "text": "gzip `-c` file.gz"
-      },
-      {
-        "key": "C",
-        "text": "gzip `-r` file.gz"
-      },
-      {
-        "key": "D",
-        "text": "gunzip `-l` file.gz"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `-l` option displays compressed and uncompressed sizes."
-  },
-  {
-    "id": 59,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Archiving",
-    "difficulty": "easy",
-    "question": "What is the primary purpose of the `tar` command?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Compression only"
-      },
-      {
-        "key": "B",
-        "text": "Archiving files and directories"
-      },
-      {
-        "key": "C",
-        "text": "Encryption"
-      },
-      {
-        "key": "D",
-        "text": "Sorting files"
-      }
-    ],
-    "answer": "B",
-    "reason": "`tar` combines multiple files into a single archive."
-  },
-  {
-    "id": 60,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Archiving",
-    "difficulty": "medium",
-    "question": "Which option displays verbose output while creating a `tar` archive?",
-    "options": [
-      {
-        "key": "A",
         "text": "`-v`"
-      },
-      {
-        "key": "B",
-        "text": "`-c`"
-      },
-      {
-        "key": "C",
-        "text": "`-x`"
-      },
-      {
-        "key": "D",
-        "text": "`-f`"
       }
     ],
     "answer": "A",
-    "reason": "The `-v` option shows files being processed."
+    "reason": "The `-r` option tells `zip` to travel the directory structure recursively."
   },
   {
-    "id": 61,
+    "id": 88,
     "subject": "UNIX and Shell Programming",
-    "topic": "Archiving",
+    "topic": "zip Command",
     "difficulty": "medium",
-    "question": "Which option specifies the archive filename in `tar`?",
+    "question": "Which command removes a file from an existing ZIP archive?",
     "options": [
       {
         "key": "A",
-        "text": "`-c`"
+        "text": "`zip -d archive.zip file.txt`"
       },
       {
         "key": "B",
-        "text": "`-f`"
+        "text": "`zip -r archive.zip file.txt`"
       },
       {
         "key": "C",
-        "text": "`-x`"
+        "text": "`unzip -d archive.zip file.txt`"
       },
       {
         "key": "D",
-        "text": "`-t`"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `-f` option specifies the archive file name."
-  },
-  {
-    "id": 62,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Archiving",
-    "difficulty": "hard",
-    "question": "Which command creates archive.`tar` from dir1?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`tar -cvf archive.tar` dir1"
-      },
-      {
-        "key": "B",
-        "text": "`tar -xvf archive.tar` dir1"
-      },
-      {
-        "key": "C",
-        "text": "gzip archive.`tar` dir1"
-      },
-      {
-        "key": "D",
-        "text": "zip archive.`tar` dir1"
+        "text": "`zip -x archive.zip file.txt`"
       }
     ],
     "answer": "A",
-    "reason": "The options `-c`, `-v`, and `-f` create a `tar` archive."
+    "reason": "The `-d` option with `zip` deletes the specified entry from the archive."
   },
   {
-    "id": 63,
+    "id": 89,
     "subject": "UNIX and Shell Programming",
-    "topic": "Archiving",
+    "topic": "unzip Command",
     "difficulty": "hard",
-    "question": "Which command extracts archive.`tar`?",
+    "question": "Which option lists the contents of a ZIP archive without extracting?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -cvf archive.tar`"
+        "text": "`unzip -l archive.zip`"
       },
       {
         "key": "B",
-        "text": "`tar -tvf archive.tar`"
+        "text": "`unzip -v archive.zip`"
       },
       {
         "key": "C",
-        "text": "`tar -xvf archive.tar`"
+        "text": "`unzip -t archive.zip`"
       },
       {
         "key": "D",
-        "text": "gzip `-d` archive.`tar`"
+        "text": "`unzip -p archive.zip`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `-l` option lists the archive contents along with file sizes and dates."
+  },
+  {
+    "id": 90,
+    "subject": "UNIX and Shell Programming",
+    "topic": "gzip Command",
+    "difficulty": "hard",
+    "question": "Which option gives maximum compression when using `gzip`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`-1`"
+      },
+      {
+        "key": "B",
+        "text": "`-6`"
+      },
+      {
+        "key": "C",
+        "text": "`-9`"
+      },
+      {
+        "key": "D",
+        "text": "`-0`"
       }
     ],
     "answer": "C",
-    "reason": "The `-x` option extracts files from a `tar` archive."
+    "reason": "The `-9` option (or `--best`) uses maximum compression, trading speed for smaller file size."
   },
   {
-    "id": 64,
+    "id": 91,
     "subject": "UNIX and Shell Programming",
-    "topic": "Archiving",
-    "difficulty": "hard",
-    "question": "Which option appends files to an existing `tar` archive?",
+    "topic": "gzip Command",
+    "difficulty": "medium",
+    "question": "Which command views the contents of a `.gz` file without decompressing it?",
     "options": [
       {
         "key": "A",
-        "text": "`-r`"
+        "text": "`zcat file.gz`"
       },
       {
         "key": "B",
-        "text": "`-x`"
+        "text": "`cat file.gz`"
       },
       {
         "key": "C",
-        "text": "`-c`"
+        "text": "`gzip -v file.gz`"
       },
       {
         "key": "D",
-        "text": "`-t`"
+        "text": "`less file.gz`"
       }
     ],
     "answer": "A",
-    "reason": "The `-r` option appends files to an existing archive."
+    "reason": "`zcat` decompresses and displays the contents of a `.gz` file to standard output without modifying the file."
   },
   {
-    "id": 65,
+    "id": 92,
     "subject": "UNIX and Shell Programming",
-    "topic": "Combined Utility Commands",
+    "topic": "tar Command",
     "difficulty": "hard",
-    "question": "Which command creates a compressed `tar` archive using gzip?",
+    "question": "Which option compresses a `tar` archive using bzip2 instead of gzip?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -czvf backup.tar.gz` data"
+        "text": "`-z`"
       },
       {
         "key": "B",
-        "text": "gzip backup.`tar`.gz data"
+        "text": "`-j`"
       },
       {
         "key": "C",
-        "text": "zip backup.`tar`.gz data"
+        "text": "`-J`"
       },
       {
         "key": "D",
-        "text": "`tar -xzvf backup.tar.gz`"
+        "text": "`-b`"
       }
     ],
-    "answer": "A",
-    "reason": "The `-z` option applies gzip compression while creating the `tar` archive."
+    "answer": "B",
+    "reason": "The `-j` option uses bzip2 compression when creating or extracting archives."
   },
   {
-    "id": 66,
+    "id": 93,
     "subject": "UNIX and Shell Programming",
-    "topic": "Combined Utility Commands",
-    "difficulty": "hard",
-    "question": "Which command extracts a gzip-compressed `tar` archive?",
+    "topic": "tar Command",
+    "difficulty": "medium",
+    "question": "What does the `-c` option do in the `tar` command?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -xzvf backup.tar.gz`"
+        "text": "Creates a new archive"
       },
       {
         "key": "B",
-        "text": "gzip `-x` backup.`tar`.gz"
+        "text": "Compresses the archive"
       },
       {
         "key": "C",
-        "text": "unzip backup.`tar`.gz"
+        "text": "Checks archive integrity"
       },
       {
         "key": "D",
-        "text": "gunzip backup.`tar`"
+        "text": "Copies files"
       }
     ],
     "answer": "A",
-    "reason": "The `-x` and `-z` options extract and decompress a .`tar`.gz archive."
+    "reason": "The `-c` option tells `tar` to create a new archive file."
   },
   {
-    "id": 67,
+    "id": 94,
+    "subject": "UNIX and Shell Programming",
+    "topic": "tar Command",
+    "difficulty": "hard",
+    "question": "What does the `-x` option do in the `tar` command?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Excludes specific files from the archive"
+      },
+      {
+        "key": "B",
+        "text": "Extracts files from an archive"
+      },
+      {
+        "key": "C",
+        "text": "Examines archive headers"
+      },
+      {
+        "key": "D",
+        "text": "Compresses the archive using xz"
+      }
+    ],
+    "answer": "B",
+    "reason": "The `-x` option extracts files and directories from a tar archive."
+  },
+  {
+    "id": 95,
     "subject": "UNIX and Shell Programming",
     "topic": "Combined Utility Commands",
     "difficulty": "medium",
-    "question": "Which command displays the current date and time together?",
+    "question": "Which command compresses all `.log` files in the current directory using gzip?",
     "options": [
       {
         "key": "A",
-        "text": "date"
+        "text": "`gzip *.log`"
       },
       {
         "key": "B",
-        "text": "cal"
+        "text": "`tar -z *.log`"
       },
       {
         "key": "C",
-        "text": "who"
+        "text": "`zip *.log`"
       },
       {
         "key": "D",
-        "text": "pr"
+        "text": "`compress *.log`"
       }
     ],
     "answer": "A",
-    "reason": "The date command displays both the current date and time."
+    "reason": "The `gzip` command can accept wildcard patterns to compress multiple files."
   },
   {
-    "id": 68,
+    "id": 96,
+    "subject": "UNIX and Shell Programming",
+    "topic": "Combined Utility Commands",
+    "difficulty": "hard",
+    "question": "Which command displays the current date in DD/MM/YYYY format?",
+    "options": [
+      {
+        "key": "A",
+        "text": "`date +%d/%m/%Y`"
+      },
+      {
+        "key": "B",
+        "text": "`date +%m/%d/%Y`"
+      },
+      {
+        "key": "C",
+        "text": "`date +%Y-%m-%d`"
+      },
+      {
+        "key": "D",
+        "text": "`date +%D`"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `%d` specifier gives the day, `%m` the month, and `%Y` the four-digit year."
+  },
+  {
+    "id": 97,
     "subject": "UNIX and Shell Programming",
     "topic": "Combined Utility Commands",
     "difficulty": "medium",
-    "question": "Which command calculates 25 divided by 4 with two decimal places?",
+    "question": "Which command writes the output of `date` to a file called timestamp.txt?",
     "options": [
       {
         "key": "A",
-        "text": "`echo scale=2;25/4 | bc`"
+        "text": "`date > timestamp.txt`"
       },
       {
         "key": "B",
-        "text": "`echo 25/4`"
+        "text": "`date | timestamp.txt`"
       },
       {
         "key": "C",
-        "text": "bc 25/4"
+        "text": "`date < timestamp.txt`"
       },
       {
         "key": "D",
-        "text": "date 25/4"
+        "text": "`date >> timestamp.txt` (creates file only)"
       }
     ],
     "answer": "A",
-    "reason": "bc uses the scale variable to control decimal precision."
+    "reason": "The `>` operator redirects standard output to a file, creating it if it does not exist."
   },
   {
-    "id": 69,
+    "id": 98,
     "subject": "UNIX and Shell Programming",
     "topic": "Combined Utility Commands",
     "difficulty": "hard",
-    "question": "Which command lists logged-in users and then saves the output to users.txt?",
+    "question": "What does `>>` do when used for output redirection?",
     "options": [
       {
         "key": "A",
-        "text": "who > users.txt"
+        "text": "Overwrites the existing file"
       },
       {
         "key": "B",
-        "text": "who < users.txt"
+        "text": "Appends output to the end of the file"
       },
       {
         "key": "C",
-        "text": "users.txt > who"
+        "text": "Pipes output to a command"
       },
       {
         "key": "D",
-        "text": "`echo who users.txt`"
+        "text": "Redirects standard error"
       }
     ],
-    "answer": "A",
-    "reason": "The > operator redirects the output of who into a file."
+    "answer": "B",
+    "reason": "The `>>` operator appends output to the file instead of overwriting it."
   },
   {
-    "id": 70,
+    "id": 99,
     "subject": "UNIX and Shell Programming",
-    "topic": "Combined Utility Commands",
+    "topic": "pr Command",
     "difficulty": "hard",
-    "question": "Which command displays archive contents without extracting and shows detailed information?",
+    "question": "Which option double-spaces the output in the `pr` command?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -tvf archive.tar`"
+        "text": "`-d`"
       },
       {
         "key": "B",
-        "text": "`tar -xvf archive.tar`"
+        "text": "`-s`"
       },
       {
         "key": "C",
-        "text": "unzip archive.`tar`"
+        "text": "`-n`"
       },
       {
         "key": "D",
-        "text": "gzip `-l` archive.`tar`"
+        "text": "`-w`"
       }
     ],
     "answer": "A",
-    "reason": "The `-t` option lists archive contents and `-v` provides detailed information."
+    "reason": "The `-d` option in `pr` double-spaces the output by inserting blank lines."
+  },
+  {
+    "id": 100,
+    "subject": "UNIX and Shell Programming",
+    "topic": "bc Calculator",
+    "difficulty": "hard",
+    "question": "What does the `-l` option do when starting `bc`?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loads the standard math library with functions like `sqrt()` and `s()`"
+      },
+      {
+        "key": "B",
+        "text": "Enables logging mode"
+      },
+      {
+        "key": "C",
+        "text": "Sets the output to long format"
+      },
+      {
+        "key": "D",
+        "text": "Lists all available variables"
+      }
+    ],
+    "answer": "A",
+    "reason": "The `-l` flag loads the math library, providing functions and setting scale to 20."
   }
 ]

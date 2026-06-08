@@ -2298,28 +2298,28 @@
     "id": 86,
     "subject": "UNIX and Shell Programming",
     "topic": "comm Command",
-    "difficulty": "easy",
-    "question": "Which command compares two sorted files?",
+    "difficulty": "hard",
+    "question": "What does the option `-12` do when used with the `comm` command?",
     "options": [
       {
         "key": "A",
-        "text": "`comm`"
+        "text": "Displays only lines common to both files"
       },
       {
         "key": "B",
-        "text": "`diff`"
+        "text": "Displays only lines unique to the first file"
       },
       {
         "key": "C",
-        "text": "`cmp`"
+        "text": "Displays only lines unique to the second file"
       },
       {
         "key": "D",
-        "text": "`wc`"
+        "text": "Displays all three columns"
       }
     ],
     "answer": "A",
-    "reason": "`comm` compares sorted files and categorizes lines."
+    "reason": "`-12` suppresses columns 1 and 2, showing only lines that appear in both files (column 3)."
   },
   {
     "id": 87,
