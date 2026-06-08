@@ -31,23 +31,23 @@
     "subject": "UNIX and Shell Programming",
     "topic": "grep Basics",
     "difficulty": "easy",
-    "question": "Which command searches for the word linux in file.txt?",
+    "question": "Which command searches for the word hello in file.txt?",
     "options": [
       {
         "key": "A",
-        "text": "`grep linux file.txt`"
+        "text": "`grep hello file.txt`"
       },
       {
         "key": "B",
-        "text": "`find linux file.txt`"
+        "text": "`find hello file.txt`"
       },
       {
         "key": "C",
-        "text": "search linux file.txt"
+        "text": "search hello file.txt"
       },
       {
         "key": "D",
-        "text": "`awk file.txt linux`"
+        "text": "`awk file.txt hello`"
       }
     ],
     "answer": "A",
@@ -2056,23 +2056,23 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Pattern Matching",
     "difficulty": "hard",
-    "question": "Which `awk` command prints only lines containing the word Linux?",
+    "question": "Which `awk` command prints only lines containing the word UNIX?",
     "options": [
       {
         "key": "A",
-        "text": "`awk /Linux/ file.txt`"
+        "text": "`awk /UNIX/ file.txt`"
       },
       {
         "key": "B",
-        "text": "`awk Linux file.txt`"
+        "text": "`awk UNIX file.txt`"
       },
       {
         "key": "C",
-        "text": "`awk =Linux= file.txt`"
+        "text": "`awk =UNIX= file.txt`"
       },
       {
         "key": "D",
-        "text": "`awk :Linux: file.txt`"
+        "text": "`awk :UNIX: file.txt`"
       }
     ],
     "answer": "A",
@@ -2569,7 +2569,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Searching Functions",
     "difficulty": "medium",
-    "question": "What does index(\"Linux\",\"nu\") return?",
+    "question": "What does index(\"UNIX\",\"IX\") return?",
     "options": [
       {
         "key": "A",
@@ -2588,8 +2588,8 @@
         "text": "0"
       }
     ],
-    "answer": "C",
-    "reason": "The substring nu starts at the fourth position in Linux when counting from 1."
+    "answer": "B",
+    "reason": "The substring IX starts at the third position in UNIX when counting from 1."
   },
   {
     "id": 97,

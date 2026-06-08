@@ -4,7 +4,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "VI Editor Introduction",
     "difficulty": "easy",
-    "question": "What is VI in UNIX/Linux?",
+    "question": "What is VI in UNIX?",
     "options": [
       {
         "key": "A",
@@ -24,7 +24,7 @@
       }
     ],
     "answer": "B",
-    "reason": "VI is a screen-oriented text editor available on UNIX and Linux systems."
+    "reason": "VI is a screen-oriented text editor available on UNIX systems."
   },
   {
     "id": 2,
@@ -1597,23 +1597,23 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Search",
     "difficulty": "easy",
-    "question": "Which command searches forward for the word linux?",
+    "question": "Which command searches forward for the word hello?",
     "options": [
       {
         "key": "A",
-        "text": "/linux"
+        "text": "/hello"
       },
       {
         "key": "B",
-        "text": "?linux"
+        "text": "?hello"
       },
       {
         "key": "C",
-        "text": ":linux"
+        "text": ":hello"
       },
       {
         "key": "D",
-        "text": "*linux"
+        "text": "*hello"
       }
     ],
     "answer": "A",
@@ -2002,23 +2002,23 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Search and Replace",
     "difficulty": "hard",
-    "question": "Which command replaces every occurrence of Linux with UNIX throughout the file?",
+    "question": "Which command replaces every occurrence of old with new throughout the file?",
     "options": [
       {
         "key": "A",
-        "text": ":%s/Linux/UNIX/g"
+        "text": ":%s/old/new/g"
       },
       {
         "key": "B",
-        "text": ":s/Linux/UNIX/g"
+        "text": ":s/old/new/g"
       },
       {
         "key": "C",
-        "text": ":replace/Linux/UNIX"
+        "text": ":replace/old/new"
       },
       {
         "key": "D",
-        "text": ":g/Linux/UNIX"
+        "text": ":g/old/new"
       }
     ],
     "answer": "A",

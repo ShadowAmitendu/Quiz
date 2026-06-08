@@ -1,2702 +1,2702 @@
 [
-  {
-    "id": 1,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Introduction to UNIX",
-    "difficulty": "easy",
-    "question": "UNIX was originally developed at which organization?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Microsoft"
-      },
-      {
-        "key": "B",
-        "text": "Bell Labs"
-      },
-      {
-        "key": "C",
-        "text": "IBM"
-      },
-      {
-        "key": "D",
-        "text": "Sun Microsystems"
-      }
-    ],
-    "answer": "B",
-    "reason": "UNIX was originally developed at Bell Labs by Ken Thompson, Dennis Ritchie, and others."
-  },
-  {
-    "id": 2,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Introduction to UNIX",
-    "difficulty": "easy",
-    "question": "Which characteristic is a major feature of UNIX?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Single-user only"
-      },
-      {
-        "key": "B",
-        "text": "No multitasking support"
-      },
-      {
-        "key": "C",
-        "text": "Multiuser and multitasking"
-      },
-      {
-        "key": "D",
-        "text": "GUI-only environment"
-      }
-    ],
-    "answer": "C",
-    "reason": "UNIX supports multiple users and multiple tasks simultaneously."
-  },
-  {
-    "id": 3,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Introduction to UNIX",
-    "difficulty": "easy",
-    "question": "Which programming language was primarily used to rewrite UNIX?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Java"
-      },
-      {
-        "key": "B",
-        "text": "Python"
-      },
-      {
-        "key": "C",
-        "text": "C"
-      },
-      {
-        "key": "D",
-        "text": "Pascal"
-      }
-    ],
-    "answer": "C",
-    "reason": "UNIX was rewritten in C, making it portable across different hardware platforms."
-  },
-  {
-    "id": 4,
-    "subject": "UNIX and Shell Programming",
-    "topic": "POSIX",
-    "difficulty": "medium",
-    "question": "What does POSIX stand for?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Portable Operating System Interface"
-      },
-      {
-        "key": "B",
-        "text": "Program Operating System Interface"
-      },
-      {
-        "key": "C",
-        "text": "Portable Open Software Interface"
-      },
-      {
-        "key": "D",
-        "text": "Process Oriented System Interface"
-      }
-    ],
-    "answer": "A",
-    "reason": "POSIX stands for Portable Operating System Interface and defines standards for compatibility."
-  },
-  {
-    "id": 5,
-    "subject": "UNIX and Shell Programming",
-    "topic": "POSIX",
-    "difficulty": "medium",
-    "question": "The primary goal of POSIX is to:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Increase hardware speed"
-      },
-      {
-        "key": "B",
-        "text": "Standardize operating system interfaces"
-      },
-      {
-        "key": "C",
-        "text": "Replace UNIX"
-      },
-      {
-        "key": "D",
-        "text": "Develop databases"
-      }
-    ],
-    "answer": "B",
-    "reason": "POSIX provides standards that ensure software portability across UNIX-like systems."
-  },
-  {
-    "id": 6,
-    "subject": "UNIX and Shell Programming",
-    "topic": "POSIX",
-    "difficulty": "medium",
-    "question": "POSIX standards are maintained by:",
-    "options": [
-      {
-        "key": "A",
-        "text": "IEEE"
-      },
-      {
-        "key": "B",
-        "text": "Oracle"
-      },
-      {
-        "key": "C",
-        "text": "Google"
-      },
-      {
-        "key": "D",
-        "text": "Linux Foundation"
-      }
-    ],
-    "answer": "A",
-    "reason": "IEEE developed and maintains POSIX standards."
-  },
-  {
-    "id": 7,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Linux",
-    "difficulty": "easy",
-    "question": "Who created the Linux kernel?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Dennis Ritchie"
-      },
-      {
-        "key": "B",
-        "text": "Ken Thompson"
-      },
-      {
-        "key": "C",
-        "text": "Linus Torvalds"
-      },
-      {
-        "key": "D",
-        "text": "Richard Stallman"
-      }
-    ],
-    "answer": "C",
-    "reason": "Linus Torvalds developed the Linux kernel in 1991."
-  },
-  {
-    "id": 8,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Linux Distributions",
-    "difficulty": "easy",
-    "question": "Which of the following is a Linux distribution?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ubuntu"
-      },
-      {
-        "key": "B",
-        "text": "Windows"
-      },
-      {
-        "key": "C",
-        "text": "macOS"
-      },
-      {
-        "key": "D",
-        "text": "DOS"
-      }
-    ],
-    "answer": "A",
-    "reason": "Ubuntu is one of the most widely used Linux distributions."
-  },
-  {
-    "id": 9,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Linux Distributions",
-    "difficulty": "easy",
-    "question": "Which Linux distribution is known for its community-driven development?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Fedora"
-      },
-      {
-        "key": "B",
-        "text": "Windows Server"
-      },
-      {
-        "key": "C",
-        "text": "Solaris"
-      },
-      {
-        "key": "D",
-        "text": "AIX"
-      }
-    ],
-    "answer": "A",
-    "reason": "Fedora is a community-supported Linux distribution sponsored by Red Hat."
-  },
-  {
-    "id": 10,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Linux Distributions",
-    "difficulty": "medium",
-    "question": "Which Linux distribution serves as the upstream source for Red Hat Enterprise Linux?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ubuntu"
-      },
-      {
-        "key": "B",
-        "text": "Fedora"
-      },
-      {
-        "key": "C",
-        "text": "Debian"
-      },
-      {
-        "key": "D",
-        "text": "Arch Linux"
-      }
-    ],
-    "answer": "B",
-    "reason": "Fedora introduces new technologies that later appear in Red Hat Enterprise Linux."
-  },
-  {
-    "id": 11,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX vs Linux",
-    "difficulty": "medium",
-    "question": "Which statement is true regarding UNIX and Linux?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Linux is a UNIX-based proprietary operating system"
-      },
-      {
-        "key": "B",
-        "text": "UNIX is open source in all versions"
-      },
-      {
-        "key": "C",
-        "text": "Linux is UNIX-like and open source"
-      },
-      {
-        "key": "D",
-        "text": "UNIX and Linux are identical"
-      }
-    ],
-    "answer": "C",
-    "reason": "Linux is a UNIX-like operating system released under open-source licenses."
-  },
-  {
-    "id": 12,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX vs Linux",
-    "difficulty": "medium",
-    "question": "Which of the following is generally proprietary?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ubuntu"
-      },
-      {
-        "key": "B",
-        "text": "Debian"
-      },
-      {
-        "key": "C",
-        "text": "UNIX commercial variants"
-      },
-      {
-        "key": "D",
-        "text": "Fedora"
-      }
-    ],
-    "answer": "C",
-    "reason": "Many UNIX variants such as AIX and HP-UX are proprietary."
-  },
-  {
-    "id": 13,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX vs Linux",
-    "difficulty": "easy",
-    "question": "Linux is best described as:",
-    "options": [
-      {
-        "key": "A",
-        "text": "A clone of Windows"
-      },
-      {
-        "key": "B",
-        "text": "A UNIX-like operating system"
-      },
-      {
-        "key": "C",
-        "text": "A database system"
-      },
-      {
-        "key": "D",
-        "text": "A compiler"
-      }
-    ],
-    "answer": "B",
-    "reason": "Linux follows many UNIX principles and standards."
-  },
-  {
-    "id": 14,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Architecture",
-    "difficulty": "medium",
-    "question": "Which component directly interacts with the hardware in UNIX architecture?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Shell"
-      },
-      {
-        "key": "B",
-        "text": "Kernel"
-      },
-      {
-        "key": "C",
-        "text": "User"
-      },
-      {
-        "key": "D",
-        "text": "Application"
-      }
-    ],
-    "answer": "B",
-    "reason": "The kernel manages hardware resources and provides services to applications."
-  },
-  {
-    "id": 15,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Architecture",
-    "difficulty": "easy",
-    "question": "In UNIX architecture, the shell acts as:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hardware controller"
-      },
-      {
-        "key": "B",
-        "text": "User interface to the kernel"
-      },
-      {
-        "key": "C",
-        "text": "Memory manager"
-      },
-      {
-        "key": "D",
-        "text": "Device driver"
-      }
-    ],
-    "answer": "B",
-    "reason": "The shell accepts commands from users and communicates with the kernel."
-  },
-  {
-    "id": 16,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Architecture",
-    "difficulty": "medium",
-    "question": "Which layer is closest to the user in UNIX architecture?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Hardware"
-      },
-      {
-        "key": "B",
-        "text": "Kernel"
-      },
-      {
-        "key": "C",
-        "text": "Shell"
-      },
-      {
-        "key": "D",
-        "text": "Device Drivers"
-      }
-    ],
-    "answer": "C",
-    "reason": "Users generally interact with the shell rather than directly with the kernel."
-  },
-  {
-    "id": 17,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Kernel",
-    "difficulty": "medium",
-    "question": "Which function is performed by the UNIX kernel?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Compiling programs"
-      },
-      {
-        "key": "B",
-        "text": "Managing memory and processes"
-      },
-      {
-        "key": "C",
-        "text": "Editing files"
-      },
-      {
-        "key": "D",
-        "text": "Writing shell scripts"
-      }
-    ],
-    "answer": "B",
-    "reason": "The kernel handles memory management, process management, and hardware interaction."
-  },
-  {
-    "id": 18,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Kernel",
-    "difficulty": "medium",
-    "question": "The kernel is often referred to as the:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Heart of UNIX"
-      },
-      {
-        "key": "B",
-        "text": "Compiler of UNIX"
-      },
-      {
-        "key": "C",
-        "text": "Database of UNIX"
-      },
-      {
-        "key": "D",
-        "text": "Editor of UNIX"
-      }
-    ],
-    "answer": "A",
-    "reason": "The kernel is the central component responsible for managing system resources."
-  },
-  {
-    "id": 19,
-    "subject": "UNIX and Shell Programming",
-    "topic": "System Calls",
-    "difficulty": "medium",
-    "question": "A system call is used to:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Access kernel services"
-      },
-      {
-        "key": "B",
-        "text": "Compile programs"
-      },
-      {
-        "key": "C",
-        "text": "Create databases"
-      },
-      {
-        "key": "D",
-        "text": "Format disks"
-      }
-    ],
-    "answer": "A",
-    "reason": "System calls provide an interface between user programs and the kernel."
-  },
-  {
-    "id": 20,
-    "subject": "UNIX and Shell Programming",
-    "topic": "System Calls",
-    "difficulty": "medium",
-    "question": "Which layer provides the system call interface?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Shell"
-      },
-      {
-        "key": "B",
-        "text": "Kernel"
-      },
-      {
-        "key": "C",
-        "text": "User Process"
-      },
-      {
-        "key": "D",
-        "text": "Compiler"
-      }
-    ],
-    "answer": "B",
-    "reason": "The kernel exposes system calls that applications use to request services."
-  },
-  {
-    "id": 21,
-    "subject": "UNIX and Shell Programming",
-    "topic": "System Calls",
-    "difficulty": "hard",
-    "question": "Which of the following is a common UNIX system call category?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Process Control"
-      },
-      {
-        "key": "B",
-        "text": "Spreadsheet Management"
-      },
-      {
-        "key": "C",
-        "text": "Presentation Control"
-      },
-      {
-        "key": "D",
-        "text": "Graphics Editing"
-      }
-    ],
-    "answer": "A",
-    "reason": "Process control, file management, and device management are standard system call categories."
-  },
-  {
-    "id": 22,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "easy",
-    "question": "What is the topmost directory in UNIX called?",
-    "options": [
-      {
-        "key": "A",
-        "text": "root (/)"
-      },
-      {
-        "key": "B",
-        "text": "/home"
-      },
-      {
-        "key": "C",
-        "text": "/usr"
-      },
-      {
-        "key": "D",
-        "text": "/bin"
-      }
-    ],
-    "answer": "A",
-    "reason": "All files and directories originate from the root directory (/)."
-  },
-  {
-    "id": 23,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "easy",
-    "question": "Which directory usually contains user home directories?",
-    "options": [
-      {
-        "key": "A",
-        "text": "/etc"
-      },
-      {
-        "key": "B",
-        "text": "/bin"
-      },
-      {
-        "key": "C",
-        "text": "/home"
-      },
-      {
-        "key": "D",
-        "text": "/dev"
-      }
-    ],
-    "answer": "C",
-    "reason": "The /home directory generally stores users' personal directories."
-  },
-  {
-    "id": 24,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "easy",
-    "question": "Which directory contains configuration files?",
-    "options": [
-      {
-        "key": "A",
-        "text": "/etc"
-      },
-      {
-        "key": "B",
-        "text": "/tmp"
-      },
-      {
-        "key": "C",
-        "text": "/proc"
-      },
-      {
-        "key": "D",
-        "text": "/home"
-      }
-    ],
-    "answer": "A",
-    "reason": "System-wide configuration files are typically stored in /etc."
-  },
-  {
-    "id": 25,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "easy",
-    "question": "Temporary files are generally stored in:",
-    "options": [
-      {
-        "key": "A",
-        "text": "/usr"
-      },
-      {
-        "key": "B",
-        "text": "/tmp"
-      },
-      {
-        "key": "C",
-        "text": "/bin"
-      },
-      {
-        "key": "D",
-        "text": "/sbin"
-      }
-    ],
-    "answer": "B",
-    "reason": "The /tmp directory is designated for temporary files."
-  },
-  {
-    "id": 26,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "medium",
-    "question": "Which directory contains essential user commands such as `ls` and `cp`?",
-    "options": [
-      {
-        "key": "A",
-        "text": "/dev"
-      },
-      {
-        "key": "B",
-        "text": "/bin"
-      },
-      {
-        "key": "C",
-        "text": "/etc"
-      },
-      {
-        "key": "D",
-        "text": "/proc"
-      }
-    ],
-    "answer": "B",
-    "reason": "The /bin directory stores essential executable commands."
-  },
-  {
-    "id": 27,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "medium",
-    "question": "Device files are stored in which directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": "/dev"
-      },
-      {
-        "key": "B",
-        "text": "/usr"
-      },
-      {
-        "key": "C",
-        "text": "/opt"
-      },
-      {
-        "key": "D",
-        "text": "/var"
-      }
-    ],
-    "answer": "A",
-    "reason": "The /dev directory contains files representing hardware devices."
-  },
-  {
-    "id": 28,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "medium",
-    "question": "Which directory contains variable data such as logs?",
-    "options": [
-      {
-        "key": "A",
-        "text": "/boot"
-      },
-      {
-        "key": "B",
-        "text": "/var"
-      },
-      {
-        "key": "C",
-        "text": "/root"
-      },
-      {
-        "key": "D",
-        "text": "/lib"
-      }
-    ],
-    "answer": "B",
-    "reason": "Log files and other variable data are typically stored in /var."
-  },
-  {
-    "id": 29,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "medium",
-    "question": "The current user's home directory can be represented by:",
-    "options": [
-      {
-        "key": "A",
-        "text": "~"
-      },
-      {
-        "key": "B",
-        "text": "/"
-      },
-      {
-        "key": "C",
-        "text": "."
-      },
-      {
-        "key": "D",
-        "text": ".."
-      }
-    ],
-    "answer": "A",
-    "reason": "The tilde (~) symbol refers to the current user's home directory."
-  },
-  {
-    "id": 30,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Directory Structure",
-    "difficulty": "medium",
-    "question": "What does .. represent in a UNIX directory path?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Current directory"
-      },
-      {
-        "key": "B",
-        "text": "Root directory"
-      },
-      {
-        "key": "C",
-        "text": "Parent directory"
-      },
-      {
-        "key": "D",
-        "text": "Home directory"
-      }
-    ],
-    "answer": "C",
-    "reason": "Two dots (..) refer to the parent directory."
-  },
-  {
-    "id": 31,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Concepts",
-    "difficulty": "easy",
-    "question": "UNIX treats most resources as:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Programs"
-      },
-      {
-        "key": "B",
-        "text": "Files"
-      },
-      {
-        "key": "C",
-        "text": "Processes"
-      },
-      {
-        "key": "D",
-        "text": "Directories"
-      }
-    ],
-    "answer": "B",
-    "reason": "UNIX follows the philosophy that everything is treated as a file."
-  },
-  {
-    "id": 32,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Concepts",
-    "difficulty": "medium",
-    "question": "Which component interprets user commands?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kernel"
-      },
-      {
-        "key": "B",
-        "text": "Shell"
-      },
-      {
-        "key": "C",
-        "text": "BIOS"
-      },
-      {
-        "key": "D",
-        "text": "Loader"
-      }
-    ],
-    "answer": "B",
-    "reason": "The shell reads, interprets, and executes user commands."
-  },
-  {
-    "id": 33,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Architecture",
-    "difficulty": "hard",
-    "question": "Which sequence correctly represents UNIX architecture layers?",
-    "options": [
-      {
-        "key": "A",
-        "text": "User → Shell → Kernel → Hardware"
-      },
-      {
-        "key": "B",
-        "text": "User → Kernel → Shell → Hardware"
-      },
-      {
-        "key": "C",
-        "text": "Hardware → User → Kernel → Shell"
-      },
-      {
-        "key": "D",
-        "text": "Shell → Hardware → Kernel → User"
-      }
-    ],
-    "answer": "A",
-    "reason": "Users interact with the shell, which communicates with the kernel that controls hardware."
-  },
-  {
-    "id": 34,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Linux",
-    "difficulty": "medium",
-    "question": "Linux follows which software development model?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Closed Source"
-      },
-      {
-        "key": "B",
-        "text": "Open Source"
-      },
-      {
-        "key": "C",
-        "text": "Proprietary"
-      },
-      {
-        "key": "D",
-        "text": "Commercial Only"
-      }
-    ],
-    "answer": "B",
-    "reason": "Linux source code is publicly available and can be modified and redistributed."
-  },
-  {
-    "id": 35,
-    "subject": "UNIX and Shell Programming",
-    "topic": "POSIX",
-    "difficulty": "hard",
-    "question": "Why is POSIX important for software developers?",
-    "options": [
-      {
-        "key": "A",
-        "text": "It increases CPU speed"
-      },
-      {
-        "key": "B",
-        "text": "It guarantees hardware compatibility"
-      },
-      {
-        "key": "C",
-        "text": "It improves software portability across systems"
-      },
-      {
-        "key": "D",
-        "text": "It replaces operating systems"
-      }
-    ],
-    "answer": "C",
-    "reason": "POSIX-compliant applications can run on multiple UNIX-like systems with minimal modification."
-  },
-  {
-    "id": 36,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command is used to display the current working directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`cd`"
-      },
-      {
-        "key": "B",
-        "text": "`pwd`"
-      },
-      {
-        "key": "C",
-        "text": "`ls`"
-      },
-      {
-        "key": "D",
-        "text": "dir"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `pwd` (Print Working Directory) command displays the absolute path of the current directory."
-  },
-  {
-    "id": 37,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command is used to list files and directories?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`pwd`"
-      },
-      {
-        "key": "B",
-        "text": "`cat`"
-      },
-      {
-        "key": "C",
-        "text": "`ls`"
-      },
-      {
-        "key": "D",
-        "text": "`mkdir`"
-      }
-    ],
-    "answer": "C",
-    "reason": "The `ls` command lists files and directories in a specified location."
-  },
-  {
-    "id": 38,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command changes the current directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`mv`"
-      },
-      {
-        "key": "B",
-        "text": "`cd`"
-      },
-      {
-        "key": "C",
-        "text": "`pwd`"
-      },
-      {
-        "key": "D",
-        "text": "`cp`"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `cd` command is used to change the current working directory."
-  },
-  {
-    "id": 39,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command creates a new directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`mkdir`"
-      },
-      {
-        "key": "B",
-        "text": "`rmdir`"
-      },
-      {
-        "key": "C",
-        "text": "`touch`"
-      },
-      {
-        "key": "D",
-        "text": "mkfile"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `mkdir` command creates one or `more` directories."
-  },
-  {
-    "id": 40,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command removes an empty directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`rm`"
-      },
-      {
-        "key": "B",
-        "text": "delete"
-      },
-      {
-        "key": "C",
-        "text": "`rmdir`"
-      },
-      {
-        "key": "D",
-        "text": "erase"
-      }
-    ],
-    "answer": "C",
-    "reason": "The `rmdir` command removes only empty directories."
-  },
-  {
-    "id": 41,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command copies files from one location to another?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`mv`"
-      },
-      {
-        "key": "B",
-        "text": "`cp`"
-      },
-      {
-        "key": "C",
-        "text": "`cat`"
-      },
-      {
-        "key": "D",
-        "text": "`touch`"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `cp` command creates a duplicate of a file or directory."
-  },
-  {
-    "id": 42,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command moves or renames files?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`mv`"
-      },
-      {
-        "key": "B",
-        "text": "`cp`"
-      },
-      {
-        "key": "C",
-        "text": "`rm`"
-      },
-      {
-        "key": "D",
-        "text": "`pwd`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `mv` command is used for moving files or renaming them."
-  },
-  {
-    "id": 43,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command deletes files?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`rmdir`"
-      },
-      {
-        "key": "B",
-        "text": "del"
-      },
-      {
-        "key": "C",
-        "text": "`rm`"
-      },
-      {
-        "key": "D",
-        "text": "erase"
-      }
-    ],
-    "answer": "C",
-    "reason": "The `rm` command removes files and directories."
-  },
-  {
-    "id": 44,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command creates an empty file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`touch`"
-      },
-      {
-        "key": "B",
-        "text": "mkfile"
-      },
-      {
-        "key": "C",
-        "text": "create"
-      },
-      {
-        "key": "D",
-        "text": "file"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `touch` command creates a new empty file or updates timestamps."
-  },
-  {
-    "id": 45,
-    "subject": "UNIX and Shell Programming",
-    "topic": "UNIX Commands",
-    "difficulty": "easy",
-    "question": "Which command displays the contents of a text file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`cat`"
-      },
-      {
-        "key": "B",
-        "text": "`mkdir`"
-      },
-      {
-        "key": "C",
-        "text": "`pwd`"
-      },
-      {
-        "key": "D",
-        "text": "`touch`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `cat` command displays file contents on the terminal."
-  },
-  {
-    "id": 46,
-    "subject": "UNIX and Shell Programming",
-    "topic": "File Types",
-    "difficulty": "medium",
-    "question": "Which symbol represents a directory in the first column of `ls -l` output?",
-    "options": [
-      {
-        "key": "A",
-        "text": "-"
-      },
-      {
-        "key": "B",
-        "text": "d"
-      },
-      {
-        "key": "C",
-        "text": "l"
-      },
-      {
-        "key": "D",
-        "text": "c"
-      }
-    ],
-    "answer": "B",
-    "reason": "A directory is represented by the character d in long listing format."
-  },
-  {
-    "id": 47,
-    "subject": "UNIX and Shell Programming",
-    "topic": "File Types",
-    "difficulty": "medium",
-    "question": "Which file type is represented by - in `ls -l` output?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Regular file"
-      },
-      {
-        "key": "B",
-        "text": "Directory"
-      },
-      {
-        "key": "C",
-        "text": "Link"
-      },
-      {
-        "key": "D",
-        "text": "Device file"
-      }
-    ],
-    "answer": "A",
-    "reason": "A dash indicates a regular file in UNIX file listings."
-  },
-  {
-    "id": 48,
-    "subject": "UNIX and Shell Programming",
-    "topic": "File Types",
-    "difficulty": "medium",
-    "question": "Which character denotes a symbolic link?",
-    "options": [
-      {
-        "key": "A",
-        "text": "s"
-      },
-      {
-        "key": "B",
-        "text": "d"
-      },
-      {
-        "key": "C",
-        "text": "l"
-      },
-      {
-        "key": "D",
-        "text": "b"
-      }
-    ],
-    "answer": "C",
-    "reason": "The letter l indicates a symbolic link in UNIX."
-  },
-  {
-    "id": 49,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Permissions",
-    "difficulty": "easy",
-    "question": "What does the permission r represent?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Run"
-      },
-      {
-        "key": "B",
-        "text": "Read"
-      },
-      {
-        "key": "C",
-        "text": "Rewrite"
-      },
-      {
-        "key": "D",
-        "text": "Remove"
-      }
-    ],
-    "answer": "B",
-    "reason": "The permission r grants read access to a file or directory."
-  },
-  {
-    "id": 50,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Permissions",
-    "difficulty": "easy",
-    "question": "What does the permission w represent?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Write"
-      },
-      {
-        "key": "B",
-        "text": "Watch"
-      },
-      {
-        "key": "C",
-        "text": "Work"
-      },
-      {
-        "key": "D",
-        "text": "Wait"
-      }
-    ],
-    "answer": "A",
-    "reason": "The permission w allows modification of file contents."
-  },
-  {
-    "id": 51,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Permissions",
-    "difficulty": "easy",
-    "question": "What does the permission x represent?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Exit"
-      },
-      {
-        "key": "B",
-        "text": "Execute"
-      },
-      {
-        "key": "C",
-        "text": "Expand"
-      },
-      {
-        "key": "D",
-        "text": "Extract"
-      }
-    ],
-    "answer": "B",
-    "reason": "The execute permission allows a file to be run as a program."
-  },
-  {
-    "id": 52,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Permissions",
-    "difficulty": "medium",
-    "question": "Which command is used to change file permissions?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`chown`"
-      },
-      {
-        "key": "B",
-        "text": "`chmod`"
-      },
-      {
-        "key": "C",
-        "text": "passwd"
-      },
-      {
-        "key": "D",
-        "text": "`umask`"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `chmod` command modifies file and directory permissions."
-  },
-  {
-    "id": 53,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Permissions",
-    "difficulty": "medium",
-    "question": "What is the numeric value of read permission?",
-    "options": [
-      {
-        "key": "A",
-        "text": "1"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "4"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      }
-    ],
-    "answer": "C",
-    "reason": "Read permission is represented by 4 in numeric notation."
-  },
-  {
-    "id": 54,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Permissions",
-    "difficulty": "medium",
-    "question": "What is the numeric value of write permission?",
-    "options": [
-      {
-        "key": "A",
-        "text": "2"
-      },
-      {
-        "key": "B",
-        "text": "4"
-      },
-      {
-        "key": "C",
-        "text": "1"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      }
-    ],
-    "answer": "A",
-    "reason": "Write permission corresponds to the value 2."
-  },
-  {
-    "id": 55,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Permissions",
-    "difficulty": "medium",
-    "question": "What is the numeric value of execute permission?",
-    "options": [
-      {
-        "key": "A",
-        "text": "2"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "4"
-      },
-      {
-        "key": "D",
-        "text": "6"
-      }
-    ],
-    "answer": "B",
-    "reason": "Execute permission is represented by the value 1."
-  },
-  {
-    "id": 56,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Permissions",
-    "difficulty": "hard",
-    "question": "What permission does `chmod` 755 assign to the owner?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Read only"
-      },
-      {
-        "key": "B",
-        "text": "Read and Write"
-      },
-      {
-        "key": "C",
-        "text": "Read, Write and Execute"
-      },
-      {
-        "key": "D",
-        "text": "Execute only"
-      }
-    ],
-    "answer": "C",
-    "reason": "7 = 4 + 2 + 1, giving read, write, and execute permissions."
-  },
-  {
-    "id": 57,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Ownership",
-    "difficulty": "medium",
-    "question": "Which command changes the ownership of a file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`chmod`"
-      },
-      {
-        "key": "B",
-        "text": "`chown`"
-      },
-      {
-        "key": "C",
-        "text": "passwd"
-      },
-      {
-        "key": "D",
-        "text": "who"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `chown` command changes file ownership."
-  },
-  {
-    "id": 58,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Ownership",
-    "difficulty": "medium",
-    "question": "Which command changes the group ownership of a file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "chgrp"
-      },
-      {
-        "key": "B",
-        "text": "`chmod`"
-      },
-      {
-        "key": "C",
-        "text": "`cp`"
-      },
-      {
-        "key": "D",
-        "text": "`mv`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The chgrp command changes the group associated with a file."
-  },
-  {
-    "id": 59,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Users and Groups",
-    "difficulty": "easy",
-    "question": "Which command displays the username of the current user?",
-    "options": [
-      {
-        "key": "A",
-        "text": "id"
-      },
-      {
-        "key": "B",
-        "text": "whoami"
-      },
-      {
-        "key": "C",
-        "text": "users"
-      },
-      {
-        "key": "D",
-        "text": "who"
-      }
-    ],
-    "answer": "B",
-    "reason": "The whoami command displays the effective username of the current user."
-  },
-  {
-    "id": 60,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Users and Groups",
-    "difficulty": "easy",
-    "question": "Which command displays information about the current user's UID and groups?",
-    "options": [
-      {
-        "key": "A",
-        "text": "id"
-      },
-      {
-        "key": "B",
-        "text": "`pwd`"
-      },
-      {
-        "key": "C",
-        "text": "`ls`"
-      },
-      {
-        "key": "D",
-        "text": "env"
-      }
-    ],
-    "answer": "A",
-    "reason": "The id command displays user IDs, group IDs, and associated groups."
-  },
-  {
-    "id": 61,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Users and Groups",
-    "difficulty": "easy",
-    "question": "Which command shows currently logged-in users?",
-    "options": [
-      {
-        "key": "A",
-        "text": "who"
-      },
-      {
-        "key": "B",
-        "text": "`pwd`"
-      },
-      {
-        "key": "C",
-        "text": "`cat`"
-      },
-      {
-        "key": "D",
-        "text": "`grep`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The who command lists users currently logged into the system."
-  },
-  {
-    "id": 62,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Users and Groups",
-    "difficulty": "medium",
-    "question": "What is the superuser account in UNIX commonly called?",
-    "options": [
-      {
-        "key": "A",
-        "text": "admin"
-      },
-      {
-        "key": "B",
-        "text": "root"
-      },
-      {
-        "key": "C",
-        "text": "system"
-      },
-      {
-        "key": "D",
-        "text": "master"
-      }
-    ],
-    "answer": "B",
-    "reason": "The root account has unrestricted access to the system."
-  },
-  {
-    "id": 63,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Pathnames",
-    "difficulty": "medium",
-    "question": "A pathname beginning with / is called:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Relative Path"
-      },
-      {
-        "key": "B",
-        "text": "Absolute Path"
-      },
-      {
-        "key": "C",
-        "text": "Network Path"
-      },
-      {
-        "key": "D",
-        "text": "Logical Path"
-      }
-    ],
-    "answer": "B",
-    "reason": "Absolute paths start from the root directory."
-  },
-  {
-    "id": 64,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Pathnames",
-    "difficulty": "medium",
-    "question": "Which symbol represents the current directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": ".."
-      },
-      {
-        "key": "B",
-        "text": "~"
-      },
-      {
-        "key": "C",
-        "text": "."
-      },
-      {
-        "key": "D",
-        "text": "/"
-      }
-    ],
-    "answer": "C",
-    "reason": "A single dot (.) refers to the current directory."
-  },
-  {
-    "id": 65,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Pathnames",
-    "difficulty": "medium",
-    "question": "Which command can display the contents of the current directory in long format?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`ls -l`"
-      },
-      {
-        "key": "B",
-        "text": "`pwd -l`"
-      },
-      {
-        "key": "C",
-        "text": "`cat -l`"
-      },
-      {
-        "key": "D",
-        "text": "`cd -l`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `-l` option of `ls` displays detailed file information."
-  },
-  {
-    "id": 66,
-    "subject": "UNIX and Shell Programming",
-    "topic": "File Management",
-    "difficulty": "medium",
-    "question": "Which command displays the first few lines of a file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`tail`"
-      },
-      {
-        "key": "B",
-        "text": "`head`"
-      },
-      {
-        "key": "C",
-        "text": "`grep`"
-      },
-      {
-        "key": "D",
-        "text": "`sort`"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `head` command displays the beginning portion of a file."
-  },
-  {
-    "id": 67,
-    "subject": "UNIX and Shell Programming",
-    "topic": "File Management",
-    "difficulty": "medium",
-    "question": "Which command displays the last few lines of a file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`tail`"
-      },
-      {
-        "key": "B",
-        "text": "`head`"
-      },
-      {
-        "key": "C",
-        "text": "`grep`"
-      },
-      {
-        "key": "D",
-        "text": "`wc`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `tail` command shows the ending portion of a file."
-  },
-  {
-    "id": 68,
-    "subject": "UNIX and Shell Programming",
-    "topic": "File Management",
-    "difficulty": "medium",
-    "question": "Which command counts lines, words, and characters in a file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`wc`"
-      },
-      {
-        "key": "B",
-        "text": "`grep`"
-      },
-      {
-        "key": "C",
-        "text": "`sort`"
-      },
-      {
-        "key": "D",
-        "text": "`uniq`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `wc` command provides counts of lines, words, and characters."
-  },
-  {
-    "id": 69,
-    "subject": "UNIX and Shell Programming",
-    "topic": "File Management",
-    "difficulty": "medium",
-    "question": "Which command is used to search for a pattern in a file?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`grep`"
-      },
-      {
-        "key": "B",
-        "text": "`wc`"
-      },
-      {
-        "key": "C",
-        "text": "`sort`"
-      },
-      {
-        "key": "D",
-        "text": "`head`"
-      }
-    ],
-    "answer": "A",
-    "reason": "`grep` searches files for lines matching a specified pattern."
-  },
-  {
-    "id": 70,
-    "subject": "UNIX and Shell Programming",
-    "topic": "File Management",
-    "difficulty": "hard",
-    "question": "Which command sorts lines of text alphabetically?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`grep`"
-      },
-      {
-        "key": "B",
-        "text": "`uniq`"
-      },
-      {
-        "key": "C",
-        "text": "`sort`"
-      },
-      {
-        "key": "D",
-        "text": "`wc`"
-      }
-    ],
-    "answer": "C",
-    "reason": "The `sort` command arranges text lines in sorted order."
-  },
-  {
-    "id": 71,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Introduction",
-    "difficulty": "easy",
-    "question": "What is a shell in UNIX?",
-    "options": [
-      {
-        "key": "A",
-        "text": "A hardware component"
-      },
-      {
-        "key": "B",
-        "text": "A user interface to the kernel"
-      },
-      {
-        "key": "C",
-        "text": "A file system"
-      },
-      {
-        "key": "D",
-        "text": "A device driver"
-      }
-    ],
-    "answer": "B",
-    "reason": "A shell acts as an interface between the user and the UNIX kernel."
-  },
-  {
-    "id": 72,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Introduction",
-    "difficulty": "easy",
-    "question": "Which shell is the default shell on many Linux distributions?",
-    "options": [
-      {
-        "key": "A",
-        "text": "C Shell"
-      },
-      {
-        "key": "B",
-        "text": "Korn Shell"
-      },
-      {
-        "key": "C",
-        "text": "Bash"
-      },
-      {
-        "key": "D",
-        "text": "Z Shell"
-      }
-    ],
-    "answer": "C",
-    "reason": "Bash (Bourne Again Shell) is the default shell in many Linux systems."
-  },
-  {
-    "id": 73,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Types",
-    "difficulty": "medium",
-    "question": "What does Bash stand for?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Basic Advanced Shell"
-      },
-      {
-        "key": "B",
-        "text": "Bourne Again Shell"
-      },
-      {
-        "key": "C",
-        "text": "Binary Access Shell"
-      },
-      {
-        "key": "D",
-        "text": "Bourne Access Shell"
-      }
-    ],
-    "answer": "B",
-    "reason": "Bash stands for Bourne Again Shell, an enhanced version of the Bourne Shell."
-  },
-  {
-    "id": 74,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Types",
-    "difficulty": "medium",
-    "question": "Which shell uses the command history feature extensively?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Bash"
-      },
-      {
-        "key": "B",
-        "text": "ed"
-      },
-      {
-        "key": "C",
-        "text": "`vi`"
-      },
-      {
-        "key": "D",
-        "text": "`awk`"
-      }
-    ],
-    "answer": "A",
-    "reason": "Bash provides extensive command history and command-line editing features."
-  },
-  {
-    "id": 75,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Scripting",
-    "difficulty": "easy",
-    "question": "What is the usual extension of a shell script file?",
-    "options": [
-      {
-        "key": "A",
-        "text": ".java"
-      },
-      {
-        "key": "B",
-        "text": ".sh"
-      },
-      {
-        "key": "C",
-        "text": ".c"
-      },
-      {
-        "key": "D",
-        "text": ".exe"
-      }
-    ],
-    "answer": "B",
-    "reason": "Shell script files commonly use the .sh extension."
-  },
-  {
-    "id": 76,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Scripting",
-    "difficulty": "easy",
-    "question": "Which line is commonly used at the beginning of a Bash script?",
-    "options": [
-      {
-        "key": "A",
-        "text": "#!/bin/bash"
-      },
-      {
-        "key": "B",
-        "text": "#include<stdio.h>"
-      },
-      {
-        "key": "C",
-        "text": "import java.*;"
-      },
-      {
-        "key": "D",
-        "text": "<html>"
-      }
-    ],
-    "answer": "A",
-    "reason": "The shebang #!/bin/bash specifies that the script should be executed using Bash."
-  },
-  {
-    "id": 77,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Variables",
-    "difficulty": "easy",
-    "question": "How is a variable assigned in a shell script?",
-    "options": [
-      {
-        "key": "A",
-        "text": "name = value"
-      },
-      {
-        "key": "B",
-        "text": "$name=value"
-      },
-      {
-        "key": "C",
-        "text": "name=value"
-      },
-      {
-        "key": "D",
-        "text": "set name=value"
-      }
-    ],
-    "answer": "C",
-    "reason": "Shell variables are assigned without spaces around the = sign."
-  },
-  {
-    "id": 78,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Variables",
-    "difficulty": "easy",
-    "question": "Which symbol is used to access the value of a variable?",
-    "options": [
-      {
-        "key": "A",
-        "text": "&"
-      },
-      {
-        "key": "B",
-        "text": "#"
-      },
-      {
-        "key": "C",
-        "text": "$"
-      },
-      {
-        "key": "D",
-        "text": "@"
-      }
-    ],
-    "answer": "C",
-    "reason": "The $ symbol is used to retrieve the value stored in a variable."
-  },
-  {
-    "id": 79,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Variables",
-    "difficulty": "medium",
-    "question": "Which command displays the value of a variable?",
-    "options": [
-      {
-        "key": "A",
-        "text": "show"
-      },
-      {
-        "key": "B",
-        "text": "`echo`"
-      },
-      {
-        "key": "C",
-        "text": "print"
-      },
-      {
-        "key": "D",
-        "text": "display"
-      }
-    ],
-    "answer": "B",
-    "reason": "The `echo` command is commonly used to print variable values."
-  },
-  {
-    "id": 80,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Variables",
-    "difficulty": "medium",
-    "question": "Which variable stores the name of the shell script?",
-    "options": [
-      {
-        "key": "A",
-        "text": "$0"
-      },
-      {
-        "key": "B",
-        "text": "$1"
-      },
-      {
-        "key": "C",
-        "text": "$#"
-      },
-      {
-        "key": "D",
-        "text": "$$"
-      }
-    ],
-    "answer": "A",
-    "reason": "$0 contains the name of the script being executed."
-  },
-  {
-    "id": 81,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Command Line Arguments",
-    "difficulty": "easy",
-    "question": "Which symbol represents the first command-line argument?",
-    "options": [
-      {
-        "key": "A",
-        "text": "$0"
-      },
-      {
-        "key": "B",
-        "text": "$1"
-      },
-      {
-        "key": "C",
-        "text": "$#"
-      },
-      {
-        "key": "D",
-        "text": "$*"
-      }
-    ],
-    "answer": "B",
-    "reason": "$1 stores the first command-line argument passed to a shell script."
-  },
-  {
-    "id": 82,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Command Line Arguments",
-    "difficulty": "medium",
-    "question": "Which variable stores the total number of command-line arguments?",
-    "options": [
-      {
-        "key": "A",
-        "text": "$*"
-      },
-      {
-        "key": "B",
-        "text": "$0"
-      },
-      {
-        "key": "C",
-        "text": "$#"
-      },
-      {
-        "key": "D",
-        "text": "$$"
-      }
-    ],
-    "answer": "C",
-    "reason": "$# contains the number of command-line arguments supplied."
-  },
-  {
-    "id": 83,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Command Line Arguments",
-    "difficulty": "medium",
-    "question": "Which variable represents all command-line arguments?",
-    "options": [
-      {
-        "key": "A",
-        "text": "$*"
-      },
-      {
-        "key": "B",
-        "text": "$0"
-      },
-      {
-        "key": "C",
-        "text": "$#"
-      },
-      {
-        "key": "D",
-        "text": "$?"
-      }
-    ],
-    "answer": "A",
-    "reason": "$* represents all command-line arguments as a single string."
-  },
-  {
-    "id": 84,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Special Variables",
-    "difficulty": "medium",
-    "question": "Which special variable stores the process ID of the current shell?",
-    "options": [
-      {
-        "key": "A",
-        "text": "$#"
-      },
-      {
-        "key": "B",
-        "text": "$$"
-      },
-      {
-        "key": "C",
-        "text": "$*"
-      },
-      {
-        "key": "D",
-        "text": "$0"
-      }
-    ],
-    "answer": "B",
-    "reason": "$$ returns the process ID (PID) of the current shell."
-  },
-  {
-    "id": 85,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Special Variables",
-    "difficulty": "medium",
-    "question": "Which variable stores the exit status of the last executed command?",
-    "options": [
-      {
-        "key": "A",
-        "text": "$?"
-      },
-      {
-        "key": "B",
-        "text": "$!"
-      },
-      {
-        "key": "C",
-        "text": "$#"
-      },
-      {
-        "key": "D",
-        "text": "$$"
-      }
-    ],
-    "answer": "A",
-    "reason": "$? contains the exit status of the most recently executed command."
-  },
-  {
-    "id": 86,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Input Output",
-    "difficulty": "easy",
-    "question": "Which command is commonly used to take input from a user in a shell script?",
-    "options": [
-      {
-        "key": "A",
-        "text": "scan"
-      },
-      {
-        "key": "B",
-        "text": "input"
-      },
-      {
-        "key": "C",
-        "text": "read"
-      },
-      {
-        "key": "D",
-        "text": "accept"
-      }
-    ],
-    "answer": "C",
-    "reason": "The read command accepts input from standard input."
-  },
-  {
-    "id": 87,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Input Output",
-    "difficulty": "easy",
-    "question": "Which command prints output to the terminal?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`echo`"
-      },
-      {
-        "key": "B",
-        "text": "read"
-      },
-      {
-        "key": "C",
-        "text": "input"
-      },
-      {
-        "key": "D",
-        "text": "scan"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `echo` command is used to display output on the terminal."
-  },
-  {
-    "id": 88,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Arithmetic Operations",
-    "difficulty": "medium",
-    "question": "Which syntax is commonly used for arithmetic expansion in Bash?",
-    "options": [
-      {
-        "key": "A",
-        "text": "${a+b}"
-      },
-      {
-        "key": "B",
-        "text": "$((a+b))"
-      },
-      {
-        "key": "C",
-        "text": "$(a+b)"
-      },
-      {
-        "key": "D",
-        "text": "[a+b]"
-      }
-    ],
-    "answer": "B",
-    "reason": "$(( )) performs arithmetic evaluation in Bash."
-  },
-  {
-    "id": 89,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Conditional Statements",
-    "difficulty": "easy",
-    "question": "Which keyword begins an if statement in shell scripting?",
-    "options": [
-      {
-        "key": "A",
-        "text": "if"
-      },
-      {
-        "key": "B",
-        "text": "when"
-      },
-      {
-        "key": "C",
-        "text": "switch"
-      },
-      {
-        "key": "D",
-        "text": "case"
-      }
-    ],
-    "answer": "A",
-    "reason": "The if keyword starts a conditional statement in shell scripts."
-  },
-  {
-    "id": 90,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Conditional Statements",
-    "difficulty": "easy",
-    "question": "Which keyword ends an if statement?",
-    "options": [
-      {
-        "key": "A",
-        "text": "done"
-      },
-      {
-        "key": "B",
-        "text": "end"
-      },
-      {
-        "key": "C",
-        "text": "fi"
-      },
-      {
-        "key": "D",
-        "text": "endif"
-      }
-    ],
-    "answer": "C",
-    "reason": "fi is if written backward and marks the end of an if block."
-  },
-  {
-    "id": 91,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Conditional Statements",
-    "difficulty": "medium",
-    "question": "Which operator is used for numeric equality comparison inside test brackets?",
-    "options": [
-      {
-        "key": "A",
-        "text": "="
-      },
-      {
-        "key": "B",
-        "text": "=="
-      },
-      {
-        "key": "C",
-        "text": "`-eq`"
-      },
-      {
-        "key": "D",
-        "text": "`-e`"
-      }
-    ],
-    "answer": "C",
-    "reason": "`-eq` is used for comparing integer values in shell scripts."
-  },
-  {
-    "id": 92,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Conditional Statements",
-    "difficulty": "medium",
-    "question": "Which operator checks whether a file exists?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`-e`"
-      },
-      {
-        "key": "B",
-        "text": "`-eq`"
-      },
-      {
-        "key": "C",
-        "text": "`-gt`"
-      },
-      {
-        "key": "D",
-        "text": "`-lt`"
-      }
-    ],
-    "answer": "A",
-    "reason": "The `-e` file test returns true if the specified file exists."
-  },
-  {
-    "id": 93,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Loops",
-    "difficulty": "easy",
-    "question": "Which loop is commonly used to iterate through a list of values?",
-    "options": [
-      {
-        "key": "A",
-        "text": "for"
-      },
-      {
-        "key": "B",
-        "text": "switch"
-      },
-      {
-        "key": "C",
-        "text": "goto"
-      },
-      {
-        "key": "D",
-        "text": "selectcase"
-      }
-    ],
-    "answer": "A",
-    "reason": "The for loop iterates over a sequence of values."
-  },
-  {
-    "id": 94,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Loops",
-    "difficulty": "easy",
-    "question": "Which keyword terminates a loop block in shell scripting?",
-    "options": [
-      {
-        "key": "A",
-        "text": "fi"
-      },
-      {
-        "key": "B",
-        "text": "done"
-      },
-      {
-        "key": "C",
-        "text": "end"
-      },
-      {
-        "key": "D",
-        "text": "stop"
-      }
-    ],
-    "answer": "B",
-    "reason": "The done keyword marks the end of for, while, and until loops."
-  },
-  {
-    "id": 95,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Loops",
-    "difficulty": "medium",
-    "question": "Which loop executes as long as a condition remains true?",
-    "options": [
-      {
-        "key": "A",
-        "text": "while"
-      },
-      {
-        "key": "B",
-        "text": "case"
-      },
-      {
-        "key": "C",
-        "text": "if"
-      },
-      {
-        "key": "D",
-        "text": "select"
-      }
-    ],
-    "answer": "A",
-    "reason": "A while loop repeatedly executes while its condition evaluates to true."
-  },
-  {
-    "id": 96,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Loops",
-    "difficulty": "medium",
-    "question": "Which loop executes until a condition becomes true?",
-    "options": [
-      {
-        "key": "A",
-        "text": "for"
-      },
-      {
-        "key": "B",
-        "text": "while"
-      },
-      {
-        "key": "C",
-        "text": "until"
-      },
-      {
-        "key": "D",
-        "text": "case"
-      }
-    ],
-    "answer": "C",
-    "reason": "An until loop runs while the condition is false and stops when it becomes true."
-  },
-  {
-    "id": 97,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Case Statement",
-    "difficulty": "medium",
-    "question": "Which construct is used as an alternative to multiple if-else statements?",
-    "options": [
-      {
-        "key": "A",
-        "text": "while"
-      },
-      {
-        "key": "B",
-        "text": "case"
-      },
-      {
-        "key": "C",
-        "text": "until"
-      },
-      {
-        "key": "D",
-        "text": "for"
-      }
-    ],
-    "answer": "B",
-    "reason": "The case statement allows multiple pattern-based branches."
-  },
-  {
-    "id": 98,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Case Statement",
-    "difficulty": "medium",
-    "question": "Which keyword terminates a case statement?",
-    "options": [
-      {
-        "key": "A",
-        "text": "done"
-      },
-      {
-        "key": "B",
-        "text": "esac"
-      },
-      {
-        "key": "C",
-        "text": "fi"
-      },
-      {
-        "key": "D",
-        "text": "endcase"
-      }
-    ],
-    "answer": "B",
-    "reason": "esac is case spelled backward and ends a case statement."
-  },
-  {
-    "id": 99,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Script Execution",
-    "difficulty": "medium",
-    "question": "Which command makes a shell script executable?",
-    "options": [
-      {
-        "key": "A",
-        "text": "`chmod +x script.sh`"
-      },
-      {
-        "key": "B",
-        "text": "run script.sh"
-      },
-      {
-        "key": "C",
-        "text": "execute script.sh"
-      },
-      {
-        "key": "D",
-        "text": "shell script.sh"
-      }
-    ],
-    "answer": "A",
-    "reason": "The execute permission must be granted using `chmod` +x before direct execution."
-  },
-  {
-    "id": 100,
-    "subject": "UNIX and Shell Programming",
-    "topic": "Shell Script Execution",
-    "difficulty": "hard",
-    "question": "Which command executes a shell script named test.sh from the current directory?",
-    "options": [
-      {
-        "key": "A",
-        "text": "test.sh"
-      },
-      {
-        "key": "B",
-        "text": "/test.sh"
-      },
-      {
-        "key": "C",
-        "text": "./test.sh"
-      },
-      {
-        "key": "D",
-        "text": "run test.sh"
-      }
-    ],
-    "answer": "C",
-    "reason": "Using ./ specifies the current directory and executes the script if it has execute permission."
-  }
+	{
+		"id": 1,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Introduction to UNIX",
+		"difficulty": "easy",
+		"question": "UNIX was originally developed at which organization?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Microsoft"
+			},
+			{
+				"key": "B",
+				"text": "Bell Labs"
+			},
+			{
+				"key": "C",
+				"text": "IBM"
+			},
+			{
+				"key": "D",
+				"text": "Sun Microsystems"
+			}
+		],
+		"answer": "B",
+		"reason": "UNIX was originally developed at Bell Labs by Ken Thompson, Dennis Ritchie, and others."
+	},
+	{
+		"id": 2,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Introduction to UNIX",
+		"difficulty": "easy",
+		"question": "Which characteristic is a major feature of UNIX?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Single-user only"
+			},
+			{
+				"key": "B",
+				"text": "No multitasking support"
+			},
+			{
+				"key": "C",
+				"text": "Multiuser and multitasking"
+			},
+			{
+				"key": "D",
+				"text": "GUI-only environment"
+			}
+		],
+		"answer": "C",
+		"reason": "UNIX supports multiple users and multiple tasks simultaneously."
+	},
+	{
+		"id": 3,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Introduction to UNIX",
+		"difficulty": "easy",
+		"question": "Which programming language was primarily used to rewrite UNIX?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Java"
+			},
+			{
+				"key": "B",
+				"text": "Python"
+			},
+			{
+				"key": "C",
+				"text": "C"
+			},
+			{
+				"key": "D",
+				"text": "Pascal"
+			}
+		],
+		"answer": "C",
+		"reason": "UNIX was rewritten in C, making it portable across different hardware platforms."
+	},
+	{
+		"id": 4,
+		"subject": "UNIX and Shell Programming",
+		"topic": "POSIX",
+		"difficulty": "medium",
+		"question": "What does POSIX stand for?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Portable Operating System Interface"
+			},
+			{
+				"key": "B",
+				"text": "Program Operating System Interface"
+			},
+			{
+				"key": "C",
+				"text": "Portable Open Software Interface"
+			},
+			{
+				"key": "D",
+				"text": "Process Oriented System Interface"
+			}
+		],
+		"answer": "A",
+		"reason": "POSIX stands for Portable Operating System Interface and defines standards for compatibility."
+	},
+	{
+		"id": 5,
+		"subject": "UNIX and Shell Programming",
+		"topic": "POSIX",
+		"difficulty": "medium",
+		"question": "The primary goal of POSIX is to:",
+		"options": [
+			{
+				"key": "A",
+				"text": "Increase hardware speed"
+			},
+			{
+				"key": "B",
+				"text": "Standardize operating system interfaces"
+			},
+			{
+				"key": "C",
+				"text": "Replace UNIX"
+			},
+			{
+				"key": "D",
+				"text": "Develop databases"
+			}
+		],
+		"answer": "B",
+		"reason": "POSIX provides standards that ensure software portability across UNIX-like systems."
+	},
+	{
+		"id": 6,
+		"subject": "UNIX and Shell Programming",
+		"topic": "POSIX",
+		"difficulty": "medium",
+		"question": "POSIX standards are maintained by:",
+		"options": [
+			{
+				"key": "A",
+				"text": "IEEE"
+			},
+			{
+				"key": "B",
+				"text": "Oracle"
+			},
+			{
+				"key": "C",
+				"text": "Google"
+			},
+			{
+				"key": "D",
+				"text": "The Open Group"
+			}
+		],
+		"answer": "A",
+		"reason": "IEEE developed and maintains POSIX standards."
+	},
+	{
+		"id": 7,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Introduction to UNIX",
+		"difficulty": "easy",
+		"question": "Who are the principal developers of the original UNIX operating system?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Bill Gates and Paul Allen"
+			},
+			{
+				"key": "B",
+				"text": "Ken Thompson and Dennis Ritchie"
+			},
+			{
+				"key": "C",
+				"text": "Steve Jobs and Steve Wozniak"
+			},
+			{
+				"key": "D",
+				"text": "Larry Page and Sergey Brin"
+			}
+		],
+		"answer": "B",
+		"reason": "Ken Thompson and Dennis Ritchie developed UNIX at Bell Labs in the early 1970s."
+	},
+	{
+		"id": 8,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Variants",
+		"difficulty": "easy",
+		"question": "Which of the following is a commercial UNIX variant?",
+		"options": [
+			{
+				"key": "A",
+				"text": "AIX"
+			},
+			{
+				"key": "B",
+				"text": "Windows"
+			},
+			{
+				"key": "C",
+				"text": "DOS"
+			},
+			{
+				"key": "D",
+				"text": "Android"
+			}
+		],
+		"answer": "A",
+		"reason": "AIX is IBM's proprietary commercial UNIX operating system."
+	},
+	{
+		"id": 9,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Variants",
+		"difficulty": "easy",
+		"question": "Which UNIX variant was developed by Sun Microsystems?",
+		"options": [
+			{
+				"key": "A",
+				"text": "HP-UX"
+			},
+			{
+				"key": "B",
+				"text": "AIX"
+			},
+			{
+				"key": "C",
+				"text": "Solaris"
+			},
+			{
+				"key": "D",
+				"text": "SCO UNIX"
+			}
+		],
+		"answer": "C",
+		"reason": "Solaris (originally SunOS) was developed by Sun Microsystems and is now maintained by Oracle."
+	},
+	{
+		"id": 10,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Variants",
+		"difficulty": "medium",
+		"question": "Which UNIX variant is developed by Hewlett-Packard?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Solaris"
+			},
+			{
+				"key": "B",
+				"text": "HP-UX"
+			},
+			{
+				"key": "C",
+				"text": "AIX"
+			},
+			{
+				"key": "D",
+				"text": "FreeBSD"
+			}
+		],
+		"answer": "B",
+		"reason": "HP-UX is Hewlett-Packard's proprietary UNIX operating system for their servers."
+	},
+	{
+		"id": 11,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX History",
+		"difficulty": "medium",
+		"question": "In which year was the first version of UNIX developed?",
+		"options": [
+			{
+				"key": "A",
+				"text": "1965"
+			},
+			{
+				"key": "B",
+				"text": "1969"
+			},
+			{
+				"key": "C",
+				"text": "1975"
+			},
+			{
+				"key": "D",
+				"text": "1980"
+			}
+		],
+		"answer": "B",
+		"reason": "The first version of UNIX was developed in 1969 at Bell Labs by Ken Thompson."
+	},
+	{
+		"id": 12,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX History",
+		"difficulty": "medium",
+		"question": "Which operating system project preceded UNIX at Bell Labs?",
+		"options": [
+			{
+				"key": "A",
+				"text": "MULTICS"
+			},
+			{
+				"key": "B",
+				"text": "DOS"
+			},
+			{
+				"key": "C",
+				"text": "VMS"
+			},
+			{
+				"key": "D",
+				"text": "OS/360"
+			}
+		],
+		"answer": "A",
+		"reason": "MULTICS (Multiplexed Information and Computing Service) was the predecessor project that influenced UNIX development."
+	},
+	{
+		"id": 13,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Features",
+		"difficulty": "easy",
+		"question": "Which of the following is a key feature of UNIX?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Single-tasking only"
+			},
+			{
+				"key": "B",
+				"text": "Portability across different hardware platforms"
+			},
+			{
+				"key": "C",
+				"text": "GUI-only interface"
+			},
+			{
+				"key": "D",
+				"text": "No networking support"
+			}
+		],
+		"answer": "B",
+		"reason": "UNIX was rewritten in C, making it highly portable across different hardware platforms."
+	},
+	{
+		"id": 14,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Architecture",
+		"difficulty": "medium",
+		"question": "Which component directly interacts with the hardware in UNIX architecture?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Shell"
+			},
+			{
+				"key": "B",
+				"text": "Kernel"
+			},
+			{
+				"key": "C",
+				"text": "User"
+			},
+			{
+				"key": "D",
+				"text": "Application"
+			}
+		],
+		"answer": "B",
+		"reason": "The kernel manages hardware resources and provides services to applications."
+	},
+	{
+		"id": 15,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Architecture",
+		"difficulty": "easy",
+		"question": "In UNIX architecture, the shell acts as:",
+		"options": [
+			{
+				"key": "A",
+				"text": "Hardware controller"
+			},
+			{
+				"key": "B",
+				"text": "User interface to the kernel"
+			},
+			{
+				"key": "C",
+				"text": "Memory manager"
+			},
+			{
+				"key": "D",
+				"text": "Device driver"
+			}
+		],
+		"answer": "B",
+		"reason": "The shell accepts commands from users and communicates with the kernel."
+	},
+	{
+		"id": 16,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Architecture",
+		"difficulty": "medium",
+		"question": "Which layer is closest to the user in UNIX architecture?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Hardware"
+			},
+			{
+				"key": "B",
+				"text": "Kernel"
+			},
+			{
+				"key": "C",
+				"text": "Shell"
+			},
+			{
+				"key": "D",
+				"text": "Device Drivers"
+			}
+		],
+		"answer": "C",
+		"reason": "Users generally interact with the shell rather than directly with the kernel."
+	},
+	{
+		"id": 17,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Kernel",
+		"difficulty": "medium",
+		"question": "Which function is performed by the UNIX kernel?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Compiling programs"
+			},
+			{
+				"key": "B",
+				"text": "Managing memory and processes"
+			},
+			{
+				"key": "C",
+				"text": "Editing files"
+			},
+			{
+				"key": "D",
+				"text": "Writing shell scripts"
+			}
+		],
+		"answer": "B",
+		"reason": "The kernel handles memory management, process management, and hardware interaction."
+	},
+	{
+		"id": 18,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Kernel",
+		"difficulty": "medium",
+		"question": "The kernel is often referred to as the:",
+		"options": [
+			{
+				"key": "A",
+				"text": "Heart of UNIX"
+			},
+			{
+				"key": "B",
+				"text": "Compiler of UNIX"
+			},
+			{
+				"key": "C",
+				"text": "Database of UNIX"
+			},
+			{
+				"key": "D",
+				"text": "Editor of UNIX"
+			}
+		],
+		"answer": "A",
+		"reason": "The kernel is the central component responsible for managing system resources."
+	},
+	{
+		"id": 19,
+		"subject": "UNIX and Shell Programming",
+		"topic": "System Calls",
+		"difficulty": "medium",
+		"question": "A system call is used to:",
+		"options": [
+			{
+				"key": "A",
+				"text": "Access kernel services"
+			},
+			{
+				"key": "B",
+				"text": "Compile programs"
+			},
+			{
+				"key": "C",
+				"text": "Create databases"
+			},
+			{
+				"key": "D",
+				"text": "Format disks"
+			}
+		],
+		"answer": "A",
+		"reason": "System calls provide an interface between user programs and the kernel."
+	},
+	{
+		"id": 20,
+		"subject": "UNIX and Shell Programming",
+		"topic": "System Calls",
+		"difficulty": "medium",
+		"question": "Which layer provides the system call interface?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Shell"
+			},
+			{
+				"key": "B",
+				"text": "Kernel"
+			},
+			{
+				"key": "C",
+				"text": "User Process"
+			},
+			{
+				"key": "D",
+				"text": "Compiler"
+			}
+		],
+		"answer": "B",
+		"reason": "The kernel exposes system calls that applications use to request services."
+	},
+	{
+		"id": 21,
+		"subject": "UNIX and Shell Programming",
+		"topic": "System Calls",
+		"difficulty": "hard",
+		"question": "Which of the following is a common UNIX system call category?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Process Control"
+			},
+			{
+				"key": "B",
+				"text": "Spreadsheet Management"
+			},
+			{
+				"key": "C",
+				"text": "Presentation Control"
+			},
+			{
+				"key": "D",
+				"text": "Graphics Editing"
+			}
+		],
+		"answer": "A",
+		"reason": "Process control, file management, and device management are standard system call categories."
+	},
+	{
+		"id": 22,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "easy",
+		"question": "What is the topmost directory in UNIX called?",
+		"options": [
+			{
+				"key": "A",
+				"text": "root (/)"
+			},
+			{
+				"key": "B",
+				"text": "/home"
+			},
+			{
+				"key": "C",
+				"text": "/usr"
+			},
+			{
+				"key": "D",
+				"text": "/bin"
+			}
+		],
+		"answer": "A",
+		"reason": "All files and directories originate from the root directory (/)."
+	},
+	{
+		"id": 23,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "easy",
+		"question": "Which directory usually contains user home directories?",
+		"options": [
+			{
+				"key": "A",
+				"text": "/etc"
+			},
+			{
+				"key": "B",
+				"text": "/bin"
+			},
+			{
+				"key": "C",
+				"text": "/home"
+			},
+			{
+				"key": "D",
+				"text": "/dev"
+			}
+		],
+		"answer": "C",
+		"reason": "The /home directory generally stores users' personal directories."
+	},
+	{
+		"id": 24,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "easy",
+		"question": "Which directory contains configuration files?",
+		"options": [
+			{
+				"key": "A",
+				"text": "/etc"
+			},
+			{
+				"key": "B",
+				"text": "/tmp"
+			},
+			{
+				"key": "C",
+				"text": "/proc"
+			},
+			{
+				"key": "D",
+				"text": "/home"
+			}
+		],
+		"answer": "A",
+		"reason": "System-wide configuration files are typically stored in /etc."
+	},
+	{
+		"id": 25,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "easy",
+		"question": "Temporary files are generally stored in:",
+		"options": [
+			{
+				"key": "A",
+				"text": "/usr"
+			},
+			{
+				"key": "B",
+				"text": "/tmp"
+			},
+			{
+				"key": "C",
+				"text": "/bin"
+			},
+			{
+				"key": "D",
+				"text": "/sbin"
+			}
+		],
+		"answer": "B",
+		"reason": "The /tmp directory is designated for temporary files."
+	},
+	{
+		"id": 26,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "medium",
+		"question": "Which directory contains essential user commands such as `ls` and `cp`?",
+		"options": [
+			{
+				"key": "A",
+				"text": "/dev"
+			},
+			{
+				"key": "B",
+				"text": "/bin"
+			},
+			{
+				"key": "C",
+				"text": "/etc"
+			},
+			{
+				"key": "D",
+				"text": "/proc"
+			}
+		],
+		"answer": "B",
+		"reason": "The /bin directory stores essential executable commands."
+	},
+	{
+		"id": 27,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "medium",
+		"question": "Device files are stored in which directory?",
+		"options": [
+			{
+				"key": "A",
+				"text": "/dev"
+			},
+			{
+				"key": "B",
+				"text": "/usr"
+			},
+			{
+				"key": "C",
+				"text": "/opt"
+			},
+			{
+				"key": "D",
+				"text": "/var"
+			}
+		],
+		"answer": "A",
+		"reason": "The /dev directory contains files representing hardware devices."
+	},
+	{
+		"id": 28,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "medium",
+		"question": "Which directory contains variable data such as logs?",
+		"options": [
+			{
+				"key": "A",
+				"text": "/boot"
+			},
+			{
+				"key": "B",
+				"text": "/var"
+			},
+			{
+				"key": "C",
+				"text": "/root"
+			},
+			{
+				"key": "D",
+				"text": "/lib"
+			}
+		],
+		"answer": "B",
+		"reason": "Log files and other variable data are typically stored in /var."
+	},
+	{
+		"id": 29,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "medium",
+		"question": "The current user's home directory can be represented by:",
+		"options": [
+			{
+				"key": "A",
+				"text": "~"
+			},
+			{
+				"key": "B",
+				"text": "/"
+			},
+			{
+				"key": "C",
+				"text": "."
+			},
+			{
+				"key": "D",
+				"text": ".."
+			}
+		],
+		"answer": "A",
+		"reason": "The tilde (~) symbol refers to the current user's home directory."
+	},
+	{
+		"id": 30,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Directory Structure",
+		"difficulty": "medium",
+		"question": "What does .. represent in a UNIX directory path?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Current directory"
+			},
+			{
+				"key": "B",
+				"text": "Root directory"
+			},
+			{
+				"key": "C",
+				"text": "Parent directory"
+			},
+			{
+				"key": "D",
+				"text": "Home directory"
+			}
+		],
+		"answer": "C",
+		"reason": "Two dots (..) refer to the parent directory."
+	},
+	{
+		"id": 31,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Concepts",
+		"difficulty": "easy",
+		"question": "UNIX treats most resources as:",
+		"options": [
+			{
+				"key": "A",
+				"text": "Programs"
+			},
+			{
+				"key": "B",
+				"text": "Files"
+			},
+			{
+				"key": "C",
+				"text": "Processes"
+			},
+			{
+				"key": "D",
+				"text": "Directories"
+			}
+		],
+		"answer": "B",
+		"reason": "UNIX follows the philosophy that everything is treated as a file."
+	},
+	{
+		"id": 32,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Concepts",
+		"difficulty": "medium",
+		"question": "Which component interprets user commands?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Kernel"
+			},
+			{
+				"key": "B",
+				"text": "Shell"
+			},
+			{
+				"key": "C",
+				"text": "BIOS"
+			},
+			{
+				"key": "D",
+				"text": "Loader"
+			}
+		],
+		"answer": "B",
+		"reason": "The shell reads, interprets, and executes user commands."
+	},
+	{
+		"id": 33,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Architecture",
+		"difficulty": "hard",
+		"question": "Which sequence correctly represents UNIX architecture layers?",
+		"options": [
+			{
+				"key": "A",
+				"text": "User → Shell → Kernel → Hardware"
+			},
+			{
+				"key": "B",
+				"text": "User → Kernel → Shell → Hardware"
+			},
+			{
+				"key": "C",
+				"text": "Hardware → User → Kernel → Shell"
+			},
+			{
+				"key": "D",
+				"text": "Shell → Hardware → Kernel → User"
+			}
+		],
+		"answer": "A",
+		"reason": "Users interact with the shell, which communicates with the kernel that controls hardware."
+	},
+	{
+		"id": 34,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Philosophy",
+		"difficulty": "medium",
+		"question": "Which principle best describes the UNIX philosophy?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Build large monolithic programs"
+			},
+			{
+				"key": "B",
+				"text": "Do one thing and do it well"
+			},
+			{
+				"key": "C",
+				"text": "Avoid command-line interfaces"
+			},
+			{
+				"key": "D",
+				"text": "Use proprietary file formats"
+			}
+		],
+		"answer": "B",
+		"reason": "The UNIX philosophy emphasizes writing small programs that do one thing well and can be combined via pipes and filters."
+	},
+	{
+		"id": 35,
+		"subject": "UNIX and Shell Programming",
+		"topic": "POSIX",
+		"difficulty": "hard",
+		"question": "Why is POSIX important for software developers?",
+		"options": [
+			{
+				"key": "A",
+				"text": "It increases CPU speed"
+			},
+			{
+				"key": "B",
+				"text": "It guarantees hardware compatibility"
+			},
+			{
+				"key": "C",
+				"text": "It improves software portability across systems"
+			},
+			{
+				"key": "D",
+				"text": "It replaces operating systems"
+			}
+		],
+		"answer": "C",
+		"reason": "POSIX-compliant applications can run on multiple UNIX-like systems with minimal modification."
+	},
+	{
+		"id": 36,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command is used to display the current working directory?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`cd`"
+			},
+			{
+				"key": "B",
+				"text": "`pwd`"
+			},
+			{
+				"key": "C",
+				"text": "`ls`"
+			},
+			{
+				"key": "D",
+				"text": "dir"
+			}
+		],
+		"answer": "B",
+		"reason": "The `pwd` (Print Working Directory) command displays the absolute path of the current directory."
+	},
+	{
+		"id": 37,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command is used to list files and directories?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`pwd`"
+			},
+			{
+				"key": "B",
+				"text": "`cat`"
+			},
+			{
+				"key": "C",
+				"text": "`ls`"
+			},
+			{
+				"key": "D",
+				"text": "`mkdir`"
+			}
+		],
+		"answer": "C",
+		"reason": "The `ls` command lists files and directories in a specified location."
+	},
+	{
+		"id": 38,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command changes the current directory?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`mv`"
+			},
+			{
+				"key": "B",
+				"text": "`cd`"
+			},
+			{
+				"key": "C",
+				"text": "`pwd`"
+			},
+			{
+				"key": "D",
+				"text": "`cp`"
+			}
+		],
+		"answer": "B",
+		"reason": "The `cd` command is used to change the current working directory."
+	},
+	{
+		"id": 39,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command creates a new directory?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`mkdir`"
+			},
+			{
+				"key": "B",
+				"text": "`rmdir`"
+			},
+			{
+				"key": "C",
+				"text": "`touch`"
+			},
+			{
+				"key": "D",
+				"text": "mkfile"
+			}
+		],
+		"answer": "A",
+		"reason": "The `mkdir` command creates one or `more` directories."
+	},
+	{
+		"id": 40,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command removes an empty directory?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`rm`"
+			},
+			{
+				"key": "B",
+				"text": "delete"
+			},
+			{
+				"key": "C",
+				"text": "`rmdir`"
+			},
+			{
+				"key": "D",
+				"text": "erase"
+			}
+		],
+		"answer": "C",
+		"reason": "The `rmdir` command removes only empty directories."
+	},
+	{
+		"id": 41,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command copies files from one location to another?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`mv`"
+			},
+			{
+				"key": "B",
+				"text": "`cp`"
+			},
+			{
+				"key": "C",
+				"text": "`cat`"
+			},
+			{
+				"key": "D",
+				"text": "`touch`"
+			}
+		],
+		"answer": "B",
+		"reason": "The `cp` command creates a duplicate of a file or directory."
+	},
+	{
+		"id": 42,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command moves or renames files?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`mv`"
+			},
+			{
+				"key": "B",
+				"text": "`cp`"
+			},
+			{
+				"key": "C",
+				"text": "`rm`"
+			},
+			{
+				"key": "D",
+				"text": "`pwd`"
+			}
+		],
+		"answer": "A",
+		"reason": "The `mv` command is used for moving files or renaming them."
+	},
+	{
+		"id": 43,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command deletes files?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`rmdir`"
+			},
+			{
+				"key": "B",
+				"text": "del"
+			},
+			{
+				"key": "C",
+				"text": "`rm`"
+			},
+			{
+				"key": "D",
+				"text": "erase"
+			}
+		],
+		"answer": "C",
+		"reason": "The `rm` command removes files and directories."
+	},
+	{
+		"id": 44,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command creates an empty file?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`touch`"
+			},
+			{
+				"key": "B",
+				"text": "mkfile"
+			},
+			{
+				"key": "C",
+				"text": "create"
+			},
+			{
+				"key": "D",
+				"text": "file"
+			}
+		],
+		"answer": "A",
+		"reason": "The `touch` command creates a new empty file or updates timestamps."
+	},
+	{
+		"id": 45,
+		"subject": "UNIX and Shell Programming",
+		"topic": "UNIX Commands",
+		"difficulty": "easy",
+		"question": "Which command displays the contents of a text file?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`cat`"
+			},
+			{
+				"key": "B",
+				"text": "`mkdir`"
+			},
+			{
+				"key": "C",
+				"text": "`pwd`"
+			},
+			{
+				"key": "D",
+				"text": "`touch`"
+			}
+		],
+		"answer": "A",
+		"reason": "The `cat` command displays file contents on the terminal."
+	},
+	{
+		"id": 46,
+		"subject": "UNIX and Shell Programming",
+		"topic": "File Types",
+		"difficulty": "medium",
+		"question": "Which symbol represents a directory in the first column of `ls -l` output?",
+		"options": [
+			{
+				"key": "A",
+				"text": "-"
+			},
+			{
+				"key": "B",
+				"text": "d"
+			},
+			{
+				"key": "C",
+				"text": "l"
+			},
+			{
+				"key": "D",
+				"text": "c"
+			}
+		],
+		"answer": "B",
+		"reason": "A directory is represented by the character d in long listing format."
+	},
+	{
+		"id": 47,
+		"subject": "UNIX and Shell Programming",
+		"topic": "File Types",
+		"difficulty": "medium",
+		"question": "Which file type is represented by - in `ls -l` output?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Regular file"
+			},
+			{
+				"key": "B",
+				"text": "Directory"
+			},
+			{
+				"key": "C",
+				"text": "Link"
+			},
+			{
+				"key": "D",
+				"text": "Device file"
+			}
+		],
+		"answer": "A",
+		"reason": "A dash indicates a regular file in UNIX file listings."
+	},
+	{
+		"id": 48,
+		"subject": "UNIX and Shell Programming",
+		"topic": "File Types",
+		"difficulty": "medium",
+		"question": "Which character denotes a symbolic link?",
+		"options": [
+			{
+				"key": "A",
+				"text": "s"
+			},
+			{
+				"key": "B",
+				"text": "d"
+			},
+			{
+				"key": "C",
+				"text": "l"
+			},
+			{
+				"key": "D",
+				"text": "b"
+			}
+		],
+		"answer": "C",
+		"reason": "The letter l indicates a symbolic link in UNIX."
+	},
+	{
+		"id": 49,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Permissions",
+		"difficulty": "easy",
+		"question": "What does the permission r represent?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Run"
+			},
+			{
+				"key": "B",
+				"text": "Read"
+			},
+			{
+				"key": "C",
+				"text": "Rewrite"
+			},
+			{
+				"key": "D",
+				"text": "Remove"
+			}
+		],
+		"answer": "B",
+		"reason": "The permission r grants read access to a file or directory."
+	},
+	{
+		"id": 50,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Permissions",
+		"difficulty": "easy",
+		"question": "What does the permission w represent?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Write"
+			},
+			{
+				"key": "B",
+				"text": "Watch"
+			},
+			{
+				"key": "C",
+				"text": "Work"
+			},
+			{
+				"key": "D",
+				"text": "Wait"
+			}
+		],
+		"answer": "A",
+		"reason": "The permission w allows modification of file contents."
+	},
+	{
+		"id": 51,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Permissions",
+		"difficulty": "easy",
+		"question": "What does the permission x represent?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Exit"
+			},
+			{
+				"key": "B",
+				"text": "Execute"
+			},
+			{
+				"key": "C",
+				"text": "Expand"
+			},
+			{
+				"key": "D",
+				"text": "Extract"
+			}
+		],
+		"answer": "B",
+		"reason": "The execute permission allows a file to be run as a program."
+	},
+	{
+		"id": 52,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Permissions",
+		"difficulty": "medium",
+		"question": "Which command is used to change file permissions?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`chown`"
+			},
+			{
+				"key": "B",
+				"text": "`chmod`"
+			},
+			{
+				"key": "C",
+				"text": "passwd"
+			},
+			{
+				"key": "D",
+				"text": "`umask`"
+			}
+		],
+		"answer": "B",
+		"reason": "The `chmod` command modifies file and directory permissions."
+	},
+	{
+		"id": 53,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Permissions",
+		"difficulty": "medium",
+		"question": "What is the numeric value of read permission?",
+		"options": [
+			{
+				"key": "A",
+				"text": "1"
+			},
+			{
+				"key": "B",
+				"text": "2"
+			},
+			{
+				"key": "C",
+				"text": "4"
+			},
+			{
+				"key": "D",
+				"text": "7"
+			}
+		],
+		"answer": "C",
+		"reason": "Read permission is represented by 4 in numeric notation."
+	},
+	{
+		"id": 54,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Permissions",
+		"difficulty": "medium",
+		"question": "What is the numeric value of write permission?",
+		"options": [
+			{
+				"key": "A",
+				"text": "2"
+			},
+			{
+				"key": "B",
+				"text": "4"
+			},
+			{
+				"key": "C",
+				"text": "1"
+			},
+			{
+				"key": "D",
+				"text": "7"
+			}
+		],
+		"answer": "A",
+		"reason": "Write permission corresponds to the value 2."
+	},
+	{
+		"id": 55,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Permissions",
+		"difficulty": "medium",
+		"question": "What is the numeric value of execute permission?",
+		"options": [
+			{
+				"key": "A",
+				"text": "2"
+			},
+			{
+				"key": "B",
+				"text": "1"
+			},
+			{
+				"key": "C",
+				"text": "4"
+			},
+			{
+				"key": "D",
+				"text": "6"
+			}
+		],
+		"answer": "B",
+		"reason": "Execute permission is represented by the value 1."
+	},
+	{
+		"id": 56,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Permissions",
+		"difficulty": "hard",
+		"question": "What permission does `chmod` 755 assign to the owner?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Read only"
+			},
+			{
+				"key": "B",
+				"text": "Read and Write"
+			},
+			{
+				"key": "C",
+				"text": "Read, Write and Execute"
+			},
+			{
+				"key": "D",
+				"text": "Execute only"
+			}
+		],
+		"answer": "C",
+		"reason": "7 = 4 + 2 + 1, giving read, write, and execute permissions."
+	},
+	{
+		"id": 57,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Ownership",
+		"difficulty": "medium",
+		"question": "Which command changes the ownership of a file?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`chmod`"
+			},
+			{
+				"key": "B",
+				"text": "`chown`"
+			},
+			{
+				"key": "C",
+				"text": "passwd"
+			},
+			{
+				"key": "D",
+				"text": "who"
+			}
+		],
+		"answer": "B",
+		"reason": "The `chown` command changes file ownership."
+	},
+	{
+		"id": 58,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Ownership",
+		"difficulty": "medium",
+		"question": "Which command changes the group ownership of a file?",
+		"options": [
+			{
+				"key": "A",
+				"text": "chgrp"
+			},
+			{
+				"key": "B",
+				"text": "`chmod`"
+			},
+			{
+				"key": "C",
+				"text": "`cp`"
+			},
+			{
+				"key": "D",
+				"text": "`mv`"
+			}
+		],
+		"answer": "A",
+		"reason": "The chgrp command changes the group associated with a file."
+	},
+	{
+		"id": 59,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Users and Groups",
+		"difficulty": "easy",
+		"question": "Which command displays the username of the current user?",
+		"options": [
+			{
+				"key": "A",
+				"text": "id"
+			},
+			{
+				"key": "B",
+				"text": "whoami"
+			},
+			{
+				"key": "C",
+				"text": "users"
+			},
+			{
+				"key": "D",
+				"text": "who"
+			}
+		],
+		"answer": "B",
+		"reason": "The whoami command displays the effective username of the current user."
+	},
+	{
+		"id": 60,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Users and Groups",
+		"difficulty": "easy",
+		"question": "Which command displays information about the current user's UID and groups?",
+		"options": [
+			{
+				"key": "A",
+				"text": "id"
+			},
+			{
+				"key": "B",
+				"text": "`pwd`"
+			},
+			{
+				"key": "C",
+				"text": "`ls`"
+			},
+			{
+				"key": "D",
+				"text": "env"
+			}
+		],
+		"answer": "A",
+		"reason": "The id command displays user IDs, group IDs, and associated groups."
+	},
+	{
+		"id": 61,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Users and Groups",
+		"difficulty": "easy",
+		"question": "Which command shows currently logged-in users?",
+		"options": [
+			{
+				"key": "A",
+				"text": "who"
+			},
+			{
+				"key": "B",
+				"text": "`pwd`"
+			},
+			{
+				"key": "C",
+				"text": "`cat`"
+			},
+			{
+				"key": "D",
+				"text": "`grep`"
+			}
+		],
+		"answer": "A",
+		"reason": "The who command lists users currently logged into the system."
+	},
+	{
+		"id": 62,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Users and Groups",
+		"difficulty": "medium",
+		"question": "What is the superuser account in UNIX commonly called?",
+		"options": [
+			{
+				"key": "A",
+				"text": "admin"
+			},
+			{
+				"key": "B",
+				"text": "root"
+			},
+			{
+				"key": "C",
+				"text": "system"
+			},
+			{
+				"key": "D",
+				"text": "master"
+			}
+		],
+		"answer": "B",
+		"reason": "The root account has unrestricted access to the system."
+	},
+	{
+		"id": 63,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Pathnames",
+		"difficulty": "medium",
+		"question": "A pathname beginning with / is called:",
+		"options": [
+			{
+				"key": "A",
+				"text": "Relative Path"
+			},
+			{
+				"key": "B",
+				"text": "Absolute Path"
+			},
+			{
+				"key": "C",
+				"text": "Network Path"
+			},
+			{
+				"key": "D",
+				"text": "Logical Path"
+			}
+		],
+		"answer": "B",
+		"reason": "Absolute paths start from the root directory."
+	},
+	{
+		"id": 64,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Pathnames",
+		"difficulty": "medium",
+		"question": "Which symbol represents the current directory?",
+		"options": [
+			{
+				"key": "A",
+				"text": ".."
+			},
+			{
+				"key": "B",
+				"text": "~"
+			},
+			{
+				"key": "C",
+				"text": "."
+			},
+			{
+				"key": "D",
+				"text": "/"
+			}
+		],
+		"answer": "C",
+		"reason": "A single dot (.) refers to the current directory."
+	},
+	{
+		"id": 65,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Pathnames",
+		"difficulty": "medium",
+		"question": "Which command can display the contents of the current directory in long format?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`ls -l`"
+			},
+			{
+				"key": "B",
+				"text": "`pwd -l`"
+			},
+			{
+				"key": "C",
+				"text": "`cat -l`"
+			},
+			{
+				"key": "D",
+				"text": "`cd -l`"
+			}
+		],
+		"answer": "A",
+		"reason": "The `-l` option of `ls` displays detailed file information."
+	},
+	{
+		"id": 66,
+		"subject": "UNIX and Shell Programming",
+		"topic": "File Management",
+		"difficulty": "medium",
+		"question": "Which command displays the first few lines of a file?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`tail`"
+			},
+			{
+				"key": "B",
+				"text": "`head`"
+			},
+			{
+				"key": "C",
+				"text": "`grep`"
+			},
+			{
+				"key": "D",
+				"text": "`sort`"
+			}
+		],
+		"answer": "B",
+		"reason": "The `head` command displays the beginning portion of a file."
+	},
+	{
+		"id": 67,
+		"subject": "UNIX and Shell Programming",
+		"topic": "File Management",
+		"difficulty": "medium",
+		"question": "Which command displays the last few lines of a file?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`tail`"
+			},
+			{
+				"key": "B",
+				"text": "`head`"
+			},
+			{
+				"key": "C",
+				"text": "`grep`"
+			},
+			{
+				"key": "D",
+				"text": "`wc`"
+			}
+		],
+		"answer": "A",
+		"reason": "The `tail` command shows the ending portion of a file."
+	},
+	{
+		"id": 68,
+		"subject": "UNIX and Shell Programming",
+		"topic": "File Management",
+		"difficulty": "medium",
+		"question": "Which command counts lines, words, and characters in a file?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`wc`"
+			},
+			{
+				"key": "B",
+				"text": "`grep`"
+			},
+			{
+				"key": "C",
+				"text": "`sort`"
+			},
+			{
+				"key": "D",
+				"text": "`uniq`"
+			}
+		],
+		"answer": "A",
+		"reason": "The `wc` command provides counts of lines, words, and characters."
+	},
+	{
+		"id": 69,
+		"subject": "UNIX and Shell Programming",
+		"topic": "File Management",
+		"difficulty": "medium",
+		"question": "Which command is used to search for a pattern in a file?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`grep`"
+			},
+			{
+				"key": "B",
+				"text": "`wc`"
+			},
+			{
+				"key": "C",
+				"text": "`sort`"
+			},
+			{
+				"key": "D",
+				"text": "`head`"
+			}
+		],
+		"answer": "A",
+		"reason": "`grep` searches files for lines matching a specified pattern."
+	},
+	{
+		"id": 70,
+		"subject": "UNIX and Shell Programming",
+		"topic": "File Management",
+		"difficulty": "hard",
+		"question": "Which command sorts lines of text alphabetically?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`grep`"
+			},
+			{
+				"key": "B",
+				"text": "`uniq`"
+			},
+			{
+				"key": "C",
+				"text": "`sort`"
+			},
+			{
+				"key": "D",
+				"text": "`wc`"
+			}
+		],
+		"answer": "C",
+		"reason": "The `sort` command arranges text lines in sorted order."
+	},
+	{
+		"id": 71,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Introduction",
+		"difficulty": "easy",
+		"question": "What is a shell in UNIX?",
+		"options": [
+			{
+				"key": "A",
+				"text": "A hardware component"
+			},
+			{
+				"key": "B",
+				"text": "A user interface to the kernel"
+			},
+			{
+				"key": "C",
+				"text": "A file system"
+			},
+			{
+				"key": "D",
+				"text": "A device driver"
+			}
+		],
+		"answer": "B",
+		"reason": "A shell acts as an interface between the user and the UNIX kernel."
+	},
+	{
+		"id": 72,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Introduction",
+		"difficulty": "easy",
+		"question": "Which shell was the original standard shell in UNIX systems?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Bourne Shell (sh)"
+			},
+			{
+				"key": "B",
+				"text": "C Shell (csh)"
+			},
+			{
+				"key": "C",
+				"text": "Korn Shell (ksh)"
+			},
+			{
+				"key": "D",
+				"text": "Bash"
+			}
+		],
+		"answer": "A",
+		"reason": "The Bourne Shell (sh), developed by Stephen Bourne at Bell Labs, was the original standard command interpreter for UNIX systems."
+	},
+	{
+		"id": 73,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Types",
+		"difficulty": "medium",
+		"question": "What does Bash stand for?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Basic Advanced Shell"
+			},
+			{
+				"key": "B",
+				"text": "Bourne Again Shell"
+			},
+			{
+				"key": "C",
+				"text": "Binary Access Shell"
+			},
+			{
+				"key": "D",
+				"text": "Bourne Access Shell"
+			}
+		],
+		"answer": "B",
+		"reason": "Bash stands for Bourne Again Shell, an enhanced version of the Bourne Shell."
+	},
+	{
+		"id": 74,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Types",
+		"difficulty": "medium",
+		"question": "Which shell uses the command history feature extensively?",
+		"options": [
+			{
+				"key": "A",
+				"text": "Bash"
+			},
+			{
+				"key": "B",
+				"text": "ed"
+			},
+			{
+				"key": "C",
+				"text": "`vi`"
+			},
+			{
+				"key": "D",
+				"text": "`awk`"
+			}
+		],
+		"answer": "A",
+		"reason": "Bash provides extensive command history and command-line editing features."
+	},
+	{
+		"id": 75,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Scripting",
+		"difficulty": "easy",
+		"question": "What is the usual extension of a shell script file?",
+		"options": [
+			{
+				"key": "A",
+				"text": ".java"
+			},
+			{
+				"key": "B",
+				"text": ".sh"
+			},
+			{
+				"key": "C",
+				"text": ".c"
+			},
+			{
+				"key": "D",
+				"text": ".exe"
+			}
+		],
+		"answer": "B",
+		"reason": "Shell script files commonly use the .sh extension."
+	},
+	{
+		"id": 76,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Scripting",
+		"difficulty": "easy",
+		"question": "Which line is commonly used at the beginning of a Bash script?",
+		"options": [
+			{
+				"key": "A",
+				"text": "#!/bin/bash"
+			},
+			{
+				"key": "B",
+				"text": "#include<stdio.h>"
+			},
+			{
+				"key": "C",
+				"text": "import java.*;"
+			},
+			{
+				"key": "D",
+				"text": "<html>"
+			}
+		],
+		"answer": "A",
+		"reason": "The shebang #!/bin/bash specifies that the script should be executed using Bash."
+	},
+	{
+		"id": 77,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Variables",
+		"difficulty": "easy",
+		"question": "How is a variable assigned in a shell script?",
+		"options": [
+			{
+				"key": "A",
+				"text": "name = value"
+			},
+			{
+				"key": "B",
+				"text": "$name=value"
+			},
+			{
+				"key": "C",
+				"text": "name=value"
+			},
+			{
+				"key": "D",
+				"text": "set name=value"
+			}
+		],
+		"answer": "C",
+		"reason": "Shell variables are assigned without spaces around the = sign."
+	},
+	{
+		"id": 78,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Variables",
+		"difficulty": "easy",
+		"question": "Which symbol is used to access the value of a variable?",
+		"options": [
+			{
+				"key": "A",
+				"text": "&"
+			},
+			{
+				"key": "B",
+				"text": "#"
+			},
+			{
+				"key": "C",
+				"text": "$"
+			},
+			{
+				"key": "D",
+				"text": "@"
+			}
+		],
+		"answer": "C",
+		"reason": "The $ symbol is used to retrieve the value stored in a variable."
+	},
+	{
+		"id": 79,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Variables",
+		"difficulty": "medium",
+		"question": "Which command displays the value of a variable?",
+		"options": [
+			{
+				"key": "A",
+				"text": "show"
+			},
+			{
+				"key": "B",
+				"text": "`echo`"
+			},
+			{
+				"key": "C",
+				"text": "print"
+			},
+			{
+				"key": "D",
+				"text": "display"
+			}
+		],
+		"answer": "B",
+		"reason": "The `echo` command is commonly used to print variable values."
+	},
+	{
+		"id": 80,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Variables",
+		"difficulty": "medium",
+		"question": "Which variable stores the name of the shell script?",
+		"options": [
+			{
+				"key": "A",
+				"text": "$0"
+			},
+			{
+				"key": "B",
+				"text": "$1"
+			},
+			{
+				"key": "C",
+				"text": "$#"
+			},
+			{
+				"key": "D",
+				"text": "$$"
+			}
+		],
+		"answer": "A",
+		"reason": "$0 contains the name of the script being executed."
+	},
+	{
+		"id": 81,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Command Line Arguments",
+		"difficulty": "easy",
+		"question": "Which symbol represents the first command-line argument?",
+		"options": [
+			{
+				"key": "A",
+				"text": "$0"
+			},
+			{
+				"key": "B",
+				"text": "$1"
+			},
+			{
+				"key": "C",
+				"text": "$#"
+			},
+			{
+				"key": "D",
+				"text": "$*"
+			}
+		],
+		"answer": "B",
+		"reason": "$1 stores the first command-line argument passed to a shell script."
+	},
+	{
+		"id": 82,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Command Line Arguments",
+		"difficulty": "medium",
+		"question": "Which variable stores the total number of command-line arguments?",
+		"options": [
+			{
+				"key": "A",
+				"text": "$*"
+			},
+			{
+				"key": "B",
+				"text": "$0"
+			},
+			{
+				"key": "C",
+				"text": "$#"
+			},
+			{
+				"key": "D",
+				"text": "$$"
+			}
+		],
+		"answer": "C",
+		"reason": "$# contains the number of command-line arguments supplied."
+	},
+	{
+		"id": 83,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Command Line Arguments",
+		"difficulty": "medium",
+		"question": "Which variable represents all command-line arguments?",
+		"options": [
+			{
+				"key": "A",
+				"text": "$*"
+			},
+			{
+				"key": "B",
+				"text": "$0"
+			},
+			{
+				"key": "C",
+				"text": "$#"
+			},
+			{
+				"key": "D",
+				"text": "$?"
+			}
+		],
+		"answer": "A",
+		"reason": "$* represents all command-line arguments as a single string."
+	},
+	{
+		"id": 84,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Special Variables",
+		"difficulty": "medium",
+		"question": "Which special variable stores the process ID of the current shell?",
+		"options": [
+			{
+				"key": "A",
+				"text": "$#"
+			},
+			{
+				"key": "B",
+				"text": "$$"
+			},
+			{
+				"key": "C",
+				"text": "$*"
+			},
+			{
+				"key": "D",
+				"text": "$0"
+			}
+		],
+		"answer": "B",
+		"reason": "$$ returns the process ID (PID) of the current shell."
+	},
+	{
+		"id": 85,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Special Variables",
+		"difficulty": "medium",
+		"question": "Which variable stores the exit status of the last executed command?",
+		"options": [
+			{
+				"key": "A",
+				"text": "$?"
+			},
+			{
+				"key": "B",
+				"text": "$!"
+			},
+			{
+				"key": "C",
+				"text": "$#"
+			},
+			{
+				"key": "D",
+				"text": "$$"
+			}
+		],
+		"answer": "A",
+		"reason": "$? contains the exit status of the most recently executed command."
+	},
+	{
+		"id": 86,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Input Output",
+		"difficulty": "easy",
+		"question": "Which command is commonly used to take input from a user in a shell script?",
+		"options": [
+			{
+				"key": "A",
+				"text": "scan"
+			},
+			{
+				"key": "B",
+				"text": "input"
+			},
+			{
+				"key": "C",
+				"text": "read"
+			},
+			{
+				"key": "D",
+				"text": "accept"
+			}
+		],
+		"answer": "C",
+		"reason": "The read command accepts input from standard input."
+	},
+	{
+		"id": 87,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Input Output",
+		"difficulty": "easy",
+		"question": "Which command prints output to the terminal?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`echo`"
+			},
+			{
+				"key": "B",
+				"text": "read"
+			},
+			{
+				"key": "C",
+				"text": "input"
+			},
+			{
+				"key": "D",
+				"text": "scan"
+			}
+		],
+		"answer": "A",
+		"reason": "The `echo` command is used to display output on the terminal."
+	},
+	{
+		"id": 88,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Arithmetic Operations",
+		"difficulty": "medium",
+		"question": "Which syntax is commonly used for arithmetic expansion in Bash?",
+		"options": [
+			{
+				"key": "A",
+				"text": "${a+b}"
+			},
+			{
+				"key": "B",
+				"text": "$((a+b))"
+			},
+			{
+				"key": "C",
+				"text": "$(a+b)"
+			},
+			{
+				"key": "D",
+				"text": "[a+b]"
+			}
+		],
+		"answer": "B",
+		"reason": "$(( )) performs arithmetic evaluation in Bash."
+	},
+	{
+		"id": 89,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Conditional Statements",
+		"difficulty": "easy",
+		"question": "Which keyword begins an if statement in shell scripting?",
+		"options": [
+			{
+				"key": "A",
+				"text": "if"
+			},
+			{
+				"key": "B",
+				"text": "when"
+			},
+			{
+				"key": "C",
+				"text": "switch"
+			},
+			{
+				"key": "D",
+				"text": "case"
+			}
+		],
+		"answer": "A",
+		"reason": "The if keyword starts a conditional statement in shell scripts."
+	},
+	{
+		"id": 90,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Conditional Statements",
+		"difficulty": "easy",
+		"question": "Which keyword ends an if statement?",
+		"options": [
+			{
+				"key": "A",
+				"text": "done"
+			},
+			{
+				"key": "B",
+				"text": "end"
+			},
+			{
+				"key": "C",
+				"text": "fi"
+			},
+			{
+				"key": "D",
+				"text": "endif"
+			}
+		],
+		"answer": "C",
+		"reason": "fi is if written backward and marks the end of an if block."
+	},
+	{
+		"id": 91,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Conditional Statements",
+		"difficulty": "medium",
+		"question": "Which operator is used for numeric equality comparison inside test brackets?",
+		"options": [
+			{
+				"key": "A",
+				"text": "="
+			},
+			{
+				"key": "B",
+				"text": "=="
+			},
+			{
+				"key": "C",
+				"text": "`-eq`"
+			},
+			{
+				"key": "D",
+				"text": "`-e`"
+			}
+		],
+		"answer": "C",
+		"reason": "`-eq` is used for comparing integer values in shell scripts."
+	},
+	{
+		"id": 92,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Conditional Statements",
+		"difficulty": "medium",
+		"question": "Which operator checks whether a file exists?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`-e`"
+			},
+			{
+				"key": "B",
+				"text": "`-eq`"
+			},
+			{
+				"key": "C",
+				"text": "`-gt`"
+			},
+			{
+				"key": "D",
+				"text": "`-lt`"
+			}
+		],
+		"answer": "A",
+		"reason": "The `-e` file test returns true if the specified file exists."
+	},
+	{
+		"id": 93,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Loops",
+		"difficulty": "easy",
+		"question": "Which loop is commonly used to iterate through a list of values?",
+		"options": [
+			{
+				"key": "A",
+				"text": "for"
+			},
+			{
+				"key": "B",
+				"text": "switch"
+			},
+			{
+				"key": "C",
+				"text": "goto"
+			},
+			{
+				"key": "D",
+				"text": "selectcase"
+			}
+		],
+		"answer": "A",
+		"reason": "The for loop iterates over a sequence of values."
+	},
+	{
+		"id": 94,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Loops",
+		"difficulty": "easy",
+		"question": "Which keyword terminates a loop block in shell scripting?",
+		"options": [
+			{
+				"key": "A",
+				"text": "fi"
+			},
+			{
+				"key": "B",
+				"text": "done"
+			},
+			{
+				"key": "C",
+				"text": "end"
+			},
+			{
+				"key": "D",
+				"text": "stop"
+			}
+		],
+		"answer": "B",
+		"reason": "The done keyword marks the end of for, while, and until loops."
+	},
+	{
+		"id": 95,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Loops",
+		"difficulty": "medium",
+		"question": "Which loop executes as long as a condition remains true?",
+		"options": [
+			{
+				"key": "A",
+				"text": "while"
+			},
+			{
+				"key": "B",
+				"text": "case"
+			},
+			{
+				"key": "C",
+				"text": "if"
+			},
+			{
+				"key": "D",
+				"text": "select"
+			}
+		],
+		"answer": "A",
+		"reason": "A while loop repeatedly executes while its condition evaluates to true."
+	},
+	{
+		"id": 96,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Loops",
+		"difficulty": "medium",
+		"question": "Which loop executes until a condition becomes true?",
+		"options": [
+			{
+				"key": "A",
+				"text": "for"
+			},
+			{
+				"key": "B",
+				"text": "while"
+			},
+			{
+				"key": "C",
+				"text": "until"
+			},
+			{
+				"key": "D",
+				"text": "case"
+			}
+		],
+		"answer": "C",
+		"reason": "An until loop runs while the condition is false and stops when it becomes true."
+	},
+	{
+		"id": 97,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Case Statement",
+		"difficulty": "medium",
+		"question": "Which construct is used as an alternative to multiple if-else statements?",
+		"options": [
+			{
+				"key": "A",
+				"text": "while"
+			},
+			{
+				"key": "B",
+				"text": "case"
+			},
+			{
+				"key": "C",
+				"text": "until"
+			},
+			{
+				"key": "D",
+				"text": "for"
+			}
+		],
+		"answer": "B",
+		"reason": "The case statement allows multiple pattern-based branches."
+	},
+	{
+		"id": 98,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Case Statement",
+		"difficulty": "medium",
+		"question": "Which keyword terminates a case statement?",
+		"options": [
+			{
+				"key": "A",
+				"text": "done"
+			},
+			{
+				"key": "B",
+				"text": "esac"
+			},
+			{
+				"key": "C",
+				"text": "fi"
+			},
+			{
+				"key": "D",
+				"text": "endcase"
+			}
+		],
+		"answer": "B",
+		"reason": "esac is case spelled backward and ends a case statement."
+	},
+	{
+		"id": 99,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Script Execution",
+		"difficulty": "medium",
+		"question": "Which command makes a shell script executable?",
+		"options": [
+			{
+				"key": "A",
+				"text": "`chmod +x script.sh`"
+			},
+			{
+				"key": "B",
+				"text": "run script.sh"
+			},
+			{
+				"key": "C",
+				"text": "execute script.sh"
+			},
+			{
+				"key": "D",
+				"text": "shell script.sh"
+			}
+		],
+		"answer": "A",
+		"reason": "The execute permission must be granted using `chmod` +x before direct execution."
+	},
+	{
+		"id": 100,
+		"subject": "UNIX and Shell Programming",
+		"topic": "Shell Script Execution",
+		"difficulty": "hard",
+		"question": "Which command executes a shell script named test.sh from the current directory?",
+		"options": [
+			{
+				"key": "A",
+				"text": "test.sh"
+			},
+			{
+				"key": "B",
+				"text": "/test.sh"
+			},
+			{
+				"key": "C",
+				"text": "./test.sh"
+			},
+			{
+				"key": "D",
+				"text": "run test.sh"
+			}
+		],
+		"answer": "C",
+		"reason": "Using ./ specifies the current directory and executes the script if it has execute permission."
+	}
 ]
