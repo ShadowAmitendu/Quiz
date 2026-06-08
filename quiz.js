@@ -218,12 +218,8 @@ function toggleTheme() {
 }
 
 function getOptionIndexFromKey(key) {
-	const normalized = key.toLowerCase();
-	if (normalized >= "1" && normalized <= "4") {
-		return Number(normalized) - 1;
-	}
-	if (normalized >= "a" && normalized <= "d") {
-		return normalized.charCodeAt(0) - 97;
+	if (key >= "1" && key <= "4") {
+		return Number(key) - 1;
 	}
 	return -1;
 }
@@ -1123,27 +1119,27 @@ function onTimerTimeout() {
 function handleQuizKeys(event) {
 	if (!isQuizScreenActive()) return;
 
-	const nextKeys = [" ", "Enter", "n", "N", "ArrowRight"];
-	const optionIndex = getOptionIndexFromKey(event.key);
+	/* Only respond to 1-4, Space, and Enter — ignore everything else */
+	const allowedKeys = ["1", "2", "3", "4", " ", "Enter"];
+	if (!allowedKeys.includes(event.key)) return;
 
-	if (event.key === "s" || event.key === "S") {
-		event.preventDefault();
-		skipQuestion();
-		return;
-	}
+	const optionIndex = getOptionIndexFromKey(event.key);
+	const displayKeys = ["A", "B", "C", "D"];
 
 	if (!checked) {
 		if (optionIndex >= 0) {
-			if (questions[current]?.options?.[optionIndex]) {
+			const q = questions[current];
+			if (q?._shuffledOpts?.[optionIndex]) {
 				event.preventDefault();
-				selectOpt(questions[current].options[optionIndex].key);
+				selectOpt(displayKeys[optionIndex]);
 			}
 			return;
 		}
 		return;
 	}
 
-	if (nextKeys.includes(event.key)) {
+	/* After answer is checked, Space / Enter → next question */
+	if (event.key === " " || event.key === "Enter") {
 		event.preventDefault();
 		nextQuestion();
 	}
