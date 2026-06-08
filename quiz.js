@@ -838,7 +838,20 @@ function renderQuestion(restoreChecked = false, restoreSelected = null) {
 
 	/* options — shuffle and reassign display keys */
 	const displayKeys = ["A", "B", "C", "D"];
-	const shuffledOpts = q._shuffledOpts || shuffle([...q.options]);
+	
+	const hasPositionalOption = q.options.some(o => {
+		const text = String(o.text).trim();
+		return /\bboth\b/i.test(text) || 
+		       (/\ball\b/i.test(text) && /\b(?:above|these|those|options|them)\b/i.test(text)) || 
+		       (/\bnone\b/i.test(text) && /\b(?:above|these|those|options|them)\b/i.test(text)) || 
+		       /\bneither\b/i.test(text) || 
+		       /\beither\b/i.test(text) ||
+		       /\b(?:options?\s+)?[a-d]\s*(?:and|or|&|\/)\s*[a-d]\b/i.test(text) ||
+		       /\b(?:options?\s+)?\([a-d]\)\s*(?:and|or|&|\/)\s*\([a-d]\)\b/i.test(text) ||
+		       /\b(?:options?\s+)?[a-d]\s*,\s*[a-d]\s*(?:and|or|&)\s*[a-d]\b/i.test(text);
+	});
+	
+	const shuffledOpts = q._shuffledOpts || (hasPositionalOption ? [...q.options] : shuffle([...q.options]));
 	q._shuffledOpts = shuffledOpts;
 	const keyMap = {}; /* original key → new display key */
 	shuffledOpts.forEach((o, idx) => {
@@ -1412,7 +1425,16 @@ if (!keyboardListenerReady) {
 	keyboardListenerReady = true;
 }
 
-themeToggle.addEventListener("click", toggleTheme);
+// Clear stale local storage progress cache from old database versions
+const DB_VERSION = "2";
+if (localStorage.getItem("db_version") !== DB_VERSION) {
+	for (let key in localStorage) {
+		if (key.startsWith('quiz_progress_')) {
+			localStorage.removeItem(key);
+		}
+	}
+	localStorage.setItem("db_version", DB_VERSION);
+}
 
 loadHome();
 if (typeof lucide !== "undefined") lucide.createIcons();
