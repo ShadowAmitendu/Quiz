@@ -8,23 +8,23 @@
     "options": [
       {
         "key": "A",
-        "text": "mkdir"
+        "text": "`mkdir`"
       },
       {
         "key": "B",
-        "text": "rmdir"
+        "text": "`rmdir`"
       },
       {
         "key": "C",
-        "text": "cd"
+        "text": "`cd`"
       },
       {
         "key": "D",
-        "text": "touch"
+        "text": "`touch`"
       }
     ],
     "answer": "A",
-    "reason": "The mkdir command creates one or more new directories."
+    "reason": "The `mkdir` command creates one or `more` new directories."
   },
   {
     "id": 2,
@@ -35,23 +35,23 @@
     "options": [
       {
         "key": "A",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "B",
-        "text": "cd"
+        "text": "`cd`"
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
-        "text": "mv"
+        "text": "`mv`"
       }
     ],
     "answer": "B",
-    "reason": "The cd command changes the current working directory."
+    "reason": "The `cd` command changes the current working directory."
   },
   {
     "id": 3,
@@ -62,23 +62,23 @@
     "options": [
       {
         "key": "A",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "B",
-        "text": "cd"
+        "text": "`cd`"
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
-        "text": "mkdir"
+        "text": "`mkdir`"
       }
     ],
     "answer": "A",
-    "reason": "pwd stands for Print Working Directory."
+    "reason": "`pwd` stands for Print Working Directory."
   },
   {
     "id": 4,
@@ -89,50 +89,50 @@
     "options": [
       {
         "key": "A",
-        "text": "cp"
+        "text": "`cp`"
       },
       {
         "key": "B",
-        "text": "mv"
+        "text": "`mv`"
       },
       {
         "key": "C",
-        "text": "mkdir"
+        "text": "`mkdir`"
       },
       {
         "key": "D",
-        "text": "ls"
+        "text": "`ls`"
       }
     ],
     "answer": "B",
-    "reason": "The mv command is used to move or rename files and directories."
+    "reason": "The `mv` command is used to move or rename files and directories."
   },
   {
     "id": 5,
     "subject": "UNIX and Shell Programming",
     "topic": "Directory Management",
     "difficulty": "medium",
-    "question": "Which option is commonly used with cp to copy directories recursively?",
+    "question": "Which option is commonly used with `cp` to copy directories recursively?",
     "options": [
       {
         "key": "A",
-        "text": "-l"
+        "text": "`-l`"
       },
       {
         "key": "B",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "C",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "D",
-        "text": "-d"
+        "text": "`-d`"
       }
     ],
     "answer": "B",
-    "reason": "The -r option copies a directory and all its contents recursively."
+    "reason": "The `-r` option copies a directory and all its contents recursively."
   },
   {
     "id": 6,
@@ -151,7 +151,7 @@
       },
       {
         "key": "C",
-        "text": "touch"
+        "text": "`touch`"
       },
       {
         "key": "D",
@@ -159,7 +159,7 @@
       }
     ],
     "answer": "C",
-    "reason": "touch creates an empty file if it does not already exist."
+    "reason": "`touch` creates an empty file if it does not already exist."
   },
   {
     "id": 7,
@@ -178,15 +178,15 @@
       },
       {
         "key": "C",
-        "text": "rm"
+        "text": "`rm`"
       },
       {
         "key": "D",
-        "text": "rmdir"
+        "text": "`rmdir`"
       }
     ],
     "answer": "C",
-    "reason": "The rm command removes files and directories."
+    "reason": "The `rm` command removes files and directories."
   },
   {
     "id": 8,
@@ -197,11 +197,11 @@
     "options": [
       {
         "key": "A",
-        "text": "rm"
+        "text": "`rm`"
       },
       {
         "key": "B",
-        "text": "rmdir"
+        "text": "`rmdir`"
       },
       {
         "key": "C",
@@ -213,7 +213,7 @@
       }
     ],
     "answer": "B",
-    "reason": "rmdir removes directories that are empty."
+    "reason": "`rmdir` removes directories that are empty."
   },
   {
     "id": 9,
@@ -224,15 +224,15 @@
     "options": [
       {
         "key": "A",
-        "text": "cat"
+        "text": "`cat`"
       },
       {
         "key": "B",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
@@ -240,7 +240,7 @@
       }
     ],
     "answer": "C",
-    "reason": "The ls command displays files and directories."
+    "reason": "The `ls` command displays files and directories."
   },
   {
     "id": 10,
@@ -267,7 +267,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The -l option displays detailed file information in long format."
+    "reason": "The `-l` option displays detailed file information in long format."
   },
   {
     "id": 11,
@@ -294,7 +294,7 @@
       }
     ],
     "answer": "A",
-    "reason": "A regular file is represented by `-` in the first column."
+    "reason": "A regular file is represented by - in the first column."
   },
   {
     "id": 12,
@@ -321,7 +321,7 @@
       }
     ],
     "answer": "C",
-    "reason": "The character `d` indicates a directory."
+    "reason": "The character d indicates a directory."
   },
   {
     "id": 13,
@@ -348,7 +348,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The letter `l` identifies a symbolic link."
+    "reason": "The letter l identifies a symbolic link."
   },
   {
     "id": 14,
@@ -359,15 +359,15 @@
     "options": [
       {
         "key": "A",
-        "text": "chown"
+        "text": "`chown`"
       },
       {
         "key": "B",
-        "text": "chmod"
+        "text": "`chmod`"
       },
       {
         "key": "C",
-        "text": "touch"
+        "text": "`touch`"
       },
       {
         "key": "D",
@@ -375,7 +375,7 @@
       }
     ],
     "answer": "B",
-    "reason": "chmod is used to modify file and directory permissions."
+    "reason": "`chmod` is used to modify file and directory permissions."
   },
   {
     "id": 15,
@@ -409,7 +409,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Touch Command",
     "difficulty": "medium",
-    "question": "What is the primary use of the touch command?",
+    "question": "What is the primary use of the `touch` command?",
     "options": [
       {
         "key": "A",
@@ -429,7 +429,7 @@
       }
     ],
     "answer": "B",
-    "reason": "touch creates empty files and updates file timestamps."
+    "reason": "`touch` creates empty files and updates file timestamps."
   },
   {
     "id": 17,
@@ -517,54 +517,54 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Touch Command",
     "difficulty": "hard",
-    "question": "Which touch option is used to specify a custom date and time?",
+    "question": "Which `touch` option is used to specify a custom date and time?",
     "options": [
       {
         "key": "A",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "B",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "C",
-        "text": "-t"
+        "text": "`-t`"
       },
       {
         "key": "D",
-        "text": "-u"
+        "text": "`-u`"
       }
     ],
     "answer": "C",
-    "reason": "The -t option allows setting a specific timestamp."
+    "reason": "The `-t` option allows setting a specific timestamp."
   },
   {
     "id": 21,
     "subject": "UNIX and Shell Programming",
     "topic": "Touch Command",
     "difficulty": "hard",
-    "question": "Which touch option accepts a date string such as `2025-01-01 10:00`?",
+    "question": "Which `touch` option accepts a date string such as 2025-01-01 10:00?",
     "options": [
       {
         "key": "A",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "B",
-        "text": "-t"
+        "text": "`-t`"
       },
       {
         "key": "C",
-        "text": "-m"
+        "text": "`-m`"
       },
       {
         "key": "D",
-        "text": "-c"
+        "text": "`-c`"
       }
     ],
     "answer": "A",
-    "reason": "The -d option allows timestamps to be specified using human-readable date strings."
+    "reason": "The `-d` option allows timestamps to be specified using human-readable date strings."
   },
   {
     "id": 22,
@@ -579,11 +579,11 @@
       },
       {
         "key": "B",
-        "text": "find"
+        "text": "`find`"
       },
       {
         "key": "C",
-        "text": "grep"
+        "text": "`grep`"
       },
       {
         "key": "D",
@@ -591,34 +591,34 @@
       }
     ],
     "answer": "B",
-    "reason": "The find command searches files and directories based on specified criteria."
+    "reason": "The `find` command searches files and directories based on specified criteria."
   },
   {
     "id": 23,
     "subject": "UNIX and Shell Programming",
     "topic": "Find Command",
     "difficulty": "medium",
-    "question": "Which option of find is commonly used to search by file name?",
+    "question": "Which option of `find` is commonly used to search by file name?",
     "options": [
       {
         "key": "A",
-        "text": "-name"
+        "text": "`-name`"
       },
       {
         "key": "B",
-        "text": "-file"
+        "text": "`-file`"
       },
       {
         "key": "C",
-        "text": "-search"
+        "text": "`-search`"
       },
       {
         "key": "D",
-        "text": "-find"
+        "text": "`-find`"
       }
     ],
     "answer": "A",
-    "reason": "The -name option matches file and directory names."
+    "reason": "The `-name` option matches file and directory names."
   },
   {
     "id": 24,
@@ -629,7 +629,7 @@
     "options": [
       {
         "key": "A",
-        "text": "ln"
+        "text": "`ln`"
       },
       {
         "key": "B",
@@ -637,7 +637,7 @@
       },
       {
         "key": "C",
-        "text": "`link -s`"
+        "text": "link `-s`"
       },
       {
         "key": "D",
@@ -645,7 +645,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The ln command without options creates a hard link."
+    "reason": "The `ln` command without options creates a hard link."
   },
   {
     "id": 25,
@@ -656,7 +656,7 @@
     "options": [
       {
         "key": "A",
-        "text": "ln"
+        "text": "`ln`"
       },
       {
         "key": "B",
@@ -672,7 +672,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The -s option of ln creates a symbolic link."
+    "reason": "The `-s` option of `ln` creates a symbolic link."
   },
   {
     "id": 26,
@@ -749,7 +749,7 @@
       },
       {
         "key": "D",
-        "text": "`stat -n`"
+        "text": "stat `-n`"
       }
     ],
     "answer": "A",
@@ -764,11 +764,11 @@
     "options": [
       {
         "key": "A",
-        "text": "du"
+        "text": "`du`"
       },
       {
         "key": "B",
-        "text": "df"
+        "text": "`df`"
       },
       {
         "key": "C",
@@ -780,7 +780,7 @@
       }
     ],
     "answer": "B",
-    "reason": "df displays total, used, and available space on file systems."
+    "reason": "`df` displays total, used, and available space on file systems."
   },
   {
     "id": 30,
@@ -791,15 +791,15 @@
     "options": [
       {
         "key": "A",
-        "text": "df"
+        "text": "`df`"
       },
       {
         "key": "B",
-        "text": "du"
+        "text": "`du`"
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
@@ -807,14 +807,14 @@
       }
     ],
     "answer": "B",
-    "reason": "du reports disk usage for files and directories."
+    "reason": "`du` reports disk usage for files and directories."
   },
   {
     "id": 31,
     "subject": "UNIX and Shell Programming",
     "topic": "Redirection",
     "difficulty": "easy",
-    "question": "What does the `>` operator do in UNIX?",
+    "question": "What does the > operator do in UNIX?",
     "options": [
       {
         "key": "A",
@@ -841,7 +841,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Redirection",
     "difficulty": "easy",
-    "question": "What does the `>>` operator do?",
+    "question": "What does the >> operator do?",
     "options": [
       {
         "key": "A",
@@ -872,7 +872,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Join two files"
+        "text": "`Join two files`"
       },
       {
         "key": "B",
@@ -934,15 +934,15 @@
       },
       {
         "key": "C",
-        "text": "`tee -a` file.txt"
+        "text": "tee `-a` file.txt"
       },
       {
         "key": "D",
-        "text": "`tee -r` file.txt"
+        "text": "tee `-r` file.txt"
       }
     ],
     "answer": "C",
-    "reason": "The -a option of tee appends output to the specified file instead of overwriting it."
+    "reason": "The `-a` option of tee appends output to the specified file instead of overwriting it."
   },
   {
     "id": 36,
@@ -953,7 +953,7 @@
     "options": [
       {
         "key": "A",
-        "text": "mkdir dir1 dir2 dir3"
+        "text": "`mkdir dir1 dir2 dir3`"
       },
       {
         "key": "B",
@@ -969,14 +969,14 @@
       }
     ],
     "answer": "A",
-    "reason": "The mkdir command can accept multiple directory names and create them simultaneously."
+    "reason": "The `mkdir` command can accept multiple directory names and create them simultaneously."
   },
   {
     "id": 37,
     "subject": "UNIX and Shell Programming",
     "topic": "Directory Management",
     "difficulty": "medium",
-    "question": "What does the command ``mkdir -p` a/b/c` do?",
+    "question": "What does the command `mkdir -p` a/b/c do?",
     "options": [
       {
         "key": "A",
@@ -996,7 +996,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The -p option creates intermediate parent directories automatically."
+    "reason": "The `-p` option creates intermediate parent directories automatically."
   },
   {
     "id": 38,
@@ -1007,23 +1007,23 @@
     "options": [
       {
         "key": "A",
-        "text": "cd ."
+        "text": "`cd .`"
       },
       {
         "key": "B",
-        "text": "cd /"
+        "text": "`cd /`"
       },
       {
         "key": "C",
-        "text": "cd .."
+        "text": "`cd ..`"
       },
       {
         "key": "D",
-        "text": "cd ~"
+        "text": "`cd ~`"
       }
     ],
     "answer": "C",
-    "reason": "The `..` notation represents the parent directory."
+    "reason": "The .. notation represents the parent directory."
   },
   {
     "id": 39,
@@ -1057,27 +1057,27 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Copy Command",
     "difficulty": "medium",
-    "question": "Which option of cp preserves file attributes during copying?",
+    "question": "Which option of `cp` preserves file attributes during copying?",
     "options": [
       {
         "key": "A",
-        "text": "-p"
+        "text": "`-p`"
       },
       {
         "key": "B",
-        "text": "-f"
+        "text": "`-f`"
       },
       {
         "key": "C",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "D",
-        "text": "-x"
+        "text": "`-x`"
       }
     ],
     "answer": "A",
-    "reason": "The -p option preserves timestamps, ownership, and permissions."
+    "reason": "The `-p` option preserves timestamps, ownership, and permissions."
   },
   {
     "id": 41,
@@ -1088,7 +1088,7 @@
     "options": [
       {
         "key": "A",
-        "text": "cp"
+        "text": "`cp`"
       },
       {
         "key": "B",
@@ -1096,15 +1096,15 @@
       },
       {
         "key": "C",
-        "text": "mv"
+        "text": "`mv`"
       },
       {
         "key": "D",
-        "text": "touch"
+        "text": "`touch`"
       }
     ],
     "answer": "C",
-    "reason": "The mv command renames a file when the source and destination are in the same directory."
+    "reason": "The `mv` command renames a file when the source and destination are in the same directory."
   },
   {
     "id": 42,
@@ -1115,7 +1115,7 @@
     "options": [
       {
         "key": "A",
-        "text": "touch test.txt"
+        "text": "`touch test.txt`"
       },
       {
         "key": "B",
@@ -1131,7 +1131,7 @@
       }
     ],
     "answer": "A",
-    "reason": "touch creates an empty file if it does not already exist."
+    "reason": "`touch` creates an empty file if it does not already exist."
   },
   {
     "id": 43,
@@ -1150,7 +1150,7 @@
       },
       {
         "key": "C",
-        "text": "`remove -all`"
+        "text": "remove `-all`"
       },
       {
         "key": "D",
@@ -1165,27 +1165,27 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Directory Listing",
     "difficulty": "easy",
-    "question": "Which option of ls displays hidden files?",
+    "question": "Which option of `ls` displays hidden files?",
     "options": [
       {
         "key": "A",
-        "text": "-h"
+        "text": "`-h`"
       },
       {
         "key": "B",
-        "text": "-l"
+        "text": "`-l`"
       },
       {
         "key": "C",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "D",
-        "text": "-s"
+        "text": "`-s`"
       }
     ],
     "answer": "C",
-    "reason": "The -a option displays all files, including hidden files beginning with a dot."
+    "reason": "The `-a` option displays all files, including hidden files beginning with a dot."
   },
   {
     "id": 45,
@@ -1212,14 +1212,14 @@
       }
     ],
     "answer": "A",
-    "reason": "The -h option `with -l` displays file sizes in KB, MB, and GB format."
+    "reason": "The `-h` option with `-l` displays file sizes in KB, MB, and GB format."
   },
   {
     "id": 46,
     "subject": "UNIX and Shell Programming",
     "topic": "File Types",
     "difficulty": "hard",
-    "question": "Which file type is represented by `c` in `ls -l` output?",
+    "question": "Which file type is represented by c in `ls -l` output?",
     "options": [
       {
         "key": "A",
@@ -1239,14 +1239,14 @@
       }
     ],
     "answer": "A",
-    "reason": "The character `c` denotes a character device file."
+    "reason": "The character c denotes a character device file."
   },
   {
     "id": 47,
     "subject": "UNIX and Shell Programming",
     "topic": "File Types",
     "difficulty": "hard",
-    "question": "Which file type is represented by `b` in `ls -l` output?",
+    "question": "Which file type is represented by b in `ls -l` output?",
     "options": [
       {
         "key": "A",
@@ -1266,7 +1266,7 @@
       }
     ],
     "answer": "C",
-    "reason": "The character `b` represents a block device file."
+    "reason": "The character b represents a block device file."
   },
   {
     "id": 48,
@@ -1304,19 +1304,19 @@
     "options": [
       {
         "key": "A",
-        "text": "chmod 755 file"
+        "text": "`chmod 755 file`"
       },
       {
         "key": "B",
-        "text": "chmod 644 file"
+        "text": "`chmod 644 file`"
       },
       {
         "key": "C",
-        "text": "chmod 777 file"
+        "text": "`chmod 777 file`"
       },
       {
         "key": "D",
-        "text": "chmod 700 file"
+        "text": "`chmod 700 file`"
       }
     ],
     "answer": "C",
@@ -1374,61 +1374,61 @@
       }
     ],
     "answer": "A",
-    "reason": "The stat command displays atime, mtime, ctime, inode information, and more."
+    "reason": "The stat command displays atime, mtime, ctime, inode information, and `more`."
   },
   {
     "id": 52,
     "subject": "UNIX and Shell Programming",
     "topic": "Touch Command",
     "difficulty": "hard",
-    "question": "Which touch option changes only the access time of a file?",
+    "question": "Which `touch` option changes only the access time of a file?",
     "options": [
       {
         "key": "A",
-        "text": "-m"
+        "text": "`-m`"
       },
       {
         "key": "B",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "C",
-        "text": "-t"
+        "text": "`-t`"
       },
       {
         "key": "D",
-        "text": "-d"
+        "text": "`-d`"
       }
     ],
     "answer": "B",
-    "reason": "The -a option modifies only the access time (atime)."
+    "reason": "The `-a` option modifies only the access time (atime)."
   },
   {
     "id": 53,
     "subject": "UNIX and Shell Programming",
     "topic": "Touch Command",
     "difficulty": "hard",
-    "question": "Which touch option changes only the modification time?",
+    "question": "Which `touch` option changes only the modification time?",
     "options": [
       {
         "key": "A",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "B",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "C",
-        "text": "-m"
+        "text": "`-m`"
       },
       {
         "key": "D",
-        "text": "-r"
+        "text": "`-r`"
       }
     ],
     "answer": "C",
-    "reason": "The -m option updates only the modification time."
+    "reason": "The `-m` option updates only the modification time."
   },
   {
     "id": 54,
@@ -1439,7 +1439,7 @@
     "options": [
       {
         "key": "A",
-        "text": "find . -name report.txt"
+        "text": "`find . -name report.txt`"
       },
       {
         "key": "B",
@@ -1447,69 +1447,69 @@
       },
       {
         "key": "C",
-        "text": "locate report.txt -current"
+        "text": "locate report.txt `-current`"
       },
       {
         "key": "D",
-        "text": "grep report.txt"
+        "text": "`grep report.txt`"
       }
     ],
     "answer": "A",
-    "reason": "find . -name searches recursively from the current directory."
+    "reason": "`find` . `-name` searches recursively from the current directory."
   },
   {
     "id": 55,
     "subject": "UNIX and Shell Programming",
     "topic": "Find Command",
     "difficulty": "hard",
-    "question": "Which option of find searches only directories?",
+    "question": "Which option of `find` searches only directories?",
     "options": [
       {
         "key": "A",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "B",
-        "text": "-type d"
+        "text": "`-type d`"
       },
       {
         "key": "C",
-        "text": "-dir"
+        "text": "`-dir`"
       },
       {
         "key": "D",
-        "text": "-folder"
+        "text": "`-folder`"
       }
     ],
     "answer": "B",
-    "reason": "The -type d option restricts results to directories."
+    "reason": "The `-type` d option restricts results to directories."
   },
   {
     "id": 56,
     "subject": "UNIX and Shell Programming",
     "topic": "Find Command",
     "difficulty": "hard",
-    "question": "Which option of find searches only regular files?",
+    "question": "Which option of `find` searches only regular files?",
     "options": [
       {
         "key": "A",
-        "text": "-type f"
+        "text": "`-type f`"
       },
       {
         "key": "B",
-        "text": "-file"
+        "text": "`-file`"
       },
       {
         "key": "C",
-        "text": "-regular"
+        "text": "`-regular`"
       },
       {
         "key": "D",
-        "text": "-type r"
+        "text": "`-type r`"
       }
     ],
     "answer": "A",
-    "reason": "The -type f option limits search results to regular files."
+    "reason": "The `-type` f option limits search results to regular files."
   },
   {
     "id": 57,
@@ -1671,7 +1671,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The -h option shows sizes in KB, MB, and GB."
+    "reason": "The `-h` option shows sizes in KB, MB, and GB."
   },
   {
     "id": 63,
@@ -1682,11 +1682,11 @@
     "options": [
       {
         "key": "A",
-        "text": "du"
+        "text": "`du`"
       },
       {
         "key": "B",
-        "text": "df"
+        "text": "`df`"
       },
       {
         "key": "C",
@@ -1698,14 +1698,14 @@
       }
     ],
     "answer": "B",
-    "reason": "df reports free and used disk space for mounted file systems."
+    "reason": "`df` reports free and used disk space for mounted file systems."
   },
   {
     "id": 64,
     "subject": "UNIX and Shell Programming",
     "topic": "Redirection",
     "difficulty": "medium",
-    "question": "What happens when output is redirected using `>` to an existing file?",
+    "question": "What happens when output is redirected using > to an existing file?",
     "options": [
       {
         "key": "A",
@@ -1732,7 +1732,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Pipe",
     "difficulty": "medium",
-    "question": "What is the output of `ls | `wc -l``?",
+    "question": "What is the output of `ls` | `wc -l`?",
     "options": [
       {
         "key": "A",
@@ -1752,7 +1752,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The output of ls is passed to `wc -l`, which counts the lines."
+    "reason": "The output of `ls` is passed to `wc -l`, which counts the lines."
   },
   {
     "id": 66,
@@ -1817,23 +1817,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "B",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "C",
-        "text": "-p"
+        "text": "`-p`"
       },
       {
         "key": "D",
-        "text": "-f"
+        "text": "`-f`"
       }
     ],
     "answer": "A",
-    "reason": "The -a option appends output to an existing file."
+    "reason": "The `-a` option appends output to an existing file."
   },
   {
     "id": 69,
@@ -1844,11 +1844,11 @@
     "options": [
       {
         "key": "A",
-        "text": "ln file.txt link.txt"
+        "text": "`ln file.txt link.txt`"
       },
       {
         "key": "B",
-        "text": "`ln -s` file.txt link.txt"
+        "text": "`ln -s file.txt link.txt`"
       },
       {
         "key": "C",
@@ -1856,7 +1856,7 @@
       },
       {
         "key": "D",
-        "text": "`cp -s` file.txt link.txt"
+        "text": "`cp -s file.txt link.txt`"
       }
     ],
     "answer": "B",
@@ -1879,26 +1879,26 @@
       },
       {
         "key": "C",
-        "text": "`stat -l`"
+        "text": "stat `-l`"
       },
       {
         "key": "D",
-        "text": "`inode -l`"
+        "text": "inode `-l`"
       }
     ],
     "answer": "A",
-    "reason": "The combination `of -l` `and -i` options displays detailed information along with inode numbers."
+    "reason": "The combination of `-l` and `-i` options displays detailed information along with inode numbers."
   },
   {
     "id": 71,
     "subject": "UNIX and Shell Programming",
     "topic": "mkdir Command",
     "difficulty": "easy",
-    "question": "Which command creates a directory named `projects`?",
+    "question": "Which command creates a directory named projects?",
     "options": [
       {
         "key": "A",
-        "text": "mkdir projects"
+        "text": "`mkdir` projects"
       },
       {
         "key": "B",
@@ -1914,14 +1914,14 @@
       }
     ],
     "answer": "A",
-    "reason": "The mkdir command is used to create directories in UNIX."
+    "reason": "The `mkdir` command is used to create directories in UNIX."
   },
   {
     "id": 72,
     "subject": "UNIX and Shell Programming",
     "topic": "cd Command",
     "difficulty": "easy",
-    "question": "What does the command `cd ~` do?",
+    "question": "What does the command `cd` ~ do?",
     "options": [
       {
         "key": "A",
@@ -1941,7 +1941,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The `~` symbol refers to the current user's home directory."
+    "reason": "The ~ symbol refers to the current user's home directory."
   },
   {
     "id": 73,
@@ -1952,11 +1952,11 @@
     "options": [
       {
         "key": "A",
-        "text": "mv file1.txt file2.txt"
+        "text": "`mv file1.txt file2.txt`"
       },
       {
         "key": "B",
-        "text": "cp file1.txt file2.txt"
+        "text": "`cp file1.txt file2.txt`"
       },
       {
         "key": "C",
@@ -1964,38 +1964,38 @@
       },
       {
         "key": "D",
-        "text": "touch file2.txt"
+        "text": "`touch file2.txt`"
       }
     ],
     "answer": "B",
-    "reason": "The cp command duplicates files and directories."
+    "reason": "The `cp` command duplicates files and directories."
   },
   {
     "id": 74,
     "subject": "UNIX and Shell Programming",
     "topic": "Move Command",
     "difficulty": "medium",
-    "question": "Which command moves file.txt to the `/tmp` directory?",
+    "question": "Which command moves file.txt to the /tmp directory?",
     "options": [
       {
         "key": "A",
-        "text": "cp file.txt `/tmp`"
+        "text": "`cp file.txt /tmp`"
       },
       {
         "key": "B",
-        "text": "mv file.txt `/tmp`"
+        "text": "`mv file.txt /tmp`"
       },
       {
         "key": "C",
-        "text": "move file.txt `/tmp`"
+        "text": "move file.txt /tmp"
       },
       {
         "key": "D",
-        "text": "rename file.txt `/tmp`"
+        "text": "rename file.txt /tmp"
       }
     ],
     "answer": "B",
-    "reason": "The mv command is used to move files and directories."
+    "reason": "The `mv` command is used to move files and directories."
   },
   {
     "id": 75,
@@ -2006,23 +2006,23 @@
     "options": [
       {
         "key": "A",
-        "text": "touch notes.txt"
+        "text": "`touch notes.txt`"
       },
       {
         "key": "B",
-        "text": "mkdir notes.txt"
+        "text": "`mkdir notes.txt`"
       },
       {
         "key": "C",
-        "text": "cat notes.txt"
+        "text": "`cat notes.txt`"
       },
       {
         "key": "D",
-        "text": "echo notes.txt"
+        "text": "`echo notes.txt`"
       }
     ],
     "answer": "A",
-    "reason": "touch creates an empty file if it does not already exist."
+    "reason": "`touch` creates an empty file if it does not already exist."
   },
   {
     "id": 76,
@@ -2037,11 +2037,11 @@
       },
       {
         "key": "B",
-        "text": "rmdir report.txt"
+        "text": "`rmdir report.txt`"
       },
       {
         "key": "C",
-        "text": "rm report.txt"
+        "text": "`rm report.txt`"
       },
       {
         "key": "D",
@@ -2049,14 +2049,14 @@
       }
     ],
     "answer": "C",
-    "reason": "rm is the standard UNIX command for removing files."
+    "reason": "`rm` is the standard UNIX command for removing files."
   },
   {
     "id": 77,
     "subject": "UNIX and Shell Programming",
     "topic": "Directory Removal",
     "difficulty": "easy",
-    "question": "What happens if rmdir is used on a non-empty directory?",
+    "question": "What happens if `rmdir` is used on a non-empty directory?",
     "options": [
       {
         "key": "A",
@@ -2076,61 +2076,61 @@
       }
     ],
     "answer": "C",
-    "reason": "rmdir can remove only empty directories."
+    "reason": "`rmdir` can remove only empty directories."
   },
   {
     "id": 78,
     "subject": "UNIX and Shell Programming",
     "topic": "Directory Listing",
     "difficulty": "medium",
-    "question": "Which option of ls sorts files by modification time?",
+    "question": "Which option of `ls` sorts files by modification time?",
     "options": [
       {
         "key": "A",
-        "text": "-t"
+        "text": "`-t`"
       },
       {
         "key": "B",
-        "text": "-i"
+        "text": "`-i`"
       },
       {
         "key": "C",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "D",
-        "text": "-d"
+        "text": "`-d`"
       }
     ],
     "answer": "A",
-    "reason": "The -t option sorts directory contents by modification time."
+    "reason": "The `-t` option sorts directory contents by modification time."
   },
   {
     "id": 79,
     "subject": "UNIX and Shell Programming",
     "topic": "Directory Listing",
     "difficulty": "medium",
-    "question": "Which option of ls displays inode numbers?",
+    "question": "Which option of `ls` displays inode numbers?",
     "options": [
       {
         "key": "A",
-        "text": "-l"
+        "text": "`-l`"
       },
       {
         "key": "B",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "C",
-        "text": "-i"
+        "text": "`-i`"
       },
       {
         "key": "D",
-        "text": "-h"
+        "text": "`-h`"
       }
     ],
     "answer": "C",
-    "reason": "The -i option displays inode numbers alongside filenames."
+    "reason": "The `-i` option displays inode numbers alongside filenames."
   },
   {
     "id": 80,
@@ -2157,7 +2157,7 @@
       }
     ],
     "answer": "A",
-    "reason": "A FIFO or named pipe is represented by the character `p`."
+    "reason": "A FIFO or named pipe is represented by the character p."
   },
   {
     "id": 81,
@@ -2184,14 +2184,14 @@
       }
     ],
     "answer": "B",
-    "reason": "Socket files are represented by the letter `s`."
+    "reason": "Socket files are represented by the letter s."
   },
   {
     "id": 82,
     "subject": "UNIX and Shell Programming",
     "topic": "Permissions",
     "difficulty": "medium",
-    "question": "What does chmod 644 file.txt assign?",
+    "question": "What does `chmod` 644 file.txt assign?",
     "options": [
       {
         "key": "A",
@@ -2245,7 +2245,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Permissions",
     "difficulty": "hard",
-    "question": "What does chmod 700 file assign?",
+    "question": "What does `chmod` 700 file assign?",
     "options": [
       {
         "key": "A",
@@ -2272,7 +2272,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Touch Command",
     "difficulty": "medium",
-    "question": "What happens if touch is executed on an existing file?",
+    "question": "What happens if `touch` is executed on an existing file?",
     "options": [
       {
         "key": "A",
@@ -2292,7 +2292,7 @@
       }
     ],
     "answer": "C",
-    "reason": "touch updates timestamps if the file already exists."
+    "reason": "`touch` updates timestamps if the file already exists."
   },
   {
     "id": 86,
@@ -2330,50 +2330,50 @@
     "options": [
       {
         "key": "A",
-        "text": "find . -type d -name backup"
+        "text": "`find . -type d -name backup`"
       },
       {
         "key": "B",
-        "text": "find `backup -dir`"
+        "text": "`find backup -dir`"
       },
       {
         "key": "C",
-        "text": "locate `backup -d`"
+        "text": "locate backup `-d`"
       },
       {
         "key": "D",
-        "text": "grep backup"
+        "text": "`grep backup`"
       }
     ],
     "answer": "A",
-    "reason": "The combination `of -type` d `and -name` restricts results to directories."
+    "reason": "The combination of `-type` d and `-name` restricts results to directories."
   },
   {
     "id": 88,
     "subject": "UNIX and Shell Programming",
     "topic": "Find Command",
     "difficulty": "hard",
-    "question": "Which option of find searches files larger than a specified size?",
+    "question": "Which option of `find` searches files larger than a specified size?",
     "options": [
       {
         "key": "A",
-        "text": "-size"
+        "text": "`-size`"
       },
       {
         "key": "B",
-        "text": "-length"
+        "text": "`-length`"
       },
       {
         "key": "C",
-        "text": "-bytes"
+        "text": "`-bytes`"
       },
       {
         "key": "D",
-        "text": "-big"
+        "text": "`-big`"
       }
     ],
     "answer": "A",
-    "reason": "The -size option is used to search files based on size."
+    "reason": "The `-size` option is used to search files based on size."
   },
   {
     "id": 89,
@@ -2446,7 +2446,7 @@
       },
       {
         "key": "C",
-        "text": "ls filename"
+        "text": "`ls` filename"
       },
       {
         "key": "D",
@@ -2492,15 +2492,15 @@
     "options": [
       {
         "key": "A",
-        "text": "du directory"
+        "text": "`du directory`"
       },
       {
         "key": "B",
-        "text": "df directory"
+        "text": "`df directory`"
       },
       {
         "key": "C",
-        "text": "ls directory"
+        "text": "`ls` directory"
       },
       {
         "key": "D",
@@ -2508,7 +2508,7 @@
       }
     ],
     "answer": "A",
-    "reason": "du reports disk usage of files and directories."
+    "reason": "`du` reports disk usage of files and directories."
   },
   {
     "id": 94,
@@ -2531,7 +2531,7 @@
       },
       {
         "key": "D",
-        "text": "`stat -i`"
+        "text": "stat `-i`"
       }
     ],
     "answer": "A",
@@ -2569,7 +2569,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Output Redirection",
     "difficulty": "medium",
-    "question": "What is the effect of `echo Hello >> file.txt`?",
+    "question": "What is the effect of `echo` Hello >> file.txt?",
     "options": [
       {
         "key": "A",
@@ -2600,19 +2600,19 @@
     "options": [
       {
         "key": "A",
-        "text": "cat file.txt | `wc -l`"
+        "text": "`cat file.txt | wc -l`"
       },
       {
         "key": "B",
-        "text": "cat file.txt | sort"
+        "text": "`cat file.txt | sort`"
       },
       {
         "key": "C",
-        "text": "cat file.txt | grep"
+        "text": "`cat file.txt | grep`"
       },
       {
         "key": "D",
-        "text": "cat file.txt > wc"
+        "text": "`cat file.txt > wc`"
       }
     ],
     "answer": "A",
@@ -2650,7 +2650,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "tee Command",
     "difficulty": "medium",
-    "question": "What does the command `ls | tee output.txt` do?",
+    "question": "What does the command `ls` | tee output.txt do?",
     "options": [
       {
         "key": "A",
@@ -2697,6 +2697,6 @@
       }
     ],
     "answer": "C",
-    "reason": "The tee command duplicates standard input to standard output and one or more files."
+    "reason": "The tee command duplicates standard input to standard output and one or `more` files."
   }
 ]

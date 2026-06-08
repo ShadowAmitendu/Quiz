@@ -579,15 +579,15 @@
       },
       {
         "key": "B",
-        "text": "`/home`"
+        "text": "/home"
       },
       {
         "key": "C",
-        "text": "`/usr`"
+        "text": "/usr"
       },
       {
         "key": "D",
-        "text": "`/bin`"
+        "text": "/bin"
       }
     ],
     "answer": "A",
@@ -602,23 +602,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`/etc`"
+        "text": "/etc"
       },
       {
         "key": "B",
-        "text": "`/bin`"
+        "text": "/bin"
       },
       {
         "key": "C",
-        "text": "`/home`"
+        "text": "/home"
       },
       {
         "key": "D",
-        "text": "`/dev`"
+        "text": "/dev"
       }
     ],
     "answer": "C",
-    "reason": "The `/home` directory generally stores users' personal directories."
+    "reason": "The /home directory generally stores users' personal directories."
   },
   {
     "id": 24,
@@ -629,23 +629,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`/etc`"
+        "text": "/etc"
       },
       {
         "key": "B",
-        "text": "`/tmp`"
+        "text": "/tmp"
       },
       {
         "key": "C",
-        "text": "`/proc`"
+        "text": "/proc"
       },
       {
         "key": "D",
-        "text": "`/home`"
+        "text": "/home"
       }
     ],
     "answer": "A",
-    "reason": "System-wide configuration files are typically stored in `/etc`."
+    "reason": "System-wide configuration files are typically stored in /etc."
   },
   {
     "id": 25,
@@ -656,50 +656,50 @@
     "options": [
       {
         "key": "A",
-        "text": "`/usr`"
+        "text": "/usr"
       },
       {
         "key": "B",
-        "text": "`/tmp`"
+        "text": "/tmp"
       },
       {
         "key": "C",
-        "text": "`/bin`"
+        "text": "/bin"
       },
       {
         "key": "D",
-        "text": "`/sbin`"
+        "text": "/sbin"
       }
     ],
     "answer": "B",
-    "reason": "The `/tmp` directory is designated for temporary files."
+    "reason": "The /tmp directory is designated for temporary files."
   },
   {
     "id": 26,
     "subject": "UNIX and Shell Programming",
     "topic": "Directory Structure",
     "difficulty": "medium",
-    "question": "Which directory contains essential user commands such as ls and cp?",
+    "question": "Which directory contains essential user commands such as `ls` and `cp`?",
     "options": [
       {
         "key": "A",
-        "text": "`/dev`"
+        "text": "/dev"
       },
       {
         "key": "B",
-        "text": "`/bin`"
+        "text": "/bin"
       },
       {
         "key": "C",
-        "text": "`/etc`"
+        "text": "/etc"
       },
       {
         "key": "D",
-        "text": "`/proc`"
+        "text": "/proc"
       }
     ],
     "answer": "B",
-    "reason": "The `/bin` directory stores essential executable commands."
+    "reason": "The /bin directory stores essential executable commands."
   },
   {
     "id": 27,
@@ -710,23 +710,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`/dev`"
+        "text": "/dev"
       },
       {
         "key": "B",
-        "text": "`/usr`"
+        "text": "/usr"
       },
       {
         "key": "C",
-        "text": "`/opt`"
+        "text": "/opt"
       },
       {
         "key": "D",
-        "text": "`/var`"
+        "text": "/var"
       }
     ],
     "answer": "A",
-    "reason": "The `/dev` directory contains files representing hardware devices."
+    "reason": "The /dev directory contains files representing hardware devices."
   },
   {
     "id": 28,
@@ -737,23 +737,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`/boot`"
+        "text": "/boot"
       },
       {
         "key": "B",
-        "text": "`/var`"
+        "text": "/var"
       },
       {
         "key": "C",
-        "text": "`/root`"
+        "text": "/root"
       },
       {
         "key": "D",
-        "text": "`/lib`"
+        "text": "/lib"
       }
     ],
     "answer": "B",
-    "reason": "Log files and other variable data are typically stored in `/var`."
+    "reason": "Log files and other variable data are typically stored in /var."
   },
   {
     "id": 29,
@@ -787,7 +787,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Directory Structure",
     "difficulty": "medium",
-    "question": "What does `..` represent in a UNIX directory path?",
+    "question": "What does .. represent in a UNIX directory path?",
     "options": [
       {
         "key": "A",
@@ -953,15 +953,15 @@
     "options": [
       {
         "key": "A",
-        "text": "cd"
+        "text": "`cd`"
       },
       {
         "key": "B",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
@@ -969,7 +969,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The pwd (Print Working Directory) command displays the absolute path of the current directory."
+    "reason": "The `pwd` (Print Working Directory) command displays the absolute path of the current directory."
   },
   {
     "id": 37,
@@ -980,23 +980,23 @@
     "options": [
       {
         "key": "A",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "B",
-        "text": "cat"
+        "text": "`cat`"
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
-        "text": "mkdir"
+        "text": "`mkdir`"
       }
     ],
     "answer": "C",
-    "reason": "The ls command lists files and directories in a specified location."
+    "reason": "The `ls` command lists files and directories in a specified location."
   },
   {
     "id": 38,
@@ -1007,23 +1007,23 @@
     "options": [
       {
         "key": "A",
-        "text": "mv"
+        "text": "`mv`"
       },
       {
         "key": "B",
-        "text": "cd"
+        "text": "`cd`"
       },
       {
         "key": "C",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "D",
-        "text": "cp"
+        "text": "`cp`"
       }
     ],
     "answer": "B",
-    "reason": "The cd command is used to change the current working directory."
+    "reason": "The `cd` command is used to change the current working directory."
   },
   {
     "id": 39,
@@ -1034,15 +1034,15 @@
     "options": [
       {
         "key": "A",
-        "text": "mkdir"
+        "text": "`mkdir`"
       },
       {
         "key": "B",
-        "text": "rmdir"
+        "text": "`rmdir`"
       },
       {
         "key": "C",
-        "text": "touch"
+        "text": "`touch`"
       },
       {
         "key": "D",
@@ -1050,7 +1050,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The mkdir command creates one or more directories."
+    "reason": "The `mkdir` command creates one or `more` directories."
   },
   {
     "id": 40,
@@ -1061,7 +1061,7 @@
     "options": [
       {
         "key": "A",
-        "text": "rm"
+        "text": "`rm`"
       },
       {
         "key": "B",
@@ -1069,7 +1069,7 @@
       },
       {
         "key": "C",
-        "text": "rmdir"
+        "text": "`rmdir`"
       },
       {
         "key": "D",
@@ -1077,7 +1077,7 @@
       }
     ],
     "answer": "C",
-    "reason": "The rmdir command removes only empty directories."
+    "reason": "The `rmdir` command removes only empty directories."
   },
   {
     "id": 41,
@@ -1088,23 +1088,23 @@
     "options": [
       {
         "key": "A",
-        "text": "mv"
+        "text": "`mv`"
       },
       {
         "key": "B",
-        "text": "cp"
+        "text": "`cp`"
       },
       {
         "key": "C",
-        "text": "cat"
+        "text": "`cat`"
       },
       {
         "key": "D",
-        "text": "touch"
+        "text": "`touch`"
       }
     ],
     "answer": "B",
-    "reason": "The cp command creates a duplicate of a file or directory."
+    "reason": "The `cp` command creates a duplicate of a file or directory."
   },
   {
     "id": 42,
@@ -1115,23 +1115,23 @@
     "options": [
       {
         "key": "A",
-        "text": "mv"
+        "text": "`mv`"
       },
       {
         "key": "B",
-        "text": "cp"
+        "text": "`cp`"
       },
       {
         "key": "C",
-        "text": "rm"
+        "text": "`rm`"
       },
       {
         "key": "D",
-        "text": "pwd"
+        "text": "`pwd`"
       }
     ],
     "answer": "A",
-    "reason": "The mv command is used for moving files or renaming them."
+    "reason": "The `mv` command is used for moving files or renaming them."
   },
   {
     "id": 43,
@@ -1142,7 +1142,7 @@
     "options": [
       {
         "key": "A",
-        "text": "rmdir"
+        "text": "`rmdir`"
       },
       {
         "key": "B",
@@ -1150,7 +1150,7 @@
       },
       {
         "key": "C",
-        "text": "rm"
+        "text": "`rm`"
       },
       {
         "key": "D",
@@ -1158,7 +1158,7 @@
       }
     ],
     "answer": "C",
-    "reason": "The rm command removes files and directories."
+    "reason": "The `rm` command removes files and directories."
   },
   {
     "id": 44,
@@ -1169,7 +1169,7 @@
     "options": [
       {
         "key": "A",
-        "text": "touch"
+        "text": "`touch`"
       },
       {
         "key": "B",
@@ -1185,7 +1185,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The touch command creates a new empty file or updates timestamps."
+    "reason": "The `touch` command creates a new empty file or updates timestamps."
   },
   {
     "id": 45,
@@ -1196,30 +1196,30 @@
     "options": [
       {
         "key": "A",
-        "text": "cat"
+        "text": "`cat`"
       },
       {
         "key": "B",
-        "text": "mkdir"
+        "text": "`mkdir`"
       },
       {
         "key": "C",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "D",
-        "text": "touch"
+        "text": "`touch`"
       }
     ],
     "answer": "A",
-    "reason": "The cat command displays file contents on the terminal."
+    "reason": "The `cat` command displays file contents on the terminal."
   },
   {
     "id": 46,
     "subject": "UNIX and Shell Programming",
     "topic": "File Types",
     "difficulty": "medium",
-    "question": "Which symbol represents a directory in the first column of ``ls -l`` output?",
+    "question": "Which symbol represents a directory in the first column of `ls -l` output?",
     "options": [
       {
         "key": "A",
@@ -1239,14 +1239,14 @@
       }
     ],
     "answer": "B",
-    "reason": "A directory is represented by the character `d` in long listing format."
+    "reason": "A directory is represented by the character d in long listing format."
   },
   {
     "id": 47,
     "subject": "UNIX and Shell Programming",
     "topic": "File Types",
     "difficulty": "medium",
-    "question": "Which file type is represented by `-` in ``ls -l`` output?",
+    "question": "Which file type is represented by - in `ls -l` output?",
     "options": [
       {
         "key": "A",
@@ -1293,14 +1293,14 @@
       }
     ],
     "answer": "C",
-    "reason": "The letter `l` indicates a symbolic link in UNIX."
+    "reason": "The letter l indicates a symbolic link in UNIX."
   },
   {
     "id": 49,
     "subject": "UNIX and Shell Programming",
     "topic": "Permissions",
     "difficulty": "easy",
-    "question": "What does the permission `r` represent?",
+    "question": "What does the permission r represent?",
     "options": [
       {
         "key": "A",
@@ -1320,14 +1320,14 @@
       }
     ],
     "answer": "B",
-    "reason": "The permission `r` grants read access to a file or directory."
+    "reason": "The permission r grants read access to a file or directory."
   },
   {
     "id": 50,
     "subject": "UNIX and Shell Programming",
     "topic": "Permissions",
     "difficulty": "easy",
-    "question": "What does the permission `w` represent?",
+    "question": "What does the permission w represent?",
     "options": [
       {
         "key": "A",
@@ -1347,14 +1347,14 @@
       }
     ],
     "answer": "A",
-    "reason": "The permission `w` allows modification of file contents."
+    "reason": "The permission w allows modification of file contents."
   },
   {
     "id": 51,
     "subject": "UNIX and Shell Programming",
     "topic": "Permissions",
     "difficulty": "easy",
-    "question": "What does the permission `x` represent?",
+    "question": "What does the permission x represent?",
     "options": [
       {
         "key": "A",
@@ -1385,11 +1385,11 @@
     "options": [
       {
         "key": "A",
-        "text": "chown"
+        "text": "`chown`"
       },
       {
         "key": "B",
-        "text": "chmod"
+        "text": "`chmod`"
       },
       {
         "key": "C",
@@ -1397,11 +1397,11 @@
       },
       {
         "key": "D",
-        "text": "umask"
+        "text": "`umask`"
       }
     ],
     "answer": "B",
-    "reason": "The chmod command modifies file and directory permissions."
+    "reason": "The `chmod` command modifies file and directory permissions."
   },
   {
     "id": 53,
@@ -1489,7 +1489,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Permissions",
     "difficulty": "hard",
-    "question": "What permission does chmod 755 assign to the owner?",
+    "question": "What permission does `chmod` 755 assign to the owner?",
     "options": [
       {
         "key": "A",
@@ -1520,11 +1520,11 @@
     "options": [
       {
         "key": "A",
-        "text": "chmod"
+        "text": "`chmod`"
       },
       {
         "key": "B",
-        "text": "chown"
+        "text": "`chown`"
       },
       {
         "key": "C",
@@ -1536,7 +1536,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The chown command changes file ownership."
+    "reason": "The `chown` command changes file ownership."
   },
   {
     "id": 58,
@@ -1551,15 +1551,15 @@
       },
       {
         "key": "B",
-        "text": "chmod"
+        "text": "`chmod`"
       },
       {
         "key": "C",
-        "text": "cp"
+        "text": "`cp`"
       },
       {
         "key": "D",
-        "text": "mv"
+        "text": "`mv`"
       }
     ],
     "answer": "A",
@@ -1605,11 +1605,11 @@
       },
       {
         "key": "B",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
@@ -1632,15 +1632,15 @@
       },
       {
         "key": "B",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "C",
-        "text": "cat"
+        "text": "`cat`"
       },
       {
         "key": "D",
-        "text": "grep"
+        "text": "`grep`"
       }
     ],
     "answer": "A",
@@ -1678,7 +1678,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Pathnames",
     "difficulty": "medium",
-    "question": "A pathname beginning with `/` is called:",
+    "question": "A pathname beginning with / is called:",
     "options": [
       {
         "key": "A",
@@ -1752,7 +1752,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The -l option of ls displays detailed file information."
+    "reason": "The `-l` option of `ls` displays detailed file information."
   },
   {
     "id": 66,
@@ -1763,23 +1763,23 @@
     "options": [
       {
         "key": "A",
-        "text": "tail"
+        "text": "`tail`"
       },
       {
         "key": "B",
-        "text": "head"
+        "text": "`head`"
       },
       {
         "key": "C",
-        "text": "grep"
+        "text": "`grep`"
       },
       {
         "key": "D",
-        "text": "sort"
+        "text": "`sort`"
       }
     ],
     "answer": "B",
-    "reason": "The head command displays the beginning portion of a file."
+    "reason": "The `head` command displays the beginning portion of a file."
   },
   {
     "id": 67,
@@ -1790,23 +1790,23 @@
     "options": [
       {
         "key": "A",
-        "text": "tail"
+        "text": "`tail`"
       },
       {
         "key": "B",
-        "text": "head"
+        "text": "`head`"
       },
       {
         "key": "C",
-        "text": "grep"
+        "text": "`grep`"
       },
       {
         "key": "D",
-        "text": "wc"
+        "text": "`wc`"
       }
     ],
     "answer": "A",
-    "reason": "The tail command shows the ending portion of a file."
+    "reason": "The `tail` command shows the ending portion of a file."
   },
   {
     "id": 68,
@@ -1817,23 +1817,23 @@
     "options": [
       {
         "key": "A",
-        "text": "wc"
+        "text": "`wc`"
       },
       {
         "key": "B",
-        "text": "grep"
+        "text": "`grep`"
       },
       {
         "key": "C",
-        "text": "sort"
+        "text": "`sort`"
       },
       {
         "key": "D",
-        "text": "uniq"
+        "text": "`uniq`"
       }
     ],
     "answer": "A",
-    "reason": "The wc command provides counts of lines, words, and characters."
+    "reason": "The `wc` command provides counts of lines, words, and characters."
   },
   {
     "id": 69,
@@ -1844,23 +1844,23 @@
     "options": [
       {
         "key": "A",
-        "text": "grep"
+        "text": "`grep`"
       },
       {
         "key": "B",
-        "text": "wc"
+        "text": "`wc`"
       },
       {
         "key": "C",
-        "text": "sort"
+        "text": "`sort`"
       },
       {
         "key": "D",
-        "text": "head"
+        "text": "`head`"
       }
     ],
     "answer": "A",
-    "reason": "grep searches files for lines matching a specified pattern."
+    "reason": "`grep` searches files for lines matching a specified pattern."
   },
   {
     "id": 70,
@@ -1871,23 +1871,23 @@
     "options": [
       {
         "key": "A",
-        "text": "grep"
+        "text": "`grep`"
       },
       {
         "key": "B",
-        "text": "uniq"
+        "text": "`uniq`"
       },
       {
         "key": "C",
-        "text": "sort"
+        "text": "`sort`"
       },
       {
         "key": "D",
-        "text": "wc"
+        "text": "`wc`"
       }
     ],
     "answer": "C",
-    "reason": "The sort command arranges text lines in sorted order."
+    "reason": "The `sort` command arranges text lines in sorted order."
   },
   {
     "id": 71,
@@ -1987,11 +1987,11 @@
       },
       {
         "key": "C",
-        "text": "vi"
+        "text": "`vi`"
       },
       {
         "key": "D",
-        "text": "awk"
+        "text": "`awk`"
       }
     ],
     "answer": "A",
@@ -2033,11 +2033,11 @@
     "options": [
       {
         "key": "A",
-        "text": "#!`/bin/bash`"
+        "text": "#!/bin/bash"
       },
       {
         "key": "B",
-        "text": "#include`<stdio.h>`"
+        "text": "#include<stdio.h>"
       },
       {
         "key": "C",
@@ -2045,11 +2045,11 @@
       },
       {
         "key": "D",
-        "text": "`<html>`"
+        "text": "<html>"
       }
     ],
     "answer": "A",
-    "reason": "The shebang `#!/bin/bash` specifies that the script should be executed using Bash."
+    "reason": "The shebang #!/bin/bash specifies that the script should be executed using Bash."
   },
   {
     "id": 77,
@@ -2076,7 +2076,7 @@
       }
     ],
     "answer": "C",
-    "reason": "Shell variables are assigned without spaces around the `=` sign."
+    "reason": "Shell variables are assigned without spaces around the = sign."
   },
   {
     "id": 78,
@@ -2103,7 +2103,7 @@
       }
     ],
     "answer": "C",
-    "reason": "The `$` symbol is used to retrieve the value stored in a variable."
+    "reason": "The $ symbol is used to retrieve the value stored in a variable."
   },
   {
     "id": 79,
@@ -2118,7 +2118,7 @@
       },
       {
         "key": "B",
-        "text": "echo"
+        "text": "`echo`"
       },
       {
         "key": "C",
@@ -2130,7 +2130,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The echo command is commonly used to print variable values."
+    "reason": "The `echo` command is commonly used to print variable values."
   },
   {
     "id": 80,
@@ -2330,7 +2330,7 @@
     "options": [
       {
         "key": "A",
-        "text": "echo"
+        "text": "`echo`"
       },
       {
         "key": "B",
@@ -2346,7 +2346,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The echo command is used to display output on the terminal."
+    "reason": "The `echo` command is used to display output on the terminal."
   },
   {
     "id": 88,
@@ -2427,7 +2427,7 @@
       }
     ],
     "answer": "C",
-    "reason": "`fi` is `if` written backward and marks the end of an if block."
+    "reason": "fi is if written backward and marks the end of an if block."
   },
   {
     "id": 91,
@@ -2446,15 +2446,15 @@
       },
       {
         "key": "C",
-        "text": "-eq"
+        "text": "`-eq`"
       },
       {
         "key": "D",
-        "text": "-e"
+        "text": "`-e`"
       }
     ],
     "answer": "C",
-    "reason": "-eq is used for comparing integer values in shell scripts."
+    "reason": "`-eq` is used for comparing integer values in shell scripts."
   },
   {
     "id": 92,
@@ -2465,23 +2465,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-e"
+        "text": "`-e`"
       },
       {
         "key": "B",
-        "text": "-eq"
+        "text": "`-eq`"
       },
       {
         "key": "C",
-        "text": "-gt"
+        "text": "`-gt`"
       },
       {
         "key": "D",
-        "text": "-lt"
+        "text": "`-lt`"
       }
     ],
     "answer": "A",
-    "reason": "The -e file test returns true if the specified file exists."
+    "reason": "The `-e` file test returns true if the specified file exists."
   },
   {
     "id": 93,
@@ -2643,7 +2643,7 @@
       }
     ],
     "answer": "B",
-    "reason": "`esac` is `case` spelled backward and ends a case statement."
+    "reason": "esac is case spelled backward and ends a case statement."
   },
   {
     "id": 99,
@@ -2654,7 +2654,7 @@
     "options": [
       {
         "key": "A",
-        "text": "chmod +x script.sh"
+        "text": "`chmod +x script.sh`"
       },
       {
         "key": "B",
@@ -2670,7 +2670,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The execute permission must be granted using chmod +x before direct execution."
+    "reason": "The execute permission must be granted using `chmod` +x before direct execution."
   },
   {
     "id": 100,
@@ -2685,11 +2685,11 @@
       },
       {
         "key": "B",
-        "text": "`/test.sh`"
+        "text": "/test.sh"
       },
       {
         "key": "C",
-        "text": ".`/test.sh`"
+        "text": "./test.sh"
       },
       {
         "key": "D",

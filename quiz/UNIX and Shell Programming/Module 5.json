@@ -132,7 +132,7 @@
       }
     ],
     "answer": "C",
-    "reason": "Commands beginning with `:` are executed in Last-line Mode."
+    "reason": "Commands beginning with : are executed in Last-line Mode."
   },
   {
     "id": 6,
@@ -143,7 +143,7 @@
     "options": [
       {
         "key": "A",
-        "text": "vi test.txt"
+        "text": "`vi test.txt`"
       },
       {
         "key": "B",
@@ -159,7 +159,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The command `vi filename` opens or creates a file."
+    "reason": "The command `vi` filename opens or creates a file."
   },
   {
     "id": 7,
@@ -679,7 +679,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Copy and Paste",
     "difficulty": "hard",
-    "question": "What does `3yy` do?",
+    "question": "What does 3yy do?",
     "options": [
       {
         "key": "A",
@@ -969,7 +969,7 @@
       }
     ],
     "answer": "A",
-    "reason": "Forward searches begin with `/`."
+    "reason": "Forward searches begin with /."
   },
   {
     "id": 37,
@@ -996,14 +996,14 @@
       }
     ],
     "answer": "B",
-    "reason": "Backward searches begin with `?`."
+    "reason": "Backward searches begin with ?."
   },
   {
     "id": 38,
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "medium",
-    "question": "Which command replaces the first occurrence of `old` with `new` in the current line?",
+    "question": "Which command replaces the first occurrence of old with new in the current line?",
     "options": [
       {
         "key": "A",
@@ -1030,7 +1030,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "hard",
-    "question": "What does `:s/old/new/g` do?",
+    "question": "What does :s/old/new/g do?",
     "options": [
       {
         "key": "A",
@@ -1057,7 +1057,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "hard",
-    "question": "Which command replaces all occurrences of `old` with `new` throughout the entire file?",
+    "question": "Which command replaces all occurrences of old with new throughout the entire file?",
     "options": [
       {
         "key": "A",
@@ -1104,7 +1104,7 @@
       }
     ],
     "answer": "A",
-    "reason": "Typing `:` from Command Mode enters Last-line Mode."
+    "reason": "Typing : from Command Mode enters Last-line Mode."
   },
   {
     "id": 42,
@@ -1300,7 +1300,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Insert Mode",
     "difficulty": "hard",
-    "question": "What is the difference between `i` and `a`?",
+    "question": "What is the difference between i and a?",
     "options": [
       {
         "key": "A",
@@ -1354,7 +1354,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Deletion",
     "difficulty": "medium",
-    "question": "What does `5dd` do?",
+    "question": "What does 5dd do?",
     "options": [
       {
         "key": "A",
@@ -1428,14 +1428,14 @@
       }
     ],
     "answer": "B",
-    "reason": "VI uses the term `yank` for copy operations."
+    "reason": "VI uses the term yank for copy operations."
   },
   {
     "id": 54,
     "subject": "UNIX and Shell Programming",
     "topic": "Copy and Paste",
     "difficulty": "medium",
-    "question": "What does `4yy` do?",
+    "question": "What does 4yy do?",
     "options": [
       {
         "key": "A",
@@ -1462,7 +1462,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Copy and Paste",
     "difficulty": "hard",
-    "question": "What does `3p` do after copying a line?",
+    "question": "What does 3p do after copying a line?",
     "options": [
       {
         "key": "A",
@@ -1482,7 +1482,7 @@
       }
     ],
     "answer": "A",
-    "reason": "A numeric prefix repeats the paste operation."
+    "reason": "A numeric prefix repeats the `paste` operation."
   },
   {
     "id": 56,
@@ -1570,11 +1570,11 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Working with Files",
     "difficulty": "hard",
-    "question": "What happens when `:q` is executed on a modified file?",
+    "question": "What happens when :q is executed on a modified file?",
     "options": [
       {
         "key": "A",
-        "text": "VI exits immediately"
+        "text": "`VI exits immediately`"
       },
       {
         "key": "B",
@@ -1582,7 +1582,7 @@
       },
       {
         "key": "C",
-        "text": "VI warns about unsaved changes"
+        "text": "`VI warns about unsaved changes`"
       },
       {
         "key": "D",
@@ -1597,11 +1597,11 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Search",
     "difficulty": "easy",
-    "question": "Which command searches forward for the word `linux`?",
+    "question": "Which command searches forward for the word linux?",
     "options": [
       {
         "key": "A",
-        "text": "`/linux`"
+        "text": "/linux"
       },
       {
         "key": "B",
@@ -1617,18 +1617,18 @@
       }
     ],
     "answer": "A",
-    "reason": "Forward searches begin with `/`."
+    "reason": "Forward searches begin with /."
   },
   {
     "id": 61,
     "subject": "UNIX and Shell Programming",
     "topic": "Search",
     "difficulty": "medium",
-    "question": "Which command searches backward for the word `unix`?",
+    "question": "Which command searches backward for the word unix?",
     "options": [
       {
         "key": "A",
-        "text": "`/unix`"
+        "text": "/unix"
       },
       {
         "key": "B",
@@ -1644,7 +1644,7 @@
       }
     ],
     "answer": "B",
-    "reason": "Backward searches begin with `?`."
+    "reason": "Backward searches begin with ?."
   },
   {
     "id": 62,
@@ -1732,7 +1732,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "medium",
-    "question": "What does `:s/cat/dog/` do?",
+    "question": "What does :s/`cat`/dog/ do?",
     "options": [
       {
         "key": "A",
@@ -1744,7 +1744,7 @@
       },
       {
         "key": "C",
-        "text": "Deletes cat"
+        "text": "Deletes `cat`"
       },
       {
         "key": "D",
@@ -1759,7 +1759,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "medium",
-    "question": "What is the purpose of the `g` flag in substitution commands?",
+    "question": "What is the purpose of the g flag in substitution commands?",
     "options": [
       {
         "key": "A",
@@ -1786,7 +1786,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "hard",
-    "question": "Which command replaces all occurrences of `red` with `blue` in the entire file?",
+    "question": "Which command replaces all occurrences of red with blue in the entire file?",
     "options": [
       {
         "key": "A",
@@ -1813,7 +1813,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "hard",
-    "question": "What does `%` represent in `:%s/old/new/g`?",
+    "question": "What does % represent in :%s/old/new/g?",
     "options": [
       {
         "key": "A",
@@ -1840,7 +1840,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Regular Expressions",
     "difficulty": "medium",
-    "question": "Which search pattern finds lines beginning with `A`?",
+    "question": "Which search pattern finds lines beginning with A?",
     "options": [
       {
         "key": "A",
@@ -1856,18 +1856,18 @@
       },
       {
         "key": "D",
-        "text": "`/.A`"
+        "text": "/.A"
       }
     ],
     "answer": "B",
-    "reason": "The `^` symbol matches the beginning of a line."
+    "reason": "The ^ symbol matches the beginning of a line."
   },
   {
     "id": 70,
     "subject": "UNIX and Shell Programming",
     "topic": "Regular Expressions",
     "difficulty": "medium",
-    "question": "Which search pattern finds lines ending with `A`?",
+    "question": "Which search pattern finds lines ending with A?",
     "options": [
       {
         "key": "A",
@@ -1883,18 +1883,18 @@
       },
       {
         "key": "D",
-        "text": "`/A`?"
+        "text": "/A?"
       }
     ],
     "answer": "A",
-    "reason": "The `$` symbol matches the end of a line."
+    "reason": "The $ symbol matches the end of a line."
   },
   {
     "id": 71,
     "subject": "UNIX and Shell Programming",
     "topic": "Regular Expressions",
     "difficulty": "hard",
-    "question": "In VI regular expressions, what does `.` represent?",
+    "question": "In VI regular expressions, what does . represent?",
     "options": [
       {
         "key": "A",
@@ -1921,7 +1921,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Regular Expressions",
     "difficulty": "hard",
-    "question": "Which pattern matches lines beginning with the word `Unix`?",
+    "question": "Which pattern matches lines beginning with the word Unix?",
     "options": [
       {
         "key": "A",
@@ -1933,7 +1933,7 @@
       },
       {
         "key": "C",
-        "text": "`/.Unix`"
+        "text": "/.Unix"
       },
       {
         "key": "D",
@@ -1941,7 +1941,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The `^` anchor specifies the beginning of a line."
+    "reason": "The ^ anchor specifies the beginning of a line."
   },
   {
     "id": 73,
@@ -1975,7 +1975,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "File Operations",
     "difficulty": "hard",
-    "question": "What does `:w report.txt` do?",
+    "question": "What does :w report.txt do?",
     "options": [
       {
         "key": "A",
@@ -2002,7 +2002,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Search and Replace",
     "difficulty": "hard",
-    "question": "Which command replaces every occurrence of `Linux` with `UNIX` throughout the file?",
+    "question": "Which command replaces every occurrence of Linux with UNIX throughout the file?",
     "options": [
       {
         "key": "A",
@@ -2022,7 +2022,7 @@
       }
     ],
     "answer": "A",
-    "reason": "Using `%` applies substitution to all lines in the file."
+    "reason": "Using % applies substitution to all lines in the file."
   },
   {
     "id": 76,
@@ -2049,7 +2049,7 @@
       }
     ],
     "answer": "B",
-    "reason": "Forward searches are initiated with `/`."
+    "reason": "Forward searches are initiated with /."
   },
   {
     "id": 77,
@@ -2076,7 +2076,7 @@
       }
     ],
     "answer": "C",
-    "reason": "Backward searches are initiated with `?`."
+    "reason": "Backward searches are initiated with ?."
   },
   {
     "id": 78,
@@ -2218,7 +2218,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Navigation",
     "difficulty": "hard",
-    "question": "Which command moves the cursor to the top line of the screen?",
+    "question": "Which command moves the cursor to the `top` line of the screen?",
     "options": [
       {
         "key": "A",
@@ -2326,7 +2326,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Deletion",
     "difficulty": "medium",
-    "question": "What does `3dw` do?",
+    "question": "What does 3dw do?",
     "options": [
       {
         "key": "A",
@@ -2353,7 +2353,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Deletion",
     "difficulty": "hard",
-    "question": "What does `10dd` do?",
+    "question": "What does 10dd do?",
     "options": [
       {
         "key": "A",
@@ -2380,7 +2380,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Copy and Paste",
     "difficulty": "medium",
-    "question": "What does `5yy` do?",
+    "question": "What does 5yy do?",
     "options": [
       {
         "key": "A",
@@ -2407,7 +2407,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Copy and Paste",
     "difficulty": "hard",
-    "question": "After executing `yy`, which command pastes the copied line before the current line?",
+    "question": "After executing yy, which command pastes the copied line before the current line?",
     "options": [
       {
         "key": "A",
@@ -2515,7 +2515,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Search",
     "difficulty": "medium",
-    "question": "After searching with `/word`, which key moves to the next occurrence?",
+    "question": "After searching with /word, which key moves to the next occurrence?",
     "options": [
       {
         "key": "A",
@@ -2542,7 +2542,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Search",
     "difficulty": "hard",
-    "question": "After searching with `/word`, which key moves to the previous occurrence?",
+    "question": "After searching with /word, which key moves to the previous occurrence?",
     "options": [
       {
         "key": "A",
@@ -2569,7 +2569,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "medium",
-    "question": "Which command replaces the first occurrence of `apple` with `orange` in the current line?",
+    "question": "Which command replaces the first occurrence of apple with orange in the current line?",
     "options": [
       {
         "key": "A",
@@ -2596,23 +2596,23 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Replace",
     "difficulty": "hard",
-    "question": "Which command replaces all occurrences of `cat` with `dog` only in the current line?",
+    "question": "Which command replaces all occurrences of `cat` with dog only in the current line?",
     "options": [
       {
         "key": "A",
-        "text": ":s/cat/dog/g"
+        "text": ":s/`cat`/dog/g"
       },
       {
         "key": "B",
-        "text": ":%s/cat/dog/g"
+        "text": ":%s/`cat`/dog/g"
       },
       {
         "key": "C",
-        "text": ":g/cat/dog"
+        "text": ":g/`cat`/dog"
       },
       {
         "key": "D",
-        "text": ":replace/cat/dog"
+        "text": ":replace/`cat`/dog"
       }
     ],
     "answer": "A",
@@ -2623,7 +2623,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Regular Expressions",
     "difficulty": "medium",
-    "question": "In VI regular expressions, what does `^` represent?",
+    "question": "In VI regular expressions, what does ^ represent?",
     "options": [
       {
         "key": "A",
@@ -2650,7 +2650,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Regular Expressions",
     "difficulty": "medium",
-    "question": "In VI regular expressions, what does `$` represent?",
+    "question": "In VI regular expressions, what does $ represent?",
     "options": [
       {
         "key": "A",

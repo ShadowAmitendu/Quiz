@@ -81,6 +81,48 @@ function escapeHtml(text) {
 		.replace(/'/g, "&#039;");
 }
 
+function isShellCommand(code) {
+	code = code.trim();
+	if (!code) return false;
+	
+	// If it contains sentence punctuation at the end or contains commas, it is a sentence
+	if (/[.!?]$/.test(code) || code.includes(',') || code.includes('?') || code.includes('!')) {
+		return false;
+	}
+	
+	// If it has common English words, it is a sentence
+	const stopWords = ["the", "is", "of", "to", "and", "or", "a", "an", "which", "what", "how", "why", "that", "this", "these", "those", "for", "with", "by", "on", "in", "at", "only", "option", "outputs", "removes", "groups", "counts", "displays"];
+	const words = code.toLowerCase().split(/\s+/);
+	if (words.some(w => stopWords.includes(w))) {
+		return false;
+	}
+	
+	// If it is very long (more than 60 chars) or has many words without shell operators, it's a sentence
+	if (code.length > 60 && !/[|><]/.test(code)) {
+		return false;
+	}
+	
+	const commands = [
+		"ls", "cd", "pwd", "mkdir", "rmdir", "cp", "mv", "rm", "touch", "cat", 
+		"chmod", "chown", "grep", "vi", "tar", "ln", "head", "tail", "more", "less",
+		"wc", "find", "echo", "export", "alias", "umask", "ps", "kill", "top", "df", "du",
+		"uniq", "sort", "cut", "tr", "comm", "diff", "cmp", "sed", "awk"
+	];
+	
+	const firstWord = words[0];
+	const isPathOrPrompt = /^(\$|#|\.\/|\/|~\/)/.test(code);
+	
+	return commands.includes(firstWord) || isPathOrPrompt;
+}
+
+function isShellFlag(code) {
+	return /^-[a-zA-Z0-9_-]+$/.test(code.trim());
+}
+
+function createTerminalWindow(code, isMini = false) {
+	return `<code class="shell-command-inline">${escapeHtml(code.trim())}</code>`;
+}
+
 function formatQuizText(text) {
 	if (!text) return "";
 	
@@ -90,70 +132,22 @@ function formatQuizText(text) {
 	// 1. Triple backticks (code blocks)
 	tempText = tempText.replace(/```(?:[a-zA-Z0-9]+)?\n([\s\S]+?)\n```/g, (match, code) => {
 		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<pre><code>${escapeHtml(code)}</code></pre>`);
+		if (isShellCommand(code)) {
+			placeholders.push(createTerminalWindow(code));
+		} else {
+			placeholders.push(`<pre><code>${escapeHtml(code)}</code></pre>`);
+		}
 		return id;
 	});
 	
-	// 2. Single backticks (inline code)
+	// 2. Single backticks (inline code or terminal blocks)
 	tempText = tempText.replace(/`([^`]+)`/g, (match, code) => {
 		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<code>${escapeHtml(code)}</code>`);
-		return id;
-	});
-
-	// 3. XML/HTML-like tags: <%= %>, <jsp:include>, <html>, etc.
-	tempText = tempText.replace(/<([a-zA-Z%!/?][^>]*)>/g, (match) => {
-		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<code>${escapeHtml(match)}</code>`);
-		return id;
-	});
-
-	// 4. Single-quoted code, but avoid contractions (e.g. don't, user's)
-	tempText = tempText.replace(/(^|[\s().,;!?:])'([^']+)'([\s().,;!?:-]|$)/g, (match, before, code, after) => {
-		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<code>${escapeHtml(code)}</code>`);
-		return before + id + after;
-	});
-
-	// 5. Method calls, e.g. doGet(), init(), service(), main()
-	tempText = tempText.replace(/\b([a-zA-Z_][a-zA-Z0-9_]*\(\))/g, (match, code) => {
-		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<code>${escapeHtml(code)}</code>`);
-		return id;
-	});
-
-	// 6. Dot-notation packages or classes, e.g. java.sql, javax.servlet.http, System.out.println
-	tempText = tempText.replace(/\b([a-z0-9_]+\.[a-z0-9_]+(?:\.[a-zA-Z0-9_]+)+)\b/g, (match, code) => {
-		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<code>${escapeHtml(code)}</code>`);
-		return id;
-	});
-
-	// 7. Unix commands with options/flags, e.g. ls -l, ls -lh, ls -li, tar -xvf
-	tempText = tempText.replace(/\b([a-z]{2,}\s+-[a-zA-Z0-9]{1,4})\b/g, (match, code) => {
-		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<code>${escapeHtml(code)}</code>`);
-		return id;
-	});
-
-	// 8. Unix paths, e.g. /etc, /bin, /usr/bin, /tmp, /dev/null
-	tempText = tempText.replace(/(^|[\s().,;!?:])(\/[a-zA-Z0-9_.\/-]*[a-zA-Z0-9_-])([\s().,;!?:-]|$)/g, (match, before, path, after) => {
-		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<code>${escapeHtml(path)}</code>`);
-		return before + id + after;
-	});
-
-	// 9. Specific single-word class/interface/keyword programming terms
-	const codeKeywords = [
-		"PreparedStatement", "DriverManager", "ResultSet", "HttpServletRequest", 
-		"HttpServletResponse", "ServletContext", "ServletConfig", "HttpServlet",
-		"HttpSession", "Cookie", "RequestDispatcher", "Filter", "FilterChain", "FilterConfig",
-		"tomcat", "wildfly", "glassfish", "weblogic"
-	];
-	const keywordRegex = new RegExp(`\\b(${codeKeywords.join("|")})\\b`, "g");
-	tempText = tempText.replace(keywordRegex, (match, code) => {
-		const id = `__CODE_BLOCK_${placeholders.length}__`;
-		placeholders.push(`<code>${escapeHtml(code)}</code>`);
+		if (isShellCommand(code) || isShellFlag(code)) {
+			placeholders.push(`<code class="shell-command-inline">${escapeHtml(code)}</code>`);
+		} else {
+			placeholders.push(`<code>${escapeHtml(code)}</code>`);
+		}
 		return id;
 	});
 

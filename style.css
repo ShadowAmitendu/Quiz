@@ -492,17 +492,17 @@ button:focus-visible,
 	flex-direction: column;
 	justify-content: flex-end;
 	gap: 0.85rem;
-	height: clamp(13rem, 24vh, 15rem);
-	min-height: 0;
+	min-height: clamp(13rem, 24vh, 15rem);
+	height: auto;
 }
 
 .quiz-bottombar .feedback {
 	width: 100%;
 	max-width: 640px;
 	margin: 0 auto;
-	height: 7.25rem;
-	min-height: 0;
-	overflow: hidden;
+	min-height: 7.25rem;
+	height: auto;
+	overflow: visible;
 }
 
 .back-btn {
@@ -968,8 +968,9 @@ button:focus-visible,
 	border-radius: var(--radius-sm);
 	padding: 0.75rem 1rem;
 	border: 1px solid var(--border);
-	max-height: 4.85rem;
-	overflow: auto;
+	min-height: 4.85rem;
+	height: auto;
+	overflow: visible;
 }
 
 /* ─── NAV ROW ─── */
@@ -2242,6 +2243,89 @@ pre code {
 	font-size: 0.85rem;
 	word-break: normal;
 	font-weight: 500;
+}
+
+/* ─── TERMINAL WINDOW CODE BLOCKS ─── */
+.terminal-window {
+	background: #1e1e1e;
+	border: 1px solid #333333;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+	margin: 0.85rem auto;
+	overflow: hidden;
+	font-family: "JetBrains Mono", "Fira Code", monospace;
+	text-align: left;
+	width: 100%;
+	max-width: 640px;
+}
+
+.terminal-header {
+	background: #2d2d2d;
+	padding: 0.5rem 0.75rem;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	border-bottom: 1px solid #3c3c3c;
+}
+
+.terminal-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.terminal-red { background: #ff5f56; }
+.terminal-yellow { background: #ffbd2e; }
+.terminal-green { background: #27c93f; }
+
+.terminal-title {
+	color: #999;
+	font-size: 11px;
+	font-weight: 600;
+	margin-left: 8px;
+	text-transform: lowercase;
+}
+
+.terminal-body {
+	margin: 0 !important;
+	padding: 0.85rem 1.1rem !important;
+	background: transparent !important;
+	border: none !important;
+	overflow-x: auto;
+}
+
+.terminal-body code {
+	background: none !important;
+	padding: 0 !important;
+	border: none !important;
+	color: #f8f8f2 !important; /* light terminal gray/white */
+	font-size: 0.88rem !important;
+	font-weight: 500 !important;
+	word-break: normal !important;
+	white-space: pre;
+}
+
+/* Styled inline shell command */
+code.shell-command-inline {
+	background: #1e1e1e;
+	border-color: #333333;
+	color: #50fa7b; /* green terminal color */
+	font-family: "JetBrains Mono", "Fira Code", monospace;
+	padding: 0.15em 0.4em;
+	font-size: 0.85em;
+	font-weight: 600;
+}
+
+/* Mini terminal for option buttons */
+.terminal-window.mini {
+	margin: 0.25rem 0;
+}
+.terminal-window.mini .terminal-body {
+	padding: 0.5rem 0.85rem !important;
+}
+.terminal-window.mini .terminal-header {
+	padding: 0.35rem 0.6rem;
 }
 
 

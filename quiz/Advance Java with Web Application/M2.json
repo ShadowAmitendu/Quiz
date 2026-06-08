@@ -571,7 +571,7 @@
     "subject": "Advance Java with Web Application",
     "topic": "Code Snippet",
     "difficulty": "medium",
-    "question": "Which method is missing?\n`PreparedStatement` ps = con.prepareStatement(\"SELECT * FROM student WHERE id=?\");\nps._____(1, 10);",
+    "question": "Which method is missing?\n`PreparedStatement` `ps` = con.prepareStatement(\"SELECT * FROM student WHERE id=?\");\n`ps`._____(1, 10);",
     "options": [
       {
         "key": "A",
@@ -922,7 +922,7 @@
     "subject": "Advance Java with Web Application",
     "topic": "ResultSet",
     "difficulty": "medium",
-    "question": "What does `ResultSet`.`next()` return when no more rows exist?",
+    "question": "What does `ResultSet`.`next()` return when no `more` rows exist?",
     "options": [
       {
         "key": "A",
@@ -938,11 +938,11 @@
       },
       {
         "key": "D",
-        "text": "-1"
+        "text": "`-1`"
       }
     ],
     "answer": "C",
-    "reason": "`next()` returns false when there are no more records."
+    "reason": "`next()` returns false when there are no `more` records."
   },
   {
     "id": 36,
@@ -1725,7 +1725,7 @@
       }
     ],
     "answer": "A",
-    "reason": "A transaction is a logical unit of work consisting of one or more operations."
+    "reason": "A transaction is a logical unit of work consisting of one or `more` operations."
   },
   {
     "id": 65,
@@ -1867,7 +1867,7 @@
     "subject": "Advance Java with Web Application",
     "topic": "Code Snippet",
     "difficulty": "medium",
-    "question": "Fill the blank:\n`PreparedStatement` ps = con.prepareStatement(sql);\nps.______(1, \"John\");",
+    "question": "Fill the blank:\n`PreparedStatement` `ps` = con.prepareStatement(sql);\n`ps`.______(1, \"John\");",
     "options": [
       {
         "key": "A",
@@ -2681,19 +2681,19 @@
     "options": [
       {
         "key": "A",
-        "text": "Statement ps = con.createStatement(sql);"
+        "text": "Statement `ps` = con.createStatement(sql);"
       },
       {
         "key": "B",
-        "text": "`PreparedStatement` ps = con.prepareStatement(sql);"
+        "text": "`PreparedStatement` `ps` = con.prepareStatement(sql);"
       },
       {
         "key": "C",
-        "text": "`PreparedStatement` ps = new `PreparedStatement`(sql);"
+        "text": "`PreparedStatement` `ps` = new `PreparedStatement`(sql);"
       },
       {
         "key": "D",
-        "text": "Statement ps = con.prepare(sql);"
+        "text": "Statement `ps` = con.prepare(sql);"
       }
     ],
     "answer": "B",

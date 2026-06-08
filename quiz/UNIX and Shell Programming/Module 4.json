@@ -43,7 +43,7 @@
       },
       {
         "key": "C",
-        "text": "`cal -y`"
+        "text": "cal `-y`"
       },
       {
         "key": "D",
@@ -62,23 +62,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-m"
+        "text": "`-m`"
       },
       {
         "key": "B",
-        "text": "-y"
+        "text": "`-y`"
       },
       {
         "key": "C",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "D",
-        "text": "-c"
+        "text": "`-c`"
       }
     ],
     "answer": "B",
-    "reason": "The -y option displays the calendar for the whole year."
+    "reason": "The `-y` option displays the calendar for the whole year."
   },
   {
     "id": 4,
@@ -224,23 +224,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "B",
-        "text": "-2"
+        "text": "`-2`"
       },
       {
         "key": "C",
-        "text": "-p"
+        "text": "`-p`"
       },
       {
         "key": "D",
-        "text": "-h"
+        "text": "`-h`"
       }
     ],
     "answer": "B",
-    "reason": "Options such `as -2`, -3, etc. display output in multiple columns."
+    "reason": "Options such as `-2`, `-3`, etc. display output in multiple columns."
   },
   {
     "id": 10,
@@ -305,23 +305,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-b"
+        "text": "`-b`"
       },
       {
         "key": "B",
-        "text": "-u"
+        "text": "`-u`"
       },
       {
         "key": "C",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "A",
-    "reason": "The `who -b` command displays the last system boot time."
+    "reason": "The who `-b` command displays the last system boot time."
   },
   {
     "id": 13,
@@ -355,7 +355,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "bc Command",
     "difficulty": "easy",
-    "question": "What is the output of `echo 5+3 | bc`?",
+    "question": "What is the output of `echo 5+3 | bc?`",
     "options": [
       {
         "key": "A",
@@ -409,7 +409,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "bc Command",
     "difficulty": "hard",
-    "question": "What is the output of `echo scale=2;10/3 | bc`?",
+    "question": "What is the output of `echo scale=2;10/3 | bc?`",
     "options": [
       {
         "key": "A",
@@ -448,7 +448,7 @@
       },
       {
         "key": "C",
-        "text": "echo"
+        "text": "`echo`"
       },
       {
         "key": "D",
@@ -456,14 +456,14 @@
       }
     ],
     "answer": "C",
-    "reason": "echo prints text or variable values to standard output."
+    "reason": "`echo` prints text or variable values to standard output."
   },
   {
     "id": 18,
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "easy",
-    "question": "What is the output of `echo Hello World`?",
+    "question": "What is the output of `echo` Hello World?",
     "options": [
       {
         "key": "A",
@@ -483,41 +483,41 @@
       }
     ],
     "answer": "C",
-    "reason": "echo prints the supplied text exactly."
+    "reason": "`echo` prints the supplied text exactly."
   },
   {
     "id": 19,
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "medium",
-    "question": "Which option suppresses the trailing newline in echo?",
+    "question": "Which option suppresses the trailing newline in `echo`?",
     "options": [
       {
         "key": "A",
-        "text": "-l"
+        "text": "`-l`"
       },
       {
         "key": "B",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "C",
-        "text": "-s"
+        "text": "`-s`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "B",
-    "reason": "The -n option prevents echo from printing a newline."
+    "reason": "The `-n` option prevents `echo` from printing a newline."
   },
   {
     "id": 20,
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "hard",
-    "question": "What is the output of `echo $HOME`?",
+    "question": "What is the output of `echo` $HOME?",
     "options": [
       {
         "key": "A",
@@ -556,7 +556,7 @@
       },
       {
         "key": "C",
-        "text": "tar"
+        "text": "`tar`"
       },
       {
         "key": "D",
@@ -583,7 +583,7 @@
       },
       {
         "key": "C",
-        "text": "tar archive.zip file.txt"
+        "text": "`tar archive.zip file.txt`"
       },
       {
         "key": "D",
@@ -602,23 +602,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "B",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-c"
+        "text": "`-c`"
       }
     ],
     "answer": "A",
-    "reason": "The -r option recursively includes directories and their contents."
+    "reason": "The `-r` option recursively includes directories and their contents."
   },
   {
     "id": 24,
@@ -668,7 +668,7 @@
       },
       {
         "key": "D",
-        "text": "tar archive.zip"
+        "text": "`tar archive.zip`"
       }
     ],
     "answer": "B",
@@ -683,23 +683,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-l"
+        "text": "`-l`"
       },
       {
         "key": "B",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-c"
+        "text": "`-c`"
       }
     ],
     "answer": "A",
-    "reason": "The -l option displays archive contents."
+    "reason": "The `-l` option displays archive contents."
   },
   {
     "id": 27,
@@ -718,7 +718,7 @@
       },
       {
         "key": "C",
-        "text": "tar"
+        "text": "`tar`"
       },
       {
         "key": "D",
@@ -764,15 +764,15 @@
     "options": [
       {
         "key": "A",
-        "text": "`gzip -d` file.gz"
+        "text": "gzip `-d` file.gz"
       },
       {
         "key": "B",
-        "text": "`zip -d` file.gz"
+        "text": "zip `-d` file.gz"
       },
       {
         "key": "C",
-        "text": "`tar -d` file.gz"
+        "text": "`tar -d file.gz`"
       },
       {
         "key": "D",
@@ -780,14 +780,14 @@
       }
     ],
     "answer": "A",
-    "reason": "The -d option decompresses gzip archives."
+    "reason": "The `-d` option decompresses gzip archives."
   },
   {
     "id": 30,
     "subject": "UNIX and Shell Programming",
     "topic": "gzip Command",
     "difficulty": "hard",
-    "question": "Which command is equivalent to ``gzip -d` file.gz`?",
+    "question": "Which command is equivalent to gzip `-d` file.gz?",
     "options": [
       {
         "key": "A",
@@ -803,7 +803,7 @@
       },
       {
         "key": "D",
-        "text": "`zip -x` file.gz"
+        "text": "zip `-x` file.gz"
       }
     ],
     "answer": "A",
@@ -818,7 +818,7 @@
     "options": [
       {
         "key": "A",
-        "text": "tar"
+        "text": "`tar`"
       },
       {
         "key": "B",
@@ -834,115 +834,115 @@
       }
     ],
     "answer": "A",
-    "reason": "tar is the standard UNIX utility for creating archives."
+    "reason": "`tar` is the standard UNIX utility for creating archives."
   },
   {
     "id": 32,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "medium",
-    "question": "Which option creates a new tar archive?",
+    "question": "Which option creates a new `tar` archive?",
     "options": [
       {
         "key": "A",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "B",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "C",
-        "text": "-t"
+        "text": "`-t`"
       },
       {
         "key": "D",
-        "text": "-r"
+        "text": "`-r`"
       }
     ],
     "answer": "B",
-    "reason": "The -c option creates a new tar archive."
+    "reason": "The `-c` option creates a new `tar` archive."
   },
   {
     "id": 33,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "medium",
-    "question": "Which option extracts files from a tar archive?",
+    "question": "Which option extracts files from a `tar` archive?",
     "options": [
       {
         "key": "A",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "B",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-u"
+        "text": "`-u`"
       }
     ],
     "answer": "C",
-    "reason": "The -x option extracts files from a tar archive."
+    "reason": "The `-x` option extracts files from a `tar` archive."
   },
   {
     "id": 34,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "hard",
-    "question": "Which command creates a compressed archive named `backup.tar.gz`?",
+    "question": "Which command creates a compressed archive named backup.`tar`.gz?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -cvf` backup.tar files"
+        "text": "`tar -cvf backup.tar` files"
       },
       {
         "key": "B",
-        "text": "gzip backup.tar"
+        "text": "gzip backup.`tar`"
       },
       {
         "key": "C",
-        "text": "`tar -czvf` `backup.tar.gz` files"
+        "text": "`tar -czvf backup.tar.gz` files"
       },
       {
         "key": "D",
-        "text": "zip `backup.tar.gz` files"
+        "text": "zip backup.`tar`.gz files"
       }
     ],
     "answer": "C",
-    "reason": "The -z option compresses the tar archive using gzip."
+    "reason": "The `-z` option compresses the `tar` archive using gzip."
   },
   {
     "id": 35,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "hard",
-    "question": "Which command lists the contents of a tar archive without extracting it?",
+    "question": "Which command lists the contents of a `tar` archive without extracting it?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -tvf` archive.tar"
+        "text": "`tar -tvf archive.tar`"
       },
       {
         "key": "B",
-        "text": "`tar -xvf` archive.tar"
+        "text": "`tar -xvf archive.tar`"
       },
       {
         "key": "C",
-        "text": "`tar -cvf` archive.tar"
+        "text": "`tar -cvf archive.tar`"
       },
       {
         "key": "D",
-        "text": "gzip archive.tar"
+        "text": "gzip archive.`tar`"
       }
     ],
     "answer": "A",
-    "reason": "The -t option displays the contents of a tar archive."
+    "reason": "The `-t` option displays the contents of a `tar` archive."
   },
   {
     "id": 36,
@@ -957,7 +957,7 @@
       },
       {
         "key": "B",
-        "text": "`cal -y` 2026"
+        "text": "cal `-y` 2026"
       },
       {
         "key": "C",
@@ -984,7 +984,7 @@
       },
       {
         "key": "B",
-        "text": "`cal -m` 3 2026"
+        "text": "cal `-m` 3 2026"
       },
       {
         "key": "C",
@@ -992,11 +992,11 @@
       },
       {
         "key": "D",
-        "text": "`cal -y` 2026"
+        "text": "cal `-y` 2026"
       }
     ],
     "answer": "A",
-    "reason": "The syntax `cal month year` displays a specific month's calendar."
+    "reason": "The syntax cal month year displays a specific month's calendar."
   },
   {
     "id": 38,
@@ -1069,7 +1069,7 @@
       },
       {
         "key": "C",
-        "text": "`date -y`"
+        "text": "date `-y`"
       },
       {
         "key": "D",
@@ -1088,23 +1088,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-t"
+        "text": "`-t`"
       },
       {
         "key": "B",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "C",
-        "text": "-h"
+        "text": "`-h`"
       },
       {
         "key": "D",
-        "text": "-m"
+        "text": "`-m`"
       }
     ],
     "answer": "A",
-    "reason": "The -t option removes headers and footers from the output."
+    "reason": "The `-t` option removes headers and footers from the output."
   },
   {
     "id": 42,
@@ -1115,23 +1115,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-m"
+        "text": "`-m`"
       },
       {
         "key": "B",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "C",
-        "text": "-p"
+        "text": "`-p`"
       },
       {
         "key": "D",
-        "text": "-r"
+        "text": "`-r`"
       }
     ],
     "answer": "A",
-    "reason": "The -m option merges files and displays them in parallel columns."
+    "reason": "The `-m` option merges files and displays them in parallel columns."
   },
   {
     "id": 43,
@@ -1150,7 +1150,7 @@
       },
       {
         "key": "C",
-        "text": "`who -l`"
+        "text": "who `-l`"
       },
       {
         "key": "D",
@@ -1158,7 +1158,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The command `who am i` displays information about the current terminal session."
+    "reason": "The command who am i displays information about the current terminal session."
   },
   {
     "id": 44,
@@ -1169,23 +1169,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "B",
-        "text": "-b"
+        "text": "`-b`"
       },
       {
         "key": "C",
-        "text": "-q"
+        "text": "`-q`"
       },
       {
         "key": "D",
-        "text": "-u"
+        "text": "`-u`"
       }
     ],
     "answer": "A",
-    "reason": "The -a option displays all available details from the who database."
+    "reason": "The `-a` option displays all available details from the who database."
   },
   {
     "id": 45,
@@ -1196,30 +1196,30 @@
     "options": [
       {
         "key": "A",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "B",
-        "text": "-q"
+        "text": "`-q`"
       },
       {
         "key": "C",
-        "text": "-b"
+        "text": "`-b`"
       },
       {
         "key": "D",
-        "text": "-r"
+        "text": "`-r`"
       }
     ],
     "answer": "B",
-    "reason": "The -q option provides a quick list of usernames and total users."
+    "reason": "The `-q` option provides a quick list of usernames and total users."
   },
   {
     "id": 46,
     "subject": "UNIX and Shell Programming",
     "topic": "bc Command",
     "difficulty": "easy",
-    "question": "What is the output of `echo 7*6 | bc`?",
+    "question": "What is the output of `echo 7*6 | bc?`",
     "options": [
       {
         "key": "A",
@@ -1273,7 +1273,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "bc Command",
     "difficulty": "hard",
-    "question": "What is the output of `echo 2^5 | bc`?",
+    "question": "What is the output of `echo 2^5 | bc?`",
     "options": [
       {
         "key": "A",
@@ -1300,34 +1300,34 @@
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "medium",
-    "question": "Which option enables interpretation of escape sequences in echo?",
+    "question": "Which option enables interpretation of escape sequences in `echo`?",
     "options": [
       {
         "key": "A",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "B",
-        "text": "-e"
+        "text": "`-e`"
       },
       {
         "key": "C",
-        "text": "-s"
+        "text": "`-s`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "B",
-    "reason": "The -e option enables escape sequence processing."
+    "reason": "The `-e` option enables escape sequence processing."
   },
   {
     "id": 50,
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "medium",
-    "question": "What does `\\n` represent when used with `echo -e`?",
+    "question": "What does \\n represent when used with `echo -e`?",
     "options": [
       {
         "key": "A",
@@ -1354,7 +1354,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "hard",
-    "question": "What does `\\t` represent when used with `echo -e`?",
+    "question": "What does \\t represent when used with `echo -e`?",
     "options": [
       {
         "key": "A",
@@ -1385,23 +1385,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`zip -l` archive.zip"
+        "text": "zip `-l` archive.zip"
       },
       {
         "key": "B",
-        "text": "`unzip -l` archive.zip"
+        "text": "unzip `-l` archive.zip"
       },
       {
         "key": "C",
-        "text": "`gzip -l` archive.zip"
+        "text": "gzip `-l` archive.zip"
       },
       {
         "key": "D",
-        "text": "`tar -l` archive.zip"
+        "text": "`tar -l archive.zip`"
       }
     ],
     "answer": "B",
-    "reason": "The `unzip -l` command lists archive contents without extraction."
+    "reason": "The unzip `-l` command lists archive contents without extraction."
   },
   {
     "id": 53,
@@ -1412,23 +1412,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "B",
-        "text": "-e"
+        "text": "`-e`"
       },
       {
         "key": "C",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "D",
-        "text": "-x"
+        "text": "`-x`"
       }
     ],
     "answer": "B",
-    "reason": "The -e option enables password protection for ZIP archives."
+    "reason": "The `-e` option enables password protection for ZIP archives."
   },
   {
     "id": 54,
@@ -1439,23 +1439,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "B",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "C",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "D",
-        "text": "-x"
+        "text": "`-x`"
       }
     ],
     "answer": "A",
-    "reason": "The -d option specifies the destination directory."
+    "reason": "The `-d` option specifies the destination directory."
   },
   {
     "id": 55,
@@ -1470,11 +1470,11 @@
       },
       {
         "key": "B",
-        "text": "`unzip -d` backup archive.zip"
+        "text": "unzip `-d` backup archive.zip"
       },
       {
         "key": "C",
-        "text": "`zip -d` backup archive.zip"
+        "text": "zip `-d` backup archive.zip"
       },
       {
         "key": "D",
@@ -1482,7 +1482,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The -d option specifies the extraction destination."
+    "reason": "The `-d` option specifies the extraction destination."
   },
   {
     "id": 56,
@@ -1520,23 +1520,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "B",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "C",
-        "text": "-k"
+        "text": "`-k`"
       },
       {
         "key": "D",
-        "text": "-l"
+        "text": "`-l`"
       }
     ],
     "answer": "C",
-    "reason": "The -k option keeps the original file while creating the compressed file."
+    "reason": "The `-k` option keeps the original file while creating the compressed file."
   },
   {
     "id": 58,
@@ -1547,30 +1547,30 @@
     "options": [
       {
         "key": "A",
-        "text": "`gzip -l` file.gz"
+        "text": "gzip `-l` file.gz"
       },
       {
         "key": "B",
-        "text": "`gzip -c` file.gz"
+        "text": "gzip `-c` file.gz"
       },
       {
         "key": "C",
-        "text": "`gzip -r` file.gz"
+        "text": "gzip `-r` file.gz"
       },
       {
         "key": "D",
-        "text": "`gunzip -l` file.gz"
+        "text": "gunzip `-l` file.gz"
       }
     ],
     "answer": "A",
-    "reason": "The -l option displays compressed and uncompressed sizes."
+    "reason": "The `-l` option displays compressed and uncompressed sizes."
   },
   {
     "id": 59,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "easy",
-    "question": "What is the primary purpose of the tar command?",
+    "question": "What is the primary purpose of the `tar` command?",
     "options": [
       {
         "key": "A",
@@ -1590,196 +1590,196 @@
       }
     ],
     "answer": "B",
-    "reason": "tar combines multiple files into a single archive."
+    "reason": "`tar` combines multiple files into a single archive."
   },
   {
     "id": 60,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "medium",
-    "question": "Which option displays verbose output while creating a tar archive?",
+    "question": "Which option displays verbose output while creating a `tar` archive?",
     "options": [
       {
         "key": "A",
-        "text": "-v"
+        "text": "`-v`"
       },
       {
         "key": "B",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-f"
+        "text": "`-f`"
       }
     ],
     "answer": "A",
-    "reason": "The -v option shows files being processed."
+    "reason": "The `-v` option shows files being processed."
   },
   {
     "id": 61,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "medium",
-    "question": "Which option specifies the archive filename in tar?",
+    "question": "Which option specifies the archive filename in `tar`?",
     "options": [
       {
         "key": "A",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "B",
-        "text": "-f"
+        "text": "`-f`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "B",
-    "reason": "The -f option specifies the archive file name."
+    "reason": "The `-f` option specifies the archive file name."
   },
   {
     "id": 62,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "hard",
-    "question": "Which command creates archive.tar from dir1?",
+    "question": "Which command creates archive.`tar` from dir1?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -cvf` archive.tar dir1"
+        "text": "`tar -cvf archive.tar` dir1"
       },
       {
         "key": "B",
-        "text": "`tar -xvf` archive.tar dir1"
+        "text": "`tar -xvf archive.tar` dir1"
       },
       {
         "key": "C",
-        "text": "gzip archive.tar dir1"
+        "text": "gzip archive.`tar` dir1"
       },
       {
         "key": "D",
-        "text": "zip archive.tar dir1"
+        "text": "zip archive.`tar` dir1"
       }
     ],
     "answer": "A",
-    "reason": "The `options -c`, -v, `and -f` create a tar archive."
+    "reason": "The options `-c`, `-v`, and `-f` create a `tar` archive."
   },
   {
     "id": 63,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "hard",
-    "question": "Which command extracts archive.tar?",
+    "question": "Which command extracts archive.`tar`?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -cvf` archive.tar"
+        "text": "`tar -cvf archive.tar`"
       },
       {
         "key": "B",
-        "text": "`tar -tvf` archive.tar"
+        "text": "`tar -tvf archive.tar`"
       },
       {
         "key": "C",
-        "text": "`tar -xvf` archive.tar"
+        "text": "`tar -xvf archive.tar`"
       },
       {
         "key": "D",
-        "text": "`gzip -d` archive.tar"
+        "text": "gzip `-d` archive.`tar`"
       }
     ],
     "answer": "C",
-    "reason": "The -x option extracts files from a tar archive."
+    "reason": "The `-x` option extracts files from a `tar` archive."
   },
   {
     "id": 64,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "hard",
-    "question": "Which option appends files to an existing tar archive?",
+    "question": "Which option appends files to an existing `tar` archive?",
     "options": [
       {
         "key": "A",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "B",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "C",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "A",
-    "reason": "The -r option appends files to an existing archive."
+    "reason": "The `-r` option appends files to an existing archive."
   },
   {
     "id": 65,
     "subject": "UNIX and Shell Programming",
     "topic": "Combined Utility Commands",
     "difficulty": "hard",
-    "question": "Which command creates a compressed tar archive using gzip?",
+    "question": "Which command creates a compressed `tar` archive using gzip?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -czvf` `backup.tar.gz` data"
+        "text": "`tar -czvf backup.tar.gz` data"
       },
       {
         "key": "B",
-        "text": "gzip `backup.tar.gz` data"
+        "text": "gzip backup.`tar`.gz data"
       },
       {
         "key": "C",
-        "text": "zip `backup.tar.gz` data"
+        "text": "zip backup.`tar`.gz data"
       },
       {
         "key": "D",
-        "text": "`tar -xzvf` `backup.tar.gz`"
+        "text": "`tar -xzvf backup.tar.gz`"
       }
     ],
     "answer": "A",
-    "reason": "The -z option applies gzip compression while creating the tar archive."
+    "reason": "The `-z` option applies gzip compression while creating the `tar` archive."
   },
   {
     "id": 66,
     "subject": "UNIX and Shell Programming",
     "topic": "Combined Utility Commands",
     "difficulty": "hard",
-    "question": "Which command extracts a gzip-compressed tar archive?",
+    "question": "Which command extracts a gzip-compressed `tar` archive?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -xzvf` `backup.tar.gz`"
+        "text": "`tar -xzvf backup.tar.gz`"
       },
       {
         "key": "B",
-        "text": "`gzip -x` `backup.tar.gz`"
+        "text": "gzip `-x` backup.`tar`.gz"
       },
       {
         "key": "C",
-        "text": "unzip `backup.tar.gz`"
+        "text": "unzip backup.`tar`.gz"
       },
       {
         "key": "D",
-        "text": "gunzip backup.tar"
+        "text": "gunzip backup.`tar`"
       }
     ],
     "answer": "A",
-    "reason": "The -x `and -z` options extract and decompress a .tar.gz archive."
+    "reason": "The `-x` and `-z` options extract and decompress a .`tar`.gz archive."
   },
   {
     "id": 67,
@@ -1817,11 +1817,11 @@
     "options": [
       {
         "key": "A",
-        "text": "echo scale=2;25/4 | bc"
+        "text": "`echo scale=2;25/4 | bc`"
       },
       {
         "key": "B",
-        "text": "echo 25/4"
+        "text": "`echo 25/4`"
       },
       {
         "key": "C",
@@ -1856,7 +1856,7 @@
       },
       {
         "key": "D",
-        "text": "echo who users.txt"
+        "text": "`echo who users.txt`"
       }
     ],
     "answer": "A",
@@ -1871,23 +1871,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`tar -tvf` archive.tar"
+        "text": "`tar -tvf archive.tar`"
       },
       {
         "key": "B",
-        "text": "`tar -xvf` archive.tar"
+        "text": "`tar -xvf archive.tar`"
       },
       {
         "key": "C",
-        "text": "unzip archive.tar"
+        "text": "unzip archive.`tar`"
       },
       {
         "key": "D",
-        "text": "`gzip -l` archive.tar"
+        "text": "gzip `-l` archive.`tar`"
       }
     ],
     "answer": "A",
-    "reason": "The -t option lists archive contents `and -v` provides detailed information."
+    "reason": "The `-t` option lists archive contents and `-v` provides detailed information."
   },
   {
     "id": 36,
@@ -1902,7 +1902,7 @@
       },
       {
         "key": "B",
-        "text": "`cal -y` 2026"
+        "text": "cal `-y` 2026"
       },
       {
         "key": "C",
@@ -1929,7 +1929,7 @@
       },
       {
         "key": "B",
-        "text": "`cal -m` 3 2026"
+        "text": "cal `-m` 3 2026"
       },
       {
         "key": "C",
@@ -1937,11 +1937,11 @@
       },
       {
         "key": "D",
-        "text": "`cal -y` 2026"
+        "text": "cal `-y` 2026"
       }
     ],
     "answer": "A",
-    "reason": "The syntax `cal month year` displays a specific month's calendar."
+    "reason": "The syntax cal month year displays a specific month's calendar."
   },
   {
     "id": 38,
@@ -2014,7 +2014,7 @@
       },
       {
         "key": "C",
-        "text": "`date -y`"
+        "text": "date `-y`"
       },
       {
         "key": "D",
@@ -2033,23 +2033,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-t"
+        "text": "`-t`"
       },
       {
         "key": "B",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "C",
-        "text": "-h"
+        "text": "`-h`"
       },
       {
         "key": "D",
-        "text": "-m"
+        "text": "`-m`"
       }
     ],
     "answer": "A",
-    "reason": "The -t option removes headers and footers from the output."
+    "reason": "The `-t` option removes headers and footers from the output."
   },
   {
     "id": 42,
@@ -2060,23 +2060,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-m"
+        "text": "`-m`"
       },
       {
         "key": "B",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "C",
-        "text": "-p"
+        "text": "`-p`"
       },
       {
         "key": "D",
-        "text": "-r"
+        "text": "`-r`"
       }
     ],
     "answer": "A",
-    "reason": "The -m option merges files and displays them in parallel columns."
+    "reason": "The `-m` option merges files and displays them in parallel columns."
   },
   {
     "id": 43,
@@ -2095,7 +2095,7 @@
       },
       {
         "key": "C",
-        "text": "`who -l`"
+        "text": "who `-l`"
       },
       {
         "key": "D",
@@ -2103,7 +2103,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The command `who am i` displays information about the current terminal session."
+    "reason": "The command who am i displays information about the current terminal session."
   },
   {
     "id": 44,
@@ -2114,23 +2114,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "B",
-        "text": "-b"
+        "text": "`-b`"
       },
       {
         "key": "C",
-        "text": "-q"
+        "text": "`-q`"
       },
       {
         "key": "D",
-        "text": "-u"
+        "text": "`-u`"
       }
     ],
     "answer": "A",
-    "reason": "The -a option displays all available details from the who database."
+    "reason": "The `-a` option displays all available details from the who database."
   },
   {
     "id": 45,
@@ -2141,30 +2141,30 @@
     "options": [
       {
         "key": "A",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "B",
-        "text": "-q"
+        "text": "`-q`"
       },
       {
         "key": "C",
-        "text": "-b"
+        "text": "`-b`"
       },
       {
         "key": "D",
-        "text": "-r"
+        "text": "`-r`"
       }
     ],
     "answer": "B",
-    "reason": "The -q option provides a quick list of usernames and total users."
+    "reason": "The `-q` option provides a quick list of usernames and total users."
   },
   {
     "id": 46,
     "subject": "UNIX and Shell Programming",
     "topic": "bc Command",
     "difficulty": "easy",
-    "question": "What is the output of `echo 7*6 | bc`?",
+    "question": "What is the output of `echo 7*6 | bc?`",
     "options": [
       {
         "key": "A",
@@ -2218,7 +2218,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "bc Command",
     "difficulty": "hard",
-    "question": "What is the output of `echo 2^5 | bc`?",
+    "question": "What is the output of `echo 2^5 | bc?`",
     "options": [
       {
         "key": "A",
@@ -2245,34 +2245,34 @@
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "medium",
-    "question": "Which option enables interpretation of escape sequences in echo?",
+    "question": "Which option enables interpretation of escape sequences in `echo`?",
     "options": [
       {
         "key": "A",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "B",
-        "text": "-e"
+        "text": "`-e`"
       },
       {
         "key": "C",
-        "text": "-s"
+        "text": "`-s`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "B",
-    "reason": "The -e option enables escape sequence processing."
+    "reason": "The `-e` option enables escape sequence processing."
   },
   {
     "id": 50,
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "medium",
-    "question": "What does `\\n` represent when used with `echo -e`?",
+    "question": "What does \\n represent when used with `echo -e`?",
     "options": [
       {
         "key": "A",
@@ -2299,7 +2299,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "echo Command",
     "difficulty": "hard",
-    "question": "What does `\\t` represent when used with `echo -e`?",
+    "question": "What does \\t represent when used with `echo -e`?",
     "options": [
       {
         "key": "A",
@@ -2330,23 +2330,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`zip -l` archive.zip"
+        "text": "zip `-l` archive.zip"
       },
       {
         "key": "B",
-        "text": "`unzip -l` archive.zip"
+        "text": "unzip `-l` archive.zip"
       },
       {
         "key": "C",
-        "text": "`gzip -l` archive.zip"
+        "text": "gzip `-l` archive.zip"
       },
       {
         "key": "D",
-        "text": "`tar -l` archive.zip"
+        "text": "`tar -l archive.zip`"
       }
     ],
     "answer": "B",
-    "reason": "The `unzip -l` command lists archive contents without extraction."
+    "reason": "The unzip `-l` command lists archive contents without extraction."
   },
   {
     "id": 53,
@@ -2357,23 +2357,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "B",
-        "text": "-e"
+        "text": "`-e`"
       },
       {
         "key": "C",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "D",
-        "text": "-x"
+        "text": "`-x`"
       }
     ],
     "answer": "B",
-    "reason": "The -e option enables password protection for ZIP archives."
+    "reason": "The `-e` option enables password protection for ZIP archives."
   },
   {
     "id": 54,
@@ -2384,23 +2384,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "B",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "C",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "D",
-        "text": "-x"
+        "text": "`-x`"
       }
     ],
     "answer": "A",
-    "reason": "The -d option specifies the destination directory."
+    "reason": "The `-d` option specifies the destination directory."
   },
   {
     "id": 55,
@@ -2415,11 +2415,11 @@
       },
       {
         "key": "B",
-        "text": "`unzip -d` backup archive.zip"
+        "text": "unzip `-d` backup archive.zip"
       },
       {
         "key": "C",
-        "text": "`zip -d` backup archive.zip"
+        "text": "zip `-d` backup archive.zip"
       },
       {
         "key": "D",
@@ -2427,7 +2427,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The -d option specifies the extraction destination."
+    "reason": "The `-d` option specifies the extraction destination."
   },
   {
     "id": 56,
@@ -2465,23 +2465,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-d"
+        "text": "`-d`"
       },
       {
         "key": "B",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "C",
-        "text": "-k"
+        "text": "`-k`"
       },
       {
         "key": "D",
-        "text": "-l"
+        "text": "`-l`"
       }
     ],
     "answer": "C",
-    "reason": "The -k option keeps the original file while creating the compressed file."
+    "reason": "The `-k` option keeps the original file while creating the compressed file."
   },
   {
     "id": 58,
@@ -2492,30 +2492,30 @@
     "options": [
       {
         "key": "A",
-        "text": "`gzip -l` file.gz"
+        "text": "gzip `-l` file.gz"
       },
       {
         "key": "B",
-        "text": "`gzip -c` file.gz"
+        "text": "gzip `-c` file.gz"
       },
       {
         "key": "C",
-        "text": "`gzip -r` file.gz"
+        "text": "gzip `-r` file.gz"
       },
       {
         "key": "D",
-        "text": "`gunzip -l` file.gz"
+        "text": "gunzip `-l` file.gz"
       }
     ],
     "answer": "A",
-    "reason": "The -l option displays compressed and uncompressed sizes."
+    "reason": "The `-l` option displays compressed and uncompressed sizes."
   },
   {
     "id": 59,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "easy",
-    "question": "What is the primary purpose of the tar command?",
+    "question": "What is the primary purpose of the `tar` command?",
     "options": [
       {
         "key": "A",
@@ -2535,196 +2535,196 @@
       }
     ],
     "answer": "B",
-    "reason": "tar combines multiple files into a single archive."
+    "reason": "`tar` combines multiple files into a single archive."
   },
   {
     "id": 60,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "medium",
-    "question": "Which option displays verbose output while creating a tar archive?",
+    "question": "Which option displays verbose output while creating a `tar` archive?",
     "options": [
       {
         "key": "A",
-        "text": "-v"
+        "text": "`-v`"
       },
       {
         "key": "B",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-f"
+        "text": "`-f`"
       }
     ],
     "answer": "A",
-    "reason": "The -v option shows files being processed."
+    "reason": "The `-v` option shows files being processed."
   },
   {
     "id": 61,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "medium",
-    "question": "Which option specifies the archive filename in tar?",
+    "question": "Which option specifies the archive filename in `tar`?",
     "options": [
       {
         "key": "A",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "B",
-        "text": "-f"
+        "text": "`-f`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "B",
-    "reason": "The -f option specifies the archive file name."
+    "reason": "The `-f` option specifies the archive file name."
   },
   {
     "id": 62,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "hard",
-    "question": "Which command creates archive.tar from dir1?",
+    "question": "Which command creates archive.`tar` from dir1?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -cvf` archive.tar dir1"
+        "text": "`tar -cvf archive.tar` dir1"
       },
       {
         "key": "B",
-        "text": "`tar -xvf` archive.tar dir1"
+        "text": "`tar -xvf archive.tar` dir1"
       },
       {
         "key": "C",
-        "text": "gzip archive.tar dir1"
+        "text": "gzip archive.`tar` dir1"
       },
       {
         "key": "D",
-        "text": "zip archive.tar dir1"
+        "text": "zip archive.`tar` dir1"
       }
     ],
     "answer": "A",
-    "reason": "The `options -c`, -v, `and -f` create a tar archive."
+    "reason": "The options `-c`, `-v`, and `-f` create a `tar` archive."
   },
   {
     "id": 63,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "hard",
-    "question": "Which command extracts archive.tar?",
+    "question": "Which command extracts archive.`tar`?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -cvf` archive.tar"
+        "text": "`tar -cvf archive.tar`"
       },
       {
         "key": "B",
-        "text": "`tar -tvf` archive.tar"
+        "text": "`tar -tvf archive.tar`"
       },
       {
         "key": "C",
-        "text": "`tar -xvf` archive.tar"
+        "text": "`tar -xvf archive.tar`"
       },
       {
         "key": "D",
-        "text": "`gzip -d` archive.tar"
+        "text": "gzip `-d` archive.`tar`"
       }
     ],
     "answer": "C",
-    "reason": "The -x option extracts files from a tar archive."
+    "reason": "The `-x` option extracts files from a `tar` archive."
   },
   {
     "id": 64,
     "subject": "UNIX and Shell Programming",
     "topic": "Archiving",
     "difficulty": "hard",
-    "question": "Which option appends files to an existing tar archive?",
+    "question": "Which option appends files to an existing `tar` archive?",
     "options": [
       {
         "key": "A",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "B",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "C",
-        "text": "-c"
+        "text": "`-c`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "A",
-    "reason": "The -r option appends files to an existing archive."
+    "reason": "The `-r` option appends files to an existing archive."
   },
   {
     "id": 65,
     "subject": "UNIX and Shell Programming",
     "topic": "Combined Utility Commands",
     "difficulty": "hard",
-    "question": "Which command creates a compressed tar archive using gzip?",
+    "question": "Which command creates a compressed `tar` archive using gzip?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -czvf` `backup.tar.gz` data"
+        "text": "`tar -czvf backup.tar.gz` data"
       },
       {
         "key": "B",
-        "text": "gzip `backup.tar.gz` data"
+        "text": "gzip backup.`tar`.gz data"
       },
       {
         "key": "C",
-        "text": "zip `backup.tar.gz` data"
+        "text": "zip backup.`tar`.gz data"
       },
       {
         "key": "D",
-        "text": "`tar -xzvf` `backup.tar.gz`"
+        "text": "`tar -xzvf backup.tar.gz`"
       }
     ],
     "answer": "A",
-    "reason": "The -z option applies gzip compression while creating the tar archive."
+    "reason": "The `-z` option applies gzip compression while creating the `tar` archive."
   },
   {
     "id": 66,
     "subject": "UNIX and Shell Programming",
     "topic": "Combined Utility Commands",
     "difficulty": "hard",
-    "question": "Which command extracts a gzip-compressed tar archive?",
+    "question": "Which command extracts a gzip-compressed `tar` archive?",
     "options": [
       {
         "key": "A",
-        "text": "`tar -xzvf` `backup.tar.gz`"
+        "text": "`tar -xzvf backup.tar.gz`"
       },
       {
         "key": "B",
-        "text": "`gzip -x` `backup.tar.gz`"
+        "text": "gzip `-x` backup.`tar`.gz"
       },
       {
         "key": "C",
-        "text": "unzip `backup.tar.gz`"
+        "text": "unzip backup.`tar`.gz"
       },
       {
         "key": "D",
-        "text": "gunzip backup.tar"
+        "text": "gunzip backup.`tar`"
       }
     ],
     "answer": "A",
-    "reason": "The -x `and -z` options extract and decompress a .tar.gz archive."
+    "reason": "The `-x` and `-z` options extract and decompress a .`tar`.gz archive."
   },
   {
     "id": 67,
@@ -2762,11 +2762,11 @@
     "options": [
       {
         "key": "A",
-        "text": "echo scale=2;25/4 | bc"
+        "text": "`echo scale=2;25/4 | bc`"
       },
       {
         "key": "B",
-        "text": "echo 25/4"
+        "text": "`echo 25/4`"
       },
       {
         "key": "C",
@@ -2801,7 +2801,7 @@
       },
       {
         "key": "D",
-        "text": "echo who users.txt"
+        "text": "`echo who users.txt`"
       }
     ],
     "answer": "A",
@@ -2816,22 +2816,22 @@
     "options": [
       {
         "key": "A",
-        "text": "`tar -tvf` archive.tar"
+        "text": "`tar -tvf archive.tar`"
       },
       {
         "key": "B",
-        "text": "`tar -xvf` archive.tar"
+        "text": "`tar -xvf archive.tar`"
       },
       {
         "key": "C",
-        "text": "unzip archive.tar"
+        "text": "unzip archive.`tar`"
       },
       {
         "key": "D",
-        "text": "`gzip -l` archive.tar"
+        "text": "gzip `-l` archive.`tar`"
       }
     ],
     "answer": "A",
-    "reason": "The -t option lists archive contents `and -v` provides detailed information."
+    "reason": "The `-t` option lists archive contents and `-v` provides detailed information."
   }
 ]

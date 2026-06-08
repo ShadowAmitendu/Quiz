@@ -35,30 +35,30 @@
     "options": [
       {
         "key": "A",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "B",
-        "text": "ps"
+        "text": "`ps`"
       },
       {
         "key": "C",
-        "text": "cp"
+        "text": "`cp`"
       },
       {
         "key": "D",
-        "text": "pwd"
+        "text": "`pwd`"
       }
     ],
     "answer": "B",
-    "reason": "The ps command displays process status information."
+    "reason": "The `ps` command displays process status information."
   },
   {
     "id": 3,
     "subject": "UNIX and Shell Programming",
     "topic": "ps Command",
     "difficulty": "easy",
-    "question": "What does the ps command display by default?",
+    "question": "What does the `ps` command display by default?",
     "options": [
       {
         "key": "A",
@@ -78,7 +78,7 @@
       }
     ],
     "answer": "B",
-    "reason": "By default, ps shows processes associated with the current terminal session."
+    "reason": "By default, `ps` shows processes associated with the current terminal session."
   },
   {
     "id": 4,
@@ -105,7 +105,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The -e option displays every process running on the system."
+    "reason": "The `-e` option displays every process running on the system."
   },
   {
     "id": 5,
@@ -132,7 +132,7 @@
       }
     ],
     "answer": "A",
-    "reason": "The -f option provides detailed process information."
+    "reason": "The `-f` option provides detailed process information."
   },
   {
     "id": 6,
@@ -251,7 +251,7 @@
     "options": [
       {
         "key": "A",
-        "text": "grep"
+        "text": "`grep`"
       },
       {
         "key": "B",
@@ -278,30 +278,30 @@
     "options": [
       {
         "key": "A",
-        "text": "`wait()`"
+        "text": "wait()"
       },
       {
         "key": "B",
-        "text": "`fork()`"
+        "text": "fork()"
       },
       {
         "key": "C",
-        "text": "`exit()`"
+        "text": "exit()"
       },
       {
         "key": "D",
-        "text": "`kill()`"
+        "text": "`kill`()"
       }
     ],
     "answer": "B",
-    "reason": "`fork()` creates a child process by duplicating the parent."
+    "reason": "fork() creates a child process by duplicating the parent."
   },
   {
     "id": 12,
     "subject": "UNIX and Shell Programming",
     "topic": "fork()",
     "difficulty": "medium",
-    "question": "After `fork()`, the newly created process is called the:",
+    "question": "After fork(), the newly created process is called the:",
     "options": [
       {
         "key": "A",
@@ -321,14 +321,14 @@
       }
     ],
     "answer": "C",
-    "reason": "`fork()` creates a child process."
+    "reason": "fork() creates a child process."
   },
   {
     "id": 13,
     "subject": "UNIX and Shell Programming",
     "topic": "fork()",
     "difficulty": "hard",
-    "question": "What value does `fork()` return to the parent process?",
+    "question": "What value does fork() return to the parent process?",
     "options": [
       {
         "key": "A",
@@ -340,7 +340,7 @@
       },
       {
         "key": "C",
-        "text": "-1 always"
+        "text": "`-1 always`"
       },
       {
         "key": "D",
@@ -355,7 +355,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "fork()",
     "difficulty": "hard",
-    "question": "What value does `fork()` return to the child process?",
+    "question": "What value does fork() return to the child process?",
     "options": [
       {
         "key": "A",
@@ -371,18 +371,18 @@
       },
       {
         "key": "D",
-        "text": "-1"
+        "text": "`-1`"
       }
     ],
     "answer": "A",
-    "reason": "`fork()` returns 0 to the child process."
+    "reason": "fork() returns 0 to the child process."
   },
   {
     "id": 15,
     "subject": "UNIX and Shell Programming",
     "topic": "getpid()",
     "difficulty": "easy",
-    "question": "What does `getpid()` return?",
+    "question": "What does getpid() return?",
     "options": [
       {
         "key": "A",
@@ -402,14 +402,14 @@
       }
     ],
     "answer": "B",
-    "reason": "`getpid()` returns the PID of the calling process."
+    "reason": "getpid() returns the PID of the calling process."
   },
   {
     "id": 16,
     "subject": "UNIX and Shell Programming",
     "topic": "getppid()",
     "difficulty": "easy",
-    "question": "What does `getppid()` return?",
+    "question": "What does getppid() return?",
     "options": [
       {
         "key": "A",
@@ -429,14 +429,14 @@
       }
     ],
     "answer": "C",
-    "reason": "`getppid()` returns the PID of the parent process."
+    "reason": "getppid() returns the PID of the parent process."
   },
   {
     "id": 17,
     "subject": "UNIX and Shell Programming",
     "topic": "wait()",
     "difficulty": "medium",
-    "question": "Why is `wait()` used?",
+    "question": "Why is wait() used?",
     "options": [
       {
         "key": "A",
@@ -456,7 +456,7 @@
       }
     ],
     "answer": "B",
-    "reason": "`wait()` suspends the parent until a child finishes execution."
+    "reason": "wait() suspends the parent until a child finishes execution."
   },
   {
     "id": 18,
@@ -494,30 +494,30 @@
     "options": [
       {
         "key": "A",
-        "text": "`fork()`"
+        "text": "fork()"
       },
       {
         "key": "B",
-        "text": "`wait()`"
+        "text": "wait()"
       },
       {
         "key": "C",
-        "text": "`exec()`"
+        "text": "exec()"
       },
       {
         "key": "D",
-        "text": "`sleep()`"
+        "text": "sleep()"
       }
     ],
     "answer": "B",
-    "reason": "`wait()` collects child termination status and removes zombies."
+    "reason": "wait() collects child termination status and removes zombies."
   },
   {
     "id": 20,
     "subject": "UNIX and Shell Programming",
     "topic": "pipe()",
     "difficulty": "easy",
-    "question": "What is the purpose of `pipe()`?",
+    "question": "What is the purpose of pipe()?",
     "options": [
       {
         "key": "A",
@@ -537,7 +537,7 @@
       }
     ],
     "answer": "B",
-    "reason": "`pipe()` creates a communication channel between processes."
+    "reason": "pipe() creates a communication channel between processes."
   },
   {
     "id": 21,
@@ -791,7 +791,7 @@
     "options": [
       {
         "key": "A",
-        "text": "ps"
+        "text": "`ps`"
       },
       {
         "key": "B",
@@ -799,11 +799,11 @@
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
-        "text": "grep"
+        "text": "`grep`"
       }
     ],
     "answer": "B",
@@ -845,30 +845,30 @@
     "options": [
       {
         "key": "A",
-        "text": "cat"
+        "text": "`cat`"
       },
       {
         "key": "B",
-        "text": "top"
+        "text": "`top`"
       },
       {
         "key": "C",
-        "text": "touch"
+        "text": "`touch`"
       },
       {
         "key": "D",
-        "text": "pwd"
+        "text": "`pwd`"
       }
     ],
     "answer": "B",
-    "reason": "top continuously updates process and resource usage information."
+    "reason": "`top` continuously updates process and resource usage information."
   },
   {
     "id": 33,
     "subject": "UNIX and Shell Programming",
     "topic": "top Command",
     "difficulty": "medium",
-    "question": "The top command is primarily used to monitor:",
+    "question": "The `top` command is primarily used to monitor:",
     "options": [
       {
         "key": "A",
@@ -888,7 +888,7 @@
       }
     ],
     "answer": "B",
-    "reason": "top shows CPU, memory, and process utilization."
+    "reason": "`top` shows CPU, memory, and process utilization."
   },
   {
     "id": 34,
@@ -961,11 +961,11 @@
       },
       {
         "key": "C",
-        "text": "grep file"
+        "text": "`grep file`"
       },
       {
         "key": "D",
-        "text": "pwd"
+        "text": "`pwd`"
       }
     ],
     "answer": "A",
@@ -1061,77 +1061,77 @@
     "options": [
       {
         "key": "A",
-        "text": "`fork()`, `wait()`, `getpid()`"
+        "text": "fork(), wait(), getpid()"
       },
       {
         "key": "B",
-        "text": "grep, sort, uniq"
+        "text": "`grep`, `sort`, `uniq`"
       },
       {
         "key": "C",
-        "text": "chmod, chown, mkdir"
+        "text": "`chmod`, `chown`, `mkdir`"
       },
       {
         "key": "D",
-        "text": "tar, gzip, zip"
+        "text": "`tar`, gzip, zip"
       }
     ],
     "answer": "A",
-    "reason": "`fork()`, `wait()`, and `getpid()` are core process-management system calls in UNIX."
+    "reason": "fork(), wait(), and getpid() are core process-management system calls in UNIX."
   },
   {
     "id": 41,
     "subject": "UNIX and Shell Programming",
     "topic": "ps Command",
     "difficulty": "medium",
-    "question": "Which ps option displays processes associated with all terminals?",
+    "question": "Which `ps` option displays processes associated with all terminals?",
     "options": [
       {
         "key": "A",
-        "text": "-a"
+        "text": "`-a`"
       },
       {
         "key": "B",
-        "text": "-f"
+        "text": "`-f`"
       },
       {
         "key": "C",
-        "text": "-l"
+        "text": "`-l`"
       },
       {
         "key": "D",
-        "text": "-p"
+        "text": "`-p`"
       }
     ],
     "answer": "A",
-    "reason": "The -a option displays processes associated with all terminals."
+    "reason": "The `-a` option displays processes associated with all terminals."
   },
   {
     "id": 42,
     "subject": "UNIX and Shell Programming",
     "topic": "ps Command",
     "difficulty": "hard",
-    "question": "Which ps option displays a long-format listing?",
+    "question": "Which `ps` option displays a long-format listing?",
     "options": [
       {
         "key": "A",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "B",
-        "text": "-l"
+        "text": "`-l`"
       },
       {
         "key": "C",
-        "text": "-e"
+        "text": "`-e`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "B",
-    "reason": "The -l option displays detailed process information in long format."
+    "reason": "The `-l` option displays detailed process information in long format."
   },
   {
     "id": 43,
@@ -1165,7 +1165,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "fork()",
     "difficulty": "medium",
-    "question": "What does `fork()` return if process creation fails?",
+    "question": "What does fork() return if process creation fails?",
     "options": [
       {
         "key": "A",
@@ -1177,7 +1177,7 @@
       },
       {
         "key": "C",
-        "text": "-1"
+        "text": "`-1`"
       },
       {
         "key": "D",
@@ -1185,14 +1185,14 @@
       }
     ],
     "answer": "C",
-    "reason": "`fork()` `returns -1` when the operating system cannot create a new process."
+    "reason": "fork() returns `-1` when the operating system cannot create a new process."
   },
   {
     "id": 45,
     "subject": "UNIX and Shell Programming",
     "topic": "fork()",
     "difficulty": "hard",
-    "question": "After a successful `fork()`, how many processes exist?",
+    "question": "After a successful fork(), how many processes exist?",
     "options": [
       {
         "key": "A",
@@ -1212,7 +1212,7 @@
       }
     ],
     "answer": "B",
-    "reason": "A successful `fork()` creates a child process, resulting in parent and child processes."
+    "reason": "A successful fork() creates a child process, resulting in parent and child processes."
   },
   {
     "id": 46,
@@ -1223,23 +1223,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`getpid()`"
+        "text": "getpid()"
       },
       {
         "key": "B",
-        "text": "`getppid()`"
+        "text": "getppid()"
       },
       {
         "key": "C",
-        "text": "`fork()`"
+        "text": "fork()"
       },
       {
         "key": "D",
-        "text": "`wait()`"
+        "text": "wait()"
       }
     ],
     "answer": "A",
-    "reason": "`getpid()` returns the PID of the calling process."
+    "reason": "getpid() returns the PID of the calling process."
   },
   {
     "id": 47,
@@ -1250,30 +1250,30 @@
     "options": [
       {
         "key": "A",
-        "text": "`getpid()`"
+        "text": "getpid()"
       },
       {
         "key": "B",
-        "text": "`wait()`"
+        "text": "wait()"
       },
       {
         "key": "C",
-        "text": "`getppid()`"
+        "text": "getppid()"
       },
       {
         "key": "D",
-        "text": "`fork()`"
+        "text": "fork()"
       }
     ],
     "answer": "C",
-    "reason": "`getppid()` returns the process ID of the parent process."
+    "reason": "getppid() returns the process ID of the parent process."
   },
   {
     "id": 48,
     "subject": "UNIX and Shell Programming",
     "topic": "wait()",
     "difficulty": "medium",
-    "question": "What happens to a child process when `wait()` is called successfully by its parent?",
+    "question": "What happens to a child process when wait() is called successfully by its parent?",
     "options": [
       {
         "key": "A",
@@ -1293,14 +1293,14 @@
       }
     ],
     "answer": "B",
-    "reason": "`wait()` collects the child's termination status and removes it from the process table."
+    "reason": "wait() collects the child's termination status and removes it from the process table."
   },
   {
     "id": 49,
     "subject": "UNIX and Shell Programming",
     "topic": "Zombie Process",
     "difficulty": "easy",
-    "question": "Which process state is commonly represented by `Z` in process listings?",
+    "question": "Which process state is commonly represented by Z in process listings?",
     "options": [
       {
         "key": "A",
@@ -1320,7 +1320,7 @@
       }
     ],
     "answer": "C",
-    "reason": "The process state code `Z` indicates a zombie process."
+    "reason": "The process state code Z indicates a zombie process."
   },
   {
     "id": 50,
@@ -1374,7 +1374,7 @@
       }
     ],
     "answer": "B",
-    "reason": "The pipe symbol `|` connects the output of one command to another."
+    "reason": "The pipe symbol | connects the output of one command to another."
   },
   {
     "id": 52,
@@ -1682,30 +1682,30 @@
     "options": [
       {
         "key": "A",
-        "text": "ps"
+        "text": "`ps`"
       },
       {
         "key": "B",
-        "text": "top"
+        "text": "`top`"
       },
       {
         "key": "C",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "D",
-        "text": "cat"
+        "text": "`cat`"
       }
     ],
     "answer": "B",
-    "reason": "top provides dynamic, real-time process monitoring."
+    "reason": "`top` provides dynamic, real-time process monitoring."
   },
   {
     "id": 64,
     "subject": "UNIX and Shell Programming",
     "topic": "top Command",
     "difficulty": "medium",
-    "question": "Which resource usage can be monitored using top?",
+    "question": "Which resource usage can be monitored using `top`?",
     "options": [
       {
         "key": "A",
@@ -1725,34 +1725,34 @@
       }
     ],
     "answer": "D",
-    "reason": "top displays CPU, memory, and process-related information."
+    "reason": "`top` displays CPU, memory, and process-related information."
   },
   {
     "id": 65,
     "subject": "UNIX and Shell Programming",
     "topic": "top Command",
     "difficulty": "hard",
-    "question": "Which command is more suitable for real-time monitoring than ps?",
+    "question": "Which command is `more` suitable for real-time monitoring than `ps`?",
     "options": [
       {
         "key": "A",
-        "text": "touch"
+        "text": "`touch`"
       },
       {
         "key": "B",
-        "text": "top"
+        "text": "`top`"
       },
       {
         "key": "C",
-        "text": "mkdir"
+        "text": "`mkdir`"
       },
       {
         "key": "D",
-        "text": "cat"
+        "text": "`cat`"
       }
     ],
     "answer": "B",
-    "reason": "top continuously refreshes system statistics in real time."
+    "reason": "`top` continuously refreshes system statistics in real time."
   },
   {
     "id": 66,
@@ -1860,7 +1860,7 @@
       }
     ],
     "answer": "A",
-    "reason": "A parent process creates child processes using `fork()`."
+    "reason": "A parent process creates child processes using fork()."
   },
   {
     "id": 70,
@@ -1937,11 +1937,11 @@
       },
       {
         "key": "D",
-        "text": "chmod"
+        "text": "`chmod`"
       }
     ],
     "answer": "D",
-    "reason": "chmod is used for changing file permissions, not IPC."
+    "reason": "`chmod` is used for changing file permissions, not IPC."
   },
   {
     "id": 73,
@@ -2002,11 +2002,11 @@
     "subject": "UNIX and Shell Programming",
     "topic": "vmstat",
     "difficulty": "hard",
-    "question": "Which command is more focused on memory statistics than process listing?",
+    "question": "Which command is `more` focused on memory statistics than process listing?",
     "options": [
       {
         "key": "A",
-        "text": "ps"
+        "text": "`ps`"
       },
       {
         "key": "B",
@@ -2014,11 +2014,11 @@
       },
       {
         "key": "C",
-        "text": "pwd"
+        "text": "`pwd`"
       },
       {
         "key": "D",
-        "text": "mkdir"
+        "text": "`mkdir`"
       }
     ],
     "answer": "B",
@@ -2033,23 +2033,23 @@
     "options": [
       {
         "key": "A",
-        "text": "top"
+        "text": "`top`"
       },
       {
         "key": "B",
-        "text": "touch"
+        "text": "`touch`"
       },
       {
         "key": "C",
-        "text": "mkdir"
+        "text": "`mkdir`"
       },
       {
         "key": "D",
-        "text": "chmod"
+        "text": "`chmod`"
       }
     ],
     "answer": "A",
-    "reason": "top sorts and displays processes by CPU usage in real time."
+    "reason": "`top` sorts and displays processes by CPU usage in real time."
   },
   {
     "id": 77,
@@ -2087,23 +2087,23 @@
     "options": [
       {
         "key": "A",
-        "text": "top and vmstat"
+        "text": "`top and vmstat`"
       },
       {
         "key": "B",
-        "text": "mkdir and rmdir"
+        "text": "`mkdir and rmdir`"
       },
       {
         "key": "C",
-        "text": "cp and mv"
+        "text": "`cp and mv`"
       },
       {
         "key": "D",
-        "text": "tar and gzip"
+        "text": "`tar and gzip`"
       }
     ],
     "answer": "A",
-    "reason": "top and vmstat are commonly used for performance monitoring."
+    "reason": "`top` and vmstat are commonly used for performance monitoring."
   },
   {
     "id": 79,
@@ -2114,23 +2114,23 @@
     "options": [
       {
         "key": "A",
-        "text": "`fork()`"
+        "text": "fork()"
       },
       {
         "key": "B",
-        "text": "`chmod()`"
+        "text": "`chmod`()"
       },
       {
         "key": "C",
-        "text": "`mkdir()`"
+        "text": "`mkdir`()"
       },
       {
         "key": "D",
-        "text": "`unlink()`"
+        "text": "unlink()"
       }
     ],
     "answer": "A",
-    "reason": "`fork()` is the primary UNIX system call for process creation."
+    "reason": "fork() is the primary UNIX system call for process creation."
   },
   {
     "id": 80,
@@ -2141,30 +2141,30 @@
     "options": [
       {
         "key": "A",
-        "text": "`fork()`, `wait()`, `getpid()`"
+        "text": "fork(), wait(), getpid()"
       },
       {
         "key": "B",
-        "text": "cp, mv, rm"
+        "text": "`cp`, `mv`, `rm`"
       },
       {
         "key": "C",
-        "text": "grep, awk, sed"
+        "text": "`grep`, `awk`, `sed`"
       },
       {
         "key": "D",
-        "text": "tar, gzip, zip"
+        "text": "`tar`, gzip, zip"
       }
     ],
     "answer": "A",
-    "reason": "`fork()`, `wait()`, and `getpid()` are all process-management system calls."
+    "reason": "fork(), wait(), and getpid() are all process-management system calls."
   },
   {
     "id": 81,
     "subject": "UNIX and Shell Programming",
     "topic": "fork()",
     "difficulty": "hard",
-    "question": "Which process executes first after a successful `fork()` call?",
+    "question": "Which process executes first after a successful fork() call?",
     "options": [
       {
         "key": "A",
@@ -2184,14 +2184,14 @@
       }
     ],
     "answer": "C",
-    "reason": "The scheduler determines whether the parent or child process runs first after `fork()`."
+    "reason": "The scheduler determines whether the parent or child process runs first after fork()."
   },
   {
     "id": 82,
     "subject": "UNIX and Shell Programming",
     "topic": "fork()",
     "difficulty": "hard",
-    "question": "After `fork()`, the child process initially receives a copy of the parent's:",
+    "question": "After fork(), the child process initially receives a copy of the parent's:",
     "options": [
       {
         "key": "A",
@@ -2218,7 +2218,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "wait()",
     "difficulty": "medium",
-    "question": "Which process usually calls `wait()`?",
+    "question": "Which process usually calls wait()?",
     "options": [
       {
         "key": "A",
@@ -2238,14 +2238,14 @@
       }
     ],
     "answer": "A",
-    "reason": "The parent process calls `wait()` to collect the exit status of its child."
+    "reason": "The parent process calls wait() to collect the exit status of its child."
   },
   {
     "id": 84,
     "subject": "UNIX and Shell Programming",
     "topic": "Process States",
     "difficulty": "medium",
-    "question": "Which state is commonly represented by `R` in process listings?",
+    "question": "Which state is commonly represented by R in process listings?",
     "options": [
       {
         "key": "A",
@@ -2265,14 +2265,14 @@
       }
     ],
     "answer": "B",
-    "reason": "The state code `R` typically indicates a running or runnable process."
+    "reason": "The state code R typically indicates a running or runnable process."
   },
   {
     "id": 85,
     "subject": "UNIX and Shell Programming",
     "topic": "Process States",
     "difficulty": "medium",
-    "question": "Which state is commonly represented by `S` in UNIX process listings?",
+    "question": "Which state is commonly represented by S in UNIX process listings?",
     "options": [
       {
         "key": "A",
@@ -2292,14 +2292,14 @@
       }
     ],
     "answer": "A",
-    "reason": "The `S` state usually indicates an interruptible sleeping process."
+    "reason": "The S state usually indicates an interruptible sleeping process."
   },
   {
     "id": 86,
     "subject": "UNIX and Shell Programming",
     "topic": "Process States",
     "difficulty": "hard",
-    "question": "Which state is commonly represented by `T` in process listings?",
+    "question": "Which state is commonly represented by T in process listings?",
     "options": [
       {
         "key": "A",
@@ -2319,7 +2319,7 @@
       }
     ],
     "answer": "C",
-    "reason": "The `T` state indicates a process that has been stopped or is being traced."
+    "reason": "The T state indicates a process that has been stopped or is being traced."
   },
   {
     "id": 87,
@@ -2442,15 +2442,15 @@
       },
       {
         "key": "B",
-        "text": "mkdir"
+        "text": "`mkdir`"
       },
       {
         "key": "C",
-        "text": "chmod"
+        "text": "`chmod`"
       },
       {
         "key": "D",
-        "text": "echo"
+        "text": "`echo`"
       }
     ],
     "answer": "A",
@@ -2465,7 +2465,7 @@
     "options": [
       {
         "key": "A",
-        "text": "top"
+        "text": "`top`"
       },
       {
         "key": "B",
@@ -2481,7 +2481,7 @@
       }
     ],
     "answer": "B",
-    "reason": "vmstat typically provides statistical snapshots, while top continuously updates."
+    "reason": "vmstat typically provides statistical snapshots, while `top` continuously updates."
   },
   {
     "id": 93,
@@ -2492,23 +2492,23 @@
     "options": [
       {
         "key": "A",
-        "text": "ps"
+        "text": "`ps`"
       },
       {
         "key": "B",
-        "text": "top"
+        "text": "`top`"
       },
       {
         "key": "C",
-        "text": "ls"
+        "text": "`ls`"
       },
       {
         "key": "D",
-        "text": "find"
+        "text": "`find`"
       }
     ],
     "answer": "B",
-    "reason": "top dynamically displays processes and their resource usage."
+    "reason": "`top` dynamically displays processes and their resource usage."
   },
   {
     "id": 94,
@@ -2519,23 +2519,23 @@
     "options": [
       {
         "key": "A",
-        "text": "top"
+        "text": "`top`"
       },
       {
         "key": "B",
-        "text": "touch"
+        "text": "`touch`"
       },
       {
         "key": "C",
-        "text": "grep"
+        "text": "`grep`"
       },
       {
         "key": "D",
-        "text": "wc"
+        "text": "`wc`"
       }
     ],
     "answer": "A",
-    "reason": "top displays memory utilization for running processes."
+    "reason": "`top` displays memory utilization for running processes."
   },
   {
     "id": 95,
@@ -2550,7 +2550,7 @@
       },
       {
         "key": "B",
-        "text": "-20"
+        "text": "`-20`"
       },
       {
         "key": "C",
@@ -2573,7 +2573,7 @@
     "options": [
       {
         "key": "A",
-        "text": "-20"
+        "text": "`-20`"
       },
       {
         "key": "B",
@@ -2585,7 +2585,7 @@
       },
       {
         "key": "D",
-        "text": "-1"
+        "text": "`-1`"
       }
     ],
     "answer": "C",
@@ -2681,22 +2681,22 @@
     "options": [
       {
         "key": "A",
-        "text": "top and vmstat"
+        "text": "`top and vmstat`"
       },
       {
         "key": "B",
-        "text": "cp and mv"
+        "text": "`cp and mv`"
       },
       {
         "key": "C",
-        "text": "grep and awk"
+        "text": "`grep and awk`"
       },
       {
         "key": "D",
-        "text": "tar and gzip"
+        "text": "`tar and gzip`"
       }
     ],
     "answer": "A",
-    "reason": "top provides real-time process monitoring, while vmstat provides system performance statistics."
+    "reason": "`top` provides real-time process monitoring, while vmstat provides system performance statistics."
   }
 ]

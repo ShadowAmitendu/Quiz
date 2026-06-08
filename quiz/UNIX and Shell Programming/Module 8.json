@@ -139,7 +139,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Types of Shell",
     "difficulty": "medium",
-    "question": "Which shell is commonly represented by `csh`?",
+    "question": "Which shell is commonly represented by csh?",
     "options": [
       {
         "key": "A",
@@ -267,7 +267,7 @@
       }
     ],
     "answer": "C",
-    "reason": "Variable assignment in shell scripting must not contain spaces around `=`."
+    "reason": "Variable assignment in shell scripting must not contain spaces around =."
   },
   {
     "id": 11,
@@ -309,7 +309,7 @@
       },
       {
         "key": "B",
-        "text": "PWD"
+        "text": "`PWD`"
       },
       {
         "key": "C",
@@ -452,7 +452,7 @@
       },
       {
         "key": "D",
-        "text": "`<command>`"
+        "text": "<command>"
       }
     ],
     "answer": "A",
@@ -517,7 +517,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "let Command",
     "difficulty": "medium",
-    "question": "What does `let a=a+1` do?",
+    "question": "What does let a=a+1 do?",
     "options": [
       {
         "key": "A",
@@ -575,7 +575,7 @@
     "options": [
       {
         "key": "A",
-        "text": "echo"
+        "text": "`echo`"
       },
       {
         "key": "B",
@@ -583,15 +583,15 @@
       },
       {
         "key": "C",
-        "text": "echo followed by read"
+        "text": "`echo followed by read`"
       },
       {
         "key": "D",
-        "text": "cat"
+        "text": "`cat`"
       }
     ],
     "answer": "C",
-    "reason": "A common approach is to display a prompt using echo and then use read."
+    "reason": "A common approach is to display a prompt using `echo` and then use read."
   },
   {
     "id": 23,
@@ -961,7 +961,7 @@
       },
       {
         "key": "C",
-        "text": "-1"
+        "text": "`-1`"
       },
       {
         "key": "D",
@@ -1003,7 +1003,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Shell Scripting",
     "difficulty": "hard",
-    "question": "What is the purpose of `#!/bin/bash` at the beginning of a script?",
+    "question": "What is the purpose of #!/bin/bash at the beginning of a script?",
     "options": [
       {
         "key": "A",
@@ -1046,7 +1046,7 @@
       },
       {
         "key": "D",
-        "text": "--"
+        "text": "`--`"
       }
     ],
     "answer": "C",
@@ -1084,7 +1084,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Types of Shell",
     "difficulty": "medium",
-    "question": "Which shell is commonly represented by the executable name `ksh`?",
+    "question": "Which shell is commonly represented by the executable name ksh?",
     "options": [
       {
         "key": "A",
@@ -1111,7 +1111,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Types of Shell",
     "difficulty": "medium",
-    "question": "Which shell is commonly represented by `sh`?",
+    "question": "Which shell is commonly represented by sh?",
     "options": [
       {
         "key": "A",
@@ -1146,7 +1146,7 @@
       },
       {
         "key": "B",
-        "text": "PWD"
+        "text": "`PWD`"
       },
       {
         "key": "C",
@@ -1181,7 +1181,7 @@
       },
       {
         "key": "D",
-        "text": "PWD"
+        "text": "`PWD`"
       }
     ],
     "answer": "A",
@@ -1196,7 +1196,7 @@
     "options": [
       {
         "key": "A",
-        "text": "echo city"
+        "text": "`echo city`"
       },
       {
         "key": "B",
@@ -1204,7 +1204,7 @@
       },
       {
         "key": "C",
-        "text": "echo $city"
+        "text": "`echo $city`"
       },
       {
         "key": "D",
@@ -1246,7 +1246,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Quotes",
     "difficulty": "medium",
-    "question": "What will be printed if name=John and command is echo `$name`?",
+    "question": "What will be printed if name=John and command is `echo` $name?",
     "options": [
       {
         "key": "A",
@@ -1273,7 +1273,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Quotes",
     "difficulty": "medium",
-    "question": "What will be printed if name=John and command is echo \"$name\"?",
+    "question": "What will be printed if name=John and command is `echo` \"$name\"?",
     "options": [
       {
         "key": "A",
@@ -1304,19 +1304,19 @@
     "options": [
       {
         "key": "A",
-        "text": "echo $"
+        "text": "`echo $`"
       },
       {
         "key": "B",
-        "text": "echo \\$"
+        "text": "`echo \\$`"
       },
       {
         "key": "C",
-        "text": "echo $$"
+        "text": "`echo $$`"
       },
       {
         "key": "D",
-        "text": "echo &$"
+        "text": "`echo &$`"
       }
     ],
     "answer": "B",
@@ -1366,11 +1366,11 @@
       },
       {
         "key": "C",
-        "text": "`command`"
+        "text": "command"
       },
       {
         "key": "D",
-        "text": "`<command>`"
+        "text": "<command>"
       }
     ],
     "answer": "C",
@@ -1547,7 +1547,7 @@
     "options": [
       {
         "key": "A",
-        "text": "-eq"
+        "text": "`-eq`"
       },
       {
         "key": "B",
@@ -1555,11 +1555,11 @@
       },
       {
         "key": "C",
-        "text": "-gt"
+        "text": "`-gt`"
       },
       {
         "key": "D",
-        "text": "-lt"
+        "text": "`-lt`"
       }
     ],
     "answer": "B",
@@ -1574,7 +1574,7 @@
     "options": [
       {
         "key": "A",
-        "text": "-eq"
+        "text": "`-eq`"
       },
       {
         "key": "B",
@@ -1582,15 +1582,15 @@
       },
       {
         "key": "C",
-        "text": "-ge"
+        "text": "`-ge`"
       },
       {
         "key": "D",
-        "text": "-ne"
+        "text": "`-ne`"
       }
     ],
     "answer": "A",
-    "reason": "-eq is used for numeric equality testing."
+    "reason": "`-eq` is used for numeric equality testing."
   },
   {
     "id": 60,
@@ -1624,7 +1624,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "for Loop",
     "difficulty": "medium",
-    "question": "How many times will `for i in 1 2 3` execute?",
+    "question": "How many times will for i in 1 2 3 execute?",
     "options": [
       {
         "key": "A",
@@ -1667,7 +1667,7 @@
       },
       {
         "key": "D",
-        "text": "PWD"
+        "text": "`PWD`"
       }
     ],
     "answer": "A",
@@ -1790,19 +1790,19 @@
     "options": [
       {
         "key": "A",
-        "text": "echo $?"
+        "text": "`echo $?`"
       },
       {
         "key": "B",
-        "text": "echo $$"
+        "text": "`echo $$`"
       },
       {
         "key": "C",
-        "text": "echo $#"
+        "text": "`echo $#`"
       },
       {
         "key": "D",
-        "text": "echo $*"
+        "text": "`echo $*`"
       }
     ],
     "answer": "A",
@@ -1813,7 +1813,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Exit Status",
     "difficulty": "medium",
-    "question": "What is the exit status of a successful grep search?",
+    "question": "What is the exit status of a successful `grep` search?",
     "options": [
       {
         "key": "A",
@@ -1829,7 +1829,7 @@
       },
       {
         "key": "D",
-        "text": "-1"
+        "text": "`-1`"
       }
     ],
     "answer": "A",
@@ -1906,7 +1906,7 @@
       },
       {
         "key": "C",
-        "text": "echo"
+        "text": "`echo`"
       },
       {
         "key": "D",
@@ -1914,7 +1914,7 @@
       }
     ],
     "answer": "C",
-    "reason": "echo prints text or variable values."
+    "reason": "`echo` prints text or variable values."
   },
   {
     "id": 72,
@@ -1925,7 +1925,7 @@
     "options": [
       {
         "key": "A",
-        "text": "chmod +x script.sh"
+        "text": "`chmod +x script.sh`"
       },
       {
         "key": "B",
@@ -1941,7 +1941,7 @@
       }
     ],
     "answer": "A",
-    "reason": "chmod +x grants execute permission."
+    "reason": "`chmod` +x grants execute permission."
   },
   {
     "id": 73,
@@ -2037,7 +2037,7 @@
       },
       {
         "key": "B",
-        "text": "export"
+        "text": "`export`"
       },
       {
         "key": "C",
@@ -2049,14 +2049,14 @@
       }
     ],
     "answer": "B",
-    "reason": "export makes variables available to child processes."
+    "reason": "`export` makes variables available to child processes."
   },
   {
     "id": 77,
     "subject": "UNIX and Shell Programming",
     "topic": "Shell Variables",
     "difficulty": "medium",
-    "question": "What is the purpose of the export command?",
+    "question": "What is the purpose of the `export` command?",
     "options": [
       {
         "key": "A",
@@ -2076,7 +2076,7 @@
       }
     ],
     "answer": "C",
-    "reason": "export promotes shell variables to environment variables."
+    "reason": "`export` promotes shell variables to environment variables."
   },
   {
     "id": 78,
@@ -2087,23 +2087,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-eq"
+        "text": "`-eq`"
       },
       {
         "key": "B",
-        "text": "-gt"
+        "text": "`-gt`"
       },
       {
         "key": "C",
-        "text": "-ne"
+        "text": "`-ne`"
       },
       {
         "key": "D",
-        "text": "-lt"
+        "text": "`-lt`"
       }
     ],
     "answer": "C",
-    "reason": "-ne stands for not equal."
+    "reason": "`-ne` stands for not equal."
   },
   {
     "id": 79,
@@ -2114,23 +2114,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-gt"
+        "text": "`-gt`"
       },
       {
         "key": "B",
-        "text": "-lt"
+        "text": "`-lt`"
       },
       {
         "key": "C",
-        "text": "-eq"
+        "text": "`-eq`"
       },
       {
         "key": "D",
-        "text": "-ne"
+        "text": "`-ne`"
       }
     ],
     "answer": "A",
-    "reason": "-gt means greater than."
+    "reason": "`-gt` means greater than."
   },
   {
     "id": 80,
@@ -2191,7 +2191,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Shell Variables",
     "difficulty": "hard",
-    "question": "What happens if spaces are used around `=` during variable assignment?",
+    "question": "What happens if spaces are used around = during variable assignment?",
     "options": [
       {
         "key": "A",
@@ -2211,7 +2211,7 @@
       }
     ],
     "answer": "B",
-    "reason": "Shell variable assignments must not contain spaces around `=`."
+    "reason": "Shell variable assignments must not contain spaces around =."
   },
   {
     "id": 83,
@@ -2299,7 +2299,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "let Command",
     "difficulty": "medium",
-    "question": "What will be the value of x after `let x=7%3`?",
+    "question": "What will be the value of x after let x=7%3?",
     "options": [
       {
         "key": "A",
@@ -2330,23 +2330,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-p"
+        "text": "`-p`"
       },
       {
         "key": "B",
-        "text": "-s"
+        "text": "`-s`"
       },
       {
         "key": "C",
-        "text": "-n"
+        "text": "`-n`"
       },
       {
         "key": "D",
-        "text": "-t"
+        "text": "`-t`"
       }
     ],
     "answer": "B",
-    "reason": "The -s option reads input silently without displaying typed characters."
+    "reason": "The `-s` option reads input silently without displaying typed characters."
   },
   {
     "id": 88,
@@ -2380,7 +2380,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Command Line Parameters",
     "difficulty": "hard",
-    "question": "If a script is executed as `.`/test.sh` a b c`, what is the value of $#?",
+    "question": "If a script is executed as ./test.sh a b c, what is the value of $#?",
     "options": [
       {
         "key": "A",
@@ -2411,23 +2411,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-f"
+        "text": "`-f`"
       },
       {
         "key": "B",
-        "text": "-e"
+        "text": "`-e`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-r"
+        "text": "`-r`"
       }
     ],
     "answer": "B",
-    "reason": "The -e operator checks whether a file or directory exists."
+    "reason": "The `-e` operator checks whether a file or directory exists."
   },
   {
     "id": 91,
@@ -2438,23 +2438,23 @@
     "options": [
       {
         "key": "A",
-        "text": "-r"
+        "text": "`-r`"
       },
       {
         "key": "B",
-        "text": "-w"
+        "text": "`-w`"
       },
       {
         "key": "C",
-        "text": "-x"
+        "text": "`-x`"
       },
       {
         "key": "D",
-        "text": "-e"
+        "text": "`-e`"
       }
     ],
     "answer": "C",
-    "reason": "The -x test operator checks execute permission."
+    "reason": "The `-x` test operator checks execute permission."
   },
   {
     "id": 92,
@@ -2488,7 +2488,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "for Loop",
     "difficulty": "hard",
-    "question": "How many iterations occur in `for i in A B C D`?",
+    "question": "How many iterations occur in for i in A B C D?",
     "options": [
       {
         "key": "A",
@@ -2608,7 +2608,7 @@
       },
       {
         "key": "C",
-        "text": "-1 only"
+        "text": "`-1 only`"
       },
       {
         "key": "D",
@@ -2623,7 +2623,7 @@
     "subject": "UNIX and Shell Programming",
     "topic": "Exit Status",
     "difficulty": "hard",
-    "question": "What does `$?` contain immediately after executing a command?",
+    "question": "What does $? contain immediately after executing a command?",
     "options": [
       {
         "key": "A",
@@ -2666,7 +2666,7 @@
       },
       {
         "key": "D",
-        "text": "Echo commands"
+        "text": "`Echo commands`"
       }
     ],
     "answer": "C",
