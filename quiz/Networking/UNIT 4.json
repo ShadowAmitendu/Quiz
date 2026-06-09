@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Computer Networks",
+        "topic": "Network Layer",
+        "difficulty": "easy",
+        "question": "What is the primary responsibility of the Network Layer in the OSI model?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Error detection"
+            },
+            {
+                "key": "B",
+                "text": "Routing packets between networks"
+            },
+            {
+                "key": "C",
+                "text": "Data encryption"
+            },
+            {
+                "key": "D",
+                "text": "Flow control"
+            }
+        ],
+        "answer": "B",
+        "reason": "The Network Layer is responsible for logical addressing and routing packets from source to destination across interconnected networks."
+    },
+    {
+        "id": 2,
+        "subject": "Computer Networks",
+        "topic": "Routing Algorithms",
+        "difficulty": "easy",
+        "question": "The primary goal of a routing algorithm is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Compress packets"
+            },
+            {
+                "key": "B",
+                "text": "Find the best path to a destination"
+            },
+            {
+                "key": "C",
+                "text": "Encrypt data"
+            },
+            {
+                "key": "D",
+                "text": "Assign MAC addresses"
+            }
+        ],
+        "answer": "B",
+        "reason": "Routing algorithms determine the most efficient path for packet delivery across a network."
+    },
+    {
+        "id": 3,
+        "subject": "Computer Networks",
+        "topic": "Shortest Path Algorithm",
+        "difficulty": "medium",
+        "question": "Which algorithm is commonly used to calculate the shortest path in a network graph?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Dijkstra's Algorithm"
+            },
+            {
+                "key": "B",
+                "text": "FIFO Algorithm"
+            },
+            {
+                "key": "C",
+                "text": "Round Robin"
+            },
+            {
+                "key": "D",
+                "text": "Checksum Algorithm"
+            }
+        ],
+        "answer": "A",
+        "reason": "Dijkstra's Algorithm computes the shortest path between nodes in a weighted graph and is widely used in networking."
+    },
+    {
+        "id": 4,
+        "subject": "Computer Networks",
+        "topic": "Shortest Path Algorithm",
+        "difficulty": "hard",
+        "question": "In shortest path routing, the value assigned to a network link is called:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Metric"
+            },
+            {
+                "key": "B",
+                "text": "Payload"
+            },
+            {
+                "key": "C",
+                "text": "Checksum"
+            },
+            {
+                "key": "D",
+                "text": "Frame"
+            }
+        ],
+        "answer": "A",
+        "reason": "A metric represents the cost associated with traversing a network link and is used to calculate optimal routes."
+    },
+    {
+        "id": 5,
+        "subject": "Computer Networks",
+        "topic": "Flow Based Routing",
+        "difficulty": "medium",
+        "question": "Flow-based routing primarily considers:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network traffic conditions"
+            },
+            {
+                "key": "B",
+                "text": "MAC addresses"
+            },
+            {
+                "key": "C",
+                "text": "Frame sizes only"
+            },
+            {
+                "key": "D",
+                "text": "Cable color"
+            }
+        ],
+        "answer": "A",
+        "reason": "Flow-based routing uses current traffic load and flow information to make routing decisions."
+    },
+    {
+        "id": 6,
+        "subject": "Computer Networks",
+        "topic": "Distance Vector Routing",
+        "difficulty": "easy",
+        "question": "Distance Vector Routing routers share information with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "All routers on the Internet"
+            },
+            {
+                "key": "B",
+                "text": "Only neighboring routers"
+            },
+            {
+                "key": "C",
+                "text": "Only hosts"
+            },
+            {
+                "key": "D",
+                "text": "Only switches"
+            }
+        ],
+        "answer": "B",
+        "reason": "Distance Vector protocols exchange routing information only with directly connected neighbors."
+    },
+    {
+        "id": 7,
+        "subject": "Computer Networks",
+        "topic": "Distance Vector Routing",
+        "difficulty": "medium",
+        "question": "In Distance Vector Routing, each router maintains:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A complete network graph"
+            },
+            {
+                "key": "B",
+                "text": "Distance and direction to destinations"
+            },
+            {
+                "key": "C",
+                "text": "Only MAC addresses"
+            },
+            {
+                "key": "D",
+                "text": "Application data"
+            }
+        ],
+        "answer": "B",
+        "reason": "Routers store the distance (cost) and next hop required to reach each destination."
+    },
+    {
+        "id": 8,
+        "subject": "Computer Networks",
+        "topic": "Distance Vector Routing",
+        "difficulty": "hard",
+        "question": "Which problem is commonly associated with Distance Vector Routing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bit Stuffing"
+            },
+            {
+                "key": "B",
+                "text": "Count-to-Infinity"
+            },
+            {
+                "key": "C",
+                "text": "Fragmentation"
+            },
+            {
+                "key": "D",
+                "text": "Token Loss"
+            }
+        ],
+        "answer": "B",
+        "reason": "Distance Vector protocols may suffer from the count-to-infinity problem during route failures."
+    },
+    {
+        "id": 9,
+        "subject": "Computer Networks",
+        "topic": "Broadcast Routing",
+        "difficulty": "easy",
+        "question": "Broadcast routing delivers a packet to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "One destination host"
+            },
+            {
+                "key": "B",
+                "text": "A selected group of hosts"
+            },
+            {
+                "key": "C",
+                "text": "All hosts in the network"
+            },
+            {
+                "key": "D",
+                "text": "Only routers"
+            }
+        ],
+        "answer": "C",
+        "reason": "Broadcast routing sends packets to all reachable hosts within a network."
+    },
+    {
+        "id": 10,
+        "subject": "Computer Networks",
+        "topic": "Broadcast Routing",
+        "difficulty": "medium",
+        "question": "A major disadvantage of broadcast routing is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increased network traffic"
+            },
+            {
+                "key": "B",
+                "text": "Lack of routing tables"
+            },
+            {
+                "key": "C",
+                "text": "No IP addressing"
+            },
+            {
+                "key": "D",
+                "text": "No packet delivery"
+            }
+        ],
+        "answer": "A",
+        "reason": "Broadcasting can generate significant traffic because every device receives the packet."
+    },
+    {
+        "id": 11,
+        "subject": "Computer Networks",
+        "topic": "Multicast Routing",
+        "difficulty": "easy",
+        "question": "Multicast routing sends packets to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A single host"
+            },
+            {
+                "key": "B",
+                "text": "All hosts"
+            },
+            {
+                "key": "C",
+                "text": "A selected group of hosts"
+            },
+            {
+                "key": "D",
+                "text": "Only routers"
+            }
+        ],
+        "answer": "C",
+        "reason": "Multicast routing efficiently delivers packets to a specific group of interested receivers."
+    },
+    {
+        "id": 12,
+        "subject": "Computer Networks",
+        "topic": "Multicast Routing",
+        "difficulty": "medium",
+        "question": "Which application commonly uses multicast communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Video conferencing"
+            },
+            {
+                "key": "B",
+                "text": "Single-user file editing"
+            },
+            {
+                "key": "C",
+                "text": "Local printing only"
+            },
+            {
+                "key": "D",
+                "text": "Standalone computation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Video conferencing and streaming often use multicast to efficiently deliver data to multiple recipients."
+    },
+    {
+        "id": 13,
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "difficulty": "easy",
+        "question": "An IPv4 address consists of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "16 bits"
+            },
+            {
+                "key": "B",
+                "text": "32 bits"
+            },
+            {
+                "key": "C",
+                "text": "64 bits"
+            },
+            {
+                "key": "D",
+                "text": "128 bits"
+            }
+        ],
+        "answer": "B",
+        "reason": "IPv4 addresses are 32-bit logical addresses typically represented in dotted-decimal notation."
+    },
+    {
+        "id": 14,
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "difficulty": "easy",
+        "question": "Which of the following is a valid IPv4 address?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`192.168.1.10`"
+            },
+            {
+                "key": "B",
+                "text": "`300.168.1.10`"
+            },
+            {
+                "key": "C",
+                "text": "`192.168.1.256`"
+            },
+            {
+                "key": "D",
+                "text": "`192.168.1.A`"
+            }
+        ],
+        "answer": "A",
+        "reason": "Each IPv4 octet must be in the range 0 to 255."
+    },
+    {
+        "id": 15,
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "difficulty": "medium",
+        "question": "How many octets are present in an IPv4 address?",
+        "options": [
+            {
+                "key": "A",
+                "text": "2"
+            },
+            {
+                "key": "B",
+                "text": "4"
+            },
+            {
+                "key": "C",
+                "text": "8"
+            },
+            {
+                "key": "D",
+                "text": "16"
+            }
+        ],
+        "answer": "B",
+        "reason": "An IPv4 address contains four 8-bit octets."
+    },
+    {
+        "id": 16,
+        "subject": "Computer Networks",
+        "topic": "IPv6 Addressing",
+        "difficulty": "easy",
+        "question": "An IPv6 address is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "32 bits"
+            },
+            {
+                "key": "B",
+                "text": "64 bits"
+            },
+            {
+                "key": "C",
+                "text": "128 bits"
+            },
+            {
+                "key": "D",
+                "text": "256 bits"
+            }
+        ],
+        "answer": "C",
+        "reason": "IPv6 uses 128-bit addresses to provide a vastly larger address space than IPv4."
+    },
+    {
+        "id": 17,
+        "subject": "Computer Networks",
+        "topic": "IPv6 Addressing",
+        "difficulty": "medium",
+        "question": "IPv6 addresses are represented using:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Binary only"
+            },
+            {
+                "key": "B",
+                "text": "Decimal numbers only"
+            },
+            {
+                "key": "C",
+                "text": "Hexadecimal notation"
+            },
+            {
+                "key": "D",
+                "text": "Octal notation"
+            }
+        ],
+        "answer": "C",
+        "reason": "IPv6 addresses are expressed as eight groups of hexadecimal digits."
+    },
+    {
+        "id": 18,
+        "subject": "Computer Networks",
+        "topic": "IPv6 Addressing",
+        "difficulty": "hard",
+        "question": "One major advantage of IPv6 over IPv4 is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Smaller address space"
+            },
+            {
+                "key": "B",
+                "text": "Larger address space"
+            },
+            {
+                "key": "C",
+                "text": "No routing support"
+            },
+            {
+                "key": "D",
+                "text": "No packet forwarding"
+            }
+        ],
+        "answer": "B",
+        "reason": "IPv6 significantly increases the available address space compared to IPv4."
+    },
+    {
+        "id": 19,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "medium",
+        "question": "The purpose of subnetting is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Divide a network into smaller networks"
+            },
+            {
+                "key": "B",
+                "text": "Increase cable length"
+            },
+            {
+                "key": "C",
+                "text": "Replace routers"
+            },
+            {
+                "key": "D",
+                "text": "Encrypt IP packets"
+            }
+        ],
+        "answer": "A",
+        "reason": "Subnetting divides a larger network into smaller, manageable subnetworks."
+    },
+    {
+        "id": 20,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "medium",
+        "question": "What is the subnet mask for a `/24` network?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`255.255.255.0`"
+            },
+            {
+                "key": "B",
+                "text": "`255.255.0.0`"
+            },
+            {
+                "key": "C",
+                "text": "`255.0.0.0`"
+            },
+            {
+                "key": "D",
+                "text": "`255.255.255.255`"
+            }
+        ],
+        "answer": "A",
+        "reason": "A `/24` prefix means the first 24 bits are network bits, corresponding to `255.255.255.0`."
+    },
+    {
+        "id": 21,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "hard",
+        "question": "How many usable host addresses are available in a `/30` subnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "1"
+            },
+            {
+                "key": "B",
+                "text": "2"
+            },
+            {
+                "key": "C",
+                "text": "4"
+            },
+            {
+                "key": "D",
+                "text": "6"
+            }
+        ],
+        "answer": "B",
+        "reason": "A `/30` subnet has 4 total addresses, with 2 usable host addresses after excluding network and broadcast addresses."
+    },
+    {
+        "id": 22,
+        "subject": "Computer Networks",
+        "topic": "CIDR",
+        "difficulty": "easy",
+        "question": "CIDR stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Classless Inter-Domain Routing"
+            },
+            {
+                "key": "B",
+                "text": "Central Internet Domain Routing"
+            },
+            {
+                "key": "C",
+                "text": "Classified IP Data Routing"
+            },
+            {
+                "key": "D",
+                "text": "Core Internet Dynamic Routing"
+            }
+        ],
+        "answer": "A",
+        "reason": "CIDR stands for Classless Inter-Domain Routing and improves IP address allocation."
+    },
+    {
+        "id": 23,
+        "subject": "Computer Networks",
+        "topic": "CIDR",
+        "difficulty": "medium",
+        "question": "Which notation represents a CIDR prefix length?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`192.168.1.0/24`"
+            },
+            {
+                "key": "B",
+                "text": "`192.168.1.0:24`"
+            },
+            {
+                "key": "C",
+                "text": "`192.168.1.0-24`"
+            },
+            {
+                "key": "D",
+                "text": "`192.168.1.0#24`"
+            }
+        ],
+        "answer": "A",
+        "reason": "CIDR notation uses a slash followed by the number of network bits."
+    },
+    {
+        "id": 24,
+        "subject": "Computer Networks",
+        "topic": "CIDR",
+        "difficulty": "hard",
+        "question": "CIDR was introduced primarily to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increase frame size"
+            },
+            {
+                "key": "B",
+                "text": "Reduce IP address wastage"
+            },
+            {
+                "key": "C",
+                "text": "Replace Ethernet"
+            },
+            {
+                "key": "D",
+                "text": "Remove routing tables"
+            }
+        ],
+        "answer": "B",
+        "reason": "CIDR enables flexible allocation of address blocks and reduces address wastage."
+    },
+    {
+        "id": 25,
+        "subject": "Computer Networks",
+        "topic": "RIP",
+        "difficulty": "easy",
+        "question": "RIP stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Routing Information Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Remote Internet Protocol"
+            },
+            {
+                "key": "C",
+                "text": "Reliable IP Protocol"
+            },
+            {
+                "key": "D",
+                "text": "Routing Interface Process"
+            }
+        ],
+        "answer": "A",
+        "reason": "RIP is a Distance Vector routing protocol known as Routing Information Protocol."
+    },
+    {
+        "id": 26,
+        "subject": "Computer Networks",
+        "topic": "RIP",
+        "difficulty": "medium",
+        "question": "Which metric does RIP use to determine the best route?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bandwidth"
+            },
+            {
+                "key": "B",
+                "text": "Hop Count"
+            },
+            {
+                "key": "C",
+                "text": "Delay Only"
+            },
+            {
+                "key": "D",
+                "text": "Packet Size"
+            }
+        ],
+        "answer": "B",
+        "reason": "RIP selects routes based on the number of hops required to reach a destination."
+    },
+    {
+        "id": 27,
+        "subject": "Computer Networks",
+        "topic": "RIP",
+        "difficulty": "hard",
+        "question": "What is the maximum hop count supported by RIP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "10"
+            },
+            {
+                "key": "B",
+                "text": "15"
+            },
+            {
+                "key": "C",
+                "text": "32"
+            },
+            {
+                "key": "D",
+                "text": "64"
+            }
+        ],
+        "answer": "B",
+        "reason": "RIP treats a hop count greater than 15 as unreachable."
+    },
+    {
+        "id": 28,
+        "subject": "Computer Networks",
+        "topic": "OSPF",
+        "difficulty": "easy",
+        "question": "OSPF stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Open Shortest Path First"
+            },
+            {
+                "key": "B",
+                "text": "Optimized Switching Path Framework"
+            },
+            {
+                "key": "C",
+                "text": "Open Source Packet Forwarding"
+            },
+            {
+                "key": "D",
+                "text": "Operational System Path Finder"
+            }
+        ],
+        "answer": "A",
+        "reason": "OSPF is a Link State routing protocol called Open Shortest Path First."
+    },
+    {
+        "id": 29,
+        "subject": "Computer Networks",
+        "topic": "OSPF",
+        "difficulty": "medium",
+        "question": "OSPF uses which routing approach?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Distance Vector"
+            },
+            {
+                "key": "B",
+                "text": "Link State"
+            },
+            {
+                "key": "C",
+                "text": "Static Routing Only"
+            },
+            {
+                "key": "D",
+                "text": "Source Routing"
+            }
+        ],
+        "answer": "B",
+        "reason": "OSPF is a Link State protocol that builds a complete topology database."
+    },
+    {
+        "id": 30,
+        "subject": "Computer Networks",
+        "topic": "OSPF",
+        "difficulty": "hard",
+        "question": "OSPF uses which algorithm to compute routes?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bellman-Ford"
+            },
+            {
+                "key": "B",
+                "text": "Dijkstra"
+            },
+            {
+                "key": "C",
+                "text": "Checksum"
+            },
+            {
+                "key": "D",
+                "text": "Round Robin"
+            }
+        ],
+        "answer": "B",
+        "reason": "OSPF uses Dijkstra's shortest path first algorithm to determine optimal routes."
+    },
+    {
+        "id": 31,
+        "subject": "Computer Networks",
+        "topic": "BGP",
+        "difficulty": "easy",
+        "question": "BGP stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Border Gateway Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Basic Gateway Process"
+            },
+            {
+                "key": "C",
+                "text": "Binary Gateway Protocol"
+            },
+            {
+                "key": "D",
+                "text": "Broadcast Gateway Protocol"
+            }
+        ],
+        "answer": "A",
+        "reason": "BGP is the Border Gateway Protocol used for inter-domain routing on the Internet."
+    },
+    {
+        "id": 32,
+        "subject": "Computer Networks",
+        "topic": "BGP",
+        "difficulty": "medium",
+        "question": "BGP is primarily used for routing between:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Hosts"
+            },
+            {
+                "key": "B",
+                "text": "Autonomous Systems"
+            },
+            {
+                "key": "C",
+                "text": "Switches"
+            },
+            {
+                "key": "D",
+                "text": "Applications"
+            }
+        ],
+        "answer": "B",
+        "reason": "BGP exchanges routing information between Autonomous Systems (ASes)."
+    },
+    {
+        "id": 33,
+        "subject": "Computer Networks",
+        "topic": "BGP",
+        "difficulty": "hard",
+        "question": "BGP is classified as a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Path Vector Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Link State Protocol"
+            },
+            {
+                "key": "C",
+                "text": "Flooding Protocol"
+            },
+            {
+                "key": "D",
+                "text": "Token Passing Protocol"
+            }
+        ],
+        "answer": "A",
+        "reason": "BGP is a Path Vector routing protocol that advertises network reachability information."
+    },
+    {
+        "id": 34,
+        "subject": "Computer Networks",
+        "topic": "NAT",
+        "difficulty": "easy",
+        "question": "NAT stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network Address Translation"
+            },
+            {
+                "key": "B",
+                "text": "Network Access Technology"
+            },
+            {
+                "key": "C",
+                "text": "Node Address Tracking"
+            },
+            {
+                "key": "D",
+                "text": "Network Allocation Table"
+            }
+        ],
+        "answer": "A",
+        "reason": "NAT translates private IP addresses into public IP addresses and vice versa."
+    },
+    {
+        "id": 35,
+        "subject": "Computer Networks",
+        "topic": "NAT",
+        "difficulty": "medium",
+        "question": "Why is NAT commonly used in IPv4 networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "To conserve public IP addresses"
+            },
+            {
+                "key": "B",
+                "text": "To increase Ethernet speed"
+            },
+            {
+                "key": "C",
+                "text": "To replace routers"
+            },
+            {
+                "key": "D",
+                "text": "To eliminate routing"
+            }
+        ],
+        "answer": "A",
+        "reason": "NAT allows multiple devices to share a limited number of public IPv4 addresses."
+    },
+    {
+        "id": 36,
+        "subject": "Computer Networks",
+        "topic": "NAT",
+        "difficulty": "hard",
+        "question": "Which address type is typically translated by NAT?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Private IP Address"
+            },
+            {
+                "key": "B",
+                "text": "MAC Address"
+            },
+            {
+                "key": "C",
+                "text": "Port Number Only"
+            },
+            {
+                "key": "D",
+                "text": "Subnet Mask"
+            }
+        ],
+        "answer": "A",
+        "reason": "NAT translates private IP addresses into publicly routable addresses."
+    },
+    {
+        "id": 37,
+        "subject": "Computer Networks",
+        "topic": "ICMP",
+        "difficulty": "easy",
+        "question": "ICMP stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Internet Control Message Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Internet Connection Management Protocol"
+            },
+            {
+                "key": "C",
+                "text": "Integrated Communication Monitoring Protocol"
+            },
+            {
+                "key": "D",
+                "text": "Internal Control Mapping Protocol"
+            }
+        ],
+        "answer": "A",
+        "reason": "ICMP is used for error reporting and network diagnostics."
+    },
+    {
+        "id": 38,
+        "subject": "Computer Networks",
+        "topic": "ICMP",
+        "difficulty": "medium",
+        "question": "Which command commonly uses ICMP Echo Request and Echo Reply messages?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`ping`"
+            },
+            {
+                "key": "B",
+                "text": "`ftp`"
+            },
+            {
+                "key": "C",
+                "text": "`telnet`"
+            },
+            {
+                "key": "D",
+                "text": "`arp`"
+            }
+        ],
+        "answer": "A",
+        "reason": "The `ping` utility uses ICMP Echo Request and Echo Reply messages to test connectivity."
+    },
+    {
+        "id": 39,
+        "subject": "Computer Networks",
+        "topic": "ICMP",
+        "difficulty": "hard",
+        "question": "ICMP is primarily used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "File Transfer"
+            },
+            {
+                "key": "B",
+                "text": "Network diagnostics and error reporting"
+            },
+            {
+                "key": "C",
+                "text": "Email transmission"
+            },
+            {
+                "key": "D",
+                "text": "Web browsing"
+            }
+        ],
+        "answer": "B",
+        "reason": "ICMP communicates network status, errors, and diagnostic information."
+    },
+    {
+        "id": 40,
+        "subject": "Computer Networks",
+        "topic": "Routing Protocols",
+        "difficulty": "hard",
+        "question": "Which routing protocol is most commonly used for exchanging routing information between large Internet service providers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "RIP"
+            },
+            {
+                "key": "B",
+                "text": "OSPF"
+            },
+            {
+                "key": "C",
+                "text": "BGP"
+            },
+            {
+                "key": "D",
+                "text": "ICMP"
+            }
+        ],
+        "answer": "C",
+        "reason": "BGP is the de facto standard for inter-domain routing between Autonomous Systems on the Internet."
+    },
+    {
+        "id": 41,
+        "subject": "Computer Networks",
+        "topic": "Network Layer",
+        "difficulty": "easy",
+        "question": "Which Network Layer device forwards packets between different networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Hub"
+            },
+            {
+                "key": "B",
+                "text": "Switch"
+            },
+            {
+                "key": "C",
+                "text": "Router"
+            },
+            {
+                "key": "D",
+                "text": "Repeater"
+            }
+        ],
+        "answer": "C",
+        "reason": "Routers operate at the Network Layer and forward packets based on logical IP addresses."
+    },
+    {
+        "id": 42,
+        "subject": "Computer Networks",
+        "topic": "Network Layer",
+        "difficulty": "medium",
+        "question": "The routing table in a router contains:",
+        "options": [
+            {
+                "key": "A",
+                "text": "MAC addresses only"
+            },
+            {
+                "key": "B",
+                "text": "Routes to destination networks"
+            },
+            {
+                "key": "C",
+                "text": "Application data"
+            },
+            {
+                "key": "D",
+                "text": "Only subnet masks"
+            }
+        ],
+        "answer": "B",
+        "reason": "Routing tables store destination networks, next-hop information, and routing metrics."
+    },
+    {
+        "id": 43,
+        "subject": "Computer Networks",
+        "topic": "Shortest Path Routing",
+        "difficulty": "medium",
+        "question": "In shortest path routing, the route selected is usually the one with the:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Highest cost"
+            },
+            {
+                "key": "B",
+                "text": "Smallest metric value"
+            },
+            {
+                "key": "C",
+                "text": "Largest packet size"
+            },
+            {
+                "key": "D",
+                "text": "Fewest hosts"
+            }
+        ],
+        "answer": "B",
+        "reason": "Shortest path algorithms select routes with the lowest total cost or metric."
+    },
+    {
+        "id": 44,
+        "subject": "Computer Networks",
+        "topic": "Shortest Path Routing",
+        "difficulty": "hard",
+        "question": "Dijkstra's algorithm belongs to which category of routing algorithms?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Link State"
+            },
+            {
+                "key": "B",
+                "text": "Distance Vector"
+            },
+            {
+                "key": "C",
+                "text": "Path Vector"
+            },
+            {
+                "key": "D",
+                "text": "Flooding"
+            }
+        ],
+        "answer": "A",
+        "reason": "Dijkstra's algorithm is the foundation of Link State routing protocols such as OSPF."
+    },
+    {
+        "id": 45,
+        "subject": "Computer Networks",
+        "topic": "Flow Based Routing",
+        "difficulty": "medium",
+        "question": "Flow-based routing attempts to optimize routes based on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Traffic patterns and network load"
+            },
+            {
+                "key": "B",
+                "text": "Cable type"
+            },
+            {
+                "key": "C",
+                "text": "MAC address length"
+            },
+            {
+                "key": "D",
+                "text": "Frame check sequence"
+            }
+        ],
+        "answer": "A",
+        "reason": "Flow-based routing considers traffic intensity and congestion to select efficient paths."
+    },
+    {
+        "id": 46,
+        "subject": "Computer Networks",
+        "topic": "Distance Vector Routing",
+        "difficulty": "easy",
+        "question": "Which algorithm forms the basis of Distance Vector Routing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bellman-Ford Algorithm"
+            },
+            {
+                "key": "B",
+                "text": "Dijkstra Algorithm"
+            },
+            {
+                "key": "C",
+                "text": "Prim Algorithm"
+            },
+            {
+                "key": "D",
+                "text": "Kruskal Algorithm"
+            }
+        ],
+        "answer": "A",
+        "reason": "Distance Vector Routing protocols use the Bellman-Ford algorithm to calculate routes."
+    },
+    {
+        "id": 47,
+        "subject": "Computer Networks",
+        "topic": "Distance Vector Routing",
+        "difficulty": "hard",
+        "question": "Which technique helps reduce routing loops in Distance Vector protocols?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bit Stuffing"
+            },
+            {
+                "key": "B",
+                "text": "Split Horizon"
+            },
+            {
+                "key": "C",
+                "text": "Fragmentation"
+            },
+            {
+                "key": "D",
+                "text": "Subnetting"
+            }
+        ],
+        "answer": "B",
+        "reason": "Split Horizon prevents routers from advertising routes back through the interface from which they were learned."
+    },
+    {
+        "id": 48,
+        "subject": "Computer Networks",
+        "topic": "Broadcast Routing",
+        "difficulty": "medium",
+        "question": "Which address is commonly used to reach all hosts in a subnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Loopback Address"
+            },
+            {
+                "key": "B",
+                "text": "Broadcast Address"
+            },
+            {
+                "key": "C",
+                "text": "Multicast Address"
+            },
+            {
+                "key": "D",
+                "text": "Gateway Address"
+            }
+        ],
+        "answer": "B",
+        "reason": "Broadcast addresses are used to deliver packets to all hosts within a network segment."
+    },
+    {
+        "id": 49,
+        "subject": "Computer Networks",
+        "topic": "Broadcast Routing",
+        "difficulty": "hard",
+        "question": "Flooding is a routing technique associated with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Broadcast Routing"
+            },
+            {
+                "key": "B",
+                "text": "Distance Vector Routing"
+            },
+            {
+                "key": "C",
+                "text": "Path Vector Routing"
+            },
+            {
+                "key": "D",
+                "text": "NAT"
+            }
+        ],
+        "answer": "A",
+        "reason": "Flooding forwards packets through all outgoing interfaces and is often associated with broadcast routing."
+    },
+    {
+        "id": 50,
+        "subject": "Computer Networks",
+        "topic": "Multicast Routing",
+        "difficulty": "medium",
+        "question": "Multicast communication is generally more bandwidth-efficient than broadcast communication because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "It reaches only interested receivers"
+            },
+            {
+                "key": "B",
+                "text": "It uses smaller packets"
+            },
+            {
+                "key": "C",
+                "text": "It removes routing tables"
+            },
+            {
+                "key": "D",
+                "text": "It disables acknowledgments"
+            }
+        ],
+        "answer": "A",
+        "reason": "Multicast avoids sending unnecessary traffic to hosts that are not part of the multicast group."
+    },
+    {
+        "id": 51,
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "difficulty": "easy",
+        "question": "Which IPv4 class traditionally provided the largest number of host addresses per network?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Class A"
+            },
+            {
+                "key": "B",
+                "text": "Class B"
+            },
+            {
+                "key": "C",
+                "text": "Class C"
+            },
+            {
+                "key": "D",
+                "text": "Class D"
+            }
+        ],
+        "answer": "A",
+        "reason": "Class A networks allocate 24 bits for host addressing, supporting a very large number of hosts."
+    },
+    {
+        "id": 52,
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "difficulty": "medium",
+        "question": "Which IPv4 address is reserved for loopback testing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`0.0.0.0`"
+            },
+            {
+                "key": "B",
+                "text": "`255.255.255.255`"
+            },
+            {
+                "key": "C",
+                "text": "`127.0.0.1`"
+            },
+            {
+                "key": "D",
+                "text": "`192.168.0.1`"
+            }
+        ],
+        "answer": "C",
+        "reason": "`127.0.0.1` is the loopback address used to test the local TCP/IP stack."
+    },
+    {
+        "id": 53,
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "difficulty": "hard",
+        "question": "Which IPv4 address range is reserved for private Class C networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`10.0.0.0/8`"
+            },
+            {
+                "key": "B",
+                "text": "`172.16.0.0/12`"
+            },
+            {
+                "key": "C",
+                "text": "`192.168.0.0/16`"
+            },
+            {
+                "key": "D",
+                "text": "`224.0.0.0/4`"
+            }
+        ],
+        "answer": "C",
+        "reason": "`192.168.0.0/16` is the private Class C address block defined by RFC 1918."
+    },
+    {
+        "id": 54,
+        "subject": "Computer Networks",
+        "topic": "IPv6 Addressing",
+        "difficulty": "easy",
+        "question": "IPv6 was developed primarily to solve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Switch failures"
+            },
+            {
+                "key": "B",
+                "text": "IPv4 address exhaustion"
+            },
+            {
+                "key": "C",
+                "text": "Ethernet collisions"
+            },
+            {
+                "key": "D",
+                "text": "Checksum errors"
+            }
+        ],
+        "answer": "B",
+        "reason": "IPv6 provides a much larger address space to overcome IPv4 address exhaustion."
+    },
+    {
+        "id": 55,
+        "subject": "Computer Networks",
+        "topic": "IPv6 Addressing",
+        "difficulty": "medium",
+        "question": "How many hexadecimal groups are present in a full IPv6 address?",
+        "options": [
+            {
+                "key": "A",
+                "text": "4"
+            },
+            {
+                "key": "B",
+                "text": "6"
+            },
+            {
+                "key": "C",
+                "text": "8"
+            },
+            {
+                "key": "D",
+                "text": "16"
+            }
+        ],
+        "answer": "C",
+        "reason": "A complete IPv6 address contains eight groups of hexadecimal digits separated by colons."
+    },
+    {
+        "id": 56,
+        "subject": "Computer Networks",
+        "topic": "IPv6 Addressing",
+        "difficulty": "hard",
+        "question": "Which symbol is used in IPv6 to compress consecutive groups of zeros?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`//`"
+            },
+            {
+                "key": "B",
+                "text": "`::`"
+            },
+            {
+                "key": "C",
+                "text": "`##`"
+            },
+            {
+                "key": "D",
+                "text": "`--`"
+            }
+        ],
+        "answer": "B",
+        "reason": "The double colon `::` notation is used to represent one or more groups of consecutive zeros."
+    },
+    {
+        "id": 57,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "medium",
+        "question": "A subnet mask helps identify:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network and host portions of an address"
+            },
+            {
+                "key": "B",
+                "text": "MAC addresses"
+            },
+            {
+                "key": "C",
+                "text": "Routing protocols"
+            },
+            {
+                "key": "D",
+                "text": "Transport ports"
+            }
+        ],
+        "answer": "A",
+        "reason": "Subnet masks distinguish the network portion from the host portion of an IP address."
+    },
+    {
+        "id": 58,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "hard",
+        "question": "How many total addresses are available in a `/28` subnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "8"
+            },
+            {
+                "key": "B",
+                "text": "16"
+            },
+            {
+                "key": "C",
+                "text": "32"
+            },
+            {
+                "key": "D",
+                "text": "64"
+            }
+        ],
+        "answer": "B",
+        "reason": "A `/28` subnet leaves 4 host bits, providing `2^4 = 16` total addresses."
+    },
+    {
+        "id": 59,
+        "subject": "Computer Networks",
+        "topic": "CIDR",
+        "difficulty": "medium",
+        "question": "Which CIDR prefix corresponds to the subnet mask `255.255.255.192`?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`/24`"
+            },
+            {
+                "key": "B",
+                "text": "`/25`"
+            },
+            {
+                "key": "C",
+                "text": "`/26`"
+            },
+            {
+                "key": "D",
+                "text": "`/27`"
+            }
+        ],
+        "answer": "C",
+        "reason": "`255.255.255.192` contains 26 network bits, corresponding to a `/26` prefix."
+    },
+    {
+        "id": 60,
+        "subject": "Computer Networks",
+        "topic": "CIDR",
+        "difficulty": "hard",
+        "question": "Route aggregation in CIDR is also known as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Route Summarization"
+            },
+            {
+                "key": "B",
+                "text": "Fragmentation"
+            },
+            {
+                "key": "C",
+                "text": "Broadcasting"
+            },
+            {
+                "key": "D",
+                "text": "Tunneling"
+            }
+        ],
+        "answer": "A",
+        "reason": "CIDR allows route summarization, reducing routing table size by combining multiple networks."
+    },
+    {
+        "id": 61,
+        "subject": "Computer Networks",
+        "topic": "RIP",
+        "difficulty": "medium",
+        "question": "RIP updates are typically sent at regular intervals of approximately:",
+        "options": [
+            {
+                "key": "A",
+                "text": "5 seconds"
+            },
+            {
+                "key": "B",
+                "text": "15 seconds"
+            },
+            {
+                "key": "C",
+                "text": "30 seconds"
+            },
+            {
+                "key": "D",
+                "text": "60 seconds"
+            }
+        ],
+        "answer": "C",
+        "reason": "RIP periodically sends routing updates every 30 seconds."
+    },
+    {
+        "id": 62,
+        "subject": "Computer Networks",
+        "topic": "RIP",
+        "difficulty": "hard",
+        "question": "Which type of routing protocol is RIP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Link State"
+            },
+            {
+                "key": "B",
+                "text": "Path Vector"
+            },
+            {
+                "key": "C",
+                "text": "Distance Vector"
+            },
+            {
+                "key": "D",
+                "text": "Static Only"
+            }
+        ],
+        "answer": "C",
+        "reason": "RIP is one of the most well-known Distance Vector routing protocols."
+    },
+    {
+        "id": 63,
+        "subject": "Computer Networks",
+        "topic": "OSPF",
+        "difficulty": "medium",
+        "question": "OSPF routers exchange topology information using:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Link State Advertisements (LSAs)"
+            },
+            {
+                "key": "B",
+                "text": "ARP Messages"
+            },
+            {
+                "key": "C",
+                "text": "HTTP Requests"
+            },
+            {
+                "key": "D",
+                "text": "DHCP Leases"
+            }
+        ],
+        "answer": "A",
+        "reason": "OSPF routers distribute Link State Advertisements to build a topology database."
+    },
+    {
+        "id": 64,
+        "subject": "Computer Networks",
+        "topic": "OSPF",
+        "difficulty": "hard",
+        "question": "Compared to RIP, OSPF generally provides:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Slower convergence"
+            },
+            {
+                "key": "B",
+                "text": "Faster convergence"
+            },
+            {
+                "key": "C",
+                "text": "No routing updates"
+            },
+            {
+                "key": "D",
+                "text": "No metrics"
+            }
+        ],
+        "answer": "B",
+        "reason": "OSPF converges faster because routers maintain detailed topology information."
+    },
+    {
+        "id": 65,
+        "subject": "Computer Networks",
+        "topic": "BGP",
+        "difficulty": "medium",
+        "question": "BGP is considered the backbone routing protocol of the:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Local Area Network"
+            },
+            {
+                "key": "B",
+                "text": "Internet"
+            },
+            {
+                "key": "C",
+                "text": "Bluetooth Network"
+            },
+            {
+                "key": "D",
+                "text": "Token Ring Network"
+            }
+        ],
+        "answer": "B",
+        "reason": "BGP is responsible for routing traffic between Autonomous Systems across the Internet."
+    },
+    {
+        "id": 66,
+        "subject": "Computer Networks",
+        "topic": "BGP",
+        "difficulty": "hard",
+        "question": "An Autonomous System is identified by a unique:",
+        "options": [
+            {
+                "key": "A",
+                "text": "MAC Number"
+            },
+            {
+                "key": "B",
+                "text": "AS Number (ASN)"
+            },
+            {
+                "key": "C",
+                "text": "Port Number"
+            },
+            {
+                "key": "D",
+                "text": "Frame Identifier"
+            }
+        ],
+        "answer": "B",
+        "reason": "Each Autonomous System participating in BGP routing is assigned a unique ASN."
+    },
+    {
+        "id": 67,
+        "subject": "Computer Networks",
+        "topic": "NAT",
+        "difficulty": "easy",
+        "question": "NAT is typically configured on a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Router or Firewall"
+            },
+            {
+                "key": "B",
+                "text": "Hub"
+            },
+            {
+                "key": "C",
+                "text": "Repeater"
+            },
+            {
+                "key": "D",
+                "text": "Bridge Only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Routers and firewalls commonly perform Network Address Translation."
+    },
+    {
+        "id": 68,
+        "subject": "Computer Networks",
+        "topic": "NAT",
+        "difficulty": "medium",
+        "question": "Which NAT type allows multiple private hosts to share a single public IP using port numbers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Static NAT"
+            },
+            {
+                "key": "B",
+                "text": "Dynamic NAT"
+            },
+            {
+                "key": "C",
+                "text": "PAT (Port Address Translation)"
+            },
+            {
+                "key": "D",
+                "text": "Reverse NAT"
+            }
+        ],
+        "answer": "C",
+        "reason": "PAT maps multiple private addresses to a single public address using unique port numbers."
+    },
+    {
+        "id": 69,
+        "subject": "Computer Networks",
+        "topic": "NAT",
+        "difficulty": "hard",
+        "question": "Which private IPv4 block belongs to RFC 1918?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`8.8.8.0/24`"
+            },
+            {
+                "key": "B",
+                "text": "`11.0.0.0/8`"
+            },
+            {
+                "key": "C",
+                "text": "`172.16.0.0/12`"
+            },
+            {
+                "key": "D",
+                "text": "`100.0.0.0/8`"
+            }
+        ],
+        "answer": "C",
+        "reason": "`172.16.0.0/12` is one of the private IPv4 address ranges reserved by RFC 1918."
+    },
+    {
+        "id": 70,
+        "subject": "Computer Networks",
+        "topic": "ICMP",
+        "difficulty": "easy",
+        "question": "ICMP operates alongside which protocol?",
+        "options": [
+            {
+                "key": "A",
+                "text": "IP"
+            },
+            {
+                "key": "B",
+                "text": "HTTP"
+            },
+            {
+                "key": "C",
+                "text": "FTP"
+            },
+            {
+                "key": "D",
+                "text": "SMTP"
+            }
+        ],
+        "answer": "A",
+        "reason": "ICMP is tightly integrated with IP and is used for reporting network conditions."
+    },
+    {
+        "id": 71,
+        "subject": "Computer Networks",
+        "topic": "ICMP",
+        "difficulty": "medium",
+        "question": "Which ICMP message indicates that a destination cannot be reached?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Echo Reply"
+            },
+            {
+                "key": "B",
+                "text": "Destination Unreachable"
+            },
+            {
+                "key": "C",
+                "text": "Redirect"
+            },
+            {
+                "key": "D",
+                "text": "Timestamp Reply"
+            }
+        ],
+        "answer": "B",
+        "reason": "The ICMP Destination Unreachable message reports that a packet could not be delivered."
+    },
+    {
+        "id": 72,
+        "subject": "Computer Networks",
+        "topic": "ICMP",
+        "difficulty": "hard",
+        "question": "The `traceroute` utility primarily relies on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "ICMP Time Exceeded messages"
+            },
+            {
+                "key": "B",
+                "text": "DHCP Discover messages"
+            },
+            {
+                "key": "C",
+                "text": "ARP Requests"
+            },
+            {
+                "key": "D",
+                "text": "SMTP Responses"
+            }
+        ],
+        "answer": "A",
+        "reason": "`traceroute` identifies network hops through ICMP Time Exceeded responses."
+    },
+    {
+        "id": 73,
+        "subject": "Computer Networks",
+        "topic": "Routing Protocols",
+        "difficulty": "medium",
+        "question": "Which routing protocol is most suitable for a small network due to its simplicity?",
+        "options": [
+            {
+                "key": "A",
+                "text": "BGP"
+            },
+            {
+                "key": "B",
+                "text": "RIP"
+            },
+            {
+                "key": "C",
+                "text": "OSPF Area Backbone Design"
+            },
+            {
+                "key": "D",
+                "text": "MPLS"
+            }
+        ],
+        "answer": "B",
+        "reason": "RIP is easy to configure and suitable for smaller networks."
+    },
+    {
+        "id": 74,
+        "subject": "Computer Networks",
+        "topic": "Routing Protocols",
+        "difficulty": "hard",
+        "question": "Which routing protocol scales best for large enterprise networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "RIP"
+            },
+            {
+                "key": "B",
+                "text": "OSPF"
+            },
+            {
+                "key": "C",
+                "text": "Static Routing Only"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
+        ],
+        "answer": "B",
+        "reason": "OSPF is designed for scalability and efficient routing in large enterprise environments."
+    },
+    {
+        "id": 75,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "medium",
+        "question": "How many usable host addresses are available in a `/29` subnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "4"
+            },
+            {
+                "key": "B",
+                "text": "6"
+            },
+            {
+                "key": "C",
+                "text": "8"
+            },
+            {
+                "key": "D",
+                "text": "14"
+            }
+        ],
+        "answer": "B",
+        "reason": "A `/29` subnet contains 8 total addresses, with 6 usable host addresses after excluding network and broadcast addresses."
+    },
+    {
+        "id": 76,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "hard",
+        "question": "What is the subnet mask for a `/27` network?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`255.255.255.224`"
+            },
+            {
+                "key": "B",
+                "text": "`255.255.255.192`"
+            },
+            {
+                "key": "C",
+                "text": "`255.255.255.240`"
+            },
+            {
+                "key": "D",
+                "text": "`255.255.255.248`"
+            }
+        ],
+        "answer": "A",
+        "reason": "A `/27` prefix corresponds to the subnet mask `255.255.255.224`."
+    },
+    {
+        "id": 77,
+        "subject": "Computer Networks",
+        "topic": "IPv6 Addressing",
+        "difficulty": "medium",
+        "question": "Which IPv6 address type is used to communicate with all nodes in a specific group?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Unicast"
+            },
+            {
+                "key": "B",
+                "text": "Broadcast"
+            },
+            {
+                "key": "C",
+                "text": "Multicast"
+            },
+            {
+                "key": "D",
+                "text": "Loopback"
+            }
+        ],
+        "answer": "C",
+        "reason": "IPv6 uses multicast instead of broadcast to communicate with groups of nodes."
+    },
+    {
+        "id": 78,
+        "subject": "Computer Networks",
+        "topic": "IPv6 Addressing",
+        "difficulty": "hard",
+        "question": "Which IPv6 address represents the loopback interface?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`::1`"
+            },
+            {
+                "key": "B",
+                "text": "`::`"
+            },
+            {
+                "key": "C",
+                "text": "`FF00::1`"
+            },
+            {
+                "key": "D",
+                "text": "`2001::1`"
+            }
+        ],
+        "answer": "A",
+        "reason": "`::1` is the IPv6 loopback address equivalent to IPv4 `127.0.0.1`."
+    },
+    {
+        "id": 79,
+        "subject": "Computer Networks",
+        "topic": "Routing Algorithms",
+        "difficulty": "hard",
+        "question": "Which routing approach maintains a complete map of network topology at each router?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Distance Vector Routing"
+            },
+            {
+                "key": "B",
+                "text": "Link State Routing"
+            },
+            {
+                "key": "C",
+                "text": "Static Routing"
+            },
+            {
+                "key": "D",
+                "text": "Default Routing"
+            }
+        ],
+        "answer": "B",
+        "reason": "Link State routing protocols maintain a full topology database and calculate shortest paths independently."
+    },
+    {
+        "id": 80,
+        "subject": "Computer Networks",
+        "topic": "Network Layer",
+        "difficulty": "hard",
+        "question": "Which Network Layer feature allows packets to travel across multiple interconnected networks regardless of the underlying physical technology?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Logical Addressing and Routing"
+            },
+            {
+                "key": "B",
+                "text": "Parity Checking"
+            },
+            {
+                "key": "C",
+                "text": "Bit Stuffing"
+            },
+            {
+                "key": "D",
+                "text": "Token Passing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Logical addressing and routing enable end-to-end packet delivery across heterogeneous interconnected networks."
+    },
+    {
+        "id": 81,
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "difficulty": "easy",
+        "question": "Which IPv4 class is primarily intended for multicast communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Class A"
+            },
+            {
+                "key": "B",
+                "text": "Class B"
+            },
+            {
+                "key": "C",
+                "text": "Class C"
+            },
+            {
+                "key": "D",
+                "text": "Class D"
+            }
+        ],
+        "answer": "D",
+        "reason": "Class D addresses (224.0.0.0 to 239.255.255.255) are reserved for multicast communication."
+    },
+    {
+        "id": 82,
+        "subject": "Computer Networks",
+        "topic": "IPv4 Addressing",
+        "difficulty": "medium",
+        "question": "Which IPv4 address represents all hosts on the local network?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`255.255.255.255`"
+            },
+            {
+                "key": "B",
+                "text": "`127.0.0.1`"
+            },
+            {
+                "key": "C",
+                "text": "`0.0.0.0`"
+            },
+            {
+                "key": "D",
+                "text": "`192.168.1.1`"
+            }
+        ],
+        "answer": "A",
+        "reason": "`255.255.255.255` is the limited broadcast address used to reach all hosts on the local network."
+    },
+    {
+        "id": 83,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "medium",
+        "question": "How many usable host addresses are available in a `/26` subnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "30"
+            },
+            {
+                "key": "B",
+                "text": "62"
+            },
+            {
+                "key": "C",
+                "text": "126"
+            },
+            {
+                "key": "D",
+                "text": "254"
+            }
+        ],
+        "answer": "B",
+        "reason": "A `/26` subnet provides 64 total addresses, of which 62 are usable host addresses."
+    },
+    {
+        "id": 84,
+        "subject": "Computer Networks",
+        "topic": "Subnetting",
+        "difficulty": "hard",
+        "question": "What is the network address of host `192.168.10.75/26`?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`192.168.10.0`"
+            },
+            {
+                "key": "B",
+                "text": "`192.168.10.64`"
+            },
+            {
+                "key": "C",
+                "text": "`192.168.10.128`"
+            },
+            {
+                "key": "D",
+                "text": "`192.168.10.192`"
+            }
+        ],
+        "answer": "B",
+        "reason": "A `/26` subnet has blocks of 64 addresses. Address 75 falls within the range 64–127, making `192.168.10.64` the network address."
+    },
+    {
+        "id": 85,
+        "subject": "Computer Networks",
+        "topic": "CIDR",
+        "difficulty": "easy",
+        "question": "What does the `/32` prefix represent in CIDR notation?",
+        "options": [
+            {
+                "key": "A",
+                "text": "A single host address"
+            },
+            {
+                "key": "B",
+                "text": "A Class C network"
+            },
+            {
+                "key": "C",
+                "text": "A broadcast network"
+            },
+            {
+                "key": "D",
+                "text": "A multicast group"
+            }
+        ],
+        "answer": "A",
+        "reason": "A `/32` prefix identifies a single IPv4 host because all 32 bits are used for the network portion."
+    },
+    {
+        "id": 86,
+        "subject": "Computer Networks",
+        "topic": "CIDR",
+        "difficulty": "hard",
+        "question": "How many IP addresses are contained in a `192.168.1.0/28` network?",
+        "options": [
+            {
+                "key": "A",
+                "text": "8"
+            },
+            {
+                "key": "B",
+                "text": "16"
+            },
+            {
+                "key": "C",
+                "text": "32"
+            },
+            {
+                "key": "D",
+                "text": "64"
+            }
+        ],
+        "answer": "B",
+        "reason": "A `/28` network leaves 4 host bits, providing `2^4 = 16` total addresses."
+    },
+    {
+        "id": 87,
+        "subject": "Computer Networks",
+        "topic": "RIP",
+        "difficulty": "medium",
+        "question": "A RIP route with a hop count of 16 is considered:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Optimal"
+            },
+            {
+                "key": "B",
+                "text": "Backup"
+            },
+            {
+                "key": "C",
+                "text": "Unreachable"
+            },
+            {
+                "key": "D",
+                "text": "Static"
+            }
+        ],
+        "answer": "C",
+        "reason": "RIP defines 16 hops as infinity, meaning the destination is unreachable."
+    },
+    {
+        "id": 88,
+        "subject": "Computer Networks",
+        "topic": "RIP",
+        "difficulty": "hard",
+        "question": "Which characteristic limits RIP's scalability in large networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Hop-count metric limitation"
+            },
+            {
+                "key": "B",
+                "text": "Use of hexadecimal addresses"
+            },
+            {
+                "key": "C",
+                "text": "Support for IPv6"
+            },
+            {
+                "key": "D",
+                "text": "Use of multicast updates"
+            }
+        ],
+        "answer": "A",
+        "reason": "RIP's maximum hop count of 15 restricts its usefulness in large-scale networks."
+    },
+    {
+        "id": 89,
+        "subject": "Computer Networks",
+        "topic": "OSPF",
+        "difficulty": "medium",
+        "question": "OSPF selects routes based primarily on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Hop Count"
+            },
+            {
+                "key": "B",
+                "text": "Cost Metric"
+            },
+            {
+                "key": "C",
+                "text": "Packet Size"
+            },
+            {
+                "key": "D",
+                "text": "MAC Address"
+            }
+        ],
+        "answer": "B",
+        "reason": "OSPF uses a cost metric, often based on bandwidth, to determine the best route."
+    },
+    {
+        "id": 90,
+        "subject": "Computer Networks",
+        "topic": "OSPF",
+        "difficulty": "hard",
+        "question": "Which OSPF feature improves scalability in large networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Hop Count Restriction"
+            },
+            {
+                "key": "B",
+                "text": "Hierarchical Area Design"
+            },
+            {
+                "key": "C",
+                "text": "Token Passing"
+            },
+            {
+                "key": "D",
+                "text": "NAT Integration"
+            }
+        ],
+        "answer": "B",
+        "reason": "OSPF divides networks into areas, reducing routing overhead and improving scalability."
+    },
+    {
+        "id": 91,
+        "subject": "Computer Networks",
+        "topic": "BGP",
+        "difficulty": "easy",
+        "question": "BGP is classified as an:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Exterior Gateway Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Interior Gateway Protocol"
+            },
+            {
+                "key": "C",
+                "text": "Transport Protocol"
+            },
+            {
+                "key": "D",
+                "text": "Application Protocol"
+            }
+        ],
+        "answer": "A",
+        "reason": "BGP is an Exterior Gateway Protocol (EGP) used between Autonomous Systems."
+    },
+    {
+        "id": 92,
+        "subject": "Computer Networks",
+        "topic": "BGP",
+        "difficulty": "medium",
+        "question": "What information does BGP primarily exchange?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Path information between Autonomous Systems"
+            },
+            {
+                "key": "B",
+                "text": "ARP mappings"
+            },
+            {
+                "key": "C",
+                "text": "MAC addresses"
+            },
+            {
+                "key": "D",
+                "text": "Transport ports"
+            }
+        ],
+        "answer": "A",
+        "reason": "BGP exchanges path information that helps determine routes between Autonomous Systems."
+    },
+    {
+        "id": 93,
+        "subject": "Computer Networks",
+        "topic": "BGP",
+        "difficulty": "hard",
+        "question": "Which routing protocol is most policy-based?",
+        "options": [
+            {
+                "key": "A",
+                "text": "RIP"
+            },
+            {
+                "key": "B",
+                "text": "OSPF"
+            },
+            {
+                "key": "C",
+                "text": "BGP"
+            },
+            {
+                "key": "D",
+                "text": "ICMP"
+            }
+        ],
+        "answer": "C",
+        "reason": "BGP allows administrators to define routing policies and path preferences between Autonomous Systems."
+    },
+    {
+        "id": 94,
+        "subject": "Computer Networks",
+        "topic": "NAT",
+        "difficulty": "easy",
+        "question": "Which NAT type provides a one-to-one mapping between private and public addresses?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Static NAT"
+            },
+            {
+                "key": "B",
+                "text": "PAT"
+            },
+            {
+                "key": "C",
+                "text": "Dynamic Port NAT"
+            },
+            {
+                "key": "D",
+                "text": "Overloaded NAT"
+            }
+        ],
+        "answer": "A",
+        "reason": "Static NAT permanently maps one private IP address to one public IP address."
+    },
+    {
+        "id": 95,
+        "subject": "Computer Networks",
+        "topic": "NAT",
+        "difficulty": "medium",
+        "question": "Which NAT variant is commonly called NAT Overload?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Static NAT"
+            },
+            {
+                "key": "B",
+                "text": "Dynamic NAT"
+            },
+            {
+                "key": "C",
+                "text": "PAT"
+            },
+            {
+                "key": "D",
+                "text": "Reverse NAT"
+            }
+        ],
+        "answer": "C",
+        "reason": "PAT (Port Address Translation) is often referred to as NAT Overload because many devices share one public IP."
+    },
+    {
+        "id": 96,
+        "subject": "Computer Networks",
+        "topic": "ICMP",
+        "difficulty": "easy",
+        "question": "Which ICMP message type is sent in response to an Echo Request?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Destination Unreachable"
+            },
+            {
+                "key": "B",
+                "text": "Echo Reply"
+            },
+            {
+                "key": "C",
+                "text": "Time Exceeded"
+            },
+            {
+                "key": "D",
+                "text": "Redirect"
+            }
+        ],
+        "answer": "B",
+        "reason": "An ICMP Echo Reply is generated in response to an ICMP Echo Request, as used by `ping`."
+    },
+    {
+        "id": 97,
+        "subject": "Computer Networks",
+        "topic": "ICMP",
+        "difficulty": "medium",
+        "question": "The command `ping 8.8.8.8` is primarily used to test:",
+        "options": [
+            {
+                "key": "A",
+                "text": "File transfer speed"
+            },
+            {
+                "key": "B",
+                "text": "Network connectivity"
+            },
+            {
+                "key": "C",
+                "text": "MAC address resolution"
+            },
+            {
+                "key": "D",
+                "text": "Routing table entries"
+            }
+        ],
+        "answer": "B",
+        "reason": "`ping` uses ICMP messages to verify whether a remote host is reachable."
+    },
+    {
+        "id": 98,
+        "subject": "Computer Networks",
+        "topic": "Multicast Routing",
+        "difficulty": "medium",
+        "question": "Multicast routing reduces unnecessary traffic by forwarding packets only to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "All routers"
+            },
+            {
+                "key": "B",
+                "text": "Interested group members"
+            },
+            {
+                "key": "C",
+                "text": "Default gateways"
+            },
+            {
+                "key": "D",
+                "text": "Switches only"
+            }
+        ],
+        "answer": "B",
+        "reason": "Multicast routing delivers traffic only to hosts that have joined the multicast group."
+    },
+    {
+        "id": 99,
+        "subject": "Computer Networks",
+        "topic": "Routing Algorithms",
+        "difficulty": "hard",
+        "question": "Which routing approach adapts routes according to changing network conditions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Static Routing"
+            },
+            {
+                "key": "B",
+                "text": "Dynamic Routing"
+            },
+            {
+                "key": "C",
+                "text": "Manual Routing"
+            },
+            {
+                "key": "D",
+                "text": "Default Routing Only"
+            }
+        ],
+        "answer": "B",
+        "reason": "Dynamic routing protocols automatically adjust routes when network topology or conditions change."
+    },
+    {
+        "id": 100,
+        "subject": "Computer Networks",
+        "topic": "Network Layer",
+        "difficulty": "hard",
+        "question": "Which combination correctly matches the protocol with its routing type?",
+        "options": [
+            {
+                "key": "A",
+                "text": "RIP - Link State, OSPF - Distance Vector"
+            },
+            {
+                "key": "B",
+                "text": "RIP - Distance Vector, OSPF - Link State"
+            },
+            {
+                "key": "C",
+                "text": "BGP - Link State, OSPF - Path Vector"
+            },
+            {
+                "key": "D",
+                "text": "ICMP - Distance Vector, RIP - Path Vector"
+            }
+        ],
+        "answer": "B",
+        "reason": "RIP is a Distance Vector protocol, while OSPF is a Link State routing protocol."
+    }
+]

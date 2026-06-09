@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "easy",
+        "question": "What is the primary function of the Transport Layer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Routing packets between networks"
+            },
+            {
+                "key": "B",
+                "text": "End-to-end process communication"
+            },
+            {
+                "key": "C",
+                "text": "Physical signal transmission"
+            },
+            {
+                "key": "D",
+                "text": "MAC addressing"
+            }
+        ],
+        "answer": "B",
+        "reason": "The Transport Layer provides end-to-end communication services between application processes running on different hosts."
+    },
+    {
+        "id": 2,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "easy",
+        "question": "Which OSI layer is responsible for segmentation and reassembly?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network Layer"
+            },
+            {
+                "key": "B",
+                "text": "Transport Layer"
+            },
+            {
+                "key": "C",
+                "text": "Data Link Layer"
+            },
+            {
+                "key": "D",
+                "text": "Session Layer"
+            }
+        ],
+        "answer": "B",
+        "reason": "The Transport Layer breaks large messages into segments and reassembles them at the destination."
+    },
+    {
+        "id": 3,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "medium",
+        "question": "Which Transport Layer function ensures data reaches the correct application process?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Routing"
+            },
+            {
+                "key": "B",
+                "text": "Port Addressing"
+            },
+            {
+                "key": "C",
+                "text": "Fragmentation"
+            },
+            {
+                "key": "D",
+                "text": "Subnetting"
+            }
+        ],
+        "answer": "B",
+        "reason": "Port numbers identify specific application processes on a host and allow proper delivery of data."
+    },
+    {
+        "id": 4,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "medium",
+        "question": "Which Transport Layer function controls the rate of data transmission between sender and receiver?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Flow Control"
+            },
+            {
+                "key": "B",
+                "text": "Routing"
+            },
+            {
+                "key": "C",
+                "text": "Address Resolution"
+            },
+            {
+                "key": "D",
+                "text": "Broadcasting"
+            }
+        ],
+        "answer": "A",
+        "reason": "Flow control prevents a sender from overwhelming the receiver with excessive data."
+    },
+    {
+        "id": 5,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "easy",
+        "question": "TCP stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Transmission Control Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Transport Communication Protocol"
+            },
+            {
+                "key": "C",
+                "text": "Transfer Control Process"
+            },
+            {
+                "key": "D",
+                "text": "Transmission Connection Process"
+            }
+        ],
+        "answer": "A",
+        "reason": "TCP stands for Transmission Control Protocol and provides reliable transport services."
+    },
+    {
+        "id": 6,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "easy",
+        "question": "TCP is a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Connection-oriented protocol"
+            },
+            {
+                "key": "B",
+                "text": "Connectionless protocol"
+            },
+            {
+                "key": "C",
+                "text": "Routing protocol"
+            },
+            {
+                "key": "D",
+                "text": "Switching protocol"
+            }
+        ],
+        "answer": "A",
+        "reason": "TCP establishes a connection before transmitting data."
+    },
+    {
+        "id": 7,
+        "subject": "Computer Networks",
+        "topic": "TCP 3-Way Handshake",
+        "difficulty": "easy",
+        "question": "The purpose of TCP's 3-way handshake is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Terminate a connection"
+            },
+            {
+                "key": "B",
+                "text": "Establish a reliable connection"
+            },
+            {
+                "key": "C",
+                "text": "Assign IP addresses"
+            },
+            {
+                "key": "D",
+                "text": "Resolve MAC addresses"
+            }
+        ],
+        "answer": "B",
+        "reason": "The 3-way handshake synchronizes sequence numbers and establishes a reliable TCP connection."
+    },
+    {
+        "id": 8,
+        "subject": "Computer Networks",
+        "topic": "TCP 3-Way Handshake",
+        "difficulty": "medium",
+        "question": "Which TCP flag is sent first during connection establishment?",
+        "options": [
+            {
+                "key": "A",
+                "text": "ACK"
+            },
+            {
+                "key": "B",
+                "text": "FIN"
+            },
+            {
+                "key": "C",
+                "text": "SYN"
+            },
+            {
+                "key": "D",
+                "text": "RST"
+            }
+        ],
+        "answer": "C",
+        "reason": "The client initiates the TCP connection by sending a SYN segment."
+    },
+    {
+        "id": 9,
+        "subject": "Computer Networks",
+        "topic": "TCP 3-Way Handshake",
+        "difficulty": "medium",
+        "question": "The second step of the TCP 3-way handshake contains which flags?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SYN"
+            },
+            {
+                "key": "B",
+                "text": "ACK"
+            },
+            {
+                "key": "C",
+                "text": "SYN and ACK"
+            },
+            {
+                "key": "D",
+                "text": "FIN and ACK"
+            }
+        ],
+        "answer": "C",
+        "reason": "The server replies with a SYN-ACK segment acknowledging the client's request and initiating its own synchronization."
+    },
+    {
+        "id": 10,
+        "subject": "Computer Networks",
+        "topic": "TCP 3-Way Handshake",
+        "difficulty": "hard",
+        "question": "Which sequence correctly represents the TCP connection establishment process?",
+        "options": [
+            {
+                "key": "A",
+                "text": "ACK → SYN → ACK"
+            },
+            {
+                "key": "B",
+                "text": "SYN → SYN-ACK → ACK"
+            },
+            {
+                "key": "C",
+                "text": "SYN → ACK → SYN"
+            },
+            {
+                "key": "D",
+                "text": "FIN → ACK → FIN"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP establishes a connection through SYN, SYN-ACK, and ACK exchanges."
+    },
+    {
+        "id": 11,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "medium",
+        "question": "Which TCP feature provides reliable data transfer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Sequence Numbers and Acknowledgments"
+            },
+            {
+                "key": "B",
+                "text": "Broadcasting"
+            },
+            {
+                "key": "C",
+                "text": "ARP Resolution"
+            },
+            {
+                "key": "D",
+                "text": "Static Routing"
+            }
+        ],
+        "answer": "A",
+        "reason": "TCP uses sequence numbers, acknowledgments, and retransmissions to ensure reliable delivery."
+    },
+    {
+        "id": 12,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "medium",
+        "question": "Which TCP flag is used to acknowledge received data?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FIN"
+            },
+            {
+                "key": "B",
+                "text": "SYN"
+            },
+            {
+                "key": "C",
+                "text": "ACK"
+            },
+            {
+                "key": "D",
+                "text": "URG"
+            }
+        ],
+        "answer": "C",
+        "reason": "The ACK flag indicates that the acknowledgment field contains a valid acknowledgment number."
+    },
+    {
+        "id": 13,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "hard",
+        "question": "Which mechanism allows TCP to retransmit lost segments?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Timeout and Acknowledgment Tracking"
+            },
+            {
+                "key": "B",
+                "text": "Token Passing"
+            },
+            {
+                "key": "C",
+                "text": "CIDR"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
+        ],
+        "answer": "A",
+        "reason": "TCP uses timers and acknowledgments to detect lost segments and trigger retransmissions."
+    },
+    {
+        "id": 14,
+        "subject": "Computer Networks",
+        "topic": "TCP 4-Way Handshake",
+        "difficulty": "easy",
+        "question": "The TCP 4-way handshake is used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Connection establishment"
+            },
+            {
+                "key": "B",
+                "text": "Connection termination"
+            },
+            {
+                "key": "C",
+                "text": "Error detection"
+            },
+            {
+                "key": "D",
+                "text": "Routing"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP uses a 4-way handshake process to gracefully close connections."
+    },
+    {
+        "id": 15,
+        "subject": "Computer Networks",
+        "topic": "TCP 4-Way Handshake",
+        "difficulty": "medium",
+        "question": "Which TCP flag typically initiates connection termination?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SYN"
+            },
+            {
+                "key": "B",
+                "text": "ACK"
+            },
+            {
+                "key": "C",
+                "text": "FIN"
+            },
+            {
+                "key": "D",
+                "text": "PSH"
+            }
+        ],
+        "answer": "C",
+        "reason": "A FIN flag indicates that a host has finished sending data and wants to close the connection."
+    },
+    {
+        "id": 16,
+        "subject": "Computer Networks",
+        "topic": "TCP 4-Way Handshake",
+        "difficulty": "hard",
+        "question": "How many segments are exchanged during a standard TCP connection termination?",
+        "options": [
+            {
+                "key": "A",
+                "text": "2"
+            },
+            {
+                "key": "B",
+                "text": "3"
+            },
+            {
+                "key": "C",
+                "text": "4"
+            },
+            {
+                "key": "D",
+                "text": "5"
+            }
+        ],
+        "answer": "C",
+        "reason": "TCP connection termination normally uses FIN, ACK, FIN, and ACK segments."
+    },
+    {
+        "id": 17,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "easy",
+        "question": "UDP stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Universal Data Protocol"
+            },
+            {
+                "key": "B",
+                "text": "User Datagram Protocol"
+            },
+            {
+                "key": "C",
+                "text": "Unified Delivery Protocol"
+            },
+            {
+                "key": "D",
+                "text": "User Delivery Process"
+            }
+        ],
+        "answer": "B",
+        "reason": "UDP stands for User Datagram Protocol."
+    },
+    {
+        "id": 18,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "easy",
+        "question": "UDP is a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Connection-oriented protocol"
+            },
+            {
+                "key": "B",
+                "text": "Connectionless protocol"
+            },
+            {
+                "key": "C",
+                "text": "Routing protocol"
+            },
+            {
+                "key": "D",
+                "text": "Link-state protocol"
+            }
+        ],
+        "answer": "B",
+        "reason": "UDP transmits data without establishing a connection."
+    },
+    {
+        "id": 19,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "medium",
+        "question": "Which feature is NOT provided by UDP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Low overhead"
+            },
+            {
+                "key": "B",
+                "text": "Fast transmission"
+            },
+            {
+                "key": "C",
+                "text": "Reliable delivery"
+            },
+            {
+                "key": "D",
+                "text": "Connectionless communication"
+            }
+        ],
+        "answer": "C",
+        "reason": "UDP does not provide acknowledgments, retransmissions, or guaranteed delivery."
+    },
+    {
+        "id": 20,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "medium",
+        "question": "Which application commonly uses UDP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Real-time video streaming"
+            },
+            {
+                "key": "B",
+                "text": "FTP file transfer"
+            },
+            {
+                "key": "C",
+                "text": "Email delivery via SMTP"
+            },
+            {
+                "key": "D",
+                "text": "Secure shell sessions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Real-time applications prefer UDP because speed is more important than perfect reliability."
+    },
+    {
+        "id": 21,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "hard",
+        "question": "Compared to TCP, UDP headers are:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Larger"
+            },
+            {
+                "key": "B",
+                "text": "Smaller"
+            },
+            {
+                "key": "C",
+                "text": "Identical in size"
+            },
+            {
+                "key": "D",
+                "text": "Variable only"
+            }
+        ],
+        "answer": "B",
+        "reason": "UDP uses an 8-byte header, significantly smaller than TCP's minimum 20-byte header."
+    },
+    {
+        "id": 22,
+        "subject": "Computer Networks",
+        "topic": "TCP vs UDP",
+        "difficulty": "medium",
+        "question": "Which protocol guarantees ordered delivery of data?",
+        "options": [
+            {
+                "key": "A",
+                "text": "UDP"
+            },
+            {
+                "key": "B",
+                "text": "TCP"
+            },
+            {
+                "key": "C",
+                "text": "ICMP"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP ensures data arrives in sequence through sequence numbers and reordering mechanisms."
+    },
+    {
+        "id": 23,
+        "subject": "Computer Networks",
+        "topic": "TCP vs UDP",
+        "difficulty": "medium",
+        "question": "Which protocol is generally preferred for online gaming?",
+        "options": [
+            {
+                "key": "A",
+                "text": "TCP"
+            },
+            {
+                "key": "B",
+                "text": "UDP"
+            },
+            {
+                "key": "C",
+                "text": "ICMP"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
+        ],
+        "answer": "B",
+        "reason": "Online games often use UDP because low latency is more important than guaranteed delivery."
+    },
+    {
+        "id": 24,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "easy",
+        "question": "Port numbers are used to identify:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network devices"
+            },
+            {
+                "key": "B",
+                "text": "Application processes"
+            },
+            {
+                "key": "C",
+                "text": "Physical cables"
+            },
+            {
+                "key": "D",
+                "text": "Switch ports only"
+            }
+        ],
+        "answer": "B",
+        "reason": "Port numbers allow the Transport Layer to deliver data to the correct application."
+    },
+    {
+        "id": 25,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "easy",
+        "question": "The valid range of TCP/UDP port numbers is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "0-255"
+            },
+            {
+                "key": "B",
+                "text": "0-1023"
+            },
+            {
+                "key": "C",
+                "text": "0-65535"
+            },
+            {
+                "key": "D",
+                "text": "1-99999"
+            }
+        ],
+        "answer": "C",
+        "reason": "Port numbers are 16-bit values ranging from 0 to 65535."
+    },
+    {
+        "id": 26,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "medium",
+        "question": "Which port is commonly associated with HTTP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "21"
+            },
+            {
+                "key": "B",
+                "text": "25"
+            },
+            {
+                "key": "C",
+                "text": "53"
+            },
+            {
+                "key": "D",
+                "text": "80"
+            }
+        ],
+        "answer": "D",
+        "reason": "HTTP commonly uses TCP port 80."
+    },
+    {
+        "id": 27,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "medium",
+        "question": "Which port is commonly associated with HTTPS?",
+        "options": [
+            {
+                "key": "A",
+                "text": "443"
+            },
+            {
+                "key": "B",
+                "text": "110"
+            },
+            {
+                "key": "C",
+                "text": "23"
+            },
+            {
+                "key": "D",
+                "text": "69"
+            }
+        ],
+        "answer": "A",
+        "reason": "HTTPS uses TCP port 443 for secure web communication."
+    },
+    {
+        "id": 28,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "hard",
+        "question": "Ports numbered `0-1023` are known as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Dynamic Ports"
+            },
+            {
+                "key": "B",
+                "text": "Registered Ports"
+            },
+            {
+                "key": "C",
+                "text": "Well-Known Ports"
+            },
+            {
+                "key": "D",
+                "text": "Private Ports"
+            }
+        ],
+        "answer": "C",
+        "reason": "Well-known ports are reserved for standard services and protocols."
+    },
+    {
+        "id": 29,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "hard",
+        "question": "Which port is typically used by DNS?",
+        "options": [
+            {
+                "key": "A",
+                "text": "53"
+            },
+            {
+                "key": "B",
+                "text": "80"
+            },
+            {
+                "key": "C",
+                "text": "443"
+            },
+            {
+                "key": "D",
+                "text": "110"
+            }
+        ],
+        "answer": "A",
+        "reason": "DNS commonly uses port 53 for both UDP and TCP communication."
+    },
+    {
+        "id": 30,
+        "subject": "Computer Networks",
+        "topic": "Congestion Control",
+        "difficulty": "easy",
+        "question": "Congestion occurs when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network demand exceeds available resources"
+            },
+            {
+                "key": "B",
+                "text": "IP addresses are duplicated"
+            },
+            {
+                "key": "C",
+                "text": "MAC addresses change"
+            },
+            {
+                "key": "D",
+                "text": "Subnet masks are invalid"
+            }
+        ],
+        "answer": "A",
+        "reason": "Congestion occurs when network traffic exceeds the network's capacity to handle it."
+    },
+    {
+        "id": 31,
+        "subject": "Computer Networks",
+        "topic": "Congestion Control",
+        "difficulty": "medium",
+        "question": "The primary goal of congestion control is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reduce network overload"
+            },
+            {
+                "key": "B",
+                "text": "Increase IP addresses"
+            },
+            {
+                "key": "C",
+                "text": "Replace routing tables"
+            },
+            {
+                "key": "D",
+                "text": "Assign MAC addresses"
+            }
+        ],
+        "answer": "A",
+        "reason": "Congestion control mechanisms prevent excessive traffic from overwhelming the network."
+    },
+    {
+        "id": 32,
+        "subject": "Computer Networks",
+        "topic": "Leaky Bucket",
+        "difficulty": "easy",
+        "question": "The Leaky Bucket algorithm is used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Flow control and traffic shaping"
+            },
+            {
+                "key": "B",
+                "text": "Address translation"
+            },
+            {
+                "key": "C",
+                "text": "Routing"
+            },
+            {
+                "key": "D",
+                "text": "Encryption"
+            }
+        ],
+        "answer": "A",
+        "reason": "Leaky Bucket controls traffic flow by smoothing bursty traffic into a steady output rate."
+    },
+    {
+        "id": 33,
+        "subject": "Computer Networks",
+        "topic": "Leaky Bucket",
+        "difficulty": "medium",
+        "question": "In the Leaky Bucket algorithm, packets leave the bucket at:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A variable rate"
+            },
+            {
+                "key": "B",
+                "text": "A constant rate"
+            },
+            {
+                "key": "C",
+                "text": "Random intervals"
+            },
+            {
+                "key": "D",
+                "text": "Infinite speed"
+            }
+        ],
+        "answer": "B",
+        "reason": "The Leaky Bucket algorithm releases packets at a fixed rate regardless of incoming traffic bursts."
+    },
+    {
+        "id": 34,
+        "subject": "Computer Networks",
+        "topic": "Leaky Bucket",
+        "difficulty": "hard",
+        "question": "What happens when the Leaky Bucket becomes full?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packets are delayed indefinitely"
+            },
+            {
+                "key": "B",
+                "text": "Incoming packets are discarded"
+            },
+            {
+                "key": "C",
+                "text": "Routing stops"
+            },
+            {
+                "key": "D",
+                "text": "The bucket expands automatically"
+            }
+        ],
+        "answer": "B",
+        "reason": "When the bucket reaches capacity, additional incoming packets are dropped."
+    },
+    {
+        "id": 35,
+        "subject": "Computer Networks",
+        "topic": "Token Bucket",
+        "difficulty": "easy",
+        "question": "The Token Bucket algorithm uses:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Tokens to permit packet transmission"
+            },
+            {
+                "key": "B",
+                "text": "Checksums only"
+            },
+            {
+                "key": "C",
+                "text": "MAC addresses"
+            },
+            {
+                "key": "D",
+                "text": "Routing metrics"
+            }
+        ],
+        "answer": "A",
+        "reason": "Tokens are generated and stored in a bucket, allowing packets to be transmitted when tokens are available."
+    },
+    {
+        "id": 36,
+        "subject": "Computer Networks",
+        "topic": "Token Bucket",
+        "difficulty": "medium",
+        "question": "Compared to Leaky Bucket, Token Bucket allows:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Traffic bursts"
+            },
+            {
+                "key": "B",
+                "text": "No packet transmission"
+            },
+            {
+                "key": "C",
+                "text": "No buffering"
+            },
+            {
+                "key": "D",
+                "text": "Only constant traffic"
+            }
+        ],
+        "answer": "A",
+        "reason": "Token Bucket permits bursts of traffic when sufficient tokens have accumulated."
+    },
+    {
+        "id": 37,
+        "subject": "Computer Networks",
+        "topic": "Token Bucket",
+        "difficulty": "medium",
+        "question": "If no tokens are available in a Token Bucket system, packets are:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Immediately transmitted"
+            },
+            {
+                "key": "B",
+                "text": "Delayed or discarded"
+            },
+            {
+                "key": "C",
+                "text": "Converted to ACKs"
+            },
+            {
+                "key": "D",
+                "text": "Broadcast automatically"
+            }
+        ],
+        "answer": "B",
+        "reason": "Packets require tokens for transmission; otherwise they must wait or be dropped."
+    },
+    {
+        "id": 38,
+        "subject": "Computer Networks",
+        "topic": "Token Bucket",
+        "difficulty": "hard",
+        "question": "Which traffic shaping mechanism is better suited for bursty traffic?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Leaky Bucket"
+            },
+            {
+                "key": "B",
+                "text": "Token Bucket"
+            },
+            {
+                "key": "C",
+                "text": "ARP"
+            },
+            {
+                "key": "D",
+                "text": "ICMP"
+            }
+        ],
+        "answer": "B",
+        "reason": "Token Bucket allows accumulated tokens to be used for short bursts of high-rate transmission."
+    },
+    {
+        "id": 39,
+        "subject": "Computer Networks",
+        "topic": "TCP vs UDP",
+        "difficulty": "easy",
+        "question": "Which protocol generally has lower overhead?",
+        "options": [
+            {
+                "key": "A",
+                "text": "TCP"
+            },
+            {
+                "key": "B",
+                "text": "UDP"
+            },
+            {
+                "key": "C",
+                "text": "Both equal"
+            },
+            {
+                "key": "D",
+                "text": "Neither"
+            }
+        ],
+        "answer": "B",
+        "reason": "UDP has a smaller header and fewer control mechanisms than TCP."
+    },
+    {
+        "id": 40,
+        "subject": "Computer Networks",
+        "topic": "TCP vs UDP",
+        "difficulty": "medium",
+        "question": "Which protocol is preferred for reliable file transfer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "UDP"
+            },
+            {
+                "key": "B",
+                "text": "TCP"
+            },
+            {
+                "key": "C",
+                "text": "ICMP"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP provides reliable, ordered, and error-checked delivery required for file transfers."
+    },
+    {
+        "id": 41,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "hard",
+        "question": "Which TCP field is used to maintain proper ordering of segments?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Port Number"
+            },
+            {
+                "key": "B",
+                "text": "Window Size"
+            },
+            {
+                "key": "C",
+                "text": "Sequence Number"
+            },
+            {
+                "key": "D",
+                "text": "Checksum Only"
+            }
+        ],
+        "answer": "C",
+        "reason": "Sequence numbers allow TCP to reorder segments correctly at the receiving end."
+    },
+    {
+        "id": 42,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "medium",
+        "question": "Which port is commonly used by FTP control connections?",
+        "options": [
+            {
+                "key": "A",
+                "text": "20"
+            },
+            {
+                "key": "B",
+                "text": "21"
+            },
+            {
+                "key": "C",
+                "text": "22"
+            },
+            {
+                "key": "D",
+                "text": "25"
+            }
+        ],
+        "answer": "B",
+        "reason": "FTP control connections use TCP port 21, while data connections traditionally use port 20."
+    },
+    {
+        "id": 43,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "hard",
+        "question": "Which port is commonly associated with SMTP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "25"
+            },
+            {
+                "key": "B",
+                "text": "53"
+            },
+            {
+                "key": "C",
+                "text": "80"
+            },
+            {
+                "key": "D",
+                "text": "443"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMTP commonly uses TCP port 25 for email transmission."
+    },
+    {
+        "id": 44,
+        "subject": "Computer Networks",
+        "topic": "Congestion Control",
+        "difficulty": "medium",
+        "question": "Traffic shaping techniques such as Leaky Bucket and Token Bucket are designed to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reduce congestion"
+            },
+            {
+                "key": "B",
+                "text": "Assign IP addresses"
+            },
+            {
+                "key": "C",
+                "text": "Perform routing"
+            },
+            {
+                "key": "D",
+                "text": "Detect CRC errors"
+            }
+        ],
+        "answer": "A",
+        "reason": "Traffic shaping smooths traffic flow and helps prevent congestion in networks."
+    },
+    {
+        "id": 45,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "hard",
+        "question": "Which Transport Layer protocol would be most appropriate for a live voice call application?",
+        "options": [
+            {
+                "key": "A",
+                "text": "TCP"
+            },
+            {
+                "key": "B",
+                "text": "UDP"
+            },
+            {
+                "key": "C",
+                "text": "ICMP"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
+        ],
+        "answer": "B",
+        "reason": "Live voice applications prioritize low latency over perfect reliability, making UDP the preferred choice."
+    },
+    {
+        "id": 46,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "easy",
+        "question": "Which layer of the TCP/IP model corresponds primarily to the Transport Layer of the OSI model?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Internet Layer"
+            },
+            {
+                "key": "B",
+                "text": "Application Layer"
+            },
+            {
+                "key": "C",
+                "text": "Transport Layer"
+            },
+            {
+                "key": "D",
+                "text": "Network Access Layer"
+            }
+        ],
+        "answer": "C",
+        "reason": "The TCP/IP Transport Layer performs functions equivalent to the OSI Transport Layer, including end-to-end communication."
+    },
+    {
+        "id": 47,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "medium",
+        "question": "Which Transport Layer service ensures data is delivered without duplication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Sequence Control"
+            },
+            {
+                "key": "B",
+                "text": "Subnetting"
+            },
+            {
+                "key": "C",
+                "text": "Broadcasting"
+            },
+            {
+                "key": "D",
+                "text": "Routing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Sequence numbers and acknowledgments help TCP prevent duplicate delivery and maintain data integrity."
+    },
+    {
+        "id": 48,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "easy",
+        "question": "Which TCP flag is used to immediately reset a connection?",
+        "options": [
+            {
+                "key": "A",
+                "text": "RST"
+            },
+            {
+                "key": "B",
+                "text": "SYN"
+            },
+            {
+                "key": "C",
+                "text": "FIN"
+            },
+            {
+                "key": "D",
+                "text": "ACK"
+            }
+        ],
+        "answer": "A",
+        "reason": "The RST (Reset) flag is used to abruptly terminate or reject a TCP connection."
+    },
+    {
+        "id": 49,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "medium",
+        "question": "Which TCP flag indicates that the receiving application should process the data immediately?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FIN"
+            },
+            {
+                "key": "B",
+                "text": "PSH"
+            },
+            {
+                "key": "C",
+                "text": "RST"
+            },
+            {
+                "key": "D",
+                "text": "URG"
+            }
+        ],
+        "answer": "B",
+        "reason": "The PSH (Push) flag requests immediate delivery of buffered data to the receiving application."
+    },
+    {
+        "id": 50,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "hard",
+        "question": "Which TCP field specifies how much data a receiver can accept without acknowledgment?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Checksum"
+            },
+            {
+                "key": "B",
+                "text": "Window Size"
+            },
+            {
+                "key": "C",
+                "text": "Port Number"
+            },
+            {
+                "key": "D",
+                "text": "Urgent Pointer"
+            }
+        ],
+        "answer": "B",
+        "reason": "The TCP Window Size field is used for flow control and indicates the available receive buffer space."
+    },
+    {
+        "id": 51,
+        "subject": "Computer Networks",
+        "topic": "TCP 3-Way Handshake",
+        "difficulty": "medium",
+        "question": "During the first step of a TCP handshake, the client sends a segment with sequence number x. What does the server acknowledge?",
+        "options": [
+            {
+                "key": "A",
+                "text": "x"
+            },
+            {
+                "key": "B",
+                "text": "x + 1"
+            },
+            {
+                "key": "C",
+                "text": "x - 1"
+            },
+            {
+                "key": "D",
+                "text": "0"
+            }
+        ],
+        "answer": "B",
+        "reason": "The SYN flag consumes one sequence number, so the server acknowledges x+1."
+    },
+    {
+        "id": 52,
+        "subject": "Computer Networks",
+        "topic": "TCP 3-Way Handshake",
+        "difficulty": "hard",
+        "question": "What problem is primarily prevented by the TCP 3-way handshake?",
+        "options": [
+            {
+                "key": "A",
+                "text": "IP Fragmentation"
+            },
+            {
+                "key": "B",
+                "text": "Duplicate Connection Requests"
+            },
+            {
+                "key": "C",
+                "text": "Subnet Overlap"
+            },
+            {
+                "key": "D",
+                "text": "ARP Spoofing"
+            }
+        ],
+        "answer": "B",
+        "reason": "The handshake verifies both sides are ready and helps prevent confusion from delayed or duplicate connection requests."
+    },
+    {
+        "id": 53,
+        "subject": "Computer Networks",
+        "topic": "TCP 4-Way Handshake",
+        "difficulty": "easy",
+        "question": "Which TCP flag is normally sent by the second host after receiving a FIN request?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SYN"
+            },
+            {
+                "key": "B",
+                "text": "RST"
+            },
+            {
+                "key": "C",
+                "text": "ACK"
+            },
+            {
+                "key": "D",
+                "text": "PSH"
+            }
+        ],
+        "answer": "C",
+        "reason": "The receiving host acknowledges the FIN segment with an ACK."
+    },
+    {
+        "id": 54,
+        "subject": "Computer Networks",
+        "topic": "TCP 4-Way Handshake",
+        "difficulty": "hard",
+        "question": "Why does TCP use four segments instead of three for connection termination?",
+        "options": [
+            {
+                "key": "A",
+                "text": "TCP cannot send ACK and FIN separately"
+            },
+            {
+                "key": "B",
+                "text": "Each direction of communication is closed independently"
+            },
+            {
+                "key": "C",
+                "text": "UDP compatibility requirement"
+            },
+            {
+                "key": "D",
+                "text": "To reduce bandwidth"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP connections are full duplex, so each direction must be terminated independently."
+    },
+    {
+        "id": 55,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "easy",
+        "question": "UDP transfers data in units called:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Frames"
+            },
+            {
+                "key": "B",
+                "text": "Segments"
+            },
+            {
+                "key": "C",
+                "text": "Datagrams"
+            },
+            {
+                "key": "D",
+                "text": "Packets Only"
+            }
+        ],
+        "answer": "C",
+        "reason": "UDP data units are known as datagrams."
+    },
+    {
+        "id": 56,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "medium",
+        "question": "Which of the following is a characteristic of UDP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Acknowledgment-based delivery"
+            },
+            {
+                "key": "B",
+                "text": "Connection establishment"
+            },
+            {
+                "key": "C",
+                "text": "Minimal protocol overhead"
+            },
+            {
+                "key": "D",
+                "text": "Guaranteed ordering"
+            }
+        ],
+        "answer": "C",
+        "reason": "UDP avoids complex reliability mechanisms, resulting in low overhead."
+    },
+    {
+        "id": 57,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "hard",
+        "question": "Which service commonly uses UDP port `53`?",
+        "options": [
+            {
+                "key": "A",
+                "text": "HTTP"
+            },
+            {
+                "key": "B",
+                "text": "DNS"
+            },
+            {
+                "key": "C",
+                "text": "SMTP"
+            },
+            {
+                "key": "D",
+                "text": "SSH"
+            }
+        ],
+        "answer": "B",
+        "reason": "DNS queries are typically sent using UDP port 53 for fast request-response communication."
+    },
+    {
+        "id": 58,
+        "subject": "Computer Networks",
+        "topic": "TCP vs UDP",
+        "difficulty": "medium",
+        "question": "Which protocol is better suited for video conferencing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "TCP"
+            },
+            {
+                "key": "B",
+                "text": "UDP"
+            },
+            {
+                "key": "C",
+                "text": "ICMP"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
+        ],
+        "answer": "B",
+        "reason": "Video conferencing prioritizes low latency over perfect reliability, making UDP preferable."
+    },
+    {
+        "id": 59,
+        "subject": "Computer Networks",
+        "topic": "TCP vs UDP",
+        "difficulty": "hard",
+        "question": "Which protocol performs retransmission of lost data automatically?",
+        "options": [
+            {
+                "key": "A",
+                "text": "UDP"
+            },
+            {
+                "key": "B",
+                "text": "TCP"
+            },
+            {
+                "key": "C",
+                "text": "IP"
+            },
+            {
+                "key": "D",
+                "text": "ICMP"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP detects packet loss through acknowledgments and retransmits missing segments."
+    },
+    {
+        "id": 60,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "easy",
+        "question": "Which port is commonly used by SSH?",
+        "options": [
+            {
+                "key": "A",
+                "text": "21"
+            },
+            {
+                "key": "B",
+                "text": "22"
+            },
+            {
+                "key": "C",
+                "text": "23"
+            },
+            {
+                "key": "D",
+                "text": "25"
+            }
+        ],
+        "answer": "B",
+        "reason": "SSH uses TCP port 22 for secure remote login."
+    },
+    {
+        "id": 61,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "easy",
+        "question": "Which port is traditionally associated with Telnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "21"
+            },
+            {
+                "key": "B",
+                "text": "22"
+            },
+            {
+                "key": "C",
+                "text": "23"
+            },
+            {
+                "key": "D",
+                "text": "25"
+            }
+        ],
+        "answer": "C",
+        "reason": "Telnet commonly uses TCP port 23."
+    },
+    {
+        "id": 62,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "medium",
+        "question": "Which port is commonly used by POP3?",
+        "options": [
+            {
+                "key": "A",
+                "text": "25"
+            },
+            {
+                "key": "B",
+                "text": "53"
+            },
+            {
+                "key": "C",
+                "text": "110"
+            },
+            {
+                "key": "D",
+                "text": "143"
+            }
+        ],
+        "answer": "C",
+        "reason": "POP3 uses TCP port 110 for retrieving email from mail servers."
+    },
+    {
+        "id": 63,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "medium",
+        "question": "Which port is commonly associated with IMAP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "110"
+            },
+            {
+                "key": "B",
+                "text": "143"
+            },
+            {
+                "key": "C",
+                "text": "25"
+            },
+            {
+                "key": "D",
+                "text": "69"
+            }
+        ],
+        "answer": "B",
+        "reason": "IMAP typically uses TCP port 143 for email access and management."
+    },
+    {
+        "id": 64,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "hard",
+        "question": "Ports numbered `1024-49151` are generally classified as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Well-Known Ports"
+            },
+            {
+                "key": "B",
+                "text": "Registered Ports"
+            },
+            {
+                "key": "C",
+                "text": "Dynamic Ports"
+            },
+            {
+                "key": "D",
+                "text": "Reserved Ports Only"
+            }
+        ],
+        "answer": "B",
+        "reason": "Registered ports are commonly assigned to user applications and services."
+    },
+    {
+        "id": 65,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "hard",
+        "question": "Ports numbered `49152-65535` are known as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Well-Known Ports"
+            },
+            {
+                "key": "B",
+                "text": "System Ports"
+            },
+            {
+                "key": "C",
+                "text": "Dynamic/Ephemeral Ports"
+            },
+            {
+                "key": "D",
+                "text": "Reserved Network Ports"
+            }
+        ],
+        "answer": "C",
+        "reason": "Dynamic or ephemeral ports are often assigned temporarily to client applications."
+    },
+    {
+        "id": 66,
+        "subject": "Computer Networks",
+        "topic": "Congestion Control",
+        "difficulty": "easy",
+        "question": "Congestion in a network often leads to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reduced delays"
+            },
+            {
+                "key": "B",
+                "text": "Packet loss and increased delay"
+            },
+            {
+                "key": "C",
+                "text": "Higher bandwidth availability"
+            },
+            {
+                "key": "D",
+                "text": "Automatic routing elimination"
+            }
+        ],
+        "answer": "B",
+        "reason": "Congestion causes queue buildup, packet drops, and increased transmission delays."
+    },
+    {
+        "id": 67,
+        "subject": "Computer Networks",
+        "topic": "Congestion Control",
+        "difficulty": "medium",
+        "question": "Traffic shaping is primarily intended to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Control the rate of packet transmission"
+            },
+            {
+                "key": "B",
+                "text": "Encrypt packets"
+            },
+            {
+                "key": "C",
+                "text": "Assign IP addresses"
+            },
+            {
+                "key": "D",
+                "text": "Perform routing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Traffic shaping regulates traffic flow to reduce congestion and improve network performance."
+    },
+    {
+        "id": 68,
+        "subject": "Computer Networks",
+        "topic": "Leaky Bucket",
+        "difficulty": "easy",
+        "question": "The Leaky Bucket algorithm can be compared to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Water leaking from a bucket at a fixed rate"
+            },
+            {
+                "key": "B",
+                "text": "A router discovering routes"
+            },
+            {
+                "key": "C",
+                "text": "DNS resolving names"
+            },
+            {
+                "key": "D",
+                "text": "ARP mapping addresses"
+            }
+        ],
+        "answer": "A",
+        "reason": "The algorithm is modeled after water leaking from a bucket at a constant rate."
+    },
+    {
+        "id": 69,
+        "subject": "Computer Networks",
+        "topic": "Leaky Bucket",
+        "difficulty": "medium",
+        "question": "What is the main limitation of the Leaky Bucket algorithm?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Cannot smooth traffic"
+            },
+            {
+                "key": "B",
+                "text": "Does not allow burst transmission"
+            },
+            {
+                "key": "C",
+                "text": "Requires routing tables"
+            },
+            {
+                "key": "D",
+                "text": "Cannot handle UDP"
+            }
+        ],
+        "answer": "B",
+        "reason": "Leaky Bucket enforces a constant output rate and therefore restricts burst traffic."
+    },
+    {
+        "id": 70,
+        "subject": "Computer Networks",
+        "topic": "Leaky Bucket",
+        "difficulty": "hard",
+        "question": "In the Leaky Bucket algorithm, the bucket represents:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A packet buffer"
+            },
+            {
+                "key": "B",
+                "text": "A routing table"
+            },
+            {
+                "key": "C",
+                "text": "A subnet mask"
+            },
+            {
+                "key": "D",
+                "text": "A TCP port"
+            }
+        ],
+        "answer": "A",
+        "reason": "The bucket acts as a finite queue or buffer that stores arriving packets."
+    },
+    {
+        "id": 71,
+        "subject": "Computer Networks",
+        "topic": "Token Bucket",
+        "difficulty": "easy",
+        "question": "What accumulates in a Token Bucket when the network is idle?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Frames"
+            },
+            {
+                "key": "B",
+                "text": "Tokens"
+            },
+            {
+                "key": "C",
+                "text": "Routes"
+            },
+            {
+                "key": "D",
+                "text": "Ports"
+            }
+        ],
+        "answer": "B",
+        "reason": "Tokens continue to accumulate until the bucket reaches its maximum capacity."
+    },
+    {
+        "id": 72,
+        "subject": "Computer Networks",
+        "topic": "Token Bucket",
+        "difficulty": "medium",
+        "question": "A packet can be transmitted in a Token Bucket system only when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A token is available"
+            },
+            {
+                "key": "B",
+                "text": "The bucket is empty"
+            },
+            {
+                "key": "C",
+                "text": "The router reboots"
+            },
+            {
+                "key": "D",
+                "text": "A broadcast occurs"
+            }
+        ],
+        "answer": "A",
+        "reason": "Tokens represent permission to transmit data."
+    },
+    {
+        "id": 73,
+        "subject": "Computer Networks",
+        "topic": "Token Bucket",
+        "difficulty": "hard",
+        "question": "Which statement best describes Token Bucket compared to Leaky Bucket?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Token Bucket supports burst traffic"
+            },
+            {
+                "key": "B",
+                "text": "Token Bucket blocks all bursts"
+            },
+            {
+                "key": "C",
+                "text": "Token Bucket removes buffering"
+            },
+            {
+                "key": "D",
+                "text": "Both are identical"
+            }
+        ],
+        "answer": "A",
+        "reason": "Token Bucket allows accumulated tokens to be spent on bursts of traffic."
+    },
+    {
+        "id": 74,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "medium",
+        "question": "Which TCP flag is used to indicate urgent data?",
+        "options": [
+            {
+                "key": "A",
+                "text": "URG"
+            },
+            {
+                "key": "B",
+                "text": "RST"
+            },
+            {
+                "key": "C",
+                "text": "FIN"
+            },
+            {
+                "key": "D",
+                "text": "SYN"
+            }
+        ],
+        "answer": "A",
+        "reason": "The URG flag indicates that urgent data is present and should be processed promptly."
+    },
+    {
+        "id": 75,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "hard",
+        "question": "Which TCP mechanism helps prevent a fast sender from overwhelming a slow receiver?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Flow Control using Sliding Window"
+            },
+            {
+                "key": "B",
+                "text": "ARP Resolution"
+            },
+            {
+                "key": "C",
+                "text": "Subnetting"
+            },
+            {
+                "key": "D",
+                "text": "Broadcast Routing"
+            }
+        ],
+        "answer": "A",
+        "reason": "TCP flow control dynamically adjusts the amount of outstanding data through the sliding window mechanism."
+    },
+    {
+        "id": 76,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "medium",
+        "question": "Which of the following services commonly relies on UDP for speed?",
+        "options": [
+            {
+                "key": "A",
+                "text": "DNS Query"
+            },
+            {
+                "key": "B",
+                "text": "FTP Control"
+            },
+            {
+                "key": "C",
+                "text": "SSH Session"
+            },
+            {
+                "key": "D",
+                "text": "SMTP Transfer"
+            }
+        ],
+        "answer": "A",
+        "reason": "DNS typically uses UDP because queries are small and benefit from reduced overhead."
+    },
+    {
+        "id": 77,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "hard",
+        "question": "Which statement about UDP checksums is correct?",
+        "options": [
+            {
+                "key": "A",
+                "text": "UDP never uses checksums"
+            },
+            {
+                "key": "B",
+                "text": "UDP can use checksums for error detection"
+            },
+            {
+                "key": "C",
+                "text": "UDP uses acknowledgments instead of checksums"
+            },
+            {
+                "key": "D",
+                "text": "UDP uses sequence numbers for error correction"
+            }
+        ],
+        "answer": "B",
+        "reason": "UDP includes a checksum field that helps detect transmission errors."
+    },
+    {
+        "id": 78,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "easy",
+        "question": "Which port is commonly used by DHCP servers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "67"
+            },
+            {
+                "key": "B",
+                "text": "80"
+            },
+            {
+                "key": "C",
+                "text": "110"
+            },
+            {
+                "key": "D",
+                "text": "443"
+            }
+        ],
+        "answer": "A",
+        "reason": "DHCP servers typically listen on UDP port 67."
+    },
+    {
+        "id": 79,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "medium",
+        "question": "Which port is commonly used by DHCP clients?",
+        "options": [
+            {
+                "key": "A",
+                "text": "67"
+            },
+            {
+                "key": "B",
+                "text": "68"
+            },
+            {
+                "key": "C",
+                "text": "69"
+            },
+            {
+                "key": "D",
+                "text": "70"
+            }
+        ],
+        "answer": "B",
+        "reason": "DHCP clients typically use UDP port 68."
+    },
+    {
+        "id": 80,
+        "subject": "Computer Networks",
+        "topic": "Congestion Control",
+        "difficulty": "hard",
+        "question": "Which traffic shaping mechanism provides greater flexibility for modern multimedia traffic?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Token Bucket"
+            },
+            {
+                "key": "B",
+                "text": "Leaky Bucket"
+            },
+            {
+                "key": "C",
+                "text": "Static Routing"
+            },
+            {
+                "key": "D",
+                "text": "Subnetting"
+            }
+        ],
+        "answer": "A",
+        "reason": "Token Bucket supports controlled bursts while maintaining an average transmission rate, making it more suitable for multimedia applications."
+    },
+    {
+        "id": 81,
+        "subject": "Computer Networks",
+        "topic": "TCP vs UDP",
+        "difficulty": "hard",
+        "question": "Which comparison between TCP and UDP is correct?",
+        "options": [
+            {
+                "key": "A",
+                "text": "TCP is connectionless, UDP is connection-oriented"
+            },
+            {
+                "key": "B",
+                "text": "TCP provides reliability, UDP emphasizes speed"
+            },
+            {
+                "key": "C",
+                "text": "TCP has smaller headers than UDP"
+            },
+            {
+                "key": "D",
+                "text": "UDP performs retransmissions automatically"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP prioritizes reliability through acknowledgments and retransmissions, while UDP prioritizes low latency and speed."
+    },
+    {
+        "id": 82,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "medium",
+        "question": "The process of combining data from multiple applications for transmission is called:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Multiplexing"
+            },
+            {
+                "key": "B",
+                "text": "Routing"
+            },
+            {
+                "key": "C",
+                "text": "Fragmentation"
+            },
+            {
+                "key": "D",
+                "text": "Broadcasting"
+            }
+        ],
+        "answer": "A",
+        "reason": "Transport Layer multiplexing allows multiple applications to share network resources using port numbers."
+    },
+    {
+        "id": 83,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "hard",
+        "question": "The reverse process of multiplexing at the receiver is known as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Demultiplexing"
+            },
+            {
+                "key": "B",
+                "text": "Fragmentation"
+            },
+            {
+                "key": "C",
+                "text": "Encapsulation"
+            },
+            {
+                "key": "D",
+                "text": "Aggregation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Demultiplexing uses port numbers to deliver incoming data to the correct application process."
+    },
+    {
+        "id": 84,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "medium",
+        "question": "Which TCP feature ensures that segments arrive in the correct order?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Sequence Numbers"
+            },
+            {
+                "key": "B",
+                "text": "Port Numbers"
+            },
+            {
+                "key": "C",
+                "text": "Checksums Only"
+            },
+            {
+                "key": "D",
+                "text": "IP Addresses"
+            }
+        ],
+        "answer": "A",
+        "reason": "Sequence numbers enable TCP to reorder segments correctly before delivering them to the application."
+    },
+    {
+        "id": 85,
+        "subject": "Computer Networks",
+        "topic": "Congestion Control",
+        "difficulty": "medium",
+        "question": "Which of the following is a traffic shaping technique rather than a routing mechanism?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Token Bucket"
+            },
+            {
+                "key": "B",
+                "text": "OSPF"
+            },
+            {
+                "key": "C",
+                "text": "RIP"
+            },
+            {
+                "key": "D",
+                "text": "BGP"
+            }
+        ],
+        "answer": "A",
+        "reason": "Token Bucket is used for traffic shaping and congestion control, whereas OSPF, RIP, and BGP are routing protocols."
+    },
+    {
+        "id": 86,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "hard",
+        "question": "Which combination correctly matches the protocol and its communication style?",
+        "options": [
+            {
+                "key": "A",
+                "text": "TCP - Connectionless, UDP - Reliable"
+            },
+            {
+                "key": "B",
+                "text": "TCP - Reliable, UDP - Connectionless"
+            },
+            {
+                "key": "C",
+                "text": "TCP - Routing Protocol, UDP - Link State Protocol"
+            },
+            {
+                "key": "D",
+                "text": "TCP - Address Resolution, UDP - Flow Control"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP provides reliable connection-oriented communication, while UDP provides connectionless communication."
+    },
+    {
+        "id": 87,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "hard",
+        "question": "A host receives a TCP segment with the SYN flag set for a port where no service is listening. Which response is most likely?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SYN-ACK"
+            },
+            {
+                "key": "B",
+                "text": "RST"
+            },
+            {
+                "key": "C",
+                "text": "FIN"
+            },
+            {
+                "key": "D",
+                "text": "URG"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP commonly responds with a Reset (RST) segment when a connection is attempted on a closed port."
+    },
+    {
+        "id": 88,
+        "subject": "Computer Networks",
+        "topic": "Token Bucket",
+        "difficulty": "hard",
+        "question": "If tokens are generated at 100 tokens per second and each packet requires one token, what is the maximum long-term packet transmission rate?",
+        "options": [
+            {
+                "key": "A",
+                "text": "50 packets/sec"
+            },
+            {
+                "key": "B",
+                "text": "100 packets/sec"
+            },
+            {
+                "key": "C",
+                "text": "200 packets/sec"
+            },
+            {
+                "key": "D",
+                "text": "Unlimited"
+            }
+        ],
+        "answer": "B",
+        "reason": "The average transmission rate cannot exceed the token generation rate of 100 tokens per second."
+    },
+    {
+        "id": 89,
+        "subject": "Computer Networks",
+        "topic": "Leaky Bucket",
+        "difficulty": "hard",
+        "question": "A Leaky Bucket outputs traffic at 500 kbps. If incoming traffic arrives at 1 Mbps for an extended period, the bucket will eventually:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Double its output rate"
+            },
+            {
+                "key": "B",
+                "text": "Become full and drop packets"
+            },
+            {
+                "key": "C",
+                "text": "Convert to Token Bucket"
+            },
+            {
+                "key": "D",
+                "text": "Stop transmitting"
+            }
+        ],
+        "answer": "B",
+        "reason": "When arrival rate exceeds the leak rate for a sustained period, the finite buffer fills and excess packets are dropped."
+    },
+    {
+        "id": 90,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "hard",
+        "question": "Which Transport Layer feature allows multiple web browser tabs, email clients, and messaging applications to communicate simultaneously over a single host?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Port Addressing and Multiplexing"
+            },
+            {
+                "key": "B",
+                "text": "Subnetting"
+            },
+            {
+                "key": "C",
+                "text": "Broadcast Routing"
+            },
+            {
+                "key": "D",
+                "text": "ARP Resolution"
+            }
+        ],
+        "answer": "A",
+        "reason": "Port addressing and multiplexing enable multiple application processes to share network connectivity simultaneously."
+    },
+    {
+        "id": 91,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "medium",
+        "question": "Which TCP flag combination is commonly seen in the second message of the TCP 3-way handshake?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FIN-ACK"
+            },
+            {
+                "key": "B",
+                "text": "RST-ACK"
+            },
+            {
+                "key": "C",
+                "text": "SYN-ACK"
+            },
+            {
+                "key": "D",
+                "text": "PSH-ACK"
+            }
+        ],
+        "answer": "C",
+        "reason": "After receiving a SYN request, the server responds with a SYN-ACK segment to acknowledge the client's request and synchronize sequence numbers."
+    },
+    {
+        "id": 92,
+        "subject": "Computer Networks",
+        "topic": "UDP",
+        "difficulty": "medium",
+        "question": "Which statement best describes UDP communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packets are always delivered in order"
+            },
+            {
+                "key": "B",
+                "text": "Packets may arrive out of order or be lost"
+            },
+            {
+                "key": "C",
+                "text": "A connection must be established before transmission"
+            },
+            {
+                "key": "D",
+                "text": "Every packet requires an acknowledgment"
+            }
+        ],
+        "answer": "B",
+        "reason": "UDP provides no guarantees regarding delivery, ordering, or duplicate protection."
+    },
+    {
+        "id": 93,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "easy",
+        "question": "Which protocol commonly uses TCP port `443`?",
+        "options": [
+            {
+                "key": "A",
+                "text": "HTTP"
+            },
+            {
+                "key": "B",
+                "text": "HTTPS"
+            },
+            {
+                "key": "C",
+                "text": "FTP"
+            },
+            {
+                "key": "D",
+                "text": "Telnet"
+            }
+        ],
+        "answer": "B",
+        "reason": "HTTPS uses TCP port 443 to provide encrypted web communication using SSL/TLS."
+    },
+    {
+        "id": 94,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "hard",
+        "question": "A web server receives requests from thousands of clients simultaneously. Which Transport Layer feature enables the server to distinguish between different client sessions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "MAC Addressing"
+            },
+            {
+                "key": "B",
+                "text": "Port Numbers and Socket Pairs"
+            },
+            {
+                "key": "C",
+                "text": "Subnet Masks"
+            },
+            {
+                "key": "D",
+                "text": "CRC Values"
+            }
+        ],
+        "answer": "B",
+        "reason": "TCP identifies connections using source IP, destination IP, source port, and destination port, allowing multiple simultaneous sessions."
+    },
+    {
+        "id": 95,
+        "subject": "Computer Networks",
+        "topic": "TCP vs UDP",
+        "difficulty": "medium",
+        "question": "Which application is most likely to use TCP instead of UDP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Live video streaming"
+            },
+            {
+                "key": "B",
+                "text": "Online voice call"
+            },
+            {
+                "key": "C",
+                "text": "File download"
+            },
+            {
+                "key": "D",
+                "text": "Online multiplayer gaming"
+            }
+        ],
+        "answer": "C",
+        "reason": "File downloads require reliable and complete data delivery, making TCP the preferred protocol."
+    },
+    {
+        "id": 96,
+        "subject": "Computer Networks",
+        "topic": "Congestion Control",
+        "difficulty": "easy",
+        "question": "Which congestion control mechanism allows unused transmission capacity to accumulate for future bursts?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Leaky Bucket"
+            },
+            {
+                "key": "B",
+                "text": "Token Bucket"
+            },
+            {
+                "key": "C",
+                "text": "Stop-and-Wait"
+            },
+            {
+                "key": "D",
+                "text": "CRC"
+            }
+        ],
+        "answer": "B",
+        "reason": "Token Bucket stores tokens when the network is idle, allowing future burst transmissions."
+    },
+    {
+        "id": 97,
+        "subject": "Computer Networks",
+        "topic": "Leaky Bucket",
+        "difficulty": "medium",
+        "question": "Which characteristic best describes the output traffic pattern of the Leaky Bucket algorithm?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Highly bursty"
+            },
+            {
+                "key": "B",
+                "text": "Random"
+            },
+            {
+                "key": "C",
+                "text": "Smooth and constant"
+            },
+            {
+                "key": "D",
+                "text": "Unpredictable"
+            }
+        ],
+        "answer": "C",
+        "reason": "The Leaky Bucket algorithm smooths incoming bursty traffic into a steady output stream."
+    },
+    {
+        "id": 98,
+        "subject": "Computer Networks",
+        "topic": "TCP",
+        "difficulty": "hard",
+        "question": "Which TCP feature allows a receiver to inform the sender about available buffer space?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Window Advertisement"
+            },
+            {
+                "key": "B",
+                "text": "Subnet Advertisement"
+            },
+            {
+                "key": "C",
+                "text": "Port Translation"
+            },
+            {
+                "key": "D",
+                "text": "Route Summarization"
+            }
+        ],
+        "answer": "A",
+        "reason": "TCP flow control uses window advertisements to indicate how much data the receiver can currently accept."
+    },
+    {
+        "id": 99,
+        "subject": "Computer Networks",
+        "topic": "Port Addressing",
+        "difficulty": "medium",
+        "question": "Which of the following protocols typically uses UDP port `69`?",
+        "options": [
+            {
+                "key": "A",
+                "text": "HTTP"
+            },
+            {
+                "key": "B",
+                "text": "SMTP"
+            },
+            {
+                "key": "C",
+                "text": "TFTP"
+            },
+            {
+                "key": "D",
+                "text": "SSH"
+            }
+        ],
+        "answer": "C",
+        "reason": "Trivial File Transfer Protocol (TFTP) uses UDP port 69 for lightweight file transfers."
+    },
+    {
+        "id": 100,
+        "subject": "Computer Networks",
+        "topic": "Transport Layer",
+        "difficulty": "hard",
+        "question": "Which statement correctly compares Transport Layer addressing with Network Layer addressing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Transport Layer uses IP addresses, Network Layer uses ports"
+            },
+            {
+                "key": "B",
+                "text": "Both layers use only MAC addresses"
+            },
+            {
+                "key": "C",
+                "text": "Network Layer identifies hosts, Transport Layer identifies processes"
+            },
+            {
+                "key": "D",
+                "text": "Both layers identify only networks"
+            }
+        ],
+        "answer": "C",
+        "reason": "The Network Layer uses IP addresses to identify hosts, while the Transport Layer uses port numbers to identify application processes running on those hosts."
+    }
+]

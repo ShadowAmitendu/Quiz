@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "easy",
+        "question": "What is the primary purpose of DNS?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Assign IP addresses automatically"
+            },
+            {
+                "key": "B",
+                "text": "Translate domain names into IP addresses"
+            },
+            {
+                "key": "C",
+                "text": "Transfer files between hosts"
+            },
+            {
+                "key": "D",
+                "text": "Encrypt web traffic"
+            }
+        ],
+        "answer": "B",
+        "reason": "DNS (Domain Name System) resolves human-readable domain names into IP addresses that computers use for communication."
+    },
+    {
+        "id": 2,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "easy",
+        "question": "Which port is primarily used by DNS for queries?",
+        "options": [
+            {
+                "key": "A",
+                "text": "21"
+            },
+            {
+                "key": "B",
+                "text": "25"
+            },
+            {
+                "key": "C",
+                "text": "53"
+            },
+            {
+                "key": "D",
+                "text": "80"
+            }
+        ],
+        "answer": "C",
+        "reason": "DNS commonly uses port 53 for both UDP and TCP communications."
+    },
+    {
+        "id": 3,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "medium",
+        "question": "Which DNS record type maps a hostname to an IPv4 address?",
+        "options": [
+            {
+                "key": "A",
+                "text": "MX"
+            },
+            {
+                "key": "B",
+                "text": "CNAME"
+            },
+            {
+                "key": "C",
+                "text": "A"
+            },
+            {
+                "key": "D",
+                "text": "PTR"
+            }
+        ],
+        "answer": "C",
+        "reason": "The A (Address) record maps a hostname to an IPv4 address."
+    },
+    {
+        "id": 4,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "medium",
+        "question": "Which DNS record is used to specify mail servers for a domain?",
+        "options": [
+            {
+                "key": "A",
+                "text": "A"
+            },
+            {
+                "key": "B",
+                "text": "MX"
+            },
+            {
+                "key": "C",
+                "text": "PTR"
+            },
+            {
+                "key": "D",
+                "text": "TXT"
+            }
+        ],
+        "answer": "B",
+        "reason": "MX (Mail Exchange) records identify mail servers responsible for handling email for a domain."
+    },
+    {
+        "id": 5,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "hard",
+        "question": "Which DNS record type is used for reverse DNS lookups?",
+        "options": [
+            {
+                "key": "A",
+                "text": "PTR"
+            },
+            {
+                "key": "B",
+                "text": "A"
+            },
+            {
+                "key": "C",
+                "text": "NS"
+            },
+            {
+                "key": "D",
+                "text": "AAAA"
+            }
+        ],
+        "answer": "A",
+        "reason": "PTR (Pointer) records map IP addresses back to domain names in reverse DNS lookups."
+    },
+    {
+        "id": 6,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "easy",
+        "question": "What does HTTP stand for?",
+        "options": [
+            {
+                "key": "A",
+                "text": "HyperText Transfer Protocol"
+            },
+            {
+                "key": "B",
+                "text": "High Transfer Text Protocol"
+            },
+            {
+                "key": "C",
+                "text": "Host Transfer Transport Protocol"
+            },
+            {
+                "key": "D",
+                "text": "Hyper Terminal Transfer Process"
+            }
+        ],
+        "answer": "A",
+        "reason": "HTTP stands for HyperText Transfer Protocol and is used for transferring web content."
+    },
+    {
+        "id": 7,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "easy",
+        "question": "Which port is used by HTTP by default?",
+        "options": [
+            {
+                "key": "A",
+                "text": "21"
+            },
+            {
+                "key": "B",
+                "text": "53"
+            },
+            {
+                "key": "C",
+                "text": "80"
+            },
+            {
+                "key": "D",
+                "text": "443"
+            }
+        ],
+        "answer": "C",
+        "reason": "HTTP typically uses TCP port 80."
+    },
+    {
+        "id": 8,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "medium",
+        "question": "Which HTTP method is primarily used to retrieve a web resource?",
+        "options": [
+            {
+                "key": "A",
+                "text": "POST"
+            },
+            {
+                "key": "B",
+                "text": "GET"
+            },
+            {
+                "key": "C",
+                "text": "PUT"
+            },
+            {
+                "key": "D",
+                "text": "DELETE"
+            }
+        ],
+        "answer": "B",
+        "reason": "The GET method requests data from a web server without modifying resources."
+    },
+    {
+        "id": 9,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "medium",
+        "question": "Which HTTP status code indicates successful processing of a request?",
+        "options": [
+            {
+                "key": "A",
+                "text": "200"
+            },
+            {
+                "key": "B",
+                "text": "404"
+            },
+            {
+                "key": "C",
+                "text": "500"
+            },
+            {
+                "key": "D",
+                "text": "301"
+            }
+        ],
+        "answer": "A",
+        "reason": "HTTP status code 200 indicates that the request was successfully processed."
+    },
+    {
+        "id": 10,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "hard",
+        "question": "Which HTTP status code indicates that a requested resource was not found?",
+        "options": [
+            {
+                "key": "A",
+                "text": "200"
+            },
+            {
+                "key": "B",
+                "text": "403"
+            },
+            {
+                "key": "C",
+                "text": "404"
+            },
+            {
+                "key": "D",
+                "text": "500"
+            }
+        ],
+        "answer": "C",
+        "reason": "Status code 404 indicates that the requested resource could not be found on the server."
+    },
+    {
+        "id": 11,
+        "subject": "Computer Networks",
+        "topic": "HTTPS",
+        "difficulty": "easy",
+        "question": "What does HTTPS provide in addition to HTTP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Routing"
+            },
+            {
+                "key": "B",
+                "text": "Encryption and Security"
+            },
+            {
+                "key": "C",
+                "text": "DNS Resolution"
+            },
+            {
+                "key": "D",
+                "text": "Address Translation"
+            }
+        ],
+        "answer": "B",
+        "reason": "HTTPS secures communication using SSL/TLS encryption."
+    },
+    {
+        "id": 12,
+        "subject": "Computer Networks",
+        "topic": "HTTPS",
+        "difficulty": "easy",
+        "question": "Which port is used by HTTPS by default?",
+        "options": [
+            {
+                "key": "A",
+                "text": "80"
+            },
+            {
+                "key": "B",
+                "text": "443"
+            },
+            {
+                "key": "C",
+                "text": "25"
+            },
+            {
+                "key": "D",
+                "text": "110"
+            }
+        ],
+        "answer": "B",
+        "reason": "HTTPS uses TCP port 443 for secure web communication."
+    },
+    {
+        "id": 13,
+        "subject": "Computer Networks",
+        "topic": "HTTPS",
+        "difficulty": "medium",
+        "question": "HTTPS primarily relies on which security protocol?",
+        "options": [
+            {
+                "key": "A",
+                "text": "ARP"
+            },
+            {
+                "key": "B",
+                "text": "TLS/SSL"
+            },
+            {
+                "key": "C",
+                "text": "ICMP"
+            },
+            {
+                "key": "D",
+                "text": "SNMP"
+            }
+        ],
+        "answer": "B",
+        "reason": "HTTPS uses SSL/TLS to provide authentication, confidentiality, and integrity."
+    },
+    {
+        "id": 14,
+        "subject": "Computer Networks",
+        "topic": "HTTPS",
+        "difficulty": "hard",
+        "question": "What is the main purpose of a digital certificate in HTTPS?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Assign IP addresses"
+            },
+            {
+                "key": "B",
+                "text": "Verify server identity"
+            },
+            {
+                "key": "C",
+                "text": "Route packets"
+            },
+            {
+                "key": "D",
+                "text": "Compress webpages"
+            }
+        ],
+        "answer": "B",
+        "reason": "Digital certificates help clients verify the authenticity of servers."
+    },
+    {
+        "id": 15,
+        "subject": "Computer Networks",
+        "topic": "FTP",
+        "difficulty": "easy",
+        "question": "What is the primary purpose of FTP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "File Transfer"
+            },
+            {
+                "key": "B",
+                "text": "Email Delivery"
+            },
+            {
+                "key": "C",
+                "text": "Web Browsing"
+            },
+            {
+                "key": "D",
+                "text": "Remote Login"
+            }
+        ],
+        "answer": "A",
+        "reason": "FTP (File Transfer Protocol) is used to transfer files between systems."
+    },
+    {
+        "id": 16,
+        "subject": "Computer Networks",
+        "topic": "FTP",
+        "difficulty": "easy",
+        "question": "Which port is used by FTP control connections?",
+        "options": [
+            {
+                "key": "A",
+                "text": "20"
+            },
+            {
+                "key": "B",
+                "text": "21"
+            },
+            {
+                "key": "C",
+                "text": "22"
+            },
+            {
+                "key": "D",
+                "text": "23"
+            }
+        ],
+        "answer": "B",
+        "reason": "FTP control connections use TCP port 21."
+    },
+    {
+        "id": 17,
+        "subject": "Computer Networks",
+        "topic": "FTP",
+        "difficulty": "medium",
+        "question": "Which port is traditionally used for FTP data transfer in active mode?",
+        "options": [
+            {
+                "key": "A",
+                "text": "20"
+            },
+            {
+                "key": "B",
+                "text": "21"
+            },
+            {
+                "key": "C",
+                "text": "22"
+            },
+            {
+                "key": "D",
+                "text": "25"
+            }
+        ],
+        "answer": "A",
+        "reason": "FTP active mode uses port 20 for data transfer and port 21 for control."
+    },
+    {
+        "id": 18,
+        "subject": "Computer Networks",
+        "topic": "FTP",
+        "difficulty": "hard",
+        "question": "FTP operates using how many separate TCP connections?",
+        "options": [
+            {
+                "key": "A",
+                "text": "1"
+            },
+            {
+                "key": "B",
+                "text": "2"
+            },
+            {
+                "key": "C",
+                "text": "3"
+            },
+            {
+                "key": "D",
+                "text": "4"
+            }
+        ],
+        "answer": "B",
+        "reason": "FTP uses separate control and data connections."
+    },
+    {
+        "id": 19,
+        "subject": "Computer Networks",
+        "topic": "SMTP",
+        "difficulty": "easy",
+        "question": "SMTP is used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Receiving Email"
+            },
+            {
+                "key": "B",
+                "text": "Sending Email"
+            },
+            {
+                "key": "C",
+                "text": "File Sharing"
+            },
+            {
+                "key": "D",
+                "text": "Remote Login"
+            }
+        ],
+        "answer": "B",
+        "reason": "SMTP (Simple Mail Transfer Protocol) is used to send and relay email."
+    },
+    {
+        "id": 20,
+        "subject": "Computer Networks",
+        "topic": "SMTP",
+        "difficulty": "easy",
+        "question": "Which port is commonly associated with SMTP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "25"
+            },
+            {
+                "key": "B",
+                "text": "53"
+            },
+            {
+                "key": "C",
+                "text": "110"
+            },
+            {
+                "key": "D",
+                "text": "143"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMTP commonly uses TCP port 25."
+    },
+    {
+        "id": 21,
+        "subject": "Computer Networks",
+        "topic": "SMTP",
+        "difficulty": "medium",
+        "question": "SMTP operates at which layer of the TCP/IP model?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Internet Layer"
+            },
+            {
+                "key": "B",
+                "text": "Transport Layer"
+            },
+            {
+                "key": "C",
+                "text": "Application Layer"
+            },
+            {
+                "key": "D",
+                "text": "Network Access Layer"
+            }
+        ],
+        "answer": "C",
+        "reason": "SMTP is an Application Layer protocol."
+    },
+    {
+        "id": 22,
+        "subject": "Computer Networks",
+        "topic": "SMTP",
+        "difficulty": "hard",
+        "question": "Which protocol typically works with SMTP to retrieve emails?",
+        "options": [
+            {
+                "key": "A",
+                "text": "ARP"
+            },
+            {
+                "key": "B",
+                "text": "ICMP"
+            },
+            {
+                "key": "C",
+                "text": "POP3 or IMAP"
+            },
+            {
+                "key": "D",
+                "text": "DNS Only"
+            }
+        ],
+        "answer": "C",
+        "reason": "SMTP sends emails, while POP3 and IMAP retrieve them."
+    },
+    {
+        "id": 23,
+        "subject": "Computer Networks",
+        "topic": "POP3",
+        "difficulty": "easy",
+        "question": "What does POP3 stand for?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Post Office Protocol Version 3"
+            },
+            {
+                "key": "B",
+                "text": "Packet Office Process 3"
+            },
+            {
+                "key": "C",
+                "text": "Post Operation Protocol 3"
+            },
+            {
+                "key": "D",
+                "text": "Private Office Protocol 3"
+            }
+        ],
+        "answer": "A",
+        "reason": "POP3 stands for Post Office Protocol Version 3."
+    },
+    {
+        "id": 24,
+        "subject": "Computer Networks",
+        "topic": "POP3",
+        "difficulty": "easy",
+        "question": "Which port is commonly used by POP3?",
+        "options": [
+            {
+                "key": "A",
+                "text": "25"
+            },
+            {
+                "key": "B",
+                "text": "53"
+            },
+            {
+                "key": "C",
+                "text": "110"
+            },
+            {
+                "key": "D",
+                "text": "143"
+            }
+        ],
+        "answer": "C",
+        "reason": "POP3 typically uses TCP port 110."
+    },
+    {
+        "id": 25,
+        "subject": "Computer Networks",
+        "topic": "POP3",
+        "difficulty": "medium",
+        "question": "POP3 is mainly designed to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Send emails"
+            },
+            {
+                "key": "B",
+                "text": "Download emails from a server"
+            },
+            {
+                "key": "C",
+                "text": "Resolve domain names"
+            },
+            {
+                "key": "D",
+                "text": "Share files"
+            }
+        ],
+        "answer": "B",
+        "reason": "POP3 retrieves emails from a mail server to a local device."
+    },
+    {
+        "id": 26,
+        "subject": "Computer Networks",
+        "topic": "POP3",
+        "difficulty": "hard",
+        "question": "A limitation of POP3 compared to IMAP is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Cannot access email remotely after download"
+            },
+            {
+                "key": "B",
+                "text": "Uses too many ports"
+            },
+            {
+                "key": "C",
+                "text": "Cannot connect to servers"
+            },
+            {
+                "key": "D",
+                "text": "Does not use TCP"
+            }
+        ],
+        "answer": "A",
+        "reason": "POP3 typically downloads messages locally, making synchronization across devices less effective."
+    },
+    {
+        "id": 27,
+        "subject": "Computer Networks",
+        "topic": "IMAP",
+        "difficulty": "easy",
+        "question": "What does IMAP stand for?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Internet Message Access Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Internet Mail Access Program"
+            },
+            {
+                "key": "C",
+                "text": "Integrated Mail Access Protocol"
+            },
+            {
+                "key": "D",
+                "text": "Internet Messaging Application Process"
+            }
+        ],
+        "answer": "A",
+        "reason": "IMAP stands for Internet Message Access Protocol."
+    },
+    {
+        "id": 28,
+        "subject": "Computer Networks",
+        "topic": "IMAP",
+        "difficulty": "easy",
+        "question": "Which port is commonly used by IMAP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "110"
+            },
+            {
+                "key": "B",
+                "text": "143"
+            },
+            {
+                "key": "C",
+                "text": "25"
+            },
+            {
+                "key": "D",
+                "text": "69"
+            }
+        ],
+        "answer": "B",
+        "reason": "IMAP typically uses TCP port 143."
+    },
+    {
+        "id": 29,
+        "subject": "Computer Networks",
+        "topic": "IMAP",
+        "difficulty": "medium",
+        "question": "Which feature distinguishes IMAP from POP3?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Server-side mailbox synchronization"
+            },
+            {
+                "key": "B",
+                "text": "Domain resolution"
+            },
+            {
+                "key": "C",
+                "text": "Routing support"
+            },
+            {
+                "key": "D",
+                "text": "File transfer"
+            }
+        ],
+        "answer": "A",
+        "reason": "IMAP keeps emails on the server and synchronizes across multiple devices."
+    },
+    {
+        "id": 30,
+        "subject": "Computer Networks",
+        "topic": "IMAP",
+        "difficulty": "hard",
+        "question": "Which protocol is most suitable for accessing the same mailbox from multiple devices?",
+        "options": [
+            {
+                "key": "A",
+                "text": "POP3"
+            },
+            {
+                "key": "B",
+                "text": "IMAP"
+            },
+            {
+                "key": "C",
+                "text": "SMTP"
+            },
+            {
+                "key": "D",
+                "text": "FTP"
+            }
+        ],
+        "answer": "B",
+        "reason": "IMAP maintains email state on the server, making multi-device access efficient."
+    },
+    {
+        "id": 31,
+        "subject": "Computer Networks",
+        "topic": "Telnet",
+        "difficulty": "easy",
+        "question": "What is the primary purpose of Telnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Remote Login"
+            },
+            {
+                "key": "B",
+                "text": "Email Retrieval"
+            },
+            {
+                "key": "C",
+                "text": "DNS Resolution"
+            },
+            {
+                "key": "D",
+                "text": "File Compression"
+            }
+        ],
+        "answer": "A",
+        "reason": "Telnet provides remote terminal access to another system."
+    },
+    {
+        "id": 32,
+        "subject": "Computer Networks",
+        "topic": "Telnet",
+        "difficulty": "easy",
+        "question": "Which port is used by Telnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "21"
+            },
+            {
+                "key": "B",
+                "text": "22"
+            },
+            {
+                "key": "C",
+                "text": "23"
+            },
+            {
+                "key": "D",
+                "text": "25"
+            }
+        ],
+        "answer": "C",
+        "reason": "Telnet typically uses TCP port 23."
+    },
+    {
+        "id": 33,
+        "subject": "Computer Networks",
+        "topic": "Telnet",
+        "difficulty": "medium",
+        "question": "Why is Telnet considered insecure?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Uses UDP"
+            },
+            {
+                "key": "B",
+                "text": "Sends data in plain text"
+            },
+            {
+                "key": "C",
+                "text": "Requires DNS"
+            },
+            {
+                "key": "D",
+                "text": "Uses compression"
+            }
+        ],
+        "answer": "B",
+        "reason": "Telnet transmits credentials and data in plain text, making interception possible."
+    },
+    {
+        "id": 34,
+        "subject": "Computer Networks",
+        "topic": "SSH",
+        "difficulty": "easy",
+        "question": "What does SSH stand for?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Secure Shell"
+            },
+            {
+                "key": "B",
+                "text": "System Secure Host"
+            },
+            {
+                "key": "C",
+                "text": "Secure Service Host"
+            },
+            {
+                "key": "D",
+                "text": "Shell Service Handler"
+            }
+        ],
+        "answer": "A",
+        "reason": "SSH stands for Secure Shell."
+    },
+    {
+        "id": 35,
+        "subject": "Computer Networks",
+        "topic": "SSH",
+        "difficulty": "easy",
+        "question": "Which port is used by SSH?",
+        "options": [
+            {
+                "key": "A",
+                "text": "21"
+            },
+            {
+                "key": "B",
+                "text": "22"
+            },
+            {
+                "key": "C",
+                "text": "23"
+            },
+            {
+                "key": "D",
+                "text": "80"
+            }
+        ],
+        "answer": "B",
+        "reason": "SSH uses TCP port 22."
+    },
+    {
+        "id": 36,
+        "subject": "Computer Networks",
+        "topic": "SSH",
+        "difficulty": "medium",
+        "question": "Which advantage does SSH have over Telnet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Lower bandwidth only"
+            },
+            {
+                "key": "B",
+                "text": "Encrypted communication"
+            },
+            {
+                "key": "C",
+                "text": "No authentication required"
+            },
+            {
+                "key": "D",
+                "text": "Uses UDP"
+            }
+        ],
+        "answer": "B",
+        "reason": "SSH encrypts all communications, providing confidentiality and security."
+    },
+    {
+        "id": 37,
+        "subject": "Computer Networks",
+        "topic": "SSH",
+        "difficulty": "hard",
+        "question": "Which protocol is commonly used for secure remote administration of Linux servers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Telnet"
+            },
+            {
+                "key": "B",
+                "text": "SSH"
+            },
+            {
+                "key": "C",
+                "text": "FTP"
+            },
+            {
+                "key": "D",
+                "text": "SMTP"
+            }
+        ],
+        "answer": "B",
+        "reason": "SSH provides secure encrypted remote administration."
+    },
+    {
+        "id": 38,
+        "subject": "Computer Networks",
+        "topic": "NFS",
+        "difficulty": "easy",
+        "question": "NFS stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network File System"
+            },
+            {
+                "key": "B",
+                "text": "Network Folder Service"
+            },
+            {
+                "key": "C",
+                "text": "Node File Sharing"
+            },
+            {
+                "key": "D",
+                "text": "Network File Sharing"
+            }
+        ],
+        "answer": "A",
+        "reason": "NFS stands for Network File System."
+    },
+    {
+        "id": 39,
+        "subject": "Computer Networks",
+        "topic": "NFS",
+        "difficulty": "medium",
+        "question": "NFS is primarily associated with which operating system family?",
+        "options": [
+            {
+                "key": "A",
+                "text": "UNIX/Linux"
+            },
+            {
+                "key": "B",
+                "text": "DOS"
+            },
+            {
+                "key": "C",
+                "text": "Embedded Only"
+            },
+            {
+                "key": "D",
+                "text": "Mainframe Only"
+            }
+        ],
+        "answer": "A",
+        "reason": "NFS is widely used in UNIX and Linux environments for network file sharing."
+    },
+    {
+        "id": 40,
+        "subject": "Computer Networks",
+        "topic": "SMB",
+        "difficulty": "easy",
+        "question": "SMB stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Server Message Block"
+            },
+            {
+                "key": "B",
+                "text": "Secure Message Block"
+            },
+            {
+                "key": "C",
+                "text": "System Message Base"
+            },
+            {
+                "key": "D",
+                "text": "Shared Memory Block"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMB stands for Server Message Block."
+    },
+    {
+        "id": 41,
+        "subject": "Computer Networks",
+        "topic": "SMB",
+        "difficulty": "medium",
+        "question": "SMB is commonly used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Web Browsing"
+            },
+            {
+                "key": "B",
+                "text": "Network File and Printer Sharing"
+            },
+            {
+                "key": "C",
+                "text": "Email Transfer"
+            },
+            {
+                "key": "D",
+                "text": "DNS Resolution"
+            }
+        ],
+        "answer": "B",
+        "reason": "SMB allows file and printer sharing across networks."
+    },
+    {
+        "id": 42,
+        "subject": "Computer Networks",
+        "topic": "SMB",
+        "difficulty": "hard",
+        "question": "Which operating system environment is most commonly associated with SMB?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Windows"
+            },
+            {
+                "key": "B",
+                "text": "UNIX Only"
+            },
+            {
+                "key": "C",
+                "text": "DOS Only"
+            },
+            {
+                "key": "D",
+                "text": "Android Only"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMB is the standard file sharing protocol used in Windows environments."
+    },
+    {
+        "id": 43,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "easy",
+        "question": "What does SNMP stand for?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Simple Network Management Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Secure Network Monitoring Protocol"
+            },
+            {
+                "key": "C",
+                "text": "System Network Management Process"
+            },
+            {
+                "key": "D",
+                "text": "Simple Network Mapping Protocol"
+            }
+        ],
+        "answer": "A",
+        "reason": "SNMP stands for Simple Network Management Protocol."
+    },
+    {
+        "id": 44,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "easy",
+        "question": "What is the primary purpose of SNMP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network Monitoring and Management"
+            },
+            {
+                "key": "B",
+                "text": "File Transfer"
+            },
+            {
+                "key": "C",
+                "text": "Web Browsing"
+            },
+            {
+                "key": "D",
+                "text": "Remote Login"
+            }
+        ],
+        "answer": "A",
+        "reason": "SNMP is used to monitor and manage network devices."
+    },
+    {
+        "id": 45,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "medium",
+        "question": "Which port is commonly used by SNMP agents?",
+        "options": [
+            {
+                "key": "A",
+                "text": "53"
+            },
+            {
+                "key": "B",
+                "text": "80"
+            },
+            {
+                "key": "C",
+                "text": "161"
+            },
+            {
+                "key": "D",
+                "text": "443"
+            }
+        ],
+        "answer": "C",
+        "reason": "SNMP agents typically listen on UDP port 161."
+    },
+    {
+        "id": 46,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "medium",
+        "question": "Which SNMP component stores management information about a device?",
+        "options": [
+            {
+                "key": "A",
+                "text": "MIB"
+            },
+            {
+                "key": "B",
+                "text": "DNS"
+            },
+            {
+                "key": "C",
+                "text": "SMTP"
+            },
+            {
+                "key": "D",
+                "text": "FTP"
+            }
+        ],
+        "answer": "A",
+        "reason": "The Management Information Base (MIB) stores manageable device information."
+    },
+    {
+        "id": 47,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "hard",
+        "question": "Which SNMP message is used by an agent to notify a manager about an event?",
+        "options": [
+            {
+                "key": "A",
+                "text": "GET"
+            },
+            {
+                "key": "B",
+                "text": "SET"
+            },
+            {
+                "key": "C",
+                "text": "TRAP"
+            },
+            {
+                "key": "D",
+                "text": "QUERY"
+            }
+        ],
+        "answer": "C",
+        "reason": "SNMP TRAP messages are sent asynchronously from agents to managers."
+    },
+    {
+        "id": 48,
+        "subject": "Computer Networks",
+        "topic": "Application Layer",
+        "difficulty": "hard",
+        "question": "A user accesses a secure website, uploads a file, and receives an email notification. Which combination of protocols is most likely involved?",
+        "options": [
+            {
+                "key": "A",
+                "text": "HTTPS, FTP, SMTP"
+            },
+            {
+                "key": "B",
+                "text": "ARP, ICMP, RIP"
+            },
+            {
+                "key": "C",
+                "text": "OSPF, BGP, SMTP"
+            },
+            {
+                "key": "D",
+                "text": "DNS, ARP, RIP"
+            }
+        ],
+        "answer": "A",
+        "reason": "HTTPS provides secure web access, FTP handles file transfers, and SMTP sends email notifications."
+    },
+    {
+        "id": 49,
+        "subject": "Computer Networks",
+        "topic": "Application Layer",
+        "difficulty": "hard",
+        "question": "Which protocol combination correctly represents email sending and retrieval?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SMTP and IMAP"
+            },
+            {
+                "key": "B",
+                "text": "FTP and HTTP"
+            },
+            {
+                "key": "C",
+                "text": "DNS and SSH"
+            },
+            {
+                "key": "D",
+                "text": "NFS and SMB"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMTP sends emails while IMAP retrieves and synchronizes them."
+    },
+    {
+        "id": 50,
+        "subject": "Computer Networks",
+        "topic": "Domain Name Server",
+        "difficulty": "hard",
+        "question": "A user enters `www.example.com` into a browser. Which application-layer service is contacted first to determine the corresponding IP address?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SMTP"
+            },
+            {
+                "key": "B",
+                "text": "FTP"
+            },
+            {
+                "key": "C",
+                "text": "DNS"
+            },
+            {
+                "key": "D",
+                "text": "SNMP"
+            }
+        ],
+        "answer": "C",
+        "reason": "DNS resolution occurs before establishing communication with the destination web server."
+    },
+    {
+        "id": 51,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "easy",
+        "question": "Which DNS server is considered the starting point for resolving domain names on the Internet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mail Server"
+            },
+            {
+                "key": "B",
+                "text": "Root DNS Server"
+            },
+            {
+                "key": "C",
+                "text": "Proxy Server"
+            },
+            {
+                "key": "D",
+                "text": "Application Server"
+            }
+        ],
+        "answer": "B",
+        "reason": "Root DNS servers are at the top of the DNS hierarchy and direct queries toward appropriate top-level domain servers."
+    },
+    {
+        "id": 52,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "medium",
+        "question": "Which DNS record specifies the authoritative name servers for a domain?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NS"
+            },
+            {
+                "key": "B",
+                "text": "MX"
+            },
+            {
+                "key": "C",
+                "text": "PTR"
+            },
+            {
+                "key": "D",
+                "text": "TXT"
+            }
+        ],
+        "answer": "A",
+        "reason": "NS (Name Server) records identify the authoritative DNS servers for a domain."
+    },
+    {
+        "id": 53,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "medium",
+        "question": "Which DNS record maps a hostname to an IPv6 address?",
+        "options": [
+            {
+                "key": "A",
+                "text": "A"
+            },
+            {
+                "key": "B",
+                "text": "AAAA"
+            },
+            {
+                "key": "C",
+                "text": "MX"
+            },
+            {
+                "key": "D",
+                "text": "PTR"
+            }
+        ],
+        "answer": "B",
+        "reason": "AAAA records are used to map hostnames to IPv6 addresses."
+    },
+    {
+        "id": 54,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "hard",
+        "question": "What is the purpose of a CNAME record?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mail Exchange"
+            },
+            {
+                "key": "B",
+                "text": "Alias one domain name to another"
+            },
+            {
+                "key": "C",
+                "text": "Reverse Lookup"
+            },
+            {
+                "key": "D",
+                "text": "Store Text Data"
+            }
+        ],
+        "answer": "B",
+        "reason": "A CNAME (Canonical Name) record creates an alias that points one hostname to another hostname."
+    },
+    {
+        "id": 55,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "hard",
+        "question": "What is DNS caching primarily intended to achieve?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increase routing efficiency"
+            },
+            {
+                "key": "B",
+                "text": "Reduce lookup time and network traffic"
+            },
+            {
+                "key": "C",
+                "text": "Encrypt DNS responses"
+            },
+            {
+                "key": "D",
+                "text": "Assign IP addresses"
+            }
+        ],
+        "answer": "B",
+        "reason": "DNS caching stores previously resolved records, reducing response times and lowering DNS query traffic."
+    },
+    {
+        "id": 56,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "easy",
+        "question": "HTTP operates primarily over which transport protocol?",
+        "options": [
+            {
+                "key": "A",
+                "text": "UDP"
+            },
+            {
+                "key": "B",
+                "text": "TCP"
+            },
+            {
+                "key": "C",
+                "text": "ICMP"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
+        ],
+        "answer": "B",
+        "reason": "HTTP traditionally uses TCP to ensure reliable delivery of web content."
+    },
+    {
+        "id": 57,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "medium",
+        "question": "Which HTTP method is typically used to submit form data to a server?",
+        "options": [
+            {
+                "key": "A",
+                "text": "GET"
+            },
+            {
+                "key": "B",
+                "text": "POST"
+            },
+            {
+                "key": "C",
+                "text": "HEAD"
+            },
+            {
+                "key": "D",
+                "text": "OPTIONS"
+            }
+        ],
+        "answer": "B",
+        "reason": "POST is commonly used to send data to a server for processing."
+    },
+    {
+        "id": 58,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "medium",
+        "question": "Which HTTP status code indicates a permanent redirect?",
+        "options": [
+            {
+                "key": "A",
+                "text": "200"
+            },
+            {
+                "key": "B",
+                "text": "301"
+            },
+            {
+                "key": "C",
+                "text": "404"
+            },
+            {
+                "key": "D",
+                "text": "503"
+            }
+        ],
+        "answer": "B",
+        "reason": "HTTP status code 301 indicates that a resource has been permanently moved."
+    },
+    {
+        "id": 59,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "hard",
+        "question": "Which HTTP method retrieves only header information without the message body?",
+        "options": [
+            {
+                "key": "A",
+                "text": "POST"
+            },
+            {
+                "key": "B",
+                "text": "PUT"
+            },
+            {
+                "key": "C",
+                "text": "HEAD"
+            },
+            {
+                "key": "D",
+                "text": "PATCH"
+            }
+        ],
+        "answer": "C",
+        "reason": "The HEAD method requests headers only and is useful for checking resource metadata."
+    },
+    {
+        "id": 60,
+        "subject": "Computer Networks",
+        "topic": "HTTP",
+        "difficulty": "hard",
+        "question": "Which HTTP status code generally indicates an internal server error?",
+        "options": [
+            {
+                "key": "A",
+                "text": "301"
+            },
+            {
+                "key": "B",
+                "text": "400"
+            },
+            {
+                "key": "C",
+                "text": "500"
+            },
+            {
+                "key": "D",
+                "text": "204"
+            }
+        ],
+        "answer": "C",
+        "reason": "HTTP 500 indicates an unexpected condition on the server side."
+    },
+    {
+        "id": 61,
+        "subject": "Computer Networks",
+        "topic": "HTTPS",
+        "difficulty": "easy",
+        "question": "The 'S' in HTTPS stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Simple"
+            },
+            {
+                "key": "B",
+                "text": "Secure"
+            },
+            {
+                "key": "C",
+                "text": "System"
+            },
+            {
+                "key": "D",
+                "text": "Shared"
+            }
+        ],
+        "answer": "B",
+        "reason": "HTTPS stands for HyperText Transfer Protocol Secure."
+    },
+    {
+        "id": 62,
+        "subject": "Computer Networks",
+        "topic": "HTTPS",
+        "difficulty": "medium",
+        "question": "Which security objective is primarily provided by HTTPS encryption?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Routing"
+            },
+            {
+                "key": "B",
+                "text": "Confidentiality"
+            },
+            {
+                "key": "C",
+                "text": "Address Translation"
+            },
+            {
+                "key": "D",
+                "text": "Broadcasting"
+            }
+        ],
+        "answer": "B",
+        "reason": "Encryption ensures that transmitted data remains confidential and unreadable to attackers."
+    },
+    {
+        "id": 63,
+        "subject": "Computer Networks",
+        "topic": "HTTPS",
+        "difficulty": "hard",
+        "question": "A browser warning about an invalid certificate usually indicates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "DNS Failure"
+            },
+            {
+                "key": "B",
+                "text": "Potential identity verification issue"
+            },
+            {
+                "key": "C",
+                "text": "SMTP Error"
+            },
+            {
+                "key": "D",
+                "text": "FTP Misconfiguration"
+            }
+        ],
+        "answer": "B",
+        "reason": "Certificate warnings indicate that the server's identity cannot be fully trusted or verified."
+    },
+    {
+        "id": 64,
+        "subject": "Computer Networks",
+        "topic": "FTP",
+        "difficulty": "easy",
+        "question": "FTP belongs to which OSI layer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Application Layer"
+            },
+            {
+                "key": "B",
+                "text": "Transport Layer"
+            },
+            {
+                "key": "C",
+                "text": "Network Layer"
+            },
+            {
+                "key": "D",
+                "text": "Physical Layer"
+            }
+        ],
+        "answer": "A",
+        "reason": "FTP is an Application Layer protocol used for file transfer."
+    },
+    {
+        "id": 65,
+        "subject": "Computer Networks",
+        "topic": "FTP",
+        "difficulty": "medium",
+        "question": "Which FTP command is typically used to download a file from a server?",
+        "options": [
+            {
+                "key": "A",
+                "text": "PUT"
+            },
+            {
+                "key": "B",
+                "text": "GET"
+            },
+            {
+                "key": "C",
+                "text": "MAIL"
+            },
+            {
+                "key": "D",
+                "text": "PING"
+            }
+        ],
+        "answer": "B",
+        "reason": "GET is commonly used to retrieve files from an FTP server."
+    },
+    {
+        "id": 66,
+        "subject": "Computer Networks",
+        "topic": "FTP",
+        "difficulty": "hard",
+        "question": "What is a major security concern with traditional FTP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Uses IPv6 only"
+            },
+            {
+                "key": "B",
+                "text": "Transmits credentials in plain text"
+            },
+            {
+                "key": "C",
+                "text": "Uses too many DNS records"
+            },
+            {
+                "key": "D",
+                "text": "Requires SNMP"
+            }
+        ],
+        "answer": "B",
+        "reason": "Traditional FTP does not encrypt usernames, passwords, or transferred data."
+    },
+    {
+        "id": 67,
+        "subject": "Computer Networks",
+        "topic": "SMTP",
+        "difficulty": "easy",
+        "question": "SMTP primarily supports which direction of email transfer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Outgoing Mail"
+            },
+            {
+                "key": "B",
+                "text": "Incoming Mail Only"
+            },
+            {
+                "key": "C",
+                "text": "DNS Queries"
+            },
+            {
+                "key": "D",
+                "text": "File Sharing"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMTP is designed for sending outgoing emails and relaying mail between servers."
+    },
+    {
+        "id": 68,
+        "subject": "Computer Networks",
+        "topic": "SMTP",
+        "difficulty": "medium",
+        "question": "Before delivering an email to another domain, SMTP servers often query which service?",
+        "options": [
+            {
+                "key": "A",
+                "text": "ARP"
+            },
+            {
+                "key": "B",
+                "text": "DNS MX Records"
+            },
+            {
+                "key": "C",
+                "text": "ICMP"
+            },
+            {
+                "key": "D",
+                "text": "SNMP"
+            }
+        ],
+        "answer": "B",
+        "reason": "SMTP servers use DNS MX records to locate the destination mail server."
+    },
+    {
+        "id": 69,
+        "subject": "Computer Networks",
+        "topic": "SMTP",
+        "difficulty": "hard",
+        "question": "Which protocol is responsible for transferring email between mail servers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SMTP"
+            },
+            {
+                "key": "B",
+                "text": "POP3"
+            },
+            {
+                "key": "C",
+                "text": "IMAP"
+            },
+            {
+                "key": "D",
+                "text": "SNMP"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMTP handles mail submission and server-to-server email transfer."
+    },
+    {
+        "id": 70,
+        "subject": "Computer Networks",
+        "topic": "POP3",
+        "difficulty": "easy",
+        "question": "POP3 typically stores downloaded emails:",
+        "options": [
+            {
+                "key": "A",
+                "text": "On the local device"
+            },
+            {
+                "key": "B",
+                "text": "Only in DNS"
+            },
+            {
+                "key": "C",
+                "text": "In routing tables"
+            },
+            {
+                "key": "D",
+                "text": "Inside SNMP agents"
+            }
+        ],
+        "answer": "A",
+        "reason": "POP3 is designed to download email messages to the client machine."
+    },
+    {
+        "id": 71,
+        "subject": "Computer Networks",
+        "topic": "POP3",
+        "difficulty": "medium",
+        "question": "Which scenario is most suitable for POP3?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Single-device email access"
+            },
+            {
+                "key": "B",
+                "text": "Large-scale routing"
+            },
+            {
+                "key": "C",
+                "text": "Remote file sharing"
+            },
+            {
+                "key": "D",
+                "text": "Network monitoring"
+            }
+        ],
+        "answer": "A",
+        "reason": "POP3 is well-suited when email is primarily accessed from one device."
+    },
+    {
+        "id": 72,
+        "subject": "Computer Networks",
+        "topic": "IMAP",
+        "difficulty": "easy",
+        "question": "IMAP allows users to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Manage emails directly on the server"
+            },
+            {
+                "key": "B",
+                "text": "Assign IP addresses"
+            },
+            {
+                "key": "C",
+                "text": "Perform routing"
+            },
+            {
+                "key": "D",
+                "text": "Transfer web pages"
+            }
+        ],
+        "answer": "A",
+        "reason": "IMAP enables users to access and manage emails while keeping them on the server."
+    },
+    {
+        "id": 73,
+        "subject": "Computer Networks",
+        "topic": "IMAP",
+        "difficulty": "medium",
+        "question": "Which email protocol is generally preferred for smartphones and multiple devices?",
+        "options": [
+            {
+                "key": "A",
+                "text": "POP3"
+            },
+            {
+                "key": "B",
+                "text": "IMAP"
+            },
+            {
+                "key": "C",
+                "text": "SMTP Only"
+            },
+            {
+                "key": "D",
+                "text": "FTP"
+            }
+        ],
+        "answer": "B",
+        "reason": "IMAP synchronizes email across multiple devices while maintaining server-side storage."
+    },
+    {
+        "id": 74,
+        "subject": "Computer Networks",
+        "topic": "IMAP",
+        "difficulty": "hard",
+        "question": "Which IMAP feature improves collaboration across devices?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Folder Synchronization"
+            },
+            {
+                "key": "B",
+                "text": "Subnetting"
+            },
+            {
+                "key": "C",
+                "text": "Routing Metrics"
+            },
+            {
+                "key": "D",
+                "text": "Packet Fragmentation"
+            }
+        ],
+        "answer": "A",
+        "reason": "IMAP synchronizes folders, message status, and mailbox contents across devices."
+    },
+    {
+        "id": 75,
+        "subject": "Computer Networks",
+        "topic": "Telnet",
+        "difficulty": "easy",
+        "question": "Telnet is primarily used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Remote Command-Line Access"
+            },
+            {
+                "key": "B",
+                "text": "Email Transfer"
+            },
+            {
+                "key": "C",
+                "text": "File Compression"
+            },
+            {
+                "key": "D",
+                "text": "DNS Caching"
+            }
+        ],
+        "answer": "A",
+        "reason": "Telnet provides remote command-line access to networked systems."
+    },
+    {
+        "id": 76,
+        "subject": "Computer Networks",
+        "topic": "Telnet",
+        "difficulty": "hard",
+        "question": "Why has SSH largely replaced Telnet in modern networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SSH is encrypted"
+            },
+            {
+                "key": "B",
+                "text": "Telnet uses IPv6 only"
+            },
+            {
+                "key": "C",
+                "text": "Telnet cannot connect remotely"
+            },
+            {
+                "key": "D",
+                "text": "SSH requires less bandwidth"
+            }
+        ],
+        "answer": "A",
+        "reason": "SSH encrypts communication, protecting credentials and session data from interception."
+    },
+    {
+        "id": 77,
+        "subject": "Computer Networks",
+        "topic": "SSH",
+        "difficulty": "easy",
+        "question": "SSH provides which of the following services?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Secure Remote Login"
+            },
+            {
+                "key": "B",
+                "text": "DNS Resolution"
+            },
+            {
+                "key": "C",
+                "text": "Email Routing"
+            },
+            {
+                "key": "D",
+                "text": "Packet Switching"
+            }
+        ],
+        "answer": "A",
+        "reason": "SSH is designed for secure remote administration and terminal access."
+    },
+    {
+        "id": 78,
+        "subject": "Computer Networks",
+        "topic": "SSH",
+        "difficulty": "medium",
+        "question": "Which cryptographic property is a key benefit of SSH?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Confidentiality"
+            },
+            {
+                "key": "B",
+                "text": "Subnetting"
+            },
+            {
+                "key": "C",
+                "text": "Broadcast Routing"
+            },
+            {
+                "key": "D",
+                "text": "ARP Resolution"
+            }
+        ],
+        "answer": "A",
+        "reason": "SSH encrypts communication, providing confidentiality against eavesdropping."
+    },
+    {
+        "id": 79,
+        "subject": "Computer Networks",
+        "topic": "SSH",
+        "difficulty": "hard",
+        "question": "Which protocol is commonly used for secure command execution on a remote Linux server?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FTP"
+            },
+            {
+                "key": "B",
+                "text": "SMTP"
+            },
+            {
+                "key": "C",
+                "text": "SSH"
+            },
+            {
+                "key": "D",
+                "text": "POP3"
+            }
+        ],
+        "answer": "C",
+        "reason": "SSH enables secure command execution and administration of remote systems."
+    },
+    {
+        "id": 80,
+        "subject": "Computer Networks",
+        "topic": "NFS",
+        "difficulty": "easy",
+        "question": "NFS allows users to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Access remote files as if they were local"
+            },
+            {
+                "key": "B",
+                "text": "Resolve domain names"
+            },
+            {
+                "key": "C",
+                "text": "Manage routers"
+            },
+            {
+                "key": "D",
+                "text": "Send emails"
+            }
+        ],
+        "answer": "A",
+        "reason": "NFS provides transparent access to files stored on remote servers."
+    },
+    {
+        "id": 81,
+        "subject": "Computer Networks",
+        "topic": "NFS",
+        "difficulty": "hard",
+        "question": "Which environment most commonly uses NFS for centralized file storage?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Linux/UNIX Networks"
+            },
+            {
+                "key": "B",
+                "text": "SMTP Servers"
+            },
+            {
+                "key": "C",
+                "text": "DNS Root Servers"
+            },
+            {
+                "key": "D",
+                "text": "ARP Gateways"
+            }
+        ],
+        "answer": "A",
+        "reason": "NFS is heavily used in UNIX and Linux environments for shared storage."
+    },
+    {
+        "id": 82,
+        "subject": "Computer Networks",
+        "topic": "SMB",
+        "difficulty": "easy",
+        "question": "SMB is widely used for sharing:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Files and Printers"
+            },
+            {
+                "key": "B",
+                "text": "Routes"
+            },
+            {
+                "key": "C",
+                "text": "DNS Records"
+            },
+            {
+                "key": "D",
+                "text": "IP Addresses"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMB supports network-based file and printer sharing."
+    },
+    {
+        "id": 83,
+        "subject": "Computer Networks",
+        "topic": "SMB",
+        "difficulty": "medium",
+        "question": "Which Windows service commonly relies on SMB?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Shared Network Folders"
+            },
+            {
+                "key": "B",
+                "text": "DNS Root Lookup"
+            },
+            {
+                "key": "C",
+                "text": "SMTP Relay"
+            },
+            {
+                "key": "D",
+                "text": "ICMP Echo"
+            }
+        ],
+        "answer": "A",
+        "reason": "Windows shared folders typically use SMB for file access and management."
+    },
+    {
+        "id": 84,
+        "subject": "Computer Networks",
+        "topic": "SMB",
+        "difficulty": "hard",
+        "question": "SMB primarily operates as which type of service?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network Resource Sharing Service"
+            },
+            {
+                "key": "B",
+                "text": "Routing Protocol"
+            },
+            {
+                "key": "C",
+                "text": "Email Protocol"
+            },
+            {
+                "key": "D",
+                "text": "Congestion Control Mechanism"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMB provides access to shared files, folders, and printers across networks."
+    },
+    {
+        "id": 85,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "easy",
+        "question": "SNMP is commonly used by network administrators to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Monitor Devices"
+            },
+            {
+                "key": "B",
+                "text": "Transfer Files"
+            },
+            {
+                "key": "C",
+                "text": "Resolve DNS Names"
+            },
+            {
+                "key": "D",
+                "text": "Host Web Pages"
+            }
+        ],
+        "answer": "A",
+        "reason": "SNMP allows administrators to monitor device health and performance."
+    },
+    {
+        "id": 86,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "medium",
+        "question": "Which SNMP operation retrieves information from a managed device?",
+        "options": [
+            {
+                "key": "A",
+                "text": "GET"
+            },
+            {
+                "key": "B",
+                "text": "TRAP"
+            },
+            {
+                "key": "C",
+                "text": "ACK"
+            },
+            {
+                "key": "D",
+                "text": "POST"
+            }
+        ],
+        "answer": "A",
+        "reason": "SNMP GET requests are used by managers to retrieve information from agents."
+    },
+    {
+        "id": 87,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "medium",
+        "question": "Which SNMP component runs on managed devices?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Agent"
+            },
+            {
+                "key": "B",
+                "text": "Manager Only"
+            },
+            {
+                "key": "C",
+                "text": "Root Server"
+            },
+            {
+                "key": "D",
+                "text": "Proxy Cache"
+            }
+        ],
+        "answer": "A",
+        "reason": "SNMP agents run on devices and provide management information to SNMP managers."
+    },
+    {
+        "id": 88,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "hard",
+        "question": "What is the primary purpose of an SNMP TRAP message?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Request DNS Records"
+            },
+            {
+                "key": "B",
+                "text": "Notify Managers About Events"
+            },
+            {
+                "key": "C",
+                "text": "Transfer Files"
+            },
+            {
+                "key": "D",
+                "text": "Authenticate Users"
+            }
+        ],
+        "answer": "B",
+        "reason": "TRAP messages are unsolicited notifications sent by agents when important events occur."
+    },
+    {
+        "id": 89,
+        "subject": "Computer Networks",
+        "topic": "Application Layer",
+        "difficulty": "medium",
+        "question": "A user types a URL into a browser. Which protocol is generally used first to determine the server's IP address?",
+        "options": [
+            {
+                "key": "A",
+                "text": "HTTP"
+            },
+            {
+                "key": "B",
+                "text": "FTP"
+            },
+            {
+                "key": "C",
+                "text": "DNS"
+            },
+            {
+                "key": "D",
+                "text": "SMTP"
+            }
+        ],
+        "answer": "C",
+        "reason": "DNS resolution must occur before communication with the destination server."
+    },
+    {
+        "id": 90,
+        "subject": "Computer Networks",
+        "topic": "Application Layer",
+        "difficulty": "medium",
+        "question": "Which combination correctly matches protocol and function?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SMTP - Send Email"
+            },
+            {
+                "key": "B",
+                "text": "FTP - Resolve Domain Names"
+            },
+            {
+                "key": "C",
+                "text": "DNS - Remote Login"
+            },
+            {
+                "key": "D",
+                "text": "SSH - File Sharing Only"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMTP is specifically designed for sending and relaying email."
+    },
+    {
+        "id": 91,
+        "subject": "Computer Networks",
+        "topic": "Application Layer",
+        "difficulty": "hard",
+        "question": "A company wants encrypted remote administration of servers. Which protocol should be selected?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Telnet"
+            },
+            {
+                "key": "B",
+                "text": "FTP"
+            },
+            {
+                "key": "C",
+                "text": "SSH"
+            },
+            {
+                "key": "D",
+                "text": "POP3"
+            }
+        ],
+        "answer": "C",
+        "reason": "SSH provides encrypted authentication and secure remote administration."
+    },
+    {
+        "id": 92,
+        "subject": "Computer Networks",
+        "topic": "Application Layer",
+        "difficulty": "hard",
+        "question": "Which protocol combination is most likely used when a user securely logs into a server and accesses shared files on a Windows network?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SSH and SMB"
+            },
+            {
+                "key": "B",
+                "text": "SMTP and DNS"
+            },
+            {
+                "key": "C",
+                "text": "POP3 and FTP"
+            },
+            {
+                "key": "D",
+                "text": "ICMP and ARP"
+            }
+        ],
+        "answer": "A",
+        "reason": "SSH provides secure login, while SMB provides access to shared Windows network resources."
+    },
+    {
+        "id": 93,
+        "subject": "Computer Networks",
+        "topic": "DNS",
+        "difficulty": "hard",
+        "question": "Which DNS component is responsible for holding the final authoritative answer for a domain?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Root Server"
+            },
+            {
+                "key": "B",
+                "text": "Recursive Resolver"
+            },
+            {
+                "key": "C",
+                "text": "Authoritative Name Server"
+            },
+            {
+                "key": "D",
+                "text": "Proxy Server"
+            }
+        ],
+        "answer": "C",
+        "reason": "Authoritative name servers contain the official DNS records for their domains."
+    },
+    {
+        "id": 94,
+        "subject": "Computer Networks",
+        "topic": "HTTPS",
+        "difficulty": "medium",
+        "question": "Which browser indicator commonly suggests that HTTPS is being used successfully?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Padlock Icon"
+            },
+            {
+                "key": "B",
+                "text": "DNS Icon"
+            },
+            {
+                "key": "C",
+                "text": "Router Symbol"
+            },
+            {
+                "key": "D",
+                "text": "SMTP Logo"
+            }
+        ],
+        "answer": "A",
+        "reason": "Modern browsers typically display a padlock icon for valid HTTPS connections."
+    },
+    {
+        "id": 95,
+        "subject": "Computer Networks",
+        "topic": "SMTP",
+        "difficulty": "hard",
+        "question": "Which protocol should NOT be used for retrieving email messages?",
+        "options": [
+            {
+                "key": "A",
+                "text": "POP3"
+            },
+            {
+                "key": "B",
+                "text": "IMAP"
+            },
+            {
+                "key": "C",
+                "text": "SMTP"
+            },
+            {
+                "key": "D",
+                "text": "IMAPS"
+            }
+        ],
+        "answer": "C",
+        "reason": "SMTP is designed for sending and relaying email, not retrieving it."
+    },
+    {
+        "id": 96,
+        "subject": "Computer Networks",
+        "topic": "SNMP",
+        "difficulty": "hard",
+        "question": "A network administrator wants to receive immediate notifications when a router interface goes down. Which SNMP feature is most appropriate?",
+        "options": [
+            {
+                "key": "A",
+                "text": "GET Request"
+            },
+            {
+                "key": "B",
+                "text": "SET Request"
+            },
+            {
+                "key": "C",
+                "text": "TRAP Message"
+            },
+            {
+                "key": "D",
+                "text": "DNS Query"
+            }
+        ],
+        "answer": "C",
+        "reason": "SNMP TRAP messages provide immediate event-driven notifications from managed devices."
+    },
+    {
+        "id": 97,
+        "subject": "Computer Networks",
+        "topic": "File Sharing",
+        "difficulty": "medium",
+        "question": "Which protocol is most closely associated with Linux-based network file sharing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NFS"
+            },
+            {
+                "key": "B",
+                "text": "SMTP"
+            },
+            {
+                "key": "C",
+                "text": "POP3"
+            },
+            {
+                "key": "D",
+                "text": "SNMP"
+            }
+        ],
+        "answer": "A",
+        "reason": "NFS is widely used for file sharing in UNIX and Linux environments."
+    },
+    {
+        "id": 98,
+        "subject": "Computer Networks",
+        "topic": "Remote Login",
+        "difficulty": "medium",
+        "question": "Which protocol should be avoided on untrusted networks because it sends credentials in plain text?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SSH"
+            },
+            {
+                "key": "B",
+                "text": "HTTPS"
+            },
+            {
+                "key": "C",
+                "text": "Telnet"
+            },
+            {
+                "key": "D",
+                "text": "IMAPS"
+            }
+        ],
+        "answer": "C",
+        "reason": "Telnet transmits usernames and passwords without encryption."
+    },
+    {
+        "id": 99,
+        "subject": "Computer Networks",
+        "topic": "Application Layer",
+        "difficulty": "hard",
+        "question": "A user accesses `https://mail.example.com`, reads emails from multiple devices, and securely administers a server. Which protocol set best matches these activities?",
+        "options": [
+            {
+                "key": "A",
+                "text": "HTTPS, IMAP, SSH"
+            },
+            {
+                "key": "B",
+                "text": "FTP, POP3, Telnet"
+            },
+            {
+                "key": "C",
+                "text": "DNS, ARP, ICMP"
+            },
+            {
+                "key": "D",
+                "text": "RIP, OSPF, BGP"
+            }
+        ],
+        "answer": "A",
+        "reason": "HTTPS secures web access, IMAP synchronizes email across devices, and SSH provides secure administration."
+    },
+    {
+        "id": 100,
+        "subject": "Computer Networks",
+        "topic": "Application Layer",
+        "difficulty": "hard",
+        "question": "Which statement correctly summarizes the relationship among DNS, HTTP/HTTPS, and SMTP?",
+        "options": [
+            {
+                "key": "A",
+                "text": "DNS resolves names, HTTP/HTTPS delivers web content, SMTP transfers email"
+            },
+            {
+                "key": "B",
+                "text": "DNS transfers files, HTTP routes packets, SMTP assigns IP addresses"
+            },
+            {
+                "key": "C",
+                "text": "HTTP resolves names, DNS sends emails, SMTP provides routing"
+            },
+            {
+                "key": "D",
+                "text": "All three protocols perform the same function"
+            }
+        ],
+        "answer": "A",
+        "reason": "DNS resolves domain names, HTTP/HTTPS handles web communication, and SMTP is responsible for email transmission."
+    }
+]

@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "difficulty": "easy",
+        "question": "What is the primary responsibility of the Data Link Layer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Logical addressing"
+            },
+            {
+                "key": "B",
+                "text": "Reliable node-to-node delivery"
+            },
+            {
+                "key": "C",
+                "text": "End-to-end routing"
+            },
+            {
+                "key": "D",
+                "text": "Application services"
+            }
+        ],
+        "answer": "B",
+        "reason": "The Data Link Layer ensures reliable communication between directly connected nodes through framing, error detection, and flow control."
+    },
+    {
+        "id": 2,
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer Issues",
+        "difficulty": "easy",
+        "question": "Which of the following is NOT a Data Link Layer function?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Framing"
+            },
+            {
+                "key": "B",
+                "text": "Flow Control"
+            },
+            {
+                "key": "C",
+                "text": "Routing"
+            },
+            {
+                "key": "D",
+                "text": "Error Detection"
+            }
+        ],
+        "answer": "C",
+        "reason": "Routing is a Network Layer function, whereas framing, flow control, and error detection are Data Link Layer responsibilities."
+    },
+    {
+        "id": 3,
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer Issues",
+        "difficulty": "medium",
+        "question": "What is framing in the Data Link Layer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Dividing packets into frames"
+            },
+            {
+                "key": "B",
+                "text": "Converting frames into signals"
+            },
+            {
+                "key": "C",
+                "text": "Assigning IP addresses"
+            },
+            {
+                "key": "D",
+                "text": "Encrypting data"
+            }
+        ],
+        "answer": "A",
+        "reason": "Framing encapsulates network layer packets into frames for transmission over the physical medium."
+    },
+    {
+        "id": 4,
+        "subject": "Computer Networks",
+        "topic": "Flow Control",
+        "difficulty": "easy",
+        "question": "What is the purpose of flow control?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Prevent the sender from overwhelming the receiver"
+            },
+            {
+                "key": "B",
+                "text": "Assign MAC addresses"
+            },
+            {
+                "key": "C",
+                "text": "Encrypt frames"
+            },
+            {
+                "key": "D",
+                "text": "Route packets"
+            }
+        ],
+        "answer": "A",
+        "reason": "Flow control regulates the transmission rate so the receiver can process incoming data efficiently."
+    },
+    {
+        "id": 5,
+        "subject": "Computer Networks",
+        "topic": "Stop and Wait Protocol",
+        "difficulty": "easy",
+        "question": "In Stop-and-Wait protocol, the sender transmits:",
+        "options": [
+            {
+                "key": "A",
+                "text": "All frames at once"
+            },
+            {
+                "key": "B",
+                "text": "One frame and waits for acknowledgment"
+            },
+            {
+                "key": "C",
+                "text": "Only error frames"
+            },
+            {
+                "key": "D",
+                "text": "Frames without acknowledgment"
+            }
+        ],
+        "answer": "B",
+        "reason": "The sender sends one frame and waits for an acknowledgment before sending the next frame."
+    },
+    {
+        "id": 6,
+        "subject": "Computer Networks",
+        "topic": "Stop and Wait Protocol",
+        "difficulty": "medium",
+        "question": "What is the major disadvantage of Stop-and-Wait protocol?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Complex implementation"
+            },
+            {
+                "key": "B",
+                "text": "Poor channel utilization"
+            },
+            {
+                "key": "C",
+                "text": "No acknowledgments"
+            },
+            {
+                "key": "D",
+                "text": "No error detection"
+            }
+        ],
+        "answer": "B",
+        "reason": "The sender remains idle while waiting for acknowledgments, reducing channel efficiency."
+    },
+    {
+        "id": 7,
+        "subject": "Computer Networks",
+        "topic": "Sliding Window Flow Control",
+        "difficulty": "medium",
+        "question": "The Sliding Window protocol improves efficiency by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Sending multiple frames before acknowledgment"
+            },
+            {
+                "key": "B",
+                "text": "Removing acknowledgments"
+            },
+            {
+                "key": "C",
+                "text": "Using only one-bit sequence numbers"
+            },
+            {
+                "key": "D",
+                "text": "Disabling error control"
+            }
+        ],
+        "answer": "A",
+        "reason": "Multiple outstanding frames can be transmitted without waiting for individual acknowledgments."
+    },
+    {
+        "id": 8,
+        "subject": "Computer Networks",
+        "topic": "Sliding Window Flow Control",
+        "difficulty": "hard",
+        "question": "The sender window size determines:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Maximum number of outstanding unacknowledged frames"
+            },
+            {
+                "key": "B",
+                "text": "Frame size in bytes"
+            },
+            {
+                "key": "C",
+                "text": "Transmission speed"
+            },
+            {
+                "key": "D",
+                "text": "Number of receivers"
+            }
+        ],
+        "answer": "A",
+        "reason": "The sender window controls how many frames may be transmitted before acknowledgments are received."
+    },
+    {
+        "id": 9,
+        "subject": "Computer Networks",
+        "topic": "Parity Check",
+        "difficulty": "easy",
+        "question": "Parity checking is used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Error Detection"
+            },
+            {
+                "key": "B",
+                "text": "Routing"
+            },
+            {
+                "key": "C",
+                "text": "Compression"
+            },
+            {
+                "key": "D",
+                "text": "Multiplexing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Parity bits help detect single-bit transmission errors."
+    },
+    {
+        "id": 10,
+        "subject": "Computer Networks",
+        "topic": "Parity Check",
+        "difficulty": "medium",
+        "question": "Even parity requires the total number of 1s to be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Odd"
+            },
+            {
+                "key": "B",
+                "text": "Even"
+            },
+            {
+                "key": "C",
+                "text": "Prime"
+            },
+            {
+                "key": "D",
+                "text": "Zero"
+            }
+        ],
+        "answer": "B",
+        "reason": "Even parity ensures the total count of binary 1s, including the parity bit, is even."
+    },
+    {
+        "id": 11,
+        "subject": "Computer Networks",
+        "topic": "Parity Check",
+        "difficulty": "hard",
+        "question": "A limitation of single parity checking is that it cannot reliably detect:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Single-bit errors"
+            },
+            {
+                "key": "B",
+                "text": "Odd-numbered bit errors"
+            },
+            {
+                "key": "C",
+                "text": "Even-numbered bit errors"
+            },
+            {
+                "key": "D",
+                "text": "Transmission delays"
+            }
+        ],
+        "answer": "C",
+        "reason": "An even number of bit errors may leave parity unchanged and remain undetected."
+    },
+    {
+        "id": 12,
+        "subject": "Computer Networks",
+        "topic": "CRC",
+        "difficulty": "easy",
+        "question": "CRC stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Cyclic Redundancy Check"
+            },
+            {
+                "key": "B",
+                "text": "Central Routing Code"
+            },
+            {
+                "key": "C",
+                "text": "Circular Routing Check"
+            },
+            {
+                "key": "D",
+                "text": "Critical Redundant Channel"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRC is a widely used error-detection technique known as Cyclic Redundancy Check."
+    },
+    {
+        "id": 13,
+        "subject": "Computer Networks",
+        "topic": "CRC",
+        "difficulty": "medium",
+        "question": "CRC is based on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Binary division"
+            },
+            {
+                "key": "B",
+                "text": "Decimal arithmetic"
+            },
+            {
+                "key": "C",
+                "text": "Matrix multiplication"
+            },
+            {
+                "key": "D",
+                "text": "Encryption algorithms"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRC uses modulo-2 binary division to generate the check value."
+    },
+    {
+        "id": 14,
+        "subject": "Computer Networks",
+        "topic": "CRC",
+        "difficulty": "hard",
+        "question": "The value appended to data in CRC is called:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Checksum"
+            },
+            {
+                "key": "B",
+                "text": "Remainder"
+            },
+            {
+                "key": "C",
+                "text": "Parity Byte"
+            },
+            {
+                "key": "D",
+                "text": "Frame Flag"
+            }
+        ],
+        "answer": "B",
+        "reason": "The remainder produced during CRC division is appended to the data before transmission."
+    },
+    {
+        "id": 15,
+        "subject": "Computer Networks",
+        "topic": "Checksum",
+        "difficulty": "easy",
+        "question": "A checksum is primarily used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Detect transmission errors"
+            },
+            {
+                "key": "B",
+                "text": "Increase bandwidth"
+            },
+            {
+                "key": "C",
+                "text": "Assign addresses"
+            },
+            {
+                "key": "D",
+                "text": "Route packets"
+            }
+        ],
+        "answer": "A",
+        "reason": "Checksums verify data integrity by detecting corruption during transmission."
+    },
+    {
+        "id": 16,
+        "subject": "Computer Networks",
+        "topic": "Checksum",
+        "difficulty": "medium",
+        "question": "A checksum is generally calculated using:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Arithmetic addition of data blocks"
+            },
+            {
+                "key": "B",
+                "text": "Optical transmission"
+            },
+            {
+                "key": "C",
+                "text": "Frequency division"
+            },
+            {
+                "key": "D",
+                "text": "Frame sequencing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Checksum algorithms typically add data units together and transmit the result."
+    },
+    {
+        "id": 17,
+        "subject": "Computer Networks",
+        "topic": "Hamming Code",
+        "difficulty": "easy",
+        "question": "Hamming Code is primarily used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Error Correction"
+            },
+            {
+                "key": "B",
+                "text": "Compression"
+            },
+            {
+                "key": "C",
+                "text": "Routing"
+            },
+            {
+                "key": "D",
+                "text": "Encryption"
+            }
+        ],
+        "answer": "A",
+        "reason": "Hamming Code can detect and correct certain transmission errors."
+    },
+    {
+        "id": 18,
+        "subject": "Computer Networks",
+        "topic": "Hamming Code",
+        "difficulty": "medium",
+        "question": "A standard Hamming Code can correct:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Single-bit errors"
+            },
+            {
+                "key": "B",
+                "text": "All multi-bit errors"
+            },
+            {
+                "key": "C",
+                "text": "No errors"
+            },
+            {
+                "key": "D",
+                "text": "Only burst errors"
+            }
+        ],
+        "answer": "A",
+        "reason": "Hamming Code is designed to locate and correct a single erroneous bit."
+    },
+    {
+        "id": 19,
+        "subject": "Computer Networks",
+        "topic": "Hamming Code",
+        "difficulty": "hard",
+        "question": "Hamming Code determines the error position using:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Syndrome bits"
+            },
+            {
+                "key": "B",
+                "text": "MAC addresses"
+            },
+            {
+                "key": "C",
+                "text": "Frame flags"
+            },
+            {
+                "key": "D",
+                "text": "Window sizes"
+            }
+        ],
+        "answer": "A",
+        "reason": "The syndrome value generated by parity checks identifies the erroneous bit location."
+    },
+    {
+        "id": 20,
+        "subject": "Computer Networks",
+        "topic": "Stop and Wait ARQ",
+        "difficulty": "easy",
+        "question": "ARQ stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Automatic Repeat reQuest"
+            },
+            {
+                "key": "B",
+                "text": "Automatic Routing Queue"
+            },
+            {
+                "key": "C",
+                "text": "Advanced Relay Query"
+            },
+            {
+                "key": "D",
+                "text": "Alternate Repeat Queue"
+            }
+        ],
+        "answer": "A",
+        "reason": "ARQ protocols use acknowledgments and retransmissions to ensure reliable delivery."
+    },
+    {
+        "id": 21,
+        "subject": "Computer Networks",
+        "topic": "Stop and Wait ARQ",
+        "difficulty": "medium",
+        "question": "If an acknowledgment is not received within a timeout period in Stop-and-Wait ARQ, the sender:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Discards the frame permanently"
+            },
+            {
+                "key": "B",
+                "text": "Retransmits the frame"
+            },
+            {
+                "key": "C",
+                "text": "Changes the destination"
+            },
+            {
+                "key": "D",
+                "text": "Ends the connection"
+            }
+        ],
+        "answer": "B",
+        "reason": "Timeout indicates possible loss, so the sender retransmits the frame."
+    },
+    {
+        "id": 22,
+        "subject": "Computer Networks",
+        "topic": "Go-Back-N ARQ",
+        "difficulty": "medium",
+        "question": "In Go-Back-N ARQ, when an error is detected, the sender retransmits:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Only the damaged frame"
+            },
+            {
+                "key": "B",
+                "text": "The damaged frame and all subsequent frames"
+            },
+            {
+                "key": "C",
+                "text": "Only acknowledgments"
+            },
+            {
+                "key": "D",
+                "text": "Entire messages"
+            }
+        ],
+        "answer": "B",
+        "reason": "Go-Back-N retransmits the erroneous frame and all frames sent after it."
+    },
+    {
+        "id": 23,
+        "subject": "Computer Networks",
+        "topic": "Go-Back-N ARQ",
+        "difficulty": "hard",
+        "question": "The receiver window size in Go-Back-N ARQ is typically:",
+        "options": [
+            {
+                "key": "A",
+                "text": "0"
+            },
+            {
+                "key": "B",
+                "text": "1"
+            },
+            {
+                "key": "C",
+                "text": "Equal to sender window"
+            },
+            {
+                "key": "D",
+                "text": "Unlimited"
+            }
+        ],
+        "answer": "B",
+        "reason": "The receiver accepts only the next expected frame, making its effective window size one."
+    },
+    {
+        "id": 24,
+        "subject": "Computer Networks",
+        "topic": "Selective Reject ARQ",
+        "difficulty": "medium",
+        "question": "Selective Reject ARQ improves efficiency by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Retransmitting only erroneous frames"
+            },
+            {
+                "key": "B",
+                "text": "Disabling acknowledgments"
+            },
+            {
+                "key": "C",
+                "text": "Using larger packets"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring lost frames"
+            }
+        ],
+        "answer": "A",
+        "reason": "Only the frame that contains errors is retransmitted, reducing unnecessary transmissions."
+    },
+    {
+        "id": 25,
+        "subject": "Computer Networks",
+        "topic": "Selective Reject ARQ",
+        "difficulty": "hard",
+        "question": "Compared with Go-Back-N, Selective Reject ARQ requires:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Less receiver buffering"
+            },
+            {
+                "key": "B",
+                "text": "More receiver buffering"
+            },
+            {
+                "key": "C",
+                "text": "No sequence numbers"
+            },
+            {
+                "key": "D",
+                "text": "No acknowledgments"
+            }
+        ],
+        "answer": "B",
+        "reason": "Out-of-order frames must be stored until missing frames arrive."
+    },
+    {
+        "id": 26,
+        "subject": "Computer Networks",
+        "topic": "HDLC",
+        "difficulty": "easy",
+        "question": "HDLC stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "High-Level Data Link Control"
+            },
+            {
+                "key": "B",
+                "text": "Hybrid Data Link Communication"
+            },
+            {
+                "key": "C",
+                "text": "High Data Line Control"
+            },
+            {
+                "key": "D",
+                "text": "Hyper Data Link Channel"
+            }
+        ],
+        "answer": "A",
+        "reason": "HDLC is a bit-oriented Data Link Layer protocol called High-Level Data Link Control."
+    },
+    {
+        "id": 27,
+        "subject": "Computer Networks",
+        "topic": "HDLC",
+        "difficulty": "medium",
+        "question": "HDLC is classified as a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bit-oriented protocol"
+            },
+            {
+                "key": "B",
+                "text": "Character-oriented protocol"
+            },
+            {
+                "key": "C",
+                "text": "Transport protocol"
+            },
+            {
+                "key": "D",
+                "text": "Routing protocol"
+            }
+        ],
+        "answer": "A",
+        "reason": "HDLC processes data as a stream of bits rather than characters."
+    },
+    {
+        "id": 28,
+        "subject": "Computer Networks",
+        "topic": "HDLC",
+        "difficulty": "hard",
+        "question": "Which special bit pattern is commonly used as the HDLC frame delimiter?",
+        "options": [
+            {
+                "key": "A",
+                "text": "`01111110`"
+            },
+            {
+                "key": "B",
+                "text": "`11111111`"
+            },
+            {
+                "key": "C",
+                "text": "`00000000`"
+            },
+            {
+                "key": "D",
+                "text": "`10101010`"
+            }
+        ],
+        "answer": "A",
+        "reason": "HDLC frames begin and end with the flag sequence `01111110`."
+    },
+    {
+        "id": 29,
+        "subject": "Computer Networks",
+        "topic": "ALOHA",
+        "difficulty": "easy",
+        "question": "ALOHA is a type of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Multiple Access Protocol"
+            },
+            {
+                "key": "B",
+                "text": "Routing Algorithm"
+            },
+            {
+                "key": "C",
+                "text": "Error Correction Code"
+            },
+            {
+                "key": "D",
+                "text": "Switching Technique"
+            }
+        ],
+        "answer": "A",
+        "reason": "ALOHA is an early random access protocol for sharing a communication channel."
+    },
+    {
+        "id": 30,
+        "subject": "Computer Networks",
+        "topic": "ALOHA",
+        "difficulty": "medium",
+        "question": "In Pure ALOHA, a station transmits:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Only in assigned slots"
+            },
+            {
+                "key": "B",
+                "text": "Whenever it has data"
+            },
+            {
+                "key": "C",
+                "text": "Only after polling"
+            },
+            {
+                "key": "D",
+                "text": "Only after token reception"
+            }
+        ],
+        "answer": "B",
+        "reason": "Pure ALOHA allows transmission at any time, which increases collision probability."
+    },
+    {
+        "id": 31,
+        "subject": "Computer Networks",
+        "topic": "ALOHA",
+        "difficulty": "hard",
+        "question": "Which version of ALOHA reduces collisions by dividing time into slots?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Pure ALOHA"
+            },
+            {
+                "key": "B",
+                "text": "Slotted ALOHA"
+            },
+            {
+                "key": "C",
+                "text": "Token ALOHA"
+            },
+            {
+                "key": "D",
+                "text": "Binary ALOHA"
+            }
+        ],
+        "answer": "B",
+        "reason": "Slotted ALOHA restricts transmissions to slot boundaries, reducing collision chances."
+    },
+    {
+        "id": 32,
+        "subject": "Computer Networks",
+        "topic": "Collision-Free Protocols",
+        "difficulty": "medium",
+        "question": "The primary goal of collision-free protocols is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Avoid transmission collisions"
+            },
+            {
+                "key": "B",
+                "text": "Increase frame size"
+            },
+            {
+                "key": "C",
+                "text": "Reduce addressing"
+            },
+            {
+                "key": "D",
+                "text": "Replace switches"
+            }
+        ],
+        "answer": "A",
+        "reason": "Collision-free protocols coordinate access to the medium to prevent simultaneous transmissions."
+    },
+    {
+        "id": 33,
+        "subject": "Computer Networks",
+        "topic": "Collision-Free Protocols",
+        "difficulty": "hard",
+        "question": "Token-based access methods are considered collision-free because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Only the token holder can transmit"
+            },
+            {
+                "key": "B",
+                "text": "Frames are encrypted"
+            },
+            {
+                "key": "C",
+                "text": "No acknowledgments exist"
+            },
+            {
+                "key": "D",
+                "text": "Only one node exists"
+            }
+        ],
+        "answer": "A",
+        "reason": "Possession of the token grants exclusive transmission rights."
+    },
+    {
+        "id": 34,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.3",
+        "difficulty": "easy",
+        "question": "IEEE 802.3 is the standard for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ethernet"
+            },
+            {
+                "key": "B",
+                "text": "Token Ring"
+            },
+            {
+                "key": "C",
+                "text": "Token Bus"
+            },
+            {
+                "key": "D",
+                "text": "Bluetooth"
+            }
+        ],
+        "answer": "A",
+        "reason": "IEEE 802.3 defines Ethernet LAN technologies."
+    },
+    {
+        "id": 35,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.4",
+        "difficulty": "medium",
+        "question": "IEEE 802.4 is associated with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ethernet"
+            },
+            {
+                "key": "B",
+                "text": "Token Bus"
+            },
+            {
+                "key": "C",
+                "text": "Token Ring"
+            },
+            {
+                "key": "D",
+                "text": "Wi-Fi"
+            }
+        ],
+        "answer": "B",
+        "reason": "IEEE 802.4 defines the Token Bus LAN architecture."
+    },
+    {
+        "id": 36,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.5",
+        "difficulty": "medium",
+        "question": "IEEE 802.5 defines:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ethernet LAN"
+            },
+            {
+                "key": "B",
+                "text": "Wireless LAN"
+            },
+            {
+                "key": "C",
+                "text": "Token Ring Network"
+            },
+            {
+                "key": "D",
+                "text": "Optical LAN"
+            }
+        ],
+        "answer": "C",
+        "reason": "IEEE 802.5 specifies Token Ring LAN operation."
+    },
+    {
+        "id": 37,
+        "subject": "Computer Networks",
+        "topic": "IEEE Standards",
+        "difficulty": "hard",
+        "question": "Which IEEE LAN standard uses a token-passing mechanism on a ring topology?",
+        "options": [
+            {
+                "key": "A",
+                "text": "IEEE 802.3"
+            },
+            {
+                "key": "B",
+                "text": "IEEE 802.4"
+            },
+            {
+                "key": "C",
+                "text": "IEEE 802.5"
+            },
+            {
+                "key": "D",
+                "text": "IEEE 802.11"
+            }
+        ],
+        "answer": "C",
+        "reason": "IEEE 802.5 Token Ring networks use token passing on a logical ring."
+    },
+    {
+        "id": 38,
+        "subject": "Computer Networks",
+        "topic": "IEEE Standards",
+        "difficulty": "hard",
+        "question": "Which IEEE standard historically used a logical bus with token passing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "IEEE 802.3"
+            },
+            {
+                "key": "B",
+                "text": "IEEE 802.4"
+            },
+            {
+                "key": "C",
+                "text": "IEEE 802.5"
+            },
+            {
+                "key": "D",
+                "text": "IEEE 802.15"
+            }
+        ],
+        "answer": "B",
+        "reason": "Token Bus networks defined by IEEE 802.4 use token passing over a logical bus."
+    },
+    {
+        "id": 39,
+        "subject": "Computer Networks",
+        "topic": "Error Control",
+        "difficulty": "medium",
+        "question": "The main objective of error control protocols is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ensure reliable data delivery"
+            },
+            {
+                "key": "B",
+                "text": "Increase transmission frequency"
+            },
+            {
+                "key": "C",
+                "text": "Reduce addressing overhead"
+            },
+            {
+                "key": "D",
+                "text": "Replace flow control"
+            }
+        ],
+        "answer": "A",
+        "reason": "Error control mechanisms detect errors and recover from them through retransmission or correction."
+    },
+    {
+        "id": 40,
+        "subject": "Computer Networks",
+        "topic": "Flow Control and Error Control",
+        "difficulty": "hard",
+        "question": "Which protocol combination provides both reliable transmission and efficient channel utilization?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Sliding Window with ARQ"
+            },
+            {
+                "key": "B",
+                "text": "Parity Check only"
+            },
+            {
+                "key": "C",
+                "text": "Checksum only"
+            },
+            {
+                "key": "D",
+                "text": "Simplex Transmission"
+            }
+        ],
+        "answer": "A",
+        "reason": "Sliding Window improves throughput while ARQ mechanisms ensure reliable delivery through retransmissions."
+    },
+    {
+        "id": 41,
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "difficulty": "easy",
+        "question": "Which address is primarily used by the Data Link Layer for local delivery of frames?",
+        "options": [
+            {
+                "key": "A",
+                "text": "IP Address"
+            },
+            {
+                "key": "B",
+                "text": "Port Number"
+            },
+            {
+                "key": "C",
+                "text": "MAC Address"
+            },
+            {
+                "key": "D",
+                "text": "URL"
+            }
+        ],
+        "answer": "C",
+        "reason": "The Data Link Layer uses MAC addresses to identify devices on the same local network segment."
+    },
+    {
+        "id": 42,
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "difficulty": "medium",
+        "question": "Which sublayer of the Data Link Layer is responsible for media access control?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Network Layer"
+            },
+            {
+                "key": "B",
+                "text": "MAC Sublayer"
+            },
+            {
+                "key": "C",
+                "text": "Session Layer"
+            },
+            {
+                "key": "D",
+                "text": "Transport Sublayer"
+            }
+        ],
+        "answer": "B",
+        "reason": "The MAC sublayer controls access to the transmission medium and handles physical addressing."
+    },
+    {
+        "id": 43,
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer Issues",
+        "difficulty": "medium",
+        "question": "Which Data Link Layer function determines when a device may transmit on a shared medium?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Framing"
+            },
+            {
+                "key": "B",
+                "text": "Error Detection"
+            },
+            {
+                "key": "C",
+                "text": "Medium Access Control"
+            },
+            {
+                "key": "D",
+                "text": "Checksum Calculation"
+            }
+        ],
+        "answer": "C",
+        "reason": "Medium Access Control determines how devices share and access a common communication channel."
+    },
+    {
+        "id": 44,
+        "subject": "Computer Networks",
+        "topic": "Flow Control",
+        "difficulty": "easy",
+        "question": "Flow control helps prevent:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Address duplication"
+            },
+            {
+                "key": "B",
+                "text": "Receiver buffer overflow"
+            },
+            {
+                "key": "C",
+                "text": "MAC address conflicts"
+            },
+            {
+                "key": "D",
+                "text": "DNS failures"
+            }
+        ],
+        "answer": "B",
+        "reason": "Flow control ensures the sender does not transmit data faster than the receiver can process it."
+    },
+    {
+        "id": 45,
+        "subject": "Computer Networks",
+        "topic": "Sliding Window Flow Control",
+        "difficulty": "medium",
+        "question": "In a sliding window protocol, acknowledgments are often:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Cumulative"
+            },
+            {
+                "key": "B",
+                "text": "Encrypted"
+            },
+            {
+                "key": "C",
+                "text": "Broadcast"
+            },
+            {
+                "key": "D",
+                "text": "Ignored"
+            }
+        ],
+        "answer": "A",
+        "reason": "A cumulative acknowledgment confirms receipt of multiple consecutive frames."
+    },
+    {
+        "id": 46,
+        "subject": "Computer Networks",
+        "topic": "Sliding Window Flow Control",
+        "difficulty": "hard",
+        "question": "If a sender window size is 7, what is the maximum number of frames that can be sent before receiving an acknowledgment?",
+        "options": [
+            {
+                "key": "A",
+                "text": "1"
+            },
+            {
+                "key": "B",
+                "text": "6"
+            },
+            {
+                "key": "C",
+                "text": "7"
+            },
+            {
+                "key": "D",
+                "text": "8"
+            }
+        ],
+        "answer": "C",
+        "reason": "The sender may transmit as many frames as the current window size allows before acknowledgments are required."
+    },
+    {
+        "id": 47,
+        "subject": "Computer Networks",
+        "topic": "Parity Check",
+        "difficulty": "easy",
+        "question": "A parity bit is added to data primarily for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Compression"
+            },
+            {
+                "key": "B",
+                "text": "Error Detection"
+            },
+            {
+                "key": "C",
+                "text": "Encryption"
+            },
+            {
+                "key": "D",
+                "text": "Addressing"
+            }
+        ],
+        "answer": "B",
+        "reason": "Parity bits are used to detect whether transmitted data has been corrupted."
+    },
+    {
+        "id": 48,
+        "subject": "Computer Networks",
+        "topic": "Parity Check",
+        "difficulty": "medium",
+        "question": "If the data bits are `1011001`, how many 1s are present?",
+        "options": [
+            {
+                "key": "A",
+                "text": "3"
+            },
+            {
+                "key": "B",
+                "text": "4"
+            },
+            {
+                "key": "C",
+                "text": "5"
+            },
+            {
+                "key": "D",
+                "text": "6"
+            }
+        ],
+        "answer": "B",
+        "reason": "The bit sequence `1011001` contains four binary 1s."
+    },
+    {
+        "id": 49,
+        "subject": "Computer Networks",
+        "topic": "CRC",
+        "difficulty": "medium",
+        "question": "CRC is generally more reliable than parity checking because it can detect:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Only single-bit errors"
+            },
+            {
+                "key": "B",
+                "text": "A wider range of error patterns"
+            },
+            {
+                "key": "C",
+                "text": "No transmission errors"
+            },
+            {
+                "key": "D",
+                "text": "Only burst delays"
+            }
+        ],
+        "answer": "B",
+        "reason": "CRC can detect many multi-bit and burst errors that parity checking may miss."
+    },
+    {
+        "id": 50,
+        "subject": "Computer Networks",
+        "topic": "CRC",
+        "difficulty": "hard",
+        "question": "The polynomial used in CRC calculations is known as the:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Generator Polynomial"
+            },
+            {
+                "key": "B",
+                "text": "Routing Polynomial"
+            },
+            {
+                "key": "C",
+                "text": "Checksum Polynomial"
+            },
+            {
+                "key": "D",
+                "text": "Frame Polynomial"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRC algorithms use a generator polynomial to perform modulo-2 division and generate the remainder."
+    },
+    {
+        "id": 51,
+        "subject": "Computer Networks",
+        "topic": "Checksum",
+        "difficulty": "easy",
+        "question": "The receiver verifies data integrity by comparing the received checksum with a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Locally computed checksum"
+            },
+            {
+                "key": "B",
+                "text": "MAC address"
+            },
+            {
+                "key": "C",
+                "text": "Frame number"
+            },
+            {
+                "key": "D",
+                "text": "Window size"
+            }
+        ],
+        "answer": "A",
+        "reason": "The receiver recalculates the checksum and compares it with the transmitted value."
+    },
+    {
+        "id": 52,
+        "subject": "Computer Networks",
+        "topic": "Checksum",
+        "difficulty": "hard",
+        "question": "Which error detection method is commonly used in protocols such as `TCP` and `UDP`?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Hamming Code"
+            },
+            {
+                "key": "B",
+                "text": "Checksum"
+            },
+            {
+                "key": "C",
+                "text": "Token Passing"
+            },
+            {
+                "key": "D",
+                "text": "Bit Stuffing"
+            }
+        ],
+        "answer": "B",
+        "reason": "`TCP` and `UDP` use checksums to verify segment integrity during transmission."
+    },
+    {
+        "id": 53,
+        "subject": "Computer Networks",
+        "topic": "Hamming Code",
+        "difficulty": "medium",
+        "question": "Parity bits in Hamming Code are placed at positions:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Prime Numbers"
+            },
+            {
+                "key": "B",
+                "text": "Even Numbers"
+            },
+            {
+                "key": "C",
+                "text": "Powers of Two"
+            },
+            {
+                "key": "D",
+                "text": "Odd Numbers"
+            }
+        ],
+        "answer": "C",
+        "reason": "Hamming Code places parity bits at positions 1, 2, 4, 8, 16, and so on."
+    },
+    {
+        "id": 54,
+        "subject": "Computer Networks",
+        "topic": "Hamming Code",
+        "difficulty": "hard",
+        "question": "What is the minimum capability of a standard Hamming Code?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Detect and correct one-bit errors"
+            },
+            {
+                "key": "B",
+                "text": "Correct all burst errors"
+            },
+            {
+                "key": "C",
+                "text": "Correct all double-bit errors"
+            },
+            {
+                "key": "D",
+                "text": "Perform routing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Standard Hamming Code provides single-bit error correction and single-bit error detection."
+    },
+    {
+        "id": 55,
+        "subject": "Computer Networks",
+        "topic": "Stop and Wait ARQ",
+        "difficulty": "easy",
+        "question": "Which event causes retransmission in Stop-and-Wait ARQ?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Successful acknowledgment"
+            },
+            {
+                "key": "B",
+                "text": "Timeout expiration"
+            },
+            {
+                "key": "C",
+                "text": "Frame sequencing"
+            },
+            {
+                "key": "D",
+                "text": "Address resolution"
+            }
+        ],
+        "answer": "B",
+        "reason": "A timeout indicates that a frame or acknowledgment may have been lost."
+    },
+    {
+        "id": 56,
+        "subject": "Computer Networks",
+        "topic": "Stop and Wait ARQ",
+        "difficulty": "medium",
+        "question": "Which type of acknowledgment confirms successful frame reception in ARQ protocols?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NAK"
+            },
+            {
+                "key": "B",
+                "text": "ACK"
+            },
+            {
+                "key": "C",
+                "text": "CRC"
+            },
+            {
+                "key": "D",
+                "text": "HDLC"
+            }
+        ],
+        "answer": "B",
+        "reason": "ACK (Acknowledgment) indicates that a frame has been received correctly."
+    },
+    {
+        "id": 57,
+        "subject": "Computer Networks",
+        "topic": "Go-Back-N ARQ",
+        "difficulty": "medium",
+        "question": "Go-Back-N ARQ is based on which flow control technique?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Sliding Window"
+            },
+            {
+                "key": "B",
+                "text": "Token Passing"
+            },
+            {
+                "key": "C",
+                "text": "Polling"
+            },
+            {
+                "key": "D",
+                "text": "Checksum Control"
+            }
+        ],
+        "answer": "A",
+        "reason": "Go-Back-N ARQ uses a sliding window mechanism to allow multiple outstanding frames."
+    },
+    {
+        "id": 58,
+        "subject": "Computer Networks",
+        "topic": "Go-Back-N ARQ",
+        "difficulty": "hard",
+        "question": "Which ARQ protocol wastes bandwidth by retransmitting correctly received frames after an error?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Selective Reject ARQ"
+            },
+            {
+                "key": "B",
+                "text": "Go-Back-N ARQ"
+            },
+            {
+                "key": "C",
+                "text": "HDLC"
+            },
+            {
+                "key": "D",
+                "text": "ALOHA"
+            }
+        ],
+        "answer": "B",
+        "reason": "Go-Back-N retransmits the erroneous frame and all subsequent frames, including correctly received ones."
+    },
+    {
+        "id": 59,
+        "subject": "Computer Networks",
+        "topic": "Selective Reject ARQ",
+        "difficulty": "medium",
+        "question": "Selective Reject ARQ is also commonly known as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Selective Repeat ARQ"
+            },
+            {
+                "key": "B",
+                "text": "Pure ARQ"
+            },
+            {
+                "key": "C",
+                "text": "Token ARQ"
+            },
+            {
+                "key": "D",
+                "text": "Polling ARQ"
+            }
+        ],
+        "answer": "A",
+        "reason": "Selective Reject and Selective Repeat refer to the same ARQ mechanism."
+    },
+    {
+        "id": 60,
+        "subject": "Computer Networks",
+        "topic": "Selective Reject ARQ",
+        "difficulty": "hard",
+        "question": "Which ARQ protocol generally provides the highest efficiency on noisy links?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Stop-and-Wait ARQ"
+            },
+            {
+                "key": "B",
+                "text": "Go-Back-N ARQ"
+            },
+            {
+                "key": "C",
+                "text": "Selective Reject ARQ"
+            },
+            {
+                "key": "D",
+                "text": "Simplex ARQ"
+            }
+        ],
+        "answer": "C",
+        "reason": "Selective Reject retransmits only the specific frames that contain errors."
+    },
+    {
+        "id": 61,
+        "subject": "Computer Networks",
+        "topic": "HDLC",
+        "difficulty": "easy",
+        "question": "HDLC frames are separated using:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Flag Fields"
+            },
+            {
+                "key": "B",
+                "text": "IP Headers"
+            },
+            {
+                "key": "C",
+                "text": "Checksums Only"
+            },
+            {
+                "key": "D",
+                "text": "Window Counters"
+            }
+        ],
+        "answer": "A",
+        "reason": "Flag fields mark the beginning and end of HDLC frames."
+    },
+    {
+        "id": 62,
+        "subject": "Computer Networks",
+        "topic": "HDLC",
+        "difficulty": "medium",
+        "question": "What technique does HDLC use to prevent accidental occurrence of flag patterns inside data?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Byte Stuffing"
+            },
+            {
+                "key": "B",
+                "text": "Bit Stuffing"
+            },
+            {
+                "key": "C",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "D",
+                "text": "Polling"
+            }
+        ],
+        "answer": "B",
+        "reason": "HDLC inserts extra bits when necessary to prevent flag sequence duplication."
+    },
+    {
+        "id": 63,
+        "subject": "Computer Networks",
+        "topic": "HDLC",
+        "difficulty": "hard",
+        "question": "HDLC is designed primarily for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reliable Point-to-Point and Multipoint Links"
+            },
+            {
+                "key": "B",
+                "text": "DNS Resolution"
+            },
+            {
+                "key": "C",
+                "text": "Web Browsing"
+            },
+            {
+                "key": "D",
+                "text": "Application Layer Services"
+            }
+        ],
+        "answer": "A",
+        "reason": "HDLC provides reliable communication over point-to-point and multipoint data links."
+    },
+    {
+        "id": 64,
+        "subject": "Computer Networks",
+        "topic": "ALOHA",
+        "difficulty": "easy",
+        "question": "The main drawback of Pure ALOHA is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "High Collision Probability"
+            },
+            {
+                "key": "B",
+                "text": "No Data Transmission"
+            },
+            {
+                "key": "C",
+                "text": "Requires Token Passing"
+            },
+            {
+                "key": "D",
+                "text": "Requires Fiber Optics"
+            }
+        ],
+        "answer": "A",
+        "reason": "Because stations transmit at any time, collisions occur frequently."
+    },
+    {
+        "id": 65,
+        "subject": "Computer Networks",
+        "topic": "ALOHA",
+        "difficulty": "medium",
+        "question": "Slotted ALOHA improves performance by requiring stations to transmit:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Continuously"
+            },
+            {
+                "key": "B",
+                "text": "Only at slot boundaries"
+            },
+            {
+                "key": "C",
+                "text": "Only after polling"
+            },
+            {
+                "key": "D",
+                "text": "Only after token reception"
+            }
+        ],
+        "answer": "B",
+        "reason": "Restricting transmissions to time slots reduces the collision window."
+    },
+    {
+        "id": 66,
+        "subject": "Computer Networks",
+        "topic": "ALOHA",
+        "difficulty": "hard",
+        "question": "Compared to Pure ALOHA, Slotted ALOHA provides:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Higher Throughput"
+            },
+            {
+                "key": "B",
+                "text": "No Collisions"
+            },
+            {
+                "key": "C",
+                "text": "No Acknowledgments"
+            },
+            {
+                "key": "D",
+                "text": "Unlimited Bandwidth"
+            }
+        ],
+        "answer": "A",
+        "reason": "Slotted ALOHA reduces collision probability and therefore increases throughput."
+    },
+    {
+        "id": 67,
+        "subject": "Computer Networks",
+        "topic": "Collision-Free Protocols",
+        "difficulty": "medium",
+        "question": "Which approach eliminates collisions by granting transmission permission sequentially?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Token Passing"
+            },
+            {
+                "key": "B",
+                "text": "Pure ALOHA"
+            },
+            {
+                "key": "C",
+                "text": "Broadcast Flooding"
+            },
+            {
+                "key": "D",
+                "text": "Checksum Verification"
+            }
+        ],
+        "answer": "A",
+        "reason": "Token passing allows only one station at a time to transmit."
+    },
+    {
+        "id": 68,
+        "subject": "Computer Networks",
+        "topic": "Collision-Free Protocols",
+        "difficulty": "hard",
+        "question": "Polling-based access control is considered collision-free because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A central controller authorizes transmissions"
+            },
+            {
+                "key": "B",
+                "text": "All stations transmit simultaneously"
+            },
+            {
+                "key": "C",
+                "text": "No acknowledgments are used"
+            },
+            {
+                "key": "D",
+                "text": "Frames are encrypted"
+            }
+        ],
+        "answer": "A",
+        "reason": "Only the polled station is allowed to transmit, preventing collisions."
+    },
+    {
+        "id": 69,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.3",
+        "difficulty": "easy",
+        "question": "IEEE 802.3 networks are commonly known as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ethernet Networks"
+            },
+            {
+                "key": "B",
+                "text": "Token Ring Networks"
+            },
+            {
+                "key": "C",
+                "text": "Token Bus Networks"
+            },
+            {
+                "key": "D",
+                "text": "Satellite Networks"
+            }
+        ],
+        "answer": "A",
+        "reason": "IEEE 802.3 is the standard specification for Ethernet LANs."
+    },
+    {
+        "id": 70,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.3",
+        "difficulty": "medium",
+        "question": "Traditional IEEE 802.3 Ethernet used which media access method?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Token Passing"
+            },
+            {
+                "key": "B",
+                "text": "CSMA/CD"
+            },
+            {
+                "key": "C",
+                "text": "Polling"
+            },
+            {
+                "key": "D",
+                "text": "Slotted Ring"
+            }
+        ],
+        "answer": "B",
+        "reason": "Classic Ethernet networks use Carrier Sense Multiple Access with Collision Detection (CSMA/CD)."
+    },
+    {
+        "id": 71,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.4",
+        "difficulty": "medium",
+        "question": "Token Bus combines token passing with which logical topology?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bus"
+            },
+            {
+                "key": "B",
+                "text": "Mesh"
+            },
+            {
+                "key": "C",
+                "text": "Star"
+            },
+            {
+                "key": "D",
+                "text": "Tree"
+            }
+        ],
+        "answer": "A",
+        "reason": "IEEE 802.4 implements token passing over a logical bus structure."
+    },
+    {
+        "id": 72,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.4",
+        "difficulty": "hard",
+        "question": "What is the primary advantage of Token Bus over contention-based methods?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Deterministic Access"
+            },
+            {
+                "key": "B",
+                "text": "Unlimited Throughput"
+            },
+            {
+                "key": "C",
+                "text": "No Token Required"
+            },
+            {
+                "key": "D",
+                "text": "No Frame Structure"
+            }
+        ],
+        "answer": "A",
+        "reason": "Token passing provides predictable access times and avoids collisions."
+    },
+    {
+        "id": 73,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.5",
+        "difficulty": "easy",
+        "question": "IEEE 802.5 is based on which access method?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Token Passing"
+            },
+            {
+                "key": "B",
+                "text": "CSMA/CD"
+            },
+            {
+                "key": "C",
+                "text": "ALOHA"
+            },
+            {
+                "key": "D",
+                "text": "Polling Only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Token Ring networks use token passing to control access to the medium."
+    },
+    {
+        "id": 74,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.5",
+        "difficulty": "medium",
+        "question": "In a Token Ring network, data transmission is allowed when a station:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Detects a collision"
+            },
+            {
+                "key": "B",
+                "text": "Receives the token"
+            },
+            {
+                "key": "C",
+                "text": "Receives a checksum"
+            },
+            {
+                "key": "D",
+                "text": "Broadcasts a request"
+            }
+        ],
+        "answer": "B",
+        "reason": "The token grants permission to transmit on the network."
+    },
+    {
+        "id": 75,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.5",
+        "difficulty": "hard",
+        "question": "Which feature helps Token Ring networks avoid collisions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Token Passing Mechanism"
+            },
+            {
+                "key": "B",
+                "text": "Broadcast Routing"
+            },
+            {
+                "key": "C",
+                "text": "Dynamic DNS"
+            },
+            {
+                "key": "D",
+                "text": "Checksum Frames"
+            }
+        ],
+        "answer": "A",
+        "reason": "Only the station holding the token can transmit, eliminating collisions."
+    },
+    {
+        "id": 76,
+        "subject": "Computer Networks",
+        "topic": "Error Detection",
+        "difficulty": "medium",
+        "question": "Which technique is generally strongest for detecting burst errors?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Parity Check"
+            },
+            {
+                "key": "B",
+                "text": "CRC"
+            },
+            {
+                "key": "C",
+                "text": "Simple Checksum"
+            },
+            {
+                "key": "D",
+                "text": "Token Passing"
+            }
+        ],
+        "answer": "B",
+        "reason": "CRC is specifically effective at detecting burst errors and complex error patterns."
+    },
+    {
+        "id": 77,
+        "subject": "Computer Networks",
+        "topic": "Error Correction",
+        "difficulty": "medium",
+        "question": "Unlike parity checking, Hamming Code can:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Correct Errors"
+            },
+            {
+                "key": "B",
+                "text": "Increase Bandwidth"
+            },
+            {
+                "key": "C",
+                "text": "Perform Routing"
+            },
+            {
+                "key": "D",
+                "text": "Assign MAC Addresses"
+            }
+        ],
+        "answer": "A",
+        "reason": "Hamming Code can identify and correct single-bit transmission errors."
+    },
+    {
+        "id": 78,
+        "subject": "Computer Networks",
+        "topic": "Flow Control and Error Control",
+        "difficulty": "hard",
+        "question": "Which mechanism ensures frames lost during transmission are sent again?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Retransmission"
+            },
+            {
+                "key": "B",
+                "text": "Multiplexing"
+            },
+            {
+                "key": "C",
+                "text": "Framing"
+            },
+            {
+                "key": "D",
+                "text": "Encoding"
+            }
+        ],
+        "answer": "A",
+        "reason": "Error control protocols rely on retransmission to recover lost or corrupted frames."
+    },
+    {
+        "id": 79,
+        "subject": "Computer Networks",
+        "topic": "Flow Control and Error Control",
+        "difficulty": "hard",
+        "question": "Which combination best improves both throughput and reliability?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Sliding Window + Selective Reject ARQ"
+            },
+            {
+                "key": "B",
+                "text": "Parity Only"
+            },
+            {
+                "key": "C",
+                "text": "Checksum Only"
+            },
+            {
+                "key": "D",
+                "text": "Simplex Transmission"
+            }
+        ],
+        "answer": "A",
+        "reason": "Sliding Window increases channel utilization while Selective Reject ARQ minimizes unnecessary retransmissions."
+    },
+    {
+        "id": 80,
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "difficulty": "hard",
+        "question": "Which of the following collectively represents the major responsibilities of the Data Link Layer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Routing, Address Translation, Congestion Control"
+            },
+            {
+                "key": "B",
+                "text": "Framing, Flow Control, Error Control, Medium Access Control"
+            },
+            {
+                "key": "C",
+                "text": "Encryption, Compression, Session Management"
+            },
+            {
+                "key": "D",
+                "text": "DNS Resolution, Routing, Forwarding"
+            }
+        ],
+        "answer": "B",
+        "reason": "The Data Link Layer is responsible for framing, flow control, error control, and managing access to the transmission medium."
+    },
+    {
+        "id": 81,
+        "subject": "Computer Networks",
+        "topic": "Data Link Layer",
+        "difficulty": "easy",
+        "question": "Which Data Link Layer function adds headers and trailers to create a frame?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Routing"
+            },
+            {
+                "key": "B",
+                "text": "Framing"
+            },
+            {
+                "key": "C",
+                "text": "Encoding"
+            },
+            {
+                "key": "D",
+                "text": "Multiplexing"
+            }
+        ],
+        "answer": "B",
+        "reason": "Framing encapsulates network layer packets by adding Data Link Layer headers and trailers."
+    },
+    {
+        "id": 82,
+        "subject": "Computer Networks",
+        "topic": "Flow Control",
+        "difficulty": "medium",
+        "question": "Which protocol has the simplest implementation among flow control mechanisms?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Selective Reject"
+            },
+            {
+                "key": "B",
+                "text": "Go-Back-N"
+            },
+            {
+                "key": "C",
+                "text": "Stop-and-Wait"
+            },
+            {
+                "key": "D",
+                "text": "Token Passing"
+            }
+        ],
+        "answer": "C",
+        "reason": "Stop-and-Wait is the simplest flow control protocol because only one frame can be outstanding at a time."
+    },
+    {
+        "id": 83,
+        "subject": "Computer Networks",
+        "topic": "Sliding Window Flow Control",
+        "difficulty": "hard",
+        "question": "When an acknowledgment is received in a sliding window protocol, the sender window:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Resets completely"
+            },
+            {
+                "key": "B",
+                "text": "Moves forward"
+            },
+            {
+                "key": "C",
+                "text": "Shrinks permanently"
+            },
+            {
+                "key": "D",
+                "text": "Becomes zero"
+            }
+        ],
+        "answer": "B",
+        "reason": "Successful acknowledgments allow the sender window to slide forward and permit transmission of additional frames."
+    },
+    {
+        "id": 84,
+        "subject": "Computer Networks",
+        "topic": "Parity Check",
+        "difficulty": "medium",
+        "question": "If data contains five binary 1s, what parity bit is needed for even parity?",
+        "options": [
+            {
+                "key": "A",
+                "text": "0"
+            },
+            {
+                "key": "B",
+                "text": "1"
+            },
+            {
+                "key": "C",
+                "text": "Depends on frame size"
+            },
+            {
+                "key": "D",
+                "text": "Cannot be determined"
+            }
+        ],
+        "answer": "B",
+        "reason": "Five 1s is odd, so a parity bit of 1 is added to make the total number of 1s even."
+    },
+    {
+        "id": 85,
+        "subject": "Computer Networks",
+        "topic": "CRC",
+        "difficulty": "medium",
+        "question": "At the receiver, CRC validation is successful when the division result produces:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A non-zero remainder"
+            },
+            {
+                "key": "B",
+                "text": "A remainder equal to the frame number"
+            },
+            {
+                "key": "C",
+                "text": "A zero remainder"
+            },
+            {
+                "key": "D",
+                "text": "An odd parity value"
+            }
+        ],
+        "answer": "C",
+        "reason": "A correctly received frame produces a zero remainder when divided by the agreed generator polynomial."
+    },
+    {
+        "id": 86,
+        "subject": "Computer Networks",
+        "topic": "Checksum",
+        "difficulty": "hard",
+        "question": "A checksum is usually placed in which part of a frame or packet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Data payload only"
+            },
+            {
+                "key": "B",
+                "text": "Header field reserved for integrity verification"
+            },
+            {
+                "key": "C",
+                "text": "MAC address field"
+            },
+            {
+                "key": "D",
+                "text": "Sequence number field"
+            }
+        ],
+        "answer": "B",
+        "reason": "Protocols store the checksum in a designated field so the receiver can verify integrity."
+    },
+    {
+        "id": 87,
+        "subject": "Computer Networks",
+        "topic": "Hamming Code",
+        "difficulty": "medium",
+        "question": "The additional bits inserted into Hamming Code are called:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Control Bits"
+            },
+            {
+                "key": "B",
+                "text": "Routing Bits"
+            },
+            {
+                "key": "C",
+                "text": "Parity Bits"
+            },
+            {
+                "key": "D",
+                "text": "Flag Bits"
+            }
+        ],
+        "answer": "C",
+        "reason": "Hamming Code uses parity bits positioned at powers of two to detect and correct errors."
+    },
+    {
+        "id": 88,
+        "subject": "Computer Networks",
+        "topic": "Error Control",
+        "difficulty": "easy",
+        "question": "What is the purpose of a negative acknowledgment (`NAK`)?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Confirm successful reception"
+            },
+            {
+                "key": "B",
+                "text": "Request retransmission of data"
+            },
+            {
+                "key": "C",
+                "text": "Terminate communication"
+            },
+            {
+                "key": "D",
+                "text": "Increase window size"
+            }
+        ],
+        "answer": "B",
+        "reason": "A NAK informs the sender that an error occurred and retransmission is required."
+    },
+    {
+        "id": 89,
+        "subject": "Computer Networks",
+        "topic": "Stop and Wait ARQ",
+        "difficulty": "medium",
+        "question": "Why are sequence numbers used in Stop-and-Wait ARQ?",
+        "options": [
+            {
+                "key": "A",
+                "text": "To detect duplicate frames"
+            },
+            {
+                "key": "B",
+                "text": "To compress data"
+            },
+            {
+                "key": "C",
+                "text": "To increase frame size"
+            },
+            {
+                "key": "D",
+                "text": "To perform routing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Sequence numbers help distinguish new frames from retransmitted duplicates."
+    },
+    {
+        "id": 90,
+        "subject": "Computer Networks",
+        "topic": "Go-Back-N ARQ",
+        "difficulty": "medium",
+        "question": "Which acknowledgment strategy is commonly used in Go-Back-N ARQ?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Individual acknowledgment for every bit"
+            },
+            {
+                "key": "B",
+                "text": "Cumulative acknowledgment"
+            },
+            {
+                "key": "C",
+                "text": "No acknowledgment"
+            },
+            {
+                "key": "D",
+                "text": "Negative acknowledgment only"
+            }
+        ],
+        "answer": "B",
+        "reason": "A cumulative acknowledgment confirms receipt of all frames up to a specific sequence number."
+    },
+    {
+        "id": 91,
+        "subject": "Computer Networks",
+        "topic": "Selective Reject ARQ",
+        "difficulty": "hard",
+        "question": "Which capability is required at the receiver for Selective Reject ARQ?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ability to store out-of-order frames"
+            },
+            {
+                "key": "B",
+                "text": "Ability to disable acknowledgments"
+            },
+            {
+                "key": "C",
+                "text": "Ability to ignore sequence numbers"
+            },
+            {
+                "key": "D",
+                "text": "Ability to broadcast all frames"
+            }
+        ],
+        "answer": "A",
+        "reason": "The receiver must buffer correctly received out-of-order frames until missing frames arrive."
+    },
+    {
+        "id": 92,
+        "subject": "Computer Networks",
+        "topic": "HDLC",
+        "difficulty": "medium",
+        "question": "HDLC is considered a reliable protocol because it supports:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Flow and Error Control"
+            },
+            {
+                "key": "B",
+                "text": "DNS Resolution"
+            },
+            {
+                "key": "C",
+                "text": "Application Services"
+            },
+            {
+                "key": "D",
+                "text": "Frequency Multiplexing"
+            }
+        ],
+        "answer": "A",
+        "reason": "HDLC incorporates mechanisms for flow control, error detection, and reliable frame delivery."
+    },
+    {
+        "id": 93,
+        "subject": "Computer Networks",
+        "topic": "HDLC",
+        "difficulty": "hard",
+        "question": "Bit stuffing in HDLC is performed after how many consecutive binary 1s?",
+        "options": [
+            {
+                "key": "A",
+                "text": "3"
+            },
+            {
+                "key": "B",
+                "text": "4"
+            },
+            {
+                "key": "C",
+                "text": "5"
+            },
+            {
+                "key": "D",
+                "text": "6"
+            }
+        ],
+        "answer": "C",
+        "reason": "After five consecutive 1s, HDLC inserts a 0 to prevent accidental formation of the flag pattern."
+    },
+    {
+        "id": 94,
+        "subject": "Computer Networks",
+        "topic": "ALOHA",
+        "difficulty": "easy",
+        "question": "A collision in ALOHA occurs when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Two or more stations transmit simultaneously"
+            },
+            {
+                "key": "B",
+                "text": "A frame is acknowledged"
+            },
+            {
+                "key": "C",
+                "text": "A token is received"
+            },
+            {
+                "key": "D",
+                "text": "A checksum is verified"
+            }
+        ],
+        "answer": "A",
+        "reason": "Simultaneous transmissions overlap and corrupt the transmitted frames."
+    },
+    {
+        "id": 95,
+        "subject": "Computer Networks",
+        "topic": "ALOHA",
+        "difficulty": "hard",
+        "question": "After detecting a collision in ALOHA, a station generally:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Retransmits immediately without delay"
+            },
+            {
+                "key": "B",
+                "text": "Waits for a random period before retransmission"
+            },
+            {
+                "key": "C",
+                "text": "Terminates the network"
+            },
+            {
+                "key": "D",
+                "text": "Changes its MAC address"
+            }
+        ],
+        "answer": "B",
+        "reason": "Random waiting periods reduce the chance of repeated collisions."
+    },
+    {
+        "id": 96,
+        "subject": "Computer Networks",
+        "topic": "Collision-Free Protocols",
+        "difficulty": "medium",
+        "question": "Which of the following is an example of a collision-free access method?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Pure ALOHA"
+            },
+            {
+                "key": "B",
+                "text": "Slotted ALOHA"
+            },
+            {
+                "key": "C",
+                "text": "Token Passing"
+            },
+            {
+                "key": "D",
+                "text": "Random Access Broadcasting"
+            }
+        ],
+        "answer": "C",
+        "reason": "Token passing ensures only one station transmits at a time, eliminating collisions."
+    },
+    {
+        "id": 97,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.3",
+        "difficulty": "medium",
+        "question": "The original IEEE 802.3 standard was designed primarily for which physical topology?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bus"
+            },
+            {
+                "key": "B",
+                "text": "Ring"
+            },
+            {
+                "key": "C",
+                "text": "Mesh"
+            },
+            {
+                "key": "D",
+                "text": "Tree"
+            }
+        ],
+        "answer": "A",
+        "reason": "Early Ethernet implementations under IEEE 802.3 were based on a bus topology."
+    },
+    {
+        "id": 98,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.4",
+        "difficulty": "hard",
+        "question": "IEEE 802.4 Token Bus was particularly suitable for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Deterministic industrial environments"
+            },
+            {
+                "key": "B",
+                "text": "Satellite communication"
+            },
+            {
+                "key": "C",
+                "text": "Optical backbone networks"
+            },
+            {
+                "key": "D",
+                "text": "Mobile cellular systems"
+            }
+        ],
+        "answer": "A",
+        "reason": "Token Bus provided predictable access times, which were valuable in industrial automation systems."
+    },
+    {
+        "id": 99,
+        "subject": "Computer Networks",
+        "topic": "IEEE 802.5",
+        "difficulty": "medium",
+        "question": "What circulates continuously around a Token Ring network when no station is transmitting?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Checksum Frame"
+            },
+            {
+                "key": "B",
+                "text": "Control Packet"
+            },
+            {
+                "key": "C",
+                "text": "Token"
+            },
+            {
+                "key": "D",
+                "text": "Parity Frame"
+            }
+        ],
+        "answer": "C",
+        "reason": "The token continuously circulates and grants transmission permission to stations."
+    },
+    {
+        "id": 100,
+        "subject": "Computer Networks",
+        "topic": "IEEE Standards for LAN",
+        "difficulty": "hard",
+        "question": "Which pairing of IEEE standard and LAN technology is correct?",
+        "options": [
+            {
+                "key": "A",
+                "text": "IEEE 802.3 - Token Ring"
+            },
+            {
+                "key": "B",
+                "text": "IEEE 802.4 - Ethernet"
+            },
+            {
+                "key": "C",
+                "text": "IEEE 802.5 - Token Ring"
+            },
+            {
+                "key": "D",
+                "text": "IEEE 802.3 - Token Bus"
+            }
+        ],
+        "answer": "C",
+        "reason": "IEEE 802.5 defines Token Ring networks, while IEEE 802.3 defines Ethernet and IEEE 802.4 defines Token Bus."
+    }
+]
