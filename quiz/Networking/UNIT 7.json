@@ -1,0 +1,1514 @@
+[
+  {
+    "id": 1,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "easy",
+    "question": "What is cloud networking?",
+    "options": [
+      { "key": "A", "text": "Networking performed only through satellites" },
+      {
+        "key": "B",
+        "text": "Use of cloud-based infrastructure and services to provide network connectivity"
+      },
+      { "key": "C", "text": "A local LAN without internet access" },
+      { "key": "D", "text": "A type of physical cabling" }
+    ],
+    "answer": "B",
+    "reason": "Cloud networking refers to delivering networking resources and services using cloud infrastructure rather than relying entirely on on-premises hardware."
+  },
+  {
+    "id": 2,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "easy",
+    "question": "Which characteristic is commonly associated with cloud networking?",
+    "options": [
+      { "key": "A", "text": "Scalability" },
+      { "key": "B", "text": "Fixed capacity" },
+      { "key": "C", "text": "Manual provisioning only" },
+      { "key": "D", "text": "No internet connectivity" }
+    ],
+    "answer": "A",
+    "reason": "Cloud networking allows resources to scale up or down based on demand."
+  },
+  {
+    "id": 3,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "easy",
+    "question": "Which cloud deployment model is available to the general public over the Internet?",
+    "options": [
+      { "key": "A", "text": "Private Cloud" },
+      { "key": "B", "text": "Community Cloud" },
+      { "key": "C", "text": "Public Cloud" },
+      { "key": "D", "text": "Local Cloud" }
+    ],
+    "answer": "C",
+    "reason": "Public cloud services are offered to multiple customers over the Internet."
+  },
+  {
+    "id": 4,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "medium",
+    "question": "Which cloud model combines public and private cloud resources?",
+    "options": [
+      { "key": "A", "text": "Local Cloud" },
+      { "key": "B", "text": "Hybrid Cloud" },
+      { "key": "C", "text": "Distributed Cloud" },
+      { "key": "D", "text": "Virtual Cloud" }
+    ],
+    "answer": "B",
+    "reason": "Hybrid cloud integrates public and private cloud environments to provide flexibility."
+  },
+  {
+    "id": 5,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "medium",
+    "question": "Which technology allows multiple virtual networks to operate on the same physical infrastructure in cloud environments?",
+    "options": [
+      { "key": "A", "text": "Virtualization" },
+      { "key": "B", "text": "Checksum" },
+      { "key": "C", "text": "ARP" },
+      { "key": "D", "text": "CRC" }
+    ],
+    "answer": "A",
+    "reason": "Virtualization enables efficient sharing of physical resources among multiple virtual networks."
+  },
+  {
+    "id": 6,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "medium",
+    "question": "Which cloud service model primarily provides virtual machines, storage, and networking resources?",
+    "options": [
+      { "key": "A", "text": "SaaS" },
+      { "key": "B", "text": "PaaS" },
+      { "key": "C", "text": "IaaS" },
+      { "key": "D", "text": "NaaS" }
+    ],
+    "answer": "C",
+    "reason": "Infrastructure as a Service (IaaS) provides computing, storage, and networking infrastructure."
+  },
+  {
+    "id": 7,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "hard",
+    "question": "Which cloud networking benefit helps organizations avoid large upfront hardware investments?",
+    "options": [
+      { "key": "A", "text": "Capital Expenditure Reduction" },
+      { "key": "B", "text": "Packet Switching" },
+      { "key": "C", "text": "Static Routing" },
+      { "key": "D", "text": "Subnet Aggregation" }
+    ],
+    "answer": "A",
+    "reason": "Cloud networking reduces capital expenditure by replacing large hardware purchases with on-demand services."
+  },
+  {
+    "id": 8,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "hard",
+    "question": "Which concept allows cloud resources to be provisioned automatically based on demand?",
+    "options": [
+      { "key": "A", "text": "Elasticity" },
+      { "key": "B", "text": "Checksum" },
+      { "key": "C", "text": "Fragmentation" },
+      { "key": "D", "text": "Collision Detection" }
+    ],
+    "answer": "A",
+    "reason": "Elasticity enables automatic scaling of resources to match workload requirements."
+  },
+  {
+    "id": 9,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "easy",
+    "question": "What does IoT stand for?",
+    "options": [
+      { "key": "A", "text": "Internet of Things" },
+      { "key": "B", "text": "Integration of Technology" },
+      { "key": "C", "text": "Internet of Terminals" },
+      { "key": "D", "text": "Interconnected Object Transmission" }
+    ],
+    "answer": "A",
+    "reason": "IoT stands for Internet of Things, referring to interconnected devices that communicate over networks."
+  },
+  {
+    "id": 10,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "easy",
+    "question": "Which of the following is an example of an IoT device?",
+    "options": [
+      { "key": "A", "text": "Smart Thermostat" },
+      { "key": "B", "text": "Traditional Hub" },
+      { "key": "C", "text": "Passive Coaxial Cable" },
+      { "key": "D", "text": "Patch Panel" }
+    ],
+    "answer": "A",
+    "reason": "Smart thermostats are IoT devices because they collect data and communicate over networks."
+  },
+  {
+    "id": 11,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "easy",
+    "question": "What is a key requirement for many IoT devices?",
+    "options": [
+      { "key": "A", "text": "Low Power Consumption" },
+      { "key": "B", "text": "High-End GPUs" },
+      { "key": "C", "text": "Large Monitors" },
+      { "key": "D", "text": "Dedicated Mainframes" }
+    ],
+    "answer": "A",
+    "reason": "Many IoT devices operate on batteries and require energy-efficient communication."
+  },
+  {
+    "id": 12,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "medium",
+    "question": "Which networking characteristic is important for large-scale IoT deployments?",
+    "options": [
+      { "key": "A", "text": "Scalability" },
+      { "key": "B", "text": "Manual Configuration Only" },
+      { "key": "C", "text": "Single Device Access" },
+      { "key": "D", "text": "No Addressing Scheme" }
+    ],
+    "answer": "A",
+    "reason": "IoT systems often involve thousands of devices, requiring scalable networking solutions."
+  },
+  {
+    "id": 13,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "medium",
+    "question": "Which layer typically collects sensor data in an IoT architecture?",
+    "options": [
+      { "key": "A", "text": "Perception Layer" },
+      { "key": "B", "text": "Transport Layer Only" },
+      { "key": "C", "text": "Session Layer" },
+      { "key": "D", "text": "Presentation Layer" }
+    ],
+    "answer": "A",
+    "reason": "The perception layer contains sensors and actuators that interact with the physical environment."
+  },
+  {
+    "id": 14,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "hard",
+    "question": "Why are lightweight protocols preferred in IoT environments?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Devices often have limited processing power and bandwidth"
+      },
+      { "key": "B", "text": "They increase packet size" },
+      { "key": "C", "text": "They require more memory" },
+      { "key": "D", "text": "They eliminate addressing" }
+    ],
+    "answer": "A",
+    "reason": "IoT devices usually have constrained resources, making lightweight protocols more efficient."
+  },
+  {
+    "id": 15,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "easy",
+    "question": "What does MQTT stand for?",
+    "options": [
+      { "key": "A", "text": "Message Queue Telemetry Transport" },
+      { "key": "B", "text": "Managed Query Transfer Technology" },
+      { "key": "C", "text": "Multi Queue Transmission Tool" },
+      { "key": "D", "text": "Messaging Quality Transfer Technique" }
+    ],
+    "answer": "A",
+    "reason": "MQTT stands for Message Queue Telemetry Transport."
+  },
+  {
+    "id": 16,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "easy",
+    "question": "MQTT follows which communication model?",
+    "options": [
+      { "key": "A", "text": "Client-Server" },
+      { "key": "B", "text": "Peer-to-Peer Only" },
+      { "key": "C", "text": "Publish-Subscribe" },
+      { "key": "D", "text": "Token Ring" }
+    ],
+    "answer": "C",
+    "reason": "MQTT is based on a publish-subscribe architecture using a broker."
+  },
+  {
+    "id": 17,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "easy",
+    "question": "Which component receives messages from publishers and distributes them to subscribers in MQTT?",
+    "options": [
+      { "key": "A", "text": "Router" },
+      { "key": "B", "text": "Broker" },
+      { "key": "C", "text": "Gateway" },
+      { "key": "D", "text": "Repeater" }
+    ],
+    "answer": "B",
+    "reason": "The MQTT broker manages message distribution between publishers and subscribers."
+  },
+  {
+    "id": 18,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "medium",
+    "question": "Why is MQTT widely used in IoT applications?",
+    "options": [
+      { "key": "A", "text": "Low Bandwidth and Lightweight Design" },
+      { "key": "B", "text": "Large Packet Headers" },
+      { "key": "C", "text": "Mandatory Encryption" },
+      { "key": "D", "text": "High Memory Requirements" }
+    ],
+    "answer": "A",
+    "reason": "MQTT minimizes bandwidth and resource usage, making it ideal for constrained devices."
+  },
+  {
+    "id": 19,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "medium",
+    "question": "In MQTT, a device that sends messages is called a:",
+    "options": [
+      { "key": "A", "text": "Subscriber" },
+      { "key": "B", "text": "Publisher" },
+      { "key": "C", "text": "Broker" },
+      { "key": "D", "text": "Collector" }
+    ],
+    "answer": "B",
+    "reason": "Publishers send data to topics managed by the broker."
+  },
+  {
+    "id": 20,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "medium",
+    "question": "In MQTT, messages are organized using:",
+    "options": [
+      { "key": "A", "text": "Topics" },
+      { "key": "B", "text": "Routes" },
+      { "key": "C", "text": "Subnets" },
+      { "key": "D", "text": "Frames" }
+    ],
+    "answer": "A",
+    "reason": "MQTT uses topics to categorize and distribute messages."
+  },
+  {
+    "id": 21,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "hard",
+    "question": "Which MQTT feature helps ensure message delivery reliability?",
+    "options": [
+      { "key": "A", "text": "QoS Levels" },
+      { "key": "B", "text": "CIDR" },
+      { "key": "C", "text": "ARP Tables" },
+      { "key": "D", "text": "TTL Values" }
+    ],
+    "answer": "A",
+    "reason": "MQTT Quality of Service (QoS) levels provide different guarantees for message delivery."
+  },
+  {
+    "id": 22,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "hard",
+    "question": "Which MQTT QoS level guarantees exactly one message delivery?",
+    "options": [
+      { "key": "A", "text": "QoS 0" },
+      { "key": "B", "text": "QoS 1" },
+      { "key": "C", "text": "QoS 2" },
+      { "key": "D", "text": "QoS 3" }
+    ],
+    "answer": "C",
+    "reason": "QoS 2 provides the highest delivery guarantee with exactly-once delivery semantics."
+  },
+  {
+    "id": 23,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "easy",
+    "question": "What does CoAP stand for?",
+    "options": [
+      { "key": "A", "text": "Constrained Application Protocol" },
+      { "key": "B", "text": "Controlled Access Protocol" },
+      { "key": "C", "text": "Cloud Application Process" },
+      { "key": "D", "text": "Communication Access Protocol" }
+    ],
+    "answer": "A",
+    "reason": "CoAP stands for Constrained Application Protocol and is designed for resource-constrained devices."
+  },
+  {
+    "id": 24,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "easy",
+    "question": "CoAP is primarily designed for:",
+    "options": [
+      { "key": "A", "text": "IoT Devices" },
+      { "key": "B", "text": "Mainframe Systems" },
+      { "key": "C", "text": "Satellite Routing" },
+      { "key": "D", "text": "Optical Switching" }
+    ],
+    "answer": "A",
+    "reason": "CoAP was specifically developed for constrained IoT devices and networks."
+  },
+  {
+    "id": 25,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "easy",
+    "question": "CoAP is often compared to which web protocol?",
+    "options": [
+      { "key": "A", "text": "HTTP" },
+      { "key": "B", "text": "SMTP" },
+      { "key": "C", "text": "FTP" },
+      { "key": "D", "text": "SNMP" }
+    ],
+    "answer": "A",
+    "reason": "CoAP provides REST-like functionality similar to HTTP but with lower overhead."
+  },
+  {
+    "id": 26,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "medium",
+    "question": "Which transport protocol does CoAP commonly use?",
+    "options": [
+      { "key": "A", "text": "TCP" },
+      { "key": "B", "text": "UDP" },
+      { "key": "C", "text": "ICMP" },
+      { "key": "D", "text": "ARP" }
+    ],
+    "answer": "B",
+    "reason": "CoAP typically runs over UDP to reduce communication overhead."
+  },
+  {
+    "id": 27,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "medium",
+    "question": "Which characteristic makes CoAP suitable for constrained environments?",
+    "options": [
+      { "key": "A", "text": "Lightweight Messages" },
+      { "key": "B", "text": "Large Headers" },
+      { "key": "C", "text": "Complex Routing Tables" },
+      { "key": "D", "text": "High CPU Usage" }
+    ],
+    "answer": "A",
+    "reason": "CoAP minimizes overhead, making it efficient for devices with limited resources."
+  },
+  {
+    "id": 28,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "hard",
+    "question": "CoAP is particularly useful in networks with:",
+    "options": [
+      { "key": "A", "text": "Limited Bandwidth and Power" },
+      { "key": "B", "text": "Unlimited Resources" },
+      { "key": "C", "text": "Dedicated Mainframes" },
+      { "key": "D", "text": "Fiber Backbones Only" }
+    ],
+    "answer": "A",
+    "reason": "CoAP was designed specifically for constrained environments with limited resources."
+  },
+  {
+    "id": 29,
+    "subject": "Computer Networks",
+    "topic": "MQTT vs CoAP",
+    "difficulty": "medium",
+    "question": "Which protocol primarily uses a publish-subscribe architecture?",
+    "options": [
+      { "key": "A", "text": "MQTT" },
+      { "key": "B", "text": "CoAP" },
+      { "key": "C", "text": "ARP" },
+      { "key": "D", "text": "ICMP" }
+    ],
+    "answer": "A",
+    "reason": "MQTT uses a broker-based publish-subscribe communication model."
+  },
+  {
+    "id": 30,
+    "subject": "Computer Networks",
+    "topic": "MQTT vs CoAP",
+    "difficulty": "medium",
+    "question": "Which protocol follows a request-response model similar to HTTP?",
+    "options": [
+      { "key": "A", "text": "MQTT" },
+      { "key": "B", "text": "CoAP" },
+      { "key": "C", "text": "BGP" },
+      { "key": "D", "text": "OSPF" }
+    ],
+    "answer": "B",
+    "reason": "CoAP follows a RESTful request-response model similar to HTTP."
+  },
+  {
+    "id": 31,
+    "subject": "Computer Networks",
+    "topic": "MQTT vs CoAP",
+    "difficulty": "hard",
+    "question": "Which protocol requires a broker for message distribution?",
+    "options": [
+      { "key": "A", "text": "MQTT" },
+      { "key": "B", "text": "CoAP" },
+      { "key": "C", "text": "DNS" },
+      { "key": "D", "text": "HTTP" }
+    ],
+    "answer": "A",
+    "reason": "MQTT relies on a broker to manage communication between publishers and subscribers."
+  },
+  {
+    "id": 32,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "easy",
+    "question": "What does SDN stand for?",
+    "options": [
+      { "key": "A", "text": "Software-Defined Networking" },
+      { "key": "B", "text": "Secure Data Networking" },
+      { "key": "C", "text": "System Driven Networking" },
+      { "key": "D", "text": "Software Data Nodes" }
+    ],
+    "answer": "A",
+    "reason": "SDN stands for Software-Defined Networking."
+  },
+  {
+    "id": 33,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "easy",
+    "question": "What is the main goal of SDN?",
+    "options": [
+      { "key": "A", "text": "Centralized and Programmable Network Control" },
+      { "key": "B", "text": "Increase Cable Length" },
+      { "key": "C", "text": "Replace TCP" },
+      { "key": "D", "text": "Eliminate Routing" }
+    ],
+    "answer": "A",
+    "reason": "SDN centralizes network control and enables programmability."
+  },
+  {
+    "id": 34,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "easy",
+    "question": "In SDN, which plane is separated from the data plane?",
+    "options": [
+      { "key": "A", "text": "Control Plane" },
+      { "key": "B", "text": "Physical Plane" },
+      { "key": "C", "text": "Optical Plane" },
+      { "key": "D", "text": "Transport Plane" }
+    ],
+    "answer": "A",
+    "reason": "SDN separates the control plane from the data forwarding plane."
+  },
+  {
+    "id": 35,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "medium",
+    "question": "Which SDN component makes centralized network decisions?",
+    "options": [
+      { "key": "A", "text": "SDN Controller" },
+      { "key": "B", "text": "Switch Only" },
+      { "key": "C", "text": "NIC" },
+      { "key": "D", "text": "Repeater" }
+    ],
+    "answer": "A",
+    "reason": "The SDN controller acts as the centralized intelligence of the network."
+  },
+  {
+    "id": 36,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "medium",
+    "question": "Which plane in SDN is responsible for forwarding packets?",
+    "options": [
+      { "key": "A", "text": "Data Plane" },
+      { "key": "B", "text": "Control Plane" },
+      { "key": "C", "text": "Application Plane" },
+      { "key": "D", "text": "Session Plane" }
+    ],
+    "answer": "A",
+    "reason": "The data plane forwards packets according to rules provided by the controller."
+  },
+  {
+    "id": 37,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "medium",
+    "question": "Which advantage is commonly associated with SDN?",
+    "options": [
+      { "key": "A", "text": "Simplified Network Management" },
+      { "key": "B", "text": "Elimination of Routing" },
+      { "key": "C", "text": "No Need for Switches" },
+      { "key": "D", "text": "Removal of IP Addresses" }
+    ],
+    "answer": "A",
+    "reason": "SDN centralization simplifies configuration, monitoring, and management."
+  },
+  {
+    "id": 38,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "hard",
+    "question": "Why is SDN considered programmable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Network behavior can be controlled through software"
+      },
+      { "key": "B", "text": "Switches cannot be configured" },
+      { "key": "C", "text": "It removes controllers" },
+      { "key": "D", "text": "It uses analog signals" }
+    ],
+    "answer": "A",
+    "reason": "SDN allows network administrators to control network behavior using software applications."
+  },
+  {
+    "id": 39,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "hard",
+    "question": "Which SDN characteristic improves network automation?",
+    "options": [
+      { "key": "A", "text": "Centralized Control" },
+      { "key": "B", "text": "Manual Device Configuration" },
+      { "key": "C", "text": "Physical Routing Only" },
+      { "key": "D", "text": "Static Cabling" }
+    ],
+    "answer": "A",
+    "reason": "Centralized control enables automated deployment and policy management."
+  },
+  {
+    "id": 40,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "hard",
+    "question": "Which protocol is commonly associated with SDN communication between controllers and switches?",
+    "options": [
+      { "key": "A", "text": "OpenFlow" },
+      { "key": "B", "text": "POP3" },
+      { "key": "C", "text": "SMTP" },
+      { "key": "D", "text": "FTP" }
+    ],
+    "answer": "A",
+    "reason": "OpenFlow is a widely known protocol used in SDN architectures."
+  },
+  {
+    "id": 41,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "hard",
+    "question": "A company wants to rapidly deploy networking resources across multiple geographic locations. Which cloud feature best supports this?",
+    "options": [
+      { "key": "A", "text": "Global Resource Availability" },
+      { "key": "B", "text": "Parity Checking" },
+      { "key": "C", "text": "Static Routing" },
+      { "key": "D", "text": "Circuit Switching" }
+    ],
+    "answer": "A",
+    "reason": "Cloud providers offer globally distributed infrastructure that can be deployed quickly."
+  },
+  {
+    "id": 42,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "hard",
+    "question": "In a smart city deployment with thousands of sensors, which networking requirement becomes especially important?",
+    "options": [
+      { "key": "A", "text": "Scalability" },
+      { "key": "B", "text": "Single User Access" },
+      { "key": "C", "text": "Manual Configuration Only" },
+      { "key": "D", "text": "Dedicated Fiber to Every Sensor" }
+    ],
+    "answer": "A",
+    "reason": "Large-scale IoT deployments require highly scalable network architectures."
+  },
+  {
+    "id": 43,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "medium",
+    "question": "A temperature sensor publishes readings to a broker, while a monitoring dashboard receives them. The dashboard acts as a:",
+    "options": [
+      { "key": "A", "text": "Subscriber" },
+      { "key": "B", "text": "Publisher" },
+      { "key": "C", "text": "Router" },
+      { "key": "D", "text": "Gateway" }
+    ],
+    "answer": "A",
+    "reason": "Subscribers receive messages from topics managed by the MQTT broker."
+  },
+  {
+    "id": 44,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "hard",
+    "question": "Which MQTT component decouples message producers from message consumers?",
+    "options": [
+      { "key": "A", "text": "Broker" },
+      { "key": "B", "text": "ARP Table" },
+      { "key": "C", "text": "DNS Cache" },
+      { "key": "D", "text": "Subnet Mask" }
+    ],
+    "answer": "A",
+    "reason": "The broker allows publishers and subscribers to communicate without direct awareness of each other."
+  },
+  {
+    "id": 45,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "medium",
+    "question": "Which CoAP feature makes it familiar to web developers?",
+    "options": [
+      { "key": "A", "text": "RESTful Design" },
+      { "key": "B", "text": "Token Ring Architecture" },
+      { "key": "C", "text": "Circuit Switching" },
+      { "key": "D", "text": "Distance Vector Routing" }
+    ],
+    "answer": "A",
+    "reason": "CoAP adopts REST principles similar to HTTP, making it easier to integrate with web applications."
+  },
+  {
+    "id": 46,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "hard",
+    "question": "Which protocol is generally preferred when direct request-response interaction is required between IoT devices?",
+    "options": [
+      { "key": "A", "text": "CoAP" },
+      { "key": "B", "text": "MQTT Only" },
+      { "key": "C", "text": "ARP" },
+      { "key": "D", "text": "BGP" }
+    ],
+    "answer": "A",
+    "reason": "CoAP's request-response model is suitable for direct interactions with constrained devices."
+  },
+  {
+    "id": 47,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "medium",
+    "question": "What happens to forwarding decisions in an SDN network?",
+    "options": [
+      { "key": "A", "text": "They are centrally managed by the controller" },
+      { "key": "B", "text": "They are manually hardcoded forever" },
+      { "key": "C", "text": "They require no switches" },
+      { "key": "D", "text": "They use only analog signals" }
+    ],
+    "answer": "A",
+    "reason": "The SDN controller manages forwarding rules and distributes them to network devices."
+  },
+  {
+    "id": 48,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "hard",
+    "question": "Which networking trend is most closely associated with network programmability and automation?",
+    "options": [
+      { "key": "A", "text": "SDN" },
+      { "key": "B", "text": "Token Ring" },
+      { "key": "C", "text": "Bus Topology" },
+      { "key": "D", "text": "Circuit Switching" }
+    ],
+    "answer": "A",
+    "reason": "SDN enables software-driven configuration, automation, and orchestration."
+  },
+  {
+    "id": 49,
+    "subject": "Computer Networks",
+    "topic": "Emerging Networking Concepts",
+    "difficulty": "hard",
+    "question": "Which combination correctly matches the technology and its primary purpose?",
+    "options": [
+      { "key": "A", "text": "MQTT - Publish/Subscribe IoT Messaging" },
+      { "key": "B", "text": "CoAP - Distance Vector Routing" },
+      { "key": "C", "text": "SDN - Email Retrieval" },
+      { "key": "D", "text": "Cloud Networking - Error Detection" }
+    ],
+    "answer": "A",
+    "reason": "MQTT is specifically designed for publish-subscribe messaging in IoT environments."
+  },
+  {
+    "id": 50,
+    "subject": "Computer Networks",
+    "topic": "Emerging Networking Concepts",
+    "difficulty": "hard",
+    "question": "A smart agriculture system uses cloud analytics, MQTT-enabled sensors, and SDN-controlled network infrastructure. Which statement best describes this deployment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Integration of cloud computing, IoT, and programmable networking"
+      },
+      { "key": "B", "text": "Traditional circuit-switched communication only" },
+      { "key": "C", "text": "Purely local networking without automation" },
+      { "key": "D", "text": "A legacy mainframe architecture" }
+    ],
+    "answer": "A",
+    "reason": "The deployment combines cloud networking, IoT communication protocols, and software-defined networking to create a modern intelligent network."
+  },
+  {
+    "id": 51,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "easy",
+    "question": "Which cloud deployment model is dedicated to a single organization?",
+    "options": [
+      { "key": "A", "text": "Public Cloud" },
+      { "key": "B", "text": "Private Cloud" },
+      { "key": "C", "text": "Hybrid Cloud" },
+      { "key": "D", "text": "Community Cloud" }
+    ],
+    "answer": "B",
+    "reason": "A private cloud is designed exclusively for one organization and offers greater control over resources and security."
+  },
+  {
+    "id": 52,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "medium",
+    "question": "Which cloud service model provides complete applications to end users over the Internet?",
+    "options": [
+      { "key": "A", "text": "IaaS" },
+      { "key": "B", "text": "PaaS" },
+      { "key": "C", "text": "SaaS" },
+      { "key": "D", "text": "NaaS" }
+    ],
+    "answer": "C",
+    "reason": "Software as a Service (SaaS) delivers ready-to-use applications to users through the Internet."
+  },
+  {
+    "id": 53,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "medium",
+    "question": "Which cloud service model provides a platform for application development and deployment?",
+    "options": [
+      { "key": "A", "text": "SaaS" },
+      { "key": "B", "text": "PaaS" },
+      { "key": "C", "text": "IaaS" },
+      { "key": "D", "text": "FaaS" }
+    ],
+    "answer": "B",
+    "reason": "Platform as a Service (PaaS) provides development tools, runtime environments, and deployment platforms."
+  },
+  {
+    "id": 54,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "hard",
+    "question": "Which cloud networking feature allows resources to be allocated and released automatically without human intervention?",
+    "options": [
+      { "key": "A", "text": "On-demand Self-Service" },
+      { "key": "B", "text": "Token Passing" },
+      { "key": "C", "text": "Store and Forward" },
+      { "key": "D", "text": "Broadcast Routing" }
+    ],
+    "answer": "A",
+    "reason": "On-demand self-service enables users and applications to provision resources automatically when needed."
+  },
+  {
+    "id": 55,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "hard",
+    "question": "What is the primary benefit of resource pooling in cloud networking?",
+    "options": [
+      { "key": "A", "text": "Dedicated hardware for every user" },
+      { "key": "B", "text": "Efficient sharing of computing resources among multiple users" },
+      { "key": "C", "text": "Elimination of virtualization" },
+      { "key": "D", "text": "Removal of security controls" }
+    ],
+    "answer": "B",
+    "reason": "Resource pooling allows cloud providers to serve multiple customers efficiently using shared infrastructure."
+  },
+  {
+    "id": 56,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "easy",
+    "question": "Which of the following is a common IoT application?",
+    "options": [
+      { "key": "A", "text": "Smart Home Automation" },
+      { "key": "B", "text": "Traditional Hub Networking" },
+      { "key": "C", "text": "Manual Packet Routing" },
+      { "key": "D", "text": "Static Cabling" }
+    ],
+    "answer": "A",
+    "reason": "Smart home automation systems use interconnected IoT devices to monitor and control home functions."
+  },
+  {
+    "id": 57,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "medium",
+    "question": "Which component in an IoT system is responsible for collecting environmental information?",
+    "options": [
+      { "key": "A", "text": "Sensor" },
+      { "key": "B", "text": "Router Only" },
+      { "key": "C", "text": "Firewall" },
+      { "key": "D", "text": "Switch" }
+    ],
+    "answer": "A",
+    "reason": "Sensors measure physical parameters such as temperature, humidity, pressure, or motion."
+  },
+  {
+    "id": 58,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "medium",
+    "question": "Which component performs actions in response to commands in an IoT system?",
+    "options": [
+      { "key": "A", "text": "Actuator" },
+      { "key": "B", "text": "DNS Server" },
+      { "key": "C", "text": "Bridge" },
+      { "key": "D", "text": "Hub" }
+    ],
+    "answer": "A",
+    "reason": "Actuators convert control signals into physical actions such as turning on lights or opening valves."
+  },
+  {
+    "id": 59,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "hard",
+    "question": "What is a major security concern in IoT deployments?",
+    "options": [
+      { "key": "A", "text": "Large attack surface due to many connected devices" },
+      { "key": "B", "text": "Lack of network addresses" },
+      { "key": "C", "text": "Absence of sensors" },
+      { "key": "D", "text": "No internet connectivity" }
+    ],
+    "answer": "A",
+    "reason": "The large number of connected devices increases the number of potential attack points."
+  },
+  {
+    "id": 60,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "hard",
+    "question": "Why is IPv6 important for IoT environments?",
+    "options": [
+      { "key": "A", "text": "Provides a vastly larger address space" },
+      { "key": "B", "text": "Eliminates wireless communication" },
+      { "key": "C", "text": "Removes routing functionality" },
+      { "key": "D", "text": "Disables cloud integration" }
+    ],
+    "answer": "A",
+    "reason": "IPv6 supports a huge number of unique addresses required for billions of IoT devices."
+  },
+  {
+    "id": 61,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "easy",
+    "question": "MQTT is particularly suitable for networks with:",
+    "options": [
+      { "key": "A", "text": "Limited Bandwidth" },
+      { "key": "B", "text": "Unlimited Resources" },
+      { "key": "C", "text": "No Devices" },
+      { "key": "D", "text": "Dedicated Supercomputers" }
+    ],
+    "answer": "A",
+    "reason": "MQTT minimizes communication overhead and is efficient in low-bandwidth environments."
+  },
+  {
+    "id": 62,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "medium",
+    "question": "In MQTT, what is a topic?",
+    "options": [
+      { "key": "A", "text": "A category used to organize messages" },
+      { "key": "B", "text": "A routing table" },
+      { "key": "C", "text": "A subnet mask" },
+      { "key": "D", "text": "A network cable" }
+    ],
+    "answer": "A",
+    "reason": "Topics are logical channels through which MQTT messages are published and received."
+  },
+  {
+    "id": 63,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "medium",
+    "question": "A weather station sends temperature data to an MQTT broker every minute. The weather station acts as a:",
+    "options": [
+      { "key": "A", "text": "Publisher" },
+      { "key": "B", "text": "Subscriber" },
+      { "key": "C", "text": "Controller" },
+      { "key": "D", "text": "Gateway" }
+    ],
+    "answer": "A",
+    "reason": "The weather station publishes data to a topic that can be consumed by subscribers."
+  },
+  {
+    "id": 64,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "hard",
+    "question": "Which MQTT QoS level delivers messages at least once?",
+    "options": [
+      { "key": "A", "text": "QoS 0" },
+      { "key": "B", "text": "QoS 1" },
+      { "key": "C", "text": "QoS 2" },
+      { "key": "D", "text": "QoS 3" }
+    ],
+    "answer": "B",
+    "reason": "QoS 1 guarantees at least one delivery but may result in duplicate messages."
+  },
+  {
+    "id": 65,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "hard",
+    "question": "Which MQTT QoS level provides the lowest overhead?",
+    "options": [
+      { "key": "A", "text": "QoS 0" },
+      { "key": "B", "text": "QoS 1" },
+      { "key": "C", "text": "QoS 2" },
+      { "key": "D", "text": "QoS 3" }
+    ],
+    "answer": "A",
+    "reason": "QoS 0 uses a fire-and-forget approach with no acknowledgments, minimizing overhead."
+  },
+  {
+    "id": 66,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "easy",
+    "question": "CoAP is designed primarily for:",
+    "options": [
+      { "key": "A", "text": "Constrained Devices and Networks" },
+      { "key": "B", "text": "Mainframe Clusters" },
+      { "key": "C", "text": "Satellite Broadcasting Only" },
+      { "key": "D", "text": "Optical Switching" }
+    ],
+    "answer": "A",
+    "reason": "CoAP is optimized for low-power devices and constrained networking environments."
+  },
+  {
+    "id": 67,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "medium",
+    "question": "Which communication pattern is most closely associated with CoAP?",
+    "options": [
+      { "key": "A", "text": "Request-Response" },
+      { "key": "B", "text": "Token Ring" },
+      { "key": "C", "text": "Distance Vector" },
+      { "key": "D", "text": "Publish-Subscribe Only" }
+    ],
+    "answer": "A",
+    "reason": "CoAP follows a request-response model similar to HTTP."
+  },
+  {
+    "id": 68,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "medium",
+    "question": "Which feature allows CoAP to operate efficiently on constrained devices?",
+    "options": [
+      { "key": "A", "text": "Compact Message Format" },
+      { "key": "B", "text": "Large Headers" },
+      { "key": "C", "text": "Complex State Management" },
+      { "key": "D", "text": "Mandatory TCP Sessions" }
+    ],
+    "answer": "A",
+    "reason": "CoAP uses compact binary messages to reduce communication overhead."
+  },
+  {
+    "id": 69,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "hard",
+    "question": "Which CoAP characteristic differentiates it from traditional HTTP?",
+    "options": [
+      { "key": "A", "text": "Typically runs over UDP" },
+      { "key": "B", "text": "Uses URLs" },
+      { "key": "C", "text": "Supports requests" },
+      { "key": "D", "text": "Transfers data" }
+    ],
+    "answer": "A",
+    "reason": "CoAP commonly operates over UDP, whereas HTTP traditionally uses TCP."
+  },
+  {
+    "id": 70,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "hard",
+    "question": "A battery-powered sensor with limited memory needs to communicate efficiently with a gateway. Which protocol is specifically designed for this scenario?",
+    "options": [
+      { "key": "A", "text": "CoAP" },
+      { "key": "B", "text": "BGP" },
+      { "key": "C", "text": "OSPF" },
+      { "key": "D", "text": "SMTP" }
+    ],
+    "answer": "A",
+    "reason": "CoAP is optimized for constrained devices with limited power, memory, and bandwidth."
+  },
+  {
+    "id": 71,
+    "subject": "Computer Networks",
+    "topic": "MQTT vs CoAP",
+    "difficulty": "medium",
+    "question": "Which protocol generally requires a broker?",
+    "options": [
+      { "key": "A", "text": "MQTT" },
+      { "key": "B", "text": "CoAP" },
+      { "key": "C", "text": "Both" },
+      { "key": "D", "text": "Neither" }
+    ],
+    "answer": "A",
+    "reason": "MQTT relies on a broker to manage communication between publishers and subscribers."
+  },
+  {
+    "id": 72,
+    "subject": "Computer Networks",
+    "topic": "MQTT vs CoAP",
+    "difficulty": "medium",
+    "question": "Which protocol is more similar to HTTP in its interaction style?",
+    "options": [
+      { "key": "A", "text": "MQTT" },
+      { "key": "B", "text": "CoAP" },
+      { "key": "C", "text": "ARP" },
+      { "key": "D", "text": "RIP" }
+    ],
+    "answer": "B",
+    "reason": "CoAP follows a RESTful request-response approach similar to HTTP."
+  },
+  {
+    "id": 73,
+    "subject": "Computer Networks",
+    "topic": "MQTT vs CoAP",
+    "difficulty": "hard",
+    "question": "Which protocol is generally preferred for event-driven sensor data distribution to multiple consumers?",
+    "options": [
+      { "key": "A", "text": "MQTT" },
+      { "key": "B", "text": "CoAP" },
+      { "key": "C", "text": "ICMP" },
+      { "key": "D", "text": "ARP" }
+    ],
+    "answer": "A",
+    "reason": "MQTT's publish-subscribe architecture is well suited for distributing sensor updates to multiple subscribers."
+  },
+  {
+    "id": 74,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "easy",
+    "question": "What is the role of the SDN controller?",
+    "options": [
+      { "key": "A", "text": "Centralized Network Management" },
+      { "key": "B", "text": "Physical Signal Amplification" },
+      { "key": "C", "text": "Cable Termination" },
+      { "key": "D", "text": "DNS Resolution" }
+    ],
+    "answer": "A",
+    "reason": "The SDN controller acts as the central point of intelligence and control in an SDN architecture."
+  },
+  {
+    "id": 75,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "easy",
+    "question": "Which SDN plane is responsible for making routing and forwarding decisions?",
+    "options": [
+      { "key": "A", "text": "Control Plane" },
+      { "key": "B", "text": "Data Plane" },
+      { "key": "C", "text": "Physical Plane" },
+      { "key": "D", "text": "Session Plane" }
+    ],
+    "answer": "A",
+    "reason": "The control plane determines how traffic should flow through the network."
+  },
+  {
+    "id": 76,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "medium",
+    "question": "In traditional networking, the control plane and data plane are usually:",
+    "options": [
+      { "key": "A", "text": "Integrated into the same device" },
+      { "key": "B", "text": "Always separated" },
+      { "key": "C", "text": "Removed entirely" },
+      { "key": "D", "text": "Hosted in the cloud only" }
+    ],
+    "answer": "A",
+    "reason": "Traditional routers and switches generally contain both control and forwarding functions."
+  },
+  {
+    "id": 77,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "medium",
+    "question": "Which benefit of SDN helps reduce configuration errors?",
+    "options": [
+      { "key": "A", "text": "Centralized Policy Management" },
+      { "key": "B", "text": "Manual Device Configuration" },
+      { "key": "C", "text": "Separate Networks for Every Device" },
+      { "key": "D", "text": "Static Rules Only" }
+    ],
+    "answer": "A",
+    "reason": "Centralized management allows consistent policy enforcement across the network."
+  },
+  {
+    "id": 78,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "hard",
+    "question": "What is a key advantage of separating the control plane from the data plane?",
+    "options": [
+      { "key": "A", "text": "Greater Network Flexibility" },
+      { "key": "B", "text": "Elimination of Routing" },
+      { "key": "C", "text": "Removal of Switches" },
+      { "key": "D", "text": "No Need for IP Addresses" }
+    ],
+    "answer": "A",
+    "reason": "Separation enables centralized control and more flexible network management."
+  },
+  {
+    "id": 79,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "hard",
+    "question": "Which technology is frequently used to implement SDN forwarding rules?",
+    "options": [
+      { "key": "A", "text": "OpenFlow" },
+      { "key": "B", "text": "POP3" },
+      { "key": "C", "text": "SMTP" },
+      { "key": "D", "text": "FTP" }
+    ],
+    "answer": "A",
+    "reason": "OpenFlow is a widely recognized protocol for communication between SDN controllers and switches."
+  },
+  {
+    "id": 80,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "hard",
+    "question": "Which SDN characteristic supports rapid deployment of new network services?",
+    "options": [
+      { "key": "A", "text": "Programmability" },
+      { "key": "B", "text": "Fixed Hardware Logic" },
+      { "key": "C", "text": "Manual Routing Only" },
+      { "key": "D", "text": "Physical Rewiring" }
+    ],
+    "answer": "A",
+    "reason": "Programmability allows administrators to introduce and modify services through software."
+  },
+  {
+    "id": 81,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "hard",
+    "question": "An organization expands from 100 to 10,000 users within a month. Which cloud networking capability is most beneficial?",
+    "options": [
+      { "key": "A", "text": "Elastic Scalability" },
+      { "key": "B", "text": "Circuit Switching" },
+      { "key": "C", "text": "Static Addressing" },
+      { "key": "D", "text": "Parity Checking" }
+    ],
+    "answer": "A",
+    "reason": "Elastic scalability allows cloud resources to grow rapidly in response to demand."
+  },
+  {
+    "id": 82,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "hard",
+    "question": "A smart agriculture network uses thousands of sensors distributed over large fields. Which requirement is most critical?",
+    "options": [
+      { "key": "A", "text": "Efficient Device Management at Scale" },
+      { "key": "B", "text": "Dedicated Mainframes" },
+      { "key": "C", "text": "No Network Connectivity" },
+      { "key": "D", "text": "Static Cabling Only" }
+    ],
+    "answer": "A",
+    "reason": "Large IoT deployments require scalable management and communication mechanisms."
+  },
+  {
+    "id": 83,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "hard",
+    "question": "If a subscriber is interested in temperature readings from multiple sensors, what MQTT feature enables this organization?",
+    "options": [
+      { "key": "A", "text": "Topics" },
+      { "key": "B", "text": "CRC" },
+      { "key": "C", "text": "Subnetting" },
+      { "key": "D", "text": "Fragmentation" }
+    ],
+    "answer": "A",
+    "reason": "Topics categorize messages, allowing subscribers to receive relevant data streams."
+  },
+  {
+    "id": 84,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "medium",
+    "question": "Which MQTT component handles subscriptions?",
+    "options": [
+      { "key": "A", "text": "Broker" },
+      { "key": "B", "text": "Sensor" },
+      { "key": "C", "text": "Router" },
+      { "key": "D", "text": "Gateway" }
+    ],
+    "answer": "A",
+    "reason": "The broker manages subscriptions and message delivery to subscribers."
+  },
+  {
+    "id": 85,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "medium",
+    "question": "CoAP is particularly useful when devices have:",
+    "options": [
+      { "key": "A", "text": "Limited Memory and Processing Power" },
+      { "key": "B", "text": "Unlimited Resources" },
+      { "key": "C", "text": "Dedicated Data Centers" },
+      { "key": "D", "text": "High-End GPUs" }
+    ],
+    "answer": "A",
+    "reason": "CoAP is optimized for resource-constrained devices common in IoT systems."
+  },
+  {
+    "id": 86,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "hard",
+    "question": "Which feature makes CoAP suitable for battery-powered devices?",
+    "options": [
+      { "key": "A", "text": "Low Communication Overhead" },
+      { "key": "B", "text": "Large Control Messages" },
+      { "key": "C", "text": "Mandatory Encryption Only" },
+      { "key": "D", "text": "Complex Routing Tables" }
+    ],
+    "answer": "A",
+    "reason": "Low communication overhead reduces power consumption and network usage."
+  },
+  {
+    "id": 87,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "medium",
+    "question": "Which type of network is easiest to automate using SDN principles?",
+    "options": [
+      { "key": "A", "text": "Programmable Network Infrastructure" },
+      { "key": "B", "text": "Standalone Hub Networks" },
+      { "key": "C", "text": "Manual Cable Networks" },
+      { "key": "D", "text": "Disconnected Systems" }
+    ],
+    "answer": "A",
+    "reason": "SDN is specifically designed to support programmable and automated network management."
+  },
+  {
+    "id": 88,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "hard",
+    "question": "A network administrator wants to change routing policies across hundreds of switches simultaneously. Which technology best supports this requirement?",
+    "options": [
+      { "key": "A", "text": "SDN" },
+      { "key": "B", "text": "Token Ring" },
+      { "key": "C", "text": "Bus Topology" },
+      { "key": "D", "text": "Manual CLI Configuration Only" }
+    ],
+    "answer": "A",
+    "reason": "SDN enables centralized policy deployment across many network devices."
+  },
+  {
+    "id": 89,
+    "subject": "Computer Networks",
+    "topic": "Emerging Networking Concepts",
+    "difficulty": "medium",
+    "question": "Which technology focuses on connecting physical objects to the Internet?",
+    "options": [
+      { "key": "A", "text": "IoT" },
+      { "key": "B", "text": "SDN" },
+      { "key": "C", "text": "BGP" },
+      { "key": "D", "text": "CRC" }
+    ],
+    "answer": "A",
+    "reason": "IoT enables physical devices to collect, exchange, and process data over networks."
+  },
+  {
+    "id": 90,
+    "subject": "Computer Networks",
+    "topic": "Emerging Networking Concepts",
+    "difficulty": "medium",
+    "question": "Which technology focuses on centralized network control and programmability?",
+    "options": [
+      { "key": "A", "text": "SDN" },
+      { "key": "B", "text": "SMTP" },
+      { "key": "C", "text": "FTP" },
+      { "key": "D", "text": "POP3" }
+    ],
+    "answer": "A",
+    "reason": "SDN separates control logic from forwarding hardware to enable centralized management."
+  },
+  {
+    "id": 91,
+    "subject": "Computer Networks",
+    "topic": "Emerging Networking Concepts",
+    "difficulty": "hard",
+    "question": "Which combination best matches the technology and purpose?",
+    "options": [
+      { "key": "A", "text": "MQTT - Publish/Subscribe Messaging" },
+      { "key": "B", "text": "CoAP - Distance Vector Routing" },
+      { "key": "C", "text": "SDN - Email Retrieval" },
+      { "key": "D", "text": "Cloud Networking - Error Detection" }
+    ],
+    "answer": "A",
+    "reason": "MQTT is specifically designed as a lightweight publish-subscribe messaging protocol."
+  },
+  {
+    "id": 92,
+    "subject": "Computer Networks",
+    "topic": "Emerging Networking Concepts",
+    "difficulty": "hard",
+    "question": "Which combination best supports a smart factory with centralized control, connected sensors, and scalable computing resources?",
+    "options": [
+      { "key": "A", "text": "SDN, IoT, and Cloud Networking" },
+      { "key": "B", "text": "ARP, ICMP, and CRC" },
+      { "key": "C", "text": "Bus Topology, Hub, and Repeater" },
+      { "key": "D", "text": "SMTP, POP3, and IMAP" }
+    ],
+    "answer": "A",
+    "reason": "Smart factories often combine IoT devices, cloud resources, and SDN-based control."
+  },
+  {
+    "id": 93,
+    "subject": "Computer Networks",
+    "topic": "Cloud Networking Basics",
+    "difficulty": "medium",
+    "question": "Which cloud networking feature enables users to pay only for resources they consume?",
+    "options": [
+      { "key": "A", "text": "Measured Service" },
+      { "key": "B", "text": "Static Billing" },
+      { "key": "C", "text": "Circuit Reservation" },
+      { "key": "D", "text": "Token Passing" }
+    ],
+    "answer": "A",
+    "reason": "Measured service tracks resource usage and supports pay-as-you-go pricing."
+  },
+  {
+    "id": 94,
+    "subject": "Computer Networks",
+    "topic": "MQTT",
+    "difficulty": "hard",
+    "question": "Which MQTT participant can both publish and subscribe to topics?",
+    "options": [
+      { "key": "A", "text": "Client" },
+      { "key": "B", "text": "Broker Only" },
+      { "key": "C", "text": "Switch" },
+      { "key": "D", "text": "Gateway Only" }
+    ],
+    "answer": "A",
+    "reason": "MQTT clients can act as publishers, subscribers, or both simultaneously."
+  },
+  {
+    "id": 95,
+    "subject": "Computer Networks",
+    "topic": "CoAP",
+    "difficulty": "hard",
+    "question": "Which protocol is more appropriate for direct sensor-to-gateway REST-style interactions?",
+    "options": [
+      { "key": "A", "text": "CoAP" },
+      { "key": "B", "text": "MQTT" },
+      { "key": "C", "text": "BGP" },
+      { "key": "D", "text": "OSPF" }
+    ],
+    "answer": "A",
+    "reason": "CoAP is designed around RESTful request-response interactions similar to HTTP."
+  },
+  {
+    "id": 96,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "easy",
+    "question": "Which SDN component actually forwards packets?",
+    "options": [
+      { "key": "A", "text": "Data Plane Device" },
+      { "key": "B", "text": "Controller Only" },
+      { "key": "C", "text": "Application Layer" },
+      { "key": "D", "text": "DNS Server" }
+    ],
+    "answer": "A",
+    "reason": "Switches and forwarding devices in the data plane handle actual packet forwarding."
+  },
+  {
+    "id": 97,
+    "subject": "Computer Networks",
+    "topic": "SDN",
+    "difficulty": "medium",
+    "question": "What is a major operational advantage of SDN for network administrators?",
+    "options": [
+      { "key": "A", "text": "Centralized Visibility of the Network" },
+      { "key": "B", "text": "Removal of All Routing" },
+      { "key": "C", "text": "No Need for Security Policies" },
+      { "key": "D", "text": "Elimination of IP Protocols" }
+    ],
+    "answer": "A",
+    "reason": "Centralized visibility helps administrators monitor and manage network behavior efficiently."
+  },
+  {
+    "id": 98,
+    "subject": "Computer Networks",
+    "topic": "IoT Networking",
+    "difficulty": "medium",
+    "question": "Which communication property is especially important for battery-powered IoT sensors?",
+    "options": [
+      { "key": "A", "text": "Energy Efficiency" },
+      { "key": "B", "text": "Large Packet Sizes" },
+      { "key": "C", "text": "Continuous Video Streaming" },
+      { "key": "D", "text": "Manual Configuration" }
+    ],
+    "answer": "A",
+    "reason": "Energy-efficient communication helps maximize battery life in IoT devices."
+  },
+  {
+    "id": 99,
+    "subject": "Computer Networks",
+    "topic": "Emerging Networking Concepts",
+    "difficulty": "hard",
+    "question": "A smart city platform uses cloud analytics, MQTT brokers, and SDN controllers. What is the primary advantage of combining these technologies?",
+    "options": [
+      { "key": "A", "text": "Scalable, Automated, and Data-Driven Network Operations" },
+      { "key": "B", "text": "Elimination of Internet Connectivity" },
+      { "key": "C", "text": "Removal of Sensors" },
+      { "key": "D", "text": "Replacement of IP Addressing" }
+    ],
+    "answer": "A",
+    "reason": "The combination provides scalable infrastructure, efficient IoT messaging, and centralized network control."
+  },
+  {
+    "id": 100,
+    "subject": "Computer Networks",
+    "topic": "Emerging Networking Concepts",
+    "difficulty": "hard",
+    "question": "Which statement correctly compares Cloud Networking, IoT, and SDN?",
+    "options": [
+      { "key": "A", "text": "Cloud provides scalable infrastructure, IoT connects devices, and SDN enables programmable control" },
+      { "key": "B", "text": "All three are routing protocols" },
+      { "key": "C", "text": "All three are transport-layer protocols" },
+      { "key": "D", "text": "All three perform the same networking function" }
+    ],
+    "answer": "A",
+    "reason": "Cloud networking provides scalable resources, IoT connects smart devices, and SDN offers centralized programmable network management."
+  }
+]
