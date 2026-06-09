@@ -30,6 +30,20 @@
     ]
   },
   {
+    "subject": "Networking",
+    "folder": "Networking",
+    "files": [
+      {
+        "label": "Unit 1",
+        "file": "UNIT 1.json"
+      },
+      {
+        "label": "Unit 2",
+        "file": "UNIT 2.json"
+      }
+    ]
+  },
+  {
     "subject": "Unix And Shell Programming",
     "folder": "UNIX and Shell Programming",
     "files": [

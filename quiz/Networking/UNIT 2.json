@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "easy",
+        "question": "What is the primary function of the Physical Layer in the OSI model?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Routing packets"
+            },
+            {
+                "key": "B",
+                "text": "Transmitting raw bits over a communication medium"
+            },
+            {
+                "key": "C",
+                "text": "Managing sessions"
+            },
+            {
+                "key": "D",
+                "text": "Encrypting data"
+            }
+        ],
+        "answer": "B",
+        "reason": "The Physical Layer is responsible for transmitting raw binary bits through physical communication channels."
+    },
+    {
+        "id": 2,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "easy",
+        "question": "Which unit is commonly used to measure data transmission rate?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Hertz"
+            },
+            {
+                "key": "B",
+                "text": "Volt"
+            },
+            {
+                "key": "C",
+                "text": "Bits per second (bps)"
+            },
+            {
+                "key": "D",
+                "text": "Ampere"
+            }
+        ],
+        "answer": "C",
+        "reason": "Data transmission speed is generally measured in bits per second (bps)."
+    },
+    {
+        "id": 3,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "medium",
+        "question": "What is bandwidth in data communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Amount of memory available"
+            },
+            {
+                "key": "B",
+                "text": "Maximum data carrying capacity of a medium"
+            },
+            {
+                "key": "C",
+                "text": "Transmission delay"
+            },
+            {
+                "key": "D",
+                "text": "Packet size"
+            }
+        ],
+        "answer": "B",
+        "reason": "Bandwidth represents the maximum amount of data that can be transmitted through a communication channel in a given time."
+    },
+    {
+        "id": 4,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "medium",
+        "question": "Which transmission mode allows communication in both directions simultaneously?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Simplex"
+            },
+            {
+                "key": "B",
+                "text": "Half-Duplex"
+            },
+            {
+                "key": "C",
+                "text": "Full-Duplex"
+            },
+            {
+                "key": "D",
+                "text": "Broadcast"
+            }
+        ],
+        "answer": "C",
+        "reason": "Full-duplex communication allows data transmission in both directions at the same time."
+    },
+    {
+        "id": 5,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "medium",
+        "question": "A walkie-talkie system is an example of which transmission mode?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Simplex"
+            },
+            {
+                "key": "B",
+                "text": "Half-Duplex"
+            },
+            {
+                "key": "C",
+                "text": "Full-Duplex"
+            },
+            {
+                "key": "D",
+                "text": "Multiplex"
+            }
+        ],
+        "answer": "B",
+        "reason": "Walkie-talkies allow communication in both directions but not simultaneously, making them half-duplex."
+    },
+    {
+        "id": 6,
+        "subject": "Computer Networks",
+        "topic": "Guided Media",
+        "difficulty": "easy",
+        "question": "Which guided transmission medium is most commonly used in Ethernet LANs?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "B",
+                "text": "Twisted Pair Cable"
+            },
+            {
+                "key": "C",
+                "text": "Satellite"
+            },
+            {
+                "key": "D",
+                "text": "Microwave"
+            }
+        ],
+        "answer": "B",
+        "reason": "Twisted pair cables such as `UTP` are widely used in Ethernet-based local area networks."
+    },
+    {
+        "id": 7,
+        "subject": "Computer Networks",
+        "topic": "Guided Media",
+        "difficulty": "easy",
+        "question": "Which transmission medium consists of two insulated copper wires twisted together?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Coaxial Cable"
+            },
+            {
+                "key": "B",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "C",
+                "text": "Twisted Pair Cable"
+            },
+            {
+                "key": "D",
+                "text": "Microwave"
+            }
+        ],
+        "answer": "C",
+        "reason": "Twisted pair cables contain two insulated conductors twisted together to reduce interference."
+    },
+    {
+        "id": 8,
+        "subject": "Computer Networks",
+        "topic": "Guided Media",
+        "difficulty": "medium",
+        "question": "What is the primary advantage of twisting wires in a twisted pair cable?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increase cable weight"
+            },
+            {
+                "key": "B",
+                "text": "Reduce electromagnetic interference"
+            },
+            {
+                "key": "C",
+                "text": "Increase voltage"
+            },
+            {
+                "key": "D",
+                "text": "Decrease conductivity"
+            }
+        ],
+        "answer": "B",
+        "reason": "Twisting helps cancel electromagnetic interference and crosstalk between wire pairs."
+    },
+    {
+        "id": 9,
+        "subject": "Computer Networks",
+        "topic": "Coaxial Cable",
+        "difficulty": "easy",
+        "question": "Which component is present at the center of a coaxial cable?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Glass Core"
+            },
+            {
+                "key": "B",
+                "text": "Copper Conductor"
+            },
+            {
+                "key": "C",
+                "text": "Plastic Tube"
+            },
+            {
+                "key": "D",
+                "text": "Radio Antenna"
+            }
+        ],
+        "answer": "B",
+        "reason": "A coaxial cable contains a central copper conductor surrounded by insulation and shielding."
+    },
+    {
+        "id": 10,
+        "subject": "Computer Networks",
+        "topic": "Coaxial Cable",
+        "difficulty": "medium",
+        "question": "Compared to twisted pair cable, coaxial cable generally provides:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Lower noise immunity"
+            },
+            {
+                "key": "B",
+                "text": "Higher susceptibility to interference"
+            },
+            {
+                "key": "C",
+                "text": "Better shielding against electromagnetic interference"
+            },
+            {
+                "key": "D",
+                "text": "No support for data transmission"
+            }
+        ],
+        "answer": "C",
+        "reason": "The shielding layer in coaxial cable offers better protection against external interference."
+    },
+    {
+        "id": 11,
+        "subject": "Computer Networks",
+        "topic": "Optical Fiber",
+        "difficulty": "easy",
+        "question": "Optical fiber transmits data using:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Electrical pulses"
+            },
+            {
+                "key": "B",
+                "text": "Magnetic waves"
+            },
+            {
+                "key": "C",
+                "text": "Light signals"
+            },
+            {
+                "key": "D",
+                "text": "Sound waves"
+            }
+        ],
+        "answer": "C",
+        "reason": "Optical fiber uses light pulses to transmit information through glass or plastic fibers."
+    },
+    {
+        "id": 12,
+        "subject": "Computer Networks",
+        "topic": "Optical Fiber",
+        "difficulty": "medium",
+        "question": "Which guided medium offers the highest bandwidth?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Twisted Pair"
+            },
+            {
+                "key": "B",
+                "text": "Coaxial Cable"
+            },
+            {
+                "key": "C",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "D",
+                "text": "Telephone Cable"
+            }
+        ],
+        "answer": "C",
+        "reason": "Optical fiber provides extremely high bandwidth and low signal attenuation."
+    },
+    {
+        "id": 13,
+        "subject": "Computer Networks",
+        "topic": "Optical Fiber",
+        "difficulty": "hard",
+        "question": "What principle allows light to travel through optical fiber?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Electromagnetic Induction"
+            },
+            {
+                "key": "B",
+                "text": "Diffraction"
+            },
+            {
+                "key": "C",
+                "text": "Total Internal Reflection"
+            },
+            {
+                "key": "D",
+                "text": "Resonance"
+            }
+        ],
+        "answer": "C",
+        "reason": "Optical fibers rely on total internal reflection to guide light through the core."
+    },
+    {
+        "id": 14,
+        "subject": "Computer Networks",
+        "topic": "Unguided Media",
+        "difficulty": "easy",
+        "question": "Which of the following is an unguided transmission medium?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Twisted Pair"
+            },
+            {
+                "key": "B",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "C",
+                "text": "Radio Waves"
+            },
+            {
+                "key": "D",
+                "text": "Coaxial Cable"
+            }
+        ],
+        "answer": "C",
+        "reason": "Radio waves propagate through free space and do not require a physical medium."
+    },
+    {
+        "id": 15,
+        "subject": "Computer Networks",
+        "topic": "Radio Communication",
+        "difficulty": "easy",
+        "question": "Radio waves can generally travel:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Only through cables"
+            },
+            {
+                "key": "B",
+                "text": "Through free space"
+            },
+            {
+                "key": "C",
+                "text": "Only through glass"
+            },
+            {
+                "key": "D",
+                "text": "Only underground"
+            }
+        ],
+        "answer": "B",
+        "reason": "Radio waves propagate wirelessly through free space."
+    },
+    {
+        "id": 16,
+        "subject": "Computer Networks",
+        "topic": "VHF",
+        "difficulty": "medium",
+        "question": "The abbreviation VHF stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Very High Frequency"
+            },
+            {
+                "key": "B",
+                "text": "Variable High Frequency"
+            },
+            {
+                "key": "C",
+                "text": "Virtual High Frequency"
+            },
+            {
+                "key": "D",
+                "text": "Verified High Frequency"
+            }
+        ],
+        "answer": "A",
+        "reason": "VHF stands for Very High Frequency and is commonly used in radio communications."
+    },
+    {
+        "id": 17,
+        "subject": "Computer Networks",
+        "topic": "Microwave Communication",
+        "difficulty": "medium",
+        "question": "Microwave communication generally requires:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Line-of-sight transmission"
+            },
+            {
+                "key": "B",
+                "text": "Underground cabling"
+            },
+            {
+                "key": "C",
+                "text": "Optical repeaters"
+            },
+            {
+                "key": "D",
+                "text": "Coaxial shielding"
+            }
+        ],
+        "answer": "A",
+        "reason": "Microwave signals typically require a clear line-of-sight path between antennas."
+    },
+    {
+        "id": 18,
+        "subject": "Computer Networks",
+        "topic": "Satellite Communication",
+        "difficulty": "medium",
+        "question": "Satellite communication is especially useful for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Very short-distance communication"
+            },
+            {
+                "key": "B",
+                "text": "Global coverage"
+            },
+            {
+                "key": "C",
+                "text": "Wired networking"
+            },
+            {
+                "key": "D",
+                "text": "Reducing latency"
+            }
+        ],
+        "answer": "B",
+        "reason": "Satellites provide communication coverage over large geographic regions."
+    },
+    {
+        "id": 19,
+        "subject": "Computer Networks",
+        "topic": "Infrared Communication",
+        "difficulty": "easy",
+        "question": "Infrared communication generally requires:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Physical cable"
+            },
+            {
+                "key": "B",
+                "text": "Line-of-sight communication"
+            },
+            {
+                "key": "C",
+                "text": "Satellite relay"
+            },
+            {
+                "key": "D",
+                "text": "Fiber optics"
+            }
+        ],
+        "answer": "B",
+        "reason": "Infrared communication typically requires a direct line-of-sight path."
+    },
+    {
+        "id": 20,
+        "subject": "Computer Networks",
+        "topic": "Encoding Schemes",
+        "difficulty": "easy",
+        "question": "What is the primary purpose of line encoding?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Compress data"
+            },
+            {
+                "key": "B",
+                "text": "Convert digital data into digital signals"
+            },
+            {
+                "key": "C",
+                "text": "Encrypt messages"
+            },
+            {
+                "key": "D",
+                "text": "Route packets"
+            }
+        ],
+        "answer": "B",
+        "reason": "Line encoding converts binary data into signal patterns suitable for transmission."
+    },
+    {
+        "id": 21,
+        "subject": "Computer Networks",
+        "topic": "NRZ Encoding",
+        "difficulty": "medium",
+        "question": "In `NRZ` encoding, a binary value is represented by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Constant voltage levels"
+            },
+            {
+                "key": "B",
+                "text": "Frequency changes only"
+            },
+            {
+                "key": "C",
+                "text": "Color changes"
+            },
+            {
+                "key": "D",
+                "text": "Phase shifts only"
+            }
+        ],
+        "answer": "A",
+        "reason": "`NRZ` uses distinct voltage levels to represent binary 0s and 1s."
+    },
+    {
+        "id": 22,
+        "subject": "Computer Networks",
+        "topic": "Manchester Encoding",
+        "difficulty": "medium",
+        "question": "Manchester encoding provides synchronization because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "It uses no transitions"
+            },
+            {
+                "key": "B",
+                "text": "There is a transition in the middle of every bit period"
+            },
+            {
+                "key": "C",
+                "text": "It doubles packet size"
+            },
+            {
+                "key": "D",
+                "text": "It uses multiple frequencies"
+            }
+        ],
+        "answer": "B",
+        "reason": "Manchester encoding includes a mid-bit transition that helps receiver clock synchronization."
+    },
+    {
+        "id": 23,
+        "subject": "Computer Networks",
+        "topic": "Differential Manchester",
+        "difficulty": "hard",
+        "question": "In Differential Manchester encoding, information is determined by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Absolute voltage level"
+            },
+            {
+                "key": "B",
+                "text": "Presence or absence of transition at the beginning of the bit"
+            },
+            {
+                "key": "C",
+                "text": "Signal color"
+            },
+            {
+                "key": "D",
+                "text": "Packet length"
+            }
+        ],
+        "answer": "B",
+        "reason": "Differential Manchester uses transitions to represent bits, making it less sensitive to polarity changes."
+    },
+    {
+        "id": 24,
+        "subject": "Computer Networks",
+        "topic": "Multiplexing",
+        "difficulty": "easy",
+        "question": "What is multiplexing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Combining multiple signals for transmission over a single medium"
+            },
+            {
+                "key": "B",
+                "text": "Encrypting network traffic"
+            },
+            {
+                "key": "C",
+                "text": "Replacing switches"
+            },
+            {
+                "key": "D",
+                "text": "Converting analog to digital signals"
+            }
+        ],
+        "answer": "A",
+        "reason": "Multiplexing allows multiple signals to share the same transmission medium."
+    },
+    {
+        "id": 25,
+        "subject": "Computer Networks",
+        "topic": "FDM",
+        "difficulty": "medium",
+        "question": "`FDM` stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Frequency Division Multiplexing"
+            },
+            {
+                "key": "B",
+                "text": "Fast Data Multiplexing"
+            },
+            {
+                "key": "C",
+                "text": "Frame Division Multiplexing"
+            },
+            {
+                "key": "D",
+                "text": "Fiber Data Management"
+            }
+        ],
+        "answer": "A",
+        "reason": "`FDM` divides available bandwidth into separate frequency bands."
+    },
+    {
+        "id": 26,
+        "subject": "Computer Networks",
+        "topic": "FDM",
+        "difficulty": "medium",
+        "question": "Which multiplexing technique is commonly used in radio and television broadcasting?",
+        "options": [
+            {
+                "key": "A",
+                "text": "TDM"
+            },
+            {
+                "key": "B",
+                "text": "FDM"
+            },
+            {
+                "key": "C",
+                "text": "WDM"
+            },
+            {
+                "key": "D",
+                "text": "CDM"
+            }
+        ],
+        "answer": "B",
+        "reason": "Broadcasting systems commonly use Frequency Division Multiplexing."
+    },
+    {
+        "id": 27,
+        "subject": "Computer Networks",
+        "topic": "TDM",
+        "difficulty": "medium",
+        "question": "`TDM` shares a communication channel by dividing it into:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Frequency bands"
+            },
+            {
+                "key": "B",
+                "text": "Time slots"
+            },
+            {
+                "key": "C",
+                "text": "Optical wavelengths"
+            },
+            {
+                "key": "D",
+                "text": "Packets only"
+            }
+        ],
+        "answer": "B",
+        "reason": "Time Division Multiplexing allocates different time slots to multiple users."
+    },
+    {
+        "id": 28,
+        "subject": "Computer Networks",
+        "topic": "WDM",
+        "difficulty": "medium",
+        "question": "`WDM` is primarily used with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Twisted Pair Cable"
+            },
+            {
+                "key": "B",
+                "text": "Coaxial Cable"
+            },
+            {
+                "key": "C",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "D",
+                "text": "Infrared Remote Controls"
+            }
+        ],
+        "answer": "C",
+        "reason": "Wavelength Division Multiplexing is used in optical fiber communication systems."
+    },
+    {
+        "id": 29,
+        "subject": "Computer Networks",
+        "topic": "WDM",
+        "difficulty": "hard",
+        "question": "What does `WDM` use to separate multiple channels?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Time slots"
+            },
+            {
+                "key": "B",
+                "text": "Packet identifiers"
+            },
+            {
+                "key": "C",
+                "text": "Different light wavelengths"
+            },
+            {
+                "key": "D",
+                "text": "Voltage levels"
+            }
+        ],
+        "answer": "C",
+        "reason": "`WDM` transmits multiple optical signals simultaneously using different wavelengths of light."
+    },
+    {
+        "id": 30,
+        "subject": "Computer Networks",
+        "topic": "Switching Techniques",
+        "difficulty": "easy",
+        "question": "Which switching technique establishes a dedicated communication path before data transfer begins?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "B",
+                "text": "Message Switching"
+            },
+            {
+                "key": "C",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "D",
+                "text": "Frame Switching"
+            }
+        ],
+        "answer": "C",
+        "reason": "Circuit switching reserves a dedicated communication path for the duration of the connection."
+    },
+    {
+        "id": 31,
+        "subject": "Computer Networks",
+        "topic": "Circuit Switching",
+        "difficulty": "medium",
+        "question": "Traditional telephone networks are based primarily on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "B",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "C",
+                "text": "Message Switching"
+            },
+            {
+                "key": "D",
+                "text": "WDM"
+            }
+        ],
+        "answer": "B",
+        "reason": "Conventional telephone systems establish dedicated circuits between communicating parties."
+    },
+    {
+        "id": 32,
+        "subject": "Computer Networks",
+        "topic": "Packet Switching",
+        "difficulty": "medium",
+        "question": "The Internet primarily uses:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "B",
+                "text": "Message Switching"
+            },
+            {
+                "key": "C",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "D",
+                "text": "Manual Switching"
+            }
+        ],
+        "answer": "C",
+        "reason": "Internet communication is based on packet switching, where data is divided into packets."
+    },
+    {
+        "id": 33,
+        "subject": "Computer Networks",
+        "topic": "Packet Switching",
+        "difficulty": "medium",
+        "question": "In packet switching, data is transmitted as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A dedicated signal"
+            },
+            {
+                "key": "B",
+                "text": "Fixed electrical current"
+            },
+            {
+                "key": "C",
+                "text": "Small packets"
+            },
+            {
+                "key": "D",
+                "text": "Optical wavelengths only"
+            }
+        ],
+        "answer": "C",
+        "reason": "Packet switching divides messages into smaller packets that are routed independently."
+    },
+    {
+        "id": 34,
+        "subject": "Computer Networks",
+        "topic": "Message Switching",
+        "difficulty": "medium",
+        "question": "Message switching follows which principle?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Store-and-forward"
+            },
+            {
+                "key": "B",
+                "text": "Dedicated circuits"
+            },
+            {
+                "key": "C",
+                "text": "Direct transmission only"
+            },
+            {
+                "key": "D",
+                "text": "Optical multiplexing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Message switching stores the complete message before forwarding it to the next node."
+    },
+    {
+        "id": 35,
+        "subject": "Computer Networks",
+        "topic": "Switching Techniques",
+        "difficulty": "hard",
+        "question": "Which switching technique generally provides the most efficient bandwidth utilization for bursty data traffic?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "B",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "C",
+                "text": "Manual Switching"
+            },
+            {
+                "key": "D",
+                "text": "Analog Switching"
+            }
+        ],
+        "answer": "B",
+        "reason": "Packet switching shares network resources dynamically, making it efficient for bursty traffic."
+    },
+    {
+        "id": 36,
+        "subject": "Computer Networks",
+        "topic": "Guided Media",
+        "difficulty": "hard",
+        "question": "Which transmission medium is completely immune to electromagnetic interference?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Twisted Pair"
+            },
+            {
+                "key": "B",
+                "text": "Coaxial Cable"
+            },
+            {
+                "key": "C",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "D",
+                "text": "VHF Radio"
+            }
+        ],
+        "answer": "C",
+        "reason": "Optical fiber uses light rather than electrical signals and is immune to electromagnetic interference."
+    },
+    {
+        "id": 37,
+        "subject": "Computer Networks",
+        "topic": "Microwave Communication",
+        "difficulty": "hard",
+        "question": "Why are microwave relay stations often placed on tall towers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "To increase cable length"
+            },
+            {
+                "key": "B",
+                "text": "To maintain line-of-sight communication"
+            },
+            {
+                "key": "C",
+                "text": "To reduce bandwidth"
+            },
+            {
+                "key": "D",
+                "text": "To increase packet size"
+            }
+        ],
+        "answer": "B",
+        "reason": "Microwave communication requires unobstructed line-of-sight paths between transmitting and receiving stations."
+    },
+    {
+        "id": 38,
+        "subject": "Computer Networks",
+        "topic": "Encoding Schemes",
+        "difficulty": "hard",
+        "question": "Which encoding scheme is more robust against polarity inversion problems?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NRZ"
+            },
+            {
+                "key": "B",
+                "text": "Differential Manchester"
+            },
+            {
+                "key": "C",
+                "text": "Simple Binary"
+            },
+            {
+                "key": "D",
+                "text": "Analog Encoding"
+            }
+        ],
+        "answer": "B",
+        "reason": "Differential Manchester depends on transitions rather than absolute voltage levels, making it resistant to polarity inversions."
+    },
+    {
+        "id": 39,
+        "subject": "Computer Networks",
+        "topic": "Multiplexing",
+        "difficulty": "medium",
+        "question": "A fiber optic provider sends multiple optical signals through a single fiber using different colors of light. Which technique is being used?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FDM"
+            },
+            {
+                "key": "B",
+                "text": "TDM"
+            },
+            {
+                "key": "C",
+                "text": "WDM"
+            },
+            {
+                "key": "D",
+                "text": "Message Switching"
+            }
+        ],
+        "answer": "C",
+        "reason": "WDM allows multiple channels to be transmitted over a single fiber using different wavelengths of light."
+    },
+    {
+        "id": 40,
+        "subject": "Computer Networks",
+        "topic": "Switching Techniques",
+        "difficulty": "hard",
+        "question": "A network node receives an entire message, stores it, and forwards it only after complete reception. Which switching technique is being used?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "B",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "C",
+                "text": "Message Switching"
+            },
+            {
+                "key": "D",
+                "text": "Virtual Circuit Switching"
+            }
+        ],
+        "answer": "C",
+        "reason": "Message switching uses a store-and-forward mechanism where complete messages are received before forwarding."
+    },
+    {
+        "id": 41,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "easy",
+        "question": "Which transmission mode supports communication in only one direction?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Simplex"
+            },
+            {
+                "key": "B",
+                "text": "Half-Duplex"
+            },
+            {
+                "key": "C",
+                "text": "Full-Duplex"
+            },
+            {
+                "key": "D",
+                "text": "Multiplex"
+            }
+        ],
+        "answer": "A",
+        "reason": "Simplex communication allows data flow in only one direction, such as television broadcasting."
+    },
+    {
+        "id": 42,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "medium",
+        "question": "A keyboard sending data to a computer is an example of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Simplex Communication"
+            },
+            {
+                "key": "B",
+                "text": "Half-Duplex Communication"
+            },
+            {
+                "key": "C",
+                "text": "Full-Duplex Communication"
+            },
+            {
+                "key": "D",
+                "text": "Duplex Multiplexing"
+            }
+        ],
+        "answer": "A",
+        "reason": "The keyboard only sends data to the computer and does not receive data back through the same communication channel."
+    },
+    {
+        "id": 43,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "medium",
+        "question": "The weakening of a signal as it travels through a medium is called:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Amplification"
+            },
+            {
+                "key": "B",
+                "text": "Attenuation"
+            },
+            {
+                "key": "C",
+                "text": "Modulation"
+            },
+            {
+                "key": "D",
+                "text": "Multiplexing"
+            }
+        ],
+        "answer": "B",
+        "reason": "Attenuation refers to the gradual loss of signal strength during transmission."
+    },
+    {
+        "id": 44,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "hard",
+        "question": "Noise in a communication channel primarily affects:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Data integrity"
+            },
+            {
+                "key": "B",
+                "text": "Cable length only"
+            },
+            {
+                "key": "C",
+                "text": "Router memory"
+            },
+            {
+                "key": "D",
+                "text": "Switch ports"
+            }
+        ],
+        "answer": "A",
+        "reason": "Noise introduces unwanted signals that can corrupt transmitted data and affect communication accuracy."
+    },
+    {
+        "id": 45,
+        "subject": "Computer Networks",
+        "topic": "Twisted Pair Cable",
+        "difficulty": "easy",
+        "question": "What does `UTP` stand for?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Universal Twisted Pair"
+            },
+            {
+                "key": "B",
+                "text": "Unshielded Twisted Pair"
+            },
+            {
+                "key": "C",
+                "text": "United Twisted Pair"
+            },
+            {
+                "key": "D",
+                "text": "Uniform Transmission Pair"
+            }
+        ],
+        "answer": "B",
+        "reason": "`UTP` stands for Unshielded Twisted Pair, a commonly used networking cable."
+    },
+    {
+        "id": 46,
+        "subject": "Computer Networks",
+        "topic": "Twisted Pair Cable",
+        "difficulty": "medium",
+        "question": "Which type of twisted pair cable provides additional protection against electromagnetic interference?",
+        "options": [
+            {
+                "key": "A",
+                "text": "UTP"
+            },
+            {
+                "key": "B",
+                "text": "STP"
+            },
+            {
+                "key": "C",
+                "text": "FTP Server"
+            },
+            {
+                "key": "D",
+                "text": "Coaxial Pair"
+            }
+        ],
+        "answer": "B",
+        "reason": "`STP` (Shielded Twisted Pair) includes metallic shielding to reduce interference."
+    },
+    {
+        "id": 47,
+        "subject": "Computer Networks",
+        "topic": "Twisted Pair Cable",
+        "difficulty": "medium",
+        "question": "Which cable is generally the least expensive guided transmission medium?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "B",
+                "text": "Coaxial Cable"
+            },
+            {
+                "key": "C",
+                "text": "Twisted Pair Cable"
+            },
+            {
+                "key": "D",
+                "text": "Submarine Cable"
+            }
+        ],
+        "answer": "C",
+        "reason": "Twisted pair cable is inexpensive, easy to install, and widely used in LANs."
+    },
+    {
+        "id": 48,
+        "subject": "Computer Networks",
+        "topic": "Coaxial Cable",
+        "difficulty": "medium",
+        "question": "Which layer surrounds the central conductor in a coaxial cable?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Insulating Layer"
+            },
+            {
+                "key": "B",
+                "text": "Router Layer"
+            },
+            {
+                "key": "C",
+                "text": "Switch Layer"
+            },
+            {
+                "key": "D",
+                "text": "Optical Core"
+            }
+        ],
+        "answer": "A",
+        "reason": "The central conductor is surrounded by an insulating dielectric layer."
+    },
+    {
+        "id": 49,
+        "subject": "Computer Networks",
+        "topic": "Coaxial Cable",
+        "difficulty": "hard",
+        "question": "Which characteristic makes coaxial cable suitable for cable television systems?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Low shielding"
+            },
+            {
+                "key": "B",
+                "text": "High susceptibility to noise"
+            },
+            {
+                "key": "C",
+                "text": "Good bandwidth and shielding"
+            },
+            {
+                "key": "D",
+                "text": "Uses light signals"
+            }
+        ],
+        "answer": "C",
+        "reason": "Coaxial cable provides relatively high bandwidth and effective shielding against interference."
+    },
+    {
+        "id": 50,
+        "subject": "Computer Networks",
+        "topic": "Optical Fiber",
+        "difficulty": "easy",
+        "question": "Which material is commonly used for the core of optical fiber?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Copper"
+            },
+            {
+                "key": "B",
+                "text": "Glass"
+            },
+            {
+                "key": "C",
+                "text": "Aluminum"
+            },
+            {
+                "key": "D",
+                "text": "Steel"
+            }
+        ],
+        "answer": "B",
+        "reason": "Optical fiber cores are generally made from glass or high-quality plastic."
+    },
+    {
+        "id": 51,
+        "subject": "Computer Networks",
+        "topic": "Optical Fiber",
+        "difficulty": "medium",
+        "question": "What is a major advantage of optical fiber over copper cables?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Higher electromagnetic interference"
+            },
+            {
+                "key": "B",
+                "text": "Lower bandwidth"
+            },
+            {
+                "key": "C",
+                "text": "Greater transmission distance"
+            },
+            {
+                "key": "D",
+                "text": "Higher attenuation"
+            }
+        ],
+        "answer": "C",
+        "reason": "Optical fiber supports long-distance communication with low attenuation."
+    },
+    {
+        "id": 52,
+        "subject": "Computer Networks",
+        "topic": "Optical Fiber",
+        "difficulty": "hard",
+        "question": "Which optical fiber type allows multiple light paths through the core?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Single-Mode Fiber"
+            },
+            {
+                "key": "B",
+                "text": "Multi-Mode Fiber"
+            },
+            {
+                "key": "C",
+                "text": "Coaxial Fiber"
+            },
+            {
+                "key": "D",
+                "text": "Differential Fiber"
+            }
+        ],
+        "answer": "B",
+        "reason": "Multi-mode fiber allows multiple propagation paths, unlike single-mode fiber."
+    },
+    {
+        "id": 53,
+        "subject": "Computer Networks",
+        "topic": "Radio Waves",
+        "difficulty": "easy",
+        "question": "Which wireless medium can penetrate walls more effectively than infrared signals?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Radio Waves"
+            },
+            {
+                "key": "B",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "C",
+                "text": "Twisted Pair"
+            },
+            {
+                "key": "D",
+                "text": "Coaxial Cable"
+            }
+        ],
+        "answer": "A",
+        "reason": "Radio waves can often penetrate walls and obstacles better than infrared signals."
+    },
+    {
+        "id": 54,
+        "subject": "Computer Networks",
+        "topic": "VHF",
+        "difficulty": "medium",
+        "question": "VHF signals are commonly used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Radio and television broadcasting"
+            },
+            {
+                "key": "B",
+                "text": "Optical networking"
+            },
+            {
+                "key": "C",
+                "text": "Fiber communication"
+            },
+            {
+                "key": "D",
+                "text": "Twisted pair transmission"
+            }
+        ],
+        "answer": "A",
+        "reason": "VHF frequencies are widely used in radio and television broadcasting systems."
+    },
+    {
+        "id": 55,
+        "subject": "Computer Networks",
+        "topic": "Microwave Communication",
+        "difficulty": "medium",
+        "question": "Microwave communication generally operates at:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Higher frequencies than standard radio waves"
+            },
+            {
+                "key": "B",
+                "text": "Lower frequencies than VHF"
+            },
+            {
+                "key": "C",
+                "text": "Zero frequency"
+            },
+            {
+                "key": "D",
+                "text": "Optical wavelengths"
+            }
+        ],
+        "answer": "A",
+        "reason": "Microwaves use higher frequency electromagnetic waves suitable for long-distance wireless communication."
+    },
+    {
+        "id": 56,
+        "subject": "Computer Networks",
+        "topic": "Satellite Communication",
+        "difficulty": "medium",
+        "question": "One disadvantage of satellite communication is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Limited coverage"
+            },
+            {
+                "key": "B",
+                "text": "High propagation delay"
+            },
+            {
+                "key": "C",
+                "text": "No wireless capability"
+            },
+            {
+                "key": "D",
+                "text": "Very short range"
+            }
+        ],
+        "answer": "B",
+        "reason": "Signals must travel large distances to satellites and back, causing noticeable delays."
+    },
+    {
+        "id": 57,
+        "subject": "Computer Networks",
+        "topic": "Infrared Communication",
+        "difficulty": "easy",
+        "question": "Infrared communication is commonly used in:",
+        "options": [
+            {
+                "key": "A",
+                "text": "TV Remote Controls"
+            },
+            {
+                "key": "B",
+                "text": "Fiber Optic Backbones"
+            },
+            {
+                "key": "C",
+                "text": "Submarine Networks"
+            },
+            {
+                "key": "D",
+                "text": "Satellite Links"
+            }
+        ],
+        "answer": "A",
+        "reason": "Television remote controls commonly use infrared signals for communication."
+    },
+    {
+        "id": 58,
+        "subject": "Computer Networks",
+        "topic": "Encoding Schemes",
+        "difficulty": "easy",
+        "question": "Which encoding scheme includes a transition in the middle of every bit period?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NRZ"
+            },
+            {
+                "key": "B",
+                "text": "Manchester"
+            },
+            {
+                "key": "C",
+                "text": "Polar NRZ-L"
+            },
+            {
+                "key": "D",
+                "text": "Unipolar"
+            }
+        ],
+        "answer": "B",
+        "reason": "Manchester encoding always has a mid-bit transition, aiding synchronization."
+    },
+    {
+        "id": 59,
+        "subject": "Computer Networks",
+        "topic": "NRZ Encoding",
+        "difficulty": "medium",
+        "question": "A disadvantage of `NRZ` encoding is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Poor clock synchronization during long runs of identical bits"
+            },
+            {
+                "key": "B",
+                "text": "Excessive bandwidth consumption"
+            },
+            {
+                "key": "C",
+                "text": "Requires optical fiber"
+            },
+            {
+                "key": "D",
+                "text": "Cannot transmit binary data"
+            }
+        ],
+        "answer": "A",
+        "reason": "Long sequences of identical bits can make clock recovery difficult in NRZ encoding."
+    },
+    {
+        "id": 60,
+        "subject": "Computer Networks",
+        "topic": "Manchester Encoding",
+        "difficulty": "medium",
+        "question": "Compared to `NRZ`, Manchester encoding generally requires:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Less bandwidth"
+            },
+            {
+                "key": "B",
+                "text": "More bandwidth"
+            },
+            {
+                "key": "C",
+                "text": "No synchronization"
+            },
+            {
+                "key": "D",
+                "text": "No transitions"
+            }
+        ],
+        "answer": "B",
+        "reason": "Manchester encoding requires more signal transitions and therefore more bandwidth."
+    },
+    {
+        "id": 61,
+        "subject": "Computer Networks",
+        "topic": "Differential Manchester",
+        "difficulty": "hard",
+        "question": "A key advantage of Differential Manchester encoding is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "No transitions are required"
+            },
+            {
+                "key": "B",
+                "text": "Insensitive to signal polarity reversal"
+            },
+            {
+                "key": "C",
+                "text": "Uses less bandwidth than NRZ"
+            },
+            {
+                "key": "D",
+                "text": "Requires no synchronization"
+            }
+        ],
+        "answer": "B",
+        "reason": "Differential Manchester relies on transitions rather than voltage levels, making it robust against polarity changes."
+    },
+    {
+        "id": 62,
+        "subject": "Computer Networks",
+        "topic": "Multiplexing",
+        "difficulty": "easy",
+        "question": "Which technique allows multiple users to share a single communication channel?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Switching"
+            },
+            {
+                "key": "B",
+                "text": "Routing"
+            },
+            {
+                "key": "C",
+                "text": "Multiplexing"
+            },
+            {
+                "key": "D",
+                "text": "Encoding"
+            }
+        ],
+        "answer": "C",
+        "reason": "Multiplexing combines multiple signals onto a single communication medium."
+    },
+    {
+        "id": 63,
+        "subject": "Computer Networks",
+        "topic": "FDM",
+        "difficulty": "medium",
+        "question": "In `FDM`, users are separated by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Time Slots"
+            },
+            {
+                "key": "B",
+                "text": "Frequency Bands"
+            },
+            {
+                "key": "C",
+                "text": "Packet Numbers"
+            },
+            {
+                "key": "D",
+                "text": "Message Sizes"
+            }
+        ],
+        "answer": "B",
+        "reason": "Frequency Division Multiplexing assigns a unique frequency band to each signal."
+    },
+    {
+        "id": 64,
+        "subject": "Computer Networks",
+        "topic": "TDM",
+        "difficulty": "medium",
+        "question": "Which multiplexing technique allocates transmission time among users?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FDM"
+            },
+            {
+                "key": "B",
+                "text": "WDM"
+            },
+            {
+                "key": "C",
+                "text": "TDM"
+            },
+            {
+                "key": "D",
+                "text": "SDM"
+            }
+        ],
+        "answer": "C",
+        "reason": "Time Division Multiplexing assigns specific time slots to multiple users."
+    },
+    {
+        "id": 65,
+        "subject": "Computer Networks",
+        "topic": "WDM",
+        "difficulty": "medium",
+        "question": "`WDM` can be viewed as the optical equivalent of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "TDM"
+            },
+            {
+                "key": "B",
+                "text": "FDM"
+            },
+            {
+                "key": "C",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "D",
+                "text": "Message Switching"
+            }
+        ],
+        "answer": "B",
+        "reason": "WDM separates channels using wavelengths, similar to how FDM separates channels using frequencies."
+    },
+    {
+        "id": 66,
+        "subject": "Computer Networks",
+        "topic": "Multiplexing",
+        "difficulty": "hard",
+        "question": "Which multiplexing technique offers the highest capacity in modern optical backbone networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FDM"
+            },
+            {
+                "key": "B",
+                "text": "TDM"
+            },
+            {
+                "key": "C",
+                "text": "WDM"
+            },
+            {
+                "key": "D",
+                "text": "Message Multiplexing"
+            }
+        ],
+        "answer": "C",
+        "reason": "WDM allows multiple optical channels to be transmitted simultaneously through a single fiber."
+    },
+    {
+        "id": 67,
+        "subject": "Computer Networks",
+        "topic": "Circuit Switching",
+        "difficulty": "easy",
+        "question": "Before communication begins in circuit switching, what must occur?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packet fragmentation"
+            },
+            {
+                "key": "B",
+                "text": "Path establishment"
+            },
+            {
+                "key": "C",
+                "text": "Message storage"
+            },
+            {
+                "key": "D",
+                "text": "Frequency allocation only"
+            }
+        ],
+        "answer": "B",
+        "reason": "Circuit switching requires a dedicated communication path to be established before data transfer."
+    },
+    {
+        "id": 68,
+        "subject": "Computer Networks",
+        "topic": "Circuit Switching",
+        "difficulty": "medium",
+        "question": "A major disadvantage of circuit switching is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Dedicated resources may remain unused"
+            },
+            {
+                "key": "B",
+                "text": "No communication path exists"
+            },
+            {
+                "key": "C",
+                "text": "Cannot transmit voice"
+            },
+            {
+                "key": "D",
+                "text": "No routing possible"
+            }
+        ],
+        "answer": "A",
+        "reason": "Reserved resources remain allocated even when no actual data is being transmitted."
+    },
+    {
+        "id": 69,
+        "subject": "Computer Networks",
+        "topic": "Packet Switching",
+        "difficulty": "medium",
+        "question": "In packet switching, different packets of the same message may:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Follow different routes"
+            },
+            {
+                "key": "B",
+                "text": "Use dedicated circuits only"
+            },
+            {
+                "key": "C",
+                "text": "Remain permanently stored"
+            },
+            {
+                "key": "D",
+                "text": "Never reach the destination"
+            }
+        ],
+        "answer": "A",
+        "reason": "Packets can travel independently and may follow different paths through the network."
+    },
+    {
+        "id": 70,
+        "subject": "Computer Networks",
+        "topic": "Packet Switching",
+        "difficulty": "hard",
+        "question": "Which characteristic makes packet switching efficient for Internet traffic?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Dedicated bandwidth allocation"
+            },
+            {
+                "key": "B",
+                "text": "Dynamic sharing of network resources"
+            },
+            {
+                "key": "C",
+                "text": "Permanent circuits"
+            },
+            {
+                "key": "D",
+                "text": "No routing required"
+            }
+        ],
+        "answer": "B",
+        "reason": "Packet switching allows users to share network resources dynamically, improving utilization."
+    },
+    {
+        "id": 71,
+        "subject": "Computer Networks",
+        "topic": "Message Switching",
+        "difficulty": "medium",
+        "question": "Message switching does not require:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Storage at intermediate nodes"
+            },
+            {
+                "key": "B",
+                "text": "A dedicated communication path"
+            },
+            {
+                "key": "C",
+                "text": "Forwarding operations"
+            },
+            {
+                "key": "D",
+                "text": "Routing decisions"
+            }
+        ],
+        "answer": "B",
+        "reason": "Unlike circuit switching, message switching does not establish a dedicated path before transmission."
+    },
+    {
+        "id": 72,
+        "subject": "Computer Networks",
+        "topic": "Message Switching",
+        "difficulty": "hard",
+        "question": "Why is message switching generally unsuitable for real-time applications?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Requires optical fiber"
+            },
+            {
+                "key": "B",
+                "text": "High storage and forwarding delays"
+            },
+            {
+                "key": "C",
+                "text": "Cannot route messages"
+            },
+            {
+                "key": "D",
+                "text": "Uses dedicated circuits"
+            }
+        ],
+        "answer": "B",
+        "reason": "Entire messages must be stored and forwarded, causing delays that are unsuitable for real-time communication."
+    },
+    {
+        "id": 73,
+        "subject": "Computer Networks",
+        "topic": "Switching Techniques",
+        "difficulty": "medium",
+        "question": "Which switching technique is most commonly used in modern data networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "B",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "C",
+                "text": "Message Switching"
+            },
+            {
+                "key": "D",
+                "text": "Manual Switching"
+            }
+        ],
+        "answer": "B",
+        "reason": "Modern data networks, including the Internet, primarily use packet switching."
+    },
+    {
+        "id": 74,
+        "subject": "Computer Networks",
+        "topic": "Switching Techniques",
+        "difficulty": "hard",
+        "question": "Which switching method guarantees a fixed communication path throughout a session?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "B",
+                "text": "Message Switching"
+            },
+            {
+                "key": "C",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "D",
+                "text": "Store-and-Forward Switching"
+            }
+        ],
+        "answer": "C",
+        "reason": "Circuit switching establishes and maintains a dedicated path for the duration of communication."
+    },
+    {
+        "id": 75,
+        "subject": "Computer Networks",
+        "topic": "Physical Layer",
+        "difficulty": "medium",
+        "question": "Which of the following topics is primarily associated with the OSI Physical Layer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "IP Addressing"
+            },
+            {
+                "key": "B",
+                "text": "Signal Transmission"
+            },
+            {
+                "key": "C",
+                "text": "Routing Algorithms"
+            },
+            {
+                "key": "D",
+                "text": "Session Management"
+            }
+        ],
+        "answer": "B",
+        "reason": "The Physical Layer deals with signal transmission, media, connectors, and electrical characteristics."
+    },
+    {
+        "id": 76,
+        "subject": "Computer Networks",
+        "topic": "Physical Layer",
+        "difficulty": "hard",
+        "question": "Which guided medium would be the best choice for a high-speed intercity backbone network?",
+        "options": [
+            {
+                "key": "A",
+                "text": "UTP Cable"
+            },
+            {
+                "key": "B",
+                "text": "STP Cable"
+            },
+            {
+                "key": "C",
+                "text": "Optical Fiber"
+            },
+            {
+                "key": "D",
+                "text": "Coaxial Cable"
+            }
+        ],
+        "answer": "C",
+        "reason": "Optical fiber provides extremely high bandwidth, long-distance support, and immunity to electromagnetic interference."
+    },
+    {
+        "id": 77,
+        "subject": "Computer Networks",
+        "topic": "Unguided Media",
+        "difficulty": "medium",
+        "question": "Which unguided medium is most suitable for communication with remote geographical regions where physical cabling is impractical?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Infrared"
+            },
+            {
+                "key": "B",
+                "text": "Satellite"
+            },
+            {
+                "key": "C",
+                "text": "VHF"
+            },
+            {
+                "key": "D",
+                "text": "Twisted Pair"
+            }
+        ],
+        "answer": "B",
+        "reason": "Satellite communication provides wide-area and global coverage, especially in remote locations."
+    },
+    {
+        "id": 78,
+        "subject": "Computer Networks",
+        "topic": "Encoding Schemes",
+        "difficulty": "medium",
+        "question": "Which encoding scheme is known for providing self-clocking capability?",
+        "options": [
+            {
+                "key": "A",
+                "text": "NRZ"
+            },
+            {
+                "key": "B",
+                "text": "Manchester"
+            },
+            {
+                "key": "C",
+                "text": "Unipolar NRZ"
+            },
+            {
+                "key": "D",
+                "text": "Static Encoding"
+            }
+        ],
+        "answer": "B",
+        "reason": "Manchester encoding provides clock synchronization through guaranteed signal transitions."
+    },
+    {
+        "id": 79,
+        "subject": "Computer Networks",
+        "topic": "Multiplexing",
+        "difficulty": "hard",
+        "question": "A communication channel is divided into equal recurring intervals, each assigned to a user. Which technique is being used?",
+        "options": [
+            {
+                "key": "A",
+                "text": "FDM"
+            },
+            {
+                "key": "B",
+                "text": "WDM"
+            },
+            {
+                "key": "C",
+                "text": "TDM"
+            },
+            {
+                "key": "D",
+                "text": "Packet Switching"
+            }
+        ],
+        "answer": "C",
+        "reason": "TDM allocates recurring time slots to different users sharing the same channel."
+    },
+    {
+        "id": 80,
+        "subject": "Computer Networks",
+        "topic": "Switching Techniques",
+        "difficulty": "hard",
+        "question": "A network application requires minimum delay variation and a guaranteed communication path. Which switching technique is most appropriate?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "B",
+                "text": "Message Switching"
+            },
+            {
+                "key": "C",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "D",
+                "text": "Store-and-Forward Networking"
+            }
+        ],
+        "answer": "C",
+        "reason": "Circuit switching provides a dedicated path with predictable performance and minimal delay variation."
+    },
+    {
+        "id": 81,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "medium",
+        "question": "The time taken by a signal to travel from sender to receiver is known as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Transmission Delay"
+            },
+            {
+                "key": "B",
+                "text": "Propagation Delay"
+            },
+            {
+                "key": "C",
+                "text": "Queuing Delay"
+            },
+            {
+                "key": "D",
+                "text": "Processing Delay"
+            }
+        ],
+        "answer": "B",
+        "reason": "Propagation delay refers to the time required for a signal to travel through a communication medium from source to destination."
+    },
+    {
+        "id": 82,
+        "subject": "Computer Networks",
+        "topic": "Data Transmission Concepts",
+        "difficulty": "hard",
+        "question": "Which factor primarily determines propagation delay in a communication channel?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packet Size"
+            },
+            {
+                "key": "B",
+                "text": "Distance and signal propagation speed"
+            },
+            {
+                "key": "C",
+                "text": "Router Memory"
+            },
+            {
+                "key": "D",
+                "text": "Number of Switch Ports"
+            }
+        ],
+        "answer": "B",
+        "reason": "Propagation delay depends on the physical distance traveled and the speed at which signals propagate through the medium."
+    },
+    {
+        "id": 83,
+        "subject": "Computer Networks",
+        "topic": "Twisted Pair Cable",
+        "difficulty": "easy",
+        "question": "Which connector is most commonly used with Ethernet twisted pair cables?",
+        "options": [
+            {
+                "key": "A",
+                "text": "RJ-45"
+            },
+            {
+                "key": "B",
+                "text": "BNC"
+            },
+            {
+                "key": "C",
+                "text": "SC"
+            },
+            {
+                "key": "D",
+                "text": "ST"
+            }
+        ],
+        "answer": "A",
+        "reason": "RJ-45 connectors are widely used for Ethernet networks employing twisted pair cabling."
+    },
+    {
+        "id": 84,
+        "subject": "Computer Networks",
+        "topic": "Twisted Pair Cable",
+        "difficulty": "medium",
+        "question": "Compared to UTP, STP cables are generally:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Cheaper and lighter"
+            },
+            {
+                "key": "B",
+                "text": "More resistant to interference"
+            },
+            {
+                "key": "C",
+                "text": "Unable to support LANs"
+            },
+            {
+                "key": "D",
+                "text": "Made of optical fibers"
+            }
+        ],
+        "answer": "B",
+        "reason": "Shielded Twisted Pair (STP) cables contain additional shielding that improves resistance to electromagnetic interference."
+    },
+    {
+        "id": 85,
+        "subject": "Computer Networks",
+        "topic": "Coaxial Cable",
+        "difficulty": "easy",
+        "question": "Which connector is traditionally associated with coaxial cable networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "RJ-45"
+            },
+            {
+                "key": "B",
+                "text": "USB-C"
+            },
+            {
+                "key": "C",
+                "text": "BNC"
+            },
+            {
+                "key": "D",
+                "text": "SC"
+            }
+        ],
+        "answer": "C",
+        "reason": "BNC connectors are commonly used with coaxial cables in networking and communication systems."
+    },
+    {
+        "id": 86,
+        "subject": "Computer Networks",
+        "topic": "Optical Fiber",
+        "difficulty": "medium",
+        "question": "Which optical fiber type is generally preferred for very long-distance communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Multi-Mode Fiber"
+            },
+            {
+                "key": "B",
+                "text": "Single-Mode Fiber"
+            },
+            {
+                "key": "C",
+                "text": "Coaxial Fiber"
+            },
+            {
+                "key": "D",
+                "text": "Shielded Fiber"
+            }
+        ],
+        "answer": "B",
+        "reason": "Single-mode fiber minimizes signal dispersion and is ideal for long-distance, high-speed communication."
+    },
+    {
+        "id": 87,
+        "subject": "Computer Networks",
+        "topic": "Optical Fiber",
+        "difficulty": "hard",
+        "question": "What is the primary cause of signal loss in optical fiber communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Attenuation"
+            },
+            {
+                "key": "B",
+                "text": "Magnetic Induction"
+            },
+            {
+                "key": "C",
+                "text": "Voltage Drop"
+            },
+            {
+                "key": "D",
+                "text": "Clock Drift"
+            }
+        ],
+        "answer": "A",
+        "reason": "Attenuation causes gradual reduction in optical signal power as light travels through the fiber."
+    },
+    {
+        "id": 88,
+        "subject": "Computer Networks",
+        "topic": "Radio Communication",
+        "difficulty": "medium",
+        "question": "Which property makes radio waves useful for mobile communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "They require physical cables"
+            },
+            {
+                "key": "B",
+                "text": "They support wireless mobility"
+            },
+            {
+                "key": "C",
+                "text": "They use optical wavelengths"
+            },
+            {
+                "key": "D",
+                "text": "They cannot penetrate obstacles"
+            }
+        ],
+        "answer": "B",
+        "reason": "Radio waves enable wireless communication and support user mobility."
+    },
+    {
+        "id": 89,
+        "subject": "Computer Networks",
+        "topic": "Satellite Communication",
+        "difficulty": "hard",
+        "question": "Which application benefits most from satellite communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Remote area connectivity"
+            },
+            {
+                "key": "B",
+                "text": "Short-range infrared communication"
+            },
+            {
+                "key": "C",
+                "text": "Local printer sharing"
+            },
+            {
+                "key": "D",
+                "text": "Wired Ethernet access"
+            }
+        ],
+        "answer": "A",
+        "reason": "Satellite communication is highly effective for providing connectivity to geographically isolated regions."
+    },
+    {
+        "id": 90,
+        "subject": "Computer Networks",
+        "topic": "Infrared Communication",
+        "difficulty": "medium",
+        "question": "A limitation of infrared communication is that it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Cannot transmit data"
+            },
+            {
+                "key": "B",
+                "text": "Requires line-of-sight in most cases"
+            },
+            {
+                "key": "C",
+                "text": "Requires satellites"
+            },
+            {
+                "key": "D",
+                "text": "Uses optical fibers"
+            }
+        ],
+        "answer": "B",
+        "reason": "Infrared signals generally require a direct line-of-sight path and are easily blocked by obstacles."
+    },
+    {
+        "id": 91,
+        "subject": "Computer Networks",
+        "topic": "NRZ Encoding",
+        "difficulty": "medium",
+        "question": "What does the abbreviation `NRZ` stand for?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Non-Return to Zero"
+            },
+            {
+                "key": "B",
+                "text": "Network Return Zone"
+            },
+            {
+                "key": "C",
+                "text": "Normal Return Zero"
+            },
+            {
+                "key": "D",
+                "text": "New Routing Zone"
+            }
+        ],
+        "answer": "A",
+        "reason": "`NRZ` stands for Non-Return to Zero, a commonly used line encoding scheme."
+    },
+    {
+        "id": 92,
+        "subject": "Computer Networks",
+        "topic": "Manchester Encoding",
+        "difficulty": "medium",
+        "question": "Why is Manchester encoding often preferred over NRZ in some networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Lower bandwidth usage"
+            },
+            {
+                "key": "B",
+                "text": "Better synchronization capability"
+            },
+            {
+                "key": "C",
+                "text": "No signal transitions"
+            },
+            {
+                "key": "D",
+                "text": "Requires less hardware"
+            }
+        ],
+        "answer": "B",
+        "reason": "Manchester encoding provides reliable clock synchronization due to mandatory signal transitions."
+    },
+    {
+        "id": 93,
+        "subject": "Computer Networks",
+        "topic": "Differential Manchester",
+        "difficulty": "hard",
+        "question": "Differential Manchester encoding always contains:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A transition in the middle of every bit period"
+            },
+            {
+                "key": "B",
+                "text": "No transitions at all"
+            },
+            {
+                "key": "C",
+                "text": "Only frequency changes"
+            },
+            {
+                "key": "D",
+                "text": "Optical pulses only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Differential Manchester guarantees a mid-bit transition for synchronization purposes."
+    },
+    {
+        "id": 94,
+        "subject": "Computer Networks",
+        "topic": "FDM",
+        "difficulty": "easy",
+        "question": "In `FDM`, multiple signals share a medium by using different:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Packets"
+            },
+            {
+                "key": "B",
+                "text": "Frequencies"
+            },
+            {
+                "key": "C",
+                "text": "Routers"
+            },
+            {
+                "key": "D",
+                "text": "Messages"
+            }
+        ],
+        "answer": "B",
+        "reason": "Frequency Division Multiplexing separates signals by assigning unique frequency bands."
+    },
+    {
+        "id": 95,
+        "subject": "Computer Networks",
+        "topic": "TDM",
+        "difficulty": "medium",
+        "question": "Which resource is divided among users in `TDM`?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Frequency Spectrum"
+            },
+            {
+                "key": "B",
+                "text": "Optical Wavelengths"
+            },
+            {
+                "key": "C",
+                "text": "Time"
+            },
+            {
+                "key": "D",
+                "text": "Voltage Levels"
+            }
+        ],
+        "answer": "C",
+        "reason": "Time Division Multiplexing allocates different time slots to users sharing the same channel."
+    },
+    {
+        "id": 96,
+        "subject": "Computer Networks",
+        "topic": "WDM",
+        "difficulty": "medium",
+        "question": "`WDM` stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Wide Data Multiplexing"
+            },
+            {
+                "key": "B",
+                "text": "Wireless Division Multiplexing"
+            },
+            {
+                "key": "C",
+                "text": "Wavelength Division Multiplexing"
+            },
+            {
+                "key": "D",
+                "text": "Wave Data Management"
+            }
+        ],
+        "answer": "C",
+        "reason": "WDM stands for Wavelength Division Multiplexing and is used in optical communication systems."
+    },
+    {
+        "id": 97,
+        "subject": "Computer Networks",
+        "topic": "Circuit Switching",
+        "difficulty": "medium",
+        "question": "During a circuit-switched call, bandwidth is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Shared dynamically among users"
+            },
+            {
+                "key": "B",
+                "text": "Reserved for the entire session"
+            },
+            {
+                "key": "C",
+                "text": "Allocated per packet"
+            },
+            {
+                "key": "D",
+                "text": "Not required"
+            }
+        ],
+        "answer": "B",
+        "reason": "Circuit switching reserves a dedicated communication path and associated bandwidth throughout the connection."
+    },
+    {
+        "id": 98,
+        "subject": "Computer Networks",
+        "topic": "Packet Switching",
+        "difficulty": "medium",
+        "question": "Why is packet switching considered more efficient than circuit switching for data networks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "It uses dedicated circuits"
+            },
+            {
+                "key": "B",
+                "text": "It eliminates routing"
+            },
+            {
+                "key": "C",
+                "text": "Network resources are shared dynamically"
+            },
+            {
+                "key": "D",
+                "text": "It requires no headers"
+            }
+        ],
+        "answer": "C",
+        "reason": "Packet switching allows multiple users to share network resources efficiently based on actual demand."
+    },
+    {
+        "id": 99,
+        "subject": "Computer Networks",
+        "topic": "Message Switching",
+        "difficulty": "hard",
+        "question": "Which switching technique stores an entire message at each intermediate node before forwarding it?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "B",
+                "text": "Packet Switching"
+            },
+            {
+                "key": "C",
+                "text": "Message Switching"
+            },
+            {
+                "key": "D",
+                "text": "Virtual Circuit Switching"
+            }
+        ],
+        "answer": "C",
+        "reason": "Message switching uses a store-and-forward mechanism where the complete message is received before transmission continues."
+    },
+    {
+        "id": 100,
+        "subject": "Computer Networks",
+        "topic": "Switching Techniques",
+        "difficulty": "hard",
+        "question": "A video conferencing application requires low delay and continuous bandwidth. Which switching technique is generally most suitable?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Message Switching"
+            },
+            {
+                "key": "B",
+                "text": "Circuit Switching"
+            },
+            {
+                "key": "C",
+                "text": "Store-and-Forward Switching"
+            },
+            {
+                "key": "D",
+                "text": "Batch Switching"
+            }
+        ],
+        "answer": "B",
+        "reason": "Circuit switching provides a dedicated path and predictable performance, making it suitable for real-time communication applications."
+    }
+]
