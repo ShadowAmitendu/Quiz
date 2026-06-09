@@ -1432,6 +1432,11 @@ if (localStorage.getItem("db_version") !== DB_VERSION) {
 	localStorage.setItem("db_version", DB_VERSION);
 }
 
+applyTheme(getStoredTheme());
+if (themeToggle) {
+	themeToggle.addEventListener("click", toggleTheme);
+}
+
 loadHome();
 if (typeof lucide !== "undefined") lucide.createIcons();
 
