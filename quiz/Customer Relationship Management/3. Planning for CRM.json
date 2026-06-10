@@ -1,0 +1,2702 @@
+[
+  {
+    "id": 1,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "easy",
+    "question": "The primary purpose of CRM planning is to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Develop effective customer relationship strategies"
+      },
+      {
+        "key": "B",
+        "text": "Increase production costs"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer interactions"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate marketing activities"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM planning helps organizations design strategies to acquire, retain, and grow customer relationships."
+  },
+  {
+    "id": 2,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "medium",
+    "question": "Effective CRM planning should be aligned with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Business objectives"
+      },
+      {
+        "key": "B",
+        "text": "Office furniture"
+      },
+      {
+        "key": "C",
+        "text": "Building design"
+      },
+      {
+        "key": "D",
+        "text": "Employee parking"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM initiatives should support overall business goals and strategic objectives."
+  },
+  {
+    "id": 3,
+    "subject": "Customer Relationship Management",
+    "topic": "Steps in Planning",
+    "difficulty": "easy",
+    "question": "Which is the first major step in CRM planning?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Building customer centricity"
+      },
+      {
+        "key": "B",
+        "text": "Closing customer accounts"
+      },
+      {
+        "key": "C",
+        "text": "Reducing customer data"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating support services"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer centricity forms the foundation of successful CRM planning."
+  },
+  {
+    "id": 4,
+    "subject": "Customer Relationship Management",
+    "topic": "Building Customer Centricity",
+    "difficulty": "easy",
+    "question": "Customer centricity means:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Focusing business decisions around customer needs"
+      },
+      {
+        "key": "B",
+        "text": "Focusing only on products"
+      },
+      {
+        "key": "C",
+        "text": "Ignoring customer feedback"
+      },
+      {
+        "key": "D",
+        "text": "Reducing customer interaction"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric organizations prioritize customer needs and expectations."
+  },
+  {
+    "id": 5,
+    "subject": "Customer Relationship Management",
+    "topic": "Building Customer Centricity",
+    "difficulty": "medium",
+    "question": "A customer-centric culture encourages employees to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prioritize customer satisfaction"
+      },
+      {
+        "key": "B",
+        "text": "Ignore customer complaints"
+      },
+      {
+        "key": "C",
+        "text": "Focus only on internal processes"
+      },
+      {
+        "key": "D",
+        "text": "Reduce service quality"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric cultures emphasize delivering value and satisfaction to customers."
+  },
+  {
+    "id": 6,
+    "subject": "Customer Relationship Management",
+    "topic": "Setting CRM Objectives",
+    "difficulty": "easy",
+    "question": "CRM objectives should be:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Clear and measurable"
+      },
+      {
+        "key": "B",
+        "text": "Vague and flexible only"
+      },
+      {
+        "key": "C",
+        "text": "Unrelated to business goals"
+      },
+      {
+        "key": "D",
+        "text": "Focused only on technology"
+      }
+    ],
+    "answer": "A",
+    "reason": "Clear objectives help organizations evaluate CRM performance effectively."
+  },
+  {
+    "id": 7,
+    "subject": "Customer Relationship Management",
+    "topic": "Setting CRM Objectives",
+    "difficulty": "medium",
+    "question": "Which of the following can be a CRM objective?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase customer retention"
+      },
+      {
+        "key": "B",
+        "text": "Reduce customer satisfaction"
+      },
+      {
+        "key": "C",
+        "text": "Eliminate customer support"
+      },
+      {
+        "key": "D",
+        "text": "Decrease service quality"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer retention is one of the most common CRM objectives."
+  },
+  {
+    "id": 8,
+    "subject": "Customer Relationship Management",
+    "topic": "Defining Data Requirements",
+    "difficulty": "easy",
+    "question": "Defining data requirements helps organizations determine:",
+    "options": [
+      {
+        "key": "A",
+        "text": "What customer information should be collected"
+      },
+      {
+        "key": "B",
+        "text": "Office layouts"
+      },
+      {
+        "key": "C",
+        "text": "Building maintenance schedules"
+      },
+      {
+        "key": "D",
+        "text": "Employee salaries"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM systems require relevant customer data to support decision-making."
+  },
+  {
+    "id": 9,
+    "subject": "Customer Relationship Management",
+    "topic": "Defining Data Requirements",
+    "difficulty": "medium",
+    "question": "Which type of data is most important for CRM?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer interaction data"
+      },
+      {
+        "key": "B",
+        "text": "Building dimensions"
+      },
+      {
+        "key": "C",
+        "text": "Machine serial numbers"
+      },
+      {
+        "key": "D",
+        "text": "Furniture inventory"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer interaction data provides insights into customer behavior and preferences."
+  },
+  {
+    "id": 10,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning Desired Outputs",
+    "difficulty": "easy",
+    "question": "Desired outputs in CRM planning refer to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expected results and reports from CRM systems"
+      },
+      {
+        "key": "B",
+        "text": "Manufacturing output"
+      },
+      {
+        "key": "C",
+        "text": "Payroll reports only"
+      },
+      {
+        "key": "D",
+        "text": "Inventory counts"
+      }
+    ],
+    "answer": "A",
+    "reason": "Desired outputs define what information and outcomes the CRM system should produce."
+  },
+  {
+    "id": 11,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning Desired Outputs",
+    "difficulty": "medium",
+    "question": "CRM outputs should support:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Business decision-making"
+      },
+      {
+        "key": "B",
+        "text": "Random data collection"
+      },
+      {
+        "key": "C",
+        "text": "Unnecessary reporting"
+      },
+      {
+        "key": "D",
+        "text": "Employee attendance tracking only"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM outputs should provide useful insights for strategic and operational decisions."
+  },
+  {
+    "id": 12,
+    "subject": "Customer Relationship Management",
+    "topic": "Relevant Issues While Planning Outputs",
+    "difficulty": "medium",
+    "question": "One important issue while planning CRM outputs is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accuracy of information"
+      },
+      {
+        "key": "B",
+        "text": "Wall color selection"
+      },
+      {
+        "key": "C",
+        "text": "Furniture arrangement"
+      },
+      {
+        "key": "D",
+        "text": "Building height"
+      }
+    ],
+    "answer": "A",
+    "reason": "Accurate outputs are essential for effective CRM decision-making."
+  },
+  {
+    "id": 13,
+    "subject": "Customer Relationship Management",
+    "topic": "Relevant Issues While Planning Outputs",
+    "difficulty": "hard",
+    "question": "Timeliness of CRM reports is important because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decisions often depend on current information"
+      },
+      {
+        "key": "B",
+        "text": "Old information is always sufficient"
+      },
+      {
+        "key": "C",
+        "text": "Reports are rarely used"
+      },
+      {
+        "key": "D",
+        "text": "Customers do not change behavior"
+      }
+    ],
+    "answer": "A",
+    "reason": "Timely information helps organizations respond quickly to customer needs."
+  },
+  {
+    "id": 14,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "easy",
+    "question": "Which is a key element of a CRM plan?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer strategy"
+      },
+      {
+        "key": "B",
+        "text": "Building architecture"
+      },
+      {
+        "key": "C",
+        "text": "Machine maintenance"
+      },
+      {
+        "key": "D",
+        "text": "Payroll management"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer strategy is a fundamental component of CRM planning."
+  },
+  {
+    "id": 15,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "medium",
+    "question": "A CRM plan typically includes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Objectives, data requirements, and strategies"
+      },
+      {
+        "key": "B",
+        "text": "Only financial reports"
+      },
+      {
+        "key": "C",
+        "text": "Only employee records"
+      },
+      {
+        "key": "D",
+        "text": "Only marketing brochures"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM plans integrate objectives, data, outputs, and implementation strategies."
+  },
+  {
+    "id": 16,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "easy",
+    "question": "CRM strategy focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Building and maintaining profitable customer relationships"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer communication"
+      },
+      {
+        "key": "C",
+        "text": "Increasing inventory"
+      },
+      {
+        "key": "D",
+        "text": "Managing buildings"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM strategy aims to maximize customer value and business profitability."
+  },
+  {
+    "id": 17,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "medium",
+    "question": "A successful CRM strategy should be based on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer needs and business goals"
+      },
+      {
+        "key": "B",
+        "text": "Random assumptions"
+      },
+      {
+        "key": "C",
+        "text": "Only technology"
+      },
+      {
+        "key": "D",
+        "text": "Office policies"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM strategies must align customer requirements with organizational objectives."
+  },
+  {
+    "id": 18,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "The primary goal of CRM strategy is to increase:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer lifetime value"
+      },
+      {
+        "key": "B",
+        "text": "Inventory levels"
+      },
+      {
+        "key": "C",
+        "text": "Office space"
+      },
+      {
+        "key": "D",
+        "text": "Administrative paperwork"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM strategies seek to maximize the long-term value generated by customers."
+  },
+  {
+    "id": 19,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "easy",
+    "question": "The strategy development process begins with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Analyzing customer and business needs"
+      },
+      {
+        "key": "B",
+        "text": "Hiring employees"
+      },
+      {
+        "key": "C",
+        "text": "Purchasing hardware"
+      },
+      {
+        "key": "D",
+        "text": "Designing office layouts"
+      }
+    ],
+    "answer": "A",
+    "reason": "Understanding customer and business needs is essential before developing strategy."
+  },
+  {
+    "id": 20,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "medium",
+    "question": "A CRM strategy development process should include:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer analysis and goal setting"
+      },
+      {
+        "key": "B",
+        "text": "Ignoring customer feedback"
+      },
+      {
+        "key": "C",
+        "text": "Reducing service quality"
+      },
+      {
+        "key": "D",
+        "text": "Avoiding data collection"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer analysis helps identify opportunities and define CRM goals."
+  },
+  {
+    "id": 21,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "hard",
+    "question": "An effective CRM strategy should be:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Flexible and adaptable to customer needs"
+      },
+      {
+        "key": "B",
+        "text": "Completely rigid"
+      },
+      {
+        "key": "C",
+        "text": "Independent of market conditions"
+      },
+      {
+        "key": "D",
+        "text": "Focused only on technology"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer expectations and market conditions change over time."
+  },
+  {
+    "id": 22,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "easy",
+    "question": "A Customer Strategy Grid helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Segment and manage customers strategically"
+      },
+      {
+        "key": "B",
+        "text": "Manage payroll"
+      },
+      {
+        "key": "C",
+        "text": "Track inventory"
+      },
+      {
+        "key": "D",
+        "text": "Design websites"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer Strategy Grids classify customers for strategic decision-making."
+  },
+  {
+    "id": 23,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "medium",
+    "question": "Customer Strategy Grids often classify customers based on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Value and relationship potential"
+      },
+      {
+        "key": "B",
+        "text": "Office location"
+      },
+      {
+        "key": "C",
+        "text": "Employee count"
+      },
+      {
+        "key": "D",
+        "text": "Building size"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer value and future potential are key segmentation factors."
+  },
+  {
+    "id": 24,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "High-value customers should generally receive:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Priority attention and customized services"
+      },
+      {
+        "key": "B",
+        "text": "Reduced support"
+      },
+      {
+        "key": "C",
+        "text": "No communication"
+      },
+      {
+        "key": "D",
+        "text": "Standard treatment only"
+      }
+    ],
+    "answer": "A",
+    "reason": "High-value customers contribute significantly to profitability."
+  },
+  {
+    "id": 25,
+    "subject": "Customer Relationship Management",
+    "topic": "Building Customer Centricity",
+    "difficulty": "hard",
+    "question": "Customer-centric organizations measure success primarily through:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer satisfaction and loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Building size"
+      },
+      {
+        "key": "C",
+        "text": "Number of desks"
+      },
+      {
+        "key": "D",
+        "text": "Electricity usage"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric organizations focus on customer outcomes and experiences."
+  },
+  {
+    "id": 26,
+    "subject": "Customer Relationship Management",
+    "topic": "Setting CRM Objectives",
+    "difficulty": "hard",
+    "question": "CRM objectives should follow which principle?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SMART (Specific, Measurable, Achievable, Relevant, Time-bound)"
+      },
+      {
+        "key": "B",
+        "text": "Random and flexible"
+      },
+      {
+        "key": "C",
+        "text": "Technology-only focus"
+      },
+      {
+        "key": "D",
+        "text": "Undefined goals"
+      }
+    ],
+    "answer": "A",
+    "reason": "SMART objectives provide clear direction and measurable outcomes."
+  },
+  {
+    "id": 27,
+    "subject": "Customer Relationship Management",
+    "topic": "Defining Data Requirements",
+    "difficulty": "hard",
+    "question": "Collecting excessive irrelevant data may lead to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increased complexity and reduced efficiency"
+      },
+      {
+        "key": "B",
+        "text": "Better decisions automatically"
+      },
+      {
+        "key": "C",
+        "text": "Higher customer satisfaction directly"
+      },
+      {
+        "key": "D",
+        "text": "Guaranteed profitability"
+      }
+    ],
+    "answer": "A",
+    "reason": "Only relevant customer data should be collected for effective CRM."
+  },
+  {
+    "id": 28,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning Desired Outputs",
+    "difficulty": "hard",
+    "question": "CRM outputs should be designed primarily for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Supporting managerial decision-making"
+      },
+      {
+        "key": "B",
+        "text": "Increasing paperwork"
+      },
+      {
+        "key": "C",
+        "text": "Reducing information availability"
+      },
+      {
+        "key": "D",
+        "text": "Replacing employees"
+      }
+    ],
+    "answer": "A",
+    "reason": "Useful outputs help managers make informed decisions."
+  },
+  {
+    "id": 29,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "medium",
+    "question": "Which element connects CRM activities with business goals?",
+    "options": [
+      {
+        "key": "A",
+        "text": "CRM strategy"
+      },
+      {
+        "key": "B",
+        "text": "Office administration"
+      },
+      {
+        "key": "C",
+        "text": "Building maintenance"
+      },
+      {
+        "key": "D",
+        "text": "Payroll processing"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM strategy ensures alignment between CRM initiatives and organizational objectives."
+  },
+  {
+    "id": 30,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "Customer segmentation is important in CRM strategy because it:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Allows different strategies for different customer groups"
+      },
+      {
+        "key": "B",
+        "text": "Treats all customers identically"
+      },
+      {
+        "key": "C",
+        "text": "Reduces customer knowledge"
+      },
+      {
+        "key": "D",
+        "text": "Eliminates personalization"
+      }
+    ],
+    "answer": "A",
+    "reason": "Different customer groups have different needs and values."
+  },
+  {
+    "id": 31,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "hard",
+    "question": "Market analysis during strategy development helps identify:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer opportunities and threats"
+      },
+      {
+        "key": "B",
+        "text": "Office decoration needs"
+      },
+      {
+        "key": "C",
+        "text": "Employee dress codes"
+      },
+      {
+        "key": "D",
+        "text": "Building materials"
+      }
+    ],
+    "answer": "A",
+    "reason": "Market analysis reveals opportunities, risks, and customer trends."
+  },
+  {
+    "id": 32,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "Low-value customers with high growth potential should generally be:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Developed and nurtured"
+      },
+      {
+        "key": "B",
+        "text": "Ignored completely"
+      },
+      {
+        "key": "C",
+        "text": "Removed immediately"
+      },
+      {
+        "key": "D",
+        "text": "Given reduced service quality"
+      }
+    ],
+    "answer": "A",
+    "reason": "Future potential makes such customers valuable strategic targets."
+  },
+  {
+    "id": 33,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "The Customer Strategy Grid helps maximize:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer value and profitability"
+      },
+      {
+        "key": "B",
+        "text": "Inventory levels"
+      },
+      {
+        "key": "C",
+        "text": "Office space"
+      },
+      {
+        "key": "D",
+        "text": "Paperwork volume"
+      }
+    ],
+    "answer": "A",
+    "reason": "The grid supports strategic allocation of resources across customer groups."
+  },
+  {
+    "id": 34,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "A CRM strategy should be reviewed regularly because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer needs and market conditions change"
+      },
+      {
+        "key": "B",
+        "text": "Strategies never work permanently"
+      },
+      {
+        "key": "C",
+        "text": "Technology becomes unnecessary"
+      },
+      {
+        "key": "D",
+        "text": "Customers remain identical forever"
+      }
+    ],
+    "answer": "A",
+    "reason": "Regular reviews ensure CRM strategies remain relevant and effective."
+  },
+  {
+    "id": 35,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "hard",
+    "question": "The success of CRM planning is ultimately reflected in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improved customer relationships and business performance"
+      },
+      {
+        "key": "B",
+        "text": "Higher paperwork volume"
+      },
+      {
+        "key": "C",
+        "text": "More office equipment"
+      },
+      {
+        "key": "D",
+        "text": "Larger storage facilities"
+      }
+    ],
+    "answer": "A",
+    "reason": "Effective CRM planning leads to stronger customer relationships, loyalty, and profitability."
+  },
+  {
+    "id": 36,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "medium",
+    "question": "CRM planning helps organizations reduce uncertainty by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Providing a structured approach to customer management"
+      },
+      {
+        "key": "B",
+        "text": "Eliminating customer interactions"
+      },
+      {
+        "key": "C",
+        "text": "Avoiding data collection"
+      },
+      {
+        "key": "D",
+        "text": "Ignoring customer feedback"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM planning provides a systematic framework for managing customer relationships."
+  },
+  {
+    "id": 37,
+    "subject": "Customer Relationship Management",
+    "topic": "Building Customer Centricity",
+    "difficulty": "medium",
+    "question": "Employee training in customer centricity aims to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improve customer-focused behavior"
+      },
+      {
+        "key": "B",
+        "text": "Reduce customer communication"
+      },
+      {
+        "key": "C",
+        "text": "Increase paperwork"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate service standards"
+      }
+    ],
+    "answer": "A",
+    "reason": "Training helps employees understand and respond to customer needs effectively."
+  },
+  {
+    "id": 38,
+    "subject": "Customer Relationship Management",
+    "topic": "Building Customer Centricity",
+    "difficulty": "hard",
+    "question": "A customer-centric organization treats customer feedback as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A valuable source of improvement opportunities"
+      },
+      {
+        "key": "B",
+        "text": "An unnecessary expense"
+      },
+      {
+        "key": "C",
+        "text": "A compliance requirement only"
+      },
+      {
+        "key": "D",
+        "text": "A marketing burden"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer feedback helps organizations improve products, services, and experiences."
+  },
+  {
+    "id": 39,
+    "subject": "Customer Relationship Management",
+    "topic": "Setting CRM Objectives",
+    "difficulty": "medium",
+    "question": "Which CRM objective focuses on increasing revenue from existing customers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cross-selling and upselling"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer retention"
+      },
+      {
+        "key": "C",
+        "text": "Eliminating support channels"
+      },
+      {
+        "key": "D",
+        "text": "Reducing customer value"
+      }
+    ],
+    "answer": "A",
+    "reason": "Cross-selling and upselling are common CRM objectives for increasing customer value."
+  },
+  {
+    "id": 40,
+    "subject": "Customer Relationship Management",
+    "topic": "Setting CRM Objectives",
+    "difficulty": "hard",
+    "question": "CRM objectives should be prioritized based on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Business impact and customer value"
+      },
+      {
+        "key": "B",
+        "text": "Office location"
+      },
+      {
+        "key": "C",
+        "text": "Furniture cost"
+      },
+      {
+        "key": "D",
+        "text": "Employee age"
+      }
+    ],
+    "answer": "A",
+    "reason": "Objectives should focus on delivering the greatest value to both customers and the organization."
+  },
+  {
+    "id": 41,
+    "subject": "Customer Relationship Management",
+    "topic": "Defining Data Requirements",
+    "difficulty": "medium",
+    "question": "Customer demographic data typically includes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Age, gender, and location"
+      },
+      {
+        "key": "B",
+        "text": "Machine specifications"
+      },
+      {
+        "key": "C",
+        "text": "Office dimensions"
+      },
+      {
+        "key": "D",
+        "text": "Warehouse capacity"
+      }
+    ],
+    "answer": "A",
+    "reason": "Demographic information helps organizations understand customer segments."
+  },
+  {
+    "id": 42,
+    "subject": "Customer Relationship Management",
+    "topic": "Defining Data Requirements",
+    "difficulty": "hard",
+    "question": "Data quality in CRM refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accuracy, completeness, and reliability of data"
+      },
+      {
+        "key": "B",
+        "text": "Data storage size only"
+      },
+      {
+        "key": "C",
+        "text": "Number of records collected"
+      },
+      {
+        "key": "D",
+        "text": "Database color scheme"
+      }
+    ],
+    "answer": "A",
+    "reason": "High-quality data is essential for accurate CRM analysis and decision-making."
+  },
+  {
+    "id": 43,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning Desired Outputs",
+    "difficulty": "medium",
+    "question": "A CRM dashboard is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A desired output of a CRM system"
+      },
+      {
+        "key": "B",
+        "text": "A customer acquisition strategy"
+      },
+      {
+        "key": "C",
+        "text": "A payroll report"
+      },
+      {
+        "key": "D",
+        "text": "A manufacturing schedule"
+      }
+    ],
+    "answer": "A",
+    "reason": "Dashboards provide summarized CRM information for decision-makers."
+  },
+  {
+    "id": 44,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning Desired Outputs",
+    "difficulty": "hard",
+    "question": "Desired outputs should be defined before implementation to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ensure the CRM system delivers useful information"
+      },
+      {
+        "key": "B",
+        "text": "Increase project delays"
+      },
+      {
+        "key": "C",
+        "text": "Reduce reporting capabilities"
+      },
+      {
+        "key": "D",
+        "text": "Avoid user involvement"
+      }
+    ],
+    "answer": "A",
+    "reason": "Clearly defined outputs guide system design and implementation."
+  },
+  {
+    "id": 45,
+    "subject": "Customer Relationship Management",
+    "topic": "Relevant Issues While Planning Outputs",
+    "difficulty": "medium",
+    "question": "CRM reports should be designed for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The needs of specific users and departments"
+      },
+      {
+        "key": "B",
+        "text": "Random audiences"
+      },
+      {
+        "key": "C",
+        "text": "External competitors"
+      },
+      {
+        "key": "D",
+        "text": "No specific purpose"
+      }
+    ],
+    "answer": "A",
+    "reason": "Different users require different information from CRM outputs."
+  },
+  {
+    "id": 46,
+    "subject": "Customer Relationship Management",
+    "topic": "Relevant Issues While Planning Outputs",
+    "difficulty": "hard",
+    "question": "Which issue can reduce the usefulness of CRM outputs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Information overload"
+      },
+      {
+        "key": "B",
+        "text": "Accurate reporting"
+      },
+      {
+        "key": "C",
+        "text": "Timely updates"
+      },
+      {
+        "key": "D",
+        "text": "Relevant information"
+      }
+    ],
+    "answer": "A",
+    "reason": "Too much information can make decision-making more difficult."
+  },
+  {
+    "id": 47,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "medium",
+    "question": "An implementation schedule is included in a CRM plan to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Define timelines and milestones"
+      },
+      {
+        "key": "B",
+        "text": "Manage payroll"
+      },
+      {
+        "key": "C",
+        "text": "Design products"
+      },
+      {
+        "key": "D",
+        "text": "Track inventory"
+      }
+    ],
+    "answer": "A",
+    "reason": "Implementation schedules help ensure CRM projects stay on track."
+  },
+  {
+    "id": 48,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "hard",
+    "question": "A CRM plan should identify required resources such as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "People, budget, and technology"
+      },
+      {
+        "key": "B",
+        "text": "Building colors only"
+      },
+      {
+        "key": "C",
+        "text": "Office chairs only"
+      },
+      {
+        "key": "D",
+        "text": "Parking spaces only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Successful CRM implementation depends on adequate resources."
+  },
+  {
+    "id": 49,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "medium",
+    "question": "Customer segmentation is important because it:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Allows targeted relationship strategies"
+      },
+      {
+        "key": "B",
+        "text": "Treats all customers the same"
+      },
+      {
+        "key": "C",
+        "text": "Eliminates personalization"
+      },
+      {
+        "key": "D",
+        "text": "Reduces customer knowledge"
+      }
+    ],
+    "answer": "A",
+    "reason": "Different customer segments often require different CRM approaches."
+  },
+  {
+    "id": 50,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "A retention-focused CRM strategy primarily aims to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reduce customer churn"
+      },
+      {
+        "key": "B",
+        "text": "Increase acquisition costs"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer satisfaction"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate customer support"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retention strategies focus on keeping valuable customers."
+  },
+  {
+    "id": 51,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "A customer development strategy focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increasing customer value over time"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer interactions"
+      },
+      {
+        "key": "C",
+        "text": "Lowering service quality"
+      },
+      {
+        "key": "D",
+        "text": "Decreasing customer profitability"
+      }
+    ],
+    "answer": "A",
+    "reason": "Development strategies aim to grow revenue and value from existing customers."
+  },
+  {
+    "id": 52,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "medium",
+    "question": "Competitive analysis is performed during strategy development to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Understand competitor strengths and weaknesses"
+      },
+      {
+        "key": "B",
+        "text": "Track employee attendance"
+      },
+      {
+        "key": "C",
+        "text": "Manage payroll"
+      },
+      {
+        "key": "D",
+        "text": "Reduce customer focus"
+      }
+    ],
+    "answer": "A",
+    "reason": "Understanding competitors helps organizations position their CRM strategies."
+  },
+  {
+    "id": 53,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "hard",
+    "question": "A CRM strategy should be continuously monitored to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Measure effectiveness and make improvements"
+      },
+      {
+        "key": "B",
+        "text": "Avoid customer feedback"
+      },
+      {
+        "key": "C",
+        "text": "Increase paperwork"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate reporting"
+      }
+    ],
+    "answer": "A",
+    "reason": "Monitoring helps ensure CRM strategies remain effective."
+  },
+  {
+    "id": 54,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "medium",
+    "question": "The Customer Strategy Grid is primarily used for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer classification and resource allocation"
+      },
+      {
+        "key": "B",
+        "text": "Inventory management"
+      },
+      {
+        "key": "C",
+        "text": "Payroll processing"
+      },
+      {
+        "key": "D",
+        "text": "Website design"
+      }
+    ],
+    "answer": "A",
+    "reason": "The grid helps determine how resources should be allocated among customer groups."
+  },
+  {
+    "id": 55,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "Customers with high current value and high future potential should typically be:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Retained and developed aggressively"
+      },
+      {
+        "key": "B",
+        "text": "Ignored"
+      },
+      {
+        "key": "C",
+        "text": "Given minimal support"
+      },
+      {
+        "key": "D",
+        "text": "Removed from the database"
+      }
+    ],
+    "answer": "A",
+    "reason": "These customers are often the most strategically important."
+  },
+  {
+    "id": 56,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "Resource allocation decisions in the Customer Strategy Grid are usually based on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer value and growth potential"
+      },
+      {
+        "key": "B",
+        "text": "Customer age only"
+      },
+      {
+        "key": "C",
+        "text": "Office location"
+      },
+      {
+        "key": "D",
+        "text": "Employee preferences"
+      }
+    ],
+    "answer": "A",
+    "reason": "Strategic decisions should focus on value and future opportunities."
+  },
+  {
+    "id": 57,
+    "subject": "Customer Relationship Management",
+    "topic": "Building Customer Centricity",
+    "difficulty": "hard",
+    "question": "Cross-functional collaboration supports customer centricity by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Providing a consistent customer experience"
+      },
+      {
+        "key": "B",
+        "text": "Increasing departmental isolation"
+      },
+      {
+        "key": "C",
+        "text": "Reducing communication"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating customer service"
+      }
+    ],
+    "answer": "A",
+    "reason": "Departments must work together to meet customer expectations."
+  },
+  {
+    "id": 58,
+    "subject": "Customer Relationship Management",
+    "topic": "Setting CRM Objectives",
+    "difficulty": "hard",
+    "question": "Which KPI is commonly used to measure CRM success?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer retention rate"
+      },
+      {
+        "key": "B",
+        "text": "Office rent"
+      },
+      {
+        "key": "C",
+        "text": "Number of desks"
+      },
+      {
+        "key": "D",
+        "text": "Building occupancy"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retention rate is a key indicator of CRM effectiveness."
+  },
+  {
+    "id": 59,
+    "subject": "Customer Relationship Management",
+    "topic": "Defining Data Requirements",
+    "difficulty": "hard",
+    "question": "Behavioral data in CRM includes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Purchase history and interaction patterns"
+      },
+      {
+        "key": "B",
+        "text": "Building architecture"
+      },
+      {
+        "key": "C",
+        "text": "Office equipment lists"
+      },
+      {
+        "key": "D",
+        "text": "Employee uniforms"
+      }
+    ],
+    "answer": "A",
+    "reason": "Behavioral data reveals how customers interact with a business."
+  },
+  {
+    "id": 60,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "The ultimate objective of CRM strategy is to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Create long-term profitable customer relationships"
+      },
+      {
+        "key": "B",
+        "text": "Increase paperwork"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer engagement"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate customer communication"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM strategy focuses on maximizing customer value and organizational profitability."
+  },
+  {
+    "id": 61,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "hard",
+    "question": "Customer needs analysis is important because it:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Helps design relevant CRM initiatives"
+      },
+      {
+        "key": "B",
+        "text": "Reduces customer knowledge"
+      },
+      {
+        "key": "C",
+        "text": "Eliminates segmentation"
+      },
+      {
+        "key": "D",
+        "text": "Avoids personalization"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM initiatives should be based on customer requirements and expectations."
+  },
+  {
+    "id": 62,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "The Customer Strategy Grid supports strategic planning by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prioritizing customers according to value and potential"
+      },
+      {
+        "key": "B",
+        "text": "Treating all customers equally"
+      },
+      {
+        "key": "C",
+        "text": "Ignoring customer profitability"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating customer analysis"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer prioritization helps organizations allocate resources effectively."
+  },
+  {
+    "id": 63,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "hard",
+    "question": "Risk assessment during CRM planning helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identify and manage potential implementation challenges"
+      },
+      {
+        "key": "B",
+        "text": "Avoid planning"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer focus"
+      },
+      {
+        "key": "D",
+        "text": "Ignore business objectives"
+      }
+    ],
+    "answer": "A",
+    "reason": "Identifying risks early improves project success."
+  },
+  {
+    "id": 64,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "hard",
+    "question": "A CRM budget is included in the CRM plan to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Estimate and control implementation costs"
+      },
+      {
+        "key": "B",
+        "text": "Track inventory"
+      },
+      {
+        "key": "C",
+        "text": "Manage office supplies"
+      },
+      {
+        "key": "D",
+        "text": "Calculate taxes"
+      }
+    ],
+    "answer": "A",
+    "reason": "Budgeting ensures resources are available and costs are controlled."
+  },
+  {
+    "id": 65,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "A proactive CRM strategy emphasizes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anticipating customer needs before problems occur"
+      },
+      {
+        "key": "B",
+        "text": "Reacting only after complaints"
+      },
+      {
+        "key": "C",
+        "text": "Ignoring customer trends"
+      },
+      {
+        "key": "D",
+        "text": "Reducing communication channels"
+      }
+    ],
+    "answer": "A",
+    "reason": "Proactive strategies improve customer satisfaction and loyalty by anticipating needs."
+  },
+  {
+    "id": 66,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "The main advantage of using a Customer Strategy Grid is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Better allocation of CRM resources and efforts"
+      },
+      {
+        "key": "B",
+        "text": "Elimination of customer segmentation"
+      },
+      {
+        "key": "C",
+        "text": "Reduced customer understanding"
+      },
+      {
+        "key": "D",
+        "text": "Increased reporting complexity"
+      }
+    ],
+    "answer": "A",
+    "reason": "The grid helps focus resources where they can generate the greatest value."
+  },
+  {
+    "id": 67,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "hard",
+    "question": "The success of CRM planning depends heavily on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Management commitment and organizational support"
+      },
+      {
+        "key": "B",
+        "text": "Office size"
+      },
+      {
+        "key": "C",
+        "text": "Parking facilities"
+      },
+      {
+        "key": "D",
+        "text": "Building design"
+      }
+    ],
+    "answer": "A",
+    "reason": "Leadership support is critical for successful CRM implementation and adoption."
+  },
+  {
+    "id": 68,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "Strategic CRM differs from operational CRM because it focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Long-term customer relationship development"
+      },
+      {
+        "key": "B",
+        "text": "Daily transaction processing only"
+      },
+      {
+        "key": "C",
+        "text": "Inventory management"
+      },
+      {
+        "key": "D",
+        "text": "Payroll administration"
+      }
+    ],
+    "answer": "A",
+    "reason": "Strategic CRM is concerned with long-term customer value and relationships."
+  },
+  {
+    "id": 69,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "hard",
+    "question": "The final step in strategy development is typically:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Implementation and performance evaluation"
+      },
+      {
+        "key": "B",
+        "text": "Ignoring results"
+      },
+      {
+        "key": "C",
+        "text": "Deleting customer data"
+      },
+      {
+        "key": "D",
+        "text": "Stopping customer communication"
+      }
+    ],
+    "answer": "A",
+    "reason": "Strategies must be implemented and evaluated to determine effectiveness."
+  },
+  {
+    "id": 70,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "Customers with low value and low future potential are generally:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Given minimal resource investment"
+      },
+      {
+        "key": "B",
+        "text": "Given maximum priority"
+      },
+      {
+        "key": "C",
+        "text": "Assigned premium services"
+      },
+      {
+        "key": "D",
+        "text": "Targeted for aggressive development"
+      }
+    ],
+    "answer": "A",
+    "reason": "Resources are usually focused on customers with greater value and growth potential."
+  },
+  {
+    "id": 71,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "medium",
+    "question": "A feasibility study in CRM planning is conducted to determine:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Whether the CRM initiative can be successfully implemented"
+      },
+      {
+        "key": "B",
+        "text": "Employee attendance levels"
+      },
+      {
+        "key": "C",
+        "text": "Office maintenance costs"
+      },
+      {
+        "key": "D",
+        "text": "Building occupancy rates"
+      }
+    ],
+    "answer": "A",
+    "reason": "Feasibility studies assess technical, financial, and organizational viability."
+  },
+  {
+    "id": 72,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "hard",
+    "question": "Stakeholder involvement in CRM planning is important because it:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improves acceptance and implementation success"
+      },
+      {
+        "key": "B",
+        "text": "Increases resistance to change"
+      },
+      {
+        "key": "C",
+        "text": "Reduces communication"
+      },
+      {
+        "key": "D",
+        "text": "Eliminates customer focus"
+      }
+    ],
+    "answer": "A",
+    "reason": "Stakeholder participation increases commitment and reduces implementation risks."
+  },
+  {
+    "id": 73,
+    "subject": "Customer Relationship Management",
+    "topic": "Building Customer Centricity",
+    "difficulty": "medium",
+    "question": "Customer-centric organizations primarily evaluate processes based on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer impact and value"
+      },
+      {
+        "key": "B",
+        "text": "Employee convenience only"
+      },
+      {
+        "key": "C",
+        "text": "Office layout"
+      },
+      {
+        "key": "D",
+        "text": "Equipment age"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centricity requires evaluating activities according to their value to customers."
+  },
+  {
+    "id": 74,
+    "subject": "Customer Relationship Management",
+    "topic": "Building Customer Centricity",
+    "difficulty": "hard",
+    "question": "Which leadership approach best supports customer centricity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Leading by emphasizing customer-focused values"
+      },
+      {
+        "key": "B",
+        "text": "Ignoring customer feedback"
+      },
+      {
+        "key": "C",
+        "text": "Focusing only on internal targets"
+      },
+      {
+        "key": "D",
+        "text": "Avoiding customer interactions"
+      }
+    ],
+    "answer": "A",
+    "reason": "Leadership must promote and reinforce customer-focused behavior throughout the organization."
+  },
+  {
+    "id": 75,
+    "subject": "Customer Relationship Management",
+    "topic": "Setting CRM Objectives",
+    "difficulty": "medium",
+    "question": "An objective to improve customer satisfaction by 10% within a year is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A measurable CRM objective"
+      },
+      {
+        "key": "B",
+        "text": "An undefined goal"
+      },
+      {
+        "key": "C",
+        "text": "A technical requirement"
+      },
+      {
+        "key": "D",
+        "text": "A customer strategy grid"
+      }
+    ],
+    "answer": "A",
+    "reason": "The objective is specific, measurable, and time-bound."
+  },
+  {
+    "id": 76,
+    "subject": "Customer Relationship Management",
+    "topic": "Setting CRM Objectives",
+    "difficulty": "hard",
+    "question": "CRM objectives should be reviewed periodically to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ensure continued relevance and effectiveness"
+      },
+      {
+        "key": "B",
+        "text": "Increase paperwork"
+      },
+      {
+        "key": "C",
+        "text": "Reduce accountability"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate performance measurement"
+      }
+    ],
+    "answer": "A",
+    "reason": "Business environments and customer expectations change over time."
+  },
+  {
+    "id": 77,
+    "subject": "Customer Relationship Management",
+    "topic": "Defining Data Requirements",
+    "difficulty": "medium",
+    "question": "Transactional data in CRM includes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer purchases and payment records"
+      },
+      {
+        "key": "B",
+        "text": "Building plans"
+      },
+      {
+        "key": "C",
+        "text": "Office furniture inventory"
+      },
+      {
+        "key": "D",
+        "text": "Employee vacation schedules"
+      }
+    ],
+    "answer": "A",
+    "reason": "Transactional data records customer buying activities and financial transactions."
+  },
+  {
+    "id": 78,
+    "subject": "Customer Relationship Management",
+    "topic": "Defining Data Requirements",
+    "difficulty": "hard",
+    "question": "Data privacy regulations affect CRM planning because organizations must:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Collect and use customer data responsibly"
+      },
+      {
+        "key": "B",
+        "text": "Ignore customer consent"
+      },
+      {
+        "key": "C",
+        "text": "Share all customer data publicly"
+      },
+      {
+        "key": "D",
+        "text": "Avoid maintaining customer records"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer data must be managed according to legal and ethical requirements."
+  },
+  {
+    "id": 79,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning Desired Outputs",
+    "difficulty": "medium",
+    "question": "A customer profitability report is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A CRM output"
+      },
+      {
+        "key": "B",
+        "text": "A data requirement"
+      },
+      {
+        "key": "C",
+        "text": "A hardware component"
+      },
+      {
+        "key": "D",
+        "text": "A customer acquisition method"
+      }
+    ],
+    "answer": "A",
+    "reason": "Reports generated from CRM systems are considered outputs."
+  },
+  {
+    "id": 80,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning Desired Outputs",
+    "difficulty": "hard",
+    "question": "Visualization tools are commonly used in CRM outputs to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Make information easier to understand"
+      },
+      {
+        "key": "B",
+        "text": "Increase data complexity"
+      },
+      {
+        "key": "C",
+        "text": "Reduce accessibility"
+      },
+      {
+        "key": "D",
+        "text": "Replace customer data"
+      }
+    ],
+    "answer": "A",
+    "reason": "Charts and dashboards help users interpret information quickly."
+  },
+  {
+    "id": 81,
+    "subject": "Customer Relationship Management",
+    "topic": "Relevant Issues While Planning Outputs",
+    "difficulty": "medium",
+    "question": "User-friendly CRM reports are important because they:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase report usability and adoption"
+      },
+      {
+        "key": "B",
+        "text": "Reduce decision quality"
+      },
+      {
+        "key": "C",
+        "text": "Increase confusion"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate reporting needs"
+      }
+    ],
+    "answer": "A",
+    "reason": "Easy-to-use reports improve user acceptance and effectiveness."
+  },
+  {
+    "id": 82,
+    "subject": "Customer Relationship Management",
+    "topic": "Relevant Issues While Planning Outputs",
+    "difficulty": "hard",
+    "question": "Which characteristic makes a CRM output actionable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It supports specific business decisions"
+      },
+      {
+        "key": "B",
+        "text": "It contains maximum data regardless of relevance"
+      },
+      {
+        "key": "C",
+        "text": "It avoids customer information"
+      },
+      {
+        "key": "D",
+        "text": "It is rarely updated"
+      }
+    ],
+    "answer": "A",
+    "reason": "Actionable outputs help managers take informed actions."
+  },
+  {
+    "id": 83,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "medium",
+    "question": "A communication plan in CRM implementation is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inform stakeholders about CRM activities and progress"
+      },
+      {
+        "key": "B",
+        "text": "Track inventory"
+      },
+      {
+        "key": "C",
+        "text": "Manage production schedules"
+      },
+      {
+        "key": "D",
+        "text": "Calculate profitability"
+      }
+    ],
+    "answer": "A",
+    "reason": "Communication plans help keep stakeholders informed and engaged."
+  },
+  {
+    "id": 84,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "hard",
+    "question": "Performance metrics are included in a CRM plan to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Measure CRM success and outcomes"
+      },
+      {
+        "key": "B",
+        "text": "Replace business goals"
+      },
+      {
+        "key": "C",
+        "text": "Reduce accountability"
+      },
+      {
+        "key": "D",
+        "text": "Increase uncertainty"
+      }
+    ],
+    "answer": "A",
+    "reason": "Metrics provide a basis for evaluating CRM performance."
+  },
+  {
+    "id": 85,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "medium",
+    "question": "A customer acquisition strategy primarily focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Attracting new customers"
+      },
+      {
+        "key": "B",
+        "text": "Reducing market share"
+      },
+      {
+        "key": "C",
+        "text": "Eliminating customer data"
+      },
+      {
+        "key": "D",
+        "text": "Ignoring prospects"
+      }
+    ],
+    "answer": "A",
+    "reason": "Acquisition strategies are designed to bring new customers into the organization."
+  },
+  {
+    "id": 86,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "Differentiated CRM strategies recognize that:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Different customers require different approaches"
+      },
+      {
+        "key": "B",
+        "text": "All customers should be treated identically"
+      },
+      {
+        "key": "C",
+        "text": "Customer value is always equal"
+      },
+      {
+        "key": "D",
+        "text": "Segmentation is unnecessary"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer segments often vary in needs, value, and expectations."
+  },
+  {
+    "id": 87,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "medium",
+    "question": "SWOT analysis in CRM strategy development examines:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Strengths, Weaknesses, Opportunities, and Threats"
+      },
+      {
+        "key": "B",
+        "text": "Sales, Warehouses, Operations, and Technology"
+      },
+      {
+        "key": "C",
+        "text": "Systems, Workflows, Objectives, and Teams"
+      },
+      {
+        "key": "D",
+        "text": "Services, Websites, Offices, and Training"
+      }
+    ],
+    "answer": "A",
+    "reason": "SWOT analysis is a common strategic planning tool."
+  },
+  {
+    "id": 88,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "hard",
+    "question": "Benchmarking during strategy development helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Compare performance against best practices"
+      },
+      {
+        "key": "B",
+        "text": "Avoid improvement"
+      },
+      {
+        "key": "C",
+        "text": "Ignore competitors"
+      },
+      {
+        "key": "D",
+        "text": "Reduce customer focus"
+      }
+    ],
+    "answer": "A",
+    "reason": "Benchmarking identifies opportunities for improvement."
+  },
+  {
+    "id": 89,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "medium",
+    "question": "The Customer Strategy Grid helps managers decide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Where to invest CRM resources"
+      },
+      {
+        "key": "B",
+        "text": "Office decoration themes"
+      },
+      {
+        "key": "C",
+        "text": "Parking arrangements"
+      },
+      {
+        "key": "D",
+        "text": "Building maintenance schedules"
+      }
+    ],
+    "answer": "A",
+    "reason": "The grid supports strategic allocation of customer-related resources."
+  },
+  {
+    "id": 90,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "Customers with low current value but high future potential should generally be:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Developed through targeted relationship programs"
+      },
+      {
+        "key": "B",
+        "text": "Ignored completely"
+      },
+      {
+        "key": "C",
+        "text": "Removed from the database"
+      },
+      {
+        "key": "D",
+        "text": "Given minimal contact"
+      }
+    ],
+    "answer": "A",
+    "reason": "Future potential customers may become highly valuable over time."
+  },
+  {
+    "id": 91,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "The primary purpose of customer classification is to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improve strategic decision-making"
+      },
+      {
+        "key": "B",
+        "text": "Increase paperwork"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer understanding"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate segmentation"
+      }
+    ],
+    "answer": "A",
+    "reason": "Classification helps organizations apply appropriate strategies to customer groups."
+  },
+  {
+    "id": 92,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "A value-based CRM strategy focuses primarily on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximizing customer and business value"
+      },
+      {
+        "key": "B",
+        "text": "Increasing operational complexity"
+      },
+      {
+        "key": "C",
+        "text": "Reducing customer engagement"
+      },
+      {
+        "key": "D",
+        "text": "Avoiding segmentation"
+      }
+    ],
+    "answer": "A",
+    "reason": "Value-based strategies seek mutually beneficial outcomes."
+  },
+  {
+    "id": 93,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "hard",
+    "question": "Customer insight generation is important because it:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Supports better strategic decisions"
+      },
+      {
+        "key": "B",
+        "text": "Eliminates data analysis"
+      },
+      {
+        "key": "C",
+        "text": "Reduces personalization"
+      },
+      {
+        "key": "D",
+        "text": "Avoids customer understanding"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer insights provide valuable information for strategy formulation."
+  },
+  {
+    "id": 94,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "hard",
+    "question": "Change management is often included in CRM planning because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CRM implementation often requires organizational change"
+      },
+      {
+        "key": "B",
+        "text": "Customers dislike improvements"
+      },
+      {
+        "key": "C",
+        "text": "Technology never changes"
+      },
+      {
+        "key": "D",
+        "text": "Training is unnecessary"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM projects frequently require changes in processes, culture, and technology."
+  },
+  {
+    "id": 95,
+    "subject": "Customer Relationship Management",
+    "topic": "Planning for CRM",
+    "difficulty": "hard",
+    "question": "The ultimate benefit of effective CRM planning is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stronger customer relationships and improved business performance"
+      },
+      {
+        "key": "B",
+        "text": "Higher administrative complexity"
+      },
+      {
+        "key": "C",
+        "text": "Reduced customer knowledge"
+      },
+      {
+        "key": "D",
+        "text": "Elimination of customer interaction"
+      }
+    ],
+    "answer": "A",
+    "reason": "Successful CRM planning leads to customer loyalty, retention, and profitability."
+  },
+  {
+    "id": 96,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "Customer retention strategies are generally more cost-effective because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Retaining customers usually costs less than acquiring new ones"
+      },
+      {
+        "key": "B",
+        "text": "Existing customers never require support"
+      },
+      {
+        "key": "C",
+        "text": "Marketing becomes unnecessary"
+      },
+      {
+        "key": "D",
+        "text": "Competition disappears"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer retention is often less expensive than customer acquisition."
+  },
+  {
+    "id": 97,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Strategy Grid",
+    "difficulty": "hard",
+    "question": "High-value customers with declining future potential may require:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Retention-focused strategies"
+      },
+      {
+        "key": "B",
+        "text": "Complete neglect"
+      },
+      {
+        "key": "C",
+        "text": "Immediate removal"
+      },
+      {
+        "key": "D",
+        "text": "No communication"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retention strategies help preserve value from important customer segments."
+  },
+  {
+    "id": 98,
+    "subject": "Customer Relationship Management",
+    "topic": "Strategy Development Process",
+    "difficulty": "hard",
+    "question": "Customer segmentation analysis is performed to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identify groups with similar characteristics and needs"
+      },
+      {
+        "key": "B",
+        "text": "Eliminate customer diversity"
+      },
+      {
+        "key": "C",
+        "text": "Reduce personalization efforts"
+      },
+      {
+        "key": "D",
+        "text": "Avoid strategic planning"
+      }
+    ],
+    "answer": "A",
+    "reason": "Segmentation helps organizations target customers more effectively."
+  },
+  {
+    "id": 99,
+    "subject": "Customer Relationship Management",
+    "topic": "Elements of CRM Plan",
+    "difficulty": "hard",
+    "question": "Training plans are included in CRM implementation to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ensure users can effectively utilize CRM systems"
+      },
+      {
+        "key": "B",
+        "text": "Increase resistance to change"
+      },
+      {
+        "key": "C",
+        "text": "Reduce adoption rates"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate user involvement"
+      }
+    ],
+    "answer": "A",
+    "reason": "Training improves CRM adoption and effectiveness."
+  },
+  {
+    "id": 100,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Strategy",
+    "difficulty": "hard",
+    "question": "The most successful CRM strategies create:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mutually beneficial relationships for customers and organizations"
+      },
+      {
+        "key": "B",
+        "text": "Benefits only for the organization"
+      },
+      {
+        "key": "C",
+        "text": "Benefits only for customers"
+      },
+      {
+        "key": "D",
+        "text": "Short-term transactional interactions"
+      }
+    ],
+    "answer": "A",
+    "reason": "Long-term CRM success depends on creating value for both customers and the business."
+  }
+]

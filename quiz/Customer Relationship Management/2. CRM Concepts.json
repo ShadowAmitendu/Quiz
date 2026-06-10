@@ -1,0 +1,2702 @@
+[
+  {
+    "id": 1,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Value",
+    "difficulty": "easy",
+    "question": "Customer value refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The perceived benefits received compared to the costs incurred"
+      },
+      {
+        "key": "B",
+        "text": "The selling price of a product only"
+      },
+      {
+        "key": "C",
+        "text": "The manufacturing cost only"
+      },
+      {
+        "key": "D",
+        "text": "The number of customers acquired"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer value is the customer's perception of benefits gained relative to the costs they pay."
+  },
+  {
+    "id": 2,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Value",
+    "difficulty": "medium",
+    "question": "Which factor can increase customer value?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improving product quality and service"
+      },
+      {
+        "key": "B",
+        "text": "Increasing customer complaints"
+      },
+      {
+        "key": "C",
+        "text": "Reducing product reliability"
+      },
+      {
+        "key": "D",
+        "text": "Ignoring customer feedback"
+      }
+    ],
+    "answer": "A",
+    "reason": "Higher quality products and services improve the value perceived by customers."
+  },
+  {
+    "id": 3,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Expectation",
+    "difficulty": "easy",
+    "question": "Customer expectation is best defined as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "What customers believe they will receive from a product or service"
+      },
+      {
+        "key": "B",
+        "text": "The company's profit target"
+      },
+      {
+        "key": "C",
+        "text": "The manufacturing process"
+      },
+      {
+        "key": "D",
+        "text": "The employee salary structure"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer expectations represent anticipated product or service performance."
+  },
+  {
+    "id": 4,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Expectation",
+    "difficulty": "medium",
+    "question": "Customer expectations are influenced by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Past experiences and marketing communications"
+      },
+      {
+        "key": "B",
+        "text": "Office furniture"
+      },
+      {
+        "key": "C",
+        "text": "Warehouse size"
+      },
+      {
+        "key": "D",
+        "text": "Factory location"
+      }
+    ],
+    "answer": "A",
+    "reason": "Experiences, advertisements, reviews, and recommendations shape expectations."
+  },
+  {
+    "id": 5,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction",
+    "difficulty": "easy",
+    "question": "Customer satisfaction occurs when:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Product performance meets or exceeds expectations"
+      },
+      {
+        "key": "B",
+        "text": "Costs exceed benefits"
+      },
+      {
+        "key": "C",
+        "text": "Customer expectations are ignored"
+      },
+      {
+        "key": "D",
+        "text": "Product quality decreases"
+      }
+    ],
+    "answer": "A",
+    "reason": "Satisfaction is achieved when perceived performance matches or exceeds expectations."
+  },
+  {
+    "id": 6,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction",
+    "difficulty": "medium",
+    "question": "A dissatisfied customer is likely to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Switch to competitors"
+      },
+      {
+        "key": "B",
+        "text": "Become more loyal"
+      },
+      {
+        "key": "C",
+        "text": "Increase purchases automatically"
+      },
+      {
+        "key": "D",
+        "text": "Ignore service problems"
+      }
+    ],
+    "answer": "A",
+    "reason": "Dissatisfied customers often stop purchasing and move to competitors."
+  },
+  {
+    "id": 7,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Centricity",
+    "difficulty": "easy",
+    "question": "Customer centricity means:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Placing customers at the center of business decisions"
+      },
+      {
+        "key": "B",
+        "text": "Focusing only on production"
+      },
+      {
+        "key": "C",
+        "text": "Ignoring customer feedback"
+      },
+      {
+        "key": "D",
+        "text": "Reducing service quality"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric organizations prioritize customer needs in their operations."
+  },
+  {
+    "id": 8,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Centricity",
+    "difficulty": "medium",
+    "question": "A customer-centric company primarily aims to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Create superior customer experiences"
+      },
+      {
+        "key": "B",
+        "text": "Maximize production regardless of customer needs"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer interaction"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate customer support"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric businesses focus on delivering value and positive experiences."
+  },
+  {
+    "id": 9,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Acquisition",
+    "difficulty": "easy",
+    "question": "Customer acquisition refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gaining new customers"
+      },
+      {
+        "key": "B",
+        "text": "Retaining existing customers only"
+      },
+      {
+        "key": "C",
+        "text": "Managing inventory"
+      },
+      {
+        "key": "D",
+        "text": "Reducing product costs"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer acquisition involves attracting and converting prospects into customers."
+  },
+  {
+    "id": 10,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Acquisition",
+    "difficulty": "medium",
+    "question": "Which activity is commonly used for customer acquisition?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Marketing campaigns"
+      },
+      {
+        "key": "B",
+        "text": "Payroll processing"
+      },
+      {
+        "key": "C",
+        "text": "Machine maintenance"
+      },
+      {
+        "key": "D",
+        "text": "Inventory auditing"
+      }
+    ],
+    "answer": "A",
+    "reason": "Marketing campaigns help attract potential customers."
+  },
+  {
+    "id": 11,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Retention",
+    "difficulty": "easy",
+    "question": "Customer retention focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Keeping existing customers"
+      },
+      {
+        "key": "B",
+        "text": "Only acquiring new customers"
+      },
+      {
+        "key": "C",
+        "text": "Reducing customer interactions"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating support services"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retention strategies aim to keep customers engaged and loyal."
+  },
+  {
+    "id": 12,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Retention",
+    "difficulty": "medium",
+    "question": "Customer retention is important because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Retaining customers is usually cheaper than acquiring new ones"
+      },
+      {
+        "key": "B",
+        "text": "It eliminates marketing costs"
+      },
+      {
+        "key": "C",
+        "text": "It guarantees profits"
+      },
+      {
+        "key": "D",
+        "text": "It reduces customer satisfaction"
+      }
+    ],
+    "answer": "A",
+    "reason": "Existing customers are generally less expensive to retain than acquiring new customers."
+  },
+  {
+    "id": 13,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Loyalty",
+    "difficulty": "easy",
+    "question": "Customer loyalty is demonstrated when customers:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Continue purchasing from the same company"
+      },
+      {
+        "key": "B",
+        "text": "Frequently switch brands"
+      },
+      {
+        "key": "C",
+        "text": "Avoid the company's products"
+      },
+      {
+        "key": "D",
+        "text": "Make only one purchase"
+      }
+    ],
+    "answer": "A",
+    "reason": "Loyal customers repeatedly choose the same company over competitors."
+  },
+  {
+    "id": 14,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Loyalty",
+    "difficulty": "medium",
+    "question": "Which factor most strongly influences customer loyalty?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer satisfaction"
+      },
+      {
+        "key": "B",
+        "text": "Office location"
+      },
+      {
+        "key": "C",
+        "text": "Number of employees"
+      },
+      {
+        "key": "D",
+        "text": "Factory size"
+      }
+    ],
+    "answer": "A",
+    "reason": "Satisfied customers are more likely to become loyal customers."
+  },
+  {
+    "id": 15,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Lifetime Value",
+    "difficulty": "medium",
+    "question": "Customer Lifetime Value (CLV) measures:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The total value a customer contributes over their relationship with a company"
+      },
+      {
+        "key": "B",
+        "text": "A customer's age"
+      },
+      {
+        "key": "C",
+        "text": "Monthly inventory turnover"
+      },
+      {
+        "key": "D",
+        "text": "Employee productivity"
+      }
+    ],
+    "answer": "A",
+    "reason": "CLV estimates long-term revenue and profit generated by a customer."
+  },
+  {
+    "id": 16,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Lifetime Value",
+    "difficulty": "hard",
+    "question": "A higher CLV generally indicates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "More profitable customer relationships"
+      },
+      {
+        "key": "B",
+        "text": "Lower customer satisfaction"
+      },
+      {
+        "key": "C",
+        "text": "Higher employee turnover"
+      },
+      {
+        "key": "D",
+        "text": "Lower sales revenue"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customers with high lifetime value generate more revenue over time."
+  },
+  {
+    "id": 17,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "easy",
+    "question": "Customer Experience Management (CEM) focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Managing customer interactions across touchpoints"
+      },
+      {
+        "key": "B",
+        "text": "Managing inventory only"
+      },
+      {
+        "key": "C",
+        "text": "Managing payroll only"
+      },
+      {
+        "key": "D",
+        "text": "Managing production schedules"
+      }
+    ],
+    "answer": "A",
+    "reason": "CEM seeks to improve customer experiences at every interaction point."
+  },
+  {
+    "id": 18,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "medium",
+    "question": "A positive customer experience often leads to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Higher loyalty and retention"
+      },
+      {
+        "key": "B",
+        "text": "Increased complaints"
+      },
+      {
+        "key": "C",
+        "text": "Lower customer value"
+      },
+      {
+        "key": "D",
+        "text": "Reduced engagement"
+      }
+    ],
+    "answer": "A",
+    "reason": "Positive experiences encourage repeat business and loyalty."
+  },
+  {
+    "id": 19,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "medium",
+    "question": "Customer profitability is calculated by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Revenue generated minus cost of serving the customer"
+      },
+      {
+        "key": "B",
+        "text": "Revenue plus cost of serving the customer"
+      },
+      {
+        "key": "C",
+        "text": "Customer age multiplied by purchases"
+      },
+      {
+        "key": "D",
+        "text": "Number of transactions only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Profitability depends on both revenue and associated service costs."
+  },
+  {
+    "id": 20,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Which customers should receive the highest retention efforts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Highly profitable customers"
+      },
+      {
+        "key": "B",
+        "text": "Inactive customers only"
+      },
+      {
+        "key": "C",
+        "text": "Customers with no purchases"
+      },
+      {
+        "key": "D",
+        "text": "Former customers"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retaining highly profitable customers maximizes business value."
+  },
+  {
+    "id": 21,
+    "subject": "Customer Relationship Management",
+    "topic": "Enterprise Marketing Management",
+    "difficulty": "easy",
+    "question": "Enterprise Marketing Management (EMM) is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Plan, execute, and measure marketing activities"
+      },
+      {
+        "key": "B",
+        "text": "Manage payroll"
+      },
+      {
+        "key": "C",
+        "text": "Design hardware"
+      },
+      {
+        "key": "D",
+        "text": "Control manufacturing equipment"
+      }
+    ],
+    "answer": "A",
+    "reason": "EMM helps organizations coordinate marketing efforts efficiently."
+  },
+  {
+    "id": 22,
+    "subject": "Customer Relationship Management",
+    "topic": "Enterprise Marketing Management",
+    "difficulty": "medium",
+    "question": "A major goal of EMM is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improving marketing effectiveness"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer communication"
+      },
+      {
+        "key": "C",
+        "text": "Increasing inventory costs"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating customer feedback"
+      }
+    ],
+    "answer": "A",
+    "reason": "EMM helps organizations optimize marketing performance and outcomes."
+  },
+  {
+    "id": 23,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "easy",
+    "question": "Customer satisfaction is commonly measured using:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surveys and feedback forms"
+      },
+      {
+        "key": "B",
+        "text": "Machine sensors"
+      },
+      {
+        "key": "C",
+        "text": "Production reports"
+      },
+      {
+        "key": "D",
+        "text": "Warehouse logs"
+      }
+    ],
+    "answer": "A",
+    "reason": "Surveys provide direct insight into customer satisfaction levels."
+  },
+  {
+    "id": 24,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "medium",
+    "question": "A customer satisfaction score (CSAT) primarily measures:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer satisfaction with a product or service"
+      },
+      {
+        "key": "B",
+        "text": "Employee productivity"
+      },
+      {
+        "key": "C",
+        "text": "Inventory turnover"
+      },
+      {
+        "key": "D",
+        "text": "Factory output"
+      }
+    ],
+    "answer": "A",
+    "reason": "CSAT directly measures customer satisfaction levels."
+  },
+  {
+    "id": 25,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "easy",
+    "question": "Web-based customer support typically includes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Online chat and help desks"
+      },
+      {
+        "key": "B",
+        "text": "Only printed manuals"
+      },
+      {
+        "key": "C",
+        "text": "Factory inspections"
+      },
+      {
+        "key": "D",
+        "text": "Payroll services"
+      }
+    ],
+    "answer": "A",
+    "reason": "Web-based support uses digital channels to assist customers."
+  },
+  {
+    "id": 26,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "medium",
+    "question": "Net Promoter Score (NPS) measures:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer willingness to recommend a company to others"
+      },
+      {
+        "key": "B",
+        "text": "Employee satisfaction"
+      },
+      {
+        "key": "C",
+        "text": "Inventory turnover"
+      },
+      {
+        "key": "D",
+        "text": "Production efficiency"
+      }
+    ],
+    "answer": "A",
+    "reason": "NPS evaluates customer loyalty by asking how likely customers are to recommend the company."
+  },
+  {
+    "id": 27,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "hard",
+    "question": "Which metric is most commonly used to measure customer loyalty?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Net Promoter Score (NPS)"
+      },
+      {
+        "key": "B",
+        "text": "ROI"
+      },
+      {
+        "key": "C",
+        "text": "Inventory Ratio"
+      },
+      {
+        "key": "D",
+        "text": "Current Ratio"
+      }
+    ],
+    "answer": "A",
+    "reason": "NPS is widely used to assess loyalty and advocacy among customers."
+  },
+  {
+    "id": 28,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Retention",
+    "difficulty": "medium",
+    "question": "Customer churn rate represents:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The percentage of customers lost during a period"
+      },
+      {
+        "key": "B",
+        "text": "The number of new products launched"
+      },
+      {
+        "key": "C",
+        "text": "Employee turnover"
+      },
+      {
+        "key": "D",
+        "text": "The number of customer complaints"
+      }
+    ],
+    "answer": "A",
+    "reason": "Churn rate measures how many customers stop doing business with a company."
+  },
+  {
+    "id": 29,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Retention",
+    "difficulty": "hard",
+    "question": "A lower churn rate generally indicates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Better customer retention"
+      },
+      {
+        "key": "B",
+        "text": "Poor customer satisfaction"
+      },
+      {
+        "key": "C",
+        "text": "Higher acquisition costs"
+      },
+      {
+        "key": "D",
+        "text": "Reduced profitability"
+      }
+    ],
+    "answer": "A",
+    "reason": "A low churn rate means more customers continue their relationship with the company."
+  },
+  {
+    "id": 30,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Loyalty",
+    "difficulty": "medium",
+    "question": "Loyalty programs are primarily designed to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Encourage repeat purchases"
+      },
+      {
+        "key": "B",
+        "text": "Reduce customer engagement"
+      },
+      {
+        "key": "C",
+        "text": "Increase customer complaints"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate customer support"
+      }
+    ],
+    "answer": "A",
+    "reason": "Loyalty programs reward customers for continued business and repeat purchases."
+  },
+  {
+    "id": 31,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Loyalty",
+    "difficulty": "hard",
+    "question": "Brand advocacy is a sign of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Strong customer loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Customer dissatisfaction"
+      },
+      {
+        "key": "C",
+        "text": "Poor service quality"
+      },
+      {
+        "key": "D",
+        "text": "Low customer value"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customers who advocate a brand demonstrate high levels of loyalty and trust."
+  },
+  {
+    "id": 32,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "medium",
+    "question": "A customer touchpoint is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Any interaction between a customer and a company"
+      },
+      {
+        "key": "B",
+        "text": "A physical product only"
+      },
+      {
+        "key": "C",
+        "text": "A financial statement"
+      },
+      {
+        "key": "D",
+        "text": "A warehouse location"
+      }
+    ],
+    "answer": "A",
+    "reason": "Touchpoints include websites, stores, calls, emails, and other customer interactions."
+  },
+  {
+    "id": 33,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "hard",
+    "question": "Customer journey mapping is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Visualize the customer's experience across touchpoints"
+      },
+      {
+        "key": "B",
+        "text": "Track employee attendance"
+      },
+      {
+        "key": "C",
+        "text": "Monitor inventory levels"
+      },
+      {
+        "key": "D",
+        "text": "Prepare financial statements"
+      }
+    ],
+    "answer": "A",
+    "reason": "Journey mapping helps organizations understand and improve customer experiences."
+  },
+  {
+    "id": 34,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Lifetime Value",
+    "difficulty": "hard",
+    "question": "Customer Lifetime Value is important because it helps businesses:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identify the most valuable customers"
+      },
+      {
+        "key": "B",
+        "text": "Calculate employee salaries"
+      },
+      {
+        "key": "C",
+        "text": "Track inventory usage"
+      },
+      {
+        "key": "D",
+        "text": "Measure factory output"
+      }
+    ],
+    "answer": "A",
+    "reason": "CLV allows organizations to focus resources on high-value customers."
+  },
+  {
+    "id": 35,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Lifetime Value",
+    "difficulty": "hard",
+    "question": "Which action can increase Customer Lifetime Value?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improving customer retention"
+      },
+      {
+        "key": "B",
+        "text": "Reducing service quality"
+      },
+      {
+        "key": "C",
+        "text": "Increasing churn rate"
+      },
+      {
+        "key": "D",
+        "text": "Ignoring customer feedback"
+      }
+    ],
+    "answer": "A",
+    "reason": "Longer customer relationships generally lead to higher lifetime value."
+  },
+  {
+    "id": 36,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "medium",
+    "question": "Customer profitability analysis helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identify profitable and unprofitable customers"
+      },
+      {
+        "key": "B",
+        "text": "Manage factory maintenance"
+      },
+      {
+        "key": "C",
+        "text": "Reduce product quality"
+      },
+      {
+        "key": "D",
+        "text": "Calculate payroll taxes"
+      }
+    ],
+    "answer": "A",
+    "reason": "Profitability analysis helps allocate resources more effectively."
+  },
+  {
+    "id": 37,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Which customer segment typically receives premium services?",
+    "options": [
+      {
+        "key": "A",
+        "text": "High-profit customers"
+      },
+      {
+        "key": "B",
+        "text": "Inactive customers"
+      },
+      {
+        "key": "C",
+        "text": "Lost customers"
+      },
+      {
+        "key": "D",
+        "text": "Low-value prospects"
+      }
+    ],
+    "answer": "A",
+    "reason": "High-profit customers contribute significantly to revenue and often receive special attention."
+  },
+  {
+    "id": 38,
+    "subject": "Customer Relationship Management",
+    "topic": "Enterprise Marketing Management",
+    "difficulty": "medium",
+    "question": "Campaign management is a major function of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Enterprise Marketing Management"
+      },
+      {
+        "key": "B",
+        "text": "Inventory Management"
+      },
+      {
+        "key": "C",
+        "text": "Human Resource Management"
+      },
+      {
+        "key": "D",
+        "text": "Production Management"
+      }
+    ],
+    "answer": "A",
+    "reason": "EMM helps plan, execute, and monitor marketing campaigns."
+  },
+  {
+    "id": 39,
+    "subject": "Customer Relationship Management",
+    "topic": "Enterprise Marketing Management",
+    "difficulty": "hard",
+    "question": "Marketing ROI is used to evaluate:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The effectiveness of marketing investments"
+      },
+      {
+        "key": "B",
+        "text": "Employee attendance"
+      },
+      {
+        "key": "C",
+        "text": "Warehouse capacity"
+      },
+      {
+        "key": "D",
+        "text": "Production speed"
+      }
+    ],
+    "answer": "A",
+    "reason": "Marketing ROI measures the returns generated from marketing expenditures."
+  },
+  {
+    "id": 40,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "easy",
+    "question": "A knowledge base in web support provides:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Self-service information for customers"
+      },
+      {
+        "key": "B",
+        "text": "Employee payroll records"
+      },
+      {
+        "key": "C",
+        "text": "Manufacturing instructions"
+      },
+      {
+        "key": "D",
+        "text": "Inventory reports"
+      }
+    ],
+    "answer": "A",
+    "reason": "Knowledge bases help customers find solutions without contacting support staff."
+  },
+  {
+    "id": 41,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "medium",
+    "question": "An online ticketing system is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Track and resolve customer issues"
+      },
+      {
+        "key": "B",
+        "text": "Manage inventory"
+      },
+      {
+        "key": "C",
+        "text": "Calculate taxes"
+      },
+      {
+        "key": "D",
+        "text": "Schedule manufacturing tasks"
+      }
+    ],
+    "answer": "A",
+    "reason": "Ticketing systems organize, monitor, and resolve customer support requests."
+  },
+  {
+    "id": 42,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "medium",
+    "question": "Live chat support is valuable because it:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provides immediate assistance to customers"
+      },
+      {
+        "key": "B",
+        "text": "Eliminates customer interaction"
+      },
+      {
+        "key": "C",
+        "text": "Increases response times"
+      },
+      {
+        "key": "D",
+        "text": "Reduces accessibility"
+      }
+    ],
+    "answer": "A",
+    "reason": "Live chat enables real-time communication and quick issue resolution."
+  },
+  {
+    "id": 43,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "hard",
+    "question": "Omnichannel customer support aims to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide a consistent experience across all support channels"
+      },
+      {
+        "key": "B",
+        "text": "Use only one communication channel"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer access to support"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate customer feedback"
+      }
+    ],
+    "answer": "A",
+    "reason": "Omnichannel support integrates multiple channels into a seamless customer experience."
+  },
+  {
+    "id": 44,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "hard",
+    "question": "Which survey question is commonly associated with NPS?",
+    "options": [
+      {
+        "key": "A",
+        "text": "How likely are you to recommend our company to others?"
+      },
+      {
+        "key": "B",
+        "text": "What is your monthly income?"
+      },
+      {
+        "key": "C",
+        "text": "How many employees do you have?"
+      },
+      {
+        "key": "D",
+        "text": "What is your office location?"
+      }
+    ],
+    "answer": "A",
+    "reason": "The recommendation question forms the basis of Net Promoter Score calculations."
+  },
+  {
+    "id": 45,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Centricity",
+    "difficulty": "hard",
+    "question": "A truly customer-centric organization measures success primarily through:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer value, satisfaction, and loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Factory size alone"
+      },
+      {
+        "key": "C",
+        "text": "Number of employees only"
+      },
+      {
+        "key": "D",
+        "text": "Office space utilization"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric organizations focus on creating value and maintaining strong customer relationships as key success indicators."
+  },
+  {
+    "id": 46,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Value",
+    "difficulty": "medium",
+    "question": "Perceived customer value is determined by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Benefits received relative to costs incurred"
+      },
+      {
+        "key": "B",
+        "text": "Product weight only"
+      },
+      {
+        "key": "C",
+        "text": "Company size"
+      },
+      {
+        "key": "D",
+        "text": "Number of employees"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customers evaluate value by comparing benefits obtained with the costs they pay."
+  },
+  {
+    "id": 47,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Value",
+    "difficulty": "hard",
+    "question": "Which type of value is associated with prestige and brand image?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Psychological value"
+      },
+      {
+        "key": "B",
+        "text": "Production value"
+      },
+      {
+        "key": "C",
+        "text": "Inventory value"
+      },
+      {
+        "key": "D",
+        "text": "Accounting value"
+      }
+    ],
+    "answer": "A",
+    "reason": "Psychological value includes emotional benefits, status, and brand perception."
+  },
+  {
+    "id": 48,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Expectation",
+    "difficulty": "medium",
+    "question": "Advertisements influence customer expectations by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Creating perceptions about product performance"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer awareness"
+      },
+      {
+        "key": "C",
+        "text": "Eliminating demand"
+      },
+      {
+        "key": "D",
+        "text": "Managing inventory"
+      }
+    ],
+    "answer": "A",
+    "reason": "Marketing communications shape customer expectations before purchase."
+  },
+  {
+    "id": 49,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Expectation",
+    "difficulty": "hard",
+    "question": "Unrealistic customer expectations often result in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer dissatisfaction"
+      },
+      {
+        "key": "B",
+        "text": "Higher loyalty"
+      },
+      {
+        "key": "C",
+        "text": "Improved profitability automatically"
+      },
+      {
+        "key": "D",
+        "text": "Reduced competition"
+      }
+    ],
+    "answer": "A",
+    "reason": "When expectations exceed actual performance, customers become dissatisfied."
+  },
+  {
+    "id": 50,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction",
+    "difficulty": "medium",
+    "question": "Which factor has the strongest impact on customer satisfaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Meeting customer expectations"
+      },
+      {
+        "key": "B",
+        "text": "Office location"
+      },
+      {
+        "key": "C",
+        "text": "Number of managers"
+      },
+      {
+        "key": "D",
+        "text": "Factory equipment age"
+      }
+    ],
+    "answer": "A",
+    "reason": "Satisfaction is largely determined by how well expectations are met."
+  },
+  {
+    "id": 51,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction",
+    "difficulty": "hard",
+    "question": "Delighted customers are those whose expectations are:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Exceeded significantly"
+      },
+      {
+        "key": "B",
+        "text": "Ignored completely"
+      },
+      {
+        "key": "C",
+        "text": "Reduced artificially"
+      },
+      {
+        "key": "D",
+        "text": "Unchanged"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer delight occurs when performance substantially exceeds expectations."
+  },
+  {
+    "id": 52,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Centricity",
+    "difficulty": "medium",
+    "question": "A customer-centric business strategy focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Long-term customer relationships"
+      },
+      {
+        "key": "B",
+        "text": "Short-term sales only"
+      },
+      {
+        "key": "C",
+        "text": "Production targets only"
+      },
+      {
+        "key": "D",
+        "text": "Cost reduction only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centricity prioritizes long-term value creation for customers."
+  },
+  {
+    "id": 53,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Centricity",
+    "difficulty": "hard",
+    "question": "Customer-centric organizations often organize processes around:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer needs and journeys"
+      },
+      {
+        "key": "B",
+        "text": "Departmental boundaries"
+      },
+      {
+        "key": "C",
+        "text": "Machine utilization"
+      },
+      {
+        "key": "D",
+        "text": "Office layouts"
+      }
+    ],
+    "answer": "A",
+    "reason": "Such organizations design processes based on customer requirements and experiences."
+  },
+  {
+    "id": 54,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Acquisition",
+    "difficulty": "medium",
+    "question": "Lead generation is primarily associated with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer acquisition"
+      },
+      {
+        "key": "B",
+        "text": "Customer retention"
+      },
+      {
+        "key": "C",
+        "text": "Customer churn"
+      },
+      {
+        "key": "D",
+        "text": "Customer recovery"
+      }
+    ],
+    "answer": "A",
+    "reason": "Lead generation identifies and attracts potential customers."
+  },
+  {
+    "id": 55,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Acquisition",
+    "difficulty": "hard",
+    "question": "Acquisition cost refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The cost of obtaining a new customer"
+      },
+      {
+        "key": "B",
+        "text": "The cost of manufacturing a product"
+      },
+      {
+        "key": "C",
+        "text": "The cost of employee training only"
+      },
+      {
+        "key": "D",
+        "text": "The cost of warehouse storage"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer acquisition cost measures spending required to gain new customers."
+  },
+  {
+    "id": 56,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Retention",
+    "difficulty": "medium",
+    "question": "Retention strategies commonly include:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loyalty programs and personalized services"
+      },
+      {
+        "key": "B",
+        "text": "Reducing product quality"
+      },
+      {
+        "key": "C",
+        "text": "Ignoring customer complaints"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating support channels"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retention programs encourage customers to continue their relationship with the company."
+  },
+  {
+    "id": 57,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Retention",
+    "difficulty": "hard",
+    "question": "Which metric directly measures customer retention success?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Retention rate"
+      },
+      {
+        "key": "B",
+        "text": "Debt ratio"
+      },
+      {
+        "key": "C",
+        "text": "Inventory ratio"
+      },
+      {
+        "key": "D",
+        "text": "Current ratio"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retention rate measures the percentage of customers who remain over a period."
+  },
+  {
+    "id": 58,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Loyalty",
+    "difficulty": "medium",
+    "question": "Repeat purchases are an indicator of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Customer churn"
+      },
+      {
+        "key": "C",
+        "text": "Inventory shortage"
+      },
+      {
+        "key": "D",
+        "text": "Product failure"
+      }
+    ],
+    "answer": "A",
+    "reason": "Loyal customers repeatedly buy from the same company."
+  },
+  {
+    "id": 59,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Loyalty",
+    "difficulty": "hard",
+    "question": "Word-of-mouth promotion is often generated by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Highly loyal customers"
+      },
+      {
+        "key": "B",
+        "text": "Inactive customers"
+      },
+      {
+        "key": "C",
+        "text": "Competitors"
+      },
+      {
+        "key": "D",
+        "text": "Suppliers"
+      }
+    ],
+    "answer": "A",
+    "reason": "Satisfied and loyal customers frequently recommend products to others."
+  },
+  {
+    "id": 60,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Lifetime Value",
+    "difficulty": "medium",
+    "question": "CLV helps organizations decide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "How much to invest in customer relationships"
+      },
+      {
+        "key": "B",
+        "text": "Factory maintenance schedules"
+      },
+      {
+        "key": "C",
+        "text": "Office rent calculations"
+      },
+      {
+        "key": "D",
+        "text": "Inventory storage requirements"
+      }
+    ],
+    "answer": "A",
+    "reason": "CLV helps determine appropriate spending on acquiring and retaining customers."
+  },
+  {
+    "id": 61,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Lifetime Value",
+    "difficulty": "hard",
+    "question": "Increasing purchase frequency generally:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increases Customer Lifetime Value"
+      },
+      {
+        "key": "B",
+        "text": "Decreases CLV"
+      },
+      {
+        "key": "C",
+        "text": "Has no effect on CLV"
+      },
+      {
+        "key": "D",
+        "text": "Eliminates profitability"
+      }
+    ],
+    "answer": "A",
+    "reason": "More purchases over time contribute to higher customer value."
+  },
+  {
+    "id": 62,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "medium",
+    "question": "Customer experience includes interactions:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Before, during, and after purchase"
+      },
+      {
+        "key": "B",
+        "text": "Only after purchase"
+      },
+      {
+        "key": "C",
+        "text": "Only during purchase"
+      },
+      {
+        "key": "D",
+        "text": "Only before purchase"
+      }
+    ],
+    "answer": "A",
+    "reason": "Experience covers the entire customer lifecycle."
+  },
+  {
+    "id": 63,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "hard",
+    "question": "A seamless customer journey typically results in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Higher satisfaction and loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Higher churn"
+      },
+      {
+        "key": "C",
+        "text": "Lower retention"
+      },
+      {
+        "key": "D",
+        "text": "Reduced customer engagement"
+      }
+    ],
+    "answer": "A",
+    "reason": "Smooth experiences improve customer perceptions and loyalty."
+  },
+  {
+    "id": 64,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "medium",
+    "question": "Profitability analysis helps businesses:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Allocate resources effectively"
+      },
+      {
+        "key": "B",
+        "text": "Ignore customer segments"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer data collection"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate marketing"
+      }
+    ],
+    "answer": "A",
+    "reason": "Resources can be focused on the most valuable customers."
+  },
+  {
+    "id": 65,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Which action is most likely to increase customer profitability?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cross-selling related products"
+      },
+      {
+        "key": "B",
+        "text": "Ignoring loyal customers"
+      },
+      {
+        "key": "C",
+        "text": "Reducing service quality"
+      },
+      {
+        "key": "D",
+        "text": "Increasing customer churn"
+      }
+    ],
+    "answer": "A",
+    "reason": "Cross-selling increases revenue generated from existing customers."
+  },
+  {
+    "id": 66,
+    "subject": "Customer Relationship Management",
+    "topic": "Enterprise Marketing Management",
+    "difficulty": "medium",
+    "question": "EMM helps coordinate:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Marketing activities across the organization"
+      },
+      {
+        "key": "B",
+        "text": "Machine repairs"
+      },
+      {
+        "key": "C",
+        "text": "Payroll processing"
+      },
+      {
+        "key": "D",
+        "text": "Inventory storage"
+      }
+    ],
+    "answer": "A",
+    "reason": "EMM provides centralized planning and control of marketing efforts."
+  },
+  {
+    "id": 67,
+    "subject": "Customer Relationship Management",
+    "topic": "Enterprise Marketing Management",
+    "difficulty": "hard",
+    "question": "Campaign performance analysis is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Measure marketing effectiveness"
+      },
+      {
+        "key": "B",
+        "text": "Calculate taxes"
+      },
+      {
+        "key": "C",
+        "text": "Manage warehouses"
+      },
+      {
+        "key": "D",
+        "text": "Track attendance"
+      }
+    ],
+    "answer": "A",
+    "reason": "Campaign analysis evaluates the success of marketing initiatives."
+  },
+  {
+    "id": 68,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "medium",
+    "question": "Customer feedback surveys are valuable because they:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide direct insight into customer opinions"
+      },
+      {
+        "key": "B",
+        "text": "Replace all customer interactions"
+      },
+      {
+        "key": "C",
+        "text": "Eliminate service issues"
+      },
+      {
+        "key": "D",
+        "text": "Increase churn automatically"
+      }
+    ],
+    "answer": "A",
+    "reason": "Feedback surveys capture customer perceptions and satisfaction levels."
+  },
+  {
+    "id": 69,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "hard",
+    "question": "A rising CSAT score generally indicates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improving customer satisfaction"
+      },
+      {
+        "key": "B",
+        "text": "Increasing churn"
+      },
+      {
+        "key": "C",
+        "text": "Lower service quality"
+      },
+      {
+        "key": "D",
+        "text": "Declining loyalty"
+      }
+    ],
+    "answer": "A",
+    "reason": "Higher CSAT scores indicate customers are becoming more satisfied."
+  },
+  {
+    "id": 70,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "medium",
+    "question": "Frequently Asked Questions (FAQs) primarily help:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reduce support workload through self-service"
+      },
+      {
+        "key": "B",
+        "text": "Increase customer complaints"
+      },
+      {
+        "key": "C",
+        "text": "Manage inventory"
+      },
+      {
+        "key": "D",
+        "text": "Track employee attendance"
+      }
+    ],
+    "answer": "A",
+    "reason": "FAQs allow customers to find answers without contacting support."
+  },
+  {
+    "id": 71,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "hard",
+    "question": "Chatbots are commonly used in web-based support to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide instant responses to common customer queries"
+      },
+      {
+        "key": "B",
+        "text": "Manage production schedules"
+      },
+      {
+        "key": "C",
+        "text": "Calculate taxes"
+      },
+      {
+        "key": "D",
+        "text": "Monitor warehouses"
+      }
+    ],
+    "answer": "A",
+    "reason": "Chatbots improve response times and handle routine support requests."
+  },
+  {
+    "id": 72,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "hard",
+    "question": "Which factor is most critical for delivering a consistent customer experience?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Consistency across all touchpoints"
+      },
+      {
+        "key": "B",
+        "text": "Frequent policy changes"
+      },
+      {
+        "key": "C",
+        "text": "Limited communication channels"
+      },
+      {
+        "key": "D",
+        "text": "Random service quality"
+      }
+    ],
+    "answer": "A",
+    "reason": "Consistency across channels strengthens trust and customer satisfaction."
+  },
+  {
+    "id": 73,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Loyalty",
+    "difficulty": "hard",
+    "question": "Emotional attachment to a brand is known as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Attitudinal loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Inventory loyalty"
+      },
+      {
+        "key": "C",
+        "text": "Operational loyalty"
+      },
+      {
+        "key": "D",
+        "text": "Administrative loyalty"
+      }
+    ],
+    "answer": "A",
+    "reason": "Attitudinal loyalty reflects a customer's emotional commitment to a brand."
+  },
+  {
+    "id": 74,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Acquisition",
+    "difficulty": "hard",
+    "question": "A conversion rate measures:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The percentage of prospects who become customers"
+      },
+      {
+        "key": "B",
+        "text": "Employee productivity"
+      },
+      {
+        "key": "C",
+        "text": "Inventory turnover"
+      },
+      {
+        "key": "D",
+        "text": "Customer churn"
+      }
+    ],
+    "answer": "A",
+    "reason": "Conversion rate evaluates the effectiveness of acquisition efforts."
+  },
+  {
+    "id": 75,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Centricity",
+    "difficulty": "hard",
+    "question": "The primary objective of customer centricity is to maximize:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Long-term customer value"
+      },
+      {
+        "key": "B",
+        "text": "Short-term production output"
+      },
+      {
+        "key": "C",
+        "text": "Warehouse utilization"
+      },
+      {
+        "key": "D",
+        "text": "Administrative paperwork"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric organizations focus on sustainable customer relationships and value creation."
+  },
+  {
+    "id": 76,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Value",
+    "difficulty": "hard",
+    "question": "Value-added services are offered primarily to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase perceived customer value"
+      },
+      {
+        "key": "B",
+        "text": "Increase production costs"
+      },
+      {
+        "key": "C",
+        "text": "Reduce customer satisfaction"
+      },
+      {
+        "key": "D",
+        "text": "Decrease loyalty"
+      }
+    ],
+    "answer": "A",
+    "reason": "Additional services enhance the overall value perceived by customers."
+  },
+  {
+    "id": 77,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction",
+    "difficulty": "hard",
+    "question": "Customer complaints should be viewed as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Opportunities for improvement"
+      },
+      {
+        "key": "B",
+        "text": "Issues to ignore"
+      },
+      {
+        "key": "C",
+        "text": "Reasons to discontinue service"
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant information"
+      }
+    ],
+    "answer": "A",
+    "reason": "Complaints provide valuable feedback for improving products and services."
+  },
+  {
+    "id": 78,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Retention",
+    "difficulty": "hard",
+    "question": "Which approach is most effective for retention?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Personalized customer engagement"
+      },
+      {
+        "key": "B",
+        "text": "Ignoring customer preferences"
+      },
+      {
+        "key": "C",
+        "text": "Reducing service quality"
+      },
+      {
+        "key": "D",
+        "text": "Increasing response times"
+      }
+    ],
+    "answer": "A",
+    "reason": "Personalization strengthens customer relationships and loyalty."
+  },
+  {
+    "id": 79,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Lifetime Value",
+    "difficulty": "hard",
+    "question": "Customers with high CLV typically receive:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Priority attention and customized services"
+      },
+      {
+        "key": "B",
+        "text": "Reduced support"
+      },
+      {
+        "key": "C",
+        "text": "Fewer benefits"
+      },
+      {
+        "key": "D",
+        "text": "Limited communication"
+      }
+    ],
+    "answer": "A",
+    "reason": "Organizations invest more in customers who provide substantial long-term value."
+  },
+  {
+    "id": 80,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "hard",
+    "question": "The ultimate goal of Customer Experience Management is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Creating positive and memorable customer experiences"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer interaction"
+      },
+      {
+        "key": "C",
+        "text": "Eliminating customer feedback"
+      },
+      {
+        "key": "D",
+        "text": "Maximizing inventory levels"
+      }
+    ],
+    "answer": "A",
+    "reason": "CEM aims to deliver experiences that increase satisfaction, loyalty, and advocacy."
+  },
+  {
+    "id": 81,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "A customer generating high revenue but extremely high service costs may be:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Less profitable than expected"
+      },
+      {
+        "key": "B",
+        "text": "Always highly profitable"
+      },
+      {
+        "key": "C",
+        "text": "Guaranteed profitable"
+      },
+      {
+        "key": "D",
+        "text": "A loyalty advocate"
+      }
+    ],
+    "answer": "A",
+    "reason": "Profitability depends on both revenue generation and servicing costs."
+  },
+  {
+    "id": 82,
+    "subject": "Customer Relationship Management",
+    "topic": "Enterprise Marketing Management",
+    "difficulty": "hard",
+    "question": "Segmentation in EMM helps marketers:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Target specific customer groups effectively"
+      },
+      {
+        "key": "B",
+        "text": "Eliminate marketing campaigns"
+      },
+      {
+        "key": "C",
+        "text": "Ignore customer needs"
+      },
+      {
+        "key": "D",
+        "text": "Reduce market reach intentionally"
+      }
+    ],
+    "answer": "A",
+    "reason": "Segmentation enables more relevant and effective marketing efforts."
+  },
+  {
+    "id": 83,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "hard",
+    "question": "Continuous satisfaction measurement helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identify trends and improve service quality"
+      },
+      {
+        "key": "B",
+        "text": "Reduce customer feedback"
+      },
+      {
+        "key": "C",
+        "text": "Eliminate surveys permanently"
+      },
+      {
+        "key": "D",
+        "text": "Ignore changing expectations"
+      }
+    ],
+    "answer": "A",
+    "reason": "Regular measurement helps track performance and identify improvement opportunities."
+  },
+  {
+    "id": 84,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "hard",
+    "question": "Self-service portals benefit organizations by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reducing support costs and improving accessibility"
+      },
+      {
+        "key": "B",
+        "text": "Increasing support workload"
+      },
+      {
+        "key": "C",
+        "text": "Reducing customer convenience"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating customer engagement"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customers can solve issues independently while reducing support expenses."
+  },
+  {
+    "id": 85,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Centricity",
+    "difficulty": "hard",
+    "question": "A customer-centric culture encourages employees to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prioritize customer needs in decision-making"
+      },
+      {
+        "key": "B",
+        "text": "Ignore customer concerns"
+      },
+      {
+        "key": "C",
+        "text": "Focus only on internal processes"
+      },
+      {
+        "key": "D",
+        "text": "Avoid customer interaction"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric cultures place customer interests at the center of business activities."
+  },
+  {
+    "id": 86,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Loyalty",
+    "difficulty": "hard",
+    "question": "Loyal customers often provide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Positive referrals and recommendations"
+      },
+      {
+        "key": "B",
+        "text": "Higher churn rates"
+      },
+      {
+        "key": "C",
+        "text": "Lower engagement"
+      },
+      {
+        "key": "D",
+        "text": "Reduced profitability"
+      }
+    ],
+    "answer": "A",
+    "reason": "Loyal customers frequently act as advocates for the brand."
+  },
+  {
+    "id": 87,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Acquisition",
+    "difficulty": "hard",
+    "question": "An effective acquisition strategy balances:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer acquisition cost and customer value"
+      },
+      {
+        "key": "B",
+        "text": "Inventory and production"
+      },
+      {
+        "key": "C",
+        "text": "Payroll and taxation"
+      },
+      {
+        "key": "D",
+        "text": "Warehousing and logistics"
+      }
+    ],
+    "answer": "A",
+    "reason": "Businesses should acquire customers whose value exceeds acquisition costs."
+  },
+  {
+    "id": 88,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "hard",
+    "question": "Personalization improves customer experience by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Making interactions more relevant to customer needs"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer engagement"
+      },
+      {
+        "key": "C",
+        "text": "Increasing service delays"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating communication"
+      }
+    ],
+    "answer": "A",
+    "reason": "Personalized interactions create more meaningful customer experiences."
+  },
+  {
+    "id": 89,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Profitability-based segmentation groups customers according to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Their contribution to business profits"
+      },
+      {
+        "key": "B",
+        "text": "Their age only"
+      },
+      {
+        "key": "C",
+        "text": "Their location only"
+      },
+      {
+        "key": "D",
+        "text": "Their job titles only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Profitability segmentation helps identify the most valuable customer groups."
+  },
+  {
+    "id": 90,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "hard",
+    "question": "The primary purpose of customer satisfaction measurement is to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Assess how well customer expectations are being met"
+      },
+      {
+        "key": "B",
+        "text": "Measure warehouse efficiency"
+      },
+      {
+        "key": "C",
+        "text": "Track inventory usage"
+      },
+      {
+        "key": "D",
+        "text": "Calculate employee salaries"
+      }
+    ],
+    "answer": "A",
+    "reason": "Satisfaction measurement evaluates customer perceptions relative to expectations."
+  },
+  {
+    "id": 91,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Value",
+    "difficulty": "hard",
+    "question": "Which type of customer value is associated with convenience and ease of use?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Functional value"
+      },
+      {
+        "key": "B",
+        "text": "Social value"
+      },
+      {
+        "key": "C",
+        "text": "Emotional value"
+      },
+      {
+        "key": "D",
+        "text": "Symbolic value"
+      }
+    ],
+    "answer": "A",
+    "reason": "Functional value relates to the practical benefits, usefulness, and convenience offered by a product or service."
+  },
+  {
+    "id": 92,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Expectation",
+    "difficulty": "hard",
+    "question": "Customer expectations are most likely to increase when:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Competitors offer superior services"
+      },
+      {
+        "key": "B",
+        "text": "Market competition decreases"
+      },
+      {
+        "key": "C",
+        "text": "Customers stop comparing alternatives"
+      },
+      {
+        "key": "D",
+        "text": "Technology remains unchanged"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customers compare offerings across competitors, which raises expectations regarding quality and service."
+  },
+  {
+    "id": 93,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction",
+    "difficulty": "hard",
+    "question": "Which outcome is most likely when customer satisfaction remains consistently high?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increased retention and loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Higher customer churn"
+      },
+      {
+        "key": "C",
+        "text": "Reduced repeat purchases"
+      },
+      {
+        "key": "D",
+        "text": "Lower brand reputation"
+      }
+    ],
+    "answer": "A",
+    "reason": "Highly satisfied customers are more likely to remain loyal and continue purchasing from the company."
+  },
+  {
+    "id": 94,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Lifetime Value",
+    "difficulty": "hard",
+    "question": "Which factor does NOT directly contribute to Customer Lifetime Value (CLV)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Number of purchases made by a customer"
+      },
+      {
+        "key": "B",
+        "text": "Average purchase value"
+      },
+      {
+        "key": "C",
+        "text": "Length of customer relationship"
+      },
+      {
+        "key": "D",
+        "text": "Company building size"
+      }
+    ],
+    "answer": "D",
+    "reason": "CLV depends on customer revenue and relationship duration, not physical company infrastructure."
+  },
+  {
+    "id": 95,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Experience Management",
+    "difficulty": "hard",
+    "question": "Which stage is NOT normally considered part of the customer journey?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Awareness"
+      },
+      {
+        "key": "B",
+        "text": "Purchase"
+      },
+      {
+        "key": "C",
+        "text": "Post-purchase support"
+      },
+      {
+        "key": "D",
+        "text": "Machine calibration"
+      }
+    ],
+    "answer": "D",
+    "reason": "Customer journeys include awareness, evaluation, purchase, and post-purchase interactions, not operational activities like machine calibration."
+  },
+  {
+    "id": 96,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "A company should generally focus retention efforts on customers who:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide the highest long-term profitability"
+      },
+      {
+        "key": "B",
+        "text": "Generate the most complaints"
+      },
+      {
+        "key": "C",
+        "text": "Never make purchases"
+      },
+      {
+        "key": "D",
+        "text": "Have already switched competitors"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retaining highly profitable customers produces the greatest long-term business value."
+  },
+  {
+    "id": 97,
+    "subject": "Customer Relationship Management",
+    "topic": "Enterprise Marketing Management",
+    "difficulty": "hard",
+    "question": "Marketing automation within Enterprise Marketing Management primarily helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Execute repetitive marketing tasks efficiently"
+      },
+      {
+        "key": "B",
+        "text": "Eliminate customer databases"
+      },
+      {
+        "key": "C",
+        "text": "Replace all marketing employees"
+      },
+      {
+        "key": "D",
+        "text": "Reduce customer communication"
+      }
+    ],
+    "answer": "A",
+    "reason": "Marketing automation streamlines campaign execution, lead nurturing, and customer communication."
+  },
+  {
+    "id": 98,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Satisfaction Measurement",
+    "difficulty": "hard",
+    "question": "A declining Net Promoter Score (NPS) may indicate:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reduced customer loyalty and advocacy"
+      },
+      {
+        "key": "B",
+        "text": "Improved customer satisfaction"
+      },
+      {
+        "key": "C",
+        "text": "Higher retention automatically"
+      },
+      {
+        "key": "D",
+        "text": "Increased profitability in all cases"
+      }
+    ],
+    "answer": "A",
+    "reason": "A lower NPS suggests customers are less likely to recommend the company, indicating weaker loyalty."
+  },
+  {
+    "id": 99,
+    "subject": "Customer Relationship Management",
+    "topic": "Web-Based Customer Support",
+    "difficulty": "hard",
+    "question": "Which web-based support feature allows customers to find solutions without contacting an agent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Knowledge Base"
+      },
+      {
+        "key": "B",
+        "text": "Payroll System"
+      },
+      {
+        "key": "C",
+        "text": "Inventory Database"
+      },
+      {
+        "key": "D",
+        "text": "Attendance Register"
+      }
+    ],
+    "answer": "A",
+    "reason": "Knowledge bases provide self-service information that customers can access independently."
+  },
+  {
+    "id": 100,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Centricity",
+    "difficulty": "hard",
+    "question": "Which statement best describes a customer-centric organization?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It aligns products, services, and processes around customer needs"
+      },
+      {
+        "key": "B",
+        "text": "It focuses exclusively on internal operations"
+      },
+      {
+        "key": "C",
+        "text": "It prioritizes products over customers"
+      },
+      {
+        "key": "D",
+        "text": "It avoids collecting customer feedback"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer-centric organizations design their strategies and operations around delivering value to customers."
+  }
+]

@@ -24,7 +24,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The Network Layer is responsible for logical addressing and routing packets from source to destination across interconnected networks."
+        "reason": "The Network Layer is responsible for logical addressing and routing packets from source to destination across interconnected networks. It takes segments from the Transport Layer and encapsulates them into IP packets, determining the optimal physical path through the network using routing protocols."
     },
     {
         "id": 2,
@@ -51,7 +51,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Routing algorithms determine the most efficient path for packet delivery across a network."
+        "reason": "Routing algorithms determine the most efficient path for packet delivery across a network based on factors like hop count, bandwidth, and delay. They allow routers to build and update their internal routing tables, directing incoming packets toward their destination networks."
     },
     {
         "id": 3,
@@ -78,7 +78,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Dijkstra's Algorithm computes the shortest path between nodes in a weighted graph and is widely used in networking."
+        "reason": "Dijkstra's Algorithm computes the shortest path between nodes in a weighted graph and is widely used in link-state routing protocols like OSPF. It works by keeping track of the shortest distance from the source to every other node in the network topology."
     },
     {
         "id": 4,
@@ -105,7 +105,7 @@
             }
         ],
         "answer": "A",
-        "reason": "A metric represents the cost associated with traversing a network link and is used to calculate optimal routes."
+        "reason": "A metric represents the cost associated with traversing a network link and is used by routing algorithms to calculate optimal paths. Metrics can be based on variables such as link bandwidth, delay, hop count, path reliability, and administrative cost."
     },
     {
         "id": 5,
@@ -132,7 +132,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Flow-based routing uses current traffic load and flow information to make routing decisions."
+        "reason": "Flow-based routing uses current traffic load and flow information to make routing decisions, aiming to balance load across the network. By shifting traffic away from heavily congested links, it prevents bottlenecks and optimizes overall throughput."
     },
     {
         "id": 6,
@@ -159,7 +159,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Distance Vector protocols exchange routing information only with directly connected neighbors."
+        "reason": "Distance Vector protocols exchange routing information only with directly connected neighbors at periodic intervals. Each router shares its complete routing table with its immediate neighbors, which then update their own tables using the Bellman-Ford algorithm."
     },
     {
         "id": 7,
@@ -186,7 +186,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Routers store the distance (cost) and next hop required to reach each destination."
+        "reason": "In Distance Vector Routing, each router maintains distance and direction to destinations, representing the cost and next hop for every network route. Routers do not possess a complete map of the entire network topology, relying instead on second-hand information from their neighbors."
     },
     {
         "id": 8,
@@ -213,7 +213,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Distance Vector protocols may suffer from the count-to-infinity problem during route failures."
+        "reason": "Distance Vector protocols may suffer from the count-to-infinity problem during route failures, where routers continuously increase hop counts for a broken route in a loop. This occurs because routing changes propagate slowly, causing routers to pass outdated routing information back and forth."
     },
     {
         "id": 9,
@@ -240,7 +240,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Broadcast routing sends packets to all reachable hosts within a network."
+        "reason": "Broadcast routing sends packets to all reachable hosts within a network segment simultaneously. The sender uses a specific broadcast destination IP address, and network devices duplicate the packet to deliver it to every interface in the broadcast domain."
     },
     {
         "id": 10,
@@ -267,7 +267,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Broadcasting can generate significant traffic because every device receives the packet."
+        "reason": "Broadcasting can generate significant traffic because every device in the network receives and processes the packet, consuming bandwidth and CPU cycles. In large networks, excessive broadcasting can lead to a \"broadcast storm\" that severely degrades performance."
     },
     {
         "id": 11,
@@ -294,7 +294,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Multicast routing efficiently delivers packets to a specific group of interested receivers."
+        "reason": "Multicast routing efficiently delivers packets to a specific group of interested receivers rather than broadcasting to everyone. By duplicating packets only at branches where receivers are present, it saves significant network bandwidth."
     },
     {
         "id": 12,
@@ -321,7 +321,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Video conferencing and streaming often use multicast to efficiently deliver data to multiple recipients."
+        "reason": "Video conferencing and streaming often use multicast to efficiently deliver data to multiple recipients without duplicating packets at the source. This allows a single media stream to reach thousands of viewers without overwhelming the server or the core network."
     },
     {
         "id": 13,
@@ -348,7 +348,7 @@
             }
         ],
         "answer": "B",
-        "reason": "IPv4 addresses are 32-bit logical addresses typically represented in dotted-decimal notation."
+        "reason": "IPv4 addresses are 32-bit logical addresses typically represented in dotted-decimal notation, consisting of four octets. This provides a total address space of approximately 4.3 billion unique addresses, which has been exhausted due to the growth of the Internet."
     },
     {
         "id": 14,
@@ -375,7 +375,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Each IPv4 octet must be in the range 0 to 255."
+        "reason": "Each IPv4 octet must be in the range 0 to 255 because it is represented by 8 bits (`2^8 = 256` values). Addresses with octets outside this range, such as `300` or `256`, are invalid and cannot be parsed by IP stacks."
     },
     {
         "id": 15,
@@ -402,7 +402,7 @@
             }
         ],
         "answer": "B",
-        "reason": "An IPv4 address contains four 8-bit octets."
+        "reason": "An IPv4 address contains four 8-bit octets, making up the 32-bit total address length. These octets are separated by dots in dotted-decimal notation (e.g., `X.X.X.X`), with each octet representing a value from 0 to 255."
     },
     {
         "id": 16,
@@ -429,7 +429,7 @@
             }
         ],
         "answer": "C",
-        "reason": "IPv6 uses 128-bit addresses to provide a vastly larger address space than IPv4."
+        "reason": "IPv6 uses 128-bit addresses to provide a vastly larger address space than IPv4, supporting `2^128` unique addresses. This expansion ensures that the global Internet can continue to scale and accommodate the Internet of Things (IoT) without address exhaustion."
     },
     {
         "id": 17,
@@ -456,7 +456,7 @@
             }
         ],
         "answer": "C",
-        "reason": "IPv6 addresses are expressed as eight groups of hexadecimal digits."
+        "reason": "IPv6 addresses are expressed as eight groups of hexadecimal digits separated by colons, with each group representing 16 bits. This notation simplifies the presentation of the long 128-bit address, which would be extremely difficult to read in decimal format."
     },
     {
         "id": 18,
@@ -483,7 +483,7 @@
             }
         ],
         "answer": "B",
-        "reason": "IPv6 significantly increases the available address space compared to IPv4."
+        "reason": "IPv6 significantly increases the available address space compared to IPv4, expanding the address length from 32 bits to 128 bits. This massive pool of addresses eliminates the need for Network Address Translation (NAT) and enables direct end-to-end communication."
     },
     {
         "id": 19,
@@ -510,7 +510,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Subnetting divides a larger network into smaller, manageable subnetworks."
+        "reason": "Subnetting divides a larger network into smaller, manageable subnetworks to improve security, reduce broadcast traffic, and organize IP addressing. By grouping hosts into local subnets, organizations can control traffic flow and isolate network issues."
     },
     {
         "id": 20,
@@ -537,7 +537,7 @@
             }
         ],
         "answer": "A",
-        "reason": "A `/24` prefix means the first 24 bits are network bits, corresponding to `255.255.255.0`."
+        "reason": "A `/24` prefix means the first 24 bits of the IP address are network bits, corresponding to the subnet mask `255.255.255.0`. This mask leaves 8 bits for host addressing, which allows for up to 254 usable host addresses on the subnet."
     },
     {
         "id": 21,
@@ -564,7 +564,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A `/30` subnet has 4 total addresses, with 2 usable host addresses after excluding network and broadcast addresses."
+        "reason": "A `/30` subnet has 4 total addresses, with 2 usable host addresses after excluding the network and broadcast addresses. This prefix length is ideal for point-to-point serial links between routers, where only two interfaces need IP addresses."
     },
     {
         "id": 22,
@@ -591,7 +591,7 @@
             }
         ],
         "answer": "A",
-        "reason": "CIDR stands for Classless Inter-Domain Routing and improves IP address allocation."
+        "reason": "CIDR stands for Classless Inter-Domain Routing, which was introduced to replace the rigid classful IP addressing scheme (Classes A, B, and C). It allows IP addresses to be allocated with variable prefix lengths, optimizing the use of the IP address space."
     },
     {
         "id": 23,
@@ -618,7 +618,7 @@
             }
         ],
         "answer": "A",
-        "reason": "CIDR notation uses a slash followed by the number of network bits."
+        "reason": "CIDR notation uses a slash followed by the number of network bits (e.g., `/24` or `/16`) appended to the network address. This notation clearly defines the boundary between the network portion and the host portion of the address."
     },
     {
         "id": 24,
@@ -645,7 +645,7 @@
             }
         ],
         "answer": "B",
-        "reason": "CIDR enables flexible allocation of address blocks and reduces address wastage."
+        "reason": "CIDR enables flexible allocation of address blocks and reduces address wastage by allowing subnet boundaries to fall on any bit boundary. It also allows multiple routes to be aggregated into a single entry, slowing the growth of global internet routing tables."
     },
     {
         "id": 25,
@@ -672,7 +672,7 @@
             }
         ],
         "answer": "A",
-        "reason": "RIP is a Distance Vector routing protocol known as Routing Information Protocol."
+        "reason": "RIP (Routing Information Protocol) is a Distance Vector routing protocol that uses hop count as its metric to determine the best path. It is simple to configure and operates by periodically broadcasting its entire routing table to its neighbors."
     },
     {
         "id": 26,
@@ -699,7 +699,7 @@
             }
         ],
         "answer": "B",
-        "reason": "RIP selects routes based on the number of hops required to reach a destination."
+        "reason": "RIP selects routes based on the number of hops (routers traversed) required to reach a destination, ignoring link speed or congestion. The path with the lowest hop count is selected as the best route, even if it has much lower bandwidth than an alternative path."
     },
     {
         "id": 27,
@@ -726,7 +726,7 @@
             }
         ],
         "answer": "B",
-        "reason": "RIP treats a hop count greater than 15 as unreachable."
+        "reason": "RIP treats a hop count greater than 15 as unreachable (infinity), which acts as a loop prevention mechanism. This design limitation restricts the maximum size of a RIP network to 15 router hops, making it unsuitable for large networks."
     },
     {
         "id": 28,
@@ -753,7 +753,7 @@
             }
         ],
         "answer": "A",
-        "reason": "OSPF is a Link State routing protocol called Open Shortest Path First."
+        "reason": "OSPF is a Link State routing protocol called Open Shortest Path First, which is widely used in enterprise networks. Unlike Distance Vector protocols, OSPF routers build a complete topology map of the network and calculate the shortest paths independently."
     },
     {
         "id": 29,
@@ -780,7 +780,7 @@
             }
         ],
         "answer": "B",
-        "reason": "OSPF is a Link State protocol that builds a complete topology database."
+        "reason": "OSPF is a Link State protocol that builds a complete topology database by exchanging link state advertisements (LSAs) with neighboring routers. Each router runs Dijkstra's algorithm on this database to determine the shortest path to each network segment."
     },
     {
         "id": 30,
@@ -807,7 +807,7 @@
             }
         ],
         "answer": "B",
-        "reason": "OSPF uses Dijkstra's shortest path first algorithm to determine optimal routes."
+        "reason": "OSPF uses Dijkstra's shortest path first algorithm to determine optimal routes from a source node to all other nodes in the network graph. By calculating the path cost based on link bandwidth, it ensures that high-speed links are preferred over slower paths."
     },
     {
         "id": 31,
@@ -834,7 +834,7 @@
             }
         ],
         "answer": "A",
-        "reason": "BGP is the Border Gateway Protocol used for inter-domain routing on the Internet."
+        "reason": "BGP is the Border Gateway Protocol used for inter-domain routing on the Internet, exchanging routing information between Autonomous Systems. It is a path-vector protocol designed to handle the scale and policy requirements of global internet routing."
     },
     {
         "id": 32,
@@ -861,7 +861,7 @@
             }
         ],
         "answer": "B",
-        "reason": "BGP exchanges routing information between Autonomous Systems (ASes)."
+        "reason": "BGP exchanges routing information between Autonomous Systems (ASes), which are large networks under a single administrative control. This protocol enables ISPs to coordinate routing paths and enforce business agreements across the global Internet."
     },
     {
         "id": 33,
@@ -888,7 +888,7 @@
             }
         ],
         "answer": "A",
-        "reason": "BGP is a Path Vector routing protocol that advertises network reachability information."
+        "reason": "BGP is a Path Vector routing protocol that advertises network reachability along with the complete path of Autonomous Systems (AS-Path) to the destination. This path information helps detect and prevent routing loops across the global Internet."
     },
     {
         "id": 34,
@@ -915,7 +915,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NAT translates private IP addresses into public IP addresses and vice versa."
+        "reason": "NAT (Network Address Translation) translates private IP addresses into public IP addresses and vice versa at the network border. This allows private devices inside a local network to access resources on the public Internet using a public IP."
     },
     {
         "id": 35,
@@ -942,7 +942,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NAT allows multiple devices to share a limited number of public IPv4 addresses."
+        "reason": "NAT allows multiple devices to share a limited number of public IPv4 addresses, helping to mitigate the exhaustion of the IPv4 address space. By mapping many private IP addresses to a single public IP, NAT enables large local networks to connect to the Internet."
     },
     {
         "id": 36,
@@ -969,7 +969,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NAT translates private IP addresses into publicly routable addresses."
+        "reason": "NAT translates private IP addresses (defined by RFC 1918) into publicly routable addresses when packets exit the local network. This keeps the internal structure of the network hidden from the outside, providing an basic layer of security."
     },
     {
         "id": 37,
@@ -996,7 +996,7 @@
             }
         ],
         "answer": "A",
-        "reason": "ICMP is used for error reporting and network diagnostics."
+        "reason": "ICMP (Internet Control Message Protocol) is used for error reporting and network diagnostics, operating alongside IP in the Network Layer. It generates error messages when a destination is unreachable, a packet's Time-to-Live expires, or congestion occurs."
     },
     {
         "id": 38,
@@ -1023,7 +1023,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The `ping` utility uses ICMP Echo Request and Echo Reply messages to test connectivity."
+        "reason": "The `ping` utility uses ICMP Echo Request and Echo Reply messages to test IP-level connectivity to a target host. By measuring the time it takes for the reply to return, ping also calculates network latency and packet loss."
     },
     {
         "id": 39,
@@ -1050,7 +1050,7 @@
             }
         ],
         "answer": "B",
-        "reason": "ICMP communicates network status, errors, and diagnostic information."
+        "reason": "ICMP communicates network status, errors, and diagnostic information to hosts and routers. It does not carry user application data, focusing instead on feedback about network layer operations and failures."
     },
     {
         "id": 40,
@@ -1077,7 +1077,7 @@
             }
         ],
         "answer": "C",
-        "reason": "BGP is the de facto standard for inter-domain routing between Autonomous Systems on the Internet."
+        "reason": "BGP is the de facto standard for inter-domain routing between Autonomous Systems on the Internet. It is designed to handle millions of routes and allows ISPs to enforce complex traffic policies and routing rules at the global scale."
     },
     {
         "id": 41,
@@ -1104,7 +1104,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Routers operate at the Network Layer and forward packets based on logical IP addresses."
+        "reason": "Routers operate at the Network Layer (Layer 3) and forward packets based on logical IP addresses. They examine the destination IP of incoming packets and consult their routing tables to determine the best outgoing interface."
     },
     {
         "id": 42,
@@ -1131,7 +1131,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Routing tables store destination networks, next-hop information, and routing metrics."
+        "reason": "Routing tables store destination networks, next-hop IP addresses, outgoing interfaces, and routing metrics. Routers use these tables to make forwarding decisions, ensuring packets are guided hop-by-hop toward their final destination."
     },
     {
         "id": 43,
@@ -1158,7 +1158,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Shortest path algorithms select routes with the lowest total cost or metric."
+        "reason": "Shortest path algorithms select routes with the lowest total cost or metric value, which represents the most efficient path. Depending on the routing protocol, the cost might be determined by hop count, interface speed, link reliability, or administrative preference."
     },
     {
         "id": 44,
@@ -1185,7 +1185,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Dijkstra's algorithm is the foundation of Link State routing protocols such as OSPF."
+        "reason": "Dijkstra's algorithm is the foundation of Link State routing protocols such as OSPF, where each router calculates shortest paths independently. By maintaining a full map of the network, link-state protocols can quickly recalculate routes when the topology changes."
     },
     {
         "id": 45,
@@ -1212,7 +1212,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Flow-based routing considers traffic intensity and congestion to select efficient paths."
+        "reason": "Flow-based routing considers traffic intensity and congestion to select efficient paths, matching routing decisions with network load. By routing traffic along paths with excess capacity, it minimizes delay and improves overall network utilization."
     },
     {
         "id": 46,
@@ -1239,7 +1239,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Distance Vector Routing protocols use the Bellman-Ford algorithm to calculate routes."
+        "reason": "Distance Vector Routing protocols use the Bellman-Ford algorithm to calculate routes, estimating distances based on vectors received from neighbors. This iterative algorithm allows routers to converge on the shortest path without needing a complete map of the network."
     },
     {
         "id": 47,
@@ -1266,7 +1266,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Split Horizon prevents routers from advertising routes back through the interface from which they were learned."
+        "reason": "Split Horizon prevents routers from advertising routes back through the interface from which they were learned. This simple technique stops routers from creating two-node routing loops, helping to stabilize Distance Vector protocols like RIP."
     },
     {
         "id": 48,
@@ -1293,7 +1293,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Broadcast addresses are used to deliver packets to all hosts within a network segment."
+        "reason": "Broadcast addresses are used to deliver packets to all hosts within a network segment. In IPv4, the local broadcast address is `255.255.255.255`, and routers do not forward these packets beyond the local subnet boundary."
     },
     {
         "id": 49,
@@ -1320,7 +1320,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Flooding forwards packets through all outgoing interfaces and is often associated with broadcast routing."
+        "reason": "Flooding forwards packets through all outgoing interfaces except the one on which they were received, ensuring the packet reaches every node. While simple, flooding consumes massive bandwidth and is usually restricted to initial path discovery or routing updates."
     },
     {
         "id": 50,
@@ -1347,7 +1347,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Multicast avoids sending unnecessary traffic to hosts that are not part of the multicast group."
+        "reason": "Multicast avoids sending unnecessary traffic to hosts that are not part of the multicast group, making it highly efficient. Unlike broadcasting, which forces every device to process the packet, multicast packets are ignored by non-member interfaces."
     },
     {
         "id": 51,
@@ -1374,7 +1374,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Class A networks allocate 24 bits for host addressing, supporting a very large number of hosts."
+        "reason": "Class A networks allocate 24 bits for host addressing, supporting up to 16,777,214 hosts per network. These networks were traditionally reserved for very large organizations and government agencies before the transition to classless routing."
     },
     {
         "id": 52,
@@ -1401,7 +1401,7 @@
             }
         ],
         "answer": "C",
-        "reason": "`127.0.0.1` is the loopback address used to test the local TCP/IP stack."
+        "reason": "`127.0.0.1` is the loopback address used to test the local TCP/IP stack on a device. Packets sent to this address do not leave the host's operating system, allowing developers to test network applications locally without physical network hardware."
     },
     {
         "id": 53,
@@ -1428,7 +1428,7 @@
             }
         ],
         "answer": "C",
-        "reason": "`192.168.0.0/16` is the private Class C address block defined by RFC 1918."
+        "reason": "`192.168.0.0/16` is the private Class C address block defined by RFC 1918, commonly used in home and small office networks. These addresses are not routable on the public Internet and must be translated by NAT before reaching external servers."
     },
     {
         "id": 54,
@@ -1455,7 +1455,7 @@
             }
         ],
         "answer": "B",
-        "reason": "IPv6 provides a much larger address space to overcome IPv4 address exhaustion."
+        "reason": "IPv6 provides a much larger address space to overcome IPv4 address exhaustion, accommodating the explosive growth of connected devices. Its 128-bit address length ensures that unique global addresses can be assigned to every device, restoring end-to-end routing."
     },
     {
         "id": 55,
@@ -1482,7 +1482,7 @@
             }
         ],
         "answer": "C",
-        "reason": "A complete IPv6 address contains eight groups of hexadecimal digits separated by colons."
+        "reason": "A complete IPv6 address contains eight groups of hexadecimal digits separated by colons, representing 16 bits each. This structure allows the representation of the full 128-bit address in a standard, recognizable format."
     },
     {
         "id": 56,
@@ -1509,7 +1509,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The double colon `::` notation is used to represent one or more groups of consecutive zeros."
+        "reason": "The double colon `::` notation is used to represent one or more groups of consecutive zeros in an IPv6 address. To avoid ambiguity, this compression technique can only be applied once within a single IPv6 address."
     },
     {
         "id": 57,
@@ -1536,7 +1536,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Subnet masks distinguish the network portion from the host portion of an IP address."
+        "reason": "Subnet masks distinguish the network portion from the host portion of an IP address by using a series of contiguous 1s followed by 0s. Devices perform a bitwise AND operation between their IP address and the subnet mask to determine their network address."
     },
     {
         "id": 58,
@@ -1563,7 +1563,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A `/28` subnet leaves 4 host bits, providing `2^4 = 16` total addresses."
+        "reason": "A `/28` subnet leaves 4 host bits, providing `2^4 = 16` total addresses. After subtracting the network address and the broadcast address, there are 14 usable host addresses available for network interfaces."
     },
     {
         "id": 59,
@@ -1590,7 +1590,7 @@
             }
         ],
         "answer": "C",
-        "reason": "`255.255.255.192` contains 26 network bits, corresponding to a `/26` prefix."
+        "reason": "`255.255.255.192` contains 26 network bits, corresponding to a `/26` prefix. The remaining 6 bits are allocated for host addresses, yielding 62 usable IP addresses per subnet."
     },
     {
         "id": 60,
@@ -1617,7 +1617,7 @@
             }
         ],
         "answer": "A",
-        "reason": "CIDR allows route summarization, reducing routing table size by combining multiple networks."
+        "reason": "CIDR allows route summarization (aggregation), reducing routing table size by combining multiple contiguous networks into a single routing entry. This summarization is essential for keeping internet routing tables manageable at major exchange points."
     },
     {
         "id": 61,
@@ -1644,7 +1644,7 @@
             }
         ],
         "answer": "C",
-        "reason": "RIP periodically sends routing updates every 30 seconds."
+        "reason": "RIP periodically sends routing updates every 30 seconds to maintain routing table synchronization across the network. These periodic updates occur regardless of whether the topology has changed, contributing to background network traffic."
     },
     {
         "id": 62,
@@ -1671,7 +1671,7 @@
             }
         ],
         "answer": "C",
-        "reason": "RIP is one of the most well-known Distance Vector routing protocols."
+        "reason": "RIP is one of the most well-known Distance Vector routing protocols, utilizing the Bellman-Ford algorithm to compute paths. Its simplicity makes it easy to deploy, but its slow convergence and hop count limit make it unsuitable for larger networks."
     },
     {
         "id": 63,
@@ -1698,7 +1698,7 @@
             }
         ],
         "answer": "A",
-        "reason": "OSPF routers distribute Link State Advertisements to build a topology database."
+        "reason": "OSPF routers distribute Link State Advertisements (LSAs) to build a topology database of all links in the network. When a link status changes, an LSA is immediately flooded throughout the area, allowing all routers to update their routing tables quickly."
     },
     {
         "id": 64,
@@ -1725,7 +1725,7 @@
             }
         ],
         "answer": "B",
-        "reason": "OSPF converges faster because routers maintain detailed topology information."
+        "reason": "OSPF converges faster than RIP because OSPF routers maintain detailed topology information and flood changes immediately rather than waiting for periodic timers. This rapid convergence prevents routing loops and minimizes packet loss during network changes."
     },
     {
         "id": 65,
@@ -1752,7 +1752,7 @@
             }
         ],
         "answer": "B",
-        "reason": "BGP is responsible for routing traffic between Autonomous Systems across the Internet."
+        "reason": "BGP is responsible for routing traffic between Autonomous Systems across the Internet. By managing path vectors, BGP allows large service providers to exchange traffic and route packets across diverse global networks."
     },
     {
         "id": 66,
@@ -1779,7 +1779,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Each Autonomous System participating in BGP routing is assigned a unique ASN."
+        "reason": "Each Autonomous System participating in BGP routing is assigned a unique ASN (Autonomous System Number). These numbers are globally managed by IANA and regional internet registries to ensure unique identification on the global routing table."
     },
     {
         "id": 67,
@@ -1806,7 +1806,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Routers and firewalls commonly perform Network Address Translation."
+        "reason": "Routers and firewalls commonly perform Network Address Translation at the border between the private local network and the public Internet. The NAT device maintains a translation table to route returning packets back to the correct internal host."
     },
     {
         "id": 68,
@@ -1833,7 +1833,7 @@
             }
         ],
         "answer": "C",
-        "reason": "PAT maps multiple private addresses to a single public address using unique port numbers."
+        "reason": "PAT (Port Address Translation) maps multiple private addresses to a single public address by modifying both the IP addresses and source port numbers in packet headers. This variation of NAT enables thousands of internal hosts to share a single public IP."
     },
     {
         "id": 69,
@@ -1860,7 +1860,7 @@
             }
         ],
         "answer": "C",
-        "reason": "`172.16.0.0/12` is one of the private IPv4 address ranges reserved by RFC 1918."
+        "reason": "`172.16.0.0/12` is one of the private IPv4 address ranges reserved by RFC 1918, covering addresses from `172.16.0.0` to `172.31.255.255`. It is commonly used in medium to large enterprise networks to assign internal IP addresses."
     },
     {
         "id": 70,
@@ -1887,7 +1887,7 @@
             }
         ],
         "answer": "A",
-        "reason": "ICMP is tightly integrated with IP and is used for reporting network conditions."
+        "reason": "ICMP is tightly integrated with IP and is used for reporting network conditions and delivery failures. Although it operates as a separate protocol, its messages are encapsulated within standard IP packets for transmission."
     },
     {
         "id": 71,
@@ -1914,7 +1914,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The ICMP Destination Unreachable message reports that a packet could not be delivered."
+        "reason": "The ICMP Destination Unreachable message reports that a packet could not be delivered to its target because the host, network, port, or protocol was unavailable. This feedback helps source hosts identify configuration errors or broken links."
     },
     {
         "id": 72,
@@ -1941,7 +1941,7 @@
             }
         ],
         "answer": "A",
-        "reason": "`traceroute` identifies network hops through ICMP Time Exceeded responses."
+        "reason": "`traceroute` identifies network hops through ICMP Time Exceeded responses, which are triggered by gradually incrementing the TTL value in outgoing packets. Each router along the path decrements the TTL, and when it reaches zero, the router returns a Time Exceeded message, revealing its IP address."
     },
     {
         "id": 73,
@@ -1968,7 +1968,7 @@
             }
         ],
         "answer": "B",
-        "reason": "RIP is easy to configure and suitable for smaller networks."
+        "reason": "RIP is easy to configure and suitable for smaller networks because it requires minimal processing power and memory. It works well on simple topologies where hop count is an acceptable metric and rapid convergence is not critical."
     },
     {
         "id": 74,
@@ -1995,7 +1995,7 @@
             }
         ],
         "answer": "B",
-        "reason": "OSPF is designed for scalability and efficient routing in large enterprise environments."
+        "reason": "OSPF is designed for scalability and efficient routing in large enterprise environments, supporting hierarchically structured networks. By dividing the network into distinct areas, OSPF limits the scope of topology updates, reducing routing overhead."
     },
     {
         "id": 75,
@@ -2022,7 +2022,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A `/29` subnet contains 8 total addresses, with 6 usable host addresses after excluding network and broadcast addresses."
+        "reason": "A `/29` subnet contains 8 total addresses, with 6 usable host addresses after excluding the network and broadcast addresses. It is commonly used for small network segments, such as WAN links or DMZ segments with a few servers."
     },
     {
         "id": 76,
@@ -2049,7 +2049,7 @@
             }
         ],
         "answer": "A",
-        "reason": "A `/27` prefix corresponds to the subnet mask `255.255.255.224`."
+        "reason": "A `/27` prefix corresponds to the subnet mask `255.255.255.224`, dividing a Class C network block into 8 equal subnets. Each subnet provides 30 usable host addresses."
     },
     {
         "id": 77,
@@ -2076,7 +2076,7 @@
             }
         ],
         "answer": "C",
-        "reason": "IPv6 uses multicast instead of broadcast to communicate with groups of nodes."
+        "reason": "IPv6 uses multicast instead of broadcast to communicate with groups of nodes, which improves network efficiency. By using multicast, IPv6 prevents devices from having to process unwanted broadcast traffic, reducing CPU usage on idle hosts."
     },
     {
         "id": 78,
@@ -2103,7 +2103,7 @@
             }
         ],
         "answer": "A",
-        "reason": "`::1` is the IPv6 loopback address equivalent to IPv4 `127.0.0.1`."
+        "reason": "`::1` is the IPv6 loopback address equivalent to IPv4 `127.0.0.1`, representing the local host interface. It is used by applications to send messages to themselves for testing and internal communication."
     },
     {
         "id": 79,
@@ -2130,7 +2130,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Link State routing protocols maintain a full topology database and calculate shortest paths independently."
+        "reason": "Link State routing protocols maintain a full topology database and calculate shortest paths independently using Dijkstra's algorithm. This approach ensures that all routers have an accurate, identical map of the network, preventing routing loops."
     },
     {
         "id": 80,
@@ -2157,7 +2157,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Logical addressing and routing enable end-to-end packet delivery across heterogeneous interconnected networks."
+        "reason": "Logical addressing and routing enable end-to-end packet delivery across heterogeneous interconnected networks, bridging different physical transmission media. This decoupling of the network layer from the physical layer is what allows the Internet to connect diverse technologies worldwide."
     },
     {
         "id": 81,
@@ -2184,7 +2184,7 @@
             }
         ],
         "answer": "D",
-        "reason": "Class D addresses (224.0.0.0 to 239.255.255.255) are reserved for multicast communication."
+        "reason": "Class D addresses (224.0.0.0 to 239.255.255.255) are reserved for multicast communication, allowing a source to send packets to a group of receivers. These addresses are not assigned to individual hosts and are used only as destination addresses."
     },
     {
         "id": 82,
@@ -2211,7 +2211,7 @@
             }
         ],
         "answer": "A",
-        "reason": "`255.255.255.255` is the limited broadcast address used to reach all hosts on the local network."
+        "reason": "`255.255.255.255` is the limited broadcast address used to reach all hosts on the local network segment. Packets sent to this address are processed by all local devices but are discarded by routers, preventing broadcast traffic from spreading to other networks."
     },
     {
         "id": 83,
@@ -2238,7 +2238,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A `/26` subnet provides 64 total addresses, of which 62 are usable host addresses."
+        "reason": "A `/26` subnet provides 64 total addresses, of which 62 are usable host addresses after reserving the network and broadcast addresses. This subnet size is useful for medium-sized departments or office network segments."
     },
     {
         "id": 84,
@@ -2265,7 +2265,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A `/26` subnet has blocks of 64 addresses. Address 75 falls within the range 64–127, making `192.168.10.64` the network address."
+        "reason": "A `/26` subnet has blocks of 64 addresses. Address 75 falls within the range 64–127, making `192.168.10.64` the network address and `192.168.10.127` the broadcast address for this segment."
     },
     {
         "id": 85,
@@ -2292,7 +2292,7 @@
             }
         ],
         "answer": "A",
-        "reason": "A `/32` prefix identifies a single IPv4 host because all 32 bits are used for the network portion."
+        "reason": "A `/32` prefix identifies a single IPv4 host because all 32 bits are used for the network portion. It is commonly used for loopback interfaces, VPN client addresses, and host-specific routing entries."
     },
     {
         "id": 86,
@@ -2319,7 +2319,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A `/28` network leaves 4 host bits, providing `2^4 = 16` total addresses."
+        "reason": "A `/28` network leaves 4 host bits, providing `2^4 = 16` total addresses. This prefix length yields 14 usable host addresses, making it suitable for small branch offices or server segments."
     },
     {
         "id": 87,
@@ -2346,7 +2346,7 @@
             }
         ],
         "answer": "C",
-        "reason": "RIP defines 16 hops as infinity, meaning the destination is unreachable."
+        "reason": "RIP defines 16 hops as infinity, meaning the destination is unreachable. This hop count limit acts as a basic safeguard to stop routing loops from continuing indefinitely."
     },
     {
         "id": 88,
@@ -2373,7 +2373,7 @@
             }
         ],
         "answer": "A",
-        "reason": "RIP's maximum hop count of 15 restricts its usefulness in large-scale networks."
+        "reason": "RIP's maximum hop count of 15 restricts its usefulness in large-scale networks, as any destination more than 15 hops away is considered unreachable. Additionally, its slow convergence and periodic table updates consume unnecessary bandwidth on larger links."
     },
     {
         "id": 89,
@@ -2400,7 +2400,7 @@
             }
         ],
         "answer": "B",
-        "reason": "OSPF uses a cost metric, often based on bandwidth, to determine the best route."
+        "reason": "OSPF uses a cost metric, often based on interface bandwidth, to determine the best route. This allows OSPF to choose faster, high-capacity links (like fiber) over slower paths (like dial-up or copper), even if the slower path has fewer hops."
     },
     {
         "id": 90,
@@ -2427,7 +2427,7 @@
             }
         ],
         "answer": "B",
-        "reason": "OSPF divides networks into areas, reducing routing overhead and improving scalability."
+        "reason": "OSPF divides networks into areas, reducing routing overhead and improving scalability by limiting the scope of Link State Advertisements. A central Backbone Area (Area 0) connects all other areas, ensuring efficient and loop-free routing across the enterprise."
     },
     {
         "id": 91,
@@ -2454,7 +2454,7 @@
             }
         ],
         "answer": "A",
-        "reason": "BGP is an Exterior Gateway Protocol (EGP) used between Autonomous Systems."
+        "reason": "BGP is an Exterior Gateway Protocol (EGP) used between Autonomous Systems to exchange routing information across the Internet. Unlike Interior Gateway Protocols (IGPs) like OSPF, BGP focuses on policy management and scalability between separate organizations."
     },
     {
         "id": 92,
@@ -2481,7 +2481,7 @@
             }
         ],
         "answer": "A",
-        "reason": "BGP exchanges path information that helps determine routes between Autonomous Systems."
+        "reason": "BGP exchanges path information that helps determine routes between Autonomous Systems, advertising reachability in terms of AS paths. This allows routers to select the best administrative path and apply custom filters to incoming and outgoing routing updates."
     },
     {
         "id": 93,
@@ -2508,7 +2508,7 @@
             }
         ],
         "answer": "C",
-        "reason": "BGP allows administrators to define routing policies and path preferences between Autonomous Systems."
+        "reason": "BGP allows administrators to define routing policies and path preferences between Autonomous Systems, making it highly policy-based. Instead of relying solely on technical metrics like bandwidth, BGP routing is guided by business agreements and peering policies."
     },
     {
         "id": 94,
@@ -2535,7 +2535,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Static NAT permanently maps one private IP address to one public IP address."
+        "reason": "Static NAT permanently maps one private IP address to one public IP address on a one-to-one basis. This is commonly used for internal servers (like web or mail servers) that need to be accessible from the public Internet under a consistent public IP."
     },
     {
         "id": 95,
@@ -2562,7 +2562,7 @@
             }
         ],
         "answer": "C",
-        "reason": "PAT (Port Address Translation) is often referred to as NAT Overload because many devices share one public IP."
+        "reason": "PAT (Port Address Translation) is often referred to as NAT Overload because many private devices share a single public IP address. By tracking unique source port numbers, the PAT device can distinguish between traffic streams and route returning packets to the correct internal host."
     },
     {
         "id": 96,
@@ -2589,7 +2589,7 @@
             }
         ],
         "answer": "B",
-        "reason": "An ICMP Echo Reply is generated in response to an ICMP Echo Request, as used by `ping`."
+        "reason": "An ICMP Echo Reply is generated in response to an ICMP Echo Request, as used by the `ping` utility. This exchange verifies that the destination host's network stack is active and capable of receiving and returning IP packets."
     },
     {
         "id": 97,
@@ -2616,7 +2616,7 @@
             }
         ],
         "answer": "B",
-        "reason": "`ping` uses ICMP messages to verify whether a remote host is reachable."
+        "reason": "The `ping` command uses ICMP messages to verify whether a remote host is reachable and active. It is one of the most fundamental network troubleshooting tools, providing round-trip times and packet loss statistics."
     },
     {
         "id": 98,
@@ -2643,7 +2643,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Multicast routing delivers traffic only to hosts that have joined the multicast group."
+        "reason": "Multicast routing delivers traffic only to hosts that have joined the multicast group, reducing unnecessary network load. Routers forward multicast packets along a distribution tree, duplicating them only where paths split to reach active group members."
     },
     {
         "id": 99,
@@ -2670,7 +2670,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Dynamic routing protocols automatically adjust routes when network topology or conditions change."
+        "reason": "Dynamic routing protocols automatically adjust routes when network topology or link status changes. Routers exchange updates dynamically to calculate new paths, ensuring that traffic is rerouted around failed links without manual intervention."
     },
     {
         "id": 100,
@@ -2697,6 +2697,6 @@
             }
         ],
         "answer": "B",
-        "reason": "RIP is a Distance Vector protocol, while OSPF is a Link State routing protocol."
+        "reason": "RIP is a Distance Vector protocol, while OSPF is a Link State routing protocol. This matching highlights the fundamental difference between vector-based calculations and full link-state topology mapping in interior routing."
     }
 ]

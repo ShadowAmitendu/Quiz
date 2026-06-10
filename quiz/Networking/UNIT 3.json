@@ -24,7 +24,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The Data Link Layer ensures reliable communication between directly connected nodes through framing, error detection, and flow control."
+        "reason": "The Data Link Layer ensures reliable communication between directly connected nodes through framing, error detection, and flow control. It sits directly above the Physical Layer, taking raw bits and organizing them into structured frames. By providing node-to-node error-free transmission, it shields upper layers from physical medium issues."
     },
     {
         "id": 2,
@@ -51,7 +51,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Routing is a Network Layer function, whereas framing, flow control, and error detection are Data Link Layer responsibilities."
+        "reason": "Routing is a Network Layer function that determines the path packets take across multiple network segments, whereas framing, flow control, and error detection are Data Link Layer responsibilities. The Data Link Layer only handles communication over a single local link, using local physical addresses (MAC addresses) rather than logical IP addresses."
     },
     {
         "id": 3,
@@ -78,7 +78,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Framing encapsulates network layer packets into frames for transmission over the physical medium."
+        "reason": "Framing encapsulates network layer packets into frames by adding specific header and trailer information before transmission over the physical medium. This boundary-marking process allows the receiver to identify the beginning and end of each transmission block, enabling proper data decoding and clock synchronization."
     },
     {
         "id": 4,
@@ -105,7 +105,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Flow control regulates the transmission rate so the receiver can process incoming data efficiently."
+        "reason": "Flow control regulates the transmission rate between the sender and receiver so the sender does not overwhelm the receiver's buffering and processing capacity. If the sender transmits data too quickly, the receiver's buffer can overflow, leading to lost packets and unnecessary retransmissions."
     },
     {
         "id": 5,
@@ -132,7 +132,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The sender sends one frame and waits for an acknowledgment before sending the next frame."
+        "reason": "In the Stop-and-Wait protocol, the sender transmits one frame and waits for an acknowledgment from the receiver before sending the next frame. This simple mechanism prevents the receiver's buffer from overflowing but is highly inefficient because it leaves the transmission channel idle for long periods."
     },
     {
         "id": 6,
@@ -159,7 +159,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The sender remains idle while waiting for acknowledgments, reducing channel efficiency."
+        "reason": "The Stop-and-Wait protocol suffers from poor channel utilization because the sender remains idle while waiting for acknowledgments to travel back from the receiver. In links with a high bandwidth-delay product, this results in significant wasted bandwidth and low transmission speeds."
     },
     {
         "id": 7,
@@ -186,7 +186,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Multiple outstanding frames can be transmitted without waiting for individual acknowledgments."
+        "reason": "The Sliding Window protocol improves efficiency by allowing multiple outstanding frames to be transmitted without waiting for individual acknowledgments. The sender can continuously transmit frames up to the limit of its window size, significantly increasing link utilization compared to Stop-and-Wait."
     },
     {
         "id": 8,
@@ -213,7 +213,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The sender window controls how many frames may be transmitted before acknowledgments are received."
+        "reason": "The sender window size determines the maximum number of outstanding, unacknowledged frames that a sender can transmit at any given time. This window dynamically shifts forward as acknowledgments are received, controlling transmission flow and protecting the receiver from buffer overflow."
     },
     {
         "id": 9,
@@ -240,7 +240,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Parity bits help detect single-bit transmission errors."
+        "reason": "Parity checking is a simple error-detection technique that adds a single parity bit to a group of data bits to ensure the total number of 1s is either even or odd. While it is easy to implement in hardware, it is only capable of detecting single-bit errors."
     },
     {
         "id": 10,
@@ -267,7 +267,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Even parity ensures the total count of binary 1s, including the parity bit, is even."
+        "reason": "Even parity ensures that the total count of binary 1s, including the parity bit itself, is an even number. If the data bits already contain an even number of 1s, the parity bit is set to 0; if the data bits contain an odd number of 1s, the parity bit is set to 1."
     },
     {
         "id": 11,
@@ -294,7 +294,7 @@
             }
         ],
         "answer": "C",
-        "reason": "An even number of bit errors may leave parity unchanged and remain undetected."
+        "reason": "Single parity checking cannot reliably detect even-numbered bit errors because changing two bits simultaneously preserves the overall parity (evenness or oddness) of the data. For instance, if two bits flip from 0 to 1, the total count of 1s changes by an even number, leaving the parity unchanged and the error undetected."
     },
     {
         "id": 12,
@@ -321,7 +321,7 @@
             }
         ],
         "answer": "A",
-        "reason": "CRC is a widely used error-detection technique known as Cyclic Redundancy Check."
+        "reason": "CRC stands for Cyclic Redundancy Check, a highly powerful and widely used error-detection technique in modern digital networks. It treats the data block as a binary polynomial and appends a short checksum to the frame, ensuring reliable detection of burst errors."
     },
     {
         "id": 13,
@@ -348,7 +348,7 @@
             }
         ],
         "answer": "A",
-        "reason": "CRC uses modulo-2 binary division to generate the check value."
+        "reason": "Cyclic Redundancy Check (CRC) is based on modulo-2 binary division, where a data block is divided by a predefined generator polynomial. The resulting remainder of this division is appended to the data before transmission, allowing the receiver to perform the same division to verify data integrity."
     },
     {
         "id": 14,
@@ -375,7 +375,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The remainder produced during CRC division is appended to the data before transmission."
+        "reason": "The remainder produced during modulo-2 CRC division is appended to the original data block before transmission. When the receiver divides the entire received frame by the same generator polynomial, a zero remainder indicates that no transmission errors occurred."
     },
     {
         "id": 15,
@@ -402,7 +402,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Checksums verify data integrity by detecting corruption during transmission."
+        "reason": "Checksums verify data integrity by detecting corruption during transmission. The sender calculates a numerical value based on the sum of data blocks and transmits it with the packet, allowing the receiver to verify the data by running the same calculation."
     },
     {
         "id": 16,
@@ -429,7 +429,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Checksum algorithms typically add data units together and transmit the result."
+        "reason": "Checksum algorithms typically add data units together using one's complement arithmetic and then take the complement of the final sum to generate the checksum value. This value is transmitted with the packet, allowing the receiver to sum all blocks (including the checksum) to verify that the result is zero."
     },
     {
         "id": 17,
@@ -456,7 +456,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Hamming Code can detect and correct certain transmission errors."
+        "reason": "Hamming Code is a linear error-correcting code that can detect and correct certain transmission errors by adding redundant parity bits at specific positions. Unlike simple error detection methods, Hamming Code locates the exact bit position of an error, allowing the receiver to flip it back without requesting retransmission."
     },
     {
         "id": 18,
@@ -483,7 +483,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Hamming Code is designed to locate and correct a single erroneous bit."
+        "reason": "Hamming Code is designed to locate and correct single-bit errors in a transmitted data block. By checking multiple overlapping parity groups, the receiver can determine the precise bit that flipped and correct it, although it can only detect (but not correct) double-bit errors."
     },
     {
         "id": 19,
@@ -510,7 +510,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The syndrome value generated by parity checks identifies the erroneous bit location."
+        "reason": "Hamming Code determines the error position using syndrome bits, which are calculated by performing parity checks on the received data. The binary value of the syndrome directly indicates the 1-based index of the erroneous bit, allowing immediate single-bit correction."
     },
     {
         "id": 20,
@@ -537,7 +537,7 @@
             }
         ],
         "answer": "A",
-        "reason": "ARQ protocols use acknowledgments and retransmissions to ensure reliable delivery."
+        "reason": "ARQ stands for Automatic Repeat reQuest, which refers to error control protocols that use acknowledgments and timeout mechanisms to ensure reliable delivery. When a frame is lost or corrupted, the receiver either remains silent or sends a negative acknowledgment, triggering the sender to retransmit the frame."
     },
     {
         "id": 21,
@@ -564,7 +564,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Timeout indicates possible loss, so the sender retransmits the frame."
+        "reason": "In Stop-and-Wait ARQ, if an acknowledgment is not received within a timeout period, the sender assumes the frame or its acknowledgment was lost and retransmits the frame. The timer prevents the sender from waiting indefinitely, ensuring communication continues even on noisy channels."
     },
     {
         "id": 22,
@@ -591,7 +591,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Go-Back-N retransmits the erroneous frame and all frames sent after it."
+        "reason": "Go-Back-N ARQ is a sliding window error-control protocol where the sender retransmits the erroneous frame and all subsequent frames in the window when an error is detected. This approach simplifies the receiver's design because it doesn't need to buffer out-of-order frames, but it wastes bandwidth by retransmitting valid data."
     },
     {
         "id": 23,
@@ -618,7 +618,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The receiver accepts only the next expected frame, making its effective window size one."
+        "reason": "The receiver window size in Go-Back-N ARQ is typically set to one, meaning it only accepts frames in strict sequential order. If an out-of-order frame arrives, it is discarded, and the receiver continues to send negative acknowledgments or wait for the expected frame."
     },
     {
         "id": 24,
@@ -645,7 +645,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Only the frame that contains errors is retransmitted, reducing unnecessary transmissions."
+        "reason": "Selective Reject (or Selective Repeat) ARQ improves transmission efficiency by retransmitting only the specific frames that contain errors or were lost. Since correctly received out-of-order frames are not discarded, this protocol prevents the bandwidth waste associated with Go-Back-N."
     },
     {
         "id": 25,
@@ -672,7 +672,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Out-of-order frames must be stored until missing frames arrive."
+        "reason": "Compared with Go-Back-N, Selective Reject ARQ requires more receiver buffering because the receiver must store correctly received out-of-order frames. These frames are kept in the buffer until the missing or corrupted frame is successfully retransmitted and received, after which they are delivered to the network layer."
     },
     {
         "id": 26,
@@ -699,7 +699,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HDLC is a bit-oriented Data Link Layer protocol called High-Level Data Link Control."
+        "reason": "HDLC stands for High-Level Data Link Control, which is a bit-oriented Data Link Layer protocol developed by ISO. It is widely used to provide reliable point-to-point and multipoint communications over physical links, supporting both half-duplex and full-duplex transmission."
     },
     {
         "id": 27,
@@ -726,7 +726,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HDLC processes data as a stream of bits rather than characters."
+        "reason": "HDLC is classified as a bit-oriented protocol because it processes data as a continuous stream of bits rather than characters. It uses a specific bit pattern to delimit frames and employs bit stuffing to ensure that the delimiter pattern does not appear in the actual user data."
     },
     {
         "id": 28,
@@ -753,7 +753,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HDLC frames begin and end with the flag sequence `01111110`."
+        "reason": "HDLC frames begin and end with the unique flag sequence `01111110` (one 0, six 1s, one 0). This flag serves as a frame delimiter, allowing the receiver to identify where a new frame starts and where the current frame ends."
     },
     {
         "id": 29,
@@ -780,7 +780,7 @@
             }
         ],
         "answer": "A",
-        "reason": "ALOHA is an early random access protocol for sharing a communication channel."
+        "reason": "ALOHA is an early random access protocol developed at the University of Hawaii for sharing a communication channel among multiple stations. In this scheme, stations transmit data without checking if the medium is busy, resolving collisions by waiting for a random backoff time before retransmitting."
     },
     {
         "id": 30,
@@ -807,7 +807,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Pure ALOHA allows transmission at any time, which increases collision probability."
+        "reason": "Pure ALOHA allows stations to transmit data immediately whenever they have frames to send, without carrier sensing. While this is simple to implement, it leads to a high collision probability, especially under moderate to heavy traffic loads, resulting in a maximum channel throughput of only 18.4%."
     },
     {
         "id": 31,
@@ -834,7 +834,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Slotted ALOHA restricts transmissions to slot boundaries, reducing collision chances."
+        "reason": "Slotted ALOHA reduces collisions by dividing the communication channel's time into discrete slots and requiring stations to transmit only at slot boundaries. This synchronization reduces the vulnerability window by half, doubling the maximum channel throughput to 36.8% compared to Pure ALOHA."
     },
     {
         "id": 32,
@@ -861,7 +861,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Collision-free protocols coordinate access to the medium to prevent simultaneous transmissions."
+        "reason": "The primary goal of collision-free protocols is to avoid transmission collisions on shared communication media. These protocols coordinate access using reservation, polling, or token-passing mechanisms, ensuring that only one station has permission to transmit at any given time."
     },
     {
         "id": 33,
@@ -888,7 +888,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Possession of the token grants exclusive transmission rights."
+        "reason": "Token-based access methods are considered collision-free because possession of the token grants exclusive transmission rights. The token is a special control frame that circulates around the network; a station must capture the token before transmitting, preventing multiple stations from sending data simultaneously."
     },
     {
         "id": 34,
@@ -915,7 +915,7 @@
             }
         ],
         "answer": "A",
-        "reason": "IEEE 802.3 defines Ethernet LAN technologies."
+        "reason": "IEEE 802.3 is the standard specification for Ethernet LAN technologies, defining the Physical and MAC layers. It covers different cabling types (such as coaxial, twisted pair, and fiber) and media access methods (like CSMA/CD and full-duplex switching)."
     },
     {
         "id": 35,
@@ -942,7 +942,7 @@
             }
         ],
         "answer": "B",
-        "reason": "IEEE 802.4 defines the Token Bus LAN architecture."
+        "reason": "IEEE 802.4 defines the Token Bus LAN architecture, which uses a logical token-passing ring on a physical bus topology. This standard was historically used in industrial environments like factory automation, where predictable transmission latency was critical."
     },
     {
         "id": 36,
@@ -969,7 +969,7 @@
             }
         ],
         "answer": "C",
-        "reason": "IEEE 802.5 specifies Token Ring LAN operation."
+        "reason": "IEEE 802.5 specifies Token Ring LAN operation, defining a token-passing access method over a physical ring topology. In these networks, a token circulates sequentially from station to station, granting deterministic and collision-free access to the medium."
     },
     {
         "id": 37,
@@ -996,7 +996,7 @@
             }
         ],
         "answer": "C",
-        "reason": "IEEE 802.5 Token Ring networks use token passing on a logical ring."
+        "reason": "IEEE 802.5 Token Ring networks use token passing on a logical ring to manage medium access. A station captures the incoming token, replaces it with its data frame, and releases a new token only after the frame has completed a full loop and been removed by the sender."
     },
     {
         "id": 38,
@@ -1023,7 +1023,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Token Bus networks defined by IEEE 802.4 use token passing over a logical bus."
+        "reason": "Token Bus networks, defined by the IEEE 802.4 standard, use token passing over a logical ring on a physical bus topology. All stations receive every transmission, but the token is passed in a logical cycle based on MAC addresses, combining bus flexibility with ring determinism."
     },
     {
         "id": 39,
@@ -1050,7 +1050,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Error control mechanisms detect errors and recover from them through retransmission or correction."
+        "reason": "Error control protocols detect errors and recover from them through retransmission or error-correction techniques to ensure reliable data delivery. By managing frame sequence numbers and acknowledgments, these protocols guarantee that data arrives complete and free of corruption."
     },
     {
         "id": 40,
@@ -1077,7 +1077,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Sliding Window improves throughput while ARQ mechanisms ensure reliable delivery through retransmissions."
+        "reason": "Sliding Window protocols improve network throughput by allowing multiple frames to be in transit simultaneously, while ARQ (Automatic Repeat reQuest) mechanisms ensure reliability. This combination maximizes channel utilization and guarantees error-free delivery over noisy links."
     },
     {
         "id": 41,
@@ -1104,7 +1104,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The Data Link Layer uses MAC addresses to identify devices on the same local network segment."
+        "reason": "The Data Link Layer uses MAC (Media Access Control) addresses to identify devices on the same local network segment. Unlike IP addresses, which are logical and route data across networks, MAC addresses are physically burned into the network interface card (NIC) and used for local frame delivery."
     },
     {
         "id": 42,
@@ -1131,7 +1131,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The MAC sublayer controls access to the transmission medium and handles physical addressing."
+        "reason": "The MAC sublayer is the lower division of the Data Link Layer and is responsible for managing access to the shared transmission medium. It handles physical addressing, frame construction, and collision resolution, working directly with the Physical Layer."
     },
     {
         "id": 43,
@@ -1158,7 +1158,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Medium Access Control determines how devices share and access a common communication channel."
+        "reason": "Medium Access Control (MAC) determines when and how devices may transmit on a shared communication channel. It resolves contention on shared links using protocols like CSMA/CD or token passing, preventing chaotic collisions and ensuring orderly transmission."
     },
     {
         "id": 44,
@@ -1185,7 +1185,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Flow control ensures the sender does not transmit data faster than the receiver can process it."
+        "reason": "Flow control helps prevent receiver buffer overflow by regulating the rate at which the sender transmits data. By requiring acknowledgments or utilizing windowing, it ensures that the sender does not exceed the receiver's storage and processing capacity."
     },
     {
         "id": 45,
@@ -1212,7 +1212,7 @@
             }
         ],
         "answer": "A",
-        "reason": "A cumulative acknowledgment confirms receipt of multiple consecutive frames."
+        "reason": "In a sliding window protocol, acknowledgments are often cumulative, meaning a single ACK confirms receipt of all consecutive frames up to a specific sequence number. This reduces control overhead, as the receiver doesn't need to send an individual acknowledgment for every single frame."
     },
     {
         "id": 46,
@@ -1239,7 +1239,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The sender may transmit as many frames as the current window size allows before acknowledgments are required."
+        "reason": "The sender window size defines the maximum number of frames that can be sent before receiving an acknowledgment. If the window size is 7, the sender can transmit 7 frames in succession; it must then halt and wait for an ACK before sending any more frames."
     },
     {
         "id": 47,
@@ -1266,7 +1266,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Parity bits are used to detect whether transmitted data has been corrupted."
+        "reason": "A parity bit is added to a data word to enable error detection, serving as a simple check on the data's integrity. By verifying whether the total number of 1s matches the expected parity, the receiver can detect if a single bit was corrupted during transmission."
     },
     {
         "id": 48,
@@ -1293,7 +1293,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The bit sequence `1011001` contains four binary 1s."
+        "reason": "The bit sequence `1011001` contains exactly four binary 1s. This count is used by parity checking algorithms to determine whether an even or odd parity bit should be appended to the data word."
     },
     {
         "id": 49,
@@ -1320,7 +1320,7 @@
             }
         ],
         "answer": "B",
-        "reason": "CRC can detect many multi-bit and burst errors that parity checking may miss."
+        "reason": "CRC is generally more reliable than simple parity checking because it can detect a wider range of error patterns, including single-bit errors, double-bit errors, and burst errors. Its mathematical foundation in modulo-2 division provides highly robust protection for frames."
     },
     {
         "id": 50,
@@ -1347,7 +1347,7 @@
             }
         ],
         "answer": "A",
-        "reason": "CRC algorithms use a generator polynomial to perform modulo-2 division and generate the remainder."
+        "reason": "CRC algorithms use a generator polynomial as the divisor in modulo-2 division to generate the check value. The sender and receiver must agree on this polynomial beforehand; its algebraic properties determine the specific types of errors the CRC can detect."
     },
     {
         "id": 51,
@@ -1374,7 +1374,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The receiver recalculates the checksum and compares it with the transmitted value."
+        "reason": "The receiver verifies data integrity by comparing the received checksum with a locally computed checksum. If the two values match, the receiver assumes the data was not corrupted; if they differ, the frame is discarded as erroneous."
     },
     {
         "id": 52,
@@ -1401,7 +1401,7 @@
             }
         ],
         "answer": "B",
-        "reason": "`TCP` and `UDP` use checksums to verify segment integrity during transmission."
+        "reason": "TCP and UDP protocols at the Transport Layer use checksums to verify the integrity of segments. While the Data Link Layer often uses CRC for hardware-level error detection, Transport Layer checksums provide an end-to-end software check against data corruption."
     },
     {
         "id": 53,
@@ -1428,7 +1428,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Hamming Code places parity bits at positions 1, 2, 4, 8, 16, and so on."
+        "reason": "Hamming Code places parity bits at positions that are powers of two, such as 1, 2, 4, 8, and 16. This structured placement allows each parity bit to cover specific data bits, forming a binary representation of the error location (syndrome) if a bit flips."
     },
     {
         "id": 54,
@@ -1455,7 +1455,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Standard Hamming Code provides single-bit error correction and single-bit error detection."
+        "reason": "Standard Hamming Code provides single-bit error correction and double-bit error detection (SEC-DED). It can identify the exact location of a single flipped bit and correct it, but if two bits flip, it can only detect the presence of the error without correction."
     },
     {
         "id": 55,
@@ -1482,7 +1482,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A timeout indicates that a frame or acknowledgment may have been lost."
+        "reason": "In Stop-and-Wait ARQ, a timeout expiration causes the sender to retransmit the frame. If the sender does not receive an acknowledgment before the timer runs out, it assumes the frame or its ACK was lost and sends the duplicate frame again."
     },
     {
         "id": 56,
@@ -1509,7 +1509,7 @@
             }
         ],
         "answer": "B",
-        "reason": "ACK (Acknowledgment) indicates that a frame has been received correctly."
+        "reason": "ACK (Acknowledgment) is a control frame sent by the receiver to confirm successful frame reception. In ARQ protocols, the arrival of an ACK tells the sender that it can proceed to transmit the next frame or slide its transmission window forward."
     },
     {
         "id": 57,
@@ -1536,7 +1536,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Go-Back-N ARQ uses a sliding window mechanism to allow multiple outstanding frames."
+        "reason": "Go-Back-N ARQ is based on sliding window flow control, which allows the sender to transmit multiple frames before receiving an acknowledgment. The window size determines the maximum number of outstanding frames, optimizing channel utilization on high-latency links."
     },
     {
         "id": 58,
@@ -1563,7 +1563,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Go-Back-N retransmits the erroneous frame and all subsequent frames, including correctly received ones."
+        "reason": "Go-Back-N ARQ wastes bandwidth on noisy links because it retransmits the erroneous frame along with all subsequent frames in the window, even if those subsequent frames were received correctly. This simple recovery strategy avoids complex buffering at the receiver but increases retransmission overhead."
     },
     {
         "id": 59,
@@ -1590,7 +1590,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Selective Reject and Selective Repeat refer to the same ARQ mechanism."
+        "reason": "Selective Reject ARQ is also commonly known as Selective Repeat ARQ. Both terms describe the same mechanism: the receiver buffers out-of-order frames and requests the retransmission of only the specific frames that were lost or corrupted."
     },
     {
         "id": 60,
@@ -1617,7 +1617,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Selective Reject retransmits only the specific frames that contain errors."
+        "reason": "Selective Reject ARQ provides the highest efficiency on noisy links because it retransmits only the specific frames that contain errors, avoiding the retransmission of correctly received frames. This minimizes link overhead, although it requires more complex buffering logic."
     },
     {
         "id": 61,
@@ -1644,7 +1644,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Flag fields mark the beginning and end of HDLC frames."
+        "reason": "HDLC frames are separated using flag fields, which contain the unique bit pattern `01111110`. These flags mark the exact boundary of each frame, allowing the receiver to synchronize with the incoming data stream and separate sequential frames."
     },
     {
         "id": 62,
@@ -1671,7 +1671,7 @@
             }
         ],
         "answer": "B",
-        "reason": "HDLC inserts extra bits when necessary to prevent flag sequence duplication."
+        "reason": "HDLC uses bit stuffing to prevent the accidental occurrence of the flag pattern (`01111110`) within user data. The sender automatically inserts a 0 bit after any sequence of five consecutive 1s in the data, ensuring the flag pattern only appears at frame boundaries."
     },
     {
         "id": 63,
@@ -1698,7 +1698,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HDLC provides reliable communication over point-to-point and multipoint data links."
+        "reason": "HDLC is designed primarily for reliable communication over point-to-point and multipoint data links. It provides structured framing, flow control, and error recovery, serving as the foundation for many legacy and modern WAN protocols."
     },
     {
         "id": 64,
@@ -1725,7 +1725,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Because stations transmit at any time, collisions occur frequently."
+        "reason": "The main drawback of Pure ALOHA is its high collision probability under moderate to heavy traffic loads. Because stations transmit immediately without checking if the channel is busy, frames frequently overlap and corrupt each other, limiting maximum throughput to 18.4%."
     },
     {
         "id": 65,
@@ -1752,7 +1752,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Restricting transmissions to time slots reduces the collision window."
+        "reason": "Slotted ALOHA improves channel performance by requiring stations to transmit only at slot boundaries. This time synchronization reduces the vulnerable period of a frame by half, significantly lowering the frequency of collisions."
     },
     {
         "id": 66,
@@ -1779,7 +1779,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Slotted ALOHA reduces collision probability and therefore increases throughput."
+        "reason": "Compared to Pure ALOHA, Slotted ALOHA provides higher throughput because it restricts transmission to discrete time slots, doubling the maximum possible channel utilization to 36.8% and reducing collision frequency."
     },
     {
         "id": 67,
@@ -1806,7 +1806,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Token passing allows only one station at a time to transmit."
+        "reason": "Token passing is a collision-free access method that coordinates transmission by passing a special control frame (token) sequentially among stations. Only the station currently holding the token frame is allowed to transmit, eliminating data collisions entirely."
     },
     {
         "id": 68,
@@ -1833,7 +1833,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Only the polled station is allowed to transmit, preventing collisions."
+        "reason": "Polling-based access control is considered collision-free because a central controller authorizes transmissions. The primary node polls secondary nodes in order, inviting them to transmit data one at a time, which prevents multiple devices from accessing the channel simultaneously."
     },
     {
         "id": 69,
@@ -1860,7 +1860,7 @@
             }
         ],
         "answer": "A",
-        "reason": "IEEE 802.3 is the standard specification for Ethernet LANs."
+        "reason": "IEEE 802.3 networks are commonly known as Ethernet networks, which represent the most widely deployed wired LAN technology. The standard specifies physical cabling requirements and media access control parameters for local area communication."
     },
     {
         "id": 70,
@@ -1887,7 +1887,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Classic Ethernet networks use Carrier Sense Multiple Access with Collision Detection (CSMA/CD)."
+        "reason": "Traditional IEEE 802.3 Ethernet networks used Carrier Sense Multiple Access with Collision Detection (CSMA/CD) to manage access to shared coaxial cables. Under CSMA/CD, stations listen to the carrier before transmitting and monitor the link to abort transmission if a collision is detected."
     },
     {
         "id": 71,
@@ -1914,7 +1914,7 @@
             }
         ],
         "answer": "A",
-        "reason": "IEEE 802.4 implements token passing over a logical bus structure."
+        "reason": "Token Bus networks implement token passing over a logical ring topology on a physical bus structure. This allows nodes to share a physical broadcast medium while avoiding collisions by passing a token sequentially based on MAC addresses."
     },
     {
         "id": 72,
@@ -1941,7 +1941,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Token passing provides predictable access times and avoids collisions."
+        "reason": "The primary advantage of Token Bus over contention-based methods (like CSMA/CD) is deterministic access. Because token passing guarantees that each station gets a turn within a predictable timeframe, it is ideal for real-time applications where collision delays cannot be tolerated."
     },
     {
         "id": 73,
@@ -1968,7 +1968,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Token Ring networks use token passing to control access to the medium."
+        "reason": "IEEE 802.5 is based on the token passing access method, which controls access to a physical ring topology. A station must wait to receive the free token before it can transmit data, ensuring orderly, collision-free communication."
     },
     {
         "id": 74,
@@ -1995,7 +1995,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The token grants permission to transmit on the network."
+        "reason": "In a Token Ring network, data transmission is allowed only when a station receives the free token. The station captures the token, changes it to a start-of-frame sequence, appends its data, and transmits it around the ring."
     },
     {
         "id": 75,
@@ -2022,7 +2022,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Only the station holding the token can transmit, eliminating collisions."
+        "reason": "The token passing mechanism helps Token Ring networks avoid collisions by ensuring that only one station can transmit at any given moment. This deterministic design provides predictable performance even under heavy traffic conditions."
     },
     {
         "id": 76,
@@ -2049,7 +2049,7 @@
             }
         ],
         "answer": "B",
-        "reason": "CRC is specifically effective at detecting burst errors and complex error patterns."
+        "reason": "CRC is the strongest error-detection technique for detecting burst errors because its modulo-2 division is highly sensitive to contiguous groups of corrupted bits. It can reliably detect burst errors of length up to the degree of the generator polynomial."
     },
     {
         "id": 77,
@@ -2076,7 +2076,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Hamming Code can identify and correct single-bit transmission errors."
+        "reason": "Unlike parity checking, Hamming Code has error-correction capabilities, allowing it to locate and fix single-bit errors. Parity checking can only detect that an error has occurred, requiring the system to discard the frame and request a retransmission."
     },
     {
         "id": 78,
@@ -2103,7 +2103,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Error control protocols rely on retransmission to recover lost or corrupted frames."
+        "reason": "Error control protocols rely on retransmission (triggered by timeouts or negative acknowledgments) to recover lost or corrupted frames. This ensures that the upper layer receives a complete, error-free sequence of data packets."
     },
     {
         "id": 79,
@@ -2130,7 +2130,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Sliding Window increases channel utilization while Selective Reject ARQ minimizes unnecessary retransmissions."
+        "reason": "The combination of a sliding window protocol with Selective Reject ARQ provides the best balance of throughput and reliability. Sliding window allows continuous transmission, while Selective Reject minimizes retransmission overhead on noisy channels."
     },
     {
         "id": 80,
@@ -2157,7 +2157,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The Data Link Layer is responsible for framing, flow control, error control, and managing access to the transmission medium."
+        "reason": "The Data Link Layer is responsible for framing, flow control, error control, and medium access control. These functions coordinate to establish a reliable, error-free link between two adjacent devices sharing a physical communication medium."
     },
     {
         "id": 81,
@@ -2184,7 +2184,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Framing encapsulates network layer packets by adding Data Link Layer headers and trailers."
+        "reason": "Framing is the Data Link Layer function that groups raw bit streams into distinct blocks (frames) by adding headers and trailers. These headers contain control information like MAC addresses, while trailers contain error-detection values like CRC."
     },
     {
         "id": 82,
@@ -2211,7 +2211,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Stop-and-Wait is the simplest flow control protocol because only one frame can be outstanding at a time."
+        "reason": "Stop-and-Wait is the simplest flow control protocol because the sender is restricted to having only one unacknowledged frame outstanding. This eliminates the need for complex sequence numbers and large buffers, making it easy to implement."
     },
     {
         "id": 83,
@@ -2238,7 +2238,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Successful acknowledgments allow the sender window to slide forward and permit transmission of additional frames."
+        "reason": "When an acknowledgment is received in a sliding window protocol, the sender window slides forward. This movement frees up sequence numbers, allowing the sender to transmit new frames up to the limit of the window size."
     },
     {
         "id": 84,
@@ -2265,7 +2265,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Five 1s is odd, so a parity bit of 1 is added to make the total number of 1s even."
+        "reason": "Since five 1s is an odd number, a parity bit of 1 must be added to achieve even parity. This ensures that the total number of 1s in the transmitted byte (data + parity) is even, allowing the receiver to detect single-bit corruptions."
     },
     {
         "id": 85,
@@ -2292,7 +2292,7 @@
             }
         ],
         "answer": "C",
-        "reason": "A correctly received frame produces a zero remainder when divided by the agreed generator polynomial."
+        "reason": "CRC validation at the receiver is successful when dividing the received frame by the generator polynomial produces a zero remainder. A non-zero remainder indicates that one or more bits were corrupted during transmission, causing the frame to be discarded."
     },
     {
         "id": 86,
@@ -2319,7 +2319,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Protocols store the checksum in a designated field so the receiver can verify integrity."
+        "reason": "A checksum is placed in a designated field within the frame or packet header. This allows receiving devices to extract the checksum, run the verification algorithm on the payload, and compare the results to confirm data integrity."
     },
     {
         "id": 87,
@@ -2346,7 +2346,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Hamming Code uses parity bits positioned at powers of two to detect and correct errors."
+        "reason": "The additional bits inserted into a Hamming Code are parity bits, placed at positions corresponding to powers of two. Each parity bit monitors a specific subset of data bits, allowing the receiver to locate a corrupted bit by checking which parity equations fail."
     },
     {
         "id": 88,
@@ -2373,7 +2373,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A NAK informs the sender that an error occurred and retransmission is required."
+        "reason": "A negative acknowledgment (NAK) is a control frame sent by the receiver to inform the sender that a specific frame was received with errors or was not received at all. This prompts the sender to retransmit the requested frame immediately."
     },
     {
         "id": 89,
@@ -2400,7 +2400,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Sequence numbers help distinguish new frames from retransmitted duplicates."
+        "reason": "Sequence numbers are used in Stop-and-Wait ARQ to help the receiver detect duplicate frames. If an ACK is lost, the sender retransmits the frame, and the receiver uses the sequence number to recognize it as a duplicate and discard it."
     },
     {
         "id": 90,
@@ -2427,7 +2427,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A cumulative acknowledgment confirms receipt of all frames up to a specific sequence number."
+        "reason": "Cumulative acknowledgment is commonly used in Go-Back-N ARQ. A single cumulative ACK confirms the correct reception of all frames up to the specified sequence number, allowing the sender to slide its window forward past all those frames."
     },
     {
         "id": 91,
@@ -2454,7 +2454,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The receiver must buffer correctly received out-of-order frames until missing frames arrive."
+        "reason": "Selective Reject ARQ requires the receiver to store correctly received out-of-order frames in its buffer. These frames must be held until the missing or damaged frame is successfully retransmitted, allowing the receiver to deliver them in the correct sequence."
     },
     {
         "id": 92,
@@ -2481,7 +2481,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HDLC incorporates mechanisms for flow control, error detection, and reliable frame delivery."
+        "reason": "HDLC incorporates robust flow and error control mechanisms, including sliding window flow control and CRC error detection. These features allow it to ensure reliable, ordered delivery of frames over physical transmission links."
     },
     {
         "id": 93,
@@ -2508,7 +2508,7 @@
             }
         ],
         "answer": "C",
-        "reason": "After five consecutive 1s, HDLC inserts a 0 to prevent accidental formation of the flag pattern."
+        "reason": "Bit stuffing in HDLC is performed by inserting a 0 bit after any sequence of five consecutive binary 1s. This ensures that the flag sequence `01111110` never accidentally appears within the data payload, preserving frame boundaries."
     },
     {
         "id": 94,
@@ -2535,7 +2535,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Simultaneous transmissions overlap and corrupt the transmitted frames."
+        "reason": "A collision in ALOHA occurs when two or more stations transmit frames simultaneously over the shared channel. The overlapping electromagnetic signals corrupt each other, rendering the data unreadable at the receiver."
     },
     {
         "id": 95,
@@ -2562,7 +2562,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Random waiting periods reduce the chance of repeated collisions."
+        "reason": "After detecting a collision, an ALOHA station waits for a random backoff period before attempting to retransmit. This random delay prevents the competing stations from retransmitting at the same time and causing another collision."
     },
     {
         "id": 96,
@@ -2589,7 +2589,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Token passing ensures only one station transmits at a time, eliminating collisions."
+        "reason": "Token passing is a collision-free access method because it dynamically regulates transmission rights. Only the station currently holding the token frame is allowed to transmit, ensuring that data frames never collide on the shared medium."
     },
     {
         "id": 97,
@@ -2616,7 +2616,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Early Ethernet implementations under IEEE 802.3 were based on a bus topology."
+        "reason": "The original IEEE 802.3 Ethernet standard was designed for a physical bus topology using thick or thin coaxial cables. All stations were connected to a single shared cable segment, which required CSMA/CD to manage channel access."
     },
     {
         "id": 98,
@@ -2643,7 +2643,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Token Bus provided predictable access times, which were valuable in industrial automation systems."
+        "reason": "IEEE 802.4 Token Bus was suitable for deterministic industrial environments, such as manufacturing plants. The token-passing protocol guaranteed that each machine on the bus would get access to the network within a fixed, predictable time, which was crucial for real-time control systems."
     },
     {
         "id": 99,
@@ -2670,7 +2670,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The token continuously circulates and grants transmission permission to stations."
+        "reason": "A token circulates continuously around a Token Ring network when no station is transmitting. This token is a small control frame that indicates the medium is free, allowing any station with data to capture it and begin transmission."
     },
     {
         "id": 100,
@@ -2697,6 +2697,6 @@
             }
         ],
         "answer": "C",
-        "reason": "IEEE 802.5 defines Token Ring networks, while IEEE 802.3 defines Ethernet and IEEE 802.4 defines Token Bus."
+        "reason": "IEEE 802.5 defines Token Ring networks, while IEEE 802.3 defines Ethernet and IEEE 802.4 defines Token Bus. The other pairings are incorrect, as they mismatch the IEEE standards with their corresponding LAN technologies."
     }
 ]

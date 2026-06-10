@@ -24,7 +24,7 @@
             }
         ],
         "answer": "B",
-        "reason": "DNS (Domain Name System) resolves human-readable domain names into IP addresses that computers use for communication."
+        "reason": "DNS (Domain Name System) acts as the internet's phonebook, resolving human-friendly domain names like google.com into numeric IP addresses that networking hardware requires to route traffic. Without DNS, users would have to memorize complex IP addresses for every website they want to visit. Other options, like DHCP for IP assignment or FTP for file transfer, handle different layers and functions."
     },
     {
         "id": 2,
@@ -51,7 +51,7 @@
             }
         ],
         "answer": "C",
-        "reason": "DNS commonly uses port 53 for both UDP and TCP communications."
+        "reason": "DNS queries primarily use UDP port 53 for standard name resolutions because UDP is lightweight and fast, minimizing lookup latency. For larger zone transfers or queries exceeding 512 bytes, DNS falls back to TCP port 53 to ensure reliable delivery. In contrast, ports like 21, 25, and 80 are dedicated to FTP, SMTP, and HTTP, respectively."
     },
     {
         "id": 3,
@@ -78,7 +78,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The A (Address) record maps a hostname to an IPv4 address."
+        "reason": "An A (Address) record is the foundational DNS record type that maps a human-readable hostname to a 32-bit IPv4 address. Other record types serve different purposes: MX records specify mail exchange servers, CNAME records define host aliases, and PTR records perform reverse lookups by mapping IP addresses back to domain names."
     },
     {
         "id": 4,
@@ -105,7 +105,7 @@
             }
         ],
         "answer": "B",
-        "reason": "MX (Mail Exchange) records identify mail servers responsible for handling email for a domain."
+        "reason": "MX (Mail Exchange) records are DNS resource records that identify the mail servers responsible for receiving email on behalf of a domain. These records contain a preference value that helps sender systems determine the priority order when multiple mail servers are configured. Other records like A, PTR, or TXT do not handle email routing traffic."
     },
     {
         "id": 5,
@@ -132,7 +132,7 @@
             }
         ],
         "answer": "A",
-        "reason": "PTR (Pointer) records map IP addresses back to domain names in reverse DNS lookups."
+        "reason": "A PTR (Pointer) record is used in reverse DNS lookups to map an IPv4 or IPv6 address back to its corresponding canonical hostname. This is the exact opposite of an A or AAAA record, which map names to addresses. PTR records are critical for security services, such as email spam filtering, to verify that a sending IP matches its declared host."
     },
     {
         "id": 6,
@@ -159,7 +159,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HTTP stands for HyperText Transfer Protocol and is used for transferring web content."
+        "reason": "HTTP stands for HyperText Transfer Protocol, which is the foundation of data communication for the World Wide Web. It defines how messages are formatted and transmitted, as well as what actions web servers and browsers should take in response to various commands. It is a stateless, application-layer protocol running over TCP."
     },
     {
         "id": 7,
@@ -186,7 +186,7 @@
             }
         ],
         "answer": "C",
-        "reason": "HTTP typically uses TCP port 80."
+        "reason": "HTTP utilizes TCP port 80 by default for unencrypted web traffic communications. Web browsers automatically attempt to connect to this port when a URL uses the 'http://' prefix. Secure traffic using HTTPS is redirected to port 443, while other ports like 21 (FTP) and 53 (DNS) are reserved for other application protocols."
     },
     {
         "id": 8,
@@ -213,7 +213,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The GET method requests data from a web server without modifying resources."
+        "reason": "The GET method is designed solely to retrieve information and resources from a web server without making any modifications to the server's state. It is both safe and idempotent, meaning multiple identical GET requests should have the same effect as a single request. Other methods, like POST, PUT, or DELETE, are used to create, modify, or remove data."
     },
     {
         "id": 9,
@@ -240,7 +240,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HTTP status code 200 indicates that the request was successfully processed."
+        "reason": "HTTP status code 200 (OK) indicates that the server successfully processed the client's request and is returning the requested resource in the response body. This code belongs to the 2xx class of status codes, which all denote successful operations. In contrast, 301 indicates redirection, 404 is client error, and 500 represents server errors."
     },
     {
         "id": 10,
@@ -267,7 +267,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Status code 404 indicates that the requested resource could not be found on the server."
+        "reason": "HTTP status code 404 (Not Found) indicates that the server was able to communicate with the client but could not locate the specific resource requested by the URL. This status code belongs to the 4xx class of client-side errors, indicating that the path might be typed incorrectly or the resource was deleted. In contrast, 200 is successful, 403 denotes forbidden access, and 500 represents an internal server failure."
     },
     {
         "id": 11,
@@ -294,7 +294,7 @@
             }
         ],
         "answer": "B",
-        "reason": "HTTPS secures communication using SSL/TLS encryption."
+        "reason": "HTTPS (HyperText Transfer Protocol Secure) extends HTTP by layer-wrapping web traffic inside SSL/TLS encryption. This provides crucial security features: confidentiality (preventing eavesdropping), data integrity (preventing tampering), and authentication (verifying server identity). Standard HTTP transmits data in plain text, making it vulnerable to interception."
     },
     {
         "id": 12,
@@ -321,7 +321,7 @@
             }
         ],
         "answer": "B",
-        "reason": "HTTPS uses TCP port 443 for secure web communication."
+        "reason": "HTTPS uses TCP port 443 by default to establish secure, encrypted connections using SSL/TLS. When a browser initiates a request with 'https://', it targets port 443 to perform the necessary security handshakes. Unsecure HTTP uses port 80, SMTP uses port 25, and POP3 uses port 110."
     },
     {
         "id": 13,
@@ -348,7 +348,7 @@
             }
         ],
         "answer": "B",
-        "reason": "HTTPS uses SSL/TLS to provide authentication, confidentiality, and integrity."
+        "reason": "HTTPS relies on the Transport Layer Security (TLS) protocol, and historically Secure Sockets Layer (SSL), to establish a secure channel over the TCP layer. TLS encrypts the application data, ensuring that usernames, passwords, and page content are protected from network eavesdropping. Other protocols like ARP, ICMP, and SNMP do not provide cryptographic tunnels for web content."
     },
     {
         "id": 14,
@@ -375,7 +375,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Digital certificates help clients verify the authenticity of servers."
+        "reason": "A digital certificate in HTTPS is issued by a trusted Certificate Authority (CA) to bind a public cryptographic key to a website's domain identity. During the TLS handshake, the browser verifies this certificate to confirm that it is connecting to the genuine server and not a malicious impersonator. This prevents man-in-the-middle attacks where a malicious site tries to hijack the domain."
     },
     {
         "id": 15,
@@ -402,7 +402,7 @@
             }
         ],
         "answer": "A",
-        "reason": "FTP (File Transfer Protocol) is used to transfer files between systems."
+        "reason": "FTP (File Transfer Protocol) is an application-layer protocol designed specifically for transferring files reliably between a client and a server over a network. It supports uploading, downloading, renaming, and deleting files on the remote system. Other options, like SMTP or Telnet, handle email routing and remote terminal login respectively."
     },
     {
         "id": 16,
@@ -429,7 +429,7 @@
             }
         ],
         "answer": "B",
-        "reason": "FTP control connections use TCP port 21."
+        "reason": "FTP control connections use TCP port 21 to establish a communication channel for transmitting commands and server responses, such as authentication requests or transfer instructions. The actual file data transfer is handled separately, usually on port 20 in active mode or a random port in passive mode. Ports 22 and 23 are reserved for SSH and Telnet."
     },
     {
         "id": 17,
@@ -456,7 +456,7 @@
             }
         ],
         "answer": "A",
-        "reason": "FTP active mode uses port 20 for data transfer and port 21 for control."
+        "reason": "FTP active mode uses port 20 for data transfer and port 21 for control. In active mode, the server establishes the data connection, which can be blocked by client firewalls. Passive mode resolves this by having the client establish both control and data connections. Port 25 is reserved for SMTP."
     },
     {
         "id": 18,
@@ -483,7 +483,7 @@
             }
         ],
         "answer": "B",
-        "reason": "FTP uses separate control and data connections."
+        "reason": "FTP uses separate control and data connections. The control connection (port 21) is used for commands and responses, while data connections are opened as needed to transfer files or directory listings. This design allows users to send commands while a file transfer is active."
     },
     {
         "id": 19,
@@ -510,7 +510,7 @@
             }
         ],
         "answer": "B",
-        "reason": "SMTP (Simple Mail Transfer Protocol) is used to send and relay email."
+        "reason": "SMTP (Simple Mail Transfer Protocol) is used to send and relay email. It is a push protocol designed for sending outgoing mail from a client to a server, or between servers. Retrieval of email from a user's mailbox is handled by other protocols, like POP3 or IMAP, which pull messages."
     },
     {
         "id": 20,
@@ -537,7 +537,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMTP commonly uses TCP port 25."
+        "reason": "SMTP commonly uses TCP port 25 for relaying mail between mail servers. For sending mail from an email client, modern secure ports like 587 or 465 are often preferred, but port 25 remains the primary protocol standard. Ports 53, 110, and 143 are for DNS, POP3, and IMAP, respectively."
     },
     {
         "id": 21,
@@ -564,7 +564,7 @@
             }
         ],
         "answer": "C",
-        "reason": "SMTP is an Application Layer protocol."
+        "reason": "SMTP is an Application Layer protocol in the TCP/IP suite. This layer provides network services directly to end-user applications. Lower layers (Transport, Internet, and Network Access) handle connection management, IP routing, and physical data transmission."
     },
     {
         "id": 22,
@@ -591,7 +591,7 @@
             }
         ],
         "answer": "C",
-        "reason": "SMTP sends emails, while POP3 and IMAP retrieve them."
+        "reason": "SMTP sends emails, while POP3 and IMAP retrieve them. Email delivery uses SMTP to push the message from the client to the server and between servers, while email retrieval uses POP3 or IMAP to pull the messages down to the client's inbox. ARP and ICMP operate at lower networking layers."
     },
     {
         "id": 23,
@@ -618,7 +618,7 @@
             }
         ],
         "answer": "A",
-        "reason": "POP3 stands for Post Office Protocol Version 3."
+        "reason": "POP3 stands for Post Office Protocol Version 3, which is an application-layer protocol used by email clients to retrieve messages from a mail server. It represents the third iteration of the standard, incorporating features for offline mail access. It contrasts with protocols like IMAP which allow direct online management of mailboxes."
     },
     {
         "id": 24,
@@ -645,7 +645,7 @@
             }
         ],
         "answer": "C",
-        "reason": "POP3 typically uses TCP port 110."
+        "reason": "POP3 typically uses TCP port 110. For secure email retrieval using SSL/TLS, POP3S uses port 995. Other ports, such as 25 (SMTP), 53 (DNS), and 143 (IMAP), are reserved for different application-layer network protocols."
     },
     {
         "id": 25,
@@ -672,7 +672,7 @@
             }
         ],
         "answer": "B",
-        "reason": "POP3 retrieves emails from a mail server to a local device."
+        "reason": "POP3 retrieves emails from a mail server to a local device. Its design assumes that emails will be downloaded and deleted from the server, making it less suitable for users accessing their mail from multiple devices. SMTP is used to send emails, while DNS and FTP handle name resolution and file transfers."
     },
     {
         "id": 26,
@@ -699,7 +699,7 @@
             }
         ],
         "answer": "A",
-        "reason": "POP3 typically downloads messages locally, making synchronization across devices less effective."
+        "reason": "POP3 typically downloads messages locally, making synchronization across devices less effective. Since messages are deleted from the server upon download, other devices cannot access them. IMAP solves this by keeping mail on the server and synchronizing status in real-time."
     },
     {
         "id": 27,
@@ -726,7 +726,7 @@
             }
         ],
         "answer": "A",
-        "reason": "IMAP stands for Internet Message Access Protocol."
+        "reason": "IMAP stands for Internet Message Access Protocol, which is a widely used protocol that allows email clients to access and manage messages stored on a remote mail server. Unlike POP3, IMAP leaves the messages on the server, allowing folders and read/unread flags to be synchronized across multiple devices. This makes it ideal for modern multi-device setups."
     },
     {
         "id": 28,
@@ -753,7 +753,7 @@
             }
         ],
         "answer": "B",
-        "reason": "IMAP typically uses TCP port 143."
+        "reason": "IMAP typically uses TCP port 143. For secure connections using SSL/TLS, IMAPS uses port 993 to encrypt communication. Ports like 110, 25, and 69 are reserved for POP3, SMTP, and TFTP, respectively."
     },
     {
         "id": 29,
@@ -780,7 +780,7 @@
             }
         ],
         "answer": "A",
-        "reason": "IMAP keeps emails on the server and synchronizes across multiple devices."
+        "reason": "IMAP keeps emails on the server and synchronizes across multiple devices. This allows changes, such as marking an email as read or moving it to a folder, to be reflected instantly on all devices. POP3, by contrast, downloaded and deleted messages, breaking synchronization."
     },
     {
         "id": 30,
@@ -807,7 +807,7 @@
             }
         ],
         "answer": "B",
-        "reason": "IMAP maintains email state on the server, making multi-device access efficient."
+        "reason": "IMAP maintains email state on the server, making multi-device access efficient. Multiple devices can connect to the same mailbox simultaneously and see real-time updates. POP3 downloads messages to a single device, and SMTP is only used for sending, not reading emails."
     },
     {
         "id": 31,
@@ -834,7 +834,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Telnet provides remote terminal access to another system."
+        "reason": "Telnet provides remote terminal access to another system. It allows users to log into a remote host over the network and execute command-line instructions as if they were physically present. It does not provide services like email retrieval, file compression, or DNS resolution."
     },
     {
         "id": 32,
@@ -861,7 +861,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Telnet typically uses TCP port 23."
+        "reason": "Telnet typically uses TCP port 23 to establish virtual terminal connections. Because Telnet does not encrypt its traffic, modern systems recommend disabling port 23 and using SSH on port 22 instead. Ports 21 and 25 are for FTP and SMTP control."
     },
     {
         "id": 33,
@@ -888,7 +888,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Telnet transmits credentials and data in plain text, making interception possible."
+        "reason": "Telnet transmits credentials and data in plain text, making interception possible. Any attacker with access to the network path can capture sensitive passwords and commands. Because of this vulnerability, Telnet has been deprecated in favor of SSH, which encrypts all session data."
     },
     {
         "id": 34,
@@ -915,7 +915,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SSH stands for Secure Shell."
+        "reason": "SSH stands for Secure Shell, which is a cryptographic network protocol used for secure operating system logins, command execution, and file transfers over unsecured networks. It replaces insecure protocols like Telnet and rlogin by providing strong encryption and authentication. It operates at the application layer over TCP."
     },
     {
         "id": 35,
@@ -942,7 +942,7 @@
             }
         ],
         "answer": "B",
-        "reason": "SSH uses TCP port 22."
+        "reason": "SSH uses TCP port 22 by default. This port is standard across Unix-like systems for secure remote command-line access, replacing port 23 (Telnet). Ports 21 and 80 are used for FTP and HTTP, respectively."
     },
     {
         "id": 36,
@@ -969,7 +969,7 @@
             }
         ],
         "answer": "B",
-        "reason": "SSH encrypts all communications, providing confidentiality and security."
+        "reason": "SSH encrypts all communications, providing confidentiality and security. This prevents attackers from sniffing passwords or commands in transit, a major vulnerability of Telnet. SSH also support secure key-based authentication, which is much stronger than passwords."
     },
     {
         "id": 37,
@@ -996,7 +996,7 @@
             }
         ],
         "answer": "B",
-        "reason": "SSH provides secure encrypted remote administration."
+        "reason": "SSH provides secure encrypted remote administration. It is the standard protocol for managing Linux and Unix servers over command-line interfaces because it protects credentials and session data from interception. Telnet, FTP, and SMTP do not provide secure administrative shells."
     },
     {
         "id": 38,
@@ -1023,7 +1023,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NFS stands for Network File System."
+        "reason": "NFS stands for Network File System, a protocol developed by Sun Microsystems that allows client computers to access files over a network in a manner similar to local storage. It is an open standard defined in RFCs, allowing a system to mount a remote directory tree locally. It is heavily utilized in UNIX and Linux systems."
     },
     {
         "id": 39,
@@ -1050,7 +1050,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NFS is widely used in UNIX and Linux environments for network file sharing."
+        "reason": "NFS is widely used in UNIX and Linux environments for network file sharing. It allows systems to mount remote directories as if they were local, preserving Unix file permissions. Windows environments typically use SMB for file sharing."
     },
     {
         "id": 40,
@@ -1077,7 +1077,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMB stands for Server Message Block."
+        "reason": "SMB stands for Server Message Block, which is a client-server communication protocol used for sharing access to files, printers, serial ports, and other resources on a network. It also provides an authenticated inter-process communication mechanism. It is the primary file-sharing protocol in Microsoft Windows environments."
     },
     {
         "id": 41,
@@ -1104,7 +1104,7 @@
             }
         ],
         "answer": "B",
-        "reason": "SMB allows file and printer sharing across networks."
+        "reason": "SMB allows file and printer sharing across networks. It enables Windows clients to access shared folders and print services hosted on remote servers. It is distinct from protocols like HTTP (web browsing) or SMTP (email transfer)."
     },
     {
         "id": 42,
@@ -1131,7 +1131,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMB is the standard file sharing protocol used in Windows environments."
+        "reason": "SMB is the standard file sharing protocol used in Windows environments. It is natively integrated into Windows operating systems for network resource access. UNIX and Linux systems can access SMB shares using compatibility software like Samba."
     },
     {
         "id": 43,
@@ -1158,7 +1158,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SNMP stands for Simple Network Management Protocol."
+        "reason": "SNMP stands for Simple Network Management Protocol, which is an application-layer protocol used to collect, organize, and modify management information about devices on an IP network. It is widely used to monitor routers, switches, servers, and other network equipment to ensure optimal performance. It operates primarily over UDP."
     },
     {
         "id": 44,
@@ -1185,7 +1185,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SNMP is used to monitor and manage network devices."
+        "reason": "SNMP is used to monitor and manage network devices. It allows network administrators to collect performance statistics, track device availability, and receive notifications about network faults. It is not used for file transfers, web browsing, or remote shell access."
     },
     {
         "id": 45,
@@ -1212,7 +1212,7 @@
             }
         ],
         "answer": "C",
-        "reason": "SNMP agents typically listen on UDP port 161."
+        "reason": "SNMP agents typically listen on UDP port 161. Managers send request commands to this port, and the agent responds. Unsolicited event notifications, called TRAPs, are sent from agents to the manager on port 162. Port 53 is for DNS, and port 80/443 are for web traffic."
     },
     {
         "id": 46,
@@ -1239,7 +1239,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The Management Information Base (MIB) stores manageable device information."
+        "reason": "The Management Information Base (MIB) stores manageable device information. It is a hierarchical database that defines the properties and status variables of a device that can be monitored or configured via SNMP. DNS, SMTP, and FTP are protocols, not database models."
     },
     {
         "id": 47,
@@ -1266,7 +1266,7 @@
             }
         ],
         "answer": "C",
-        "reason": "SNMP TRAP messages are sent asynchronously from agents to managers."
+        "reason": "SNMP TRAP messages are sent asynchronously from agents to managers. They allow managed devices to notify the network management station of critical events, like a link failure, without waiting for a polling request. GET and SET messages are initiated by the manager."
     },
     {
         "id": 48,
@@ -1293,7 +1293,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HTTPS provides secure web access, FTP handles file transfers, and SMTP sends email notifications."
+        "reason": "HTTPS provides secure web access, FTP handles file transfers, and SMTP sends email notifications. In this scenario, the user visits a secure site (HTTPS), uploads a file (FTP), and gets an email (SMTP). Lower-layer protocols like ARP, ICMP, and RIP do not handle these application functions."
     },
     {
         "id": 49,
@@ -1320,7 +1320,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMTP sends emails while IMAP retrieves and synchronizes them."
+        "reason": "SMTP sends emails while IMAP retrieves and synchronizes them. SMTP is a push protocol that delivers messages from sender to receiver servers. IMAP is a pull protocol that manages mailboxes and synchronizes message state across devices. Other combinations handle file sharing or name resolution."
     },
     {
         "id": 50,
@@ -1347,7 +1347,7 @@
             }
         ],
         "answer": "C",
-        "reason": "DNS resolution occurs before establishing communication with the destination web server."
+        "reason": "DNS resolution occurs before establishing communication with the destination web server. When a domain is entered, the browser must first resolve it to an IP address. Once the IP is known, HTTP/HTTPS can retrieve the web content. SMTP and SNMP do not perform name resolution for web browsing."
     },
     {
         "id": 51,
@@ -1374,7 +1374,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Root DNS servers are at the top of the DNS hierarchy and direct queries toward appropriate top-level domain servers."
+        "reason": "Root DNS servers are at the top of the DNS hierarchy and direct queries toward appropriate top-level domain servers. They are the initial starting point for recursive resolvers looking up domain names. Mail, proxy, and application servers do not perform top-level domain delegation."
     },
     {
         "id": 52,
@@ -1401,7 +1401,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NS (Name Server) records identify the authoritative DNS servers for a domain."
+        "reason": "NS (Name Server) records identify the authoritative DNS servers for a domain. They point to the servers that hold the actual resource records (like A or MX records) for that domain. MX specifies mail exchange, PTR is for reverse lookups, and TXT holds descriptive text."
     },
     {
         "id": 53,
@@ -1428,7 +1428,7 @@
             }
         ],
         "answer": "B",
-        "reason": "AAAA records are used to map hostnames to IPv6 addresses."
+        "reason": "AAAA records are used to map hostnames to IPv6 addresses. They function similarly to IPv4 A records, but map to the newer 128-bit address format. MX records are for mail servers and PTR records map IP addresses to hostnames."
     },
     {
         "id": 54,
@@ -1455,7 +1455,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A CNAME (Canonical Name) record creates an alias that points one hostname to another hostname."
+        "reason": "A CNAME (Canonical Name) record creates an alias that points one hostname to another hostname. This allows multiple services or subdomains to point to a single central host record, simplifying administration. It is not used for mail exchange or reverse lookups."
     },
     {
         "id": 55,
@@ -1482,7 +1482,7 @@
             }
         ],
         "answer": "B",
-        "reason": "DNS caching stores previously resolved records, reducing response times and lowering DNS query traffic."
+        "reason": "DNS caching stores previously resolved records, reducing response times and lowering DNS query traffic. By holding records locally for their Time-To-Live (TTL) duration, resolvers avoid traversing the DNS hierarchy repeatedly. It does not route packets or encrypt queries."
     },
     {
         "id": 56,
@@ -1509,7 +1509,7 @@
             }
         ],
         "answer": "B",
-        "reason": "HTTP traditionally uses TCP to ensure reliable delivery of web content."
+        "reason": "HTTP traditionally uses TCP to ensure reliable delivery of web content. TCP establishes a connection and guarantees that packets arrive in order and without errors, which is critical for rendering HTML and images. UDP does not guarantee packet delivery, and ICMP/ARP operate at lower layers."
     },
     {
         "id": 57,
@@ -1536,7 +1536,7 @@
             }
         ],
         "answer": "B",
-        "reason": "POST is commonly used to send data to a server for processing."
+        "reason": "POST is commonly used to send data to a server for processing. It submits data in the request body to create or update resources, such as submitting a form. GET retrieves data, while HEAD and OPTIONS check metadata and server capabilities without uploading content."
     },
     {
         "id": 58,
@@ -1563,7 +1563,7 @@
             }
         ],
         "answer": "B",
-        "reason": "HTTP status code 301 indicates that a resource has been permanently moved."
+        "reason": "HTTP status code 301 indicates that a resource has been permanently moved to a new URL. Browsers and search engines automatically redirect to the new address and update their indexes. Status 200 means OK, 404 means Not Found, and 503 indicates service temporary unavailability."
     },
     {
         "id": 59,
@@ -1590,7 +1590,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The HEAD method requests headers only and is useful for checking resource metadata."
+        "reason": "The HEAD method requests headers only and is useful for checking resource metadata, such as file size or modification date, without downloading the entire resource. This saves bandwidth and reduces latency. POST, PUT, and PATCH are used to upload, replace, or modify resources."
     },
     {
         "id": 60,
@@ -1617,7 +1617,7 @@
             }
         ],
         "answer": "C",
-        "reason": "HTTP 500 indicates an unexpected condition on the server side."
+        "reason": "HTTP 500 indicates an unexpected condition on the server side. It is a generic internal server error code indicating that the server failed to fulfill a valid request. Code 301 is a redirect, 400 is a client error, and 204 represents success with no content returned."
     },
     {
         "id": 61,
@@ -1644,7 +1644,7 @@
             }
         ],
         "answer": "B",
-        "reason": "HTTPS stands for HyperText Transfer Protocol Secure."
+        "reason": "HTTPS stands for HyperText Transfer Protocol Secure. The 'Secure' designation indicates that the session is encrypted using SSL or TLS protocols. It is not abbreviation for Simple, System, or Shared, which are unrelated to web security standards."
     },
     {
         "id": 62,
@@ -1671,7 +1671,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Encryption ensures that transmitted data remains confidential and unreadable to attackers."
+        "reason": "Encryption ensures that transmitted data remains confidential and unreadable to attackers. HTTPS provides confidentiality by encrypting credentials, cookies, and page content during transit. Routing and address translation occur at the network layer, and broadcasting is a network transmission mode."
     },
     {
         "id": 63,
@@ -1698,7 +1698,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Certificate warnings indicate that the server's identity cannot be fully trusted or verified."
+        "reason": "Certificate warnings indicate that the server's identity cannot be fully trusted or verified. This happens if the certificate is expired, self-signed, or issued for a different domain name, indicating a potential spoofing attack. DNS, SMTP, and FTP do not issue web security certificates."
     },
     {
         "id": 64,
@@ -1725,7 +1725,7 @@
             }
         ],
         "answer": "A",
-        "reason": "FTP is an Application Layer protocol used for file transfer."
+        "reason": "FTP is an Application Layer protocol used for file transfer. It resides at the top layer of the OSI model, providing user services for uploading and downloading files. It relies on the Transport Layer (specifically TCP) for data transfer, while Network and Physical layers handle routing and transmission."
     },
     {
         "id": 65,
@@ -1752,7 +1752,7 @@
             }
         ],
         "answer": "B",
-        "reason": "GET is commonly used to retrieve files from an FTP server."
+        "reason": "GET is commonly used to retrieve files from an FTP server. It tells the server to transfer a copy of the specified file to the client. PUT is used to upload files to the server, PING checks connectivity, and MAIL is for SMTP."
     },
     {
         "id": 66,
@@ -1779,7 +1779,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Traditional FTP does not encrypt usernames, passwords, or transferred data."
+        "reason": "Traditional FTP does not encrypt usernames, passwords, or transferred data. Since credentials and content are sent in plain text, anyone sniffing network traffic can intercept them. Secure protocols like SFTP or FTPS are recommended for file transfers over untrusted networks."
     },
     {
         "id": 67,
@@ -1806,7 +1806,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMTP is designed for sending outgoing emails and relaying mail between servers."
+        "reason": "SMTP is designed for sending outgoing emails and relaying mail between servers. It is a push protocol that moves emails from client to server and server to server. It cannot be used to retrieve emails from an inbox, which requires pull protocols like POP3 or IMAP."
     },
     {
         "id": 68,
@@ -1833,7 +1833,7 @@
             }
         ],
         "answer": "B",
-        "reason": "SMTP servers use DNS MX records to locate the destination mail server."
+        "reason": "SMTP servers use DNS MX records to locate the destination mail server. The MX record tells the sending mail transfer agent (MTA) where to route the email for that domain. ARP, ICMP, and SNMP are not involved in domain name server mail routing."
     },
     {
         "id": 69,
@@ -1860,7 +1860,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMTP handles mail submission and server-to-server email transfer."
+        "reason": "SMTP handles mail submission and server-to-server email transfer. It pushes emails across the network until they reach the recipient's mail server. POP3 and IMAP are then used by clients to retrieve the messages from the server, and SNMP manages devices."
     },
     {
         "id": 70,
@@ -1887,7 +1887,7 @@
             }
         ],
         "answer": "A",
-        "reason": "POP3 is designed to download email messages to the client machine."
+        "reason": "POP3 is designed to download email messages to the client machine. By default, it retrieves messages from the server and saves them locally, making them available offline. It does not store mail inside DNS records, routing tables, or SNMP agents."
     },
     {
         "id": 71,
@@ -1914,7 +1914,7 @@
             }
         ],
         "answer": "A",
-        "reason": "POP3 is well-suited when email is primarily accessed from one device."
+        "reason": "POP3 is well-suited when email is primarily accessed from one device. Because it downloads and removes emails from the server, it avoids consuming server storage, but it makes access from multiple devices highly inconvenient. It does not handle routing, file sharing, or network monitoring."
     },
     {
         "id": 72,
@@ -1941,7 +1941,7 @@
             }
         ],
         "answer": "A",
-        "reason": "IMAP enables users to access and manage emails while keeping them on the server."
+        "reason": "IMAP enables users to access and manage emails while keeping them on the server. Users can create folders, organize messages, and perform searches directly on the mail server. It does not handle IP assignments, packet routing, or web page transfers."
     },
     {
         "id": 73,
@@ -1968,7 +1968,7 @@
             }
         ],
         "answer": "B",
-        "reason": "IMAP synchronizes email across multiple devices while maintaining server-side storage."
+        "reason": "IMAP synchronizes email across multiple devices while maintaining server-side storage. This allows changes made on a smartphone to be visible on a laptop instantly. POP3 downloads messages to a single device, and SMTP is used exclusively for sending emails."
     },
     {
         "id": 74,
@@ -1995,7 +1995,7 @@
             }
         ],
         "answer": "A",
-        "reason": "IMAP synchronizes folders, message status, and mailbox contents across devices."
+        "reason": "IMAP synchronizes folders, message status, and mailbox contents across devices. If a folder is created or an email marked as read on one client, the change is saved on the server and synchronized everywhere. Subnetting, routing metrics, and packet fragmentation are lower-layer functions."
     },
     {
         "id": 75,
@@ -2022,7 +2022,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Telnet provides remote command-line access to networked systems."
+        "reason": "Telnet provides remote command-line access to networked systems. It allows administrators to log in and execute console commands on routers or servers. It does not provide file compression, email transfer, or DNS caching services."
     },
     {
         "id": 76,
@@ -2049,7 +2049,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SSH encrypts communication, protecting credentials and session data from interception."
+        "reason": "SSH encrypts communication, protecting credentials and session data from interception. Telnet sends all usernames, passwords, and commands in clear text, which is extremely insecure. Because of this security risk, Telnet is deprecated on modern networks in favor of SSH."
     },
     {
         "id": 77,
@@ -2076,7 +2076,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SSH is designed for secure remote administration and terminal access."
+        "reason": "SSH is designed for secure remote administration and terminal access. It provides an encrypted terminal shell, secure file copy (SCP), and port forwarding. DNS resolution, email routing, and packet switching are handled by other specialized protocols."
     },
     {
         "id": 78,
@@ -2103,7 +2103,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SSH encrypts communication, providing confidentiality against eavesdropping."
+        "reason": "SSH encrypts communication, providing confidentiality against eavesdropping. This ensures that session data and passwords cannot be captured by packet sniffers. Subnetting, routing, and ARP operate at lower networking layers and do not provide cryptographic security."
     },
     {
         "id": 79,
@@ -2130,7 +2130,7 @@
             }
         ],
         "answer": "C",
-        "reason": "SSH enables secure command execution and administration of remote systems."
+        "reason": "SSH enables secure command execution and administration of remote systems. It is the default protocol for connecting to remote Linux servers because it encrypts the command channel. FTP, SMTP, and POP3 are dedicated to file transfer and email services, not console shell access."
     },
     {
         "id": 80,
@@ -2157,7 +2157,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NFS provides transparent access to files stored on remote servers."
+        "reason": "NFS provides transparent access to files stored on remote servers. It allows clients to mount remote directories and interact with files as if they were on local hard drives. It does not handle domain resolution, router management, or email transmission."
     },
     {
         "id": 81,
@@ -2184,7 +2184,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NFS is heavily used in UNIX and Linux environments for shared storage."
+        "reason": "NFS is heavily used in UNIX and Linux environments for shared storage. It allows multiple Linux servers to mount a central file system, preserving Unix permissions. Centralized mail, DNS, and ARP gateways do not use NFS as their core protocol."
     },
     {
         "id": 82,
@@ -2211,7 +2211,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMB supports network-based file and printer sharing."
+        "reason": "SMB supports network-based file and printer sharing. It allows computers on a local network to share folders and access shared printers. It does not manage IP routing paths, DNS records, or IP address assignment."
     },
     {
         "id": 83,
@@ -2238,7 +2238,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Windows shared folders typically use SMB for file access and management."
+        "reason": "Windows shared folders typically use SMB for file access and management. This enables users to map network drives and collaborate on shared directories. DNS root lookup, SMTP relay, and ICMP echo utilities run on separate protocols."
     },
     {
         "id": 84,
@@ -2265,7 +2265,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMB provides access to shared files, folders, and printers across networks."
+        "reason": "SMB provides access to shared files, folders, and printers across networks. It supports authentication, file locking, and resource browsing. It is not a routing protocol, email protocol, or transport congestion control mechanism."
     },
     {
         "id": 85,
@@ -2292,7 +2292,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SNMP allows administrators to monitor device health and performance."
+        "reason": "SNMP allows administrators to monitor device health and performance. It is used to query routers, switches, and servers for statistics like CPU utilization and bandwidth. It does not host web pages, resolve DNS names, or transfer general files."
     },
     {
         "id": 86,
@@ -2319,7 +2319,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SNMP GET requests are used by managers to retrieve information from agents."
+        "reason": "SNMP GET requests are used by managers to retrieve information from agents. The agent queries its Management Information Base (MIB) and returns the value to the manager. TRAP is sent by the agent, ACK is a transport layer signal, and POST is an HTTP method."
     },
     {
         "id": 87,
@@ -2346,7 +2346,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SNMP agents run on devices and provide management information to SNMP managers."
+        "reason": "SNMP agents run on devices and provide management information to SNMP managers. The agent monitors local device variables and responds to manager queries. Managers monitor the network, and root servers or proxy caches do not run agent processes."
     },
     {
         "id": 88,
@@ -2373,7 +2373,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TRAP messages are unsolicited notifications sent by agents when important events occur."
+        "reason": "TRAP messages are unsolicited notifications sent by agents when important events occur. This allows managed devices to report critical issues, like a system reboot or link failure, to the SNMP manager immediately. It does not query DNS, authenticate, or transfer files."
     },
     {
         "id": 89,
@@ -2400,7 +2400,7 @@
             }
         ],
         "answer": "C",
-        "reason": "DNS resolution must occur before communication with the destination server."
+        "reason": "DNS resolution must occur before communication with the destination server. The client must first translate the domain name into an IP address. Once the IP is known, protocols like HTTP, FTP, or SMTP can establish a connection to transfer data."
     },
     {
         "id": 90,
@@ -2427,7 +2427,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMTP is specifically designed for sending and relaying email."
+        "reason": "SMTP is specifically designed for sending and relaying email. In contrast, FTP transfers files rather than resolving names, DNS resolves names rather than logging in, and SSH is for secure command execution rather than file sharing only."
     },
     {
         "id": 91,
@@ -2454,7 +2454,7 @@
             }
         ],
         "answer": "C",
-        "reason": "SSH provides encrypted authentication and secure remote administration."
+        "reason": "SSH provides encrypted authentication and secure remote administration. It secures terminal connections, making it the preferred choice for managing servers over the internet. Telnet and FTP lack encryption, and POP3 is for email retrieval."
     },
     {
         "id": 92,
@@ -2481,7 +2481,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SSH provides secure login, while SMB provides access to shared Windows network resources."
+        "reason": "SSH provides secure login, while SMB provides access to shared Windows network resources. Together, they allow secure remote command execution and local resource sharing. Other combinations cover email, naming, retrieval, and network management functions."
     },
     {
         "id": 93,
@@ -2508,7 +2508,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Authoritative name servers contain the official DNS records for their domains."
+        "reason": "Authoritative name servers contain the official DNS records for their domains. They provide the final, non-cached mapping of domain names to IP addresses. Root servers and recursive resolvers only help route the query to this authoritative source."
     },
     {
         "id": 94,
@@ -2535,7 +2535,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Modern browsers typically display a padlock icon for valid HTTPS connections."
+        "reason": "Modern browsers typically display a padlock icon for valid HTTPS connections. This informs users that their traffic is encrypted and the site's digital certificate is verified. DNS, routers, and SMTP do not use browser padlocks."
     },
     {
         "id": 95,
@@ -2562,7 +2562,7 @@
             }
         ],
         "answer": "C",
-        "reason": "SMTP is designed for sending and relaying email, not retrieving it."
+        "reason": "SMTP is designed for sending and relaying email, not retrieving it. Receiving emails requires pull protocols like POP3 or IMAP. Using SMTP to retrieve mail is not supported by the protocol specification."
     },
     {
         "id": 96,
@@ -2589,7 +2589,7 @@
             }
         ],
         "answer": "C",
-        "reason": "SNMP TRAP messages provide immediate event-driven notifications from managed devices."
+        "reason": "SNMP TRAP messages provide immediate event-driven notifications from managed devices. When a critical failure occurs, such as a router interface going down, the device sends a TRAP to the manager. GET and SET requests are initiated by the manager, which can delay alerts."
     },
     {
         "id": 97,
@@ -2616,7 +2616,7 @@
             }
         ],
         "answer": "A",
-        "reason": "NFS is widely used for file sharing in UNIX and Linux environments."
+        "reason": "NFS is widely used for file sharing in UNIX and Linux environments. It allows directories to be shared and mounted transparently over the network. SMTP, POP3, and SNMP are specialized email and network management protocols."
     },
     {
         "id": 98,
@@ -2643,7 +2643,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Telnet transmits usernames and passwords without encryption."
+        "reason": "Telnet transmits usernames and passwords without encryption. Any attacker capturing network packets can read credentials in clear text. For security, SSH, HTTPS, or IMAPS should always be used, and Telnet should be avoided on untrusted networks."
     },
     {
         "id": 99,
@@ -2670,7 +2670,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HTTPS secures web access, IMAP synchronizes email across devices, and SSH provides secure administration."
+        "reason": "HTTPS secures web access, IMAP synchronizes email across devices, and SSH provides secure administration. This combination matches a user browsing securely, accessing mail from multiple devices, and managing servers. Other options use unencrypted or routing protocols."
     },
     {
         "id": 100,
@@ -2697,6 +2697,6 @@
             }
         ],
         "answer": "A",
-        "reason": "DNS resolves domain names, HTTP/HTTPS handles web communication, and SMTP is responsible for email transmission."
+        "reason": "DNS resolves domain names, HTTP/HTTPS handles web communication, and SMTP is responsible for email transmission. This forms the standard application-layer division of labor for basic internet services. Other options confuse these roles with file transfers or routing."
     }
 ]

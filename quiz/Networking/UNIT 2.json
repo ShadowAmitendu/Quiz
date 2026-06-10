@@ -24,7 +24,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The Physical Layer is responsible for transmitting raw binary bits through physical communication channels."
+        "reason": "The Physical Layer is responsible for transmitting raw binary bits through physical communication channels. It defines electrical, mechanical, and functional specifications for the physical link. Unlike higher layers, it does not understand data frames or packets, dealing only with signal representation (voltages, light pulses, or radio waves) on the transmission medium."
     },
     {
         "id": 2,
@@ -51,7 +51,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Data transmission speed is generally measured in bits per second (bps)."
+        "reason": "Data transmission speed is generally measured in bits per second (bps) or its multiples like Kbps, Mbps, and Gbps. This rate indicates how many binary digits (0s and 1s) can be sent across a communication link in one second. Other units like Hertz measure signal frequency, while Volts and Amperes measure electrical potential and current respectively."
     },
     {
         "id": 3,
@@ -78,7 +78,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Bandwidth represents the maximum amount of data that can be transmitted through a communication channel in a given time."
+        "reason": "Bandwidth represents the maximum theoretical amount of data that can be transmitted through a communication channel in a given time period, usually measured in Hertz for analog channels or bits per second (bps) for digital channels. It determines the channel's capacity; a higher bandwidth allows more data to be transmitted simultaneously, which directly impacts the maximum speed of the connection."
     },
     {
         "id": 4,
@@ -105,7 +105,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Full-duplex communication allows data transmission in both directions at the same time."
+        "reason": "Full-duplex communication allows data transmission in both directions at the same time by utilizing separate channels or multiplexing techniques. This is common in modern telephone systems and switched Ethernet networks, where both parties can send and receive data simultaneously without waiting. In contrast, simplex is one-way only, and half-duplex allows two-way communication but only one direction at a time."
     },
     {
         "id": 5,
@@ -132,7 +132,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Walkie-talkies allow communication in both directions but not simultaneously, making them half-duplex."
+        "reason": "Walkie-talkies allow communication in both directions but not simultaneously, making them half-duplex. When one person transmits, the other must listen because the channel is shared and only one signal can occupy it at any given moment. This contrasts with full-duplex systems like cell phones where both parties can talk and listen at the same time."
     },
     {
         "id": 6,
@@ -159,7 +159,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Twisted pair cables such as `UTP` are widely used in Ethernet-based local area networks."
+        "reason": "Twisted pair cables, particularly Unshielded Twisted Pair (UTP) Category 5e or 6, are widely used in Ethernet-based local area networks (LANs) due to their low cost, flexibility, and ease of installation. While optical fibers are used for higher speeds and longer distances, twisted pair remains the standard for connecting desktop computers to switches and routers."
     },
     {
         "id": 7,
@@ -186,7 +186,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Twisted pair cables contain two insulated conductors twisted together to reduce interference."
+        "reason": "Twisted pair cables contain two insulated copper conductors twisted together in a helical pattern to reduce electromagnetic interference. The twisting ensures that both wires are equally exposed to external noise sources, allowing differential signaling to cancel out the common-mode noise at the receiving end."
     },
     {
         "id": 8,
@@ -213,7 +213,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Twisting helps cancel electromagnetic interference and crosstalk between wire pairs."
+        "reason": "Twisting the wires in a pair helps cancel out electromagnetic interference (EMI) from external sources and reduces crosstalk between adjacent wire pairs in the same cable. Since both wires in the pair carry equal and opposite signals, the external interference affects both wires equally, allowing the receiver to filter it out by taking the difference between the two signals."
     },
     {
         "id": 9,
@@ -240,7 +240,7 @@
             }
         ],
         "answer": "B",
-        "reason": "A coaxial cable contains a central copper conductor surrounded by insulation and shielding."
+        "reason": "A coaxial cable contains a central copper conductor surrounded by a solid or foam insulating layer, which is then wrapped in a cylindrical metallic outer conductor (shield) and a protective plastic jacket. This concentric physical structure is designed to carry high-frequency signals with minimal signal leakage and high resistance to interference."
     },
     {
         "id": 10,
@@ -267,7 +267,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The shielding layer in coaxial cable offers better protection against external interference."
+        "reason": "The metallic shielding layer in a coaxial cable offers superior protection against external electromagnetic interference and radio frequency interference compared to unshielded twisted pair cables. This outer conductor also serves as a ground return, creating a self-contained transmission path that preserves signal quality over longer distances."
     },
     {
         "id": 11,
@@ -294,7 +294,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Optical fiber uses light pulses to transmit information through glass or plastic fibers."
+        "reason": "Optical fiber uses light pulses to transmit information through glass or plastic fibers, taking advantage of the high frequency of light waves. A transmitter (such as an LED or laser) converts electrical signals into light pulses, which then travel through the fiber core before being converted back into electrical signals by a photodetector at the receiver."
     },
     {
         "id": 12,
@@ -321,7 +321,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Optical fiber provides extremely high bandwidth and low signal attenuation."
+        "reason": "Optical fiber provides extremely high bandwidth and low signal attenuation because light waves have exceptionally high frequencies compared to electrical signals. This allows fiber cables to carry vast amounts of data over tens of kilometers without needing repeaters, far exceeding the performance limits of copper media like coaxial and twisted-pair cables."
     },
     {
         "id": 13,
@@ -348,7 +348,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Optical fibers rely on total internal reflection to guide light through the core."
+        "reason": "Optical fibers rely on the principle of total internal reflection to guide light through the core. Because the core has a higher refractive index than the surrounding cladding layer, light entering at an angle below the critical angle is continually reflected back into the core rather than escaping, allowing it to travel long distances around curves."
     },
     {
         "id": 14,
@@ -375,7 +375,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Radio waves propagate through free space and do not require a physical medium."
+        "reason": "Radio waves propagate wirelessly through free space and do not require a physical, solid medium like copper wires or glass fibers to guide them. As an unguided medium, radio waves are broadcast omnidirectionally, allowing them to reach multiple receivers simultaneously across wide geographic areas."
     },
     {
         "id": 15,
@@ -402,7 +402,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Radio waves propagate wirelessly through free space."
+        "reason": "Radio waves propagate wirelessly through free space (the atmosphere or vacuum) using electromagnetic fields. This allows them to support mobile communication and broadcast signals without the constraints of physical, guided cabling."
     },
     {
         "id": 16,
@@ -429,7 +429,7 @@
             }
         ],
         "answer": "A",
-        "reason": "VHF stands for Very High Frequency and is commonly used in radio communications."
+        "reason": "VHF stands for Very High Frequency, representing the radio frequency band extending from 30 MHz to 300 MHz. It is commonly used for FM radio broadcasting, television broadcasts, marine communications, and air traffic control due to its ability to travel line-of-sight and penetrate the atmosphere."
     },
     {
         "id": 17,
@@ -456,7 +456,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Microwave signals typically require a clear line-of-sight path between antennas."
+        "reason": "Microwave signals typically require a clear line-of-sight path between antennas because they operate at high frequencies (1 GHz to 300 GHz) where signals travel in straight lines and do not follow the curvature of the Earth. Obstacles like buildings, hills, or heavy rain can block or severely scatter the signal, requiring repeaters on tall towers."
     },
     {
         "id": 18,
@@ -483,7 +483,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Satellites provide communication coverage over large geographic regions."
+        "reason": "Satellites provide communication coverage over large geographic regions by acting as repeaters in space. A geostationary satellite orbiting at 35,786 km can cover approximately one-third of the Earth's surface, making it ideal for global television broadcasting, weather monitoring, and internet connectivity in remote or maritime areas."
     },
     {
         "id": 19,
@@ -510,7 +510,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Infrared communication typically requires a direct line-of-sight path."
+        "reason": "Infrared communication typically requires a direct line-of-sight path because infrared light waves have very high frequencies and short wavelengths that cannot penetrate solid obstacles like walls. This localized propagation characteristic makes infrared ideal for short-range, secure indoor applications like television remote controls and wireless keyboards."
     },
     {
         "id": 20,
@@ -537,7 +537,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Line encoding converts binary data into signal patterns suitable for transmission."
+        "reason": "Line encoding converts binary digital data (0s and 1s) into digital signals (voltage pulses or level changes) suitable for transmission over a physical channel. This process ensures that the signal has properties like self-clocking, lack of DC component, and noise immunity, allowing the receiver to accurately reconstruct the original data."
     },
     {
         "id": 21,
@@ -564,7 +564,7 @@
             }
         ],
         "answer": "A",
-        "reason": "`NRZ` uses distinct voltage levels to represent binary 0s and 1s."
+        "reason": "Non-Return-to-Zero (NRZ) encoding uses distinct, constant voltage levels to represent binary 0s and 1s, such as a positive voltage for a binary 1 and a negative or zero voltage for a binary 0. The signal level remains constant throughout the entire bit duration and does not return to a zero voltage state between bits, which simplifies hardware design but can lead to synchronization issues."
     },
     {
         "id": 22,
@@ -591,7 +591,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Manchester encoding includes a mid-bit transition that helps receiver clock synchronization."
+        "reason": "Manchester encoding includes a guaranteed transition in the middle of every bit period, which serves as a clock signal and represents the data value (e.g., a low-to-high transition for a 1 and high-to-low for a 0). This mid-bit transition ensures that the receiver can constantly synchronize its clock with the incoming signal, preventing synchronization loss even during long sequences of identical bits."
     },
     {
         "id": 23,
@@ -618,7 +618,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Differential Manchester uses transitions to represent bits, making it less sensitive to polarity changes."
+        "reason": "Differential Manchester encoding uses the presence or absence of a transition at the beginning of a bit period to represent the binary value (typically a transition indicates a 0 and no transition indicates a 1), while still maintaining a mid-bit transition for clock recovery. Because it relies on relative transitions rather than absolute voltage levels, it is immune to polarity reversal in the wiring."
     },
     {
         "id": 24,
@@ -645,7 +645,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Multiplexing allows multiple signals to share the same transmission medium."
+        "reason": "Multiplexing is the process of combining multiple signal streams into a single composite signal so they can be transmitted simultaneously over a shared physical medium. This technique maximizes the utilization of network infrastructure, allowing telecommunication companies to run many voice or data channels over a single physical cable."
     },
     {
         "id": 25,
@@ -672,7 +672,7 @@
             }
         ],
         "answer": "A",
-        "reason": "`FDM` divides available bandwidth into separate frequency bands."
+        "reason": "FDM stands for Frequency Division Multiplexing, a technique that divides the total available bandwidth of a physical medium into separate, non-overlapping frequency bands. Each band is allocated to a different communication channel, allowing multiple signals (like radio stations or television channels) to be transmitted simultaneously without interfering with one another."
     },
     {
         "id": 26,
@@ -699,7 +699,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Broadcasting systems commonly use Frequency Division Multiplexing."
+        "reason": "Broadcasting systems commonly use Frequency Division Multiplexing (FDM) to transmit multiple radio or television stations over the airwaves simultaneously. Each station is assigned a unique carrier frequency band, and guard bands are placed between them to prevent adjacent channel interference, allowing users to tune their receivers to specific frequencies."
     },
     {
         "id": 27,
@@ -726,7 +726,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Time Division Multiplexing allocates different time slots to multiple users."
+        "reason": "Time Division Multiplexing (TDM) allocates the entire bandwidth of a communication channel to multiple users by dividing the transmission time into recurring, non-overlapping time slots. Each user is given exclusive access to transmit data during their assigned time slot, allowing multiple low-speed data streams to share a high-speed link."
     },
     {
         "id": 28,
@@ -753,7 +753,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Wavelength Division Multiplexing is used in optical fiber communication systems."
+        "reason": "Wavelength Division Multiplexing (WDM) is used exclusively in optical fiber communication systems to transmit multiple data channels over a single fiber. It works by combining light signals of different wavelengths (colors) into a single fiber and separating them at the receiving end using optical prisms or demultiplexers."
     },
     {
         "id": 29,
@@ -780,7 +780,7 @@
             }
         ],
         "answer": "C",
-        "reason": "`WDM` transmits multiple optical signals simultaneously using different wavelengths of light."
+        "reason": "Wavelength Division Multiplexing (WDM) transmits multiple optical signals simultaneously using different wavelengths (colors) of light over a single optical fiber. By assigning a unique optical wavelength to each data stream, WDM dramatically increases the carrying capacity of fiber-optic backbones without requiring new cables."
     },
     {
         "id": 30,
@@ -807,7 +807,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Circuit switching reserves a dedicated communication path for the duration of the connection."
+        "reason": "Circuit switching reserves a dedicated physical communication path and fixed bandwidth for the exclusive use of two nodes for the duration of their session. Before data transfer can begin, a connection must be established through a signaling phase, guaranteeing continuous throughput and zero queuing delay for applications like voice calls."
     },
     {
         "id": 31,
@@ -834,7 +834,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Conventional telephone systems establish dedicated circuits between communicating parties."
+        "reason": "Conventional telephone systems establish dedicated physical circuits between communicating parties using circuit switching technology. Once a call is connected, a dedicated path of copper wires or digital time slots is reserved, ensuring that voice quality remains constant and unaffected by other network traffic."
     },
     {
         "id": 32,
@@ -861,7 +861,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Internet communication is based on packet switching, where data is divided into packets."
+        "reason": "Internet communication is based on packet switching, where data is broken down into small, independent blocks called packets. Each packet contains control headers and payload, allowing routers to dynamically forward packets along the best available paths to their destination, which maximizes network efficiency."
     },
     {
         "id": 33,
@@ -888,7 +888,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Packet switching divides messages into smaller packets that are routed independently."
+        "reason": "Packet switching divides long messages into smaller, manageable chunks called packets before transmission. Each packet contains a header with routing information (source and destination addresses) and a payload, enabling intermediate routers to process and forward them independently across the network."
     },
     {
         "id": 34,
@@ -915,7 +915,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Message switching stores the complete message before forwarding it to the next node."
+        "reason": "Message switching follows a store-and-forward principle where an entire message is transmitted from the source and stored completely at each intermediate node before being forwarded to the next. Because nodes must wait for the entire message to arrive and check it for errors, it introduces significant transmission delay."
     },
     {
         "id": 35,
@@ -942,7 +942,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Packet switching shares network resources dynamically, making it efficient for bursty traffic."
+        "reason": "Packet switching shares network resources dynamically rather than reserving dedicated channels, making it highly efficient for bursty data traffic like web browsing. Since data networks rarely transmit at a constant rate, packet switching allows multiple users to share the same bandwidth, utilizing idle channel capacity."
     },
     {
         "id": 36,
@@ -969,7 +969,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Optical fiber uses light rather than electrical signals and is immune to electromagnetic interference."
+        "reason": "Optical fiber uses light instead of electrical currents, making it completely immune to electromagnetic interference (EMI) and radio frequency interference (RFI). It can be laid next to high-voltage power lines or in electromagnetically noisy industrial environments without experiencing signal degradation."
     },
     {
         "id": 37,
@@ -996,7 +996,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Microwave communication requires unobstructed line-of-sight paths between transmitting and receiving stations."
+        "reason": "Microwave communication requires unobstructed line-of-sight paths between transmitting and receiving stations due to the straight-line propagation of high-frequency electromagnetic waves. Placing relay stations on tall towers helps overcome the Earth's curvature and clear physical obstacles like trees and buildings."
     },
     {
         "id": 38,
@@ -1023,7 +1023,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Differential Manchester depends on transitions rather than absolute voltage levels, making it resistant to polarity inversions."
+        "reason": "Differential Manchester encoding is highly robust against polarity inversion because it detects binary values based on signal transitions at the start of a bit boundary rather than absolute voltage levels. If the physical wires are accidentally swapped, the transitions remain identical, ensuring the receiver still decodes the data correctly."
     },
     {
         "id": 39,
@@ -1050,7 +1050,7 @@
             }
         ],
         "answer": "C",
-        "reason": "WDM allows multiple channels to be transmitted over a single fiber using different wavelengths of light."
+        "reason": "Wavelength Division Multiplexing (WDM) multiplexes multiple optical carrier signals onto a single optical fiber by using different wavelengths (colors) of laser light. This technology enables fiber providers to multiply their network capacity by simply adding different wavelengths at the transmitters and receivers."
     },
     {
         "id": 40,
@@ -1077,7 +1077,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Message switching uses a store-and-forward mechanism where complete messages are received before forwarding."
+        "reason": "Message switching uses a store-and-forward mechanism where complete messages are received, temporarily stored in a node's buffer, and then forwarded to the next node once the outgoing link becomes available. This is different from packet switching, which breaks data into smaller units to avoid long buffering delays."
     },
     {
         "id": 41,
@@ -1104,7 +1104,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Simplex communication allows data flow in only one direction, such as television broadcasting."
+        "reason": "Simplex communication allows data flow in only one direction, with one device acting strictly as a transmitter and the other strictly as a receiver. Examples include television and radio broadcasting, where the audience cannot send feedback through the same transmission channel."
     },
     {
         "id": 42,
@@ -1131,7 +1131,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The keyboard only sends data to the computer and does not receive data back through the same communication channel."
+        "reason": "A computer keyboard only sends input signals to the computer system and does not receive data back through the same communication channel, which is a classic example of simplex communication. The flow of information is strictly unidirectional, from the keyboard to the system unit."
     },
     {
         "id": 43,
@@ -1158,7 +1158,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Attenuation refers to the gradual loss of signal strength during transmission."
+        "reason": "Attenuation refers to the gradual loss of signal strength as it propagates through a transmission medium. It is caused by the physical properties of the medium, such as electrical resistance in copper wires or scattering and absorption in optical fibers, and requires the use of amplifiers or repeaters over long distances."
     },
     {
         "id": 44,
@@ -1185,7 +1185,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Noise introduces unwanted signals that can corrupt transmitted data and affect communication accuracy."
+        "reason": "Noise introduces random, unwanted electrical or electromagnetic disturbances that distort the original signal, directly affecting data integrity. If the noise level is too high relative to the signal strength (low Signal-to-Noise Ratio), the receiver may misinterpret bits, leading to transmission errors."
     },
     {
         "id": 45,
@@ -1212,7 +1212,7 @@
             }
         ],
         "answer": "B",
-        "reason": "`UTP` stands for Unshielded Twisted Pair, a commonly used networking cable."
+        "reason": "UTP stands for Unshielded Twisted Pair, which is the most common type of copper cabling used in local area networks. It consists of color-coded copper wires twisted in pairs without any metallic shielding, relying solely on the twisting to cancel out external interference."
     },
     {
         "id": 46,
@@ -1239,7 +1239,7 @@
             }
         ],
         "answer": "B",
-        "reason": "`STP` (Shielded Twisted Pair) includes metallic shielding to reduce interference."
+        "reason": "Shielded Twisted Pair (STP) cables include a metallic foil or braided shield wrapped around the wire pairs to block external electromagnetic interference (EMI). This shielding makes STP suitable for high-EMI environments like factories, though it is more expensive and less flexible than UTP."
     },
     {
         "id": 47,
@@ -1266,7 +1266,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Twisted pair cable is inexpensive, easy to install, and widely used in LANs."
+        "reason": "Twisted pair cable is the most cost-effective guided transmission medium because it is cheap to manufacture, easy to install, and requires inexpensive connectors like RJ-45. Its low cost makes it the dominant choice for horizontal cabling in office networks and residential LANs."
     },
     {
         "id": 48,
@@ -1293,7 +1293,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The central conductor is surrounded by an insulating dielectric layer."
+        "reason": "In a coaxial cable, the central copper conductor is surrounded by a solid or semi-solid insulating dielectric layer. This layer keeps the inner conductor perfectly centered and separated from the outer shielding conductor, ensuring stable impedance and signal propagation."
     },
     {
         "id": 49,
@@ -1320,7 +1320,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Coaxial cable provides relatively high bandwidth and effective shielding against interference."
+        "reason": "Coaxial cable provides a good balance of high bandwidth and effective shielding, making it ideal for cable television (CATV) systems. Its ability to carry multiple television channels simultaneously over long residential loops with minimal interference is due to its protective outer metallic shield."
     },
     {
         "id": 50,
@@ -1347,7 +1347,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Optical fiber cores are generally made from glass or high-quality plastic."
+        "reason": "Optical fiber cores are constructed from high-purity silica glass or plastic designed to transmit light with minimal attenuation. The core is the innermost part of the cable through which the light signals propagate, guided by the outer cladding layer."
     },
     {
         "id": 51,
@@ -1374,7 +1374,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Optical fiber supports long-distance communication with low attenuation."
+        "reason": "Optical fiber supports much longer transmission distances than copper cables because it experiences extremely low signal attenuation. Light signals can travel tens of kilometers through high-quality glass fibers before requiring amplification, whereas copper cables like UTP are limited to 100 meters."
     },
     {
         "id": 52,
@@ -1401,7 +1401,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Multi-mode fiber allows multiple propagation paths, unlike single-mode fiber."
+        "reason": "Multi-mode fiber has a relatively large core diameter, allowing multiple rays or modes of light to propagate through the fiber simultaneously along different paths. This mode dispersion limits its transmission distance, making it more suitable for short-range applications like campus LAN backbones."
     },
     {
         "id": 53,
@@ -1428,7 +1428,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Radio waves can often penetrate walls and obstacles better than infrared signals."
+        "reason": "Radio waves have lower frequencies and longer wavelengths than infrared waves, allowing them to penetrate solid walls and obstacles effectively. This characteristic makes radio-based technologies like Wi-Fi and cellular networks ideal for indoor and mobile communication."
     },
     {
         "id": 54,
@@ -1455,7 +1455,7 @@
             }
         ],
         "answer": "A",
-        "reason": "VHF frequencies are widely used in radio and television broadcasting systems."
+        "reason": "VHF (Very High Frequency) signals operate in the 30 MHz to 300 MHz range, which is highly suited for line-of-sight television and FM radio broadcasting. These frequencies propagate through the troposphere and can pass through building walls, providing excellent local coverage."
     },
     {
         "id": 55,
@@ -1482,7 +1482,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Microwaves use higher frequency electromagnetic waves suitable for long-distance wireless communication."
+        "reason": "Microwave communication operates at high frequencies, typically between 1 GHz and 300 GHz, which are much higher than standard radio broadcasting frequencies. These high frequencies allow microwaves to carry large amounts of data over line-of-sight paths, making them useful for terrestrial links and satellite feeds."
     },
     {
         "id": 56,
@@ -1509,7 +1509,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Signals must travel large distances to satellites and back, causing noticeable delays."
+        "reason": "Satellite communication suffers from high propagation delay (latency) because signals must travel from the ground to a satellite in orbit and back. For geostationary satellites orbiting at 35,786 km, this round-trip journey takes approximately 250 to 280 milliseconds, causing noticeable delays in real-time voice and data applications."
     },
     {
         "id": 57,
@@ -1536,7 +1536,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Television remote controls commonly use infrared signals for communication."
+        "reason": "Television remote controls commonly use infrared light-emitting diodes (LEDs) to send control commands to the receiver. Infrared is perfect for this because it operates at short ranges, does not interfere with radio communications, and is confined to the room due to its inability to pass through walls."
     },
     {
         "id": 58,
@@ -1563,7 +1563,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Manchester encoding always has a mid-bit transition, aiding synchronization."
+        "reason": "Manchester encoding always includes a transition (high-to-low or low-to-high) in the exact middle of every bit period. This guaranteed transition allows the receiver's clock to synchronize with the transmitter's clock, resolving synchronization issues during long streams of 0s or 1s."
     },
     {
         "id": 59,
@@ -1590,7 +1590,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Long sequences of identical bits can make clock recovery difficult in NRZ encoding."
+        "reason": "Non-Return-to-Zero (NRZ) encoding does not guarantee signal transitions, meaning a long sequence of identical bits (such as all 1s or all 0s) results in a flat, unchanging voltage level. Without transitions, the receiver's clock can drift out of sync with the sender's, leading to decoding errors."
     },
     {
         "id": 60,
@@ -1617,7 +1617,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Manchester encoding requires more signal transitions and therefore more bandwidth."
+        "reason": "Manchester encoding requires more signal transitions per second than NRZ because it guarantees a transition in the middle of every bit. This transition doubles the signal frequency, requiring approximately twice the bandwidth of NRZ to transmit the same data rate."
     },
     {
         "id": 61,
@@ -1644,7 +1644,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Differential Manchester relies on transitions rather than voltage levels, making it robust against polarity changes."
+        "reason": "Differential Manchester encoding relies on signal transitions at the start of a bit period to represent binary data, making it insensitive to signal polarity reversal. If a technician accidentally swaps the positive and negative wires, the transitions remain unchanged, allowing the receiver to decode the signal correctly."
     },
     {
         "id": 62,
@@ -1671,7 +1671,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Multiplexing combines multiple signals onto a single communication medium."
+        "reason": "Multiplexing is a technique that enables multiple data signals to share a single high-capacity physical communication channel. By combining these signals at the sender and separating them at the receiver, multiplexing maximizes the efficiency and cost-effectiveness of transmission media."
     },
     {
         "id": 63,
@@ -1698,7 +1698,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Frequency Division Multiplexing assigns a unique frequency band to each signal."
+        "reason": "Frequency Division Multiplexing (FDM) divides the total bandwidth of a physical medium into multiple distinct frequency ranges. By assigning a unique frequency band to each signal, FDM allows multiple signals to share the same physical medium without interference."
     },
     {
         "id": 64,
@@ -1725,7 +1725,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Time Division Multiplexing assigns specific time slots to multiple users."
+        "reason": "Time Division Multiplexing (TDM) divides the transmission time of a single communication channel into distinct time slots and allocates them to different users. Each user transmits their data in turn, sharing the total bandwidth by taking turns rather than dividing the frequency spectrum."
     },
     {
         "id": 65,
@@ -1752,7 +1752,7 @@
             }
         ],
         "answer": "B",
-        "reason": "WDM separates channels using wavelengths, similar to how FDM separates channels using frequencies."
+        "reason": "Wavelength Division Multiplexing (WDM) can be conceptualized as FDM applied to light waves in optical fibers. Just as FDM splits a copper wire's bandwidth into different radio frequencies, WDM splits a fiber optic cable's bandwidth into different wavelengths (colors) of light."
     },
     {
         "id": 66,
@@ -1779,7 +1779,7 @@
             }
         ],
         "answer": "C",
-        "reason": "WDM allows multiple optical channels to be transmitted simultaneously through a single fiber."
+        "reason": "Wavelength Division Multiplexing (WDM) offers the highest transmission capacity in modern optical backbone networks by multiplexing dozens of light wavelengths over a single fiber. Technologies like Dense WDM (DWDM) can carry terabits of data per second across oceans and continents."
     },
     {
         "id": 67,
@@ -1806,7 +1806,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Circuit switching requires a dedicated communication path to be established before data transfer."
+        "reason": "Circuit switching requires an explicit path establishment phase before any data can be transferred between the sender and receiver. During this phase, network nodes allocate and reserve dedicated physical paths and resources, ensuring a guaranteed connection for the duration of the call."
     },
     {
         "id": 68,
@@ -1833,7 +1833,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Reserved resources remain allocated even when no actual data is being transmitted."
+        "reason": "In circuit switching, resources like transmission lines and switch capacity are dedicated to a specific connection and remain reserved even if no data is being sent. This leads to inefficient bandwidth utilization during periods of silence or bursty data transmission."
     },
     {
         "id": 69,
@@ -1860,7 +1860,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Packets can travel independently and may follow different paths through the network."
+        "reason": "In packet switching, each packet of a message contains routing information in its header and is processed independently by routers. Because network conditions change dynamically, different packets of the same message may take different physical paths and arrive out of order."
     },
     {
         "id": 70,
@@ -1887,7 +1887,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Packet switching allows users to share network resources dynamically, improving utilization."
+        "reason": "Packet switching utilizes dynamic resource sharing to route packets on demand over a shared network structure. Unlike circuit switching, which leaves idle channels unused, packet switching allows active nodes to instantly consume available bandwidth, making it ideal for internet traffic."
     },
     {
         "id": 71,
@@ -1914,7 +1914,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Unlike circuit switching, message switching does not establish a dedicated path before transmission."
+        "reason": "Message switching does not require a dedicated physical path to be established before communication begins. Instead, messages travel from node to node, being stored and forwarded based on routing decisions made at each hop, which eliminates the setup delay found in circuit switching."
     },
     {
         "id": 72,
@@ -1941,7 +1941,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Entire messages must be stored and forwarded, causing delays that are unsuitable for real-time communication."
+        "reason": "Message switching is unsuitable for real-time applications like voice calls because the store-and-forward process introduces massive, unpredictable queuing delays. Because routers must buffer the entire message before forwarding it, latency accumulates at each hop along the path."
     },
     {
         "id": 73,
@@ -1968,7 +1968,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Modern data networks, including the Internet, primarily use packet switching."
+        "reason": "Modern data networks, including local area networks (LANs) and the global Internet, primarily rely on packet switching. This method is chosen because it easily handles diverse, bursty data traffic and allows highly efficient, multi-user sharing of physical links."
     },
     {
         "id": 74,
@@ -1995,7 +1995,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Circuit switching establishes and maintains a dedicated path for the duration of communication."
+        "reason": "Circuit switching guarantees a fixed, dedicated physical or logical path throughout the communication session. Once the path is set up, all signals follow the exact same route with constant bandwidth and zero queuing delay, making it highly reliable for traditional voice services."
     },
     {
         "id": 75,
@@ -2022,7 +2022,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The Physical Layer deals with signal transmission, media, connectors, and electrical characteristics."
+        "reason": "The OSI Physical Layer is responsible for the actual transmission of unstructured raw bit streams over a physical medium. It defines electrical signal characteristics, physical connector shapes, cabling standards, and transmission rates, directly handling signal transmission."
     },
     {
         "id": 76,
@@ -2049,7 +2049,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Optical fiber provides extremely high bandwidth, long-distance support, and immunity to electromagnetic interference."
+        "reason": "Optical fiber is the superior choice for high-speed intercity backbone networks because it supports massive bandwidth and has exceptionally low attenuation over long distances. Unlike copper cables (UTP/STP), fiber can transmit data for kilometers without requiring repeaters or suffering from electrical interference."
     },
     {
         "id": 77,
@@ -2076,7 +2076,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Satellite communication provides wide-area and global coverage, especially in remote locations."
+        "reason": "Satellite communication is the most practical choice for providing connectivity to remote or geographically isolated regions where laying physical copper or fiber cables is economically or logistically impossible. Satellites can cover large portions of the earth, bridging the digital divide in rural areas."
     },
     {
         "id": 78,
@@ -2103,7 +2103,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Manchester encoding provides clock synchronization through guaranteed signal transitions."
+        "reason": "Manchester encoding guarantees a transition at the midpoint of every bit interval, creating a self-clocking signal. The receiver uses these regular, predictable transitions to synchronize its clock with the transmitter, eliminating the need for a separate clock wire."
     },
     {
         "id": 79,
@@ -2130,7 +2130,7 @@
             }
         ],
         "answer": "C",
-        "reason": "TDM allocates recurring time slots to different users sharing the same channel."
+        "reason": "Time Division Multiplexing (TDM) divides a single communication channel into equal, recurring time intervals (slots) and assigns them to different users. Each user has exclusive access to the full bandwidth of the channel during their specific time slot."
     },
     {
         "id": 80,
@@ -2157,7 +2157,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Circuit switching provides a dedicated path with predictable performance and minimal delay variation."
+        "reason": "Circuit switching is the most appropriate technique for applications requiring guaranteed bandwidth and minimal delay variation (jitter), such as real-time audio and video. Once the dedicated circuit is established, it provides a stable, predictable transmission rate without queuing delays."
     },
     {
         "id": 81,
@@ -2184,7 +2184,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Propagation delay refers to the time required for a signal to travel through a communication medium from source to destination."
+        "reason": "Propagation delay is the time it takes for the leading edge of a signal to travel through the physical communication medium from the transmitter to the receiver. It is a function of the physical distance and the speed of light within that specific medium."
     },
     {
         "id": 82,
@@ -2211,7 +2211,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Propagation delay depends on the physical distance traveled and the speed at which signals propagate through the medium."
+        "reason": "Propagation delay is primarily determined by the physical length of the communication link and the speed at which signals travel through the medium (which is close to the speed of light). It is independent of packet size or router processing speeds."
     },
     {
         "id": 83,
@@ -2238,7 +2238,7 @@
             }
         ],
         "answer": "A",
-        "reason": "RJ-45 connectors are widely used for Ethernet networks employing twisted pair cabling."
+        "reason": "RJ-45 (Registered Jack 45) connectors are the standard 8-position, 8-contact connectors used for terminating twisted pair Ethernet cables (like Cat5e and Cat6) in local area networks. They provide a secure, click-in connection to network interface cards, switches, and wall jacks."
     },
     {
         "id": 84,
@@ -2265,7 +2265,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Shielded Twisted Pair (STP) cables contain additional shielding that improves resistance to electromagnetic interference."
+        "reason": "Shielded Twisted Pair (STP) cables are wrapped in a metallic foil or braided shield, making them significantly more resistant to electromagnetic interference than Unshielded Twisted Pair (UTP). This shield protects the signals from external electrical noise, ensuring data integrity in harsh environments."
     },
     {
         "id": 85,
@@ -2292,7 +2292,7 @@
             }
         ],
         "answer": "C",
-        "reason": "BNC connectors are commonly used with coaxial cables in networking and communication systems."
+        "reason": "BNC (Bayonet Neill-Concelman) connectors are miniature quick-connect/disconnect radio frequency connectors traditionally used to terminate coaxial cables. They feature a bayonet locking mechanism that prevents accidental disconnection, ensuring a stable physical connection."
     },
     {
         "id": 86,
@@ -2319,7 +2319,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Single-mode fiber minimizes signal dispersion and is ideal for long-distance, high-speed communication."
+        "reason": "Single-mode fiber has a very small core (around 9 microns) that allows only a single spatial mode of light to propagate. This design eliminates modal dispersion, allowing signals to travel much further at higher speeds than multi-mode fiber, making it ideal for long-distance telecommunications."
     },
     {
         "id": 87,
@@ -2346,7 +2346,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Attenuation causes gradual reduction in optical signal power as light travels through the fiber."
+        "reason": "Attenuation is the primary cause of signal loss in optical fibers, resulting from light absorption, scattering, and bending losses. As the light pulses travel through the silica glass, they gradually lose intensity, limiting the maximum transmission distance before amplification is required."
     },
     {
         "id": 88,
@@ -2373,7 +2373,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Radio waves enable wireless communication and support user mobility."
+        "reason": "Radio waves can propagate omnidirectionally through the air and penetrate obstacles like walls, making them the primary medium for mobile communication. This wireless nature allows users to maintain network connectivity while moving freely within the coverage area."
     },
     {
         "id": 89,
@@ -2400,7 +2400,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Satellite communication is highly effective for providing connectivity to geographically isolated regions."
+        "reason": "Satellite communication benefits geographically isolated or remote regions the most because it bypasses the need for ground-based cabling infrastructure. A single satellite transceiver can provide internet, television, and emergency services to entire islands, rural communities, or ships at sea."
     },
     {
         "id": 90,
@@ -2427,7 +2427,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Infrared signals generally require a direct line-of-sight path and are easily blocked by obstacles."
+        "reason": "Infrared communication is limited by its high frequency, which prevents the signal from penetrating solid obstacles like walls. This confinement means infrared signals require a direct line-of-sight path, restricting their use to short-range, single-room applications."
     },
     {
         "id": 91,
@@ -2454,7 +2454,7 @@
             }
         ],
         "answer": "A",
-        "reason": "`NRZ` stands for Non-Return to Zero, a commonly used line encoding scheme."
+        "reason": "NRZ stands for Non-Return to Zero, which refers to a digital line encoding scheme where the signal voltage does not return to a zero state between bits. Instead, it maintains a constant positive or negative voltage level throughout the entire duration of a bit period."
     },
     {
         "id": 92,
@@ -2481,7 +2481,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Manchester encoding provides reliable clock synchronization due to mandatory signal transitions."
+        "reason": "Manchester encoding is preferred in many networks (like classic Ethernet) because its guaranteed mid-bit transitions provide superior clock synchronization. This self-clocking capability prevents clock drift between the receiver and transmitter, even during long sequences of 1s or 0s."
     },
     {
         "id": 93,
@@ -2508,7 +2508,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Differential Manchester guarantees a mid-bit transition for synchronization purposes."
+        "reason": "Differential Manchester encoding always contains a transition in the middle of every bit period to ensure continuous clock synchronization. The presence or absence of a transition at the beginning of the bit period is then used to determine the actual binary value of the data."
     },
     {
         "id": 94,
@@ -2535,7 +2535,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Frequency Division Multiplexing separates signals by assigning unique frequency bands."
+        "reason": "Frequency Division Multiplexing (FDM) divides the total bandwidth of a shared medium into multiple distinct frequency ranges. By assigning a unique frequency band to each signal, FDM allows multiple signals to share the same physical medium without interference."
     },
     {
         "id": 95,
@@ -2562,7 +2562,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Time Division Multiplexing allocates different time slots to users sharing the same channel."
+        "reason": "In Time Division Multiplexing (TDM), time is the resource divided among multiple users. The transmission channel is divided into repeating time frames, and each frame is split into time slots allocated to specific users, allowing them to take turns transmitting."
     },
     {
         "id": 96,
@@ -2589,7 +2589,7 @@
             }
         ],
         "answer": "C",
-        "reason": "WDM stands for Wavelength Division Multiplexing and is used in optical communication systems."
+        "reason": "WDM stands for Wavelength Division Multiplexing, a technology that multiplexes multiple optical carrier signals onto a single optical fiber by using different wavelengths (colors) of light. This technique drastically increases the data carrying capacity of fiber-optic cables."
     },
     {
         "id": 97,
@@ -2616,7 +2616,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Circuit switching reserves a dedicated communication path and associated bandwidth throughout the connection."
+        "reason": "During a circuit-switched session, a fixed amount of bandwidth is reserved exclusively for the connection from start to finish. Even if the communicating parties remain silent, the reserved bandwidth cannot be used by other traffic, guaranteeing consistent quality but leading to idle resource waste."
     },
     {
         "id": 98,
@@ -2643,7 +2643,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Packet switching allows multiple users to share network resources efficiently based on actual demand."
+        "reason": "Packet switching is more efficient for data networks because it dynamically allocates bandwidth on demand, allowing multiple users to share resources. Instead of dedicating a channel to one user, packet switching routes data only when there are actual packets to send, maximizing link utilization."
     },
     {
         "id": 99,
@@ -2670,7 +2670,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Message switching uses a store-and-forward mechanism where the complete message is received before transmission continues."
+        "reason": "Message switching uses a store-and-forward approach where each intermediate router or switch receives the entire message, buffers it locally, and verifies its integrity before forwarding it to the next hop. This introduces significant delays compared to packet switching, which forwards smaller chunks immediately."
     },
     {
         "id": 100,
@@ -2697,6 +2697,6 @@
             }
         ],
         "answer": "B",
-        "reason": "Circuit switching provides a dedicated path and predictable performance, making it suitable for real-time communication applications."
+        "reason": "Circuit switching is highly suitable for real-time applications like video conferencing because it establishes a dedicated path with constant, guaranteed bandwidth and minimal delay variation. This prevents the jitter and packet loss commonly experienced on congested packet-switched networks."
     }
 ]

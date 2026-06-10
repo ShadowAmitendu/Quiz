@@ -30,6 +30,24 @@
     ]
   },
   {
+    "subject": "Customer Relationship Management",
+    "folder": "Customer Relationship Management",
+    "files": [
+      {
+        "label": "1. Evolution Of Customer Relationship Management",
+        "file": "1. Evolution of Customer Relationship Management.json"
+      },
+      {
+        "label": "2. CRM Concepts",
+        "file": "2. CRM Concepts.json"
+      },
+      {
+        "label": "3. Planning For CRM",
+        "file": "3. Planning for CRM.json"
+      }
+    ]
+  },
+  {
     "subject": "Networking",
     "folder": "Networking",
     "files": [

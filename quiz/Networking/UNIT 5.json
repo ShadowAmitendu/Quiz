@@ -24,7 +24,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The Transport Layer provides end-to-end communication services between application processes running on different hosts."
+        "reason": "The Transport Layer provides end-to-end communication services between application processes running on different hosts, acting as a bridge between applications and the network. It handles data packet flow control, error checking, and segmentation, shielding application layers from physical network details."
     },
     {
         "id": 2,
@@ -51,7 +51,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The Transport Layer breaks large messages into segments and reassembles them at the destination."
+        "reason": "The Transport Layer breaks large messages into segments at the sending end and reassembles them at the destination, managing packet size boundaries for network layer transmission. This process ensures that if a single segment is lost, only that segment needs to be retransmitted rather than the entire message."
     },
     {
         "id": 3,
@@ -78,7 +78,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Port numbers identify specific application processes on a host and allow proper delivery of data."
+        "reason": "Port numbers identify specific application processes on a host and allow proper delivery of data, enabling multiple applications to share a single network connection. This process, known as demultiplexing, ensures that incoming packets are delivered to the correct destination process."
     },
     {
         "id": 4,
@@ -105,7 +105,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Flow control prevents a sender from overwhelming the receiver with excessive data."
+        "reason": "Flow control prevents a sender from overwhelming the receiver with excessive data, adjusting transmission speeds based on the receiver's current buffer capacity. By coordinating transmission rates, it avoids packet loss due to buffer overflow and minimizes network congestion."
     },
     {
         "id": 5,
@@ -132,7 +132,7 @@
             }
         ],
         "answer": "A",
-        "reason": "TCP stands for Transmission Control Protocol and provides reliable transport services."
+        "reason": "TCP stands for Transmission Control Protocol and provides reliable transport services, serving as one of the core protocols of the Internet protocol suite. It uses sequence numbers, acknowledgments, and retransmission timers to guarantee that data arrives complete, in order, and free of errors."
     },
     {
         "id": 6,
@@ -159,7 +159,7 @@
             }
         ],
         "answer": "A",
-        "reason": "TCP establishes a connection before transmitting data."
+        "reason": "TCP is a connection-oriented protocol, meaning it establishes a logical connection between the client and server before transmitting any user data. This connection setup ensures both hosts are ready to communicate and allows them to synchronize sequence numbers for tracking."
     },
     {
         "id": 7,
@@ -186,7 +186,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The 3-way handshake synchronizes sequence numbers and establishes a reliable TCP connection."
+        "reason": "The purpose of TCP's 3-way handshake is to synchronize sequence numbers and establish a reliable connection, preparing both nodes for transmission. By exchanging SYN, SYN-ACK, and ACK segments, the client and server agree on initial parameters and verify that their communication channels are open."
     },
     {
         "id": 8,
@@ -213,7 +213,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The client initiates the TCP connection by sending a SYN segment."
+        "reason": "The client initiates the TCP connection by sending a SYN segment, which stands for Synchronize. This segment contains the client's initial sequence number and tells the server that it wants to start a connection."
     },
     {
         "id": 9,
@@ -240,7 +240,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The server replies with a SYN-ACK segment acknowledging the client's request and initiating its own synchronization."
+        "reason": "The server replies with a SYN-ACK segment acknowledging the client's request and initiating its own synchronization, which is the second step of the TCP 3-way handshake. The server includes its own initial sequence number and an acknowledgment number that is one greater than the client's sequence number."
     },
     {
         "id": 10,
@@ -267,7 +267,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP establishes a connection through SYN, SYN-ACK, and ACK exchanges."
+        "reason": "TCP establishes a connection through SYN, SYN-ACK, and ACK exchanges, commonly known as the 3-way handshake. This process ensures both hosts agree to communicate, initializes sequence numbers, and allocates buffer resources on both ends."
     },
     {
         "id": 11,
@@ -294,7 +294,7 @@
             }
         ],
         "answer": "A",
-        "reason": "TCP uses sequence numbers, acknowledgments, and retransmissions to ensure reliable delivery."
+        "reason": "TCP uses sequence numbers, acknowledgments, and retransmissions to ensure reliable delivery, guaranteeing that all sent data is received correctly. If a segment goes missing or arrives corrupted, the receiver's feedback prompts the sender to retransmit the lost data automatically."
     },
     {
         "id": 12,
@@ -321,7 +321,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The ACK flag indicates that the acknowledgment field contains a valid acknowledgment number."
+        "reason": "The ACK flag indicates that the acknowledgment field contains a valid acknowledgment number, confirming successful reception of data. In TCP segments, this flag is set for almost all packets sent after the initial connection establishment phase."
     },
     {
         "id": 13,
@@ -348,7 +348,7 @@
             }
         ],
         "answer": "A",
-        "reason": "TCP uses timers and acknowledgments to detect lost segments and trigger retransmissions."
+        "reason": "TCP uses timers and acknowledgments to detect lost segments and trigger retransmissions, maintaining connection reliability. If the sender does not receive an acknowledgment before the retransmission timeout (RTO) expires, it assumes the packet was lost and sends it again."
     },
     {
         "id": 14,
@@ -375,7 +375,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP uses a 4-way handshake process to gracefully close connections."
+        "reason": "TCP uses a 4-way handshake process to gracefully close connections, ensuring that both sender and receiver have finished transmitting data. Because TCP connections are full-duplex, each direction of the link must be terminated independently."
     },
     {
         "id": 15,
@@ -402,7 +402,7 @@
             }
         ],
         "answer": "C",
-        "reason": "A FIN flag indicates that a host has finished sending data and wants to close the connection."
+        "reason": "A FIN flag indicates that a host has finished sending data and wants to close the connection, initiating the termination phase. Even after sending a FIN, the host can still receive data from the other side until the entire 4-way handshake is complete."
     },
     {
         "id": 16,
@@ -429,7 +429,7 @@
             }
         ],
         "answer": "C",
-        "reason": "TCP connection termination normally uses FIN, ACK, FIN, and ACK segments."
+        "reason": "TCP connection termination normally uses FIN, ACK, FIN, and ACK segments to close the connection in both directions. This 4-step process allows each side of the full-duplex connection to shut down independently without losing remaining data."
     },
     {
         "id": 17,
@@ -456,7 +456,7 @@
             }
         ],
         "answer": "B",
-        "reason": "UDP stands for User Datagram Protocol."
+        "reason": "UDP stands for User Datagram Protocol, representing a simple, connectionless transport protocol in the TCP/IP stack. It provides a lightweight way to send messages without the reliability mechanisms and overhead of TCP."
     },
     {
         "id": 18,
@@ -483,7 +483,7 @@
             }
         ],
         "answer": "B",
-        "reason": "UDP transmits data without establishing a connection."
+        "reason": "UDP transmits data without establishing a connection, allowing it to send datagrams immediately without setup delay. This connectionless design makes it fast and efficient, but it does not guarantee packet delivery or correct ordering."
     },
     {
         "id": 19,
@@ -510,7 +510,7 @@
             }
         ],
         "answer": "C",
-        "reason": "UDP does not provide acknowledgments, retransmissions, or guaranteed delivery."
+        "reason": "UDP does not provide acknowledgments, retransmissions, or guaranteed delivery, leaving error recovery to the application layer if needed. It lacks flow control, congestion control, and ordering mechanisms, focusing entirely on low-latency transmission."
     },
     {
         "id": 20,
@@ -537,7 +537,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Real-time applications prefer UDP because speed is more important than perfect reliability."
+        "reason": "Real-time applications prefer UDP because speed and low latency are more important than perfect reliability. In applications like live video streaming or VoIP, losing an occasional packet is acceptable, whereas waiting for retransmissions would cause noticeable stuttering."
     },
     {
         "id": 21,
@@ -564,7 +564,7 @@
             }
         ],
         "answer": "B",
-        "reason": "UDP uses an 8-byte header, significantly smaller than TCP's minimum 20-byte header."
+        "reason": "UDP uses an 8-byte header, significantly smaller than TCP's minimum 20-byte header, which minimizes protocol overhead. This small header size reduces network bandwidth consumption, making UDP ideal for lightweight queries like DNS."
     },
     {
         "id": 22,
@@ -591,7 +591,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP ensures data arrives in sequence through sequence numbers and reordering mechanisms."
+        "reason": "TCP ensures data arrives in sequence through sequence numbers and reordering mechanisms, providing an ordered byte stream. UDP, on the other hand, does not track packet sequence, meaning packets can arrive out of order or be lost."
     },
     {
         "id": 23,
@@ -618,7 +618,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Online games often use UDP because low latency is more important than guaranteed delivery."
+        "reason": "Online games often use UDP because low latency is more important than guaranteed delivery. When gaming, real-time positional updates are time-sensitive, and waiting for TCP to retransmit a lost packet would cause lag, whereas games can easily ignore outdated packets."
     },
     {
         "id": 24,
@@ -645,7 +645,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Port numbers allow the Transport Layer to deliver data to the correct application."
+        "reason": "Port numbers allow the Transport Layer to deliver data to the correct application, acting as endpoint identifiers for process-to-process communication. They ensure that packets arriving at a specific IP address are directed to the appropriate web browser, email client, or database server."
     },
     {
         "id": 25,
@@ -672,7 +672,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Port numbers are 16-bit values ranging from 0 to 65535."
+        "reason": "Port numbers are 16-bit values ranging from 0 to 65535, providing a wide range of process addresses. This range is divided into well-known ports (0–1023), registered ports (1024–49151), and dynamic/ephemeral ports (49152–65535)."
     },
     {
         "id": 26,
@@ -699,7 +699,7 @@
             }
         ],
         "answer": "D",
-        "reason": "HTTP commonly uses TCP port 80."
+        "reason": "HTTP commonly uses TCP port 80 to establish unencrypted web connections between browsers and web servers. Although secure HTTPS has largely replaced it, port 80 remains the standard default for basic web traffic."
     },
     {
         "id": 27,
@@ -726,7 +726,7 @@
             }
         ],
         "answer": "A",
-        "reason": "HTTPS uses TCP port 443 for secure web communication."
+        "reason": "HTTPS uses TCP port 443 for secure web communication, wrapping HTTP traffic in SSL/TLS encryption. This ensures that web transactions, logins, and sensitive data are protected from interception during transmission."
     },
     {
         "id": 28,
@@ -753,7 +753,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Well-known ports are reserved for standard services and protocols."
+        "reason": "Well-known ports (0–1023) are reserved for standard services and protocols, managed by IANA. Examples include port 80 for HTTP, 443 for HTTPS, 22 for SSH, and 25 for SMTP, allowing clients to locate services easily."
     },
     {
         "id": 29,
@@ -780,7 +780,7 @@
             }
         ],
         "answer": "A",
-        "reason": "DNS commonly uses port 53 for both UDP and TCP communication."
+        "reason": "DNS commonly uses port 53 for both UDP and TCP communication, handling domain name queries and zone transfers. Most standard client queries use UDP port 53 for speed, while larger responses and zone transfers fall back to TCP."
     },
     {
         "id": 30,
@@ -807,7 +807,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Congestion occurs when network traffic exceeds the network's capacity to handle it."
+        "reason": "Congestion occurs when network traffic exceeds the network's capacity to handle it, causing routers to queue packets. If the buffers become full, routers are forced to drop packets, leading to delays and degraded network performance."
     },
     {
         "id": 31,
@@ -834,7 +834,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Congestion control mechanisms prevent excessive traffic from overwhelming the network."
+        "reason": "Congestion control mechanisms prevent excessive traffic from overwhelming the network, adapting transmission rates based on network feedback. Unlike flow control (which protects the receiver), congestion control protects the shared network infrastructure."
     },
     {
         "id": 32,
@@ -861,7 +861,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Leaky Bucket controls traffic flow by smoothing bursty traffic into a steady output rate."
+        "reason": "Leaky Bucket controls traffic flow by smoothing bursty traffic into a steady output rate, preventing traffic spikes from overwhelming the network. It buffers incoming packets and releases them at a constant rate, similar to water dripping from a small hole."
     },
     {
         "id": 33,
@@ -888,7 +888,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The Leaky Bucket algorithm releases packets at a fixed rate regardless of incoming traffic bursts."
+        "reason": "The Leaky Bucket algorithm releases packets at a fixed rate regardless of incoming traffic bursts, ensuring a predictable traffic pattern. While this provides a highly stable flow, it does not allow the sender to utilize idle capacity during bursts."
     },
     {
         "id": 34,
@@ -915,7 +915,7 @@
             }
         ],
         "answer": "B",
-        "reason": "When the bucket reaches capacity, additional incoming packets are dropped."
+        "reason": "When the bucket reaches capacity, additional incoming packets are dropped, enforcing a strict maximum rate. This buffer overflow prevents bursty traffic from flooding the network, although it can lead to packet loss for applications."
     },
     {
         "id": 35,
@@ -942,7 +942,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Tokens are generated and stored in a bucket, allowing packets to be transmitted when tokens are available."
+        "reason": "Tokens are generated and stored in a bucket, allowing packets to be transmitted when tokens are available. A packet must capture a token to be sent, and the token is discarded upon transmission."
     },
     {
         "id": 36,
@@ -969,7 +969,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Token Bucket permits bursts of traffic when sufficient tokens have accumulated."
+        "reason": "Token Bucket permits bursts of traffic when sufficient tokens have accumulated in the bucket, providing more flexibility than Leaky Bucket. This allows applications to transmit at higher speeds temporarily while still maintaining a long-term average rate."
     },
     {
         "id": 37,
@@ -996,7 +996,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Packets require tokens for transmission; otherwise they must wait or be dropped."
+        "reason": "Packets require tokens for transmission; otherwise they must wait in a queue or be dropped if the buffer is full. This mechanism limits the transmission rate to the rate at which tokens are added to the bucket."
     },
     {
         "id": 38,
@@ -1023,7 +1023,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Token Bucket allows accumulated tokens to be used for short bursts of high-rate transmission."
+        "reason": "Token Bucket allows accumulated tokens to be used for short bursts of high-rate transmission, making it ideal for bursty applications like web browsing and video streaming. It provides a better balance of throughput and control than the rigid Leaky Bucket."
     },
     {
         "id": 39,
@@ -1050,7 +1050,7 @@
             }
         ],
         "answer": "B",
-        "reason": "UDP has a smaller header and fewer control mechanisms than TCP."
+        "reason": "UDP has a smaller header and fewer control mechanisms than TCP, reducing transmission overhead. This makes it ideal for lightweight, query-based communications where the overhead of establishing a TCP connection is unnecessary."
     },
     {
         "id": 40,
@@ -1077,7 +1077,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP provides reliable, ordered, and error-checked delivery required for file transfers."
+        "reason": "TCP provides reliable, ordered, and error-checked delivery required for file transfers, ensuring that downloaded files are not corrupted. Protocols like FTP, HTTP, and SMTP rely on TCP to guarantee that every byte of data arrives intact."
     },
     {
         "id": 41,
@@ -1104,7 +1104,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Sequence numbers allow TCP to reorder segments correctly at the receiving end."
+        "reason": "Sequence numbers allow TCP to reorder segments correctly at the receiving end, ensuring that data is delivered to the application in the exact order it was sent. This is crucial because packets can take different routes through the IP network and arrive out of sequence."
     },
     {
         "id": 42,
@@ -1131,7 +1131,7 @@
             }
         ],
         "answer": "B",
-        "reason": "FTP control connections use TCP port 21, while data connections traditionally use port 20."
+        "reason": "FTP control connections use TCP port 21 to send commands and receive responses between the client and server. File data transmission, however, is handled separately using port 20 or dynamic ports."
     },
     {
         "id": 43,
@@ -1158,7 +1158,7 @@
             }
         ],
         "answer": "A",
-        "reason": "SMTP commonly uses TCP port 25 for email transmission."
+        "reason": "SMTP commonly uses TCP port 25 for email transmission between mail servers. Other ports, such as 587 and 465, are used for secure client submission, but port 25 remains the primary standard for relaying mail."
     },
     {
         "id": 44,
@@ -1185,7 +1185,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Traffic shaping smooths traffic flow and helps prevent congestion in networks."
+        "reason": "Traffic shaping smooths traffic flow and helps prevent congestion in networks, improving overall quality of service (QoS). By regulating the transmission rate using Leaky or Token Bucket algorithms, it prevents bursty traffic from overwhelming routers."
     },
     {
         "id": 45,
@@ -1212,7 +1212,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Live voice applications prioritize low latency over perfect reliability, making UDP the preferred choice."
+        "reason": "Live voice applications prioritize low latency over perfect reliability, making UDP the preferred choice. Retransmitting lost packets in a real-time call would introduce jitter and delay, whereas voice codecs can easily fill in gaps from lost packets."
     },
     {
         "id": 46,
@@ -1239,7 +1239,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The TCP/IP Transport Layer performs functions equivalent to the OSI Transport Layer, including end-to-end communication."
+        "reason": "The TCP/IP Transport Layer performs functions equivalent to the OSI Transport Layer, including end-to-end communication, flow control, and error detection. It sits above the Internet Layer and directly supports application protocols."
     },
     {
         "id": 47,
@@ -1266,7 +1266,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Sequence numbers and acknowledgments help TCP prevent duplicate delivery and maintain data integrity."
+        "reason": "Sequence numbers and acknowledgments help TCP prevent duplicate delivery and maintain data integrity. If a duplicate packet arrives due to network retransmission, the receiver identifies it by its sequence number and discards it."
     },
     {
         "id": 48,
@@ -1293,7 +1293,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The RST (Reset) flag is used to abruptly terminate or reject a TCP connection."
+        "reason": "The RST (Reset) flag is used to abruptly terminate or reject a TCP connection, bypassing the normal graceful 4-way shutdown. It is commonly sent when a host receives a packet that does not belong to any active session or is directed to a closed port."
     },
     {
         "id": 49,
@@ -1320,7 +1320,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The PSH (Push) flag requests immediate delivery of buffered data to the receiving application."
+        "reason": "The PSH (Push) flag requests immediate delivery of buffered data to the receiving application, bypassing default buffer queues. This is useful for interactive applications like Telnet and SSH, where keystrokes need to be transmitted and displayed instantly."
     },
     {
         "id": 50,
@@ -1347,7 +1347,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The TCP Window Size field is used for flow control and indicates the available receive buffer space."
+        "reason": "The TCP Window Size field is used for flow control and indicates the available receive buffer space in bytes. It tells the sender how much data it can transmit before waiting for an acknowledgment, preventing receiver buffer overflow."
     },
     {
         "id": 51,
@@ -1374,7 +1374,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The SYN flag consumes one sequence number, so the server acknowledges x+1."
+        "reason": "The SYN flag consumes one sequence number, so the server acknowledges x+1, confirming receipt of the synchronization request. This acknowledgment indicates that the server expects the client's next segment to start with sequence number x+1."
     },
     {
         "id": 52,
@@ -1401,7 +1401,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The handshake verifies both sides are ready and helps prevent confusion from delayed or duplicate connection requests."
+        "reason": "The handshake verifies both sides are ready and helps prevent confusion from delayed or duplicate connection requests. By requiring a three-step confirmation, it ensures that old, delayed packets from a terminated session do not accidentally open a new connection."
     },
     {
         "id": 53,
@@ -1428,7 +1428,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The receiving host acknowledges the FIN segment with an ACK."
+        "reason": "The receiving host acknowledges the FIN segment with an ACK, indicating that it has received the close request. The receiver then enters a close-wait state, allowing it to finish sending any remaining data before sending its own FIN segment."
     },
     {
         "id": 54,
@@ -1455,7 +1455,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP connections are full duplex, so each direction must be terminated independently."
+        "reason": "TCP connections are full duplex, so each direction must be terminated independently, requiring a 4-way handshake. One side closes its sending path by sending a FIN, which the other acknowledges, while the reverse path remains open until the second host also sends a FIN."
     },
     {
         "id": 55,
@@ -1482,7 +1482,7 @@
             }
         ],
         "answer": "C",
-        "reason": "UDP data units are known as datagrams."
+        "reason": "UDP data units are known as datagrams, representing independent packets that are routed across the network. Unlike TCP segments, which form a continuous stream, UDP datagrams maintain clear packet boundaries throughout transmission."
     },
     {
         "id": 56,
@@ -1509,7 +1509,7 @@
             }
         ],
         "answer": "C",
-        "reason": "UDP avoids complex reliability mechanisms, resulting in low overhead."
+        "reason": "UDP avoids complex reliability mechanisms, resulting in low overhead and fast transmission. It contains no connection establishment phase, sequence numbers, or windowing, prioritizing simplicity and speed over absolute reliability."
     },
     {
         "id": 57,
@@ -1536,7 +1536,7 @@
             }
         ],
         "answer": "B",
-        "reason": "DNS queries are typically sent using UDP port 53 for fast request-response communication."
+        "reason": "DNS queries are typically sent using UDP port 53 for fast request-response communication, avoiding the connection overhead of TCP. However, if a DNS response exceeds 512 bytes, the query is retried using TCP port 53."
     },
     {
         "id": 58,
@@ -1563,7 +1563,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Video conferencing prioritizes low latency over perfect reliability, making UDP preferable."
+        "reason": "Video conferencing prioritizes low latency over perfect reliability, making UDP preferable. In real-time video, a dropped frame is quickly replaced by the next frame, but waiting for TCP to retransmit the lost frame would cause video freeze and lag."
     },
     {
         "id": 59,
@@ -1590,7 +1590,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP detects packet loss through acknowledgments and retransmits missing segments."
+        "reason": "TCP detects packet loss through acknowledgments and retransmits missing segments, ensuring error-free end-to-end delivery. UDP, however, does not perform retransmissions, requiring the application to handle reliability if necessary."
     },
     {
         "id": 60,
@@ -1617,7 +1617,7 @@
             }
         ],
         "answer": "B",
-        "reason": "SSH uses TCP port 22 for secure remote login."
+        "reason": "SSH uses TCP port 22 for secure remote login, providing encrypted terminal sessions over the network. It replaced unencrypted protocols like Telnet, securing administrative traffic from interception."
     },
     {
         "id": 61,
@@ -1644,7 +1644,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Telnet commonly uses TCP port 23."
+        "reason": "Telnet commonly uses TCP port 23 for unencrypted remote command-line access. Because it transmits passwords and data in plain text, it has been largely replaced by SSH for security reasons."
     },
     {
         "id": 62,
@@ -1671,7 +1671,7 @@
             }
         ],
         "answer": "C",
-        "reason": "POP3 uses TCP port 110 for retrieving email from mail servers."
+        "reason": "POP3 uses TCP port 110 for retrieving email from mail servers, downloading messages to the local client. Secure POP3 (POP3S) uses port 995, but port 110 remains the standard unencrypted port."
     },
     {
         "id": 63,
@@ -1698,7 +1698,7 @@
             }
         ],
         "answer": "B",
-        "reason": "IMAP typically uses TCP port 143 for email access and management."
+        "reason": "IMAP typically uses TCP port 143 for email access and management, allowing users to synchronize messages across multiple devices. Unlike POP3, IMAP keeps messages on the server, using port 143 to manage folders and states."
     },
     {
         "id": 64,
@@ -1725,7 +1725,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Registered ports are commonly assigned to user applications and services."
+        "reason": "Registered ports (1024–49151) are assigned to user applications and services by IANA to prevent conflicts. Developers register their application ports (such as 3306 for MySQL or 1433 for MS SQL) within this range."
     },
     {
         "id": 65,
@@ -1752,7 +1752,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Dynamic or ephemeral ports are often assigned temporarily to client applications."
+        "reason": "Dynamic or ephemeral ports (49152–65535) are assigned temporarily to client applications by the host operating system. When a client initiates a connection, it is allocated a random port from this range as its source port."
     },
     {
         "id": 66,
@@ -1779,7 +1779,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Congestion causes queue buildup, packet drops, and increased transmission delays."
+        "reason": "Congestion causes queue buildup, packet drops, and increased transmission delays as routers struggle to handle excessive traffic. This degradation in network performance can lead to a collapse in throughput if left unmanaged."
     },
     {
         "id": 67,
@@ -1806,7 +1806,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Traffic shaping regulates traffic flow to reduce congestion and improve network performance."
+        "reason": "Traffic shaping regulates traffic flow to reduce congestion and improve network performance, matching transmission rates with link capacity. It delays packets in queues to enforce a desired bandwidth profile, smoothing out spikes."
     },
     {
         "id": 68,
@@ -1833,7 +1833,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The algorithm is modeled after water leaking from a bucket at a constant rate."
+        "reason": "The Leaky Bucket algorithm is modeled after water leaking from a bucket at a constant rate, smoothing out bursty traffic. No matter how fast water is poured into the bucket, it leaks out at the same steady speed."
     },
     {
         "id": 69,
@@ -1860,7 +1860,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Leaky Bucket enforces a constant output rate and therefore restricts burst traffic."
+        "reason": "Leaky Bucket enforces a constant output rate and therefore restricts burst traffic, which can be inefficient for applications that require high-speed bursts. It cannot utilize idle bandwidth to speed up transmission when the network is clear."
     },
     {
         "id": 70,
@@ -1887,7 +1887,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The bucket acts as a finite queue or buffer that stores arriving packets."
+        "reason": "The bucket acts as a finite queue or buffer that stores arriving packets, smoothing out their release. If the queue fills up, incoming packets are dropped, preventing the buffer from growing indefinitely."
     },
     {
         "id": 71,
@@ -1914,7 +1914,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Tokens continue to accumulate until the bucket reaches its maximum capacity."
+        "reason": "Tokens continue to accumulate in the bucket until it reaches its maximum capacity, storing credits for future transmissions. When the network is idle, the bucket fills with tokens, preparing for a future burst."
     },
     {
         "id": 72,
@@ -1941,7 +1941,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Tokens represent permission to transmit data."
+        "reason": "Tokens represent permission to transmit data, and each packet must consume a token to be sent. If the bucket is empty, packets must wait in a queue until new tokens are generated."
     },
     {
         "id": 73,
@@ -1968,7 +1968,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Token Bucket allows accumulated tokens to be spent on bursts of traffic."
+        "reason": "Token Bucket allows accumulated tokens to be spent on bursts of traffic, providing a more flexible traffic shaping method than Leaky Bucket. This allows applications to transmit data faster when bandwidth is available."
     },
     {
         "id": 74,
@@ -1995,7 +1995,7 @@
             }
         ],
         "answer": "A",
-        "reason": "The URG flag indicates that urgent data is present and should be processed promptly."
+        "reason": "The URG flag indicates that urgent data is present and should be processed promptly, pointing to a specific offset in the segment. It allows the receiver to process control commands (like interrupts) even if the normal TCP buffer is full."
     },
     {
         "id": 75,
@@ -2022,7 +2022,7 @@
             }
         ],
         "answer": "A",
-        "reason": "TCP flow control dynamically adjusts the amount of outstanding data through the sliding window mechanism."
+        "reason": "TCP flow control dynamically adjusts the amount of outstanding data through the sliding window mechanism, protecting the receiver's buffer. The receiver advertises its available buffer space, and the sender is restricted from sending more than this limit."
     },
     {
         "id": 76,
@@ -2049,7 +2049,7 @@
             }
         ],
         "answer": "A",
-        "reason": "DNS typically uses UDP because queries are small and benefit from reduced overhead."
+        "reason": "DNS typically uses UDP because queries are small and benefit from reduced overhead, avoiding connection establishment delays. A single request-response exchange is completed in a single round trip, maximizing lookup speed."
     },
     {
         "id": 77,
@@ -2076,7 +2076,7 @@
             }
         ],
         "answer": "B",
-        "reason": "UDP includes a checksum field that helps detect transmission errors."
+        "reason": "UDP includes a checksum field that helps detect transmission errors, providing a basic layer of data integrity verification. If the checksum verification fails at the receiver, the corrupted datagram is silently discarded."
     },
     {
         "id": 78,
@@ -2103,7 +2103,7 @@
             }
         ],
         "answer": "A",
-        "reason": "DHCP servers typically listen on UDP port 67."
+        "reason": "DHCP servers typically listen on UDP port 67 to receive configuration requests from client machines on the local network. This port assignment ensures that DHCP traffic is separated from other network communications."
     },
     {
         "id": 79,
@@ -2130,7 +2130,7 @@
             }
         ],
         "answer": "B",
-        "reason": "DHCP clients typically use UDP port 68."
+        "reason": "DHCP clients typically use UDP port 68 to receive IP configuration details from DHCP servers. By using distinct ports for servers (67) and clients (68), DHCP prevents routing loops and port conflicts on the local segment."
     },
     {
         "id": 80,
@@ -2157,7 +2157,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Token Bucket supports controlled bursts while maintaining an average transmission rate, making it more suitable for multimedia applications."
+        "reason": "Token Bucket supports controlled bursts while maintaining an average transmission rate, making it more suitable for multimedia applications. It allows real-time video streams to send larger frames (such as keyframes) without packet loss."
     },
     {
         "id": 81,
@@ -2184,7 +2184,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP prioritizes reliability through acknowledgments and retransmissions, while UDP prioritizes low latency and speed."
+        "reason": "TCP prioritizes reliability through acknowledgments and retransmissions, while UDP prioritizes low latency and speed. This fundamental trade-off makes TCP suitable for data transfers and UDP suitable for real-time media."
     },
     {
         "id": 82,
@@ -2211,7 +2211,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Transport Layer multiplexing allows multiple applications to share network resources using port numbers."
+        "reason": "Transport Layer multiplexing allows multiple applications to share network resources using port numbers, combining different data streams into a single connection. This enables a single host with a single IP address to run multiple network applications simultaneously."
     },
     {
         "id": 83,
@@ -2238,7 +2238,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Demultiplexing uses port numbers to deliver incoming data to the correct application process."
+        "reason": "Demultiplexing uses port numbers to deliver incoming data to the correct application process on the host. When a packet arrives, the OS examines the destination port and forwards the payload to the corresponding socket."
     },
     {
         "id": 84,
@@ -2265,7 +2265,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Sequence numbers enable TCP to reorder segments correctly before delivering them to the application."
+        "reason": "Sequence numbers enable TCP to reorder segments correctly before delivering them to the application, correcting any out-of-order delivery caused by routing changes. This provides a clean, sequential byte stream to the application layer."
     },
     {
         "id": 85,
@@ -2292,7 +2292,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Token Bucket is used for traffic shaping and congestion control, whereas OSPF, RIP, and BGP are routing protocols."
+        "reason": "Token Bucket is used for traffic shaping and congestion control, whereas OSPF, RIP, and BGP are routing protocols. This distinction highlights the difference between path calculation and rate regulation in network engineering."
     },
     {
         "id": 86,
@@ -2319,7 +2319,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP provides reliable connection-oriented communication, while UDP provides connectionless communication."
+        "reason": "TCP provides reliable connection-oriented communication, while UDP provides connectionless communication. This basic distinction determines which protocol developers select based on their application's requirements."
     },
     {
         "id": 87,
@@ -2346,7 +2346,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP commonly responds with a Reset (RST) segment when a connection is attempted on a closed port."
+        "reason": "TCP commonly responds with a Reset (RST) segment when a connection is attempted on a closed port, informing the client that no service is available. This immediately terminates the handshake attempt and prevents the client from waiting."
     },
     {
         "id": 88,
@@ -2373,7 +2373,7 @@
             }
         ],
         "answer": "B",
-        "reason": "The average transmission rate cannot exceed the token generation rate of 100 tokens per second."
+        "reason": "The average transmission rate cannot exceed the token generation rate of 100 tokens per second, which limits the long-term throughput. Even if the bucket is full, once the accumulated tokens are spent, the rate is restricted to the generation rate."
     },
     {
         "id": 89,
@@ -2400,7 +2400,7 @@
             }
         ],
         "answer": "B",
-        "reason": "When arrival rate exceeds the leak rate for a sustained period, the finite buffer fills and excess packets are dropped."
+        "reason": "When arrival rate exceeds the leak rate for a sustained period, the finite buffer fills and excess packets are dropped. This prevents the queue from growing indefinitely and consuming all router memory."
     },
     {
         "id": 90,
@@ -2427,7 +2427,7 @@
             }
         ],
         "answer": "A",
-        "reason": "Port addressing and multiplexing enable multiple application processes to share network connectivity simultaneously."
+        "reason": "Port addressing and multiplexing enable multiple application processes to share network connectivity simultaneously, keeping sessions separate. This allows a user to browse the web, read email, and stream music at the same time."
     },
     {
         "id": 91,
@@ -2454,7 +2454,7 @@
             }
         ],
         "answer": "C",
-        "reason": "After receiving a SYN request, the server responds with a SYN-ACK segment to acknowledge the client's request and synchronize sequence numbers."
+        "reason": "After receiving a SYN request, the server responds with a SYN-ACK segment to acknowledge the client's request and synchronize sequence numbers, which is the second step of the handshake. This segment contains the server's initial sequence number and an acknowledgment number."
     },
     {
         "id": 92,
@@ -2481,7 +2481,7 @@
             }
         ],
         "answer": "B",
-        "reason": "UDP provides no guarantees regarding delivery, ordering, or duplicate protection."
+        "reason": "UDP provides no guarantees regarding delivery, ordering, or duplicate protection, operating as a simple best-effort protocol. It sends packets directly to the destination without tracking their state or verifying arrival."
     },
     {
         "id": 93,
@@ -2508,7 +2508,7 @@
             }
         ],
         "answer": "B",
-        "reason": "HTTPS uses TCP port 443 to provide encrypted web communication using SSL/TLS."
+        "reason": "HTTPS uses TCP port 443 to provide encrypted web communication using SSL/TLS, securing transactions and sensitive data. Port 443 is the standard port for secure web browsers connecting to secure servers."
     },
     {
         "id": 94,
@@ -2535,7 +2535,7 @@
             }
         ],
         "answer": "B",
-        "reason": "TCP identifies connections using source IP, destination IP, source port, and destination port, allowing multiple simultaneous sessions."
+        "reason": "TCP identifies connections using source IP, destination IP, source port, and destination port, allowing multiple simultaneous sessions. This four-tuple (socket pair) uniquely identifies each active connection on the server."
     },
     {
         "id": 95,
@@ -2562,7 +2562,7 @@
             }
         ],
         "answer": "C",
-        "reason": "File downloads require reliable and complete data delivery, making TCP the preferred protocol."
+        "reason": "File downloads require reliable and complete data delivery, making TCP the preferred protocol. If even a single byte of a downloaded file is missing or out of order, the file may become corrupted and unusable."
     },
     {
         "id": 96,
@@ -2589,7 +2589,7 @@
             }
         ],
         "answer": "B",
-        "reason": "Token Bucket stores tokens when the network is idle, allowing future burst transmissions."
+        "reason": "Token Bucket stores tokens when the network is idle, allowing future burst transmissions. This credit-based accumulation enables the sender to transmit larger blocks of data when bandwidth becomes available."
     },
     {
         "id": 97,
@@ -2616,7 +2616,7 @@
             }
         ],
         "answer": "C",
-        "reason": "The Leaky Bucket algorithm smooths incoming bursty traffic into a steady output stream."
+        "reason": "The Leaky Bucket algorithm smooths incoming bursty traffic into a steady output stream, eliminating traffic spikes. This constant output rate protects downstream routers from congestion but can introduce delay."
     },
     {
         "id": 98,
@@ -2643,7 +2643,7 @@
             }
         ],
         "answer": "A",
-        "reason": "TCP flow control uses window advertisements to indicate how much data the receiver can currently accept."
+        "reason": "TCP flow control uses window advertisements to indicate how much data the receiver can currently accept, preventing buffer overflow. The sender dynamically adjusts its transmission window based on these updates."
     },
     {
         "id": 99,
@@ -2670,7 +2670,7 @@
             }
         ],
         "answer": "C",
-        "reason": "Trivial File Transfer Protocol (TFTP) uses UDP port 69 for lightweight file transfers."
+        "reason": "Trivial File Transfer Protocol (TFTP) uses UDP port 69 for lightweight file transfers. It is commonly used for booting diskless workstations or transferring configuration files."
     },
     {
         "id": 100,
@@ -2697,6 +2697,6 @@
             }
         ],
         "answer": "C",
-        "reason": "The Network Layer uses IP addresses to identify hosts, while the Transport Layer uses port numbers to identify application processes running on those hosts."
+        "reason": "The Network Layer uses IP addresses to identify hosts, while the Transport Layer uses port numbers to identify application processes running on those hosts. This division of labor separates host-to-host routing from process-to-process delivery."
     }
 ]

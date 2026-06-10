@@ -1,0 +1,2702 @@
+[
+  {
+    "id": 1,
+    "subject": "Customer Relationship Management",
+    "topic": "Evolution of CRM",
+    "difficulty": "easy",
+    "question": "What is the primary objective of Customer Relationship Management (CRM)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase production costs"
+      },
+      {
+        "key": "B",
+        "text": "Build and maintain long-term customer relationships"
+      },
+      {
+        "key": "C",
+        "text": "Reduce employee benefits"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate marketing activities"
+      }
+    ],
+    "answer": "B",
+    "reason": "CRM focuses on developing and maintaining long-term relationships with customers to improve satisfaction, loyalty, and profitability."
+  },
+  {
+    "id": 2,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Definition",
+    "difficulty": "easy",
+    "question": "CRM stands for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer Resource Management"
+      },
+      {
+        "key": "B",
+        "text": "Customer Relationship Management"
+      },
+      {
+        "key": "C",
+        "text": "Client Resource Marketing"
+      },
+      {
+        "key": "D",
+        "text": "Consumer Revenue Management"
+      }
+    ],
+    "answer": "B",
+    "reason": "CRM is the abbreviation for Customer Relationship Management."
+  },
+  {
+    "id": 3,
+    "subject": "Customer Relationship Management",
+    "topic": "Emergence of CRM Practice",
+    "difficulty": "medium",
+    "question": "CRM emerged mainly as a result of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Growing competition and customer expectations"
+      },
+      {
+        "key": "B",
+        "text": "Decline in technology"
+      },
+      {
+        "key": "C",
+        "text": "Reduction in market size"
+      },
+      {
+        "key": "D",
+        "text": "Decrease in customer awareness"
+      }
+    ],
+    "answer": "A",
+    "reason": "Organizations adopted CRM due to increasing competition and the need to meet rising customer expectations."
+  },
+  {
+    "id": 4,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Growth Factors",
+    "difficulty": "easy",
+    "question": "Which factor contributed significantly to CRM growth?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Advancement in information technology"
+      },
+      {
+        "key": "B",
+        "text": "Reduction in communication channels"
+      },
+      {
+        "key": "C",
+        "text": "Decrease in customer data"
+      },
+      {
+        "key": "D",
+        "text": "Elimination of databases"
+      }
+    ],
+    "answer": "A",
+    "reason": "Technological advancements enabled businesses to collect, store, and analyze customer data effectively."
+  },
+  {
+    "id": 5,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Process",
+    "difficulty": "medium",
+    "question": "The CRM process begins with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer acquisition"
+      },
+      {
+        "key": "B",
+        "text": "Customer identification"
+      },
+      {
+        "key": "C",
+        "text": "Customer retention"
+      },
+      {
+        "key": "D",
+        "text": "Customer feedback"
+      }
+    ],
+    "answer": "B",
+    "reason": "The first step in CRM is identifying and understanding customers."
+  },
+  {
+    "id": 6,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Framework",
+    "difficulty": "medium",
+    "question": "A CRM framework generally integrates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "People, processes, and technology"
+      },
+      {
+        "key": "B",
+        "text": "Machines only"
+      },
+      {
+        "key": "C",
+        "text": "Finance only"
+      },
+      {
+        "key": "D",
+        "text": "Production systems only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Successful CRM implementation requires coordination of people, business processes, and technology."
+  },
+  {
+    "id": 7,
+    "subject": "Customer Relationship Management",
+    "topic": "Benefits of CRM",
+    "difficulty": "easy",
+    "question": "Which of the following is a benefit of CRM?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower customer satisfaction"
+      },
+      {
+        "key": "B",
+        "text": "Improved customer retention"
+      },
+      {
+        "key": "C",
+        "text": "Reduced communication"
+      },
+      {
+        "key": "D",
+        "text": "Higher customer complaints"
+      }
+    ],
+    "answer": "B",
+    "reason": "CRM helps organizations retain customers by improving service quality and engagement."
+  },
+  {
+    "id": 8,
+    "subject": "Customer Relationship Management",
+    "topic": "Types of CRM",
+    "difficulty": "easy",
+    "question": "Which is a major type of CRM?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Operational CRM"
+      },
+      {
+        "key": "B",
+        "text": "Mechanical CRM"
+      },
+      {
+        "key": "C",
+        "text": "Financial CRM"
+      },
+      {
+        "key": "D",
+        "text": "Industrial CRM"
+      }
+    ],
+    "answer": "A",
+    "reason": "Operational CRM is one of the primary categories of CRM systems."
+  },
+  {
+    "id": 9,
+    "subject": "Customer Relationship Management",
+    "topic": "Types of CRM",
+    "difficulty": "medium",
+    "question": "Analytical CRM focuses on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer data analysis"
+      },
+      {
+        "key": "B",
+        "text": "Manufacturing products"
+      },
+      {
+        "key": "C",
+        "text": "Inventory control"
+      },
+      {
+        "key": "D",
+        "text": "Payroll processing"
+      }
+    ],
+    "answer": "A",
+    "reason": "Analytical CRM uses customer data to identify trends and support business decisions."
+  },
+  {
+    "id": 10,
+    "subject": "Customer Relationship Management",
+    "topic": "Types of CRM",
+    "difficulty": "medium",
+    "question": "Collaborative CRM mainly aims to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improve communication across channels"
+      },
+      {
+        "key": "B",
+        "text": "Reduce customer interaction"
+      },
+      {
+        "key": "C",
+        "text": "Increase production speed"
+      },
+      {
+        "key": "D",
+        "text": "Eliminate marketing campaigns"
+      }
+    ],
+    "answer": "A",
+    "reason": "Collaborative CRM enables better communication between customers and different departments."
+  },
+  {
+    "id": 11,
+    "subject": "Customer Relationship Management",
+    "topic": "Scope of CRM",
+    "difficulty": "easy",
+    "question": "The scope of CRM includes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Marketing, sales, and customer service"
+      },
+      {
+        "key": "B",
+        "text": "Production only"
+      },
+      {
+        "key": "C",
+        "text": "Accounting only"
+      },
+      {
+        "key": "D",
+        "text": "Recruitment only"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM covers customer-facing functions such as marketing, sales, and support."
+  },
+  {
+    "id": 12,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "medium",
+    "question": "Customer profitability refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Revenue generated minus the cost of serving the customer"
+      },
+      {
+        "key": "B",
+        "text": "Number of customers acquired"
+      },
+      {
+        "key": "C",
+        "text": "Customer age"
+      },
+      {
+        "key": "D",
+        "text": "Customer location"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer profitability measures the net value a customer brings to the organization."
+  },
+  {
+    "id": 13,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "medium",
+    "question": "Highly profitable customers are often called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Key customers"
+      },
+      {
+        "key": "B",
+        "text": "Inactive customers"
+      },
+      {
+        "key": "C",
+        "text": "Prospects"
+      },
+      {
+        "key": "D",
+        "text": "Vendors"
+      }
+    ],
+    "answer": "A",
+    "reason": "Key customers contribute significantly to organizational profits."
+  },
+  {
+    "id": 14,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Features",
+    "difficulty": "easy",
+    "question": "Which feature is commonly found in CRM software?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Contact management"
+      },
+      {
+        "key": "B",
+        "text": "Compiler design"
+      },
+      {
+        "key": "C",
+        "text": "Operating system scheduling"
+      },
+      {
+        "key": "D",
+        "text": "Database normalization only"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM systems commonly provide customer contact and interaction management."
+  },
+  {
+    "id": 15,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "medium",
+    "question": "Which technology is driving modern CRM trends?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Artificial Intelligence"
+      },
+      {
+        "key": "B",
+        "text": "Vacuum Tubes"
+      },
+      {
+        "key": "C",
+        "text": "Typewriters"
+      },
+      {
+        "key": "D",
+        "text": "Punch Cards"
+      }
+    ],
+    "answer": "A",
+    "reason": "AI is increasingly used in CRM for predictive analytics and personalized customer engagement."
+  },
+  {
+    "id": 16,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Cost-Benefit Analysis",
+    "difficulty": "medium",
+    "question": "Cost-benefit analysis in CRM helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Evaluate CRM investments"
+      },
+      {
+        "key": "B",
+        "text": "Increase taxes"
+      },
+      {
+        "key": "C",
+        "text": "Reduce employee training"
+      },
+      {
+        "key": "D",
+        "text": "Avoid customer feedback"
+      }
+    ],
+    "answer": "A",
+    "reason": "Cost-benefit analysis compares implementation costs with expected business benefits."
+  },
+  {
+    "id": 17,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "easy",
+    "question": "Relationship marketing emphasizes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Long-term customer engagement"
+      },
+      {
+        "key": "B",
+        "text": "One-time sales only"
+      },
+      {
+        "key": "C",
+        "text": "Production efficiency only"
+      },
+      {
+        "key": "D",
+        "text": "Warehouse management"
+      }
+    ],
+    "answer": "A",
+    "reason": "Relationship marketing focuses on building long-term customer loyalty."
+  },
+  {
+    "id": 18,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Growth Factors",
+    "difficulty": "easy",
+    "question": "Globalization increased the need for CRM because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Competition increased"
+      },
+      {
+        "key": "B",
+        "text": "Customers disappeared"
+      },
+      {
+        "key": "C",
+        "text": "Technology stopped evolving"
+      },
+      {
+        "key": "D",
+        "text": "Markets became smaller"
+      }
+    ],
+    "answer": "A",
+    "reason": "Global competition encouraged firms to focus on customer retention and satisfaction."
+  },
+  {
+    "id": 19,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Definition",
+    "difficulty": "medium",
+    "question": "CRM can best be described as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A business strategy centered on customers"
+      },
+      {
+        "key": "B",
+        "text": "A production planning tool"
+      },
+      {
+        "key": "C",
+        "text": "A payroll application"
+      },
+      {
+        "key": "D",
+        "text": "A networking protocol"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM is a customer-centric business strategy supported by processes and technology."
+  },
+  {
+    "id": 20,
+    "subject": "Customer Relationship Management",
+    "topic": "Benefits of CRM",
+    "difficulty": "easy",
+    "question": "CRM helps improve:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Machine wear"
+      },
+      {
+        "key": "C",
+        "text": "Power consumption"
+      },
+      {
+        "key": "D",
+        "text": "Data redundancy"
+      }
+    ],
+    "answer": "A",
+    "reason": "By understanding and serving customers better, CRM improves loyalty."
+  },
+  {
+    "id": 21,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Process",
+    "difficulty": "medium",
+    "question": "Customer retention is important because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Retaining customers is usually less costly than acquiring new ones"
+      },
+      {
+        "key": "B",
+        "text": "It eliminates marketing expenses completely"
+      },
+      {
+        "key": "C",
+        "text": "It reduces sales revenue"
+      },
+      {
+        "key": "D",
+        "text": "It removes competition"
+      }
+    ],
+    "answer": "A",
+    "reason": "Existing customers are generally cheaper to retain than acquiring new customers."
+  },
+  {
+    "id": 22,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Framework",
+    "difficulty": "medium",
+    "question": "Technology in CRM primarily supports:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Data collection and customer interaction management"
+      },
+      {
+        "key": "B",
+        "text": "Only manufacturing operations"
+      },
+      {
+        "key": "C",
+        "text": "Only accounting records"
+      },
+      {
+        "key": "D",
+        "text": "Only legal documentation"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM technologies manage customer information and interactions efficiently."
+  },
+  {
+    "id": 23,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Which metric is commonly used to estimate customer profitability over time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer Lifetime Value"
+      },
+      {
+        "key": "B",
+        "text": "Inventory Turnover"
+      },
+      {
+        "key": "C",
+        "text": "Current Ratio"
+      },
+      {
+        "key": "D",
+        "text": "Debt Ratio"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer Lifetime Value estimates the total profit expected from a customer relationship."
+  },
+  {
+    "id": 24,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Features",
+    "difficulty": "easy",
+    "question": "Sales force automation is a feature of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CRM systems"
+      },
+      {
+        "key": "B",
+        "text": "Operating systems"
+      },
+      {
+        "key": "C",
+        "text": "Compilers"
+      },
+      {
+        "key": "D",
+        "text": "Database engines only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Sales force automation is a common CRM capability."
+  },
+  {
+    "id": 25,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "medium",
+    "question": "Mobile CRM enables:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Access to customer data through mobile devices"
+      },
+      {
+        "key": "B",
+        "text": "Removal of customer databases"
+      },
+      {
+        "key": "C",
+        "text": "Offline-only customer management"
+      },
+      {
+        "key": "D",
+        "text": "Manufacturing automation"
+      }
+    ],
+    "answer": "A",
+    "reason": "Mobile CRM provides customer information access through smartphones and tablets."
+  },
+  {
+    "id": 26,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "medium",
+    "question": "Relationship marketing focuses more on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer retention"
+      },
+      {
+        "key": "B",
+        "text": "Mass production"
+      },
+      {
+        "key": "C",
+        "text": "Cost cutting only"
+      },
+      {
+        "key": "D",
+        "text": "Supplier replacement"
+      }
+    ],
+    "answer": "A",
+    "reason": "The goal is to maintain lasting customer relationships."
+  },
+  {
+    "id": 27,
+    "subject": "Customer Relationship Management",
+    "topic": "Scope of CRM",
+    "difficulty": "easy",
+    "question": "CRM is applicable to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Both products and services industries"
+      },
+      {
+        "key": "B",
+        "text": "Manufacturing only"
+      },
+      {
+        "key": "C",
+        "text": "Government only"
+      },
+      {
+        "key": "D",
+        "text": "Retail only"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM principles can be applied across multiple industries."
+  },
+  {
+    "id": 28,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Growth Factors",
+    "difficulty": "medium",
+    "question": "Database technology helped CRM growth by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Storing customer information efficiently"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer interactions"
+      },
+      {
+        "key": "C",
+        "text": "Increasing paperwork"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating customer records"
+      }
+    ],
+    "answer": "A",
+    "reason": "Databases make customer information storage and retrieval easier."
+  },
+  {
+    "id": 29,
+    "subject": "Customer Relationship Management",
+    "topic": "Benefits of CRM",
+    "difficulty": "easy",
+    "question": "CRM helps businesses understand:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer needs and preferences"
+      },
+      {
+        "key": "B",
+        "text": "Planetary motion"
+      },
+      {
+        "key": "C",
+        "text": "Compiler optimization"
+      },
+      {
+        "key": "D",
+        "text": "Circuit design"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer data allows organizations to understand customer behavior and preferences."
+  },
+  {
+    "id": 30,
+    "subject": "Customer Relationship Management",
+    "topic": "Types of CRM",
+    "difficulty": "medium",
+    "question": "Which CRM type is most useful for customer behavior prediction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Analytical CRM"
+      },
+      {
+        "key": "B",
+        "text": "Operational CRM"
+      },
+      {
+        "key": "C",
+        "text": "Collaborative CRM"
+      },
+      {
+        "key": "D",
+        "text": "Manual CRM"
+      }
+    ],
+    "answer": "A",
+    "reason": "Analytical CRM uses data analysis to predict customer behavior and trends."
+  },
+  {
+    "id": 31,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Cost-Benefit Analysis",
+    "difficulty": "medium",
+    "question": "What is the main purpose of conducting a CRM cost-benefit analysis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To compare implementation costs with expected benefits"
+      },
+      {
+        "key": "B",
+        "text": "To eliminate customer databases"
+      },
+      {
+        "key": "C",
+        "text": "To reduce employee salaries"
+      },
+      {
+        "key": "D",
+        "text": "To increase product inventory"
+      }
+    ],
+    "answer": "A",
+    "reason": "Cost-benefit analysis helps organizations determine whether the benefits of CRM justify its implementation and maintenance costs."
+  },
+  {
+    "id": 32,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Benefits",
+    "difficulty": "easy",
+    "question": "Which benefit of CRM directly contributes to increased revenue?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improved customer retention"
+      },
+      {
+        "key": "B",
+        "text": "Increased paperwork"
+      },
+      {
+        "key": "C",
+        "text": "Reduced customer communication"
+      },
+      {
+        "key": "D",
+        "text": "Higher employee turnover"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retained customers are more likely to make repeat purchases, increasing overall revenue."
+  },
+  {
+    "id": 33,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Framework",
+    "difficulty": "medium",
+    "question": "Which component of a CRM framework ensures customer information is utilized effectively?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Business processes"
+      },
+      {
+        "key": "B",
+        "text": "Office furniture"
+      },
+      {
+        "key": "C",
+        "text": "Building infrastructure"
+      },
+      {
+        "key": "D",
+        "text": "Packaging materials"
+      }
+    ],
+    "answer": "A",
+    "reason": "Business processes define how customer information is collected, analyzed, and acted upon."
+  },
+  {
+    "id": 34,
+    "subject": "Customer Relationship Management",
+    "topic": "Evolution of CRM",
+    "difficulty": "medium",
+    "question": "CRM evolved from which earlier business concept?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Relationship marketing"
+      },
+      {
+        "key": "B",
+        "text": "Mass production"
+      },
+      {
+        "key": "C",
+        "text": "Scientific management"
+      },
+      {
+        "key": "D",
+        "text": "Barter system"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM developed from relationship marketing principles that emphasize long-term customer engagement."
+  },
+  {
+    "id": 35,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Features",
+    "difficulty": "easy",
+    "question": "Which CRM feature helps track interactions with customers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Contact management"
+      },
+      {
+        "key": "B",
+        "text": "File compression"
+      },
+      {
+        "key": "C",
+        "text": "Disk partitioning"
+      },
+      {
+        "key": "D",
+        "text": "Memory allocation"
+      }
+    ],
+    "answer": "A",
+    "reason": "Contact management stores and tracks customer interactions and communication history."
+  },
+  {
+    "id": 36,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "A customer who generates high revenue but requires very high service costs may be:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Less profitable than expected"
+      },
+      {
+        "key": "B",
+        "text": "Always highly profitable"
+      },
+      {
+        "key": "C",
+        "text": "A prospect"
+      },
+      {
+        "key": "D",
+        "text": "A supplier"
+      }
+    ],
+    "answer": "A",
+    "reason": "Profitability depends on both revenue generated and the cost of serving the customer."
+  },
+  {
+    "id": 37,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "medium",
+    "question": "Social CRM primarily uses:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Social media platforms for customer engagement"
+      },
+      {
+        "key": "B",
+        "text": "Postal mail only"
+      },
+      {
+        "key": "C",
+        "text": "Manufacturing systems"
+      },
+      {
+        "key": "D",
+        "text": "Warehouse automation"
+      }
+    ],
+    "answer": "A",
+    "reason": "Social CRM integrates social media channels into customer relationship management strategies."
+  },
+  {
+    "id": 38,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "medium",
+    "question": "The success of relationship marketing is often measured by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Factory output"
+      },
+      {
+        "key": "C",
+        "text": "Machine utilization"
+      },
+      {
+        "key": "D",
+        "text": "Inventory levels"
+      }
+    ],
+    "answer": "A",
+    "reason": "Relationship marketing seeks to increase customer loyalty and long-term engagement."
+  },
+  {
+    "id": 39,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Process",
+    "difficulty": "medium",
+    "question": "Which CRM activity focuses on converting prospects into customers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer acquisition"
+      },
+      {
+        "key": "B",
+        "text": "Customer retention"
+      },
+      {
+        "key": "C",
+        "text": "Customer recovery"
+      },
+      {
+        "key": "D",
+        "text": "Customer auditing"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer acquisition involves attracting and converting potential customers into actual customers."
+  },
+  {
+    "id": 40,
+    "subject": "Customer Relationship Management",
+    "topic": "Scope of CRM",
+    "difficulty": "easy",
+    "question": "CRM supports organizations in managing relationships with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customers throughout their lifecycle"
+      },
+      {
+        "key": "B",
+        "text": "Machines only"
+      },
+      {
+        "key": "C",
+        "text": "Buildings only"
+      },
+      {
+        "key": "D",
+        "text": "Products only"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM manages customer interactions from acquisition to retention and loyalty."
+  },
+  {
+    "id": 41,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Growth Factors",
+    "difficulty": "medium",
+    "question": "The rise of e-commerce increased the need for CRM because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Businesses needed to manage online customer interactions"
+      },
+      {
+        "key": "B",
+        "text": "Customer data became unnecessary"
+      },
+      {
+        "key": "C",
+        "text": "Competition disappeared"
+      },
+      {
+        "key": "D",
+        "text": "Marketing became obsolete"
+      }
+    ],
+    "answer": "A",
+    "reason": "E-commerce created new channels for customer interaction, making CRM more important."
+  },
+  {
+    "id": 42,
+    "subject": "Customer Relationship Management",
+    "topic": "Types of CRM",
+    "difficulty": "medium",
+    "question": "Which CRM type is most closely associated with sales automation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Operational CRM"
+      },
+      {
+        "key": "B",
+        "text": "Analytical CRM"
+      },
+      {
+        "key": "C",
+        "text": "Collaborative CRM"
+      },
+      {
+        "key": "D",
+        "text": "Strategic CRM"
+      }
+    ],
+    "answer": "A",
+    "reason": "Operational CRM focuses on automating sales, marketing, and customer service activities."
+  },
+  {
+    "id": 43,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Benefits",
+    "difficulty": "easy",
+    "question": "CRM helps organizations provide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Personalized customer service"
+      },
+      {
+        "key": "B",
+        "text": "Random marketing messages"
+      },
+      {
+        "key": "C",
+        "text": "Reduced communication"
+      },
+      {
+        "key": "D",
+        "text": "Generic customer treatment only"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM enables organizations to understand customer preferences and offer personalized experiences."
+  },
+  {
+    "id": 44,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Customer Lifetime Value (CLV) is useful because it:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Estimates the long-term value of a customer relationship"
+      },
+      {
+        "key": "B",
+        "text": "Measures employee productivity"
+      },
+      {
+        "key": "C",
+        "text": "Calculates inventory turnover"
+      },
+      {
+        "key": "D",
+        "text": "Determines factory efficiency"
+      }
+    ],
+    "answer": "A",
+    "reason": "CLV estimates the total profit a customer may generate during the entire relationship with the company."
+  },
+  {
+    "id": 45,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Cost-Benefit Analysis",
+    "difficulty": "medium",
+    "question": "Which of the following is considered a benefit in CRM cost-benefit analysis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Higher customer satisfaction"
+      },
+      {
+        "key": "B",
+        "text": "Software licensing fees"
+      },
+      {
+        "key": "C",
+        "text": "Training expenses"
+      },
+      {
+        "key": "D",
+        "text": "Hardware purchase costs"
+      }
+    ],
+    "answer": "A",
+    "reason": "Higher customer satisfaction is a major benefit that can lead to loyalty and increased revenue."
+  },
+  {
+    "id": 46,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "medium",
+    "question": "Cloud-based CRM systems are popular because they offer:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remote accessibility and scalability"
+      },
+      {
+        "key": "B",
+        "text": "No internet requirement"
+      },
+      {
+        "key": "C",
+        "text": "Unlimited free hardware"
+      },
+      {
+        "key": "D",
+        "text": "Manual data entry only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Cloud CRM solutions provide flexible access and can easily scale with business needs."
+  },
+  {
+    "id": 47,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "easy",
+    "question": "Relationship marketing is primarily customer-oriented rather than:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Transaction-oriented"
+      },
+      {
+        "key": "B",
+        "text": "Service-oriented"
+      },
+      {
+        "key": "C",
+        "text": "Value-oriented"
+      },
+      {
+        "key": "D",
+        "text": "Quality-oriented"
+      }
+    ],
+    "answer": "A",
+    "reason": "Relationship marketing emphasizes long-term relationships instead of focusing only on individual transactions."
+  },
+  {
+    "id": 48,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Definition",
+    "difficulty": "medium",
+    "question": "CRM combines technology with business strategies to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Manage customer relationships effectively"
+      },
+      {
+        "key": "B",
+        "text": "Replace employees completely"
+      },
+      {
+        "key": "C",
+        "text": "Eliminate customer interaction"
+      },
+      {
+        "key": "D",
+        "text": "Reduce product quality"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM integrates technology and business processes to improve customer relationship management."
+  },
+  {
+    "id": 49,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Features",
+    "difficulty": "medium",
+    "question": "Lead management in CRM is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Track and manage potential customers"
+      },
+      {
+        "key": "B",
+        "text": "Monitor factory equipment"
+      },
+      {
+        "key": "C",
+        "text": "Control inventory levels"
+      },
+      {
+        "key": "D",
+        "text": "Manage employee attendance"
+      }
+    ],
+    "answer": "A",
+    "reason": "Lead management helps organizations track prospects and guide them through the sales process."
+  },
+  {
+    "id": 50,
+    "subject": "Customer Relationship Management",
+    "topic": "Evolution of CRM",
+    "difficulty": "hard",
+    "question": "The transition from product-centric to customer-centric business models is a key aspect of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The evolution of CRM"
+      },
+      {
+        "key": "B",
+        "text": "Inventory management"
+      },
+      {
+        "key": "C",
+        "text": "Supply chain logistics"
+      },
+      {
+        "key": "D",
+        "text": "Production scheduling"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM evolved as organizations shifted focus from products to customers and long-term relationships."
+  },
+  {
+    "id": 51,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Definition",
+    "difficulty": "easy",
+    "question": "CRM helps organizations create value by focusing on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer needs"
+      },
+      {
+        "key": "B",
+        "text": "Machine maintenance only"
+      },
+      {
+        "key": "C",
+        "text": "Building construction"
+      },
+      {
+        "key": "D",
+        "text": "Office decoration"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM focuses on understanding and satisfying customer needs to create long-term value."
+  },
+  {
+    "id": 52,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Growth Factors",
+    "difficulty": "medium",
+    "question": "Which factor encouraged organizations to collect detailed customer information?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Need for personalized services"
+      },
+      {
+        "key": "B",
+        "text": "Reduction in competition"
+      },
+      {
+        "key": "C",
+        "text": "Decrease in technology use"
+      },
+      {
+        "key": "D",
+        "text": "Elimination of customer feedback"
+      }
+    ],
+    "answer": "A",
+    "reason": "Personalization requires businesses to understand customers through detailed information."
+  },
+  {
+    "id": 53,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Process",
+    "difficulty": "medium",
+    "question": "Which CRM process stage focuses on keeping existing customers satisfied?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer retention"
+      },
+      {
+        "key": "B",
+        "text": "Customer acquisition"
+      },
+      {
+        "key": "C",
+        "text": "Customer prospecting"
+      },
+      {
+        "key": "D",
+        "text": "Customer segmentation"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer retention aims to maintain relationships and reduce customer churn."
+  },
+  {
+    "id": 54,
+    "subject": "Customer Relationship Management",
+    "topic": "Benefits of CRM",
+    "difficulty": "easy",
+    "question": "CRM can improve decision-making by providing:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accurate customer information"
+      },
+      {
+        "key": "B",
+        "text": "Random guesses"
+      },
+      {
+        "key": "C",
+        "text": "Outdated records only"
+      },
+      {
+        "key": "D",
+        "text": "Unverified assumptions"
+      }
+    ],
+    "answer": "A",
+    "reason": "Reliable customer data helps managers make informed business decisions."
+  },
+  {
+    "id": 55,
+    "subject": "Customer Relationship Management",
+    "topic": "Types of CRM",
+    "difficulty": "easy",
+    "question": "Which CRM type helps automate customer-facing business processes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Operational CRM"
+      },
+      {
+        "key": "B",
+        "text": "Analytical CRM"
+      },
+      {
+        "key": "C",
+        "text": "Collaborative CRM"
+      },
+      {
+        "key": "D",
+        "text": "Strategic CRM"
+      }
+    ],
+    "answer": "A",
+    "reason": "Operational CRM automates sales, marketing, and service processes."
+  },
+  {
+    "id": 56,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "medium",
+    "question": "A profitable customer is one who:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Generates more revenue than the cost of serving them"
+      },
+      {
+        "key": "B",
+        "text": "Makes a single purchase only"
+      },
+      {
+        "key": "C",
+        "text": "Contacts customer support frequently"
+      },
+      {
+        "key": "D",
+        "text": "Uses discounts exclusively"
+      }
+    ],
+    "answer": "A",
+    "reason": "Profitability is determined by the balance between revenue and service costs."
+  },
+  {
+    "id": 57,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Features",
+    "difficulty": "easy",
+    "question": "Which feature helps manage customer complaints and service requests?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer service management"
+      },
+      {
+        "key": "B",
+        "text": "Payroll management"
+      },
+      {
+        "key": "C",
+        "text": "Compiler optimization"
+      },
+      {
+        "key": "D",
+        "text": "Disk scheduling"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer service management helps resolve issues and improve customer satisfaction."
+  },
+  {
+    "id": 58,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "medium",
+    "question": "Predictive analytics in CRM is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Forecast customer behavior"
+      },
+      {
+        "key": "B",
+        "text": "Manufacture products"
+      },
+      {
+        "key": "C",
+        "text": "Design buildings"
+      },
+      {
+        "key": "D",
+        "text": "Manage electricity consumption"
+      }
+    ],
+    "answer": "A",
+    "reason": "Predictive analytics analyzes historical data to anticipate future customer actions."
+  },
+  {
+    "id": 59,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "easy",
+    "question": "Relationship marketing seeks to maximize:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Product defects"
+      },
+      {
+        "key": "C",
+        "text": "Employee absenteeism"
+      },
+      {
+        "key": "D",
+        "text": "Production downtime"
+      }
+    ],
+    "answer": "A",
+    "reason": "Long-term loyalty is a key objective of relationship marketing."
+  },
+  {
+    "id": 60,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Framework",
+    "difficulty": "medium",
+    "question": "A customer-centric culture is an important element of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "CRM framework"
+      },
+      {
+        "key": "B",
+        "text": "Production planning"
+      },
+      {
+        "key": "C",
+        "text": "Inventory control"
+      },
+      {
+        "key": "D",
+        "text": "Cost accounting"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM frameworks require a customer-focused organizational culture."
+  },
+  {
+    "id": 61,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Cost-Benefit Analysis",
+    "difficulty": "medium",
+    "question": "Employee training costs in CRM implementation are classified as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Costs"
+      },
+      {
+        "key": "B",
+        "text": "Benefits"
+      },
+      {
+        "key": "C",
+        "text": "Profits"
+      },
+      {
+        "key": "D",
+        "text": "Assets"
+      }
+    ],
+    "answer": "A",
+    "reason": "Training expenses are implementation costs that must be considered."
+  },
+  {
+    "id": 62,
+    "subject": "Customer Relationship Management",
+    "topic": "Scope of CRM",
+    "difficulty": "easy",
+    "question": "CRM supports communication through:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Multiple customer touchpoints"
+      },
+      {
+        "key": "B",
+        "text": "Only telephone calls"
+      },
+      {
+        "key": "C",
+        "text": "Only face-to-face meetings"
+      },
+      {
+        "key": "D",
+        "text": "Only postal mail"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM integrates multiple channels such as email, phone, web, and social media."
+  },
+  {
+    "id": 63,
+    "subject": "Customer Relationship Management",
+    "topic": "Evolution of CRM",
+    "difficulty": "medium",
+    "question": "Early CRM systems were mainly focused on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer data storage and sales support"
+      },
+      {
+        "key": "B",
+        "text": "Artificial intelligence"
+      },
+      {
+        "key": "C",
+        "text": "Cloud computing"
+      },
+      {
+        "key": "D",
+        "text": "Blockchain technology"
+      }
+    ],
+    "answer": "A",
+    "reason": "Initial CRM systems primarily stored customer information and supported sales activities."
+  },
+  {
+    "id": 64,
+    "subject": "Customer Relationship Management",
+    "topic": "Benefits of CRM",
+    "difficulty": "medium",
+    "question": "A major strategic benefit of CRM is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Competitive advantage"
+      },
+      {
+        "key": "B",
+        "text": "Increased paperwork"
+      },
+      {
+        "key": "C",
+        "text": "Reduced communication"
+      },
+      {
+        "key": "D",
+        "text": "Higher operating complexity"
+      }
+    ],
+    "answer": "A",
+    "reason": "Strong customer relationships can provide a sustainable competitive advantage."
+  },
+  {
+    "id": 65,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Features",
+    "difficulty": "medium",
+    "question": "Campaign management in CRM is associated with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Marketing activities"
+      },
+      {
+        "key": "B",
+        "text": "Accounting operations"
+      },
+      {
+        "key": "C",
+        "text": "Inventory counting"
+      },
+      {
+        "key": "D",
+        "text": "Machine servicing"
+      }
+    ],
+    "answer": "A",
+    "reason": "Campaign management helps plan, execute, and evaluate marketing campaigns."
+  },
+  {
+    "id": 66,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "medium",
+    "question": "Which trend allows CRM systems to provide personalized recommendations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Artificial Intelligence"
+      },
+      {
+        "key": "B",
+        "text": "Manual record keeping"
+      },
+      {
+        "key": "C",
+        "text": "Paper filing systems"
+      },
+      {
+        "key": "D",
+        "text": "Mechanical calculators"
+      }
+    ],
+    "answer": "A",
+    "reason": "AI analyzes customer data and generates personalized suggestions."
+  },
+  {
+    "id": 67,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Which customer group should receive special retention efforts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "High-value profitable customers"
+      },
+      {
+        "key": "B",
+        "text": "One-time visitors only"
+      },
+      {
+        "key": "C",
+        "text": "Unprofitable customers exclusively"
+      },
+      {
+        "key": "D",
+        "text": "Inactive leads only"
+      }
+    ],
+    "answer": "A",
+    "reason": "Retaining profitable customers provides greater long-term returns."
+  },
+  {
+    "id": 68,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "medium",
+    "question": "Trust is considered a key component of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Relationship marketing"
+      },
+      {
+        "key": "B",
+        "text": "Mass production"
+      },
+      {
+        "key": "C",
+        "text": "Inventory management"
+      },
+      {
+        "key": "D",
+        "text": "Financial auditing"
+      }
+    ],
+    "answer": "A",
+    "reason": "Trust helps build lasting and mutually beneficial customer relationships."
+  },
+  {
+    "id": 69,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Process",
+    "difficulty": "medium",
+    "question": "Customer segmentation involves:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Grouping customers based on similar characteristics"
+      },
+      {
+        "key": "B",
+        "text": "Deleting customer records"
+      },
+      {
+        "key": "C",
+        "text": "Reducing product quality"
+      },
+      {
+        "key": "D",
+        "text": "Closing customer accounts"
+      }
+    ],
+    "answer": "A",
+    "reason": "Segmentation allows businesses to target customer groups more effectively."
+  },
+  {
+    "id": 70,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Definition",
+    "difficulty": "easy",
+    "question": "CRM is primarily concerned with managing:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer interactions"
+      },
+      {
+        "key": "B",
+        "text": "Machine operations"
+      },
+      {
+        "key": "C",
+        "text": "Building construction"
+      },
+      {
+        "key": "D",
+        "text": "Electric power generation"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM focuses on managing interactions and relationships with customers."
+  },
+  {
+    "id": 71,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Framework",
+    "difficulty": "hard",
+    "question": "The integration of customer information across departments improves:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer experience"
+      },
+      {
+        "key": "B",
+        "text": "Data duplication"
+      },
+      {
+        "key": "C",
+        "text": "Operational confusion"
+      },
+      {
+        "key": "D",
+        "text": "Information silos"
+      }
+    ],
+    "answer": "A",
+    "reason": "Integrated customer information enables consistent and efficient service."
+  },
+  {
+    "id": 72,
+    "subject": "Customer Relationship Management",
+    "topic": "Types of CRM",
+    "difficulty": "medium",
+    "question": "Collaborative CRM facilitates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Information sharing among departments"
+      },
+      {
+        "key": "B",
+        "text": "Product manufacturing"
+      },
+      {
+        "key": "C",
+        "text": "Tax calculation"
+      },
+      {
+        "key": "D",
+        "text": "Payroll generation"
+      }
+    ],
+    "answer": "A",
+    "reason": "Collaborative CRM promotes communication and information sharing."
+  },
+  {
+    "id": 73,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Benefits",
+    "difficulty": "easy",
+    "question": "CRM can help increase sales through:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Better customer understanding"
+      },
+      {
+        "key": "B",
+        "text": "Ignoring customer feedback"
+      },
+      {
+        "key": "C",
+        "text": "Reducing communication channels"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating customer support"
+      }
+    ],
+    "answer": "A",
+    "reason": "Understanding customer preferences enables effective selling opportunities."
+  },
+  {
+    "id": 74,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "medium",
+    "question": "Which technology allows CRM access from anywhere with internet connectivity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cloud Computing"
+      },
+      {
+        "key": "B",
+        "text": "Typewriters"
+      },
+      {
+        "key": "C",
+        "text": "Paper records"
+      },
+      {
+        "key": "D",
+        "text": "Manual ledgers"
+      }
+    ],
+    "answer": "A",
+    "reason": "Cloud-based CRM systems provide remote access through the internet."
+  },
+  {
+    "id": 75,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "medium",
+    "question": "Customer commitment in relationship marketing refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A willingness to maintain a long-term relationship"
+      },
+      {
+        "key": "B",
+        "text": "A one-time transaction"
+      },
+      {
+        "key": "C",
+        "text": "A marketing campaign"
+      },
+      {
+        "key": "D",
+        "text": "A sales report"
+      }
+    ],
+    "answer": "A",
+    "reason": "Commitment reflects the desire to continue a valuable relationship over time."
+  },
+  {
+    "id": 76,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Cross-selling can improve customer profitability by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increasing revenue from existing customers"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer interaction"
+      },
+      {
+        "key": "C",
+        "text": "Eliminating customer support"
+      },
+      {
+        "key": "D",
+        "text": "Reducing product variety"
+      }
+    ],
+    "answer": "A",
+    "reason": "Cross-selling encourages customers to purchase additional products or services."
+  },
+  {
+    "id": 77,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Cost-Benefit Analysis",
+    "difficulty": "medium",
+    "question": "Reduced customer churn is considered a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Benefit of CRM"
+      },
+      {
+        "key": "B",
+        "text": "Cost of CRM"
+      },
+      {
+        "key": "C",
+        "text": "Liability"
+      },
+      {
+        "key": "D",
+        "text": "Fixed expense"
+      }
+    ],
+    "answer": "A",
+    "reason": "Reducing customer churn improves retention and profitability."
+  },
+  {
+    "id": 78,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Features",
+    "difficulty": "easy",
+    "question": "A CRM dashboard is mainly used for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monitoring key customer-related metrics"
+      },
+      {
+        "key": "B",
+        "text": "Writing operating systems"
+      },
+      {
+        "key": "C",
+        "text": "Designing hardware"
+      },
+      {
+        "key": "D",
+        "text": "Manufacturing products"
+      }
+    ],
+    "answer": "A",
+    "reason": "Dashboards provide visual summaries of important CRM data and performance indicators."
+  },
+  {
+    "id": 79,
+    "subject": "Customer Relationship Management",
+    "topic": "Scope of CRM",
+    "difficulty": "medium",
+    "question": "CRM contributes to business growth by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Strengthening customer relationships"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer engagement"
+      },
+      {
+        "key": "C",
+        "text": "Ignoring market demands"
+      },
+      {
+        "key": "D",
+        "text": "Eliminating feedback systems"
+      }
+    ],
+    "answer": "A",
+    "reason": "Strong relationships increase loyalty, retention, and business opportunities."
+  },
+  {
+    "id": 80,
+    "subject": "Customer Relationship Management",
+    "topic": "Evolution of CRM",
+    "difficulty": "hard",
+    "question": "Modern CRM systems differ from traditional customer databases because they:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Support strategic customer relationship management"
+      },
+      {
+        "key": "B",
+        "text": "Store names only"
+      },
+      {
+        "key": "C",
+        "text": "Eliminate customer communication"
+      },
+      {
+        "key": "D",
+        "text": "Focus only on transactions"
+      }
+    ],
+    "answer": "A",
+    "reason": "Modern CRM systems integrate strategy, analytics, communication, and customer engagement."
+  },
+  {
+    "id": 81,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Process",
+    "difficulty": "medium",
+    "question": "Customer feedback is important because it helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improve products and services"
+      },
+      {
+        "key": "B",
+        "text": "Reduce communication"
+      },
+      {
+        "key": "C",
+        "text": "Ignore customer needs"
+      },
+      {
+        "key": "D",
+        "text": "Increase operational errors"
+      }
+    ],
+    "answer": "A",
+    "reason": "Feedback provides valuable insights into customer expectations and satisfaction."
+  },
+  {
+    "id": 82,
+    "subject": "Customer Relationship Management",
+    "topic": "Benefits of CRM",
+    "difficulty": "medium",
+    "question": "One benefit of CRM is improved forecasting of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sales and customer demand"
+      },
+      {
+        "key": "B",
+        "text": "Weather conditions"
+      },
+      {
+        "key": "C",
+        "text": "Population growth"
+      },
+      {
+        "key": "D",
+        "text": "Earthquakes"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM data helps businesses forecast future sales and customer requirements."
+  },
+  {
+    "id": 83,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "hard",
+    "question": "Omnichannel CRM aims to provide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A seamless customer experience across channels"
+      },
+      {
+        "key": "B",
+        "text": "Different experiences on every channel"
+      },
+      {
+        "key": "C",
+        "text": "Only offline communication"
+      },
+      {
+        "key": "D",
+        "text": "Only social media support"
+      }
+    ],
+    "answer": "A",
+    "reason": "Omnichannel CRM integrates customer interactions across multiple communication channels."
+  },
+  {
+    "id": 84,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Upselling contributes to customer profitability by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Encouraging customers to purchase higher-value products"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer purchases"
+      },
+      {
+        "key": "C",
+        "text": "Increasing service complaints"
+      },
+      {
+        "key": "D",
+        "text": "Lowering sales revenue"
+      }
+    ],
+    "answer": "A",
+    "reason": "Upselling increases the value of customer transactions and overall profitability."
+  },
+  {
+    "id": 85,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "medium",
+    "question": "Which factor is most essential for maintaining long-term customer relationships?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer satisfaction"
+      },
+      {
+        "key": "B",
+        "text": "Frequent price increases"
+      },
+      {
+        "key": "C",
+        "text": "Limited communication"
+      },
+      {
+        "key": "D",
+        "text": "Reduced service quality"
+      }
+    ],
+    "answer": "A",
+    "reason": "Satisfied customers are more likely to remain loyal and continue the relationship."
+  },
+  {
+    "id": 86,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Definition",
+    "difficulty": "easy",
+    "question": "CRM systems help organizations maintain a complete record of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customer interactions and transactions"
+      },
+      {
+        "key": "B",
+        "text": "Machine repairs only"
+      },
+      {
+        "key": "C",
+        "text": "Building maintenance schedules"
+      },
+      {
+        "key": "D",
+        "text": "Factory layouts"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM maintains comprehensive customer histories for better relationship management."
+  },
+  {
+    "id": 87,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Framework",
+    "difficulty": "medium",
+    "question": "Successful CRM implementation requires alignment between:",
+    "options": [
+      {
+        "key": "A",
+        "text": "People, processes, and technology"
+      },
+      {
+        "key": "B",
+        "text": "Machines and buildings only"
+      },
+      {
+        "key": "C",
+        "text": "Inventory and warehouses only"
+      },
+      {
+        "key": "D",
+        "text": "Suppliers and competitors only"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM succeeds when people, business processes, and technology work together effectively."
+  },
+  {
+    "id": 88,
+    "subject": "Customer Relationship Management",
+    "topic": "Scope of CRM",
+    "difficulty": "medium",
+    "question": "CRM supports customer relationship activities before, during, and after:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The sale"
+      },
+      {
+        "key": "B",
+        "text": "Manufacturing"
+      },
+      {
+        "key": "C",
+        "text": "Recruitment"
+      },
+      {
+        "key": "D",
+        "text": "Auditing"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM covers the entire customer lifecycle, including pre-sale and post-sale activities."
+  },
+  {
+    "id": 89,
+    "subject": "Customer Relationship Management",
+    "topic": "Types of CRM",
+    "difficulty": "hard",
+    "question": "Which CRM type is most useful for identifying customer buying patterns?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Analytical CRM"
+      },
+      {
+        "key": "B",
+        "text": "Operational CRM"
+      },
+      {
+        "key": "C",
+        "text": "Collaborative CRM"
+      },
+      {
+        "key": "D",
+        "text": "Manual CRM"
+      }
+    ],
+    "answer": "A",
+    "reason": "Analytical CRM uses customer data analysis to identify trends and purchasing behavior."
+  },
+  {
+    "id": 90,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Benefits",
+    "difficulty": "medium",
+    "question": "An organization using CRM effectively is most likely to achieve:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Higher customer satisfaction and loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Lower customer engagement"
+      },
+      {
+        "key": "C",
+        "text": "Increased customer complaints"
+      },
+      {
+        "key": "D",
+        "text": "Reduced customer knowledge"
+      }
+    ],
+    "answer": "A",
+    "reason": "Effective CRM improves service quality, satisfaction, retention, and customer loyalty."
+  },
+  {
+    "id": 91,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Cost-Benefit Analysis",
+    "difficulty": "hard",
+    "question": "A positive CRM cost-benefit analysis indicates that:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expected benefits exceed implementation costs"
+      },
+      {
+        "key": "B",
+        "text": "Costs exceed benefits"
+      },
+      {
+        "key": "C",
+        "text": "No benefits exist"
+      },
+      {
+        "key": "D",
+        "text": "CRM should be abandoned immediately"
+      }
+    ],
+    "answer": "A",
+    "reason": "A positive analysis shows that the value generated by CRM outweighs its costs."
+  },
+  {
+    "id": 92,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "hard",
+    "question": "Real-time CRM analytics allows organizations to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Respond quickly to customer behavior and events"
+      },
+      {
+        "key": "B",
+        "text": "Ignore customer interactions"
+      },
+      {
+        "key": "C",
+        "text": "Eliminate customer data collection"
+      },
+      {
+        "key": "D",
+        "text": "Replace all employees"
+      }
+    ],
+    "answer": "A",
+    "reason": "Real-time analytics enables timely decisions based on current customer activity."
+  },
+  {
+    "id": 93,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "hard",
+    "question": "The ultimate goal of relationship marketing is to create:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mutually beneficial long-term relationships"
+      },
+      {
+        "key": "B",
+        "text": "Short-term sales only"
+      },
+      {
+        "key": "C",
+        "text": "Frequent customer switching"
+      },
+      {
+        "key": "D",
+        "text": "Market instability"
+      }
+    ],
+    "answer": "A",
+    "reason": "Relationship marketing aims to create lasting value for both customers and organizations."
+  },
+  {
+    "id": 94,
+    "subject": "Customer Relationship Management",
+    "topic": "Evolution of CRM",
+    "difficulty": "medium",
+    "question": "The shift toward customer-centric strategies occurred because businesses realized:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Customers are valuable long-term assets"
+      },
+      {
+        "key": "B",
+        "text": "Products sell themselves"
+      },
+      {
+        "key": "C",
+        "text": "Competition no longer matters"
+      },
+      {
+        "key": "D",
+        "text": "Marketing is unnecessary"
+      }
+    ],
+    "answer": "A",
+    "reason": "Businesses recognized that retaining customers creates sustainable profitability."
+  },
+  {
+    "id": 95,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Features",
+    "difficulty": "medium",
+    "question": "Workflow automation in CRM helps organizations:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reduce repetitive manual tasks"
+      },
+      {
+        "key": "B",
+        "text": "Increase paperwork"
+      },
+      {
+        "key": "C",
+        "text": "Remove customer records"
+      },
+      {
+        "key": "D",
+        "text": "Avoid customer communication"
+      }
+    ],
+    "answer": "A",
+    "reason": "Automation improves efficiency by reducing manual effort in routine CRM activities."
+  },
+  {
+    "id": 96,
+    "subject": "Customer Relationship Management",
+    "topic": "Customer Profitability",
+    "difficulty": "hard",
+    "question": "Which strategy focuses on increasing revenue from existing customers through complementary products?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cross-selling"
+      },
+      {
+        "key": "B",
+        "text": "Downsizing"
+      },
+      {
+        "key": "C",
+        "text": "Outsourcing"
+      },
+      {
+        "key": "D",
+        "text": "Benchmarking"
+      }
+    ],
+    "answer": "A",
+    "reason": "Cross-selling encourages customers to purchase related products or services, increasing customer profitability."
+  },
+  {
+    "id": 97,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Process",
+    "difficulty": "medium",
+    "question": "Customer churn refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The loss of existing customers"
+      },
+      {
+        "key": "B",
+        "text": "The acquisition of new customers"
+      },
+      {
+        "key": "C",
+        "text": "Customer segmentation"
+      },
+      {
+        "key": "D",
+        "text": "Product customization"
+      }
+    ],
+    "answer": "A",
+    "reason": "Customer churn is the rate at which customers stop doing business with an organization."
+  },
+  {
+    "id": 98,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Trends",
+    "difficulty": "hard",
+    "question": "Big Data enhances CRM by enabling organizations to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Analyze large volumes of customer information"
+      },
+      {
+        "key": "B",
+        "text": "Reduce customer knowledge"
+      },
+      {
+        "key": "C",
+        "text": "Eliminate data collection"
+      },
+      {
+        "key": "D",
+        "text": "Avoid market research"
+      }
+    ],
+    "answer": "A",
+    "reason": "Big Data technologies help organizations process and analyze large customer datasets for better decision-making."
+  },
+  {
+    "id": 99,
+    "subject": "Customer Relationship Management",
+    "topic": "CRM Benefits",
+    "difficulty": "medium",
+    "question": "A well-implemented CRM system helps improve customer satisfaction by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Providing faster and more personalized service"
+      },
+      {
+        "key": "B",
+        "text": "Reducing customer interaction"
+      },
+      {
+        "key": "C",
+        "text": "Increasing response delays"
+      },
+      {
+        "key": "D",
+        "text": "Limiting communication channels"
+      }
+    ],
+    "answer": "A",
+    "reason": "CRM systems provide customer insights that enable timely and personalized support."
+  },
+  {
+    "id": 100,
+    "subject": "Customer Relationship Management",
+    "topic": "Relationship Marketing",
+    "difficulty": "hard",
+    "question": "Which of the following best reflects the philosophy of relationship marketing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Building long-term customer value and loyalty"
+      },
+      {
+        "key": "B",
+        "text": "Focusing only on one-time sales transactions"
+      },
+      {
+        "key": "C",
+        "text": "Maximizing short-term profits regardless of customer satisfaction"
+      },
+      {
+        "key": "D",
+        "text": "Reducing customer communication after purchase"
+      }
+    ],
+    "answer": "A",
+    "reason": "Relationship marketing emphasizes long-term engagement, trust, loyalty, and mutual value creation."
+  }
+]
