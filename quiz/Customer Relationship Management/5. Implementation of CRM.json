@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "easy",
+        "question": "CRM implementation refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Putting CRM strategies and systems into operation"
+            },
+            {
+                "key": "B",
+                "text": "Deleting customer records"
+            },
+            {
+                "key": "C",
+                "text": "Reducing customer interactions"
+            },
+            {
+                "key": "D",
+                "text": "Managing payroll systems"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM implementation involves deploying CRM processes, technologies, and strategies within an organization."
+    },
+    {
+        "id": 2,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "easy",
+        "question": "The primary objective of CRM implementation is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improve customer relationships and business performance"
+            },
+            {
+                "key": "B",
+                "text": "Increase paperwork"
+            },
+            {
+                "key": "C",
+                "text": "Reduce customer satisfaction"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate customer data"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM implementation aims to strengthen customer relationships and improve organizational outcomes."
+    },
+    {
+        "id": 3,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "medium",
+        "question": "Successful CRM implementation requires:",
+        "options": [
+            {
+                "key": "A",
+                "text": "People, processes, and technology alignment"
+            },
+            {
+                "key": "B",
+                "text": "Technology only"
+            },
+            {
+                "key": "C",
+                "text": "Marketing only"
+            },
+            {
+                "key": "D",
+                "text": "Finance only"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM success depends on integrating people, processes, and technology."
+    },
+    {
+        "id": 4,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "easy",
+        "question": "One common CRM implementation problem is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employee resistance to change"
+            },
+            {
+                "key": "B",
+                "text": "Excessive customer loyalty"
+            },
+            {
+                "key": "C",
+                "text": "Too much profitability"
+            },
+            {
+                "key": "D",
+                "text": "Over-satisfied customers"
+            }
+        ],
+        "answer": "A",
+        "reason": "Employees may resist new systems and processes introduced during CRM implementation."
+    },
+    {
+        "id": 5,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "medium",
+        "question": "Poor data quality can lead to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ineffective CRM decisions"
+            },
+            {
+                "key": "B",
+                "text": "Improved customer insights"
+            },
+            {
+                "key": "C",
+                "text": "Higher customer satisfaction automatically"
+            },
+            {
+                "key": "D",
+                "text": "Guaranteed CRM success"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM systems depend on accurate and reliable customer data."
+    },
+    {
+        "id": 6,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "hard",
+        "question": "Lack of top management support often results in:",
+        "options": [
+            {
+                "key": "A",
+                "text": "CRM implementation failure"
+            },
+            {
+                "key": "B",
+                "text": "Automatic success"
+            },
+            {
+                "key": "C",
+                "text": "Increased customer loyalty"
+            },
+            {
+                "key": "D",
+                "text": "Perfect user adoption"
+            }
+        ],
+        "answer": "A",
+        "reason": "Leadership commitment is essential for successful CRM implementation."
+    },
+    {
+        "id": 7,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "easy",
+        "question": "CRM software is an example of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "An information technology tool"
+            },
+            {
+                "key": "B",
+                "text": "A manufacturing tool"
+            },
+            {
+                "key": "C",
+                "text": "A construction tool"
+            },
+            {
+                "key": "D",
+                "text": "An accounting standard"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM software helps organizations manage customer relationships and data."
+    },
+    {
+        "id": 8,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "easy",
+        "question": "Databases in CRM are primarily used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Store customer information"
+            },
+            {
+                "key": "B",
+                "text": "Manufacture products"
+            },
+            {
+                "key": "C",
+                "text": "Manage buildings"
+            },
+            {
+                "key": "D",
+                "text": "Calculate taxes"
+            }
+        ],
+        "answer": "A",
+        "reason": "Databases serve as repositories for customer data and interactions."
+    },
+    {
+        "id": 9,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "medium",
+        "question": "Data mining tools help organizations:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Discover patterns in customer data"
+            },
+            {
+                "key": "B",
+                "text": "Build warehouses"
+            },
+            {
+                "key": "C",
+                "text": "Track employee attendance only"
+            },
+            {
+                "key": "D",
+                "text": "Manage payroll"
+            }
+        ],
+        "answer": "A",
+        "reason": "Data mining identifies useful trends and customer behavior patterns."
+    },
+    {
+        "id": 10,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "hard",
+        "question": "Business Intelligence (BI) tools in CRM are used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Analyzing customer data for decision-making"
+            },
+            {
+                "key": "B",
+                "text": "Manufacturing control"
+            },
+            {
+                "key": "C",
+                "text": "Building maintenance"
+            },
+            {
+                "key": "D",
+                "text": "Payroll processing"
+            }
+        ],
+        "answer": "A",
+        "reason": "BI tools transform customer data into actionable insights."
+    },
+    {
+        "id": 11,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "easy",
+        "question": "A major challenge of CRM implementation is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "User adoption"
+            },
+            {
+                "key": "B",
+                "text": "Too much customer satisfaction"
+            },
+            {
+                "key": "C",
+                "text": "Excessive loyalty"
+            },
+            {
+                "key": "D",
+                "text": "High customer retention"
+            }
+        ],
+        "answer": "A",
+        "reason": "Employees must actively use CRM systems for successful implementation."
+    },
+    {
+        "id": 12,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "medium",
+        "question": "Integration with existing systems can be challenging because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Different systems may use different data structures"
+            },
+            {
+                "key": "B",
+                "text": "CRM never uses data"
+            },
+            {
+                "key": "C",
+                "text": "Customers dislike integration"
+            },
+            {
+                "key": "D",
+                "text": "Technology is unnecessary"
+            }
+        ],
+        "answer": "A",
+        "reason": "System compatibility and data integration are common implementation challenges."
+    },
+    {
+        "id": 13,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "hard",
+        "question": "Scope creep during CRM projects refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Uncontrolled expansion of project requirements"
+            },
+            {
+                "key": "B",
+                "text": "Improved customer service"
+            },
+            {
+                "key": "C",
+                "text": "Higher customer retention"
+            },
+            {
+                "key": "D",
+                "text": "Better employee training"
+            }
+        ],
+        "answer": "A",
+        "reason": "Scope creep can increase costs and delay implementation."
+    },
+    {
+        "id": 14,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "easy",
+        "question": "A CRM implementation roadmap is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A step-by-step plan for CRM deployment"
+            },
+            {
+                "key": "B",
+                "text": "A geographic map"
+            },
+            {
+                "key": "C",
+                "text": "A sales report"
+            },
+            {
+                "key": "D",
+                "text": "A customer database"
+            }
+        ],
+        "answer": "A",
+        "reason": "A roadmap provides structured guidance for CRM implementation."
+    },
+    {
+        "id": 15,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "medium",
+        "question": "The first stage of a CRM roadmap usually involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Assessment and planning"
+            },
+            {
+                "key": "B",
+                "text": "Project closure"
+            },
+            {
+                "key": "C",
+                "text": "Performance evaluation only"
+            },
+            {
+                "key": "D",
+                "text": "Deleting old systems"
+            }
+        ],
+        "answer": "A",
+        "reason": "Planning establishes objectives, requirements, and implementation strategies."
+    },
+    {
+        "id": 16,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "hard",
+        "question": "A phased CRM implementation approach helps reduce:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Project risk"
+            },
+            {
+                "key": "B",
+                "text": "Customer satisfaction"
+            },
+            {
+                "key": "C",
+                "text": "Employee involvement"
+            },
+            {
+                "key": "D",
+                "text": "Business value"
+            }
+        ],
+        "answer": "A",
+        "reason": "Implementing CRM in stages allows issues to be identified and corrected early."
+    },
+    {
+        "id": 17,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "easy",
+        "question": "Road map performance refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Evaluating progress against implementation plans"
+            },
+            {
+                "key": "B",
+                "text": "Measuring road traffic"
+            },
+            {
+                "key": "C",
+                "text": "Monitoring building construction"
+            },
+            {
+                "key": "D",
+                "text": "Managing payroll"
+            }
+        ],
+        "answer": "A",
+        "reason": "Performance evaluation ensures implementation stays on track."
+    },
+    {
+        "id": 18,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "medium",
+        "question": "Milestones in a CRM roadmap are used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Measure project progress"
+            },
+            {
+                "key": "B",
+                "text": "Calculate salaries"
+            },
+            {
+                "key": "C",
+                "text": "Manage inventory"
+            },
+            {
+                "key": "D",
+                "text": "Track building occupancy"
+            }
+        ],
+        "answer": "A",
+        "reason": "Milestones provide checkpoints during implementation."
+    },
+    {
+        "id": 19,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "hard",
+        "question": "Roadmap performance reviews help organizations:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identify implementation issues early"
+            },
+            {
+                "key": "B",
+                "text": "Avoid monitoring"
+            },
+            {
+                "key": "C",
+                "text": "Ignore project risks"
+            },
+            {
+                "key": "D",
+                "text": "Reduce accountability"
+            }
+        ],
+        "answer": "A",
+        "reason": "Regular reviews improve project control and success."
+    },
+    {
+        "id": 20,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "easy",
+        "question": "CRM performance measurement helps determine:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Whether CRM objectives are being achieved"
+            },
+            {
+                "key": "B",
+                "text": "Building occupancy"
+            },
+            {
+                "key": "C",
+                "text": "Office design quality"
+            },
+            {
+                "key": "D",
+                "text": "Manufacturing output only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Performance measurement evaluates CRM effectiveness."
+    },
+    {
+        "id": 21,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "medium",
+        "question": "Customer retention rate is a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "CRM performance measure"
+            },
+            {
+                "key": "B",
+                "text": "Payroll measure"
+            },
+            {
+                "key": "C",
+                "text": "Building metric"
+            },
+            {
+                "key": "D",
+                "text": "Inventory measure"
+            }
+        ],
+        "answer": "A",
+        "reason": "Retention rate reflects the organization's ability to keep customers."
+    },
+    {
+        "id": 22,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "Customer satisfaction scores are used to evaluate:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer perceptions of products and services"
+            },
+            {
+                "key": "B",
+                "text": "Building quality"
+            },
+            {
+                "key": "C",
+                "text": "Factory efficiency only"
+            },
+            {
+                "key": "D",
+                "text": "Office expenses"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer satisfaction is a key CRM outcome measure."
+    },
+    {
+        "id": 23,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "easy",
+        "question": "CRM metrics are:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Quantitative measures used to evaluate CRM performance"
+            },
+            {
+                "key": "B",
+                "text": "Customer complaints only"
+            },
+            {
+                "key": "C",
+                "text": "Financial statements only"
+            },
+            {
+                "key": "D",
+                "text": "Employee records"
+            }
+        ],
+        "answer": "A",
+        "reason": "Metrics provide measurable indicators of CRM effectiveness."
+    },
+    {
+        "id": 24,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "medium",
+        "question": "Customer churn rate measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The percentage of customers lost over a period"
+            },
+            {
+                "key": "B",
+                "text": "New customer acquisitions only"
+            },
+            {
+                "key": "C",
+                "text": "Employee turnover"
+            },
+            {
+                "key": "D",
+                "text": "Inventory movement"
+            }
+        ],
+        "answer": "A",
+        "reason": "Churn rate indicates customer attrition."
+    },
+    {
+        "id": 25,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "Customer Lifetime Value (CLV) is used to measure:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The long-term value of a customer relationship"
+            },
+            {
+                "key": "B",
+                "text": "Building value"
+            },
+            {
+                "key": "C",
+                "text": "Inventory value"
+            },
+            {
+                "key": "D",
+                "text": "Office equipment value"
+            }
+        ],
+        "answer": "A",
+        "reason": "CLV estimates the total value generated by a customer over time."
+    },
+    {
+        "id": 26,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "hard",
+        "question": "Change management is critical in CRM implementation because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employees must adapt to new processes and systems"
+            },
+            {
+                "key": "B",
+                "text": "Customers dislike CRM"
+            },
+            {
+                "key": "C",
+                "text": "Technology is unnecessary"
+            },
+            {
+                "key": "D",
+                "text": "CRM does not affect workflows"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM often requires significant organizational changes."
+    },
+    {
+        "id": 27,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "hard",
+        "question": "Insufficient user training may result in:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Low CRM adoption and effectiveness"
+            },
+            {
+                "key": "B",
+                "text": "Improved performance automatically"
+            },
+            {
+                "key": "C",
+                "text": "Higher customer loyalty directly"
+            },
+            {
+                "key": "D",
+                "text": "Perfect data quality"
+            }
+        ],
+        "answer": "A",
+        "reason": "Users must understand CRM tools to use them effectively."
+    },
+    {
+        "id": 28,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "hard",
+        "question": "Cloud-based CRM systems provide:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Remote access and scalability"
+            },
+            {
+                "key": "B",
+                "text": "Manufacturing automation"
+            },
+            {
+                "key": "C",
+                "text": "Building management"
+            },
+            {
+                "key": "D",
+                "text": "Payroll processing only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Cloud CRM allows users to access systems from anywhere."
+    },
+    {
+        "id": 29,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "hard",
+        "question": "Data migration is challenging because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Existing data may be inconsistent or incomplete"
+            },
+            {
+                "key": "B",
+                "text": "CRM does not use data"
+            },
+            {
+                "key": "C",
+                "text": "Customers prevent migration"
+            },
+            {
+                "key": "D",
+                "text": "Migration is always automatic"
+            }
+        ],
+        "answer": "A",
+        "reason": "Data quality issues often emerge during migration."
+    },
+    {
+        "id": 30,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "hard",
+        "question": "A pilot implementation is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Test CRM before full deployment"
+            },
+            {
+                "key": "B",
+                "text": "Replace performance measurement"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate user training"
+            },
+            {
+                "key": "D",
+                "text": "Manage inventory"
+            }
+        ],
+        "answer": "A",
+        "reason": "Pilot projects help identify issues before organization-wide rollout."
+    },
+    {
+        "id": 31,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "hard",
+        "question": "Key milestones help organizations:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Monitor implementation success"
+            },
+            {
+                "key": "B",
+                "text": "Reduce accountability"
+            },
+            {
+                "key": "C",
+                "text": "Ignore deadlines"
+            },
+            {
+                "key": "D",
+                "text": "Avoid project planning"
+            }
+        ],
+        "answer": "A",
+        "reason": "Milestones provide measurable checkpoints."
+    },
+    {
+        "id": 32,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "medium",
+        "question": "An increase in repeat purchases indicates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improved CRM performance"
+            },
+            {
+                "key": "B",
+                "text": "Poor service quality"
+            },
+            {
+                "key": "C",
+                "text": "Reduced customer loyalty"
+            },
+            {
+                "key": "D",
+                "text": "System failure"
+            }
+        ],
+        "answer": "A",
+        "reason": "Repeat purchases often reflect stronger customer relationships."
+    },
+    {
+        "id": 33,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "medium",
+        "question": "Net Promoter Score (NPS) measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer willingness to recommend a company"
+            },
+            {
+                "key": "B",
+                "text": "Employee performance"
+            },
+            {
+                "key": "C",
+                "text": "Inventory turnover"
+            },
+            {
+                "key": "D",
+                "text": "Office utilization"
+            }
+        ],
+        "answer": "A",
+        "reason": "NPS is a widely used customer loyalty metric."
+    },
+    {
+        "id": 34,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "A lower churn rate generally indicates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Better customer retention"
+            },
+            {
+                "key": "B",
+                "text": "Worse customer satisfaction"
+            },
+            {
+                "key": "C",
+                "text": "Poor CRM performance"
+            },
+            {
+                "key": "D",
+                "text": "Higher customer loss"
+            }
+        ],
+        "answer": "A",
+        "reason": "Lower churn means fewer customers are leaving."
+    },
+    {
+        "id": 35,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "hard",
+        "question": "The ultimate goal of CRM implementation is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Creating long-term profitable customer relationships"
+            },
+            {
+                "key": "B",
+                "text": "Increasing paperwork"
+            },
+            {
+                "key": "C",
+                "text": "Reducing customer interaction"
+            },
+            {
+                "key": "D",
+                "text": "Eliminating customer databases"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM exists to maximize customer value and organizational profitability."
+    },
+    {
+        "id": 36,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "medium",
+        "question": "A data warehouse in CRM is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Store and integrate large amounts of customer data"
+            },
+            {
+                "key": "B",
+                "text": "Store physical inventory"
+            },
+            {
+                "key": "C",
+                "text": "Manage buildings"
+            },
+            {
+                "key": "D",
+                "text": "Track attendance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Data warehouses consolidate information from multiple sources for analysis."
+    },
+    {
+        "id": 37,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "medium",
+        "question": "Budget overruns in CRM projects are often caused by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Poor planning and scope changes"
+            },
+            {
+                "key": "B",
+                "text": "High customer loyalty"
+            },
+            {
+                "key": "C",
+                "text": "Better employee training"
+            },
+            {
+                "key": "D",
+                "text": "Improved customer satisfaction"
+            }
+        ],
+        "answer": "A",
+        "reason": "Unexpected requirements and poor planning can increase project costs."
+    },
+    {
+        "id": 38,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "medium",
+        "question": "User training is typically included in which roadmap stage?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Deployment and adoption stage"
+            },
+            {
+                "key": "B",
+                "text": "Project closure only"
+            },
+            {
+                "key": "C",
+                "text": "Risk elimination stage"
+            },
+            {
+                "key": "D",
+                "text": "Customer acquisition stage"
+            }
+        ],
+        "answer": "A",
+        "reason": "Training ensures employees can effectively use the CRM system."
+    },
+    {
+        "id": 39,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "medium",
+        "question": "A delay in reaching roadmap milestones may indicate:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Implementation issues"
+            },
+            {
+                "key": "B",
+                "text": "Guaranteed project success"
+            },
+            {
+                "key": "C",
+                "text": "Improved efficiency"
+            },
+            {
+                "key": "D",
+                "text": "Higher customer loyalty"
+            }
+        ],
+        "answer": "A",
+        "reason": "Delays often signal resource, planning, or execution problems."
+    },
+    {
+        "id": 40,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "ROI in CRM performance measurement stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Return on Investment"
+            },
+            {
+                "key": "B",
+                "text": "Rate of Interaction"
+            },
+            {
+                "key": "C",
+                "text": "Revenue of Inventory"
+            },
+            {
+                "key": "D",
+                "text": "Retention of Information"
+            }
+        ],
+        "answer": "A",
+        "reason": "ROI measures the financial return generated by CRM investments."
+    },
+    {
+        "id": 41,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "Customer Acquisition Cost (CAC) measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The cost of acquiring a new customer"
+            },
+            {
+                "key": "B",
+                "text": "The value of a customer"
+            },
+            {
+                "key": "C",
+                "text": "The number of customers retained"
+            },
+            {
+                "key": "D",
+                "text": "Employee training costs"
+            }
+        ],
+        "answer": "A",
+        "reason": "CAC evaluates the efficiency of customer acquisition efforts."
+    },
+    {
+        "id": 42,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "Benchmarking CRM performance involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Comparing results against standards or competitors"
+            },
+            {
+                "key": "B",
+                "text": "Deleting customer records"
+            },
+            {
+                "key": "C",
+                "text": "Reducing performance measurement"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring industry practices"
+            }
+        ],
+        "answer": "A",
+        "reason": "Benchmarking helps organizations assess their relative performance."
+    },
+    {
+        "id": 43,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "First Contact Resolution (FCR) measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Issues resolved during the first customer interaction"
+            },
+            {
+                "key": "B",
+                "text": "First sales contact only"
+            },
+            {
+                "key": "C",
+                "text": "Customer acquisition rate"
+            },
+            {
+                "key": "D",
+                "text": "Employee attendance"
+            }
+        ],
+        "answer": "A",
+        "reason": "FCR is an important customer service and CRM metric."
+    },
+    {
+        "id": 44,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "hard",
+        "question": "One of the biggest non-technical CRM implementation challenges is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Organizational culture change"
+            },
+            {
+                "key": "B",
+                "text": "Database storage"
+            },
+            {
+                "key": "C",
+                "text": "Internet connectivity"
+            },
+            {
+                "key": "D",
+                "text": "Printer availability"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM often requires changes in employee attitudes and behaviors."
+    },
+    {
+        "id": 45,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "An effective CRM metrics system should:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Align with organizational goals and customer objectives"
+            },
+            {
+                "key": "B",
+                "text": "Measure random activities"
+            },
+            {
+                "key": "C",
+                "text": "Ignore customer outcomes"
+            },
+            {
+                "key": "D",
+                "text": "Focus only on technology"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM metrics should support business objectives and customer relationship goals."
+    },
+    {
+        "id": 46,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "medium",
+        "question": "Before implementing CRM, organizations should conduct:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A needs assessment"
+            },
+            {
+                "key": "B",
+                "text": "A building inspection"
+            },
+            {
+                "key": "C",
+                "text": "A product recall"
+            },
+            {
+                "key": "D",
+                "text": "A payroll audit"
+            }
+        ],
+        "answer": "A",
+        "reason": "Needs assessment helps identify business requirements and CRM objectives."
+    },
+    {
+        "id": 47,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "hard",
+        "question": "CRM implementation success is most likely when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Business processes are aligned with CRM objectives"
+            },
+            {
+                "key": "B",
+                "text": "Technology is implemented without planning"
+            },
+            {
+                "key": "C",
+                "text": "Employees are excluded"
+            },
+            {
+                "key": "D",
+                "text": "Customer data is ignored"
+            }
+        ],
+        "answer": "A",
+        "reason": "Process alignment ensures CRM supports organizational goals effectively."
+    },
+    {
+        "id": 48,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "medium",
+        "question": "Duplicate customer records can cause:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Data inconsistency and poor customer service"
+            },
+            {
+                "key": "B",
+                "text": "Improved decision-making"
+            },
+            {
+                "key": "C",
+                "text": "Better analytics automatically"
+            },
+            {
+                "key": "D",
+                "text": "Higher customer satisfaction"
+            }
+        ],
+        "answer": "A",
+        "reason": "Duplicate records reduce data quality and create confusion."
+    },
+    {
+        "id": 49,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "hard",
+        "question": "One reason CRM projects fail is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Unclear objectives and expectations"
+            },
+            {
+                "key": "B",
+                "text": "Customer loyalty"
+            },
+            {
+                "key": "C",
+                "text": "Strong leadership support"
+            },
+            {
+                "key": "D",
+                "text": "Effective communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "Clearly defined goals are necessary for successful implementation."
+    },
+    {
+        "id": 50,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "easy",
+        "question": "Which technology helps CRM users access customer information through the internet?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Web-based CRM"
+            },
+            {
+                "key": "B",
+                "text": "Typewriter"
+            },
+            {
+                "key": "C",
+                "text": "Photocopier"
+            },
+            {
+                "key": "D",
+                "text": "Fax machine"
+            }
+        ],
+        "answer": "A",
+        "reason": "Web-based CRM systems allow access through browsers and internet connections."
+    },
+    {
+        "id": 51,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "medium",
+        "question": "Analytics software in CRM is mainly used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Interpret customer data and trends"
+            },
+            {
+                "key": "B",
+                "text": "Manage building security"
+            },
+            {
+                "key": "C",
+                "text": "Operate machinery"
+            },
+            {
+                "key": "D",
+                "text": "Control inventory robots"
+            }
+        ],
+        "answer": "A",
+        "reason": "Analytics software converts raw data into useful business insights."
+    },
+    {
+        "id": 52,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "hard",
+        "question": "Artificial Intelligence in CRM can help with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Predicting customer behavior"
+            },
+            {
+                "key": "B",
+                "text": "Constructing office buildings"
+            },
+            {
+                "key": "C",
+                "text": "Printing reports only"
+            },
+            {
+                "key": "D",
+                "text": "Managing electricity supply"
+            }
+        ],
+        "answer": "A",
+        "reason": "AI supports predictive analytics and customer behavior forecasting."
+    },
+    {
+        "id": 53,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "medium",
+        "question": "Insufficient budget can affect CRM implementation by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Limiting resources and project scope"
+            },
+            {
+                "key": "B",
+                "text": "Increasing customer retention automatically"
+            },
+            {
+                "key": "C",
+                "text": "Improving data quality"
+            },
+            {
+                "key": "D",
+                "text": "Reducing project risks"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM projects require adequate financial resources."
+    },
+    {
+        "id": 54,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "hard",
+        "question": "A major challenge in global CRM implementation is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Managing cultural and regional differences"
+            },
+            {
+                "key": "B",
+                "text": "Too few customers"
+            },
+            {
+                "key": "C",
+                "text": "No available technology"
+            },
+            {
+                "key": "D",
+                "text": "Excessive office space"
+            }
+        ],
+        "answer": "A",
+        "reason": "Different regions may have different customer expectations and regulations."
+    },
+    {
+        "id": 55,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "easy",
+        "question": "A CRM roadmap helps organizations by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Providing implementation direction and milestones"
+            },
+            {
+                "key": "B",
+                "text": "Reducing planning efforts"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding project management"
+            },
+            {
+                "key": "D",
+                "text": "Eliminating training needs"
+            }
+        ],
+        "answer": "A",
+        "reason": "Roadmaps provide a structured path for CRM implementation."
+    },
+    {
+        "id": 56,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "medium",
+        "question": "System configuration usually occurs during which roadmap phase?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Development and setup"
+            },
+            {
+                "key": "B",
+                "text": "Project closure"
+            },
+            {
+                "key": "C",
+                "text": "Performance review only"
+            },
+            {
+                "key": "D",
+                "text": "Customer acquisition"
+            }
+        ],
+        "answer": "A",
+        "reason": "System configuration prepares the CRM platform for organizational use."
+    },
+    {
+        "id": 57,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "hard",
+        "question": "Testing during CRM implementation is important because it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identifies defects before deployment"
+            },
+            {
+                "key": "B",
+                "text": "Eliminates user training"
+            },
+            {
+                "key": "C",
+                "text": "Reduces customer satisfaction"
+            },
+            {
+                "key": "D",
+                "text": "Prevents data collection"
+            }
+        ],
+        "answer": "A",
+        "reason": "Testing ensures the CRM system functions correctly."
+    },
+    {
+        "id": 58,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "easy",
+        "question": "Roadmap performance tracking ensures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Implementation activities remain on schedule"
+            },
+            {
+                "key": "B",
+                "text": "Customer complaints increase"
+            },
+            {
+                "key": "C",
+                "text": "Data quality decreases"
+            },
+            {
+                "key": "D",
+                "text": "Project goals are ignored"
+            }
+        ],
+        "answer": "A",
+        "reason": "Tracking progress helps maintain implementation timelines."
+    },
+    {
+        "id": 59,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "medium",
+        "question": "A Key Performance Indicator (KPI) in roadmap performance is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Measure progress toward objectives"
+            },
+            {
+                "key": "B",
+                "text": "Store customer data"
+            },
+            {
+                "key": "C",
+                "text": "Manage payroll"
+            },
+            {
+                "key": "D",
+                "text": "Design buildings"
+            }
+        ],
+        "answer": "A",
+        "reason": "KPIs provide measurable indicators of implementation progress."
+    },
+    {
+        "id": 60,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "hard",
+        "question": "Variance analysis in roadmap performance compares:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Planned performance with actual performance"
+            },
+            {
+                "key": "B",
+                "text": "Customer complaints with payroll"
+            },
+            {
+                "key": "C",
+                "text": "Inventory with sales"
+            },
+            {
+                "key": "D",
+                "text": "Employees with customers"
+            }
+        ],
+        "answer": "A",
+        "reason": "Variance analysis identifies deviations from planned outcomes."
+    },
+    {
+        "id": 61,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "easy",
+        "question": "The purpose of measuring CRM performance is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Assess CRM effectiveness and outcomes"
+            },
+            {
+                "key": "B",
+                "text": "Reduce customer interactions"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate reporting"
+            },
+            {
+                "key": "D",
+                "text": "Avoid performance reviews"
+            }
+        ],
+        "answer": "A",
+        "reason": "Performance measurement determines whether CRM goals are being achieved."
+    },
+    {
+        "id": 62,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "medium",
+        "question": "An increase in customer loyalty generally indicates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Successful CRM performance"
+            },
+            {
+                "key": "B",
+                "text": "Poor CRM implementation"
+            },
+            {
+                "key": "C",
+                "text": "Higher customer churn"
+            },
+            {
+                "key": "D",
+                "text": "System failure"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer loyalty is a key indicator of CRM success."
+    },
+    {
+        "id": 63,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "Balanced Scorecard approaches can be used in CRM to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Evaluate multiple dimensions of performance"
+            },
+            {
+                "key": "B",
+                "text": "Measure only financial outcomes"
+            },
+            {
+                "key": "C",
+                "text": "Ignore customer perspectives"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate KPIs"
+            }
+        ],
+        "answer": "A",
+        "reason": "Balanced Scorecards combine financial and non-financial measures."
+    },
+    {
+        "id": 64,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "easy",
+        "question": "A CRM metric should be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Measurable and relevant"
+            },
+            {
+                "key": "B",
+                "text": "Random and unrelated"
+            },
+            {
+                "key": "C",
+                "text": "Impossible to calculate"
+            },
+            {
+                "key": "D",
+                "text": "Based on assumptions only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Useful metrics must be measurable and linked to objectives."
+    },
+    {
+        "id": 65,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "medium",
+        "question": "Average revenue per customer is an example of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A CRM metric"
+            },
+            {
+                "key": "B",
+                "text": "A project roadmap"
+            },
+            {
+                "key": "C",
+                "text": "A database structure"
+            },
+            {
+                "key": "D",
+                "text": "A software application"
+            }
+        ],
+        "answer": "A",
+        "reason": "Revenue-based metrics help evaluate customer value."
+    },
+    {
+        "id": 66,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "Which metric best reflects customer advocacy?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Net Promoter Score (NPS)"
+            },
+            {
+                "key": "B",
+                "text": "Inventory Turnover"
+            },
+            {
+                "key": "C",
+                "text": "Operating Cost Ratio"
+            },
+            {
+                "key": "D",
+                "text": "Asset Utilization"
+            }
+        ],
+        "answer": "A",
+        "reason": "NPS measures the likelihood of customers recommending a company."
+    },
+    {
+        "id": 67,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "hard",
+        "question": "A CRM champion is someone who:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Promotes and supports CRM adoption"
+            },
+            {
+                "key": "B",
+                "text": "Opposes CRM implementation"
+            },
+            {
+                "key": "C",
+                "text": "Manages inventory only"
+            },
+            {
+                "key": "D",
+                "text": "Maintains buildings"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM champions help encourage acceptance and usage."
+    },
+    {
+        "id": 68,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "hard",
+        "question": "Poor communication during implementation may result in:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Confusion and resistance among employees"
+            },
+            {
+                "key": "B",
+                "text": "Automatic project success"
+            },
+            {
+                "key": "C",
+                "text": "Higher customer retention"
+            },
+            {
+                "key": "D",
+                "text": "Improved data quality"
+            }
+        ],
+        "answer": "A",
+        "reason": "Communication is critical for stakeholder engagement."
+    },
+    {
+        "id": 69,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "hard",
+        "question": "Mobile CRM systems provide:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Access to CRM functions through mobile devices"
+            },
+            {
+                "key": "B",
+                "text": "Manufacturing automation"
+            },
+            {
+                "key": "C",
+                "text": "Payroll calculations"
+            },
+            {
+                "key": "D",
+                "text": "Warehouse control"
+            }
+        ],
+        "answer": "A",
+        "reason": "Mobile CRM improves accessibility and responsiveness."
+    },
+    {
+        "id": 70,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "hard",
+        "question": "Security concerns in CRM mainly involve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Protecting customer information from unauthorized access"
+            },
+            {
+                "key": "B",
+                "text": "Managing office furniture"
+            },
+            {
+                "key": "C",
+                "text": "Reducing customer satisfaction"
+            },
+            {
+                "key": "D",
+                "text": "Increasing churn"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer data security is a critical CRM requirement."
+    },
+    {
+        "id": 71,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "hard",
+        "question": "Post-implementation review is conducted to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Evaluate whether CRM objectives were achieved"
+            },
+            {
+                "key": "B",
+                "text": "Delete customer records"
+            },
+            {
+                "key": "C",
+                "text": "Replace the CRM system immediately"
+            },
+            {
+                "key": "D",
+                "text": "Stop user training"
+            }
+        ],
+        "answer": "A",
+        "reason": "Reviews help assess project outcomes and identify improvements."
+    },
+    {
+        "id": 72,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "hard",
+        "question": "Corrective actions are taken when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Performance deviates significantly from plans"
+            },
+            {
+                "key": "B",
+                "text": "Everything is proceeding perfectly"
+            },
+            {
+                "key": "C",
+                "text": "Customer satisfaction reaches 100%"
+            },
+            {
+                "key": "D",
+                "text": "No milestones exist"
+            }
+        ],
+        "answer": "A",
+        "reason": "Corrective actions help bring projects back on track."
+    },
+    {
+        "id": 73,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "A decline in customer complaints may indicate:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improved CRM effectiveness"
+            },
+            {
+                "key": "B",
+                "text": "Reduced service quality"
+            },
+            {
+                "key": "C",
+                "text": "Increased churn"
+            },
+            {
+                "key": "D",
+                "text": "Project failure"
+            }
+        ],
+        "answer": "A",
+        "reason": "Fewer complaints often reflect better customer experiences."
+    },
+    {
+        "id": 74,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "Customer Satisfaction Score (CSAT) is primarily used to measure:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer satisfaction with products or services"
+            },
+            {
+                "key": "B",
+                "text": "Employee productivity"
+            },
+            {
+                "key": "C",
+                "text": "Inventory efficiency"
+            },
+            {
+                "key": "D",
+                "text": "Project budgets"
+            }
+        ],
+        "answer": "A",
+        "reason": "CSAT directly measures customer satisfaction levels."
+    },
+    {
+        "id": 75,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "hard",
+        "question": "The long-term success of CRM implementation depends most on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Continuous improvement and user adoption"
+            },
+            {
+                "key": "B",
+                "text": "One-time training only"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring customer feedback"
+            },
+            {
+                "key": "D",
+                "text": "Reducing system usage"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM must evolve with customer and business needs to remain effective."
+    },
+    {
+        "id": 76,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "Customer Effort Score (CES) measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "How easy it is for customers to interact with a company"
+            },
+            {
+                "key": "B",
+                "text": "Employee effort levels"
+            },
+            {
+                "key": "C",
+                "text": "Sales revenue"
+            },
+            {
+                "key": "D",
+                "text": "System uptime"
+            }
+        ],
+        "answer": "A",
+        "reason": "CES evaluates the effort required by customers to resolve issues or complete tasks."
+    },
+    {
+        "id": 77,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "hard",
+        "question": "A chatbot integrated with CRM can help by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Providing automated customer support"
+            },
+            {
+                "key": "B",
+                "text": "Managing factory equipment"
+            },
+            {
+                "key": "C",
+                "text": "Calculating taxes"
+            },
+            {
+                "key": "D",
+                "text": "Monitoring inventory warehouses"
+            }
+        ],
+        "answer": "A",
+        "reason": "Chatbots improve response times and customer service efficiency."
+    },
+    {
+        "id": 78,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "hard",
+        "question": "Data privacy laws impact CRM implementation because organizations must:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Handle customer data legally and ethically"
+            },
+            {
+                "key": "B",
+                "text": "Share all customer information publicly"
+            },
+            {
+                "key": "C",
+                "text": "Avoid collecting customer data"
+            },
+            {
+                "key": "D",
+                "text": "Ignore consent requirements"
+            }
+        ],
+        "answer": "A",
+        "reason": "Compliance with privacy regulations is essential in CRM systems."
+    },
+    {
+        "id": 79,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "hard",
+        "question": "Dashboard reporting helps roadmap performance by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Providing visual summaries of project progress"
+            },
+            {
+                "key": "B",
+                "text": "Replacing project management"
+            },
+            {
+                "key": "C",
+                "text": "Eliminating milestones"
+            },
+            {
+                "key": "D",
+                "text": "Reducing accountability"
+            }
+        ],
+        "answer": "A",
+        "reason": "Dashboards provide quick access to project status information."
+    },
+    {
+        "id": 80,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "Which metric directly measures customer retention?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Retention Rate"
+            },
+            {
+                "key": "B",
+                "text": "Inventory Turnover"
+            },
+            {
+                "key": "C",
+                "text": "Operating Margin"
+            },
+            {
+                "key": "D",
+                "text": "Asset Turnover"
+            }
+        ],
+        "answer": "A",
+        "reason": "Retention Rate measures the percentage of customers retained over time."
+    },
+    {
+        "id": 81,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "A high Customer Lifetime Value (CLV) generally indicates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A profitable and valuable customer relationship"
+            },
+            {
+                "key": "B",
+                "text": "Poor customer loyalty"
+            },
+            {
+                "key": "C",
+                "text": "Low retention"
+            },
+            {
+                "key": "D",
+                "text": "System failure"
+            }
+        ],
+        "answer": "A",
+        "reason": "Higher CLV means customers contribute greater long-term value."
+    },
+    {
+        "id": 82,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "hard",
+        "question": "Stakeholder analysis is performed during implementation to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identify affected groups and their requirements"
+            },
+            {
+                "key": "B",
+                "text": "Reduce customer service"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate communication"
+            },
+            {
+                "key": "D",
+                "text": "Avoid project planning"
+            }
+        ],
+        "answer": "A",
+        "reason": "Stakeholder analysis improves support and reduces resistance."
+    },
+    {
+        "id": 83,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "hard",
+        "question": "Lack of user involvement during implementation often causes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Poor acceptance of the CRM system"
+            },
+            {
+                "key": "B",
+                "text": "Higher productivity automatically"
+            },
+            {
+                "key": "C",
+                "text": "Better customer insights"
+            },
+            {
+                "key": "D",
+                "text": "Reduced project risk"
+            }
+        ],
+        "answer": "A",
+        "reason": "User participation is important for adoption and success."
+    },
+    {
+        "id": 84,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "hard",
+        "question": "API integration in CRM is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Connect CRM with other business applications"
+            },
+            {
+                "key": "B",
+                "text": "Build warehouses"
+            },
+            {
+                "key": "C",
+                "text": "Print reports manually"
+            },
+            {
+                "key": "D",
+                "text": "Replace databases"
+            }
+        ],
+        "answer": "A",
+        "reason": "APIs enable data sharing and system interoperability."
+    },
+    {
+        "id": 85,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "The most effective CRM metrics are those that:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Support business goals and customer objectives"
+            },
+            {
+                "key": "B",
+                "text": "Measure random activities"
+            },
+            {
+                "key": "C",
+                "text": "Ignore customer outcomes"
+            },
+            {
+                "key": "D",
+                "text": "Focus only on technology costs"
+            }
+        ],
+        "answer": "A",
+        "reason": "Metrics should align with strategic business and customer relationship goals."
+    },
+    {
+        "id": 86,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "A successful CRM system should ultimately improve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer satisfaction, loyalty, and profitability"
+            },
+            {
+                "key": "B",
+                "text": "Administrative paperwork"
+            },
+            {
+                "key": "C",
+                "text": "Customer complaints"
+            },
+            {
+                "key": "D",
+                "text": "Project delays"
+            }
+        ],
+        "answer": "A",
+        "reason": "These are the primary outcomes expected from CRM initiatives."
+    },
+    {
+        "id": 87,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "hard",
+        "question": "Earned Value Management (EVM) can be used to monitor:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Project cost and schedule performance"
+            },
+            {
+                "key": "B",
+                "text": "Customer complaints only"
+            },
+            {
+                "key": "C",
+                "text": "Office utilization"
+            },
+            {
+                "key": "D",
+                "text": "Employee attendance only"
+            }
+        ],
+        "answer": "A",
+        "reason": "EVM combines cost and schedule metrics to assess project progress."
+    },
+    {
+        "id": 88,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "hard",
+        "question": "Vendor dependency can become a challenge when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Organizations rely heavily on a single CRM provider"
+            },
+            {
+                "key": "B",
+                "text": "Multiple vendors are available"
+            },
+            {
+                "key": "C",
+                "text": "Open standards are used"
+            },
+            {
+                "key": "D",
+                "text": "Users are well trained"
+            }
+        ],
+        "answer": "A",
+        "reason": "Overdependence on one vendor can create operational and strategic risks."
+    },
+    {
+        "id": 89,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "hard",
+        "question": "Go-live refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The point when the CRM system becomes operational"
+            },
+            {
+                "key": "B",
+                "text": "The planning phase"
+            },
+            {
+                "key": "C",
+                "text": "System retirement"
+            },
+            {
+                "key": "D",
+                "text": "Customer acquisition"
+            }
+        ],
+        "answer": "A",
+        "reason": "Go-live marks the transition from implementation to actual usage."
+    },
+    {
+        "id": 90,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "hard",
+        "question": "The ultimate purpose of CRM implementation is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Create sustainable customer relationships and business value"
+            },
+            {
+                "key": "B",
+                "text": "Increase administrative complexity"
+            },
+            {
+                "key": "C",
+                "text": "Reduce customer engagement"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate customer data"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM implementation aims to improve long-term customer and business outcomes."
+    },
+    {
+        "id": 91,
+        "subject": "Customer Relationship Management",
+        "topic": "Implementation of CRM",
+        "difficulty": "hard",
+        "question": "Which factor is most critical for successful CRM implementation?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Top management commitment"
+            },
+            {
+                "key": "B",
+                "text": "Office location"
+            },
+            {
+                "key": "C",
+                "text": "Number of employees"
+            },
+            {
+                "key": "D",
+                "text": "Building size"
+            }
+        ],
+        "answer": "A",
+        "reason": "Top management support provides resources, direction, and commitment necessary for CRM success."
+    },
+    {
+        "id": 92,
+        "subject": "Customer Relationship Management",
+        "topic": "Issues and Problems in Implementing CRM",
+        "difficulty": "hard",
+        "question": "Data silos create CRM implementation problems because they:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Prevent a unified customer view"
+            },
+            {
+                "key": "B",
+                "text": "Increase customer satisfaction"
+            },
+            {
+                "key": "C",
+                "text": "Reduce operational costs"
+            },
+            {
+                "key": "D",
+                "text": "Improve reporting automatically"
+            }
+        ],
+        "answer": "A",
+        "reason": "Data silos keep information isolated, making it difficult to obtain a complete customer profile."
+    },
+    {
+        "id": 93,
+        "subject": "Customer Relationship Management",
+        "topic": "Information Technology Tools in CRM",
+        "difficulty": "medium",
+        "question": "Which IT tool is commonly used to visualize CRM performance indicators?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Dashboard"
+            },
+            {
+                "key": "B",
+                "text": "Printer"
+            },
+            {
+                "key": "C",
+                "text": "Scanner"
+            },
+            {
+                "key": "D",
+                "text": "Calculator"
+            }
+        ],
+        "answer": "A",
+        "reason": "Dashboards present CRM metrics and KPIs in a visual and easy-to-understand format."
+    },
+    {
+        "id": 94,
+        "subject": "Customer Relationship Management",
+        "topic": "Challenges of CRM Implementation",
+        "difficulty": "hard",
+        "question": "One challenge of CRM implementation is ensuring:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Consistent data quality across departments"
+            },
+            {
+                "key": "B",
+                "text": "Higher office rent"
+            },
+            {
+                "key": "C",
+                "text": "More paperwork"
+            },
+            {
+                "key": "D",
+                "text": "Larger storage rooms"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM effectiveness depends on accurate, complete, and consistent customer data."
+    },
+    {
+        "id": 95,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Implementation Roadmap",
+        "difficulty": "medium",
+        "question": "Risk assessment in a CRM roadmap is performed to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identify and mitigate potential project issues"
+            },
+            {
+                "key": "B",
+                "text": "Increase project costs"
+            },
+            {
+                "key": "C",
+                "text": "Reduce project planning"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate customer feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Risk assessment helps organizations prepare for and reduce implementation risks."
+    },
+    {
+        "id": 96,
+        "subject": "Customer Relationship Management",
+        "topic": "Road Map Performance",
+        "difficulty": "hard",
+        "question": "A roadmap is considered effective when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Project objectives are achieved within expected constraints"
+            },
+            {
+                "key": "B",
+                "text": "Project costs continuously increase"
+            },
+            {
+                "key": "C",
+                "text": "Milestones are ignored"
+            },
+            {
+                "key": "D",
+                "text": "No performance reviews are conducted"
+            }
+        ],
+        "answer": "A",
+        "reason": "Effective roadmaps help organizations achieve goals while controlling time, cost, and quality."
+    },
+    {
+        "id": 97,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "Which measure directly reflects customer loyalty?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Repeat purchase rate"
+            },
+            {
+                "key": "B",
+                "text": "Office maintenance cost"
+            },
+            {
+                "key": "C",
+                "text": "Employee attendance rate"
+            },
+            {
+                "key": "D",
+                "text": "Inventory turnover ratio"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customers who repeatedly purchase demonstrate loyalty to the organization."
+    },
+    {
+        "id": 98,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "medium",
+        "question": "Which CRM metric measures the percentage of customers retained over a specific period?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer Retention Rate"
+            },
+            {
+                "key": "B",
+                "text": "Customer Acquisition Cost"
+            },
+            {
+                "key": "C",
+                "text": "Net Profit Margin"
+            },
+            {
+                "key": "D",
+                "text": "Inventory Turnover"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer Retention Rate measures how successfully a company keeps its customers."
+    },
+    {
+        "id": 99,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Metrics",
+        "difficulty": "hard",
+        "question": "A combination of high CLV and low CAC generally indicates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Strong CRM performance"
+            },
+            {
+                "key": "B",
+                "text": "Poor customer relationships"
+            },
+            {
+                "key": "C",
+                "text": "High customer churn"
+            },
+            {
+                "key": "D",
+                "text": "CRM implementation failure"
+            }
+        ],
+        "answer": "A",
+        "reason": "High customer value combined with low acquisition cost indicates efficient and profitable CRM operations."
+    },
+    {
+        "id": 100,
+        "subject": "Customer Relationship Management",
+        "topic": "Measuring CRM Performance",
+        "difficulty": "hard",
+        "question": "The final objective of CRM performance measurement is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improve customer relationships and business outcomes"
+            },
+            {
+                "key": "B",
+                "text": "Increase administrative work"
+            },
+            {
+                "key": "C",
+                "text": "Reduce customer engagement"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate performance reporting"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM measurement exists to identify improvements that enhance customer value and organizational success."
+    }
+]

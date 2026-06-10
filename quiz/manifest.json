@@ -44,6 +44,14 @@
       {
         "label": "3. Planning For CRM",
         "file": "3. Planning for CRM.json"
+      },
+      {
+        "label": "4. CRM And Marketing Strategy",
+        "file": "4. CRM and Marketing Strategy.json"
+      },
+      {
+        "label": "5. Implementation Of CRM",
+        "file": "5. Implementation of CRM.json"
       }
     ]
   },

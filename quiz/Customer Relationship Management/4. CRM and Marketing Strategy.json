@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "easy",
+        "question": "The primary purpose of integrating CRM with marketing strategy is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Build and maintain profitable customer relationships"
+            },
+            {
+                "key": "B",
+                "text": "Increase inventory levels"
+            },
+            {
+                "key": "C",
+                "text": "Reduce customer communication"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate marketing campaigns"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM supports marketing by helping organizations understand and manage customer relationships effectively."
+    },
+    {
+        "id": 2,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "easy",
+        "question": "CRM helps marketers primarily by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Providing customer insights and data"
+            },
+            {
+                "key": "B",
+                "text": "Managing payroll"
+            },
+            {
+                "key": "C",
+                "text": "Designing buildings"
+            },
+            {
+                "key": "D",
+                "text": "Controlling production machinery"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer data enables marketers to create more effective strategies."
+    },
+    {
+        "id": 3,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "medium",
+        "question": "A customer-focused marketing strategy aims to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Meet customer needs profitably"
+            },
+            {
+                "key": "B",
+                "text": "Ignore customer feedback"
+            },
+            {
+                "key": "C",
+                "text": "Focus only on production"
+            },
+            {
+                "key": "D",
+                "text": "Reduce customer satisfaction"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer-focused marketing aligns business offerings with customer expectations."
+    },
+    {
+        "id": 4,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "easy",
+        "question": "CRM marketing initiatives are designed to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Acquire, retain, and develop customers"
+            },
+            {
+                "key": "B",
+                "text": "Reduce customer interaction"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate customer databases"
+            },
+            {
+                "key": "D",
+                "text": "Increase operational complexity"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM initiatives focus on improving customer relationships throughout the customer lifecycle."
+    },
+    {
+        "id": 5,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "medium",
+        "question": "Personalized email campaigns are an example of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "CRM marketing initiatives"
+            },
+            {
+                "key": "B",
+                "text": "Inventory management"
+            },
+            {
+                "key": "C",
+                "text": "Payroll processing"
+            },
+            {
+                "key": "D",
+                "text": "Supply chain planning"
+            }
+        ],
+        "answer": "A",
+        "reason": "Personalized communication is a common CRM marketing activity."
+    },
+    {
+        "id": 6,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "hard",
+        "question": "A major benefit of CRM marketing initiatives is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improved targeting and customer engagement"
+            },
+            {
+                "key": "B",
+                "text": "Reduced customer knowledge"
+            },
+            {
+                "key": "C",
+                "text": "Lower personalization"
+            },
+            {
+                "key": "D",
+                "text": "Elimination of customer data"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM allows organizations to target customers more effectively."
+    },
+    {
+        "id": 7,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "easy",
+        "question": "Sales Force Automation (SFA) is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Automate sales-related activities"
+            },
+            {
+                "key": "B",
+                "text": "Manage inventory only"
+            },
+            {
+                "key": "C",
+                "text": "Control manufacturing"
+            },
+            {
+                "key": "D",
+                "text": "Process employee salaries"
+            }
+        ],
+        "answer": "A",
+        "reason": "SFA automates tasks such as lead management, sales tracking, and reporting."
+    },
+    {
+        "id": 8,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "easy",
+        "question": "Which activity is commonly automated using SFA?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Lead tracking"
+            },
+            {
+                "key": "B",
+                "text": "Building maintenance"
+            },
+            {
+                "key": "C",
+                "text": "Payroll calculation"
+            },
+            {
+                "key": "D",
+                "text": "Factory construction"
+            }
+        ],
+        "answer": "A",
+        "reason": "Lead tracking is one of the primary functions of SFA systems."
+    },
+    {
+        "id": 9,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "medium",
+        "question": "A key advantage of SFA is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improved sales productivity"
+            },
+            {
+                "key": "B",
+                "text": "Reduced customer information"
+            },
+            {
+                "key": "C",
+                "text": "Lower sales visibility"
+            },
+            {
+                "key": "D",
+                "text": "Increased paperwork"
+            }
+        ],
+        "answer": "A",
+        "reason": "Automation reduces manual work and improves efficiency."
+    },
+    {
+        "id": 10,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "hard",
+        "question": "SFA helps managers by providing:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Real-time sales performance information"
+            },
+            {
+                "key": "B",
+                "text": "Building plans"
+            },
+            {
+                "key": "C",
+                "text": "Inventory layouts"
+            },
+            {
+                "key": "D",
+                "text": "Employee attendance only"
+            }
+        ],
+        "answer": "A",
+        "reason": "SFA systems provide visibility into sales activities and performance."
+    },
+    {
+        "id": 11,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "easy",
+        "question": "Campaign management involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Planning, executing, and monitoring marketing campaigns"
+            },
+            {
+                "key": "B",
+                "text": "Managing warehouses"
+            },
+            {
+                "key": "C",
+                "text": "Calculating salaries"
+            },
+            {
+                "key": "D",
+                "text": "Maintaining machinery"
+            }
+        ],
+        "answer": "A",
+        "reason": "Campaign management oversees the complete marketing campaign process."
+    },
+    {
+        "id": 12,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "medium",
+        "question": "A CRM campaign is typically targeted toward:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Specific customer segments"
+            },
+            {
+                "key": "B",
+                "text": "All customers without distinction"
+            },
+            {
+                "key": "C",
+                "text": "Employees only"
+            },
+            {
+                "key": "D",
+                "text": "Suppliers only"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM enables targeted marketing based on customer characteristics."
+    },
+    {
+        "id": 13,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "hard",
+        "question": "Campaign effectiveness is commonly measured using:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Response and conversion rates"
+            },
+            {
+                "key": "B",
+                "text": "Building occupancy"
+            },
+            {
+                "key": "C",
+                "text": "Office size"
+            },
+            {
+                "key": "D",
+                "text": "Employee age"
+            }
+        ],
+        "answer": "A",
+        "reason": "Response and conversion metrics indicate campaign success."
+    },
+    {
+        "id": 14,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "easy",
+        "question": "A call centre primarily handles:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer interactions through telephone channels"
+            },
+            {
+                "key": "B",
+                "text": "Manufacturing operations"
+            },
+            {
+                "key": "C",
+                "text": "Warehouse management"
+            },
+            {
+                "key": "D",
+                "text": "Product design"
+            }
+        ],
+        "answer": "A",
+        "reason": "Call centres manage customer service, support, and sales calls."
+    },
+    {
+        "id": 15,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "easy",
+        "question": "Inbound call centres mainly receive:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer calls"
+            },
+            {
+                "key": "B",
+                "text": "Supplier invoices"
+            },
+            {
+                "key": "C",
+                "text": "Manufacturing orders"
+            },
+            {
+                "key": "D",
+                "text": "Payroll requests"
+            }
+        ],
+        "answer": "A",
+        "reason": "Inbound call centres are designed to handle incoming customer communications."
+    },
+    {
+        "id": 16,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "medium",
+        "question": "Outbound call centres are often used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Telemarketing and customer follow-up"
+            },
+            {
+                "key": "B",
+                "text": "Inventory storage"
+            },
+            {
+                "key": "C",
+                "text": "Building maintenance"
+            },
+            {
+                "key": "D",
+                "text": "Machine repair"
+            }
+        ],
+        "answer": "A",
+        "reason": "Outbound centres contact customers for sales and service purposes."
+    },
+    {
+        "id": 17,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "hard",
+        "question": "A major CRM benefit of call centres is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Centralized customer interaction management"
+            },
+            {
+                "key": "B",
+                "text": "Reduced customer communication"
+            },
+            {
+                "key": "C",
+                "text": "Elimination of customer data"
+            },
+            {
+                "key": "D",
+                "text": "Lower service quality"
+            }
+        ],
+        "answer": "A",
+        "reason": "Call centres centralize customer interactions and service records."
+    },
+    {
+        "id": 18,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "easy",
+        "question": "CRM in consumer markets focuses on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Managing relationships with individual consumers"
+            },
+            {
+                "key": "B",
+                "text": "Managing factories only"
+            },
+            {
+                "key": "C",
+                "text": "Managing suppliers only"
+            },
+            {
+                "key": "D",
+                "text": "Managing machinery"
+            }
+        ],
+        "answer": "A",
+        "reason": "Consumer market CRM focuses on end-users and individual customers."
+    },
+    {
+        "id": 19,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "medium",
+        "question": "Loyalty programs in retail are examples of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "CRM practices in consumer markets"
+            },
+            {
+                "key": "B",
+                "text": "Supply chain management"
+            },
+            {
+                "key": "C",
+                "text": "Production management"
+            },
+            {
+                "key": "D",
+                "text": "Financial auditing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Loyalty programs help strengthen relationships with consumers."
+    },
+    {
+        "id": 20,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "hard",
+        "question": "Personalized product recommendations are possible because CRM provides:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer behavior and purchase data"
+            },
+            {
+                "key": "B",
+                "text": "Building blueprints"
+            },
+            {
+                "key": "C",
+                "text": "Machine specifications"
+            },
+            {
+                "key": "D",
+                "text": "Payroll records"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer data enables personalized marketing and recommendations."
+    },
+    {
+        "id": 21,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "easy",
+        "question": "CRM is especially important in the services sector because services are:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Relationship-intensive"
+            },
+            {
+                "key": "B",
+                "text": "Always automated"
+            },
+            {
+                "key": "C",
+                "text": "Inventory-based"
+            },
+            {
+                "key": "D",
+                "text": "Manufactured in bulk"
+            }
+        ],
+        "answer": "A",
+        "reason": "Service organizations rely heavily on customer relationships and experiences."
+    },
+    {
+        "id": 22,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "medium",
+        "question": "Which industry is a service-sector CRM user?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Banking"
+            },
+            {
+                "key": "B",
+                "text": "Steel manufacturing"
+            },
+            {
+                "key": "C",
+                "text": "Mining"
+            },
+            {
+                "key": "D",
+                "text": "Construction material production"
+            }
+        ],
+        "answer": "A",
+        "reason": "Banking depends heavily on customer relationship management."
+    },
+    {
+        "id": 23,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "hard",
+        "question": "Service organizations use CRM primarily to improve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer satisfaction and service quality"
+            },
+            {
+                "key": "B",
+                "text": "Machine output"
+            },
+            {
+                "key": "C",
+                "text": "Warehouse space"
+            },
+            {
+                "key": "D",
+                "text": "Factory efficiency only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer satisfaction is critical in service-based industries."
+    },
+    {
+        "id": 24,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "easy",
+        "question": "Mass markets are characterized by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Large numbers of customers"
+            },
+            {
+                "key": "B",
+                "text": "Only a few customers"
+            },
+            {
+                "key": "C",
+                "text": "No customer data"
+            },
+            {
+                "key": "D",
+                "text": "No marketing activities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Mass markets involve serving a very large customer base."
+    },
+    {
+        "id": 25,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "medium",
+        "question": "CRM helps mass-market businesses by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Managing large volumes of customer information"
+            },
+            {
+                "key": "B",
+                "text": "Reducing customer knowledge"
+            },
+            {
+                "key": "C",
+                "text": "Eliminating customer segmentation"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding marketing campaigns"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM systems organize and analyze large customer databases."
+    },
+    {
+        "id": 26,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "hard",
+        "question": "Data analytics in mass-market CRM is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identify customer patterns and trends"
+            },
+            {
+                "key": "B",
+                "text": "Manage office equipment"
+            },
+            {
+                "key": "C",
+                "text": "Track building maintenance"
+            },
+            {
+                "key": "D",
+                "text": "Design factories"
+            }
+        ],
+        "answer": "A",
+        "reason": "Analytics helps organizations understand customer behavior on a large scale."
+    },
+    {
+        "id": 27,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "easy",
+        "question": "CRM in manufacturing focuses on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Managing relationships with distributors, dealers, and customers"
+            },
+            {
+                "key": "B",
+                "text": "Only machine maintenance"
+            },
+            {
+                "key": "C",
+                "text": "Only production scheduling"
+            },
+            {
+                "key": "D",
+                "text": "Only inventory management"
+            }
+        ],
+        "answer": "A",
+        "reason": "Manufacturing CRM extends beyond production to customer and channel relationships."
+    },
+    {
+        "id": 28,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "medium",
+        "question": "Manufacturers use CRM to improve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer service and after-sales support"
+            },
+            {
+                "key": "B",
+                "text": "Building construction"
+            },
+            {
+                "key": "C",
+                "text": "Office decoration"
+            },
+            {
+                "key": "D",
+                "text": "Parking management"
+            }
+        ],
+        "answer": "A",
+        "reason": "After-sales service is an important part of manufacturing CRM."
+    },
+    {
+        "id": 29,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "hard",
+        "question": "Dealer relationship management is especially important in:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Manufacturing sector CRM"
+            },
+            {
+                "key": "B",
+                "text": "Payroll systems"
+            },
+            {
+                "key": "C",
+                "text": "Facility management"
+            },
+            {
+                "key": "D",
+                "text": "Office administration"
+            }
+        ],
+        "answer": "A",
+        "reason": "Manufacturers often depend on dealer networks to reach customers."
+    },
+    {
+        "id": 30,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "CRM contributes to marketing strategy by enabling:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer segmentation and personalization"
+            },
+            {
+                "key": "B",
+                "text": "Reduction of customer knowledge"
+            },
+            {
+                "key": "C",
+                "text": "Elimination of customer interaction"
+            },
+            {
+                "key": "D",
+                "text": "Avoidance of marketing campaigns"
+            }
+        ],
+        "answer": "A",
+        "reason": "Segmentation and personalization are key benefits of CRM-driven marketing."
+    },
+    {
+        "id": 31,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "hard",
+        "question": "Cross-selling campaigns are intended to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increase revenue from existing customers"
+            },
+            {
+                "key": "B",
+                "text": "Reduce customer retention"
+            },
+            {
+                "key": "C",
+                "text": "Decrease profitability"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate customer loyalty"
+            }
+        ],
+        "answer": "A",
+        "reason": "Cross-selling encourages customers to buy related products."
+    },
+    {
+        "id": 32,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "hard",
+        "question": "Opportunity management in SFA refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Tracking potential sales opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Managing payroll opportunities"
+            },
+            {
+                "key": "C",
+                "text": "Tracking building projects"
+            },
+            {
+                "key": "D",
+                "text": "Monitoring inventory losses"
+            }
+        ],
+        "answer": "A",
+        "reason": "Opportunity management helps sales teams manage potential deals."
+    },
+    {
+        "id": 33,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "hard",
+        "question": "A/B testing in campaign management is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Compare alternative campaign approaches"
+            },
+            {
+                "key": "B",
+                "text": "Manage inventory"
+            },
+            {
+                "key": "C",
+                "text": "Calculate payroll"
+            },
+            {
+                "key": "D",
+                "text": "Track attendance"
+            }
+        ],
+        "answer": "A",
+        "reason": "A/B testing helps determine which marketing approach performs better."
+    },
+    {
+        "id": 34,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "hard",
+        "question": "Average Handling Time (AHT) is a common call centre metric that measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The average duration of customer interactions"
+            },
+            {
+                "key": "B",
+                "text": "Employee salaries"
+            },
+            {
+                "key": "C",
+                "text": "Building occupancy"
+            },
+            {
+                "key": "D",
+                "text": "Inventory turnover"
+            }
+        ],
+        "answer": "A",
+        "reason": "AHT measures efficiency in handling customer calls."
+    },
+    {
+        "id": 35,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "hard",
+        "question": "The main objective of CRM in consumer markets is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increase customer loyalty and lifetime value"
+            },
+            {
+                "key": "B",
+                "text": "Reduce customer interactions"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate customer databases"
+            },
+            {
+                "key": "D",
+                "text": "Avoid personalization"
+            }
+        ],
+        "answer": "A",
+        "reason": "Consumer-market CRM focuses on long-term customer relationships and profitability."
+    },
+    {
+        "id": 36,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "hard",
+        "question": "Service recovery in CRM refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Correcting service failures and restoring customer satisfaction"
+            },
+            {
+                "key": "B",
+                "text": "Recovering lost inventory"
+            },
+            {
+                "key": "C",
+                "text": "Repairing buildings"
+            },
+            {
+                "key": "D",
+                "text": "Managing supplier payments"
+            }
+        ],
+        "answer": "A",
+        "reason": "Service recovery helps retain customers after service problems occur."
+    },
+    {
+        "id": 37,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "hard",
+        "question": "Mass customization is enabled by CRM through:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Using customer data to personalize offerings at scale"
+            },
+            {
+                "key": "B",
+                "text": "Eliminating customer information"
+            },
+            {
+                "key": "C",
+                "text": "Reducing segmentation"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding analytics"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM allows organizations to personalize experiences even in large markets."
+    },
+    {
+        "id": 38,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "hard",
+        "question": "Warranty management is commonly associated with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "CRM in manufacturing sector"
+            },
+            {
+                "key": "B",
+                "text": "Payroll management"
+            },
+            {
+                "key": "C",
+                "text": "Office administration"
+            },
+            {
+                "key": "D",
+                "text": "Facility maintenance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Manufacturers often use CRM to manage warranties and after-sales service."
+    },
+    {
+        "id": 39,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "Customer segmentation improves marketing efficiency by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Targeting the right customers with relevant offers"
+            },
+            {
+                "key": "B",
+                "text": "Treating all customers identically"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring customer preferences"
+            },
+            {
+                "key": "D",
+                "text": "Reducing customer data usage"
+            }
+        ],
+        "answer": "A",
+        "reason": "Segmentation enables more relevant and effective marketing campaigns."
+    },
+    {
+        "id": 40,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "hard",
+        "question": "Customer retention campaigns primarily aim to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reduce customer churn"
+            },
+            {
+                "key": "B",
+                "text": "Increase acquisition costs"
+            },
+            {
+                "key": "C",
+                "text": "Reduce loyalty"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate customer service"
+            }
+        ],
+        "answer": "A",
+        "reason": "Retention campaigns focus on keeping existing customers."
+    },
+    {
+        "id": 41,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "hard",
+        "question": "Sales forecasting in SFA helps organizations:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Predict future sales performance"
+            },
+            {
+                "key": "B",
+                "text": "Design factories"
+            },
+            {
+                "key": "C",
+                "text": "Manage payroll"
+            },
+            {
+                "key": "D",
+                "text": "Track building occupancy"
+            }
+        ],
+        "answer": "A",
+        "reason": "Sales forecasting supports planning and decision-making."
+    },
+    {
+        "id": 42,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "hard",
+        "question": "Return on Marketing Investment (ROMI) measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The effectiveness of marketing spending"
+            },
+            {
+                "key": "B",
+                "text": "Employee productivity"
+            },
+            {
+                "key": "C",
+                "text": "Warehouse utilization"
+            },
+            {
+                "key": "D",
+                "text": "Building maintenance costs"
+            }
+        ],
+        "answer": "A",
+        "reason": "ROMI evaluates the financial return generated by marketing campaigns."
+    },
+    {
+        "id": 43,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "hard",
+        "question": "First Call Resolution (FCR) measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The percentage of issues resolved during the first contact"
+            },
+            {
+                "key": "B",
+                "text": "The number of employees in a call centre"
+            },
+            {
+                "key": "C",
+                "text": "Average salary levels"
+            },
+            {
+                "key": "D",
+                "text": "Customer acquisition costs"
+            }
+        ],
+        "answer": "A",
+        "reason": "FCR is a key indicator of call centre effectiveness and customer satisfaction."
+    },
+    {
+        "id": 44,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "hard",
+        "question": "Customer relationship quality in services is strongly influenced by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employee-customer interactions"
+            },
+            {
+                "key": "B",
+                "text": "Factory layout"
+            },
+            {
+                "key": "C",
+                "text": "Inventory volume"
+            },
+            {
+                "key": "D",
+                "text": "Building height"
+            }
+        ],
+        "answer": "A",
+        "reason": "Service experiences depend heavily on direct interactions between employees and customers."
+    },
+    {
+        "id": 45,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "hard",
+        "question": "The ultimate goal of CRM in manufacturing is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Build long-term profitable relationships with customers and channel partners"
+            },
+            {
+                "key": "B",
+                "text": "Focus only on production efficiency"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate dealer networks"
+            },
+            {
+                "key": "D",
+                "text": "Avoid customer feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Manufacturing CRM seeks to strengthen relationships across the entire value chain."
+    },
+    {
+        "id": 46,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "medium",
+        "question": "Relationship marketing primarily focuses on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Long-term customer relationships"
+            },
+            {
+                "key": "B",
+                "text": "One-time transactions only"
+            },
+            {
+                "key": "C",
+                "text": "Reducing customer contact"
+            },
+            {
+                "key": "D",
+                "text": "Inventory management"
+            }
+        ],
+        "answer": "A",
+        "reason": "Relationship marketing emphasizes building long-term customer loyalty and value."
+    },
+    {
+        "id": 47,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "A major contribution of CRM to marketing strategy is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer segmentation based on data analysis"
+            },
+            {
+                "key": "B",
+                "text": "Elimination of market research"
+            },
+            {
+                "key": "C",
+                "text": "Reduction of customer information"
+            },
+            {
+                "key": "D",
+                "text": "Avoidance of customer communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM systems provide data that helps marketers identify and target customer segments."
+    },
+    {
+        "id": 48,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "Customer profitability analysis supports marketing strategy by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identifying high-value customer segments"
+            },
+            {
+                "key": "B",
+                "text": "Reducing customer retention"
+            },
+            {
+                "key": "C",
+                "text": "Eliminating loyalty programs"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring customer behavior"
+            }
+        ],
+        "answer": "A",
+        "reason": "Profitability analysis helps allocate marketing resources effectively."
+    },
+    {
+        "id": 49,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "medium",
+        "question": "An upselling campaign aims to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Encourage customers to purchase higher-value products"
+            },
+            {
+                "key": "B",
+                "text": "Reduce sales revenue"
+            },
+            {
+                "key": "C",
+                "text": "Decrease customer satisfaction"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate customer interaction"
+            }
+        ],
+        "answer": "A",
+        "reason": "Upselling encourages customers to choose more premium offerings."
+    },
+    {
+        "id": 50,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "medium",
+        "question": "Customer reactivation campaigns target:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Inactive or dormant customers"
+            },
+            {
+                "key": "B",
+                "text": "Only new customers"
+            },
+            {
+                "key": "C",
+                "text": "Employees"
+            },
+            {
+                "key": "D",
+                "text": "Suppliers"
+            }
+        ],
+        "answer": "A",
+        "reason": "Reactivation campaigns seek to re-engage customers who have stopped purchasing."
+    },
+    {
+        "id": 51,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "hard",
+        "question": "A loyalty campaign is primarily designed to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increase repeat purchases"
+            },
+            {
+                "key": "B",
+                "text": "Reduce retention"
+            },
+            {
+                "key": "C",
+                "text": "Increase churn"
+            },
+            {
+                "key": "D",
+                "text": "Reduce customer engagement"
+            }
+        ],
+        "answer": "A",
+        "reason": "Loyalty campaigns encourage customers to continue buying from the organization."
+    },
+    {
+        "id": 52,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "medium",
+        "question": "Contact management in SFA helps salespeople:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Maintain customer and prospect information"
+            },
+            {
+                "key": "B",
+                "text": "Manage inventory"
+            },
+            {
+                "key": "C",
+                "text": "Control manufacturing"
+            },
+            {
+                "key": "D",
+                "text": "Calculate payroll"
+            }
+        ],
+        "answer": "A",
+        "reason": "Contact management stores and organizes customer information."
+    },
+    {
+        "id": 53,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "medium",
+        "question": "Sales pipeline management is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Track prospects through different sales stages"
+            },
+            {
+                "key": "B",
+                "text": "Monitor factory production"
+            },
+            {
+                "key": "C",
+                "text": "Manage warehouses"
+            },
+            {
+                "key": "D",
+                "text": "Track employee attendance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Pipeline management provides visibility into sales opportunities."
+    },
+    {
+        "id": 54,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "hard",
+        "question": "Mobile SFA applications enable salespeople to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Access customer information remotely"
+            },
+            {
+                "key": "B",
+                "text": "Control manufacturing equipment"
+            },
+            {
+                "key": "C",
+                "text": "Manage building security"
+            },
+            {
+                "key": "D",
+                "text": "Process payroll"
+            }
+        ],
+        "answer": "A",
+        "reason": "Mobile access improves productivity and responsiveness in the field."
+    },
+    {
+        "id": 55,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "medium",
+        "question": "The first step in campaign management is usually:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Defining campaign objectives"
+            },
+            {
+                "key": "B",
+                "text": "Measuring results"
+            },
+            {
+                "key": "C",
+                "text": "Closing the campaign"
+            },
+            {
+                "key": "D",
+                "text": "Deleting customer data"
+            }
+        ],
+        "answer": "A",
+        "reason": "Clear objectives guide all subsequent campaign activities."
+    },
+    {
+        "id": 56,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "medium",
+        "question": "Target audience selection is important because it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improves campaign relevance"
+            },
+            {
+                "key": "B",
+                "text": "Reduces personalization"
+            },
+            {
+                "key": "C",
+                "text": "Increases campaign costs unnecessarily"
+            },
+            {
+                "key": "D",
+                "text": "Eliminates segmentation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Relevant audiences improve campaign effectiveness."
+    },
+    {
+        "id": 57,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "hard",
+        "question": "Campaign analytics are primarily used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Evaluate campaign performance and ROI"
+            },
+            {
+                "key": "B",
+                "text": "Manage payroll"
+            },
+            {
+                "key": "C",
+                "text": "Track building maintenance"
+            },
+            {
+                "key": "D",
+                "text": "Control inventory levels"
+            }
+        ],
+        "answer": "A",
+        "reason": "Analytics provide insights into campaign success and improvement opportunities."
+    },
+    {
+        "id": 58,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "medium",
+        "question": "Computer Telephony Integration (CTI) helps call centres by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Integrating telephone systems with computer applications"
+            },
+            {
+                "key": "B",
+                "text": "Managing inventory"
+            },
+            {
+                "key": "C",
+                "text": "Designing products"
+            },
+            {
+                "key": "D",
+                "text": "Calculating salaries"
+            }
+        ],
+        "answer": "A",
+        "reason": "CTI improves efficiency by linking customer information with calls."
+    },
+    {
+        "id": 59,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "medium",
+        "question": "Interactive Voice Response (IVR) systems are used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Automate customer call routing and responses"
+            },
+            {
+                "key": "B",
+                "text": "Track inventory"
+            },
+            {
+                "key": "C",
+                "text": "Manage production"
+            },
+            {
+                "key": "D",
+                "text": "Monitor employees"
+            }
+        ],
+        "answer": "A",
+        "reason": "IVR allows customers to access services through automated menus."
+    },
+    {
+        "id": 60,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "hard",
+        "question": "Customer satisfaction in call centres is strongly influenced by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Quick and effective issue resolution"
+            },
+            {
+                "key": "B",
+                "text": "Building size"
+            },
+            {
+                "key": "C",
+                "text": "Office furniture"
+            },
+            {
+                "key": "D",
+                "text": "Number of parking spaces"
+            }
+        ],
+        "answer": "A",
+        "reason": "Fast and accurate service improves customer satisfaction."
+    },
+    {
+        "id": 61,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "medium",
+        "question": "Retail CRM commonly uses customer purchase history to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Offer personalized promotions"
+            },
+            {
+                "key": "B",
+                "text": "Reduce customer engagement"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate loyalty programs"
+            },
+            {
+                "key": "D",
+                "text": "Avoid segmentation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Purchase history helps organizations tailor offers to customer preferences."
+    },
+    {
+        "id": 62,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "hard",
+        "question": "Consumer market CRM often emphasizes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "High-volume customer relationship management"
+            },
+            {
+                "key": "B",
+                "text": "Supplier management only"
+            },
+            {
+                "key": "C",
+                "text": "Manufacturing control"
+            },
+            {
+                "key": "D",
+                "text": "Payroll administration"
+            }
+        ],
+        "answer": "A",
+        "reason": "Consumer markets typically involve managing large customer populations."
+    },
+    {
+        "id": 63,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "medium",
+        "question": "Customer feedback is especially valuable in services because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Service quality is often subjective"
+            },
+            {
+                "key": "B",
+                "text": "Services require no improvement"
+            },
+            {
+                "key": "C",
+                "text": "Customers rarely interact with employees"
+            },
+            {
+                "key": "D",
+                "text": "Services cannot be evaluated"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer perceptions are critical in evaluating service quality."
+    },
+    {
+        "id": 64,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "hard",
+        "question": "Customer retention is particularly important in services because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Long-term relationships generate recurring revenue"
+            },
+            {
+                "key": "B",
+                "text": "Customers never switch providers"
+            },
+            {
+                "key": "C",
+                "text": "Services eliminate competition"
+            },
+            {
+                "key": "D",
+                "text": "Marketing becomes unnecessary"
+            }
+        ],
+        "answer": "A",
+        "reason": "Recurring service relationships are a major source of profitability."
+    },
+    {
+        "id": 65,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "medium",
+        "question": "Mass-market CRM relies heavily on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Automation and data analytics"
+            },
+            {
+                "key": "B",
+                "text": "Manual record keeping only"
+            },
+            {
+                "key": "C",
+                "text": "No customer databases"
+            },
+            {
+                "key": "D",
+                "text": "No marketing campaigns"
+            }
+        ],
+        "answer": "A",
+        "reason": "Automation is necessary to manage large customer populations efficiently."
+    },
+    {
+        "id": 66,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "hard",
+        "question": "Predictive analytics in mass-market CRM is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Forecast customer behavior"
+            },
+            {
+                "key": "B",
+                "text": "Design office layouts"
+            },
+            {
+                "key": "C",
+                "text": "Manage warehouses"
+            },
+            {
+                "key": "D",
+                "text": "Calculate payroll"
+            }
+        ],
+        "answer": "A",
+        "reason": "Predictive models help organizations anticipate customer actions."
+    },
+    {
+        "id": 67,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "medium",
+        "question": "After-sales service in manufacturing CRM helps:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improve customer satisfaction and loyalty"
+            },
+            {
+                "key": "B",
+                "text": "Reduce product quality"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate customer support"
+            },
+            {
+                "key": "D",
+                "text": "Decrease retention"
+            }
+        ],
+        "answer": "A",
+        "reason": "Good after-sales service strengthens customer relationships."
+    },
+    {
+        "id": 68,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "hard",
+        "question": "Channel partner management is important in manufacturing because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Products are often sold through intermediaries"
+            },
+            {
+                "key": "B",
+                "text": "Manufacturers never interact with customers"
+            },
+            {
+                "key": "C",
+                "text": "Dealers are unnecessary"
+            },
+            {
+                "key": "D",
+                "text": "CRM is not required"
+            }
+        ],
+        "answer": "A",
+        "reason": "Manufacturers frequently depend on distributors and dealers."
+    },
+    {
+        "id": 69,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "Customer Lifetime Value (CLV) helps marketers:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Prioritize valuable customer segments"
+            },
+            {
+                "key": "B",
+                "text": "Ignore retention efforts"
+            },
+            {
+                "key": "C",
+                "text": "Reduce personalization"
+            },
+            {
+                "key": "D",
+                "text": "Avoid customer analysis"
+            }
+        ],
+        "answer": "A",
+        "reason": "CLV identifies customers who contribute the most long-term value."
+    },
+    {
+        "id": 70,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "hard",
+        "question": "Event-triggered marketing sends messages based on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Specific customer actions or events"
+            },
+            {
+                "key": "B",
+                "text": "Random selection"
+            },
+            {
+                "key": "C",
+                "text": "Employee preferences"
+            },
+            {
+                "key": "D",
+                "text": "Office schedules"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM systems can automate communications based on customer behavior."
+    },
+    {
+        "id": 71,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "hard",
+        "question": "Lead scoring in SFA helps sales teams:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Prioritize promising prospects"
+            },
+            {
+                "key": "B",
+                "text": "Reduce sales opportunities"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate lead generation"
+            },
+            {
+                "key": "D",
+                "text": "Avoid customer interactions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Lead scoring identifies prospects with the highest likelihood of conversion."
+    },
+    {
+        "id": 72,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "hard",
+        "question": "Multi-channel campaigns use:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Multiple communication channels to reach customers"
+            },
+            {
+                "key": "B",
+                "text": "Only telephone communication"
+            },
+            {
+                "key": "C",
+                "text": "Only email communication"
+            },
+            {
+                "key": "D",
+                "text": "No customer communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "Multi-channel marketing improves reach and engagement."
+    },
+    {
+        "id": 73,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "hard",
+        "question": "Workforce management in call centres focuses on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Scheduling and optimizing agent resources"
+            },
+            {
+                "key": "B",
+                "text": "Managing inventory"
+            },
+            {
+                "key": "C",
+                "text": "Designing products"
+            },
+            {
+                "key": "D",
+                "text": "Controlling factories"
+            }
+        ],
+        "answer": "A",
+        "reason": "Workforce management ensures adequate staffing levels."
+    },
+    {
+        "id": 74,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "hard",
+        "question": "Customer loyalty cards are primarily used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Track purchasing behavior and reward customers"
+            },
+            {
+                "key": "B",
+                "text": "Reduce customer data collection"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate promotions"
+            },
+            {
+                "key": "D",
+                "text": "Manage suppliers"
+            }
+        ],
+        "answer": "A",
+        "reason": "Loyalty cards provide data while encouraging repeat purchases."
+    },
+    {
+        "id": 75,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "hard",
+        "question": "A key challenge in service-sector CRM is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Managing customer expectations consistently"
+            },
+            {
+                "key": "B",
+                "text": "Eliminating customer interactions"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding customer feedback"
+            },
+            {
+                "key": "D",
+                "text": "Reducing service quality"
+            }
+        ],
+        "answer": "A",
+        "reason": "Service quality depends heavily on customer expectations and perceptions."
+    },
+    {
+        "id": 76,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "hard",
+        "question": "Customer segmentation in mass markets helps organizations:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Deliver more relevant marketing messages"
+            },
+            {
+                "key": "B",
+                "text": "Treat all customers identically"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate personalization"
+            },
+            {
+                "key": "D",
+                "text": "Reduce campaign effectiveness"
+            }
+        ],
+        "answer": "A",
+        "reason": "Segmentation improves targeting and customer relevance."
+    },
+    {
+        "id": 77,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "hard",
+        "question": "Product support history in manufacturing CRM helps organizations:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Provide better service and maintenance"
+            },
+            {
+                "key": "B",
+                "text": "Reduce customer knowledge"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate warranties"
+            },
+            {
+                "key": "D",
+                "text": "Avoid after-sales service"
+            }
+        ],
+        "answer": "A",
+        "reason": "Historical support data improves service quality and efficiency."
+    },
+    {
+        "id": 78,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "The ultimate goal of CRM-driven marketing is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Maximizing customer value and profitability"
+            },
+            {
+                "key": "B",
+                "text": "Reducing customer satisfaction"
+            },
+            {
+                "key": "C",
+                "text": "Eliminating customer data"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding customer relationships"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM-driven marketing seeks long-term profitable customer relationships."
+    },
+    {
+        "id": 79,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "hard",
+        "question": "Campaign response rate measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The percentage of customers who respond to a campaign"
+            },
+            {
+                "key": "B",
+                "text": "Employee productivity"
+            },
+            {
+                "key": "C",
+                "text": "Warehouse efficiency"
+            },
+            {
+                "key": "D",
+                "text": "Building utilization"
+            }
+        ],
+        "answer": "A",
+        "reason": "Response rate is a common indicator of campaign effectiveness."
+    },
+    {
+        "id": 80,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "hard",
+        "question": "The primary objective of Sales Force Automation is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improve sales efficiency and effectiveness"
+            },
+            {
+                "key": "B",
+                "text": "Manage payroll systems"
+            },
+            {
+                "key": "C",
+                "text": "Control manufacturing operations"
+            },
+            {
+                "key": "D",
+                "text": "Reduce customer interaction"
+            }
+        ],
+        "answer": "A",
+        "reason": "SFA streamlines sales processes and improves performance."
+    },
+    {
+        "id": 81,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "hard",
+        "question": "A customer service representative in a call centre primarily aims to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Resolve customer issues effectively"
+            },
+            {
+                "key": "B",
+                "text": "Manage inventory"
+            },
+            {
+                "key": "C",
+                "text": "Design products"
+            },
+            {
+                "key": "D",
+                "text": "Process payroll"
+            }
+        ],
+        "answer": "A",
+        "reason": "Issue resolution is a core responsibility of customer service representatives."
+    },
+    {
+        "id": 82,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "hard",
+        "question": "Consumer-market CRM databases typically contain:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Purchase history, preferences, and demographic information"
+            },
+            {
+                "key": "B",
+                "text": "Building blueprints"
+            },
+            {
+                "key": "C",
+                "text": "Manufacturing schedules"
+            },
+            {
+                "key": "D",
+                "text": "Payroll records only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Consumer CRM relies on detailed customer information."
+    },
+    {
+        "id": 83,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "hard",
+        "question": "CRM in hospitality industries focuses heavily on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Personalized customer experiences"
+            },
+            {
+                "key": "B",
+                "text": "Factory production"
+            },
+            {
+                "key": "C",
+                "text": "Inventory control only"
+            },
+            {
+                "key": "D",
+                "text": "Equipment maintenance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Hospitality businesses compete largely through customer experience."
+    },
+    {
+        "id": 84,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "hard",
+        "question": "A major challenge in mass-market CRM is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Maintaining personalization at large scale"
+            },
+            {
+                "key": "B",
+                "text": "Lack of customers"
+            },
+            {
+                "key": "C",
+                "text": "No available data"
+            },
+            {
+                "key": "D",
+                "text": "No marketing channels"
+            }
+        ],
+        "answer": "A",
+        "reason": "Organizations must balance scale with personalized customer experiences."
+    },
+    {
+        "id": 85,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "hard",
+        "question": "Effective CRM in manufacturing can lead to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improved customer loyalty and repeat business"
+            },
+            {
+                "key": "B",
+                "text": "Reduced customer satisfaction"
+            },
+            {
+                "key": "C",
+                "text": "Elimination of after-sales service"
+            },
+            {
+                "key": "D",
+                "text": "Lower customer retention"
+            }
+        ],
+        "answer": "A",
+        "reason": "Strong customer relationships contribute to long-term business success."
+    },
+    {
+        "id": 86,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "hard",
+        "question": "The success of CRM marketing initiatives is ultimately measured by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer engagement, retention, and profitability"
+            },
+            {
+                "key": "B",
+                "text": "Office size"
+            },
+            {
+                "key": "C",
+                "text": "Number of employees"
+            },
+            {
+                "key": "D",
+                "text": "Building occupancy"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM marketing aims to improve customer relationships and business performance."
+    },
+    {
+        "id": 87,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "Which CRM benefit most directly supports competitive advantage?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Deep understanding of customer needs"
+            },
+            {
+                "key": "B",
+                "text": "Larger office space"
+            },
+            {
+                "key": "C",
+                "text": "More paperwork"
+            },
+            {
+                "key": "D",
+                "text": "Higher utility bills"
+            }
+        ],
+        "answer": "A",
+        "reason": "Understanding customer needs enables organizations to deliver superior value."
+    },
+    {
+        "id": 88,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "hard",
+        "question": "Call recording is commonly used for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Quality monitoring and training"
+            },
+            {
+                "key": "B",
+                "text": "Inventory tracking"
+            },
+            {
+                "key": "C",
+                "text": "Payroll processing"
+            },
+            {
+                "key": "D",
+                "text": "Manufacturing control"
+            }
+        ],
+        "answer": "A",
+        "reason": "Recorded calls help improve service quality and employee training."
+    },
+    {
+        "id": 89,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "hard",
+        "question": "Customer segmentation before a campaign helps improve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Campaign effectiveness"
+            },
+            {
+                "key": "B",
+                "text": "Campaign costs only"
+            },
+            {
+                "key": "C",
+                "text": "Employee attendance"
+            },
+            {
+                "key": "D",
+                "text": "Building utilization"
+            }
+        ],
+        "answer": "A",
+        "reason": "Targeted campaigns generally achieve better results than generic campaigns."
+    },
+    {
+        "id": 90,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "hard",
+        "question": "Integration between SFA and CRM ensures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A unified view of customer information"
+            },
+            {
+                "key": "B",
+                "text": "Reduced access to customer data"
+            },
+            {
+                "key": "C",
+                "text": "Elimination of customer records"
+            },
+            {
+                "key": "D",
+                "text": "Separation of sales and customer information"
+            }
+        ],
+        "answer": "A",
+        "reason": "Integrated systems provide comprehensive customer insights."
+    },
+    {
+        "id": 91,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "Market segmentation in CRM helps organizations to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identify and target distinct customer groups"
+            },
+            {
+                "key": "B",
+                "text": "Treat all customers exactly the same"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate marketing efforts"
+            },
+            {
+                "key": "D",
+                "text": "Reduce customer knowledge"
+            }
+        ],
+        "answer": "A",
+        "reason": "Segmentation enables organizations to tailor products, services, and communications to specific customer groups."
+    },
+    {
+        "id": 92,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM Marketing Initiatives",
+        "difficulty": "hard",
+        "question": "A referral marketing campaign encourages customers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Recommend the company to others"
+            },
+            {
+                "key": "B",
+                "text": "Reduce purchases"
+            },
+            {
+                "key": "C",
+                "text": "Ignore promotions"
+            },
+            {
+                "key": "D",
+                "text": "Avoid communication with the company"
+            }
+        ],
+        "answer": "A",
+        "reason": "Referral campaigns leverage existing customers to acquire new customers through recommendations."
+    },
+    {
+        "id": 93,
+        "subject": "Customer Relationship Management",
+        "topic": "Sales Force Automation",
+        "difficulty": "hard",
+        "question": "Territory management in Sales Force Automation is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Assign and manage sales regions efficiently"
+            },
+            {
+                "key": "B",
+                "text": "Manage factory production areas"
+            },
+            {
+                "key": "C",
+                "text": "Allocate warehouse space"
+            },
+            {
+                "key": "D",
+                "text": "Control employee salaries"
+            }
+        ],
+        "answer": "A",
+        "reason": "Territory management helps optimize sales coverage and resource allocation."
+    },
+    {
+        "id": 94,
+        "subject": "Customer Relationship Management",
+        "topic": "Campaign Management",
+        "difficulty": "hard",
+        "question": "The click-through rate (CTR) of a digital campaign measures:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The percentage of users who click on a campaign link"
+            },
+            {
+                "key": "B",
+                "text": "Employee productivity"
+            },
+            {
+                "key": "C",
+                "text": "Customer satisfaction"
+            },
+            {
+                "key": "D",
+                "text": "Call centre staffing levels"
+            }
+        ],
+        "answer": "A",
+        "reason": "CTR is a key metric used to evaluate engagement with online marketing campaigns."
+    },
+    {
+        "id": 95,
+        "subject": "Customer Relationship Management",
+        "topic": "Call Centres",
+        "difficulty": "hard",
+        "question": "Automatic Call Distribution (ACD) systems are designed to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Route incoming calls to the most appropriate agent"
+            },
+            {
+                "key": "B",
+                "text": "Manage inventory automatically"
+            },
+            {
+                "key": "C",
+                "text": "Process payroll transactions"
+            },
+            {
+                "key": "D",
+                "text": "Generate marketing reports"
+            }
+        ],
+        "answer": "A",
+        "reason": "ACD systems improve efficiency by directing calls to available and suitable agents."
+    },
+    {
+        "id": 96,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Consumer Markets",
+        "difficulty": "hard",
+        "question": "A key objective of CRM in consumer markets is to increase:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customer Lifetime Value (CLV)"
+            },
+            {
+                "key": "B",
+                "text": "Production costs"
+            },
+            {
+                "key": "C",
+                "text": "Inventory levels"
+            },
+            {
+                "key": "D",
+                "text": "Administrative paperwork"
+            }
+        ],
+        "answer": "A",
+        "reason": "Consumer CRM focuses on maximizing the long-term value generated by each customer."
+    },
+    {
+        "id": 97,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Services Sector",
+        "difficulty": "hard",
+        "question": "In service industries, customer loyalty is often influenced most by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Service quality and customer experience"
+            },
+            {
+                "key": "B",
+                "text": "Factory output"
+            },
+            {
+                "key": "C",
+                "text": "Warehouse capacity"
+            },
+            {
+                "key": "D",
+                "text": "Building design"
+            }
+        ],
+        "answer": "A",
+        "reason": "Positive service experiences strongly influence repeat business and customer loyalty."
+    },
+    {
+        "id": 98,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Mass Markets",
+        "difficulty": "hard",
+        "question": "Data mining in mass-market CRM is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Discover hidden patterns in customer data"
+            },
+            {
+                "key": "B",
+                "text": "Extract raw materials from mines"
+            },
+            {
+                "key": "C",
+                "text": "Manage physical inventory"
+            },
+            {
+                "key": "D",
+                "text": "Track employee attendance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Data mining identifies useful trends and patterns that support customer-focused decisions."
+    },
+    {
+        "id": 99,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM in Manufacturing Sector",
+        "difficulty": "hard",
+        "question": "Customer complaint management in manufacturing CRM helps organizations:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improve products and customer satisfaction"
+            },
+            {
+                "key": "B",
+                "text": "Reduce product quality"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate after-sales service"
+            },
+            {
+                "key": "D",
+                "text": "Avoid customer feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer complaints provide valuable information for improving products and services."
+    },
+    {
+        "id": 100,
+        "subject": "Customer Relationship Management",
+        "topic": "CRM and Marketing Strategy",
+        "difficulty": "hard",
+        "question": "The overall purpose of CRM-supported marketing strategy is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Create, maintain, and enhance profitable customer relationships"
+            },
+            {
+                "key": "B",
+                "text": "Focus only on short-term sales"
+            },
+            {
+                "key": "C",
+                "text": "Reduce customer interaction"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate customer databases"
+            }
+        ],
+        "answer": "A",
+        "reason": "CRM-supported marketing seeks long-term customer value, loyalty, and organizational profitability."
+    }
+]

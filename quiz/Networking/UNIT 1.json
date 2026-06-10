@@ -6,10 +6,22 @@
         "difficulty": "easy",
         "question": "What is the primary purpose of a computer network?",
         "options": [
-            {"key": "A", "text": "To connect devices and enable communication and resource sharing"},
-            {"key": "B", "text": "To increase CPU speed"},
-            {"key": "C", "text": "To replace operating systems"},
-            {"key": "D", "text": "To eliminate storage devices"}
+            {
+                "key": "A",
+                "text": "To connect devices and enable communication and resource sharing"
+            },
+            {
+                "key": "B",
+                "text": "To increase CPU speed"
+            },
+            {
+                "key": "C",
+                "text": "To replace operating systems"
+            },
+            {
+                "key": "D",
+                "text": "To eliminate storage devices"
+            }
         ],
         "answer": "A",
         "reason": "A computer network connects multiple devices so they can communicate, exchange data, and share resources such as files, printers, and internet access. This interconnection allows organizations to collaborate more effectively and reduces costs by eliminating the need for dedicated hardware for each user."
@@ -21,10 +33,22 @@
         "difficulty": "easy",
         "question": "Which of the following is a key advantage of networking?",
         "options": [
-            {"key": "A", "text": "Reduced data accessibility"},
-            {"key": "B", "text": "Resource sharing"},
-            {"key": "C", "text": "Increased hardware isolation"},
-            {"key": "D", "text": "Elimination of security concerns"}
+            {
+                "key": "A",
+                "text": "Reduced data accessibility"
+            },
+            {
+                "key": "B",
+                "text": "Resource sharing"
+            },
+            {
+                "key": "C",
+                "text": "Increased hardware isolation"
+            },
+            {
+                "key": "D",
+                "text": "Elimination of security concerns"
+            }
         ],
         "answer": "B",
         "reason": "Resource sharing is one of the primary advantages of networking — it allows multiple users to access shared files, printers, scanners, internet connections, and applications without needing dedicated copies for each user. This dramatically reduces hardware costs and improves collaboration across an organization."
@@ -36,10 +60,22 @@
         "difficulty": "easy",
         "question": "Which device is primarily used to connect multiple devices within a local area network?",
         "options": [
-            {"key": "A", "text": "Switch"},
-            {"key": "B", "text": "Modem"},
-            {"key": "C", "text": "Firewall"},
-            {"key": "D", "text": "Repeater"}
+            {
+                "key": "A",
+                "text": "Switch"
+            },
+            {
+                "key": "B",
+                "text": "Modem"
+            },
+            {
+                "key": "C",
+                "text": "Firewall"
+            },
+            {
+                "key": "D",
+                "text": "Repeater"
+            }
         ],
         "answer": "A",
         "reason": "A switch connects multiple devices within a LAN by learning MAC addresses and forwarding frames only to the intended destination port. Unlike a hub that broadcasts to all ports, a switch creates dedicated communication paths between devices, reducing collisions and improving network performance significantly."
@@ -51,10 +87,22 @@
         "difficulty": "easy",
         "question": "Which component converts digital signals into analog signals for transmission over telephone lines?",
         "options": [
-            {"key": "A", "text": "Hub"},
-            {"key": "B", "text": "Bridge"},
-            {"key": "C", "text": "Modem"},
-            {"key": "D", "text": "Router"}
+            {
+                "key": "A",
+                "text": "Hub"
+            },
+            {
+                "key": "B",
+                "text": "Bridge"
+            },
+            {
+                "key": "C",
+                "text": "Modem"
+            },
+            {
+                "key": "D",
+                "text": "Router"
+            }
         ],
         "answer": "C",
         "reason": "A modem (MOdulator-DEModulator) performs modulation — converting digital data from a computer into analog signals suitable for transmission over telephone lines — and demodulation — converting received analog signals back into digital data. It serves as the bridge between the digital world of computers and the analog world of telephone infrastructure."
@@ -66,10 +114,22 @@
         "difficulty": "medium",
         "question": "A network administrator wants to connect two different IP networks. Which device should be used?",
         "options": [
-            {"key": "A", "text": "Hub"},
-            {"key": "B", "text": "Router"},
-            {"key": "C", "text": "NIC"},
-            {"key": "D", "text": "Repeater"}
+            {
+                "key": "A",
+                "text": "Hub"
+            },
+            {
+                "key": "B",
+                "text": "Router"
+            },
+            {
+                "key": "C",
+                "text": "NIC"
+            },
+            {
+                "key": "D",
+                "text": "Repeater"
+            }
         ],
         "answer": "B",
         "reason": "A router operates at Layer 3 (Network layer) of the OSI model and forwards packets between different IP networks by examining destination IP addresses and consulting its routing table. Hubs and repeaters work at Layer 1 and cannot differentiate between networks, while NICs provide connectivity to a single network rather than interconnecting multiple networks."
@@ -81,10 +141,22 @@
         "difficulty": "medium",
         "question": "What is the primary function of a Network Interface Card (NIC)?",
         "options": [
-            {"key": "A", "text": "Provide physical and data link layer connectivity"},
-            {"key": "B", "text": "Route packets between networks"},
-            {"key": "C", "text": "Assign IP addresses"},
-            {"key": "D", "text": "Filter network traffic"}
+            {
+                "key": "A",
+                "text": "Provide physical and data link layer connectivity"
+            },
+            {
+                "key": "B",
+                "text": "Route packets between networks"
+            },
+            {
+                "key": "C",
+                "text": "Assign IP addresses"
+            },
+            {
+                "key": "D",
+                "text": "Filter network traffic"
+            }
         ],
         "answer": "A",
         "reason": "A Network Interface Card (NIC) provides the hardware interface that enables a device to connect to a network, operating at both the Physical layer (handling electrical signals, encoding) and the Data Link layer (providing a unique MAC address for frame-level communication). Every device that communicates on a network — whether wired or wireless — requires a NIC."
@@ -96,10 +168,22 @@
         "difficulty": "easy",
         "question": "A network covering a single office building is best classified as which type of network?",
         "options": [
-            {"key": "A", "text": "WAN"},
-            {"key": "B", "text": "MAN"},
-            {"key": "C", "text": "LAN"},
-            {"key": "D", "text": "PAN"}
+            {
+                "key": "A",
+                "text": "WAN"
+            },
+            {
+                "key": "B",
+                "text": "MAN"
+            },
+            {
+                "key": "C",
+                "text": "LAN"
+            },
+            {
+                "key": "D",
+                "text": "PAN"
+            }
         ],
         "answer": "C",
         "reason": "A LAN (Local Area Network) typically covers a limited geographic area such as a single office building, school, or campus. LANs are characterized by high data transfer rates (typically 100 Mbps to 10 Gbps), low latency, and are usually owned and maintained by a single organization, in contrast to WANs which span cities or countries."
@@ -111,10 +195,22 @@
         "difficulty": "medium",
         "question": "Which type of network is designed to connect multiple LANs across a city?",
         "options": [
-            {"key": "A", "text": "LAN"},
-            {"key": "B", "text": "PAN"},
-            {"key": "C", "text": "MAN"},
-            {"key": "D", "text": "SAN"}
+            {
+                "key": "A",
+                "text": "LAN"
+            },
+            {
+                "key": "B",
+                "text": "PAN"
+            },
+            {
+                "key": "C",
+                "text": "MAN"
+            },
+            {
+                "key": "D",
+                "text": "SAN"
+            }
         ],
         "answer": "C",
         "reason": "A MAN (Metropolitan Area Network) spans a city or metropolitan region, typically covering a range of 5 to 50 kilometers. It interconnects multiple LANs across different buildings or campuses within the same city using high-speed connections like fiber optics. Cable TV networks and city-wide Wi-Fi deployments are common examples of MAN infrastructure."
@@ -126,10 +222,22 @@
         "difficulty": "easy",
         "question": "The Internet is the best example of which type of network?",
         "options": [
-            {"key": "A", "text": "LAN"},
-            {"key": "B", "text": "MAN"},
-            {"key": "C", "text": "WAN"},
-            {"key": "D", "text": "PAN"}
+            {
+                "key": "A",
+                "text": "LAN"
+            },
+            {
+                "key": "B",
+                "text": "MAN"
+            },
+            {
+                "key": "C",
+                "text": "WAN"
+            },
+            {
+                "key": "D",
+                "text": "PAN"
+            }
         ],
         "answer": "C",
         "reason": "The Internet is the world's largest WAN (Wide Area Network), interconnecting millions of networks across countries and continents using a combination of fiber optic cables, satellite links, and undersea cables. WANs cover the largest geographic areas and typically rely on third-party telecommunications providers for connectivity between distant locations."
@@ -141,10 +249,22 @@
         "difficulty": "medium",
         "question": "Which characteristic most distinguishes a WAN from a LAN?",
         "options": [
-            {"key": "A", "text": "Use of cables"},
-            {"key": "B", "text": "Geographic coverage"},
-            {"key": "C", "text": "Use of switches"},
-            {"key": "D", "text": "Use of IP addresses"}
+            {
+                "key": "A",
+                "text": "Use of cables"
+            },
+            {
+                "key": "B",
+                "text": "Geographic coverage"
+            },
+            {
+                "key": "C",
+                "text": "Use of switches"
+            },
+            {
+                "key": "D",
+                "text": "Use of IP addresses"
+            }
         ],
         "answer": "B",
         "reason": "The most distinguishing factor between WANs and LANs is geographic coverage — WANs span large distances (cities, countries, or continents) while LANs are confined to a single building or campus. Both use cables, switches, and IP addresses, but WANs additionally rely on leased telecommunication lines, satellite links, or MPLS circuits that LANs don't require."
@@ -156,10 +276,22 @@
         "difficulty": "easy",
         "question": "In a star topology, all devices are connected to which central component?",
         "options": [
-            {"key": "A", "text": "Router"},
-            {"key": "B", "text": "Switch or Hub"},
-            {"key": "C", "text": "Repeater"},
-            {"key": "D", "text": "Gateway"}
+            {
+                "key": "A",
+                "text": "Router"
+            },
+            {
+                "key": "B",
+                "text": "Switch or Hub"
+            },
+            {
+                "key": "C",
+                "text": "Repeater"
+            },
+            {
+                "key": "D",
+                "text": "Gateway"
+            }
         ],
         "answer": "B",
         "reason": "In a star topology, each device connects via a dedicated cable to a central hub or switch. All network traffic passes through this central device, which acts as a signal repeater (hub) or an intelligent frame forwarder (switch). This design simplifies troubleshooting since a faulty device only affects its own connection, not the entire network."
@@ -171,10 +303,22 @@
         "difficulty": "medium",
         "question": "What happens if the central switch fails in a star topology?",
         "options": [
-            {"key": "A", "text": "Only one node fails"},
-            {"key": "B", "text": "The entire network becomes unavailable"},
-            {"key": "C", "text": "The network performance improves"},
-            {"key": "D", "text": "Only external communication stops"}
+            {
+                "key": "A",
+                "text": "Only one node fails"
+            },
+            {
+                "key": "B",
+                "text": "The entire network becomes unavailable"
+            },
+            {
+                "key": "C",
+                "text": "The network performance improves"
+            },
+            {
+                "key": "D",
+                "text": "Only external communication stops"
+            }
         ],
         "answer": "B",
         "reason": "The central device is a single point of failure in a star topology — since all communication must pass through it, its failure brings down the entire network. However, the failure of any individual workstation only affects that workstation, not others. This trade-off is why critical deployments often use redundant switches or stacking configurations to mitigate the risk."
@@ -186,10 +330,22 @@
         "difficulty": "medium",
         "question": "In a traditional ring topology, data travels through:",
         "options": [
-            {"key": "A", "text": "A central switch"},
-            {"key": "B", "text": "Dedicated server"},
-            {"key": "C", "text": "A closed loop of connected devices"},
-            {"key": "D", "text": "Multiple independent paths"}
+            {
+                "key": "A",
+                "text": "A central switch"
+            },
+            {
+                "key": "B",
+                "text": "Dedicated server"
+            },
+            {
+                "key": "C",
+                "text": "A closed loop of connected devices"
+            },
+            {
+                "key": "D",
+                "text": "Multiple independent paths"
+            }
         ],
         "answer": "C",
         "reason": "In a ring topology, each device connects to exactly two neighbors, forming a closed circular loop through which data travels in one direction (unidirectional) or both directions (bidirectional in a dual ring). Each device acts as a repeater, receiving data and retransmitting it to the next node until it reaches its destination. Token Ring and FDDI networks used this topology."
@@ -201,10 +357,22 @@
         "difficulty": "medium",
         "question": "Which component is required at both ends of a bus topology to prevent signal reflection?",
         "options": [
-            {"key": "A", "text": "Router"},
-            {"key": "B", "text": "Gateway"},
-            {"key": "C", "text": "Terminator"},
-            {"key": "D", "text": "Switch"}
+            {
+                "key": "A",
+                "text": "Router"
+            },
+            {
+                "key": "B",
+                "text": "Gateway"
+            },
+            {
+                "key": "C",
+                "text": "Terminator"
+            },
+            {
+                "key": "D",
+                "text": "Switch"
+            }
         ],
         "answer": "C",
         "reason": "Terminators are resistive components (typically 50 ohms for thin Ethernet) placed at both ends of the backbone cable in a bus topology to absorb signals and prevent them from bouncing back (signal reflection). Without terminators, reflected signals would collide with new transmissions, causing data corruption and rendering the network unusable."
@@ -216,10 +384,22 @@
         "difficulty": "medium",
         "question": "What is a major advantage of a mesh topology?",
         "options": [
-            {"key": "A", "text": "Low cabling cost"},
-            {"key": "B", "text": "Single point of control"},
-            {"key": "C", "text": "High fault tolerance"},
-            {"key": "D", "text": "Minimal configuration"}
+            {
+                "key": "A",
+                "text": "Low cabling cost"
+            },
+            {
+                "key": "B",
+                "text": "Single point of control"
+            },
+            {
+                "key": "C",
+                "text": "High fault tolerance"
+            },
+            {
+                "key": "D",
+                "text": "Minimal configuration"
+            }
         ],
         "answer": "C",
         "reason": "Mesh topology provides high fault tolerance because multiple redundant paths exist between devices — if one link fails, traffic can be rerouted through alternative paths without disrupting communication. This makes it ideal for mission-critical networks like backbone internet infrastructure and military communications, though the high cabling cost (n(n-1)/2 links) makes it expensive for large networks."
@@ -231,10 +411,22 @@
         "difficulty": "hard",
         "question": "A company requires maximum reliability for critical communication between nodes. Which topology is most appropriate?",
         "options": [
-            {"key": "A", "text": "Bus"},
-            {"key": "B", "text": "Ring"},
-            {"key": "C", "text": "Star"},
-            {"key": "D", "text": "Mesh"}
+            {
+                "key": "A",
+                "text": "Bus"
+            },
+            {
+                "key": "B",
+                "text": "Ring"
+            },
+            {
+                "key": "C",
+                "text": "Star"
+            },
+            {
+                "key": "D",
+                "text": "Mesh"
+            }
         ],
         "answer": "D",
         "reason": "Mesh topology provides maximum reliability through redundant paths between every pair of devices — if any single link or node fails, alternative routes ensure communication continues uninterrupted. Bus topology has a single backbone as a point of failure, ring topology breaks if one link fails, and star topology depends on its central switch. For critical infrastructure, a full mesh is the most resilient choice."
@@ -246,10 +438,22 @@
         "difficulty": "medium",
         "question": "Which topology typically requires the least amount of cabling?",
         "options": [
-            {"key": "A", "text": "Mesh"},
-            {"key": "B", "text": "Star"},
-            {"key": "C", "text": "Bus"},
-            {"key": "D", "text": "Hybrid"}
+            {
+                "key": "A",
+                "text": "Mesh"
+            },
+            {
+                "key": "B",
+                "text": "Star"
+            },
+            {
+                "key": "C",
+                "text": "Bus"
+            },
+            {
+                "key": "D",
+                "text": "Hybrid"
+            }
         ],
         "answer": "C",
         "reason": "Bus topology uses a single backbone cable (coaxial cable) to which all devices connect via drop cables or T-connectors, requiring the least total cabling of any topology. In contrast, star topology needs a separate cable from each device to the central switch, and mesh topology requires n(n-1)/2 cables — far more as the network grows."
@@ -261,10 +465,22 @@
         "difficulty": "hard",
         "question": "A network contains 6 devices connected in a full mesh. How many direct links are required?",
         "options": [
-            {"key": "A", "text": "10"},
-            {"key": "B", "text": "12"},
-            {"key": "C", "text": "15"},
-            {"key": "D", "text": "18"}
+            {
+                "key": "A",
+                "text": "10"
+            },
+            {
+                "key": "B",
+                "text": "12"
+            },
+            {
+                "key": "C",
+                "text": "15"
+            },
+            {
+                "key": "D",
+                "text": "18"
+            }
         ],
         "answer": "C",
         "reason": "In a full mesh topology, the number of direct links is calculated using the formula n(n-1)/2, where n is the number of devices. For 6 devices: 6×5/2 = 15 links. Each device connects directly to every other device, providing maximum redundancy but also maximum cabling cost. This formula is derived from the combination formula C(n,2) — choosing 2 endpoints from n devices."
@@ -276,10 +492,22 @@
         "difficulty": "easy",
         "question": "How many layers are present in the OSI reference model?",
         "options": [
-            {"key": "A", "text": "4"},
-            {"key": "B", "text": "5"},
-            {"key": "C", "text": "7"},
-            {"key": "D", "text": "8"}
+            {
+                "key": "A",
+                "text": "4"
+            },
+            {
+                "key": "B",
+                "text": "5"
+            },
+            {
+                "key": "C",
+                "text": "7"
+            },
+            {
+                "key": "D",
+                "text": "8"
+            }
         ],
         "answer": "C",
         "reason": "The OSI (Open Systems Interconnection) model consists of seven layers, from bottom to top: Physical (1), Data Link (2), Network (3), Transport (4), Session (5), Presentation (6), and Application (7). Developed by ISO in 1984, each layer performs specific functions and communicates with the layers directly above and below it, creating a modular framework for understanding network communication."
@@ -291,10 +519,22 @@
         "difficulty": "medium",
         "question": "Which OSI layer is responsible for logical addressing and routing?",
         "options": [
-            {"key": "A", "text": "Physical"},
-            {"key": "B", "text": "Data Link"},
-            {"key": "C", "text": "Network"},
-            {"key": "D", "text": "Transport"}
+            {
+                "key": "A",
+                "text": "Physical"
+            },
+            {
+                "key": "B",
+                "text": "Data Link"
+            },
+            {
+                "key": "C",
+                "text": "Network"
+            },
+            {
+                "key": "D",
+                "text": "Transport"
+            }
         ],
         "answer": "C",
         "reason": "The Network layer (Layer 3) handles logical addressing (IP addresses) and routing — determining the best path for packets to travel from source to destination across multiple interconnected networks. Key protocols at this layer include IP (Internet Protocol), ICMP, and routing protocols like OSPF and BGP. Routers operate primarily at this layer."
@@ -306,10 +546,22 @@
         "difficulty": "medium",
         "question": "Which OSI layer is responsible for error detection using MAC addresses and frames?",
         "options": [
-            {"key": "A", "text": "Transport"},
-            {"key": "B", "text": "Data Link"},
-            {"key": "C", "text": "Session"},
-            {"key": "D", "text": "Application"}
+            {
+                "key": "A",
+                "text": "Transport"
+            },
+            {
+                "key": "B",
+                "text": "Data Link"
+            },
+            {
+                "key": "C",
+                "text": "Session"
+            },
+            {
+                "key": "D",
+                "text": "Application"
+            }
         ],
         "answer": "B",
         "reason": "The Data Link layer (Layer 2) is responsible for framing (packaging data into frames), physical addressing using MAC addresses, and error detection using techniques like CRC (Cyclic Redundancy Check). It ensures reliable data transfer between two directly connected nodes and is divided into two sublayers: LLC (Logical Link Control) and MAC (Media Access Control)."
@@ -321,10 +573,22 @@
         "difficulty": "hard",
         "question": "At which OSI layer would data encryption and data format translation typically occur?",
         "options": [
-            {"key": "A", "text": "Session"},
-            {"key": "B", "text": "Presentation"},
-            {"key": "C", "text": "Application"},
-            {"key": "D", "text": "Transport"}
+            {
+                "key": "A",
+                "text": "Session"
+            },
+            {
+                "key": "B",
+                "text": "Presentation"
+            },
+            {
+                "key": "C",
+                "text": "Application"
+            },
+            {
+                "key": "D",
+                "text": "Transport"
+            }
         ],
         "answer": "B",
         "reason": "The Presentation layer (Layer 6) acts as a translator between the application and the network, handling data format conversion (e.g., EBCDIC to ASCII), encryption/decryption (e.g., SSL/TLS operations), and data compression. It ensures that data sent by one system's application layer can be read by another system's application layer, regardless of internal data representation differences."
@@ -336,10 +600,22 @@
         "difficulty": "medium",
         "question": "A network engineer is troubleshooting packet forwarding between subnets. Which OSI layer should be examined first?",
         "options": [
-            {"key": "A", "text": "Physical"},
-            {"key": "B", "text": "Data Link"},
-            {"key": "C", "text": "Network"},
-            {"key": "D", "text": "Application"}
+            {
+                "key": "A",
+                "text": "Physical"
+            },
+            {
+                "key": "B",
+                "text": "Data Link"
+            },
+            {
+                "key": "C",
+                "text": "Network"
+            },
+            {
+                "key": "D",
+                "text": "Application"
+            }
         ],
         "answer": "C",
         "reason": "Inter-subnet communication depends on routing functions performed by the Network layer (Layer 3), which handles logical IP addressing and packet forwarding between different subnets. If packets aren't reaching the correct subnet, the issue likely involves routing table entries, IP addressing, subnet masks, or default gateway configuration — all Layer 3 concerns."
@@ -351,10 +627,22 @@
         "difficulty": "easy",
         "question": "How many layers are commonly defined in the TCP/IP reference model?",
         "options": [
-            {"key": "A", "text": "3"},
-            {"key": "B", "text": "4"},
-            {"key": "C", "text": "5"},
-            {"key": "D", "text": "7"}
+            {
+                "key": "A",
+                "text": "3"
+            },
+            {
+                "key": "B",
+                "text": "4"
+            },
+            {
+                "key": "C",
+                "text": "5"
+            },
+            {
+                "key": "D",
+                "text": "7"
+            }
         ],
         "answer": "B",
         "reason": "The TCP/IP model is commonly represented with four layers: Network Access (or Link), Internet, Transport, and Application. Unlike the OSI model's seven layers, TCP/IP consolidates the OSI Physical and Data Link layers into Network Access, and the Session, Presentation, and Application layers into a single Application layer. This simpler design reflects the practical protocol architecture of the Internet."
@@ -366,10 +654,22 @@
         "difficulty": "medium",
         "question": "Which TCP/IP layer corresponds most closely to the OSI Network layer?",
         "options": [
-            {"key": "A", "text": "Application"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Internet"},
-            {"key": "D", "text": "Network Access"}
+            {
+                "key": "A",
+                "text": "Application"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Internet"
+            },
+            {
+                "key": "D",
+                "text": "Network Access"
+            }
         ],
         "answer": "C",
         "reason": "The Internet layer of the TCP/IP model corresponds to the OSI Network layer — both handle logical addressing (IP addresses), routing packets across interconnected networks, and determining the best path for data delivery. The core protocol at this layer is IP (Internet Protocol), along with supporting protocols like ICMP (for diagnostics) and ARP (for address resolution)."
@@ -381,10 +681,22 @@
         "difficulty": "medium",
         "question": "Which protocol operates at the Internet layer of the TCP/IP model?",
         "options": [
-            {"key": "A", "text": "HTTP"},
-            {"key": "B", "text": "FTP"},
-            {"key": "C", "text": "IP"},
-            {"key": "D", "text": "SMTP"}
+            {
+                "key": "A",
+                "text": "HTTP"
+            },
+            {
+                "key": "B",
+                "text": "FTP"
+            },
+            {
+                "key": "C",
+                "text": "IP"
+            },
+            {
+                "key": "D",
+                "text": "SMTP"
+            }
         ],
         "answer": "C",
         "reason": "IP (Internet Protocol) is the core protocol of the Internet layer, responsible for logical addressing and routing packets across networks. HTTP, FTP, and SMTP are all Application layer protocols. IP operates in a connectionless manner, providing best-effort delivery — reliability features like retransmission and ordering are left to the Transport layer protocols (TCP/UDP) above it."
@@ -396,10 +708,22 @@
         "difficulty": "medium",
         "question": "Which statement correctly compares the OSI and TCP/IP models?",
         "options": [
-            {"key": "A", "text": "OSI has fewer layers than TCP/IP"},
-            {"key": "B", "text": "TCP/IP was designed before OSI and is widely implemented"},
-            {"key": "C", "text": "OSI does not support routing"},
-            {"key": "D", "text": "TCP/IP contains seven layers"}
+            {
+                "key": "A",
+                "text": "OSI has fewer layers than TCP/IP"
+            },
+            {
+                "key": "B",
+                "text": "TCP/IP was designed before OSI and is widely implemented"
+            },
+            {
+                "key": "C",
+                "text": "OSI does not support routing"
+            },
+            {
+                "key": "D",
+                "text": "TCP/IP contains seven layers"
+            }
         ],
         "answer": "B",
         "reason": "TCP/IP was developed in the 1970s by DARPA and became the practical protocol foundation of the Internet, while the OSI model was published later in 1984 by ISO as a conceptual reference framework. Although OSI provides a more detailed theoretical structure (7 layers vs 4), TCP/IP's protocols (IP, TCP, UDP, HTTP) are what actually power the Internet today."
@@ -411,10 +735,22 @@
         "difficulty": "hard",
         "question": "Which two OSI layers are largely combined into the TCP/IP Application layer?",
         "options": [
-            {"key": "A", "text": "Physical and Data Link"},
-            {"key": "B", "text": "Network and Transport"},
-            {"key": "C", "text": "Session and Presentation"},
-            {"key": "D", "text": "Physical and Network"}
+            {
+                "key": "A",
+                "text": "Physical and Data Link"
+            },
+            {
+                "key": "B",
+                "text": "Network and Transport"
+            },
+            {
+                "key": "C",
+                "text": "Session and Presentation"
+            },
+            {
+                "key": "D",
+                "text": "Physical and Network"
+            }
         ],
         "answer": "C",
         "reason": "The TCP/IP Application layer merges the functionality of three upper OSI layers: Application (7), Presentation (6), and Session (5). In practice, TCP/IP application protocols like HTTP handle session management, data formatting, and application services all within a single layer. The question asks about two layers — Session and Presentation are the two that lose their distinct identity in the TCP/IP model."
@@ -426,10 +762,22 @@
         "difficulty": "medium",
         "question": "Which model was primarily designed as a theoretical framework for standardizing network communications?",
         "options": [
-            {"key": "A", "text": "TCP/IP"},
-            {"key": "B", "text": "OSI"},
-            {"key": "C", "text": "Ethernet"},
-            {"key": "D", "text": "ARP"}
+            {
+                "key": "A",
+                "text": "TCP/IP"
+            },
+            {
+                "key": "B",
+                "text": "OSI"
+            },
+            {
+                "key": "C",
+                "text": "Ethernet"
+            },
+            {
+                "key": "D",
+                "text": "ARP"
+            }
         ],
         "answer": "B",
         "reason": "The OSI model was developed by the International Organization for Standardization (ISO) as a theoretical reference framework to standardize how different networking systems communicate. Unlike TCP/IP, which evolved from practical implementations, OSI was designed top-down as a conceptual model first. It is widely used in education and troubleshooting but was never as widely implemented as the TCP/IP protocol suite."
@@ -441,10 +789,22 @@
         "difficulty": "hard",
         "question": "A protocol provides end-to-end reliability, flow control, and segmentation. In the OSI model, these functions belong to which layer?",
         "options": [
-            {"key": "A", "text": "Network"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Session"},
-            {"key": "D", "text": "Data Link"}
+            {
+                "key": "A",
+                "text": "Network"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Session"
+            },
+            {
+                "key": "D",
+                "text": "Data Link"
+            }
         ],
         "answer": "B",
         "reason": "The Transport layer (Layer 4) provides end-to-end communication services including reliability (acknowledgments and retransmissions), flow control (preventing sender from overwhelming receiver), and segmentation (breaking large messages into smaller segments). TCP is the primary protocol that implements all three of these functions, while UDP provides a simpler, connectionless alternative without reliability guarantees."
@@ -456,10 +816,22 @@
         "difficulty": "medium",
         "question": "Which device operates primarily at Layer 2 of the OSI model and forwards frames using MAC addresses?",
         "options": [
-            {"key": "A", "text": "Router"},
-            {"key": "B", "text": "Gateway"},
-            {"key": "C", "text": "Switch"},
-            {"key": "D", "text": "Modem"}
+            {
+                "key": "A",
+                "text": "Router"
+            },
+            {
+                "key": "B",
+                "text": "Gateway"
+            },
+            {
+                "key": "C",
+                "text": "Switch"
+            },
+            {
+                "key": "D",
+                "text": "Modem"
+            }
         ],
         "answer": "C",
         "reason": "A switch operates at Layer 2 (Data Link layer) and maintains a MAC address table that maps MAC addresses to specific ports. When a frame arrives, the switch looks up the destination MAC address and forwards the frame only to the port where the destination device is connected, rather than broadcasting it to all ports like a hub does. This intelligent forwarding greatly improves network efficiency."
@@ -471,10 +843,22 @@
         "difficulty": "hard",
         "question": "During data transmission, the process of adding headers as data moves down the OSI layers is called:",
         "options": [
-            {"key": "A", "text": "Fragmentation"},
-            {"key": "B", "text": "Encapsulation"},
-            {"key": "C", "text": "Encryption"},
-            {"key": "D", "text": "Compression"}
+            {
+                "key": "A",
+                "text": "Fragmentation"
+            },
+            {
+                "key": "B",
+                "text": "Encapsulation"
+            },
+            {
+                "key": "C",
+                "text": "Encryption"
+            },
+            {
+                "key": "D",
+                "text": "Compression"
+            }
         ],
         "answer": "B",
         "reason": "Encapsulation is the process where each OSI layer adds its own protocol-specific header (and sometimes a trailer, as at the Data Link layer) to the data received from the layer above before passing it down. For example, the Transport layer adds a TCP header to create a segment, the Network layer adds an IP header to create a packet, and the Data Link layer adds a frame header and CRC trailer to create a frame."
@@ -486,10 +870,22 @@
         "difficulty": "easy",
         "question": "Which topology is most commonly used in modern Ethernet LANs?",
         "options": [
-            {"key": "A", "text": "Bus"},
-            {"key": "B", "text": "Ring"},
-            {"key": "C", "text": "Star"},
-            {"key": "D", "text": "Mesh"}
+            {
+                "key": "A",
+                "text": "Bus"
+            },
+            {
+                "key": "B",
+                "text": "Ring"
+            },
+            {
+                "key": "C",
+                "text": "Star"
+            },
+            {
+                "key": "D",
+                "text": "Mesh"
+            }
         ],
         "answer": "C",
         "reason": "Modern Ethernet LANs almost universally use a star topology with switches serving as central connection points. This design replaced older bus (10BASE2/10BASE5) and ring (Token Ring) topologies because star topology offers easier troubleshooting, better scalability (just add another port), and the ability to isolate faults to individual connections without affecting the rest of the network."
@@ -501,10 +897,22 @@
         "difficulty": "medium",
         "question": "An application uses HTTP to communicate over the Internet. In the TCP/IP model, HTTP belongs to which layer?",
         "options": [
-            {"key": "A", "text": "Internet"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Application"},
-            {"key": "D", "text": "Network Access"}
+            {
+                "key": "A",
+                "text": "Internet"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Application"
+            },
+            {
+                "key": "D",
+                "text": "Network Access"
+            }
         ],
         "answer": "C",
         "reason": "HTTP (HyperText Transfer Protocol) operates at the Application layer of the TCP/IP model, where it provides the rules for web browsers and servers to communicate. Other common Application layer protocols include FTP (file transfer), SMTP (email sending), DNS (domain name resolution), and SSH (secure remote access). These protocols rely on the Transport layer (TCP/UDP) below them for data delivery."
@@ -516,10 +924,22 @@
         "difficulty": "easy",
         "question": "Which statement best describes a computer network?",
         "options": [
-            {"key": "A", "text": "A collection of unrelated standalone computers"},
-            {"key": "B", "text": "A system that only provides Internet access"},
-            {"key": "C", "text": "A group of interconnected devices that exchange data and resources"},
-            {"key": "D", "text": "A software package used for communication"}
+            {
+                "key": "A",
+                "text": "A collection of unrelated standalone computers"
+            },
+            {
+                "key": "B",
+                "text": "A system that only provides Internet access"
+            },
+            {
+                "key": "C",
+                "text": "A group of interconnected devices that exchange data and resources"
+            },
+            {
+                "key": "D",
+                "text": "A software package used for communication"
+            }
         ],
         "answer": "C",
         "reason": "A computer network is fundamentally a group of interconnected devices — computers, servers, printers, smartphones, and other hardware — that communicate using established protocols to exchange data and share resources. A network is more than just Internet access; it includes local resource sharing, internal communication, and any form of device-to-device data exchange over wired or wireless connections."
@@ -531,10 +951,22 @@
         "difficulty": "easy",
         "question": "Which OSI layer is responsible for transmitting raw bits over a physical medium?",
         "options": [
-            {"key": "A", "text": "Physical"},
-            {"key": "B", "text": "Data Link"},
-            {"key": "C", "text": "Network"},
-            {"key": "D", "text": "Transport"}
+            {
+                "key": "A",
+                "text": "Physical"
+            },
+            {
+                "key": "B",
+                "text": "Data Link"
+            },
+            {
+                "key": "C",
+                "text": "Network"
+            },
+            {
+                "key": "D",
+                "text": "Transport"
+            }
         ],
         "answer": "A",
         "reason": "The Physical layer (Layer 1) is the lowest layer of the OSI model and deals with the actual transmission of raw binary data (0s and 1s) over physical media such as copper cables, fiber optics, or wireless radio waves. It defines specifications for voltages, pin layouts, cable types, data rates, encoding schemes, and physical connectors like RJ-45 and fiber SC/LC connectors."
@@ -546,10 +978,22 @@
         "difficulty": "easy",
         "question": "Which OSI layer establishes, manages, and terminates communication sessions?",
         "options": [
-            {"key": "A", "text": "Presentation"},
-            {"key": "B", "text": "Session"},
-            {"key": "C", "text": "Transport"},
-            {"key": "D", "text": "Application"}
+            {
+                "key": "A",
+                "text": "Presentation"
+            },
+            {
+                "key": "B",
+                "text": "Session"
+            },
+            {
+                "key": "C",
+                "text": "Transport"
+            },
+            {
+                "key": "D",
+                "text": "Application"
+            }
         ],
         "answer": "B",
         "reason": "The Session layer (Layer 5) is responsible for establishing, maintaining, synchronizing, and terminating communication sessions between applications on different devices. It manages dialog control (half-duplex or full-duplex), provides checkpointing and recovery mechanisms so that long transfers can resume after interruptions, and handles authentication/authorization for sessions."
@@ -561,10 +1005,22 @@
         "difficulty": "medium",
         "question": "Which TCP/IP layer is responsible for end-to-end communication between applications?",
         "options": [
-            {"key": "A", "text": "Internet"},
-            {"key": "B", "text": "Network Access"},
-            {"key": "C", "text": "Transport"},
-            {"key": "D", "text": "Application"}
+            {
+                "key": "A",
+                "text": "Internet"
+            },
+            {
+                "key": "B",
+                "text": "Network Access"
+            },
+            {
+                "key": "C",
+                "text": "Transport"
+            },
+            {
+                "key": "D",
+                "text": "Application"
+            }
         ],
         "answer": "C",
         "reason": "The Transport layer provides end-to-end communication services between applications running on different hosts. It uses port numbers to identify specific applications and provides two main protocols: TCP (connection-oriented, reliable, with flow control and congestion control) and UDP (connectionless, best-effort, lightweight). Segmentation, reassembly, and multiplexing are key functions performed at this layer."
@@ -576,10 +1032,22 @@
         "difficulty": "medium",
         "question": "Which networking device regenerates weak signals to extend network distance?",
         "options": [
-            {"key": "A", "text": "Router"},
-            {"key": "B", "text": "Repeater"},
-            {"key": "C", "text": "Gateway"},
-            {"key": "D", "text": "Switch"}
+            {
+                "key": "A",
+                "text": "Router"
+            },
+            {
+                "key": "B",
+                "text": "Repeater"
+            },
+            {
+                "key": "C",
+                "text": "Gateway"
+            },
+            {
+                "key": "D",
+                "text": "Switch"
+            }
         ],
         "answer": "B",
         "reason": "A repeater operates at Layer 1 (Physical layer) and receives weak or degraded signals, regenerates them to their original strength, and retransmits them to extend the maximum cable distance of a network segment. For example, standard Ethernet over Cat5e cable has a 100-meter limit — a repeater placed at that point can extend the reach by another 100 meters. Modern hubs are essentially multi-port repeaters."
@@ -591,10 +1059,22 @@
         "difficulty": "medium",
         "question": "Which device connects networks using different protocols and architectures?",
         "options": [
-            {"key": "A", "text": "Hub"},
-            {"key": "B", "text": "Switch"},
-            {"key": "C", "text": "Gateway"},
-            {"key": "D", "text": "Repeater"}
+            {
+                "key": "A",
+                "text": "Hub"
+            },
+            {
+                "key": "B",
+                "text": "Switch"
+            },
+            {
+                "key": "C",
+                "text": "Gateway"
+            },
+            {
+                "key": "D",
+                "text": "Repeater"
+            }
         ],
         "answer": "C",
         "reason": "A gateway operates at the upper layers of the OSI model and performs protocol translation between networks that use different architectures, data formats, or communication protocols. For example, a gateway might connect an IP-based network to a legacy SNA mainframe network, or translate between email protocols. Gateways are more complex than routers because they understand and convert between different protocol stacks."
@@ -606,10 +1086,22 @@
         "difficulty": "medium",
         "question": "Which topology has no central device and relies on a shared communication backbone?",
         "options": [
-            {"key": "A", "text": "Star"},
-            {"key": "B", "text": "Mesh"},
-            {"key": "C", "text": "Bus"},
-            {"key": "D", "text": "Ring"}
+            {
+                "key": "A",
+                "text": "Star"
+            },
+            {
+                "key": "B",
+                "text": "Mesh"
+            },
+            {
+                "key": "C",
+                "text": "Bus"
+            },
+            {
+                "key": "D",
+                "text": "Ring"
+            }
         ],
         "answer": "C",
         "reason": "In a bus topology, all devices attach to a single shared backbone cable (the bus) using T-connectors or drop cables — there is no central device managing traffic. All devices share the same communication channel, and data travels in both directions along the bus. Early Ethernet (10BASE2, 10BASE5) used this topology, though it has been largely replaced by star topology in modern networks."
@@ -621,10 +1113,22 @@
         "difficulty": "medium",
         "question": "Which topology provides a dedicated path between every pair of devices?",
         "options": [
-            {"key": "A", "text": "Bus"},
-            {"key": "B", "text": "Ring"},
-            {"key": "C", "text": "Star"},
-            {"key": "D", "text": "Full Mesh"}
+            {
+                "key": "A",
+                "text": "Bus"
+            },
+            {
+                "key": "B",
+                "text": "Ring"
+            },
+            {
+                "key": "C",
+                "text": "Star"
+            },
+            {
+                "key": "D",
+                "text": "Full Mesh"
+            }
         ],
         "answer": "D",
         "reason": "A full mesh topology creates a direct, dedicated link between every pair of nodes in the network, ensuring that each device can communicate with any other device without relying on intermediate nodes. This provides maximum redundancy and fault tolerance but requires n(n-1)/2 links, making it expensive and complex for large networks. Partial mesh is a more practical compromise used in real-world WAN designs."
@@ -636,10 +1140,22 @@
         "difficulty": "easy",
         "question": "Which technology is most commonly associated with modern LANs?",
         "options": [
-            {"key": "A", "text": "Ethernet"},
-            {"key": "B", "text": "Satellite"},
-            {"key": "C", "text": "Microwave Relay"},
-            {"key": "D", "text": "Frame Relay"}
+            {
+                "key": "A",
+                "text": "Ethernet"
+            },
+            {
+                "key": "B",
+                "text": "Satellite"
+            },
+            {
+                "key": "C",
+                "text": "Microwave Relay"
+            },
+            {
+                "key": "D",
+                "text": "Frame Relay"
+            }
         ],
         "answer": "A",
         "reason": "Ethernet (IEEE 802.3) is the dominant LAN technology, originally developed at Xerox PARC in the 1970s and now supporting speeds from 10 Mbps to 400 Gbps. Modern Ethernet uses twisted-pair cables (Cat5e/Cat6) or fiber optics in a star topology with switches. Wi-Fi (IEEE 802.11) is its wireless counterpart. Satellite and microwave are WAN technologies, and Frame Relay is an older WAN protocol."
@@ -651,10 +1167,22 @@
         "difficulty": "medium",
         "question": "A university connects campuses across a city using high-speed fiber links. This is an example of:",
         "options": [
-            {"key": "A", "text": "LAN"},
-            {"key": "B", "text": "MAN"},
-            {"key": "C", "text": "PAN"},
-            {"key": "D", "text": "VPN"}
+            {
+                "key": "A",
+                "text": "LAN"
+            },
+            {
+                "key": "B",
+                "text": "MAN"
+            },
+            {
+                "key": "C",
+                "text": "PAN"
+            },
+            {
+                "key": "D",
+                "text": "VPN"
+            }
         ],
         "answer": "B",
         "reason": "A university connecting multiple campuses across a city using high-speed fiber links is a classic example of a MAN (Metropolitan Area Network). The geographic scope — spanning a city but not extending to other cities — places it between a LAN (single building/campus) and a WAN (cross-country/international). Technologies like Metro Ethernet and SONET/SDH are commonly used for MANs."
@@ -666,10 +1194,22 @@
         "difficulty": "medium",
         "question": "Which characteristic is most commonly associated with WANs?",
         "options": [
-            {"key": "A", "text": "Single building coverage"},
-            {"key": "B", "text": "Privately owned short-distance links only"},
-            {"key": "C", "text": "Large geographic coverage"},
-            {"key": "D", "text": "No routers required"}
+            {
+                "key": "A",
+                "text": "Single building coverage"
+            },
+            {
+                "key": "B",
+                "text": "Privately owned short-distance links only"
+            },
+            {
+                "key": "C",
+                "text": "Large geographic coverage"
+            },
+            {
+                "key": "D",
+                "text": "No routers required"
+            }
         ],
         "answer": "C",
         "reason": "WANs are defined by their large geographic coverage, spanning cities, countries, or entire continents. Unlike LANs that cover single buildings, WANs use leased telecommunication circuits, MPLS connections, satellite links, or public Internet infrastructure to connect distant locations. WANs typically have lower bandwidth and higher latency than LANs, and almost always require routers for inter-network packet forwarding."
@@ -681,10 +1221,22 @@
         "difficulty": "hard",
         "question": "At which OSI layer do routers primarily operate?",
         "options": [
-            {"key": "A", "text": "Data Link"},
-            {"key": "B", "text": "Network"},
-            {"key": "C", "text": "Transport"},
-            {"key": "D", "text": "Session"}
+            {
+                "key": "A",
+                "text": "Data Link"
+            },
+            {
+                "key": "B",
+                "text": "Network"
+            },
+            {
+                "key": "C",
+                "text": "Transport"
+            },
+            {
+                "key": "D",
+                "text": "Session"
+            }
         ],
         "answer": "B",
         "reason": "Routers primarily operate at the Network layer (Layer 3), where they examine destination IP addresses in packet headers and use routing tables (populated by protocols like OSPF, BGP, or RIP) to determine the best path for forwarding packets between different networks. While routers also interact with Layer 2 (for frame handling) and sometimes Layer 4 (for access control lists), their core function is Layer 3 routing."
@@ -696,10 +1248,22 @@
         "difficulty": "hard",
         "question": "Which Protocol Data Unit (PDU) is associated with the Transport layer?",
         "options": [
-            {"key": "A", "text": "Bit"},
-            {"key": "B", "text": "Frame"},
-            {"key": "C", "text": "Packet"},
-            {"key": "D", "text": "Segment"}
+            {
+                "key": "A",
+                "text": "Bit"
+            },
+            {
+                "key": "B",
+                "text": "Frame"
+            },
+            {
+                "key": "C",
+                "text": "Packet"
+            },
+            {
+                "key": "D",
+                "text": "Segment"
+            }
         ],
         "answer": "D",
         "reason": "Each OSI layer has its own PDU name: the Physical layer uses bits, the Data Link layer uses frames, the Network layer uses packets, and the Transport layer uses segments (for TCP) or datagrams (for UDP). Understanding PDU names is essential for troubleshooting — when someone says 'the frame was corrupted,' it immediately points to a Layer 2 issue, while 'the segment was lost' indicates a Layer 4 problem."
@@ -711,10 +1275,22 @@
         "difficulty": "medium",
         "question": "Which OSI layer provides services directly to end-user applications?",
         "options": [
-            {"key": "A", "text": "Application"},
-            {"key": "B", "text": "Presentation"},
-            {"key": "C", "text": "Session"},
-            {"key": "D", "text": "Transport"}
+            {
+                "key": "A",
+                "text": "Application"
+            },
+            {
+                "key": "B",
+                "text": "Presentation"
+            },
+            {
+                "key": "C",
+                "text": "Session"
+            },
+            {
+                "key": "D",
+                "text": "Transport"
+            }
         ],
         "answer": "A",
         "reason": "The Application layer (Layer 7) is the topmost layer of the OSI model and is the only layer that directly interacts with end-user applications like web browsers, email clients, and file transfer tools. It provides network services such as file access, email transfer, and directory services through protocols like HTTP, SMTP, FTP, and DNS. The layers below it support the Application layer but don't interact directly with users."
@@ -726,10 +1302,22 @@
         "difficulty": "medium",
         "question": "Which OSI layer has no direct equivalent as a separate layer in the TCP/IP model?",
         "options": [
-            {"key": "A", "text": "Network"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Session"},
-            {"key": "D", "text": "Physical"}
+            {
+                "key": "A",
+                "text": "Network"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Session"
+            },
+            {
+                "key": "D",
+                "text": "Physical"
+            }
         ],
         "answer": "C",
         "reason": "The OSI Session layer (Layer 5) has no direct equivalent as a separate layer in the TCP/IP model — its functions (session management, dialog control, synchronization) are absorbed into the TCP/IP Application layer. Similarly, the Presentation layer is also merged into the Application layer. The Network and Transport layers have direct counterparts (Internet and Transport), making Session the correct answer."
@@ -741,10 +1329,22 @@
         "difficulty": "hard",
         "question": "Which TCP/IP layer combines the functionality of the OSI Physical and Data Link layers?",
         "options": [
-            {"key": "A", "text": "Transport"},
-            {"key": "B", "text": "Application"},
-            {"key": "C", "text": "Internet"},
-            {"key": "D", "text": "Network Access"}
+            {
+                "key": "A",
+                "text": "Transport"
+            },
+            {
+                "key": "B",
+                "text": "Application"
+            },
+            {
+                "key": "C",
+                "text": "Internet"
+            },
+            {
+                "key": "D",
+                "text": "Network Access"
+            }
         ],
         "answer": "D",
         "reason": "The TCP/IP Network Access layer (also called the Link layer or Host-to-Network layer) combines the functionality of both the OSI Physical layer (signal transmission, cable specifications) and the Data Link layer (framing, MAC addressing, error detection). This layer handles everything needed to physically transmit data on a specific network medium, whether Ethernet, Wi-Fi, PPP, or any other link technology."
@@ -756,10 +1356,22 @@
         "difficulty": "easy",
         "question": "Which device broadcasts incoming data to all connected ports without examining destination addresses?",
         "options": [
-            {"key": "A", "text": "Switch"},
-            {"key": "B", "text": "Router"},
-            {"key": "C", "text": "Hub"},
-            {"key": "D", "text": "Gateway"}
+            {
+                "key": "A",
+                "text": "Switch"
+            },
+            {
+                "key": "B",
+                "text": "Router"
+            },
+            {
+                "key": "C",
+                "text": "Hub"
+            },
+            {
+                "key": "D",
+                "text": "Gateway"
+            }
         ],
         "answer": "C",
         "reason": "A hub is a simple Layer 1 device that acts as a multiport repeater — when it receives data on any port, it blindly broadcasts (repeats) that data out all other ports without examining MAC addresses or making intelligent forwarding decisions. This creates unnecessary traffic and collisions, which is why hubs have been almost entirely replaced by switches in modern networks."
@@ -771,10 +1383,22 @@
         "difficulty": "medium",
         "question": "A switch reduces network collisions primarily because it:",
         "options": [
-            {"key": "A", "text": "Uses IP routing"},
-            {"key": "B", "text": "Creates separate collision domains"},
-            {"key": "C", "text": "Blocks broadcasts"},
-            {"key": "D", "text": "Uses encryption"}
+            {
+                "key": "A",
+                "text": "Uses IP routing"
+            },
+            {
+                "key": "B",
+                "text": "Creates separate collision domains"
+            },
+            {
+                "key": "C",
+                "text": "Blocks broadcasts"
+            },
+            {
+                "key": "D",
+                "text": "Uses encryption"
+            }
         ],
         "answer": "B",
         "reason": "Each port on a switch creates its own separate collision domain, meaning devices connected to different ports can transmit simultaneously without interfering with each other. In contrast, a hub creates a single shared collision domain where only one device can transmit at a time. A 24-port switch creates 24 separate collision domains, dramatically reducing collisions and improving overall network throughput."
@@ -786,10 +1410,22 @@
         "difficulty": "easy",
         "question": "In which topology does each node connect to exactly two neighboring nodes?",
         "options": [
-            {"key": "A", "text": "Star"},
-            {"key": "B", "text": "Ring"},
-            {"key": "C", "text": "Mesh"},
-            {"key": "D", "text": "Tree"}
+            {
+                "key": "A",
+                "text": "Star"
+            },
+            {
+                "key": "B",
+                "text": "Ring"
+            },
+            {
+                "key": "C",
+                "text": "Mesh"
+            },
+            {
+                "key": "D",
+                "text": "Tree"
+            }
         ],
         "answer": "B",
         "reason": "In a ring topology, each node connects to exactly two adjacent nodes — one on each side — forming a closed circular loop. Data travels around the ring from node to node until it reaches its destination. This predictable structure provides equal access to all devices and deterministic performance, but a single cable break can disrupt the entire ring unless a dual-ring configuration is used."
@@ -801,10 +1437,22 @@
         "difficulty": "medium",
         "question": "Which topology is easiest to expand by simply connecting another device to a central switch?",
         "options": [
-            {"key": "A", "text": "Bus"},
-            {"key": "B", "text": "Ring"},
-            {"key": "C", "text": "Star"},
-            {"key": "D", "text": "Full Mesh"}
+            {
+                "key": "A",
+                "text": "Bus"
+            },
+            {
+                "key": "B",
+                "text": "Ring"
+            },
+            {
+                "key": "C",
+                "text": "Star"
+            },
+            {
+                "key": "D",
+                "text": "Full Mesh"
+            }
         ],
         "answer": "C",
         "reason": "Star topology offers the simplest scalability — adding a new device requires only plugging a cable from the device into an available port on the central switch. No existing connections need to be modified or disrupted. In contrast, adding a device to a bus topology risks disrupting the backbone, a ring requires breaking and re-forming the loop, and a full mesh requires adding links to every existing device."
@@ -816,10 +1464,22 @@
         "difficulty": "medium",
         "question": "What is the primary purpose of network protocols?",
         "options": [
-            {"key": "A", "text": "Increase hardware cost"},
-            {"key": "B", "text": "Define communication rules between devices"},
-            {"key": "C", "text": "Replace operating systems"},
-            {"key": "D", "text": "Eliminate transmission errors"}
+            {
+                "key": "A",
+                "text": "Increase hardware cost"
+            },
+            {
+                "key": "B",
+                "text": "Define communication rules between devices"
+            },
+            {
+                "key": "C",
+                "text": "Replace operating systems"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate transmission errors"
+            }
         ],
         "answer": "B",
         "reason": "Network protocols define standardized rules and procedures that govern how devices communicate — including data formatting, addressing, error handling, timing, and sequencing. Without protocols, devices from different manufacturers couldn't interoperate. For example, HTTP defines how web browsers request pages, TCP defines reliable delivery, and IP defines addressing and routing. Protocols don't eliminate errors but provide mechanisms to detect and handle them."
@@ -831,10 +1491,22 @@
         "difficulty": "medium",
         "question": "Which OSI layer is closest to the end user?",
         "options": [
-            {"key": "A", "text": "Application"},
-            {"key": "B", "text": "Presentation"},
-            {"key": "C", "text": "Session"},
-            {"key": "D", "text": "Transport"}
+            {
+                "key": "A",
+                "text": "Application"
+            },
+            {
+                "key": "B",
+                "text": "Presentation"
+            },
+            {
+                "key": "C",
+                "text": "Session"
+            },
+            {
+                "key": "D",
+                "text": "Transport"
+            }
         ],
         "answer": "A",
         "reason": "The Application layer (Layer 7) is the topmost and closest layer to the end user in the OSI model. It provides the interface between the user's software applications and the underlying network services. When you open a web browser, send an email, or transfer a file, you're directly interacting with Application layer protocols (HTTP, SMTP, FTP) even though you may not be aware of it."
@@ -846,10 +1518,22 @@
         "difficulty": "medium",
         "question": "Which layer of the TCP/IP model is responsible for routing packets across interconnected networks?",
         "options": [
-            {"key": "A", "text": "Application"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Internet"},
-            {"key": "D", "text": "Network Access"}
+            {
+                "key": "A",
+                "text": "Application"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Internet"
+            },
+            {
+                "key": "D",
+                "text": "Network Access"
+            }
         ],
         "answer": "C",
         "reason": "The Internet layer of the TCP/IP model is responsible for routing packets across interconnected networks using logical (IP) addresses. Its primary protocol, IP, determines the best path for each packet from source to destination, potentially traversing multiple intermediate routers and networks. This layer also includes ICMP (for diagnostics like ping) and routing protocols that populate router forwarding tables."
@@ -861,10 +1545,22 @@
         "difficulty": "hard",
         "question": "Which layer-to-layer communication concept is used when discussing logical communication between peer layers on different systems?",
         "options": [
-            {"key": "A", "text": "Physical Communication"},
-            {"key": "B", "text": "Peer-to-Peer Communication"},
-            {"key": "C", "text": "Broadcast Communication"},
-            {"key": "D", "text": "Multicast Communication"}
+            {
+                "key": "A",
+                "text": "Physical Communication"
+            },
+            {
+                "key": "B",
+                "text": "Peer-to-Peer Communication"
+            },
+            {
+                "key": "C",
+                "text": "Broadcast Communication"
+            },
+            {
+                "key": "D",
+                "text": "Multicast Communication"
+            }
         ],
         "answer": "B",
         "reason": "Peer-to-peer communication refers to the logical communication that occurs between corresponding layers on different systems — for example, the Transport layer on Host A logically communicates with the Transport layer on Host B using a shared protocol (like TCP). Although data physically travels down the stack on one host and up the stack on the other, each layer pair behaves as if they're directly communicating with each other."
@@ -876,10 +1572,22 @@
         "difficulty": "hard",
         "question": "A host cannot communicate on the network because its NIC has failed. Which networking function is directly affected?",
         "options": [
-            {"key": "A", "text": "Physical network access"},
-            {"key": "B", "text": "DNS resolution"},
-            {"key": "C", "text": "Application processing"},
-            {"key": "D", "text": "Session management"}
+            {
+                "key": "A",
+                "text": "Physical network access"
+            },
+            {
+                "key": "B",
+                "text": "DNS resolution"
+            },
+            {
+                "key": "C",
+                "text": "Application processing"
+            },
+            {
+                "key": "D",
+                "text": "Session management"
+            }
         ],
         "answer": "A",
         "reason": "A NIC failure directly affects physical network access — the device loses its ability to send and receive signals on the network medium. Without a functioning NIC, no frames can be transmitted or received at the Physical/Data Link layers, which means all higher-layer functions (including DNS resolution, application communication, and session management) become impossible since they depend on the physical connection being available."
@@ -891,10 +1599,22 @@
         "difficulty": "medium",
         "question": "Which layer is responsible for dividing large messages into smaller units before transmission?",
         "options": [
-            {"key": "A", "text": "Application"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Session"},
-            {"key": "D", "text": "Presentation"}
+            {
+                "key": "A",
+                "text": "Application"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Session"
+            },
+            {
+                "key": "D",
+                "text": "Presentation"
+            }
         ],
         "answer": "B",
         "reason": "The Transport layer (Layer 4) performs segmentation — breaking large messages from the Application layer into smaller, manageable segments (TCP) or datagrams (UDP) that fit within the maximum transmission unit (MTU) of the network. It also handles reassembly at the receiving end, putting segments back in the correct order using sequence numbers. This is essential because networks have limits on the size of data units they can transmit."
@@ -906,10 +1626,22 @@
         "difficulty": "medium",
         "question": "Which model is more commonly used in practical network implementations today?",
         "options": [
-            {"key": "A", "text": "OSI"},
-            {"key": "B", "text": "TCP/IP"},
-            {"key": "C", "text": "IBM SNA"},
-            {"key": "D", "text": "DECnet"}
+            {
+                "key": "A",
+                "text": "OSI"
+            },
+            {
+                "key": "B",
+                "text": "TCP/IP"
+            },
+            {
+                "key": "C",
+                "text": "IBM SNA"
+            },
+            {
+                "key": "D",
+                "text": "DECnet"
+            }
         ],
         "answer": "B",
         "reason": "The TCP/IP model and its protocol suite form the practical foundation of the modern Internet and virtually all enterprise networks. While the OSI model is excellent for education and conceptual understanding, TCP/IP's protocols (IP, TCP, UDP, HTTP, DNS) are what actually run on networking hardware worldwide. IBM SNA and DECnet are legacy proprietary architectures that are no longer widely used."
@@ -921,10 +1653,22 @@
         "difficulty": "hard",
         "question": "A ring network contains 12 nodes. If one cable breaks and no redundancy exists, what is the likely outcome?",
         "options": [
-            {"key": "A", "text": "Only one node is disconnected"},
-            {"key": "B", "text": "The entire ring communication is disrupted"},
-            {"key": "C", "text": "Performance increases"},
-            {"key": "D", "text": "Traffic is automatically rerouted"}
+            {
+                "key": "A",
+                "text": "Only one node is disconnected"
+            },
+            {
+                "key": "B",
+                "text": "The entire ring communication is disrupted"
+            },
+            {
+                "key": "C",
+                "text": "Performance increases"
+            },
+            {
+                "key": "D",
+                "text": "Traffic is automatically rerouted"
+            }
         ],
         "answer": "B",
         "reason": "In a traditional single-ring topology without redundancy, data travels in one direction around the loop — a cable break anywhere interrupts the entire ring, disrupting communication for all 12 nodes, not just the ones adjacent to the break. This vulnerability is why technologies like FDDI used dual counter-rotating rings for redundancy, where the backup ring activates if the primary ring breaks."
@@ -936,10 +1680,22 @@
         "difficulty": "medium",
         "question": "A multinational company connects offices in India, Germany, and the USA. Which network type is being used?",
         "options": [
-            {"key": "A", "text": "LAN"},
-            {"key": "B", "text": "MAN"},
-            {"key": "C", "text": "WAN"},
-            {"key": "D", "text": "PAN"}
+            {
+                "key": "A",
+                "text": "LAN"
+            },
+            {
+                "key": "B",
+                "text": "MAN"
+            },
+            {
+                "key": "C",
+                "text": "WAN"
+            },
+            {
+                "key": "D",
+                "text": "PAN"
+            }
         ],
         "answer": "C",
         "reason": "Connecting offices across multiple countries (India, Germany, USA) requires a WAN (Wide Area Network), which spans large geographic distances — potentially thousands of kilometers. Such WANs typically use leased lines, MPLS circuits, or VPN tunnels over the public Internet to connect distant locations. A LAN would only cover a single office, a MAN would cover a city, and a PAN covers personal device range."
@@ -951,10 +1707,22 @@
         "difficulty": "easy",
         "question": "Which networking component is installed inside a computer to provide network connectivity?",
         "options": [
-            {"key": "A", "text": "NIC"},
-            {"key": "B", "text": "Router"},
-            {"key": "C", "text": "Bridge"},
-            {"key": "D", "text": "Firewall"}
+            {
+                "key": "A",
+                "text": "NIC"
+            },
+            {
+                "key": "B",
+                "text": "Router"
+            },
+            {
+                "key": "C",
+                "text": "Bridge"
+            },
+            {
+                "key": "D",
+                "text": "Firewall"
+            }
         ],
         "answer": "A",
         "reason": "A Network Interface Card (NIC) is a hardware component installed inside (or built into the motherboard of) a computer that provides the physical interface for connecting to a network. It has a unique burned-in MAC address and handles signal transmission/reception at the Physical and Data Link layers. Modern computers typically have both a wired Ethernet NIC and a wireless Wi-Fi NIC built into the motherboard."
@@ -966,10 +1734,22 @@
         "difficulty": "medium",
         "question": "Why are reference models such as OSI important in networking?",
         "options": [
-            {"key": "A", "text": "They eliminate the need for protocols"},
-            {"key": "B", "text": "They provide a standard framework for understanding network communication"},
-            {"key": "C", "text": "They replace network hardware"},
-            {"key": "D", "text": "They increase transmission speed automatically"}
+            {
+                "key": "A",
+                "text": "They eliminate the need for protocols"
+            },
+            {
+                "key": "B",
+                "text": "They provide a standard framework for understanding network communication"
+            },
+            {
+                "key": "C",
+                "text": "They replace network hardware"
+            },
+            {
+                "key": "D",
+                "text": "They increase transmission speed automatically"
+            }
         ],
         "answer": "B",
         "reason": "Reference models like OSI provide a standardized, layered framework that helps engineers, students, and vendors understand, design, troubleshoot, and discuss network communication using a common vocabulary. They don't replace protocols or hardware — instead, they organize networking concepts into logical layers, making it easier to develop interoperable products and diagnose problems by isolating which layer is causing an issue."
@@ -981,10 +1761,22 @@
         "difficulty": "medium",
         "question": "Which OSI layer is responsible for converting data into a format understandable by the receiving application?",
         "options": [
-            {"key": "A", "text": "Presentation"},
-            {"key": "B", "text": "Network"},
-            {"key": "C", "text": "Data Link"},
-            {"key": "D", "text": "Physical"}
+            {
+                "key": "A",
+                "text": "Presentation"
+            },
+            {
+                "key": "B",
+                "text": "Network"
+            },
+            {
+                "key": "C",
+                "text": "Data Link"
+            },
+            {
+                "key": "D",
+                "text": "Physical"
+            }
         ],
         "answer": "A",
         "reason": "The Presentation layer (Layer 6) serves as a translator between different data formats, ensuring that data sent by one system can be understood by the receiving application regardless of internal representation differences. It handles character encoding conversion (e.g., ASCII to Unicode), data compression to reduce bandwidth usage, and encryption/decryption for secure communication."
@@ -996,10 +1788,22 @@
         "difficulty": "easy",
         "question": "Which of the following is NOT a common benefit of computer networking?",
         "options": [
-            {"key": "A", "text": "Resource sharing"},
-            {"key": "B", "text": "Communication"},
-            {"key": "C", "text": "Collaboration"},
-            {"key": "D", "text": "Guaranteed security"}
+            {
+                "key": "A",
+                "text": "Resource sharing"
+            },
+            {
+                "key": "B",
+                "text": "Communication"
+            },
+            {
+                "key": "C",
+                "text": "Collaboration"
+            },
+            {
+                "key": "D",
+                "text": "Guaranteed security"
+            }
         ],
         "answer": "D",
         "reason": "While networking enables valuable benefits like resource sharing, communication, and collaboration, it does NOT automatically guarantee security. In fact, connecting devices to a network inherently introduces security risks such as unauthorized access, data interception, and malware propagation. Security must be actively implemented through firewalls, encryption, authentication, access controls, and regular patching — it is never an automatic byproduct of networking."
@@ -1011,10 +1815,22 @@
         "difficulty": "hard",
         "question": "Which statement is true regarding the relationship between OSI and TCP/IP models?",
         "options": [
-            {"key": "A", "text": "Both models have exactly the same layers"},
-            {"key": "B", "text": "TCP/IP is a protocol suite while OSI is primarily a reference model"},
-            {"key": "C", "text": "OSI is the protocol suite used by the Internet"},
-            {"key": "D", "text": "TCP/IP has more layers than OSI"}
+            {
+                "key": "A",
+                "text": "Both models have exactly the same layers"
+            },
+            {
+                "key": "B",
+                "text": "TCP/IP is a protocol suite while OSI is primarily a reference model"
+            },
+            {
+                "key": "C",
+                "text": "OSI is the protocol suite used by the Internet"
+            },
+            {
+                "key": "D",
+                "text": "TCP/IP has more layers than OSI"
+            }
         ],
         "answer": "B",
         "reason": "This is a critical distinction: TCP/IP is both a reference model AND an actual protocol suite with implemented protocols (IP, TCP, UDP, HTTP, etc.) that power the Internet. The OSI model, on the other hand, is primarily a conceptual reference framework — while OSI-defined protocols exist, they were never widely adopted. The Internet runs on TCP/IP protocols, and engineers use the OSI model as a teaching and troubleshooting tool."
@@ -1026,10 +1842,22 @@
         "difficulty": "medium",
         "question": "Which topology typically offers the simplest fault isolation process?",
         "options": [
-            {"key": "A", "text": "Bus"},
-            {"key": "B", "text": "Star"},
-            {"key": "C", "text": "Ring"},
-            {"key": "D", "text": "Full Mesh"}
+            {
+                "key": "A",
+                "text": "Bus"
+            },
+            {
+                "key": "B",
+                "text": "Star"
+            },
+            {
+                "key": "C",
+                "text": "Ring"
+            },
+            {
+                "key": "D",
+                "text": "Full Mesh"
+            }
         ],
         "answer": "B",
         "reason": "Star topology offers the simplest fault isolation because each device has its own dedicated cable to the central switch. If a device or cable fails, the switch can identify exactly which port has the issue — the rest of the network continues operating normally. In bus or ring topologies, a cable fault can be much harder to locate because it affects multiple devices, and the shared medium makes pinpointing the break difficult."
@@ -1041,10 +1869,22 @@
         "difficulty": "medium",
         "question": "During data reception, removing headers added during transmission is known as:",
         "options": [
-            {"key": "A", "text": "Encapsulation"},
-            {"key": "B", "text": "Fragmentation"},
-            {"key": "C", "text": "Decapsulation"},
-            {"key": "D", "text": "Multiplexing"}
+            {
+                "key": "A",
+                "text": "Encapsulation"
+            },
+            {
+                "key": "B",
+                "text": "Fragmentation"
+            },
+            {
+                "key": "C",
+                "text": "Decapsulation"
+            },
+            {
+                "key": "D",
+                "text": "Multiplexing"
+            }
         ],
         "answer": "C",
         "reason": "Decapsulation is the reverse of encapsulation — as received data moves up the protocol stack at the destination, each layer strips off its corresponding header (and trailer, at the Data Link layer) to extract the payload intended for the layer above. For example, the Data Link layer removes the frame header/trailer to extract the packet, the Network layer removes the IP header to extract the segment, and so on until the original application data is recovered."
@@ -1056,10 +1896,22 @@
         "difficulty": "easy",
         "question": "A network connecting personal devices such as a smartphone, smartwatch, and laptop over Bluetooth is best classified as a:",
         "options": [
-            {"key": "A", "text": "LAN"},
-            {"key": "B", "text": "PAN"},
-            {"key": "C", "text": "MAN"},
-            {"key": "D", "text": "WAN"}
+            {
+                "key": "A",
+                "text": "LAN"
+            },
+            {
+                "key": "B",
+                "text": "PAN"
+            },
+            {
+                "key": "C",
+                "text": "MAN"
+            },
+            {
+                "key": "D",
+                "text": "WAN"
+            }
         ],
         "answer": "B",
         "reason": "A PAN (Personal Area Network) covers a very small range — typically within 10 meters — and connects personal devices belonging to a single user. Bluetooth and Zigbee are common PAN technologies. Connecting a smartphone, smartwatch, and laptop via Bluetooth is the textbook example of a PAN, as the network is personal, short-range, and centered around one individual's devices."
@@ -1071,10 +1923,22 @@
         "difficulty": "easy",
         "question": "Which device is commonly used to connect a home network to the Internet?",
         "options": [
-            {"key": "A", "text": "Router"},
-            {"key": "B", "text": "NIC"},
-            {"key": "C", "text": "Repeater"},
-            {"key": "D", "text": "Bridge"}
+            {
+                "key": "A",
+                "text": "Router"
+            },
+            {
+                "key": "B",
+                "text": "NIC"
+            },
+            {
+                "key": "C",
+                "text": "Repeater"
+            },
+            {
+                "key": "D",
+                "text": "Bridge"
+            }
         ],
         "answer": "A",
         "reason": "A router is the device that connects a home's local network (LAN) to the Internet (WAN) by forwarding packets between the two networks using IP addressing. Modern home routers are actually multi-function devices that combine a router, switch, Wi-Fi access point, DHCP server, firewall, and sometimes a modem into a single box, providing comprehensive connectivity for all household devices."
@@ -1086,10 +1950,22 @@
         "difficulty": "medium",
         "question": "Which device operates at the OSI Data Link layer and can segment a network into multiple collision domains?",
         "options": [
-            {"key": "A", "text": "Hub"},
-            {"key": "B", "text": "Switch"},
-            {"key": "C", "text": "Repeater"},
-            {"key": "D", "text": "Modem"}
+            {
+                "key": "A",
+                "text": "Hub"
+            },
+            {
+                "key": "B",
+                "text": "Switch"
+            },
+            {
+                "key": "C",
+                "text": "Repeater"
+            },
+            {
+                "key": "D",
+                "text": "Modem"
+            }
         ],
         "answer": "B",
         "reason": "A switch operates at Layer 2 (Data Link layer) and creates separate collision domains for each port by learning MAC addresses and forwarding frames intelligently. When a frame arrives, the switch checks its MAC address table and sends the frame only to the appropriate port. Hubs and repeaters operate at Layer 1 and create a single shared collision domain, while modems convert between signal types."
@@ -1101,10 +1977,22 @@
         "difficulty": "easy",
         "question": "Which network type is generally owned and managed by a single organization?",
         "options": [
-            {"key": "A", "text": "WAN"},
-            {"key": "B", "text": "MAN"},
-            {"key": "C", "text": "LAN"},
-            {"key": "D", "text": "Internet"}
+            {
+                "key": "A",
+                "text": "WAN"
+            },
+            {
+                "key": "B",
+                "text": "MAN"
+            },
+            {
+                "key": "C",
+                "text": "LAN"
+            },
+            {
+                "key": "D",
+                "text": "Internet"
+            }
         ],
         "answer": "C",
         "reason": "A LAN (Local Area Network) is typically owned, managed, and maintained by a single organization within its premises — such as an office, school, or factory. The organization has full control over the hardware (switches, cables, access points), configuration, and security policies. WANs often rely on third-party telecommunication providers, MANs may be shared infrastructure, and the Internet is a global public network."
@@ -1116,10 +2004,22 @@
         "difficulty": "medium",
         "question": "WAN connections are commonly established using:",
         "options": [
-            {"key": "A", "text": "Telecommunication service providers"},
-            {"key": "B", "text": "Only Ethernet hubs"},
-            {"key": "C", "text": "USB cables"},
-            {"key": "D", "text": "Standalone NICs"}
+            {
+                "key": "A",
+                "text": "Telecommunication service providers"
+            },
+            {
+                "key": "B",
+                "text": "Only Ethernet hubs"
+            },
+            {
+                "key": "C",
+                "text": "USB cables"
+            },
+            {
+                "key": "D",
+                "text": "Standalone NICs"
+            }
         ],
         "answer": "A",
         "reason": "WANs commonly rely on telecommunication service providers (ISPs, telcos) because they require long-distance connectivity infrastructure — such as fiber optic backbone networks, undersea cables, microwave links, and satellite connections — that individual organizations typically cannot afford to build and maintain themselves. Providers offer services like leased lines, MPLS, broadband, and dedicated circuits for WAN connectivity."
@@ -1131,10 +2031,22 @@
         "difficulty": "medium",
         "question": "Which scenario is the best example of a MAN?",
         "options": [
-            {"key": "A", "text": "Computers in a laboratory"},
-            {"key": "B", "text": "A university network spanning an entire city"},
-            {"key": "C", "text": "Bluetooth devices in a room"},
-            {"key": "D", "text": "A personal hotspot network"}
+            {
+                "key": "A",
+                "text": "Computers in a laboratory"
+            },
+            {
+                "key": "B",
+                "text": "A university network spanning an entire city"
+            },
+            {
+                "key": "C",
+                "text": "Bluetooth devices in a room"
+            },
+            {
+                "key": "D",
+                "text": "A personal hotspot network"
+            }
         ],
         "answer": "B",
         "reason": "A university network spanning an entire city is the best example of a MAN (Metropolitan Area Network) — it connects multiple campus LANs across a metropolitan area, typically using high-speed fiber optic links. Computers in a laboratory represent a LAN, Bluetooth devices in a room form a PAN, and a personal hotspot is a mobile PAN. The geographic scope of a city is the defining characteristic of a MAN."
@@ -1146,10 +2058,22 @@
         "difficulty": "easy",
         "question": "In a star topology, if one workstation fails, what happens to the rest of the network?",
         "options": [
-            {"key": "A", "text": "Entire network fails"},
-            {"key": "B", "text": "Only the failed workstation is affected"},
-            {"key": "C", "text": "Half the network fails"},
-            {"key": "D", "text": "Communication speed doubles"}
+            {
+                "key": "A",
+                "text": "Entire network fails"
+            },
+            {
+                "key": "B",
+                "text": "Only the failed workstation is affected"
+            },
+            {
+                "key": "C",
+                "text": "Half the network fails"
+            },
+            {
+                "key": "D",
+                "text": "Communication speed doubles"
+            }
         ],
         "answer": "B",
         "reason": "In a star topology, each device has an independent, dedicated connection to the central switch — so the failure of one workstation only affects that specific workstation. All other devices continue communicating normally through the central switch. This is a major advantage of star topology over bus (where a cable break disrupts everything) and ring (where a node failure can break the loop) topologies."
@@ -1161,10 +2085,22 @@
         "difficulty": "medium",
         "question": "What is a major disadvantage of a bus topology?",
         "options": [
-            {"key": "A", "text": "High cabling cost"},
-            {"key": "B", "text": "No need for terminators"},
-            {"key": "C", "text": "Failure of the backbone cable affects the entire network"},
-            {"key": "D", "text": "Requires dedicated links between all nodes"}
+            {
+                "key": "A",
+                "text": "High cabling cost"
+            },
+            {
+                "key": "B",
+                "text": "No need for terminators"
+            },
+            {
+                "key": "C",
+                "text": "Failure of the backbone cable affects the entire network"
+            },
+            {
+                "key": "D",
+                "text": "Requires dedicated links between all nodes"
+            }
         ],
         "answer": "C",
         "reason": "The biggest disadvantage of bus topology is that the single backbone cable is a critical single point of failure — if it breaks or is damaged at any point, the entire network goes down because signals cannot travel past the break. Additionally, troubleshooting is difficult because the fault could be anywhere along the backbone. This vulnerability, combined with performance degradation as more devices are added, led to bus topology being replaced by star topology."
@@ -1176,10 +2112,22 @@
         "difficulty": "medium",
         "question": "Which characteristic is commonly associated with ring topology?",
         "options": [
-            {"key": "A", "text": "Central switch required"},
-            {"key": "B", "text": "Data travels in a circular path"},
-            {"key": "C", "text": "Uses a shared backbone cable"},
-            {"key": "D", "text": "All nodes connect directly to every other node"}
+            {
+                "key": "A",
+                "text": "Central switch required"
+            },
+            {
+                "key": "B",
+                "text": "Data travels in a circular path"
+            },
+            {
+                "key": "C",
+                "text": "Uses a shared backbone cable"
+            },
+            {
+                "key": "D",
+                "text": "All nodes connect directly to every other node"
+            }
         ],
         "answer": "B",
         "reason": "The defining characteristic of a ring topology is that data travels in a circular (unidirectional or bidirectional) path through the network — each device receives data from its upstream neighbor, processes or forwards it, and sends it to its downstream neighbor. This continues around the ring until the data reaches its destination. Token Ring networks used a token-passing mechanism on this circular path to control access."
@@ -1191,10 +2139,22 @@
         "difficulty": "hard",
         "question": "How many direct links are required in a full mesh network of 8 devices?",
         "options": [
-            {"key": "A", "text": "24"},
-            {"key": "B", "text": "28"},
-            {"key": "C", "text": "32"},
-            {"key": "D", "text": "36"}
+            {
+                "key": "A",
+                "text": "24"
+            },
+            {
+                "key": "B",
+                "text": "28"
+            },
+            {
+                "key": "C",
+                "text": "32"
+            },
+            {
+                "key": "D",
+                "text": "36"
+            }
         ],
         "answer": "B",
         "reason": "Using the full mesh formula n(n-1)/2, where n = 8 devices: 8×7/2 = 28 direct links. Each device needs 7 connections (one to every other device), giving 8×7 = 56 connection endpoints, but since each link connects two devices, we divide by 2 to avoid counting each link twice. This rapid growth in required links (exponential scaling) is why full mesh is practical only for small numbers of critical nodes."
@@ -1206,10 +2166,22 @@
         "difficulty": "easy",
         "question": "Which OSI layer handles physical addressing using MAC addresses?",
         "options": [
-            {"key": "A", "text": "Data Link"},
-            {"key": "B", "text": "Network"},
-            {"key": "C", "text": "Transport"},
-            {"key": "D", "text": "Session"}
+            {
+                "key": "A",
+                "text": "Data Link"
+            },
+            {
+                "key": "B",
+                "text": "Network"
+            },
+            {
+                "key": "C",
+                "text": "Transport"
+            },
+            {
+                "key": "D",
+                "text": "Session"
+            }
         ],
         "answer": "A",
         "reason": "The Data Link layer (Layer 2) uses MAC (Media Access Control) addresses — 48-bit hardware addresses burned into each NIC — for physical addressing within a local network segment. While the Network layer uses logical IP addresses for inter-network routing, the Data Link layer uses MAC addresses to identify the source and destination devices on the same local network (LAN), ensuring frames reach the correct device on that segment."
@@ -1221,10 +2193,22 @@
         "difficulty": "medium",
         "question": "Which OSI layer is responsible for reliable end-to-end delivery of data?",
         "options": [
-            {"key": "A", "text": "Physical"},
-            {"key": "B", "text": "Network"},
-            {"key": "C", "text": "Transport"},
-            {"key": "D", "text": "Presentation"}
+            {
+                "key": "A",
+                "text": "Physical"
+            },
+            {
+                "key": "B",
+                "text": "Network"
+            },
+            {
+                "key": "C",
+                "text": "Transport"
+            },
+            {
+                "key": "D",
+                "text": "Presentation"
+            }
         ],
         "answer": "C",
         "reason": "The Transport layer (Layer 4) is responsible for reliable end-to-end data delivery between the source and destination hosts. TCP provides this reliability through mechanisms like sequence numbers, acknowledgments, retransmission of lost segments, flow control (sliding window), and congestion control. The Network layer provides best-effort delivery but does not guarantee that packets arrive in order, without duplication, or at all."
@@ -1236,10 +2220,22 @@
         "difficulty": "medium",
         "question": "Which OSI layer is responsible for establishing a communication session between applications?",
         "options": [
-            {"key": "A", "text": "Session"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Network"},
-            {"key": "D", "text": "Physical"}
+            {
+                "key": "A",
+                "text": "Session"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Network"
+            },
+            {
+                "key": "D",
+                "text": "Physical"
+            }
         ],
         "answer": "A",
         "reason": "The Session layer (Layer 5) manages communication sessions between applications — it establishes the connection, maintains it during data exchange, and terminates it when finished. It also handles synchronization (inserting checkpoints in long transfers so data can be recovered from the last checkpoint if interrupted) and dialog control (determining whether communication is half-duplex or full-duplex)."
@@ -1251,10 +2247,22 @@
         "difficulty": "hard",
         "question": "A frame arrives with an incorrect CRC value. Which OSI layer detects this error?",
         "options": [
-            {"key": "A", "text": "Application"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Data Link"},
-            {"key": "D", "text": "Network"}
+            {
+                "key": "A",
+                "text": "Application"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Data Link"
+            },
+            {
+                "key": "D",
+                "text": "Network"
+            }
         ],
         "answer": "C",
         "reason": "CRC (Cyclic Redundancy Check) is an error detection mechanism used at the Data Link layer (Layer 2). The sender computes a CRC value based on the frame contents and appends it as a trailer. The receiver recalculates the CRC on the received frame — if the values don't match, the frame is considered corrupted and is typically discarded. This provides hop-by-hop error detection, unlike Transport layer error checking which is end-to-end."
@@ -1266,10 +2274,22 @@
         "difficulty": "easy",
         "question": "Which TCP/IP layer contains protocols used directly by end-user applications?",
         "options": [
-            {"key": "A", "text": "Application"},
-            {"key": "B", "text": "Internet"},
-            {"key": "C", "text": "Transport"},
-            {"key": "D", "text": "Network Access"}
+            {
+                "key": "A",
+                "text": "Application"
+            },
+            {
+                "key": "B",
+                "text": "Internet"
+            },
+            {
+                "key": "C",
+                "text": "Transport"
+            },
+            {
+                "key": "D",
+                "text": "Network Access"
+            }
         ],
         "answer": "A",
         "reason": "The Application layer of the TCP/IP model contains protocols that end-user applications interact with directly — HTTP for web browsing, SMTP/POP3/IMAP for email, FTP for file transfer, DNS for name resolution, SSH for secure remote access, and many others. This layer combines the functionality of the OSI Application, Presentation, and Session layers into a single comprehensive layer."
@@ -1281,10 +2301,22 @@
         "difficulty": "medium",
         "question": "Which TCP/IP layer corresponds most closely to the OSI Transport layer?",
         "options": [
-            {"key": "A", "text": "Application"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Internet"},
-            {"key": "D", "text": "Network Access"}
+            {
+                "key": "A",
+                "text": "Application"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Internet"
+            },
+            {
+                "key": "D",
+                "text": "Network Access"
+            }
         ],
         "answer": "B",
         "reason": "The Transport layer is one of the layers that maps directly between both models with the same name and virtually identical functionality. In both models, this layer provides end-to-end communication services, including segmentation, flow control, and error recovery. The TCP/IP Transport layer hosts TCP (reliable, connection-oriented) and UDP (unreliable, connectionless), which are the two most widely used transport protocols on the Internet."
@@ -1296,10 +2328,22 @@
         "difficulty": "medium",
         "question": "Which of the following protocols operates at the Transport layer of both the OSI and TCP/IP models?",
         "options": [
-            {"key": "A", "text": "IP"},
-            {"key": "B", "text": "TCP"},
-            {"key": "C", "text": "HTTP"},
-            {"key": "D", "text": "Ethernet"}
+            {
+                "key": "A",
+                "text": "IP"
+            },
+            {
+                "key": "B",
+                "text": "TCP"
+            },
+            {
+                "key": "C",
+                "text": "HTTP"
+            },
+            {
+                "key": "D",
+                "text": "Ethernet"
+            }
         ],
         "answer": "B",
         "reason": "TCP (Transmission Control Protocol) operates at the Transport layer in both the OSI and TCP/IP models, providing reliable, connection-oriented, byte-stream delivery with features like three-way handshake, sequencing, acknowledgments, and congestion control. IP operates at the Network/Internet layer, HTTP at the Application layer, and Ethernet at the Data Link/Network Access layer."
@@ -1311,10 +2355,22 @@
         "difficulty": "hard",
         "question": "Which OSI layers are combined into the TCP/IP Network Access layer?",
         "options": [
-            {"key": "A", "text": "Application and Presentation"},
-            {"key": "B", "text": "Transport and Session"},
-            {"key": "C", "text": "Physical and Data Link"},
-            {"key": "D", "text": "Network and Transport"}
+            {
+                "key": "A",
+                "text": "Application and Presentation"
+            },
+            {
+                "key": "B",
+                "text": "Transport and Session"
+            },
+            {
+                "key": "C",
+                "text": "Physical and Data Link"
+            },
+            {
+                "key": "D",
+                "text": "Network and Transport"
+            }
         ],
         "answer": "C",
         "reason": "The TCP/IP Network Access layer (also called the Link or Host-to-Network layer) combines the OSI Physical layer (cable specifications, signal encoding, bit transmission) and Data Link layer (framing, MAC addressing, error detection, media access control) into a single layer. This simplification reflects the TCP/IP philosophy that the details of physical transmission and local network access are implementation-specific and can be treated as one layer."
@@ -1326,10 +2382,22 @@
         "difficulty": "medium",
         "question": "What is the primary purpose of a reference model?",
         "options": [
-            {"key": "A", "text": "To replace networking protocols"},
-            {"key": "B", "text": "To standardize communication concepts and functions"},
-            {"key": "C", "text": "To increase bandwidth"},
-            {"key": "D", "text": "To eliminate routers"}
+            {
+                "key": "A",
+                "text": "To replace networking protocols"
+            },
+            {
+                "key": "B",
+                "text": "To standardize communication concepts and functions"
+            },
+            {
+                "key": "C",
+                "text": "To increase bandwidth"
+            },
+            {
+                "key": "D",
+                "text": "To eliminate routers"
+            }
         ],
         "answer": "B",
         "reason": "A reference model's primary purpose is to provide a standardized, structured framework that defines and organizes the concepts, functions, and interfaces involved in network communication. It creates a common language for engineers, vendors, and educators to discuss networking consistently. Reference models don't directly replace protocols, increase bandwidth, or eliminate hardware — they guide the design of protocols and help in systematic troubleshooting."
@@ -1341,10 +2409,22 @@
         "difficulty": "medium",
         "question": "Which device forwards traffic based on IP addresses?",
         "options": [
-            {"key": "A", "text": "Hub"},
-            {"key": "B", "text": "Switch"},
-            {"key": "C", "text": "Router"},
-            {"key": "D", "text": "Repeater"}
+            {
+                "key": "A",
+                "text": "Hub"
+            },
+            {
+                "key": "B",
+                "text": "Switch"
+            },
+            {
+                "key": "C",
+                "text": "Router"
+            },
+            {
+                "key": "D",
+                "text": "Repeater"
+            }
         ],
         "answer": "C",
         "reason": "A router forwards traffic based on IP (logical) addresses by examining the destination IP address in each packet header and consulting its routing table to determine the best next-hop interface. Hubs and repeaters work at Layer 1 and don't examine addresses at all, while switches forward based on MAC (physical) addresses at Layer 2. This distinction between Layer 2 (MAC) and Layer 3 (IP) forwarding is fundamental in networking."
@@ -1356,10 +2436,22 @@
         "difficulty": "medium",
         "question": "Which device primarily uses MAC address tables to forward frames?",
         "options": [
-            {"key": "A", "text": "Switch"},
-            {"key": "B", "text": "Router"},
-            {"key": "C", "text": "Gateway"},
-            {"key": "D", "text": "Modem"}
+            {
+                "key": "A",
+                "text": "Switch"
+            },
+            {
+                "key": "B",
+                "text": "Router"
+            },
+            {
+                "key": "C",
+                "text": "Gateway"
+            },
+            {
+                "key": "D",
+                "text": "Modem"
+            }
         ],
         "answer": "A",
         "reason": "Switches maintain MAC address tables (also called CAM tables — Content Addressable Memory) that map each MAC address to the physical port where that device is connected. When a frame arrives, the switch looks up the destination MAC address in this table and forwards the frame only through the matching port. The switch builds this table dynamically by learning source MAC addresses from incoming frames — a process called MAC address learning."
@@ -1371,10 +2463,22 @@
         "difficulty": "medium",
         "question": "Which topology provides the highest redundancy but requires the most cabling?",
         "options": [
-            {"key": "A", "text": "Bus"},
-            {"key": "B", "text": "Ring"},
-            {"key": "C", "text": "Star"},
-            {"key": "D", "text": "Mesh"}
+            {
+                "key": "A",
+                "text": "Bus"
+            },
+            {
+                "key": "B",
+                "text": "Ring"
+            },
+            {
+                "key": "C",
+                "text": "Star"
+            },
+            {
+                "key": "D",
+                "text": "Mesh"
+            }
         ],
         "answer": "D",
         "reason": "Full mesh topology provides the highest redundancy because every device has a direct link to every other device, creating multiple alternative paths for data if any link fails. However, this comes at the cost of requiring n(n-1)/2 cables — for just 10 devices, that's 45 separate links. This exponential growth in cabling makes full mesh impractical for large networks, which is why partial mesh (connecting only critical nodes) is more commonly used."
@@ -1386,10 +2490,22 @@
         "difficulty": "easy",
         "question": "Sharing a printer among multiple computers is an example of:",
         "options": [
-            {"key": "A", "text": "Resource sharing"},
-            {"key": "B", "text": "Routing"},
-            {"key": "C", "text": "Encryption"},
-            {"key": "D", "text": "Segmentation"}
+            {
+                "key": "A",
+                "text": "Resource sharing"
+            },
+            {
+                "key": "B",
+                "text": "Routing"
+            },
+            {
+                "key": "C",
+                "text": "Encryption"
+            },
+            {
+                "key": "D",
+                "text": "Segmentation"
+            }
         ],
         "answer": "A",
         "reason": "Sharing a printer among multiple computers is a classic example of resource sharing — one of the fundamental benefits of computer networking. Instead of buying a separate printer for each computer, the printer is connected to the network and shared by all users, reducing hardware costs and improving resource utilization. Other examples include shared storage drives, internet connections, and application servers."
@@ -1401,10 +2517,22 @@
         "difficulty": "medium",
         "question": "Which layer receives data from the Application layer before passing it further down the OSI stack?",
         "options": [
-            {"key": "A", "text": "Presentation"},
-            {"key": "B", "text": "Transport"},
-            {"key": "C", "text": "Network"},
-            {"key": "D", "text": "Physical"}
+            {
+                "key": "A",
+                "text": "Presentation"
+            },
+            {
+                "key": "B",
+                "text": "Transport"
+            },
+            {
+                "key": "C",
+                "text": "Network"
+            },
+            {
+                "key": "D",
+                "text": "Physical"
+            }
         ],
         "answer": "A",
         "reason": "The Presentation layer (Layer 6) sits directly below the Application layer (Layer 7) in the OSI model and is the first layer to receive data as it moves down the stack. It processes the data by handling format translation, encryption, and compression before passing it to the Session layer (Layer 5) below. The sequential layer order — Application → Presentation → Session → Transport → Network → Data Link → Physical — is essential knowledge for understanding data flow."
@@ -1416,10 +2544,22 @@
         "difficulty": "hard",
         "question": "Which sequence correctly represents the top three layers of the OSI model from highest to lowest?",
         "options": [
-            {"key": "A", "text": "Application, Presentation, Session"},
-            {"key": "B", "text": "Application, Session, Presentation"},
-            {"key": "C", "text": "Presentation, Application, Session"},
-            {"key": "D", "text": "Session, Presentation, Application"}
+            {
+                "key": "A",
+                "text": "Application, Presentation, Session"
+            },
+            {
+                "key": "B",
+                "text": "Application, Session, Presentation"
+            },
+            {
+                "key": "C",
+                "text": "Presentation, Application, Session"
+            },
+            {
+                "key": "D",
+                "text": "Session, Presentation, Application"
+            }
         ],
         "answer": "A",
         "reason": "The correct order of the top three OSI layers from highest (Layer 7) to lowest (Layer 5) is: Application (7), Presentation (6), Session (5). A common mnemonic for all seven layers top-to-bottom is 'All People Seem To Need Data Processing' (Application, Presentation, Session, Transport, Network, Data Link, Physical). These three upper layers are often called the 'host layers' as they deal with application-level functions."
@@ -1431,10 +2571,22 @@
         "difficulty": "medium",
         "question": "Which of the following is a key function of the TCP/IP Application layer?",
         "options": [
-            {"key": "A", "text": "Logical addressing and routing"},
-            {"key": "B", "text": "Providing end-to-end data delivery"},
-            {"key": "C", "text": "Providing protocols for web browsing and email transfer"},
-            {"key": "D", "text": "Handling physical node-to-node signal transmission"}
+            {
+                "key": "A",
+                "text": "Logical addressing and routing"
+            },
+            {
+                "key": "B",
+                "text": "Providing end-to-end data delivery"
+            },
+            {
+                "key": "C",
+                "text": "Providing protocols for web browsing and email transfer"
+            },
+            {
+                "key": "D",
+                "text": "Handling physical node-to-node signal transmission"
+            }
         ],
         "answer": "C",
         "reason": "The TCP/IP Application layer provides high-level protocols that applications use for network services — HTTP/HTTPS for web browsing, SMTP for sending email, POP3/IMAP for receiving email, FTP for file transfer, DNS for domain name resolution, and SSH for secure remote access. Logical addressing belongs to the Internet layer, end-to-end delivery to the Transport layer, and physical signal transmission to the Network Access layer."
@@ -1446,10 +2598,22 @@
         "difficulty": "hard",
         "question": "If a network topology has n nodes, what is the formula to calculate the number of physical links required in a full mesh?",
         "options": [
-            {"key": "A", "text": "n(n+1)/2"},
-            {"key": "B", "text": "n(n-1)/2"},
-            {"key": "C", "text": "n - 1"},
-            {"key": "D", "text": "n^2"}
+            {
+                "key": "A",
+                "text": "n(n+1)/2"
+            },
+            {
+                "key": "B",
+                "text": "n(n-1)/2"
+            },
+            {
+                "key": "C",
+                "text": "n - 1"
+            },
+            {
+                "key": "D",
+                "text": "n^2"
+            }
         ],
         "answer": "B",
         "reason": "The formula for the number of links in a full mesh topology is n(n-1)/2, where n is the number of nodes. This is derived from the combination formula C(n,2) — the number of ways to choose 2 endpoints from n nodes. Each node needs (n-1) connections, giving n(n-1) total endpoints, but dividing by 2 avoids counting each bidirectional link twice. For example: 4 nodes need 4×3/2 = 6 links, 10 nodes need 10×9/2 = 45 links."
@@ -1461,10 +2625,22 @@
         "difficulty": "medium",
         "question": "Which model is generally considered easier to understand for educational purposes because of its layered detail?",
         "options": [
-            {"key": "A", "text": "TCP/IP"},
-            {"key": "B", "text": "OSI"},
-            {"key": "C", "text": "Ethernet"},
-            {"key": "D", "text": "IEEE 802.11"}
+            {
+                "key": "A",
+                "text": "TCP/IP"
+            },
+            {
+                "key": "B",
+                "text": "OSI"
+            },
+            {
+                "key": "C",
+                "text": "Ethernet"
+            },
+            {
+                "key": "D",
+                "text": "IEEE 802.11"
+            }
         ],
         "answer": "B",
         "reason": "The OSI model is widely preferred for educational purposes because its seven distinct layers provide more granular separation of networking functions — each layer has a clear, well-defined purpose. This detailed structure helps students understand concepts like encapsulation, peer communication, and protocol layering more easily. The TCP/IP model's four broader layers, while more practical, combine too many functions per layer for effective teaching."
@@ -1476,10 +2652,22 @@
         "difficulty": "medium",
         "question": "Which Protocol Data Unit (PDU) is formed when the Data Link layer encapsulates a packet from the Network layer?",
         "options": [
-            {"key": "A", "text": "Segment"},
-            {"key": "B", "text": "Frame"},
-            {"key": "C", "text": "Packet"},
-            {"key": "D", "text": "Bit"}
+            {
+                "key": "A",
+                "text": "Segment"
+            },
+            {
+                "key": "B",
+                "text": "Frame"
+            },
+            {
+                "key": "C",
+                "text": "Packet"
+            },
+            {
+                "key": "D",
+                "text": "Bit"
+            }
         ],
         "answer": "B",
         "reason": "When the Data Link layer receives a packet from the Network layer above, it encapsulates it by adding a Data Link header (containing source and destination MAC addresses, protocol type) and a trailer (containing a CRC checksum for error detection), forming a frame. The frame is the PDU of the Data Link layer. It is then passed to the Physical layer, which transmits it as a stream of bits over the physical medium."
@@ -1491,10 +2679,22 @@
         "difficulty": "easy",
         "question": "Which of the following is NOT a network topology?",
         "options": [
-            {"key": "A", "text": "Star"},
-            {"key": "B", "text": "Ring"},
-            {"key": "C", "text": "Mesh"},
-            {"key": "D", "text": "Binary"}
+            {
+                "key": "A",
+                "text": "Star"
+            },
+            {
+                "key": "B",
+                "text": "Ring"
+            },
+            {
+                "key": "C",
+                "text": "Mesh"
+            },
+            {
+                "key": "D",
+                "text": "Binary"
+            }
         ],
         "answer": "D",
         "reason": "Binary is a base-2 numbering system (using digits 0 and 1) used in computing to represent data — it is not a network topology. Star, Ring, and Mesh are all recognized network topologies that describe how devices are physically or logically arranged and connected. Other valid topologies include Bus, Tree (hierarchical star), and Hybrid, but Binary refers exclusively to a number representation system."
