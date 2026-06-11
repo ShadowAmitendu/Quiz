@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "easy",
+        "question": "What is the primary purpose of career planning?",
+        "options": [
+            {
+                "key": "A",
+                "text": "To avoid changing jobs"
+            },
+            {
+                "key": "B",
+                "text": "To achieve career goals through structured planning"
+            },
+            {
+                "key": "C",
+                "text": "To increase company profits"
+            },
+            {
+                "key": "D",
+                "text": "To reduce educational requirements"
+            }
+        ],
+        "answer": "B",
+        "reason": "Career planning helps individuals identify goals and create strategies to achieve professional success."
+    },
+    {
+        "id": 2,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "easy",
+        "question": "Which of the following is considered the starting point of career planning?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Job application"
+            },
+            {
+                "key": "B",
+                "text": "Self-assessment"
+            },
+            {
+                "key": "C",
+                "text": "Interview preparation"
+            },
+            {
+                "key": "D",
+                "text": "Salary negotiation"
+            }
+        ],
+        "answer": "B",
+        "reason": "Career planning begins with self-assessment to understand interests, strengths, and values."
+    },
+    {
+        "id": 3,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning Fundamentals",
+        "difficulty": "easy",
+        "question": "Which factor is most important during self-assessment?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Company revenue"
+            },
+            {
+                "key": "B",
+                "text": "Personal interests and abilities"
+            },
+            {
+                "key": "C",
+                "text": "Competitor analysis"
+            },
+            {
+                "key": "D",
+                "text": "Market share"
+            }
+        ],
+        "answer": "B",
+        "reason": "Understanding personal interests and abilities helps individuals choose suitable career paths."
+    },
+    {
+        "id": 4,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning Fundamentals",
+        "difficulty": "easy",
+        "question": "A career goal should ideally be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Unclear"
+            },
+            {
+                "key": "B",
+                "text": "Flexible but undefined"
+            },
+            {
+                "key": "C",
+                "text": "Specific and achievable"
+            },
+            {
+                "key": "D",
+                "text": "Based only on salary"
+            }
+        ],
+        "answer": "C",
+        "reason": "Effective career goals are specific, realistic, and measurable."
+    },
+    {
+        "id": 5,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Who developed the concept of Career Anchors?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Edgar Schein"
+            },
+            {
+                "key": "B",
+                "text": "Abraham Maslow"
+            },
+            {
+                "key": "C",
+                "text": "John Holland"
+            },
+            {
+                "key": "D",
+                "text": "Peter Drucker"
+            }
+        ],
+        "answer": "A",
+        "reason": "Edgar Schein introduced the concept of career anchors to explain career motivations."
+    },
+    {
+        "id": 6,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Career anchors primarily represent a person's:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Salary expectations"
+            },
+            {
+                "key": "B",
+                "text": "Core values, motives, and talents"
+            },
+            {
+                "key": "C",
+                "text": "Educational qualifications"
+            },
+            {
+                "key": "D",
+                "text": "Work location preferences"
+            }
+        ],
+        "answer": "B",
+        "reason": "Career anchors reflect an individual's self-concept, values, motives, and abilities."
+    },
+    {
+        "id": 7,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Which career anchor emphasizes becoming an expert in a specific field?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Technical/Functional Competence"
+            },
+            {
+                "key": "B",
+                "text": "Autonomy"
+            },
+            {
+                "key": "C",
+                "text": "Lifestyle"
+            },
+            {
+                "key": "D",
+                "text": "Service"
+            }
+        ],
+        "answer": "A",
+        "reason": "Technical/Functional Competence focuses on expertise and specialization."
+    },
+    {
+        "id": 8,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "An individual preferring freedom in work decisions is likely guided by which career anchor?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Security"
+            },
+            {
+                "key": "B",
+                "text": "Autonomy/Independence"
+            },
+            {
+                "key": "C",
+                "text": "General Management"
+            },
+            {
+                "key": "D",
+                "text": "Service"
+            }
+        ],
+        "answer": "B",
+        "reason": "Autonomy/Independence reflects a desire for freedom and self-direction."
+    },
+    {
+        "id": 9,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Which career anchor values job stability and long-term employment?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Entrepreneurial Creativity"
+            },
+            {
+                "key": "B",
+                "text": "Pure Challenge"
+            },
+            {
+                "key": "C",
+                "text": "Security/Stability"
+            },
+            {
+                "key": "D",
+                "text": "Lifestyle"
+            }
+        ],
+        "answer": "C",
+        "reason": "Security/Stability focuses on predictable employment and financial security."
+    },
+    {
+        "id": 10,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Entrepreneurial Creativity as a career anchor is associated with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Following instructions strictly"
+            },
+            {
+                "key": "B",
+                "text": "Creating new ventures or products"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding risks"
+            },
+            {
+                "key": "D",
+                "text": "Maintaining status quo"
+            }
+        ],
+        "answer": "B",
+        "reason": "Entrepreneurial individuals enjoy innovation and creating new opportunities."
+    },
+    {
+        "id": 11,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "The Service/Dedication career anchor emphasizes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Financial gain"
+            },
+            {
+                "key": "B",
+                "text": "Helping society and contributing to a cause"
+            },
+            {
+                "key": "C",
+                "text": "Competition"
+            },
+            {
+                "key": "D",
+                "text": "Authority"
+            }
+        ],
+        "answer": "B",
+        "reason": "People with this anchor are motivated by making meaningful contributions."
+    },
+    {
+        "id": 12,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Which career anchor seeks difficult problems and continuous challenges?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Pure Challenge"
+            },
+            {
+                "key": "B",
+                "text": "Security"
+            },
+            {
+                "key": "C",
+                "text": "Lifestyle"
+            },
+            {
+                "key": "D",
+                "text": "Autonomy"
+            }
+        ],
+        "answer": "A",
+        "reason": "Pure Challenge is driven by solving difficult and competitive tasks."
+    },
+    {
+        "id": 13,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Lifestyle career anchor focuses on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Work-life balance"
+            },
+            {
+                "key": "B",
+                "text": "Technical mastery"
+            },
+            {
+                "key": "C",
+                "text": "Job security only"
+            },
+            {
+                "key": "D",
+                "text": "Management positions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Lifestyle-oriented individuals seek balance between work and personal life."
+    },
+    {
+        "id": 14,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "easy",
+        "question": "Behavioural models are used to understand:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Economic trends"
+            },
+            {
+                "key": "B",
+                "text": "Human behavior and decision-making"
+            },
+            {
+                "key": "C",
+                "text": "Company profits"
+            },
+            {
+                "key": "D",
+                "text": "Tax policies"
+            }
+        ],
+        "answer": "B",
+        "reason": "Behavioural models explain how individuals act, react, and make decisions."
+    },
+    {
+        "id": 15,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "easy",
+        "question": "Behavioural models help organizations in:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understanding employee behavior"
+            },
+            {
+                "key": "B",
+                "text": "Producing machinery"
+            },
+            {
+                "key": "C",
+                "text": "Tax auditing"
+            },
+            {
+                "key": "D",
+                "text": "Stock trading"
+            }
+        ],
+        "answer": "A",
+        "reason": "Organizations use behavioural models to understand and manage workplace behavior."
+    },
+    {
+        "id": 16,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Which factor strongly influences workplace behavior?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Personality"
+            },
+            {
+                "key": "B",
+                "text": "Building architecture"
+            },
+            {
+                "key": "C",
+                "text": "Weather conditions"
+            },
+            {
+                "key": "D",
+                "text": "Office furniture"
+            }
+        ],
+        "answer": "A",
+        "reason": "Personality significantly affects communication, decision-making, and workplace interactions."
+    },
+    {
+        "id": 17,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Positive workplace behavior generally leads to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reduced productivity"
+            },
+            {
+                "key": "B",
+                "text": "Improved teamwork and performance"
+            },
+            {
+                "key": "C",
+                "text": "Increased conflicts"
+            },
+            {
+                "key": "D",
+                "text": "Employee turnover"
+            }
+        ],
+        "answer": "B",
+        "reason": "Positive behaviors support collaboration, productivity, and organizational success."
+    },
+    {
+        "id": 18,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Adaptability in behavior refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Resisting change"
+            },
+            {
+                "key": "B",
+                "text": "Adjusting effectively to new situations"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding responsibility"
+            },
+            {
+                "key": "D",
+                "text": "Working alone"
+            }
+        ],
+        "answer": "B",
+        "reason": "Adaptability is the ability to respond positively to changing circumstances."
+    },
+    {
+        "id": 19,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Which behavioral trait is most associated with effective teamwork?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Communication"
+            },
+            {
+                "key": "B",
+                "text": "Isolation"
+            },
+            {
+                "key": "C",
+                "text": "Stubbornness"
+            },
+            {
+                "key": "D",
+                "text": "Avoidance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Communication is essential for collaboration and coordination among team members."
+    },
+    {
+        "id": 20,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Leadership behavior primarily involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Avoiding decisions"
+            },
+            {
+                "key": "B",
+                "text": "Influencing and guiding others"
+            },
+            {
+                "key": "C",
+                "text": "Working independently only"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring feedback"
+            }
+        ],
+        "answer": "B",
+        "reason": "Leadership focuses on motivating and directing people toward common goals."
+    },
+    {
+        "id": 21,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "easy",
+        "question": "Personality typology refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Classification of personality traits"
+            },
+            {
+                "key": "B",
+                "text": "Financial planning"
+            },
+            {
+                "key": "C",
+                "text": "Marketing analysis"
+            },
+            {
+                "key": "D",
+                "text": "Business forecasting"
+            }
+        ],
+        "answer": "A",
+        "reason": "Personality typology categorizes people based on common behavioral characteristics."
+    },
+    {
+        "id": 22,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Who developed the RIASEC personality model?",
+        "options": [
+            {
+                "key": "A",
+                "text": "John Holland"
+            },
+            {
+                "key": "B",
+                "text": "Edgar Schein"
+            },
+            {
+                "key": "C",
+                "text": "Sigmund Freud"
+            },
+            {
+                "key": "D",
+                "text": "Peter Drucker"
+            }
+        ],
+        "answer": "A",
+        "reason": "John Holland developed the RIASEC model for career and personality matching."
+    },
+    {
+        "id": 23,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "In Holland's model, 'R' stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Responsible"
+            },
+            {
+                "key": "B",
+                "text": "Realistic"
+            },
+            {
+                "key": "C",
+                "text": "Reflective"
+            },
+            {
+                "key": "D",
+                "text": "Reliable"
+            }
+        ],
+        "answer": "B",
+        "reason": "Realistic individuals prefer practical and hands-on activities."
+    },
+    {
+        "id": 24,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Which RIASEC type enjoys research and analytical tasks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Investigative"
+            },
+            {
+                "key": "B",
+                "text": "Conventional"
+            },
+            {
+                "key": "C",
+                "text": "Enterprising"
+            },
+            {
+                "key": "D",
+                "text": "Social"
+            }
+        ],
+        "answer": "A",
+        "reason": "Investigative personalities enjoy analysis, observation, and problem-solving."
+    },
+    {
+        "id": 25,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "The Artistic personality type is characterized by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Creativity and self-expression"
+            },
+            {
+                "key": "B",
+                "text": "Routine work"
+            },
+            {
+                "key": "C",
+                "text": "Data entry"
+            },
+            {
+                "key": "D",
+                "text": "Strict procedures"
+            }
+        ],
+        "answer": "A",
+        "reason": "Artistic individuals prefer creative and innovative activities."
+    },
+    {
+        "id": 26,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Which personality type enjoys helping and teaching others?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Social"
+            },
+            {
+                "key": "B",
+                "text": "Realistic"
+            },
+            {
+                "key": "C",
+                "text": "Conventional"
+            },
+            {
+                "key": "D",
+                "text": "Investigative"
+            }
+        ],
+        "answer": "A",
+        "reason": "Social personalities enjoy interaction, support, and service-oriented roles."
+    },
+    {
+        "id": 27,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Enterprising personalities are commonly associated with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Leadership and persuasion"
+            },
+            {
+                "key": "B",
+                "text": "Laboratory research"
+            },
+            {
+                "key": "C",
+                "text": "Art creation"
+            },
+            {
+                "key": "D",
+                "text": "Technical maintenance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Enterprising individuals enjoy influencing others and taking leadership roles."
+    },
+    {
+        "id": 28,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Conventional personalities generally prefer:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Structured and organized tasks"
+            },
+            {
+                "key": "B",
+                "text": "Creative freedom"
+            },
+            {
+                "key": "C",
+                "text": "Adventure sports"
+            },
+            {
+                "key": "D",
+                "text": "Scientific experiments"
+            }
+        ],
+        "answer": "A",
+        "reason": "Conventional individuals prefer order, accuracy, and systematic work."
+    },
+    {
+        "id": 29,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Person-job fit refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Matching personality with suitable careers"
+            },
+            {
+                "key": "B",
+                "text": "Matching salaries with inflation"
+            },
+            {
+                "key": "C",
+                "text": "Matching office size with workforce"
+            },
+            {
+                "key": "D",
+                "text": "Matching products with customers"
+            }
+        ],
+        "answer": "A",
+        "reason": "Person-job fit improves satisfaction and performance by aligning careers with personality."
+    },
+    {
+        "id": 30,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Understanding personality type helps in:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career decision-making"
+            },
+            {
+                "key": "B",
+                "text": "Tax calculation"
+            },
+            {
+                "key": "C",
+                "text": "Inventory control"
+            },
+            {
+                "key": "D",
+                "text": "Machine operation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Knowledge of personality traits helps individuals select suitable career paths."
+    },
+    {
+        "id": 31,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "easy",
+        "question": "Which step generally follows self-assessment in career planning?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career exploration"
+            },
+            {
+                "key": "B",
+                "text": "Retirement"
+            },
+            {
+                "key": "C",
+                "text": "Resignation"
+            },
+            {
+                "key": "D",
+                "text": "Promotion"
+            }
+        ],
+        "answer": "A",
+        "reason": "After understanding oneself, individuals explore available career opportunities."
+    },
+    {
+        "id": 32,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "easy",
+        "question": "Career exploration involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Researching occupations and opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding information gathering"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring market trends"
+            },
+            {
+                "key": "D",
+                "text": "Only choosing high-paying jobs"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career exploration helps individuals understand available career options."
+    },
+    {
+        "id": 33,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "A short-term career goal typically covers a period of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Several months to a few years"
+            },
+            {
+                "key": "B",
+                "text": "Twenty years"
+            },
+            {
+                "key": "C",
+                "text": "Entire lifetime"
+            },
+            {
+                "key": "D",
+                "text": "Retirement only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Short-term goals are immediate objectives achievable within a relatively short timeframe."
+    },
+    {
+        "id": 34,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Long-term career goals generally focus on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Future career aspirations"
+            },
+            {
+                "key": "B",
+                "text": "Daily activities"
+            },
+            {
+                "key": "C",
+                "text": "Weekly schedules"
+            },
+            {
+                "key": "D",
+                "text": "Office attendance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Long-term goals define broader professional achievements and ambitions."
+    },
+    {
+        "id": 35,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Which of the following best supports career growth?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Continuous learning"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding feedback"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring industry changes"
+            },
+            {
+                "key": "D",
+                "text": "Refusing new responsibilities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Continuous learning helps individuals remain competitive and adaptable."
+    },
+    {
+        "id": 36,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "hard",
+        "question": "Which career anchor is most closely associated with balancing personal and professional commitments?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Lifestyle"
+            },
+            {
+                "key": "B",
+                "text": "Pure Challenge"
+            },
+            {
+                "key": "C",
+                "text": "Technical Competence"
+            },
+            {
+                "key": "D",
+                "text": "Entrepreneurial Creativity"
+            }
+        ],
+        "answer": "A",
+        "reason": "The Lifestyle anchor prioritizes integration of work, family, and personal interests."
+    },
+    {
+        "id": 37,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Which behavioral characteristic is most important for managing workplace change?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Adaptability"
+            },
+            {
+                "key": "B",
+                "text": "Rigidity"
+            },
+            {
+                "key": "C",
+                "text": "Resistance"
+            },
+            {
+                "key": "D",
+                "text": "Isolation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Adaptability enables individuals to respond effectively to changing environments."
+    },
+    {
+        "id": 38,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Emotional intelligence contributes to career success because it improves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Interpersonal relationships"
+            },
+            {
+                "key": "B",
+                "text": "Machine efficiency"
+            },
+            {
+                "key": "C",
+                "text": "Network bandwidth"
+            },
+            {
+                "key": "D",
+                "text": "Production costs"
+            }
+        ],
+        "answer": "A",
+        "reason": "Emotional intelligence helps individuals understand and manage relationships effectively."
+    },
+    {
+        "id": 39,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "hard",
+        "question": "According to Holland's theory, people are most satisfied when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Their work environment matches their personality type"
+            },
+            {
+                "key": "B",
+                "text": "They frequently change jobs"
+            },
+            {
+                "key": "C",
+                "text": "They avoid teamwork"
+            },
+            {
+                "key": "D",
+                "text": "They focus only on salary"
+            }
+        ],
+        "answer": "A",
+        "reason": "Holland's theory emphasizes congruence between personality and work environment."
+    },
+    {
+        "id": 40,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "hard",
+        "question": "Which RIASEC type is commonly linked with business management and sales careers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Enterprising"
+            },
+            {
+                "key": "B",
+                "text": "Investigative"
+            },
+            {
+                "key": "C",
+                "text": "Artistic"
+            },
+            {
+                "key": "D",
+                "text": "Realistic"
+            }
+        ],
+        "answer": "A",
+        "reason": "Enterprising personalities are persuasive, ambitious, and leadership-oriented."
+    },
+    {
+        "id": 41,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "easy",
+        "question": "Career planning is best described as a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Continuous process"
+            },
+            {
+                "key": "B",
+                "text": "One-time activity"
+            },
+            {
+                "key": "C",
+                "text": "Random event"
+            },
+            {
+                "key": "D",
+                "text": "Company policy"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career planning requires ongoing evaluation and adjustment throughout life."
+    },
+    {
+        "id": 42,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Why is self-awareness important in career planning?",
+        "options": [
+            {
+                "key": "A",
+                "text": "It helps identify strengths and weaknesses"
+            },
+            {
+                "key": "B",
+                "text": "It guarantees promotions"
+            },
+            {
+                "key": "C",
+                "text": "It eliminates competition"
+            },
+            {
+                "key": "D",
+                "text": "It increases company revenue"
+            }
+        ],
+        "answer": "A",
+        "reason": "Self-awareness allows individuals to make informed career decisions."
+    },
+    {
+        "id": 43,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "hard",
+        "question": "General Managerial Competence as a career anchor emphasizes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Leading and integrating organizational functions"
+            },
+            {
+                "key": "B",
+                "text": "Working independently only"
+            },
+            {
+                "key": "C",
+                "text": "Creative expression"
+            },
+            {
+                "key": "D",
+                "text": "Job security"
+            }
+        ],
+        "answer": "A",
+        "reason": "This anchor reflects a desire to lead, coordinate, and manage people and resources."
+    },
+    {
+        "id": 44,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Conflict resolution is considered an important behavioral skill because it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improves workplace harmony"
+            },
+            {
+                "key": "B",
+                "text": "Reduces learning"
+            },
+            {
+                "key": "C",
+                "text": "Eliminates communication"
+            },
+            {
+                "key": "D",
+                "text": "Avoids teamwork"
+            }
+        ],
+        "answer": "A",
+        "reason": "Effective conflict resolution promotes collaboration and organizational effectiveness."
+    },
+    {
+        "id": 45,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Which personality assessment concept is most useful for matching careers to individual preferences?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Personality Typology"
+            },
+            {
+                "key": "B",
+                "text": "Inventory Valuation"
+            },
+            {
+                "key": "C",
+                "text": "Cost Accounting"
+            },
+            {
+                "key": "D",
+                "text": "Market Segmentation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Personality typology helps identify career environments that align with individual traits and preferences."
+    },
+    {
+        "id": 46,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "easy",
+        "question": "Which of the following is a benefit of career planning?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Clear career direction"
+            },
+            {
+                "key": "B",
+                "text": "Guaranteed promotion"
+            },
+            {
+                "key": "C",
+                "text": "Elimination of competition"
+            },
+            {
+                "key": "D",
+                "text": "Automatic salary increase"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career planning helps individuals establish a clear direction for professional growth."
+    },
+    {
+        "id": 47,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "easy",
+        "question": "The first step in effective career planning is usually:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Applying for jobs"
+            },
+            {
+                "key": "B",
+                "text": "Self-analysis"
+            },
+            {
+                "key": "C",
+                "text": "Attending interviews"
+            },
+            {
+                "key": "D",
+                "text": "Negotiating salary"
+            }
+        ],
+        "answer": "B",
+        "reason": "Self-analysis helps identify interests, strengths, values, and goals."
+    },
+    {
+        "id": 48,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "medium",
+        "question": "Career planning helps individuals align their careers with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Personal goals and values"
+            },
+            {
+                "key": "B",
+                "text": "Competitor strategies"
+            },
+            {
+                "key": "C",
+                "text": "Government policies only"
+            },
+            {
+                "key": "D",
+                "text": "Market fluctuations only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Effective career planning aligns career choices with personal aspirations and values."
+    },
+    {
+        "id": 49,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Career anchors become clearer through:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Work experience"
+            },
+            {
+                "key": "B",
+                "text": "Watching advertisements"
+            },
+            {
+                "key": "C",
+                "text": "Reading newspapers only"
+            },
+            {
+                "key": "D",
+                "text": "Random decision making"
+            }
+        ],
+        "answer": "A",
+        "reason": "Individuals discover their career anchors through experiences and professional growth."
+    },
+    {
+        "id": 50,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "A person who enjoys leading departments and making strategic decisions is likely motivated by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "General Managerial Competence"
+            },
+            {
+                "key": "B",
+                "text": "Lifestyle"
+            },
+            {
+                "key": "C",
+                "text": "Security"
+            },
+            {
+                "key": "D",
+                "text": "Service"
+            }
+        ],
+        "answer": "A",
+        "reason": "General Managerial Competence focuses on leadership and organizational responsibility."
+    },
+    {
+        "id": 51,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Which career anchor is associated with taking risks to create something new?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Entrepreneurial Creativity"
+            },
+            {
+                "key": "B",
+                "text": "Security"
+            },
+            {
+                "key": "C",
+                "text": "Lifestyle"
+            },
+            {
+                "key": "D",
+                "text": "Technical Competence"
+            }
+        ],
+        "answer": "A",
+        "reason": "Entrepreneurial Creativity involves innovation, risk-taking, and business creation."
+    },
+    {
+        "id": 52,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "hard",
+        "question": "Which career anchor focuses on solving impossible-looking problems for personal satisfaction?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Pure Challenge"
+            },
+            {
+                "key": "B",
+                "text": "Lifestyle"
+            },
+            {
+                "key": "C",
+                "text": "Security"
+            },
+            {
+                "key": "D",
+                "text": "Service"
+            }
+        ],
+        "answer": "A",
+        "reason": "Individuals driven by Pure Challenge seek difficult tasks and competitive environments."
+    },
+    {
+        "id": 53,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "hard",
+        "question": "Which career anchor is least likely to prioritize frequent job changes?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Security/Stability"
+            },
+            {
+                "key": "B",
+                "text": "Entrepreneurial Creativity"
+            },
+            {
+                "key": "C",
+                "text": "Pure Challenge"
+            },
+            {
+                "key": "D",
+                "text": "Autonomy"
+            }
+        ],
+        "answer": "A",
+        "reason": "Security/Stability values predictable employment and long-term organizational attachment."
+    },
+    {
+        "id": 54,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "easy",
+        "question": "Behaviour refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The way a person acts or responds"
+            },
+            {
+                "key": "B",
+                "text": "The way a machine operates"
+            },
+            {
+                "key": "C",
+                "text": "A company's revenue"
+            },
+            {
+                "key": "D",
+                "text": "A product's quality"
+            }
+        ],
+        "answer": "A",
+        "reason": "Behaviour describes how individuals act and react in different situations."
+    },
+    {
+        "id": 55,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "easy",
+        "question": "Which behavioural trait helps employees work effectively with colleagues?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Teamwork"
+            },
+            {
+                "key": "B",
+                "text": "Isolation"
+            },
+            {
+                "key": "C",
+                "text": "Avoidance"
+            },
+            {
+                "key": "D",
+                "text": "Indifference"
+            }
+        ],
+        "answer": "A",
+        "reason": "Teamwork promotes cooperation and collective achievement of goals."
+    },
+    {
+        "id": 56,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Which factor can influence employee behavior at work?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Organizational culture"
+            },
+            {
+                "key": "B",
+                "text": "Moon phases"
+            },
+            {
+                "key": "C",
+                "text": "Building color only"
+            },
+            {
+                "key": "D",
+                "text": "Office location only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Organizational culture shapes attitudes, values, and workplace behavior."
+    },
+    {
+        "id": 57,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Active listening is an example of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Effective communication behavior"
+            },
+            {
+                "key": "B",
+                "text": "Technical expertise"
+            },
+            {
+                "key": "C",
+                "text": "Financial management"
+            },
+            {
+                "key": "D",
+                "text": "Data processing"
+            }
+        ],
+        "answer": "A",
+        "reason": "Active listening improves understanding and communication."
+    },
+    {
+        "id": 58,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Which behavior is most likely to build trust in a workplace?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reliability"
+            },
+            {
+                "key": "B",
+                "text": "Frequent excuses"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding responsibility"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring deadlines"
+            }
+        ],
+        "answer": "A",
+        "reason": "Reliability helps colleagues and managers trust an employee."
+    },
+    {
+        "id": 59,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "hard",
+        "question": "Which behavioral trait is essential for handling workplace uncertainty?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Resilience"
+            },
+            {
+                "key": "B",
+                "text": "Rigidity"
+            },
+            {
+                "key": "C",
+                "text": "Passivity"
+            },
+            {
+                "key": "D",
+                "text": "Dependency"
+            }
+        ],
+        "answer": "A",
+        "reason": "Resilience enables individuals to recover from setbacks and adapt to challenges."
+    },
+    {
+        "id": 60,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "easy",
+        "question": "Personality typology helps individuals understand their:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Behavioral preferences"
+            },
+            {
+                "key": "B",
+                "text": "Bank balance"
+            },
+            {
+                "key": "C",
+                "text": "Tax liabilities"
+            },
+            {
+                "key": "D",
+                "text": "Internet speed"
+            }
+        ],
+        "answer": "A",
+        "reason": "Personality typology identifies patterns in behavior and preferences."
+    },
+    {
+        "id": 61,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "In Holland's RIASEC model, 'S' stands for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Social"
+            },
+            {
+                "key": "B",
+                "text": "Strategic"
+            },
+            {
+                "key": "C",
+                "text": "Scientific"
+            },
+            {
+                "key": "D",
+                "text": "Structured"
+            }
+        ],
+        "answer": "A",
+        "reason": "Social personalities prefer helping, teaching, and interacting with people."
+    },
+    {
+        "id": 62,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Which RIASEC type is most attracted to artistic and creative expression?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Artistic"
+            },
+            {
+                "key": "B",
+                "text": "Conventional"
+            },
+            {
+                "key": "C",
+                "text": "Realistic"
+            },
+            {
+                "key": "D",
+                "text": "Investigative"
+            }
+        ],
+        "answer": "A",
+        "reason": "Artistic personalities value imagination, originality, and creativity."
+    },
+    {
+        "id": 63,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Which personality type is most likely to enjoy laboratory research?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Investigative"
+            },
+            {
+                "key": "B",
+                "text": "Social"
+            },
+            {
+                "key": "C",
+                "text": "Enterprising"
+            },
+            {
+                "key": "D",
+                "text": "Conventional"
+            }
+        ],
+        "answer": "A",
+        "reason": "Investigative individuals enjoy analysis, research, and scientific activities."
+    },
+    {
+        "id": 64,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Which personality type is generally associated with administrative and clerical work?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Conventional"
+            },
+            {
+                "key": "B",
+                "text": "Artistic"
+            },
+            {
+                "key": "C",
+                "text": "Realistic"
+            },
+            {
+                "key": "D",
+                "text": "Social"
+            }
+        ],
+        "answer": "A",
+        "reason": "Conventional personalities prefer organized, structured, and detail-oriented work."
+    },
+    {
+        "id": 65,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "hard",
+        "question": "According to personality-career matching theories, job satisfaction increases when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Personality matches the work environment"
+            },
+            {
+                "key": "B",
+                "text": "Salary is the only consideration"
+            },
+            {
+                "key": "C",
+                "text": "Employees change jobs frequently"
+            },
+            {
+                "key": "D",
+                "text": "Rules are ignored"
+            }
+        ],
+        "answer": "A",
+        "reason": "A strong fit between personality and environment improves satisfaction and performance."
+    },
+    {
+        "id": 66,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "easy",
+        "question": "Career planning is important because it helps individuals:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Prepare for future opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Avoid learning new skills"
+            },
+            {
+                "key": "C",
+                "text": "Ignore market trends"
+            },
+            {
+                "key": "D",
+                "text": "Avoid career decisions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career planning prepares individuals for future growth and opportunities."
+    },
+    {
+        "id": 67,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Which of the following is an example of a career goal?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Becoming a software engineer within 3 years"
+            },
+            {
+                "key": "B",
+                "text": "Watching television daily"
+            },
+            {
+                "key": "C",
+                "text": "Sleeping more hours"
+            },
+            {
+                "key": "D",
+                "text": "Playing games occasionally"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career goals are specific professional objectives."
+    },
+    {
+        "id": 68,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Which activity helps in exploring career opportunities?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Researching industries and professions"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring labor market information"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding networking"
+            },
+            {
+                "key": "D",
+                "text": "Depending on luck alone"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career exploration requires gathering information about occupations and industries."
+    },
+    {
+        "id": 69,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Which of the following is a SMART career goal characteristic?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Measurable"
+            },
+            {
+                "key": "B",
+                "text": "Random"
+            },
+            {
+                "key": "C",
+                "text": "Unplanned"
+            },
+            {
+                "key": "D",
+                "text": "Unclear"
+            }
+        ],
+        "answer": "A",
+        "reason": "SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound."
+    },
+    {
+        "id": 70,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "hard",
+        "question": "Career planning is most effective when reviewed:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Regularly"
+            },
+            {
+                "key": "B",
+                "text": "Only once"
+            },
+            {
+                "key": "C",
+                "text": "After retirement"
+            },
+            {
+                "key": "D",
+                "text": "Only during job loss"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career plans should be updated regularly as goals and opportunities evolve."
+    },
+    {
+        "id": 71,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "hard",
+        "question": "Which career anchor would most likely motivate a social worker?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Service/Dedication to a Cause"
+            },
+            {
+                "key": "B",
+                "text": "Pure Challenge"
+            },
+            {
+                "key": "C",
+                "text": "Autonomy"
+            },
+            {
+                "key": "D",
+                "text": "Security"
+            }
+        ],
+        "answer": "A",
+        "reason": "Service-oriented individuals seek careers that benefit society and others."
+    },
+    {
+        "id": 72,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "An employee who prefers working independently is likely influenced by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Autonomy/Independence"
+            },
+            {
+                "key": "B",
+                "text": "Security"
+            },
+            {
+                "key": "C",
+                "text": "Service"
+            },
+            {
+                "key": "D",
+                "text": "General Management"
+            }
+        ],
+        "answer": "A",
+        "reason": "Autonomy-oriented individuals prefer freedom and self-direction."
+    },
+    {
+        "id": 73,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Which skill is essential for resolving workplace misunderstandings?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Communication"
+            },
+            {
+                "key": "B",
+                "text": "Avoidance"
+            },
+            {
+                "key": "C",
+                "text": "Silence"
+            },
+            {
+                "key": "D",
+                "text": "Isolation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Effective communication reduces misunderstandings and conflicts."
+    },
+    {
+        "id": 74,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "hard",
+        "question": "A growth mindset encourages individuals to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "View challenges as learning opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Avoid difficult tasks"
+            },
+            {
+                "key": "C",
+                "text": "Ignore feedback"
+            },
+            {
+                "key": "D",
+                "text": "Remain unchanged"
+            }
+        ],
+        "answer": "A",
+        "reason": "A growth mindset promotes learning, persistence, and improvement."
+    },
+    {
+        "id": 75,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Which RIASEC personality type is most likely to enjoy sales and marketing?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Enterprising"
+            },
+            {
+                "key": "B",
+                "text": "Investigative"
+            },
+            {
+                "key": "C",
+                "text": "Realistic"
+            },
+            {
+                "key": "D",
+                "text": "Conventional"
+            }
+        ],
+        "answer": "A",
+        "reason": "Enterprising personalities enjoy persuasion, leadership, and business activities."
+    },
+    {
+        "id": 76,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "The Realistic personality type generally prefers:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Hands-on practical activities"
+            },
+            {
+                "key": "B",
+                "text": "Creative writing"
+            },
+            {
+                "key": "C",
+                "text": "Public speaking"
+            },
+            {
+                "key": "D",
+                "text": "Counseling"
+            }
+        ],
+        "answer": "A",
+        "reason": "Realistic individuals enjoy practical, physical, and technical tasks."
+    },
+    {
+        "id": 77,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "hard",
+        "question": "Which personality type is most likely to value innovation and originality?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Artistic"
+            },
+            {
+                "key": "B",
+                "text": "Conventional"
+            },
+            {
+                "key": "C",
+                "text": "Security-oriented"
+            },
+            {
+                "key": "D",
+                "text": "Administrative"
+            }
+        ],
+        "answer": "A",
+        "reason": "Artistic personalities value creativity, imagination, and originality."
+    },
+    {
+        "id": 78,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "hard",
+        "question": "Networking is valuable in career planning because it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Provides information and opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Guarantees employment"
+            },
+            {
+                "key": "C",
+                "text": "Eliminates interviews"
+            },
+            {
+                "key": "D",
+                "text": "Replaces qualifications"
+            }
+        ],
+        "answer": "A",
+        "reason": "Professional networking helps individuals discover opportunities and gain insights."
+    },
+    {
+        "id": 79,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Which of the following is an internal factor affecting career choice?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Interests"
+            },
+            {
+                "key": "B",
+                "text": "Labor market trends"
+            },
+            {
+                "key": "C",
+                "text": "Economic conditions"
+            },
+            {
+                "key": "D",
+                "text": "Industry growth"
+            }
+        ],
+        "answer": "A",
+        "reason": "Interests originate within the individual and influence career preferences."
+    },
+    {
+        "id": 80,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Which factor is considered external in career decision making?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Job market demand"
+            },
+            {
+                "key": "B",
+                "text": "Values"
+            },
+            {
+                "key": "C",
+                "text": "Personality"
+            },
+            {
+                "key": "D",
+                "text": "Interests"
+            }
+        ],
+        "answer": "A",
+        "reason": "Job market demand is an external environmental factor affecting career choices."
+    },
+    {
+        "id": 81,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Professional ethics in behavior refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Following moral and professional standards"
+            },
+            {
+                "key": "B",
+                "text": "Breaking company policies"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring responsibilities"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding accountability"
+            }
+        ],
+        "answer": "A",
+        "reason": "Professional ethics guide responsible and acceptable workplace conduct."
+    },
+    {
+        "id": 82,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "hard",
+        "question": "Which behavioral competency is most important for leadership effectiveness?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Influencing others positively"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding communication"
+            },
+            {
+                "key": "C",
+                "text": "Working in isolation"
+            },
+            {
+                "key": "D",
+                "text": "Resisting feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Leadership depends heavily on influencing and motivating others."
+    },
+    {
+        "id": 83,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "hard",
+        "question": "Which career anchor is most concerned with maintaining personal freedom at work?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Autonomy/Independence"
+            },
+            {
+                "key": "B",
+                "text": "Security/Stability"
+            },
+            {
+                "key": "C",
+                "text": "General Management"
+            },
+            {
+                "key": "D",
+                "text": "Service"
+            }
+        ],
+        "answer": "A",
+        "reason": "Autonomy/Independence prioritizes freedom from organizational constraints."
+    },
+    {
+        "id": 84,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "medium",
+        "question": "Career planning helps reduce career-related:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Uncertainty"
+            },
+            {
+                "key": "B",
+                "text": "Learning"
+            },
+            {
+                "key": "C",
+                "text": "Experience"
+            },
+            {
+                "key": "D",
+                "text": "Knowledge"
+            }
+        ],
+        "answer": "A",
+        "reason": "Planning provides direction and reduces uncertainty about future career paths."
+    },
+    {
+        "id": 85,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "easy",
+        "question": "Career planning is a responsibility of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The individual"
+            },
+            {
+                "key": "B",
+                "text": "Government only"
+            },
+            {
+                "key": "C",
+                "text": "Employers only"
+            },
+            {
+                "key": "D",
+                "text": "Friends only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Individuals must take primary responsibility for managing their careers."
+    },
+    {
+        "id": 86,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "hard",
+        "question": "Holland's theory assumes that people seek work environments that:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Allow them to express their personality"
+            },
+            {
+                "key": "B",
+                "text": "Are completely unrelated to their interests"
+            },
+            {
+                "key": "C",
+                "text": "Provide no challenges"
+            },
+            {
+                "key": "D",
+                "text": "Ignore their strengths"
+            }
+        ],
+        "answer": "A",
+        "reason": "People generally prefer environments compatible with their personality characteristics."
+    },
+    {
+        "id": 87,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "hard",
+        "question": "Career success is most accurately measured by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Achievement of personal and professional goals"
+            },
+            {
+                "key": "B",
+                "text": "Salary alone"
+            },
+            {
+                "key": "C",
+                "text": "Job title only"
+            },
+            {
+                "key": "D",
+                "text": "Years worked only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career success includes both objective achievements and personal satisfaction."
+    },
+    {
+        "id": 88,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Receiving and applying constructive feedback demonstrates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Professional maturity"
+            },
+            {
+                "key": "B",
+                "text": "Resistance to change"
+            },
+            {
+                "key": "C",
+                "text": "Poor communication"
+            },
+            {
+                "key": "D",
+                "text": "Low adaptability"
+            }
+        ],
+        "answer": "A",
+        "reason": "Constructive feedback helps individuals improve performance and grow professionally."
+    },
+    {
+        "id": 89,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Which career anchor is most suitable for a highly specialized software engineer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Technical/Functional Competence"
+            },
+            {
+                "key": "B",
+                "text": "Lifestyle"
+            },
+            {
+                "key": "C",
+                "text": "General Management"
+            },
+            {
+                "key": "D",
+                "text": "Security"
+            }
+        ],
+        "answer": "A",
+        "reason": "Technical/Functional Competence values expertise and specialization."
+    },
+    {
+        "id": 90,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "medium",
+        "question": "The ultimate objective of career planning is to achieve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career satisfaction and growth"
+            },
+            {
+                "key": "B",
+                "text": "Only financial rewards"
+            },
+            {
+                "key": "C",
+                "text": "Only promotions"
+            },
+            {
+                "key": "D",
+                "text": "Only job security"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career planning aims to achieve long-term satisfaction, development, and professional success."
+    },
+    {
+        "id": 91,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "easy",
+        "question": "Which of the following best describes a career?",
+        "options": [
+            {
+                "key": "A",
+                "text": "A sequence of jobs and professional experiences over a lifetime"
+            },
+            {
+                "key": "B",
+                "text": "A temporary part-time job"
+            },
+            {
+                "key": "C",
+                "text": "A single interview process"
+            },
+            {
+                "key": "D",
+                "text": "Only a government job"
+            }
+        ],
+        "answer": "A",
+        "reason": "A career consists of the various roles, jobs, and experiences a person undertakes throughout their professional life."
+    },
+    {
+        "id": 92,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "medium",
+        "question": "Career anchors are most useful for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understanding long-term career motivations"
+            },
+            {
+                "key": "B",
+                "text": "Calculating salary"
+            },
+            {
+                "key": "C",
+                "text": "Preparing tax returns"
+            },
+            {
+                "key": "D",
+                "text": "Managing inventories"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career anchors help individuals understand the values and motivations that guide career choices."
+    },
+    {
+        "id": 93,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "medium",
+        "question": "Which behavior demonstrates accountability in the workplace?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Taking responsibility for mistakes"
+            },
+            {
+                "key": "B",
+                "text": "Blaming others for failures"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring deadlines"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding difficult tasks"
+            }
+        ],
+        "answer": "A",
+        "reason": "Accountability means accepting responsibility for one's actions and outcomes."
+    },
+    {
+        "id": 94,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "medium",
+        "question": "Which RIASEC personality type is most likely to enjoy working with tools and machinery?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Realistic"
+            },
+            {
+                "key": "B",
+                "text": "Social"
+            },
+            {
+                "key": "C",
+                "text": "Artistic"
+            },
+            {
+                "key": "D",
+                "text": "Enterprising"
+            }
+        ],
+        "answer": "A",
+        "reason": "Realistic individuals prefer practical, hands-on activities involving tools, machines, and physical tasks."
+    },
+    {
+        "id": 95,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "medium",
+        "question": "Why is goal setting important in career planning?",
+        "options": [
+            {
+                "key": "A",
+                "text": "It provides direction and motivation"
+            },
+            {
+                "key": "B",
+                "text": "It guarantees employment"
+            },
+            {
+                "key": "C",
+                "text": "It eliminates competition"
+            },
+            {
+                "key": "D",
+                "text": "It removes the need for skills"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career goals provide focus and help individuals track progress toward desired outcomes."
+    },
+    {
+        "id": 96,
+        "subject": "Career Planning and Management",
+        "topic": "Career Anchors",
+        "difficulty": "hard",
+        "question": "A person who rejects promotions to preserve technical expertise is likely influenced by which career anchor?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Technical/Functional Competence"
+            },
+            {
+                "key": "B",
+                "text": "General Managerial Competence"
+            },
+            {
+                "key": "C",
+                "text": "Security/Stability"
+            },
+            {
+                "key": "D",
+                "text": "Lifestyle"
+            }
+        ],
+        "answer": "A",
+        "reason": "Individuals with a Technical/Functional Competence anchor often prefer specialization over managerial responsibilities."
+    },
+    {
+        "id": 97,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Models",
+        "difficulty": "hard",
+        "question": "Which behavioural trait is most closely associated with continuous professional improvement?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Willingness to learn"
+            },
+            {
+                "key": "B",
+                "text": "Complacency"
+            },
+            {
+                "key": "C",
+                "text": "Resistance to feedback"
+            },
+            {
+                "key": "D",
+                "text": "Avoidance of challenges"
+            }
+        ],
+        "answer": "A",
+        "reason": "Continuous learning enables employees to adapt, improve skills, and remain relevant in their careers."
+    },
+    {
+        "id": 98,
+        "subject": "Career Planning and Management",
+        "topic": "Personality Typology",
+        "difficulty": "hard",
+        "question": "Which Holland personality type is most likely to excel in counseling and teaching professions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Social"
+            },
+            {
+                "key": "B",
+                "text": "Realistic"
+            },
+            {
+                "key": "C",
+                "text": "Conventional"
+            },
+            {
+                "key": "D",
+                "text": "Investigative"
+            }
+        ],
+        "answer": "A",
+        "reason": "Social personalities enjoy helping, teaching, mentoring, and interacting with people."
+    },
+    {
+        "id": 99,
+        "subject": "Career Planning and Management",
+        "topic": "Career Planning",
+        "difficulty": "hard",
+        "question": "Which of the following best supports informed career decision-making?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Self-assessment combined with career research"
+            },
+            {
+                "key": "B",
+                "text": "Choosing a career randomly"
+            },
+            {
+                "key": "C",
+                "text": "Following friends without evaluation"
+            },
+            {
+                "key": "D",
+                "text": "Considering salary alone"
+            }
+        ],
+        "answer": "A",
+        "reason": "Effective career decisions require understanding oneself and researching available opportunities."
+    },
+    {
+        "id": 100,
+        "subject": "Career Planning and Management",
+        "topic": "Introduction to Career Planning",
+        "difficulty": "medium",
+        "question": "Which statement about career planning is TRUE?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career planning is an ongoing process throughout life"
+            },
+            {
+                "key": "B",
+                "text": "Career planning ends after getting the first job"
+            },
+            {
+                "key": "C",
+                "text": "Career planning is only for managers"
+            },
+            {
+                "key": "D",
+                "text": "Career planning guarantees success"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career planning is a lifelong process that evolves with changing goals, opportunities, and circumstances."
+    }
+]

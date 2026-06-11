@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development",
+        "difficulty": "easy",
+        "question": "What is career development?",
+        "options": [
+            {
+                "key": "A",
+                "text": "A continuous process of managing learning, work, and career transitions"
+            },
+            {
+                "key": "B",
+                "text": "Getting a job once and never changing roles"
+            },
+            {
+                "key": "C",
+                "text": "Only earning promotions"
+            },
+            {
+                "key": "D",
+                "text": "Only pursuing higher education"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career development involves lifelong learning, growth, and career management."
+    },
+    {
+        "id": 2,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development",
+        "difficulty": "easy",
+        "question": "Career development is best described as a:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Lifelong process"
+            },
+            {
+                "key": "B",
+                "text": "One-time activity"
+            },
+            {
+                "key": "C",
+                "text": "Temporary event"
+            },
+            {
+                "key": "D",
+                "text": "Single decision"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career development continues throughout an individual's life."
+    },
+    {
+        "id": 3,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "easy",
+        "question": "Which psychologist developed the Life-Span, Life-Space Theory of career development?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Donald Super"
+            },
+            {
+                "key": "B",
+                "text": "John Holland"
+            },
+            {
+                "key": "C",
+                "text": "Edgar Schein"
+            },
+            {
+                "key": "D",
+                "text": "Abraham Maslow"
+            }
+        ],
+        "answer": "A",
+        "reason": "Donald Super proposed the Life-Span, Life-Space Theory."
+    },
+    {
+        "id": 4,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "medium",
+        "question": "John Holland's theory is based on the idea that:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career satisfaction depends on personality-job fit"
+            },
+            {
+                "key": "B",
+                "text": "Salary determines career success"
+            },
+            {
+                "key": "C",
+                "text": "Career choices are random"
+            },
+            {
+                "key": "D",
+                "text": "Education is the only factor in career growth"
+            }
+        ],
+        "answer": "A",
+        "reason": "Holland emphasized matching personality types with work environments."
+    },
+    {
+        "id": 5,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "medium",
+        "question": "According to Super's theory, career development is influenced by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Self-concept"
+            },
+            {
+                "key": "B",
+                "text": "Luck alone"
+            },
+            {
+                "key": "C",
+                "text": "Salary only"
+            },
+            {
+                "key": "D",
+                "text": "Family income only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Super believed career choices reflect an individual's self-concept."
+    },
+    {
+        "id": 6,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "hard",
+        "question": "Holland's RIASEC model contains how many personality types?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Six"
+            },
+            {
+                "key": "B",
+                "text": "Four"
+            },
+            {
+                "key": "C",
+                "text": "Eight"
+            },
+            {
+                "key": "D",
+                "text": "Ten"
+            }
+        ],
+        "answer": "A",
+        "reason": "The RIASEC model consists of Realistic, Investigative, Artistic, Social, Enterprising, and Conventional types."
+    },
+    {
+        "id": 7,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "hard",
+        "question": "Which theory emphasizes career decisions as a developmental process across life stages?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Super's Career Development Theory"
+            },
+            {
+                "key": "B",
+                "text": "Scientific Management Theory"
+            },
+            {
+                "key": "C",
+                "text": "Expectancy Theory"
+            },
+            {
+                "key": "D",
+                "text": "Agency Theory"
+            }
+        ],
+        "answer": "A",
+        "reason": "Super's theory focuses on career development throughout different life stages."
+    },
+    {
+        "id": 8,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "easy",
+        "question": "Career counselling primarily helps individuals:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Make informed career decisions"
+            },
+            {
+                "key": "B",
+                "text": "Avoid career planning"
+            },
+            {
+                "key": "C",
+                "text": "Ignore opportunities"
+            },
+            {
+                "key": "D",
+                "text": "Guarantee promotions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career counselling supports career exploration and decision-making."
+    },
+    {
+        "id": 9,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "easy",
+        "question": "A career counsellor's role is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Guide individuals in career choices"
+            },
+            {
+                "key": "B",
+                "text": "Choose careers for clients"
+            },
+            {
+                "key": "C",
+                "text": "Guarantee employment"
+            },
+            {
+                "key": "D",
+                "text": "Replace recruiters"
+            }
+        ],
+        "answer": "A",
+        "reason": "Counsellors assist individuals in making informed decisions."
+    },
+    {
+        "id": 10,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "medium",
+        "question": "Effective career decisions are usually based on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Self-assessment and information gathering"
+            },
+            {
+                "key": "B",
+                "text": "Guesswork"
+            },
+            {
+                "key": "C",
+                "text": "Peer pressure only"
+            },
+            {
+                "key": "D",
+                "text": "Luck alone"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career decisions should be informed by personal and occupational information."
+    },
+    {
+        "id": 11,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "medium",
+        "question": "Decision-making involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Evaluating alternatives and selecting the best option"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring information"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding choices"
+            },
+            {
+                "key": "D",
+                "text": "Following others blindly"
+            }
+        ],
+        "answer": "A",
+        "reason": "Decision-making requires analyzing options before choosing."
+    },
+    {
+        "id": 12,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "hard",
+        "question": "Which factor is internal to career decision-making?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Interests"
+            },
+            {
+                "key": "B",
+                "text": "Economic conditions"
+            },
+            {
+                "key": "C",
+                "text": "Labor market demand"
+            },
+            {
+                "key": "D",
+                "text": "Industry competition"
+            }
+        ],
+        "answer": "A",
+        "reason": "Interests originate from within the individual."
+    },
+    {
+        "id": 13,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "hard",
+        "question": "A career decision-making model helps individuals by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Providing a structured approach to choices"
+            },
+            {
+                "key": "B",
+                "text": "Removing responsibility"
+            },
+            {
+                "key": "C",
+                "text": "Guaranteeing success"
+            },
+            {
+                "key": "D",
+                "text": "Eliminating uncertainty completely"
+            }
+        ],
+        "answer": "A",
+        "reason": "Decision-making models organize the evaluation process."
+    },
+    {
+        "id": 14,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "easy",
+        "question": "Mental well-being refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A person's emotional and psychological health"
+            },
+            {
+                "key": "B",
+                "text": "Physical strength only"
+            },
+            {
+                "key": "C",
+                "text": "Income level only"
+            },
+            {
+                "key": "D",
+                "text": "Academic scores only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Mental well-being involves emotional, psychological, and social health."
+    },
+    {
+        "id": 15,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "easy",
+        "question": "A healthy work environment can improve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employee well-being"
+            },
+            {
+                "key": "B",
+                "text": "Stress levels only"
+            },
+            {
+                "key": "C",
+                "text": "Conflicts only"
+            },
+            {
+                "key": "D",
+                "text": "Absenteeism"
+            }
+        ],
+        "answer": "A",
+        "reason": "Supportive workplaces contribute positively to well-being."
+    },
+    {
+        "id": 16,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "medium",
+        "question": "Excessive work stress can negatively affect:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mental health"
+            },
+            {
+                "key": "B",
+                "text": "Internet speed"
+            },
+            {
+                "key": "C",
+                "text": "Office furniture"
+            },
+            {
+                "key": "D",
+                "text": "Building design"
+            }
+        ],
+        "answer": "A",
+        "reason": "High stress can contribute to burnout and mental health issues."
+    },
+    {
+        "id": 17,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "medium",
+        "question": "Work-life balance aims to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Maintain harmony between professional and personal life"
+            },
+            {
+                "key": "B",
+                "text": "Increase stress"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate responsibilities"
+            },
+            {
+                "key": "D",
+                "text": "Avoid career growth"
+            }
+        ],
+        "answer": "A",
+        "reason": "Work-life balance helps individuals manage multiple responsibilities effectively."
+    },
+    {
+        "id": 18,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "hard",
+        "question": "Burnout is commonly associated with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Chronic workplace stress"
+            },
+            {
+                "key": "B",
+                "text": "Regular vacations"
+            },
+            {
+                "key": "C",
+                "text": "Healthy work-life balance"
+            },
+            {
+                "key": "D",
+                "text": "Adequate rest"
+            }
+        ],
+        "answer": "A",
+        "reason": "Burnout results from prolonged and unmanaged stress."
+    },
+    {
+        "id": 19,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "easy",
+        "question": "Life roles may include:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Worker, student, family member"
+            },
+            {
+                "key": "B",
+                "text": "Only employee"
+            },
+            {
+                "key": "C",
+                "text": "Only student"
+            },
+            {
+                "key": "D",
+                "text": "Only manager"
+            }
+        ],
+        "answer": "A",
+        "reason": "Individuals perform multiple roles throughout life."
+    },
+    {
+        "id": 20,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "medium",
+        "question": "Positive relationships can contribute to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career success and well-being"
+            },
+            {
+                "key": "B",
+                "text": "Reduced support"
+            },
+            {
+                "key": "C",
+                "text": "Increased isolation"
+            },
+            {
+                "key": "D",
+                "text": "Poor communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "Supportive relationships improve resilience and career development."
+    },
+    {
+        "id": 21,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "hard",
+        "question": "Role conflict occurs when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Demands from different life roles clash"
+            },
+            {
+                "key": "B",
+                "text": "Roles are clearly defined"
+            },
+            {
+                "key": "C",
+                "text": "Work is enjoyable"
+            },
+            {
+                "key": "D",
+                "text": "Responsibilities decrease"
+            }
+        ],
+        "answer": "A",
+        "reason": "Role conflict arises when expectations from different roles compete."
+    },
+    {
+        "id": 22,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "easy",
+        "question": "Career information resources provide:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Information about occupations and careers"
+            },
+            {
+                "key": "B",
+                "text": "Movie reviews only"
+            },
+            {
+                "key": "C",
+                "text": "Sports results only"
+            },
+            {
+                "key": "D",
+                "text": "Entertainment news only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career resources help individuals explore occupations and opportunities."
+    },
+    {
+        "id": 23,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "easy",
+        "question": "Online job portals are examples of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career information systems"
+            },
+            {
+                "key": "B",
+                "text": "Accounting systems"
+            },
+            {
+                "key": "C",
+                "text": "Gaming platforms"
+            },
+            {
+                "key": "D",
+                "text": "Inventory systems"
+            }
+        ],
+        "answer": "A",
+        "reason": "Job portals provide information about vacancies and employers."
+    },
+    {
+        "id": 24,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "medium",
+        "question": "Career assessment tools are used to identify:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Interests, skills, and preferences"
+            },
+            {
+                "key": "B",
+                "text": "Bank balances"
+            },
+            {
+                "key": "C",
+                "text": "Tax liabilities"
+            },
+            {
+                "key": "D",
+                "text": "Product prices"
+            }
+        ],
+        "answer": "A",
+        "reason": "Assessments help individuals understand themselves better."
+    },
+    {
+        "id": 25,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "medium",
+        "question": "Which technology is commonly used for professional networking?",
+        "options": [
+            {
+                "key": "A",
+                "text": "LinkedIn"
+            },
+            {
+                "key": "B",
+                "text": "Calculator"
+            },
+            {
+                "key": "C",
+                "text": "Media player"
+            },
+            {
+                "key": "D",
+                "text": "Spreadsheet only"
+            }
+        ],
+        "answer": "A",
+        "reason": "LinkedIn is widely used for networking and career opportunities."
+    },
+    {
+        "id": 26,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "hard",
+        "question": "Reliable career information should be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Accurate and up-to-date"
+            },
+            {
+                "key": "B",
+                "text": "Outdated"
+            },
+            {
+                "key": "C",
+                "text": "Unverified"
+            },
+            {
+                "key": "D",
+                "text": "Based on rumors"
+            }
+        ],
+        "answer": "A",
+        "reason": "Reliable information improves decision-making quality."
+    },
+    {
+        "id": 27,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "hard",
+        "question": "Labor market information helps individuals understand:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employment trends and opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Movie trends"
+            },
+            {
+                "key": "C",
+                "text": "Weather patterns"
+            },
+            {
+                "key": "D",
+                "text": "Sports rankings"
+            }
+        ],
+        "answer": "A",
+        "reason": "Labor market data supports informed career planning."
+    },
+    {
+        "id": 28,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "easy",
+        "question": "A career development program is designed to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Support employee growth and development"
+            },
+            {
+                "key": "B",
+                "text": "Reduce learning opportunities"
+            },
+            {
+                "key": "C",
+                "text": "Prevent promotions"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate training"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career development programs help employees improve skills and careers."
+    },
+    {
+        "id": 29,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "easy",
+        "question": "Training programs are often part of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career development initiatives"
+            },
+            {
+                "key": "B",
+                "text": "Inventory management"
+            },
+            {
+                "key": "C",
+                "text": "Advertising campaigns"
+            },
+            {
+                "key": "D",
+                "text": "Building maintenance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Training enhances employee skills and competencies."
+    },
+    {
+        "id": 30,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "medium",
+        "question": "The planning stage of a career development program involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identifying needs and objectives"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring employee feedback"
+            },
+            {
+                "key": "C",
+                "text": "Skipping analysis"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding goal setting"
+            }
+        ],
+        "answer": "A",
+        "reason": "Planning requires identifying needs and establishing goals."
+    },
+    {
+        "id": 31,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "medium",
+        "question": "Program implementation refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Putting plans into action"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring plans"
+            },
+            {
+                "key": "C",
+                "text": "Deleting objectives"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding participation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Implementation is the execution phase of a program."
+    },
+    {
+        "id": 32,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "hard",
+        "question": "Program evaluation is conducted to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Measure effectiveness and outcomes"
+            },
+            {
+                "key": "B",
+                "text": "Increase confusion"
+            },
+            {
+                "key": "C",
+                "text": "Avoid accountability"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Evaluation determines whether objectives were achieved."
+    },
+    {
+        "id": 33,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "hard",
+        "question": "Which factor is critical for successful program implementation?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Management support"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring stakeholders"
+            },
+            {
+                "key": "C",
+                "text": "Lack of resources"
+            },
+            {
+                "key": "D",
+                "text": "Poor communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "Management support helps secure resources and participation."
+    },
+    {
+        "id": 34,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "medium",
+        "question": "Employee assistance programs are designed to support:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Personal and work-related challenges"
+            },
+            {
+                "key": "B",
+                "text": "Marketing campaigns"
+            },
+            {
+                "key": "C",
+                "text": "Product development"
+            },
+            {
+                "key": "D",
+                "text": "Sales targets"
+            }
+        ],
+        "answer": "A",
+        "reason": "These programs provide support for employee well-being."
+    },
+    {
+        "id": 35,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "medium",
+        "question": "Family support can positively influence:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career development"
+            },
+            {
+                "key": "B",
+                "text": "Stress only"
+            },
+            {
+                "key": "C",
+                "text": "Conflict only"
+            },
+            {
+                "key": "D",
+                "text": "Isolation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Supportive relationships can strengthen career growth."
+    },
+    {
+        "id": 36,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "hard",
+        "question": "A rational decision-making process usually begins with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identifying the problem or goal"
+            },
+            {
+                "key": "B",
+                "text": "Choosing randomly"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring information"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding decisions"
+            }
+        ],
+        "answer": "A",
+        "reason": "The first step is defining the issue or objective."
+    },
+    {
+        "id": 37,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "medium",
+        "question": "Career databases help users:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Explore occupations and requirements"
+            },
+            {
+                "key": "B",
+                "text": "Manage inventory"
+            },
+            {
+                "key": "C",
+                "text": "Prepare taxes"
+            },
+            {
+                "key": "D",
+                "text": "Monitor weather"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career databases provide occupational information."
+    },
+    {
+        "id": 38,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "medium",
+        "question": "Mentoring programs support career development by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Providing guidance from experienced individuals"
+            },
+            {
+                "key": "B",
+                "text": "Reducing learning"
+            },
+            {
+                "key": "C",
+                "text": "Eliminating feedback"
+            },
+            {
+                "key": "D",
+                "text": "Discouraging growth"
+            }
+        ],
+        "answer": "A",
+        "reason": "Mentors share knowledge and career advice."
+    },
+    {
+        "id": 39,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "hard",
+        "question": "Psychological safety in the workplace encourages:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Open communication and participation"
+            },
+            {
+                "key": "B",
+                "text": "Fear of speaking up"
+            },
+            {
+                "key": "C",
+                "text": "Avoidance of feedback"
+            },
+            {
+                "key": "D",
+                "text": "Workplace isolation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Psychological safety supports learning and collaboration."
+    },
+    {
+        "id": 40,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "hard",
+        "question": "Role balance refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Managing multiple life roles effectively"
+            },
+            {
+                "key": "B",
+                "text": "Focusing on only one role"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding responsibilities"
+            },
+            {
+                "key": "D",
+                "text": "Reducing participation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Role balance helps individuals meet various responsibilities."
+    },
+    {
+        "id": 41,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "hard",
+        "question": "Career theories are valuable because they:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Explain career behavior and development"
+            },
+            {
+                "key": "B",
+                "text": "Guarantee success"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate uncertainty"
+            },
+            {
+                "key": "D",
+                "text": "Replace experience"
+            }
+        ],
+        "answer": "A",
+        "reason": "Theories help understand and predict career-related behavior."
+    },
+    {
+        "id": 42,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "medium",
+        "question": "Self-assessment during counselling helps identify:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Skills, interests, and values"
+            },
+            {
+                "key": "B",
+                "text": "Weather conditions"
+            },
+            {
+                "key": "C",
+                "text": "Tax obligations"
+            },
+            {
+                "key": "D",
+                "text": "Product demand"
+            }
+        ],
+        "answer": "A",
+        "reason": "Self-assessment improves self-awareness for career decisions."
+    },
+    {
+        "id": 43,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "hard",
+        "question": "Artificial intelligence tools can assist career planning by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Providing personalized career recommendations"
+            },
+            {
+                "key": "B",
+                "text": "Guaranteeing jobs"
+            },
+            {
+                "key": "C",
+                "text": "Replacing education"
+            },
+            {
+                "key": "D",
+                "text": "Eliminating interviews"
+            }
+        ],
+        "answer": "A",
+        "reason": "AI can analyze information and suggest career options."
+    },
+    {
+        "id": 44,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "hard",
+        "question": "Career development programs benefit organizations by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improving employee performance and retention"
+            },
+            {
+                "key": "B",
+                "text": "Reducing skills"
+            },
+            {
+                "key": "C",
+                "text": "Increasing turnover"
+            },
+            {
+                "key": "D",
+                "text": "Eliminating learning"
+            }
+        ],
+        "answer": "A",
+        "reason": "Development opportunities support organizational effectiveness."
+    },
+    {
+        "id": 45,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "medium",
+        "question": "Regular breaks during work can help:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reduce stress and improve focus"
+            },
+            {
+                "key": "B",
+                "text": "Increase burnout"
+            },
+            {
+                "key": "C",
+                "text": "Reduce productivity permanently"
+            },
+            {
+                "key": "D",
+                "text": "Create conflict"
+            }
+        ],
+        "answer": "A",
+        "reason": "Breaks support mental well-being and concentration."
+    },
+    {
+        "id": 46,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "medium",
+        "question": "Social support networks can provide:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Emotional and practical assistance"
+            },
+            {
+                "key": "B",
+                "text": "Only financial rewards"
+            },
+            {
+                "key": "C",
+                "text": "Only criticism"
+            },
+            {
+                "key": "D",
+                "text": "Only competition"
+            }
+        ],
+        "answer": "A",
+        "reason": "Support networks help individuals manage challenges."
+    },
+    {
+        "id": 47,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "hard",
+        "question": "Career indecision can often be reduced through:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Counselling and information gathering"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding decisions"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring opportunities"
+            },
+            {
+                "key": "D",
+                "text": "Guesswork"
+            }
+        ],
+        "answer": "A",
+        "reason": "Information and guidance help individuals make better decisions."
+    },
+    {
+        "id": 48,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "medium",
+        "question": "Career theories are primarily used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understand career choices and development"
+            },
+            {
+                "key": "B",
+                "text": "Predict stock prices"
+            },
+            {
+                "key": "C",
+                "text": "Manage inventories"
+            },
+            {
+                "key": "D",
+                "text": "Design buildings"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career theories explain how and why people make career choices."
+    },
+    {
+        "id": 49,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "medium",
+        "question": "Needs assessment is important because it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identifies development requirements"
+            },
+            {
+                "key": "B",
+                "text": "Eliminates planning"
+            },
+            {
+                "key": "C",
+                "text": "Reduces participation"
+            },
+            {
+                "key": "D",
+                "text": "Avoids feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Programs should be based on identified needs."
+    },
+    {
+        "id": 50,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development",
+        "difficulty": "hard",
+        "question": "The ultimate goal of career development is to achieve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Personal fulfillment and professional success"
+            },
+            {
+                "key": "B",
+                "text": "Only financial gain"
+            },
+            {
+                "key": "C",
+                "text": "Only promotions"
+            },
+            {
+                "key": "D",
+                "text": "Only job security"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career development aims to support both personal and professional growth."
+    },
+    {
+        "id": 51,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "medium",
+        "question": "According to Holland's theory, people are most satisfied when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Their personality matches their work environment"
+            },
+            {
+                "key": "B",
+                "text": "They earn the highest salary"
+            },
+            {
+                "key": "C",
+                "text": "They work the fewest hours"
+            },
+            {
+                "key": "D",
+                "text": "They avoid challenges"
+            }
+        ],
+        "answer": "A",
+        "reason": "Holland proposed that congruence between personality and work environment leads to satisfaction."
+    },
+    {
+        "id": 52,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "hard",
+        "question": "In Super's theory, the exploration stage typically involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Investigating career options and trying different roles"
+            },
+            {
+                "key": "B",
+                "text": "Retirement planning"
+            },
+            {
+                "key": "C",
+                "text": "Complete career stability"
+            },
+            {
+                "key": "D",
+                "text": "Leaving the workforce"
+            }
+        ],
+        "answer": "A",
+        "reason": "The exploration stage focuses on discovering and evaluating career possibilities."
+    },
+    {
+        "id": 53,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "easy",
+        "question": "Career counselling helps individuals identify their:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Strengths and weaknesses"
+            },
+            {
+                "key": "B",
+                "text": "Favorite movies"
+            },
+            {
+                "key": "C",
+                "text": "Shopping habits"
+            },
+            {
+                "key": "D",
+                "text": "Travel destinations"
+            }
+        ],
+        "answer": "A",
+        "reason": "Self-awareness is a key objective of career counselling."
+    },
+    {
+        "id": 54,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "medium",
+        "question": "Which step comes after identifying career alternatives?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Evaluating alternatives"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring options"
+            },
+            {
+                "key": "C",
+                "text": "Ending the process"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding decisions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Alternatives must be evaluated before selecting the best option."
+    },
+    {
+        "id": 55,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "hard",
+        "question": "Which decision-making style relies heavily on facts and analysis?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Rational decision-making"
+            },
+            {
+                "key": "B",
+                "text": "Impulsive decision-making"
+            },
+            {
+                "key": "C",
+                "text": "Emotional decision-making"
+            },
+            {
+                "key": "D",
+                "text": "Avoidant decision-making"
+            }
+        ],
+        "answer": "A",
+        "reason": "Rational decision-making uses objective information and systematic analysis."
+    },
+    {
+        "id": 56,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "easy",
+        "question": "Good mental well-being contributes to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Higher productivity"
+            },
+            {
+                "key": "B",
+                "text": "More workplace conflicts"
+            },
+            {
+                "key": "C",
+                "text": "Lower motivation"
+            },
+            {
+                "key": "D",
+                "text": "Reduced concentration"
+            }
+        ],
+        "answer": "A",
+        "reason": "Positive mental health improves performance and engagement."
+    },
+    {
+        "id": 57,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "medium",
+        "question": "Which practice can help manage workplace stress?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Time management"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring deadlines"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding responsibilities"
+            },
+            {
+                "key": "D",
+                "text": "Poor planning"
+            }
+        ],
+        "answer": "A",
+        "reason": "Time management reduces pressure and improves work organization."
+    },
+    {
+        "id": 58,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "hard",
+        "question": "Employee engagement is strongly linked to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Job satisfaction and well-being"
+            },
+            {
+                "key": "B",
+                "text": "Absenteeism only"
+            },
+            {
+                "key": "C",
+                "text": "Isolation"
+            },
+            {
+                "key": "D",
+                "text": "Workplace conflict"
+            }
+        ],
+        "answer": "A",
+        "reason": "Engaged employees are generally more satisfied and productive."
+    },
+    {
+        "id": 59,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "easy",
+        "question": "Which life role is commonly associated with earning income?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Worker"
+            },
+            {
+                "key": "B",
+                "text": "Tourist"
+            },
+            {
+                "key": "C",
+                "text": "Spectator"
+            },
+            {
+                "key": "D",
+                "text": "Audience member"
+            }
+        ],
+        "answer": "A",
+        "reason": "The worker role is directly related to employment and income generation."
+    },
+    {
+        "id": 60,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "medium",
+        "question": "Strong interpersonal relationships often improve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career resilience"
+            },
+            {
+                "key": "B",
+                "text": "Workplace isolation"
+            },
+            {
+                "key": "C",
+                "text": "Stress levels"
+            },
+            {
+                "key": "D",
+                "text": "Role conflict"
+            }
+        ],
+        "answer": "A",
+        "reason": "Supportive relationships help individuals cope with challenges."
+    },
+    {
+        "id": 61,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "hard",
+        "question": "Role overload occurs when:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The demands of multiple roles exceed available resources"
+            },
+            {
+                "key": "B",
+                "text": "There are no responsibilities"
+            },
+            {
+                "key": "C",
+                "text": "Work is enjoyable"
+            },
+            {
+                "key": "D",
+                "text": "Goals are achieved easily"
+            }
+        ],
+        "answer": "A",
+        "reason": "Role overload results from excessive demands across responsibilities."
+    },
+    {
+        "id": 62,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "easy",
+        "question": "Which source provides information about job vacancies?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Job portals"
+            },
+            {
+                "key": "B",
+                "text": "Recipe books"
+            },
+            {
+                "key": "C",
+                "text": "Weather reports"
+            },
+            {
+                "key": "D",
+                "text": "Travel guides"
+            }
+        ],
+        "answer": "A",
+        "reason": "Job portals publish employment opportunities."
+    },
+    {
+        "id": 63,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "medium",
+        "question": "Career information systems are designed to help users:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Explore careers and make informed decisions"
+            },
+            {
+                "key": "B",
+                "text": "Manage finances"
+            },
+            {
+                "key": "C",
+                "text": "Track inventory"
+            },
+            {
+                "key": "D",
+                "text": "Design buildings"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career systems provide occupational and educational information."
+    },
+    {
+        "id": 64,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "hard",
+        "question": "Vocational information includes details about:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Occupations, qualifications, and job requirements"
+            },
+            {
+                "key": "B",
+                "text": "Sports competitions"
+            },
+            {
+                "key": "C",
+                "text": "Movie releases"
+            },
+            {
+                "key": "D",
+                "text": "Tourism statistics"
+            }
+        ],
+        "answer": "A",
+        "reason": "Vocational information focuses on careers and employment."
+    },
+    {
+        "id": 65,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "easy",
+        "question": "The purpose of career development planning is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Support employee growth"
+            },
+            {
+                "key": "B",
+                "text": "Reduce learning opportunities"
+            },
+            {
+                "key": "C",
+                "text": "Prevent advancement"
+            },
+            {
+                "key": "D",
+                "text": "Increase turnover"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career development planning helps employees improve skills and advance."
+    },
+    {
+        "id": 66,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "medium",
+        "question": "Which activity is commonly included in career development programs?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Training and mentoring"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring employee feedback"
+            },
+            {
+                "key": "C",
+                "text": "Reducing learning"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "Training and mentoring help employees develop professionally."
+    },
+    {
+        "id": 67,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "hard",
+        "question": "Career development program objectives should be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Specific and measurable"
+            },
+            {
+                "key": "B",
+                "text": "Vague and unclear"
+            },
+            {
+                "key": "C",
+                "text": "Impossible to achieve"
+            },
+            {
+                "key": "D",
+                "text": "Unrelated to organizational goals"
+            }
+        ],
+        "answer": "A",
+        "reason": "Clear objectives make evaluation and implementation easier."
+    },
+    {
+        "id": 68,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Administration",
+        "difficulty": "medium",
+        "question": "Program administration involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Managing resources and activities"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring participants"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding planning"
+            },
+            {
+                "key": "D",
+                "text": "Eliminating evaluation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Administration ensures smooth operation of development programs."
+    },
+    {
+        "id": 69,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Administration",
+        "difficulty": "hard",
+        "question": "Which factor contributes most to program sustainability?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Continuous evaluation and improvement"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring feedback"
+            },
+            {
+                "key": "C",
+                "text": "Reducing resources"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding participation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Ongoing improvement keeps programs effective and relevant."
+    },
+    {
+        "id": 70,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "medium",
+        "question": "A career development theory provides:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A framework for understanding career behavior"
+            },
+            {
+                "key": "B",
+                "text": "Guaranteed employment"
+            },
+            {
+                "key": "C",
+                "text": "Financial investment advice"
+            },
+            {
+                "key": "D",
+                "text": "Company policies"
+            }
+        ],
+        "answer": "A",
+        "reason": "Theories help explain career-related decisions and growth."
+    },
+    {
+        "id": 71,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "medium",
+        "question": "Career counsellors often use assessments to measure:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Interests and abilities"
+            },
+            {
+                "key": "B",
+                "text": "Weather conditions"
+            },
+            {
+                "key": "C",
+                "text": "Sports skills"
+            },
+            {
+                "key": "D",
+                "text": "Travel preferences"
+            }
+        ],
+        "answer": "A",
+        "reason": "Assessments help identify career-related characteristics."
+    },
+    {
+        "id": 72,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "hard",
+        "question": "A major benefit of career counselling is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improved career confidence"
+            },
+            {
+                "key": "B",
+                "text": "Guaranteed promotions"
+            },
+            {
+                "key": "C",
+                "text": "Reduced need for learning"
+            },
+            {
+                "key": "D",
+                "text": "Elimination of challenges"
+            }
+        ],
+        "answer": "A",
+        "reason": "Counselling increases awareness and confidence in career choices."
+    },
+    {
+        "id": 73,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "medium",
+        "question": "Job satisfaction is closely related to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mental well-being"
+            },
+            {
+                "key": "B",
+                "text": "Office size"
+            },
+            {
+                "key": "C",
+                "text": "Building location"
+            },
+            {
+                "key": "D",
+                "text": "Parking facilities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Employees with good well-being tend to experience higher satisfaction."
+    },
+    {
+        "id": 74,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "hard",
+        "question": "Which workplace factor supports mental well-being?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Supportive leadership"
+            },
+            {
+                "key": "B",
+                "text": "Excessive workload"
+            },
+            {
+                "key": "C",
+                "text": "Poor communication"
+            },
+            {
+                "key": "D",
+                "text": "Unclear expectations"
+            }
+        ],
+        "answer": "A",
+        "reason": "Supportive leaders contribute to a healthier work environment."
+    },
+    {
+        "id": 75,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "medium",
+        "question": "Balancing work and family responsibilities requires:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Effective time and priority management"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring responsibilities"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding planning"
+            },
+            {
+                "key": "D",
+                "text": "Reducing communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "Good management skills help individuals handle multiple roles."
+    },
+    {
+        "id": 76,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "hard",
+        "question": "Which concept refers to positive effects of one life role on another?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Role enhancement"
+            },
+            {
+                "key": "B",
+                "text": "Role conflict"
+            },
+            {
+                "key": "C",
+                "text": "Role overload"
+            },
+            {
+                "key": "D",
+                "text": "Role ambiguity"
+            }
+        ],
+        "answer": "A",
+        "reason": "Role enhancement occurs when one role benefits another."
+    },
+    {
+        "id": 77,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "medium",
+        "question": "Professional networking platforms help users:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Build career connections"
+            },
+            {
+                "key": "B",
+                "text": "Manage inventory"
+            },
+            {
+                "key": "C",
+                "text": "Process payroll"
+            },
+            {
+                "key": "D",
+                "text": "Create advertisements"
+            }
+        ],
+        "answer": "A",
+        "reason": "Networking platforms connect professionals and employers."
+    },
+    {
+        "id": 78,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "hard",
+        "question": "A key advantage of online career resources is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Easy access to updated information"
+            },
+            {
+                "key": "B",
+                "text": "Guaranteed employment"
+            },
+            {
+                "key": "C",
+                "text": "Elimination of competition"
+            },
+            {
+                "key": "D",
+                "text": "Removal of qualifications"
+            }
+        ],
+        "answer": "A",
+        "reason": "Digital resources can be updated frequently and accessed easily."
+    },
+    {
+        "id": 79,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "medium",
+        "question": "Career development initiatives should align with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Organizational goals"
+            },
+            {
+                "key": "B",
+                "text": "Personal hobbies only"
+            },
+            {
+                "key": "C",
+                "text": "Random decisions"
+            },
+            {
+                "key": "D",
+                "text": "Unrelated activities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Alignment ensures organizational and employee benefits."
+    },
+    {
+        "id": 80,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "hard",
+        "question": "Which indicator can measure program success?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employee skill improvement"
+            },
+            {
+                "key": "B",
+                "text": "Office color changes"
+            },
+            {
+                "key": "C",
+                "text": "Parking usage"
+            },
+            {
+                "key": "D",
+                "text": "Building maintenance costs"
+            }
+        ],
+        "answer": "A",
+        "reason": "Skill development is a key outcome of career development programs."
+    },
+    {
+        "id": 81,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Administration",
+        "difficulty": "medium",
+        "question": "Communication is important in program administration because it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Keeps stakeholders informed"
+            },
+            {
+                "key": "B",
+                "text": "Creates confusion"
+            },
+            {
+                "key": "C",
+                "text": "Reduces participation"
+            },
+            {
+                "key": "D",
+                "text": "Eliminates feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Effective communication supports engagement and coordination."
+    },
+    {
+        "id": 82,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Administration",
+        "difficulty": "hard",
+        "question": "Resource allocation refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Assigning available resources efficiently"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring budgets"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding planning"
+            },
+            {
+                "key": "D",
+                "text": "Reducing participation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Resources must be managed effectively for successful programs."
+    },
+    {
+        "id": 83,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "hard",
+        "question": "Career maturity refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Readiness to make appropriate career decisions"
+            },
+            {
+                "key": "B",
+                "text": "Age alone"
+            },
+            {
+                "key": "C",
+                "text": "Years of employment only"
+            },
+            {
+                "key": "D",
+                "text": "Educational qualifications only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career maturity reflects preparedness for career-related decisions."
+    },
+    {
+        "id": 84,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "medium",
+        "question": "Career goals help individuals:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Focus their efforts and direction"
+            },
+            {
+                "key": "B",
+                "text": "Avoid planning"
+            },
+            {
+                "key": "C",
+                "text": "Ignore opportunities"
+            },
+            {
+                "key": "D",
+                "text": "Reduce motivation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Goals provide purpose and direction for career development."
+    },
+    {
+        "id": 85,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "hard",
+        "question": "Workplace wellness programs are intended to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Promote employee health and well-being"
+            },
+            {
+                "key": "B",
+                "text": "Increase stress"
+            },
+            {
+                "key": "C",
+                "text": "Reduce engagement"
+            },
+            {
+                "key": "D",
+                "text": "Create conflict"
+            }
+        ],
+        "answer": "A",
+        "reason": "Wellness programs support physical and mental health."
+    },
+    {
+        "id": 86,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "medium",
+        "question": "A support system can help individuals:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Manage career and personal challenges"
+            },
+            {
+                "key": "B",
+                "text": "Avoid responsibilities"
+            },
+            {
+                "key": "C",
+                "text": "Reduce communication"
+            },
+            {
+                "key": "D",
+                "text": "Ignore goals"
+            }
+        ],
+        "answer": "A",
+        "reason": "Support systems provide encouragement and assistance."
+    },
+    {
+        "id": 87,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "hard",
+        "question": "Occupational outlook information is useful for understanding:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Future employment trends"
+            },
+            {
+                "key": "B",
+                "text": "Movie popularity"
+            },
+            {
+                "key": "C",
+                "text": "Weather changes"
+            },
+            {
+                "key": "D",
+                "text": "Sports rankings"
+            }
+        ],
+        "answer": "A",
+        "reason": "Occupational outlook data predicts future job demand."
+    },
+    {
+        "id": 88,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "medium",
+        "question": "Succession planning is associated with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Preparing future organizational leaders"
+            },
+            {
+                "key": "B",
+                "text": "Reducing training"
+            },
+            {
+                "key": "C",
+                "text": "Eliminating promotions"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding development"
+            }
+        ],
+        "answer": "A",
+        "reason": "Succession planning develops talent for future leadership roles."
+    },
+    {
+        "id": 89,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Administration",
+        "difficulty": "hard",
+        "question": "Stakeholder involvement improves programs by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increasing support and relevance"
+            },
+            {
+                "key": "B",
+                "text": "Reducing participation"
+            },
+            {
+                "key": "C",
+                "text": "Creating confusion"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding accountability"
+            }
+        ],
+        "answer": "A",
+        "reason": "Stakeholders provide input, support, and resources."
+    },
+    {
+        "id": 90,
+        "subject": "Career Planning and Management",
+        "topic": "Theories and Models of Career Development",
+        "difficulty": "medium",
+        "question": "Career development theories help individuals:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understand career growth processes"
+            },
+            {
+                "key": "B",
+                "text": "Predict lottery results"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate challenges"
+            },
+            {
+                "key": "D",
+                "text": "Avoid learning"
+            }
+        ],
+        "answer": "A",
+        "reason": "Theories provide insights into career progression and choices."
+    },
+    {
+        "id": 91,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "hard",
+        "question": "An effective career decision balances personal preferences with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Market realities and opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Luck alone"
+            },
+            {
+                "key": "C",
+                "text": "Peer opinions only"
+            },
+            {
+                "key": "D",
+                "text": "Random factors"
+            }
+        ],
+        "answer": "A",
+        "reason": "Practical career decisions consider both self and environment."
+    },
+    {
+        "id": 92,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "medium",
+        "question": "Which factor can improve workplace well-being?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Recognition and appreciation"
+            },
+            {
+                "key": "B",
+                "text": "Constant criticism"
+            },
+            {
+                "key": "C",
+                "text": "Poor communication"
+            },
+            {
+                "key": "D",
+                "text": "Excessive workload"
+            }
+        ],
+        "answer": "A",
+        "reason": "Recognition enhances morale and motivation."
+    },
+    {
+        "id": 93,
+        "subject": "Career Planning and Management",
+        "topic": "Relationships and Life Roles",
+        "difficulty": "hard",
+        "question": "Effective role management contributes to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Greater life satisfaction"
+            },
+            {
+                "key": "B",
+                "text": "Increased conflict"
+            },
+            {
+                "key": "C",
+                "text": "Reduced productivity"
+            },
+            {
+                "key": "D",
+                "text": "Isolation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Balancing roles improves overall quality of life."
+    },
+    {
+        "id": 94,
+        "subject": "Career Planning and Management",
+        "topic": "Career Information Resources",
+        "difficulty": "medium",
+        "question": "Educational databases help users identify:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Courses and training opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Movie schedules"
+            },
+            {
+                "key": "C",
+                "text": "Travel packages"
+            },
+            {
+                "key": "D",
+                "text": "Sports events"
+            }
+        ],
+        "answer": "A",
+        "reason": "Educational databases support career preparation and learning."
+    },
+    {
+        "id": 95,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "hard",
+        "question": "Benchmarking in career development involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Comparing practices with established standards"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding evaluation"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring competitors"
+            },
+            {
+                "key": "D",
+                "text": "Reducing quality"
+            }
+        ],
+        "answer": "A",
+        "reason": "Benchmarking identifies best practices and improvement opportunities."
+    },
+    {
+        "id": 96,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Administration",
+        "difficulty": "medium",
+        "question": "Documentation in program administration helps:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Track progress and outcomes"
+            },
+            {
+                "key": "B",
+                "text": "Increase confusion"
+            },
+            {
+                "key": "C",
+                "text": "Avoid accountability"
+            },
+            {
+                "key": "D",
+                "text": "Reduce communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "Records provide evidence of activities and results."
+    },
+    {
+        "id": 97,
+        "subject": "Career Planning and Management",
+        "topic": "Career Counselling and Decision-Making",
+        "difficulty": "hard",
+        "question": "Career adaptability refers to the ability to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Adjust to changing career circumstances"
+            },
+            {
+                "key": "B",
+                "text": "Avoid change completely"
+            },
+            {
+                "key": "C",
+                "text": "Stay in one role forever"
+            },
+            {
+                "key": "D",
+                "text": "Ignore new opportunities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Adaptability is essential in dynamic work environments."
+    },
+    {
+        "id": 98,
+        "subject": "Career Planning and Management",
+        "topic": "Work and Mental Well-Being",
+        "difficulty": "hard",
+        "question": "Resilience helps employees:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Recover from setbacks and challenges"
+            },
+            {
+                "key": "B",
+                "text": "Avoid responsibilities"
+            },
+            {
+                "key": "C",
+                "text": "Ignore feedback"
+            },
+            {
+                "key": "D",
+                "text": "Reduce performance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Resilience supports recovery and continued growth."
+    },
+    {
+        "id": 99,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development Program Planning",
+        "difficulty": "medium",
+        "question": "A successful career development program should be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Flexible and responsive to changing needs"
+            },
+            {
+                "key": "B",
+                "text": "Rigid and unchanging"
+            },
+            {
+                "key": "C",
+                "text": "Unrelated to employee goals"
+            },
+            {
+                "key": "D",
+                "text": "Independent of feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Programs must adapt to evolving organizational and employee needs."
+    },
+    {
+        "id": 100,
+        "subject": "Career Planning and Management",
+        "topic": "Career Development",
+        "difficulty": "hard",
+        "question": "The overall purpose of career development theories, counselling, resources, and programs is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Support informed career growth and lifelong success"
+            },
+            {
+                "key": "B",
+                "text": "Guarantee employment"
+            },
+            {
+                "key": "C",
+                "text": "Eliminate competition"
+            },
+            {
+                "key": "D",
+                "text": "Remove the need for learning"
+            }
+        ],
+        "answer": "A",
+        "reason": "All career development components aim to help individuals achieve sustainable career success."
+    }
+]

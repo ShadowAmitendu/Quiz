@@ -30,6 +30,28 @@
     ]
   },
   {
+    "subject": "Carrer Planning And Management",
+    "folder": "Carrer Planning and Management",
+    "files": [
+      {
+        "label": "1. Introduction To Career Planning",
+        "file": "1. Introduction to Career Planning.json"
+      },
+      {
+        "label": "2. Behavioural Traits",
+        "file": "2. Behavioural Traits.json"
+      },
+      {
+        "label": "3. Choosing Your Career",
+        "file": "3. Choosing Your Career.json"
+      },
+      {
+        "label": "4. Career Development",
+        "file": "4. Career Development.json"
+      }
+    ]
+  },
+  {
     "subject": "Customer Relationship Management",
     "folder": "Customer Relationship Management",
     "files": [

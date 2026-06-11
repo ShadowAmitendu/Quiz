@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Traits",
+        "difficulty": "easy",
+        "question": "What are behavioural traits?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Patterns of behavior and actions shown by individuals"
+            },
+            {
+                "key": "B",
+                "text": "Financial assets of a company"
+            },
+            {
+                "key": "C",
+                "text": "Technical specifications of software"
+            },
+            {
+                "key": "D",
+                "text": "Marketing strategies"
+            }
+        ],
+        "answer": "A",
+        "reason": "Behavioural traits refer to consistent patterns in how people think, act, and interact."
+    },
+    {
+        "id": 2,
+        "subject": "Career Planning and Management",
+        "topic": "Identification of Behavioural Traits",
+        "difficulty": "easy",
+        "question": "Which method is commonly used to identify behavioural traits?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Observation and assessment"
+            },
+            {
+                "key": "B",
+                "text": "Weather forecasting"
+            },
+            {
+                "key": "C",
+                "text": "Stock analysis"
+            },
+            {
+                "key": "D",
+                "text": "Tax calculation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Behavioural traits are commonly identified through observation, assessments, and feedback."
+    },
+    {
+        "id": 3,
+        "subject": "Career Planning and Management",
+        "topic": "Identification of Behavioural Traits",
+        "difficulty": "medium",
+        "question": "Self-awareness helps individuals identify their:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Strengths and weaknesses"
+            },
+            {
+                "key": "B",
+                "text": "Company profits"
+            },
+            {
+                "key": "C",
+                "text": "Market share"
+            },
+            {
+                "key": "D",
+                "text": "Product inventory"
+            }
+        ],
+        "answer": "A",
+        "reason": "Self-awareness allows individuals to understand their personal characteristics and abilities."
+    },
+    {
+        "id": 4,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Traits",
+        "difficulty": "easy",
+        "question": "Which of the following is a positive behavioural trait?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Integrity"
+            },
+            {
+                "key": "B",
+                "text": "Negligence"
+            },
+            {
+                "key": "C",
+                "text": "Dishonesty"
+            },
+            {
+                "key": "D",
+                "text": "Irresponsibility"
+            }
+        ],
+        "answer": "A",
+        "reason": "Integrity reflects honesty and strong moral principles."
+    },
+    {
+        "id": 5,
+        "subject": "Career Planning and Management",
+        "topic": "Adaptability",
+        "difficulty": "easy",
+        "question": "Adaptability refers to the ability to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Adjust effectively to change"
+            },
+            {
+                "key": "B",
+                "text": "Avoid responsibilities"
+            },
+            {
+                "key": "C",
+                "text": "Ignore feedback"
+            },
+            {
+                "key": "D",
+                "text": "Work alone always"
+            }
+        ],
+        "answer": "A",
+        "reason": "Adaptability is the capacity to respond effectively to changing situations."
+    },
+    {
+        "id": 6,
+        "subject": "Career Planning and Management",
+        "topic": "Adaptability",
+        "difficulty": "medium",
+        "question": "Why is adaptability important in modern workplaces?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Organizations frequently face change"
+            },
+            {
+                "key": "B",
+                "text": "Employees never change roles"
+            },
+            {
+                "key": "C",
+                "text": "Technology remains constant"
+            },
+            {
+                "key": "D",
+                "text": "Competition does not exist"
+            }
+        ],
+        "answer": "A",
+        "reason": "Rapid technological and organizational changes require adaptable employees."
+    },
+    {
+        "id": 7,
+        "subject": "Career Planning and Management",
+        "topic": "Adaptability",
+        "difficulty": "medium",
+        "question": "An adaptable employee is likely to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Learn new skills quickly"
+            },
+            {
+                "key": "B",
+                "text": "Reject all changes"
+            },
+            {
+                "key": "C",
+                "text": "Avoid training"
+            },
+            {
+                "key": "D",
+                "text": "Resist innovation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Adaptable individuals are open to learning and improvement."
+    },
+    {
+        "id": 8,
+        "subject": "Career Planning and Management",
+        "topic": "Adaptability",
+        "difficulty": "hard",
+        "question": "Which behavior best demonstrates adaptability?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Adjusting work methods after a new system is introduced"
+            },
+            {
+                "key": "B",
+                "text": "Refusing to use new tools"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring organizational changes"
+            },
+            {
+                "key": "D",
+                "text": "Continuing outdated practices"
+            }
+        ],
+        "answer": "A",
+        "reason": "Adaptability involves embracing and adjusting to change."
+    },
+    {
+        "id": 9,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "easy",
+        "question": "Leadership primarily involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Guiding and influencing others"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding decisions"
+            },
+            {
+                "key": "C",
+                "text": "Working independently only"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring team goals"
+            }
+        ],
+        "answer": "A",
+        "reason": "Leadership is the ability to influence people toward achieving goals."
+    },
+    {
+        "id": 10,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "medium",
+        "question": "A key characteristic of an effective leader is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Vision"
+            },
+            {
+                "key": "B",
+                "text": "Indecisiveness"
+            },
+            {
+                "key": "C",
+                "text": "Negativity"
+            },
+            {
+                "key": "D",
+                "text": "Isolation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Leaders provide direction and vision for teams."
+    },
+    {
+        "id": 11,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "medium",
+        "question": "Which leadership behavior encourages employee development?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mentoring and coaching"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring employee concerns"
+            },
+            {
+                "key": "C",
+                "text": "Discouraging learning"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Mentoring helps employees improve skills and performance."
+    },
+    {
+        "id": 12,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "hard",
+        "question": "Transformational leaders are known for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Inspiring and motivating change"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding innovation"
+            },
+            {
+                "key": "C",
+                "text": "Maintaining the status quo only"
+            },
+            {
+                "key": "D",
+                "text": "Delegating all responsibilities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Transformational leaders inspire employees toward growth and innovation."
+    },
+    {
+        "id": 13,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "easy",
+        "question": "Communication is the process of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Exchanging information and ideas"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding interaction"
+            },
+            {
+                "key": "C",
+                "text": "Creating conflicts"
+            },
+            {
+                "key": "D",
+                "text": "Managing finances"
+            }
+        ],
+        "answer": "A",
+        "reason": "Communication involves sharing information, thoughts, and ideas."
+    },
+    {
+        "id": 14,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "easy",
+        "question": "Which of the following is an example of verbal communication?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Team discussion"
+            },
+            {
+                "key": "B",
+                "text": "Facial expression"
+            },
+            {
+                "key": "C",
+                "text": "Body posture"
+            },
+            {
+                "key": "D",
+                "text": "Hand gestures"
+            }
+        ],
+        "answer": "A",
+        "reason": "Verbal communication uses spoken or written words."
+    },
+    {
+        "id": 15,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "medium",
+        "question": "Active listening requires:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Paying attention and understanding the message"
+            },
+            {
+                "key": "B",
+                "text": "Interrupting frequently"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring the speaker"
+            },
+            {
+                "key": "D",
+                "text": "Changing the topic"
+            }
+        ],
+        "answer": "A",
+        "reason": "Active listening improves understanding and communication effectiveness."
+    },
+    {
+        "id": 16,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "hard",
+        "question": "Effective communication contributes to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Reduced workplace misunderstandings"
+            },
+            {
+                "key": "B",
+                "text": "Increased conflicts"
+            },
+            {
+                "key": "C",
+                "text": "Lower productivity"
+            },
+            {
+                "key": "D",
+                "text": "Poor teamwork"
+            }
+        ],
+        "answer": "A",
+        "reason": "Clear communication reduces errors and misunderstandings."
+    },
+    {
+        "id": 17,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "easy",
+        "question": "Organizational culture refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Shared values, beliefs, and practices within an organization"
+            },
+            {
+                "key": "B",
+                "text": "Company buildings"
+            },
+            {
+                "key": "C",
+                "text": "Employee salaries"
+            },
+            {
+                "key": "D",
+                "text": "Production processes"
+            }
+        ],
+        "answer": "A",
+        "reason": "Organizational culture defines how people behave and interact at work."
+    },
+    {
+        "id": 18,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "medium",
+        "question": "A strong organizational culture can improve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employee engagement"
+            },
+            {
+                "key": "B",
+                "text": "Workplace conflicts"
+            },
+            {
+                "key": "C",
+                "text": "Absenteeism"
+            },
+            {
+                "key": "D",
+                "text": "Resistance to goals"
+            }
+        ],
+        "answer": "A",
+        "reason": "Positive cultures encourage commitment and engagement."
+    },
+    {
+        "id": 19,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "medium",
+        "question": "Which element is a component of organizational culture?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Values"
+            },
+            {
+                "key": "B",
+                "text": "Machine specifications"
+            },
+            {
+                "key": "C",
+                "text": "Inventory levels"
+            },
+            {
+                "key": "D",
+                "text": "Office location"
+            }
+        ],
+        "answer": "A",
+        "reason": "Values influence employee behavior and decision-making."
+    },
+    {
+        "id": 20,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "hard",
+        "question": "A culture that encourages innovation typically promotes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Creativity and experimentation"
+            },
+            {
+                "key": "B",
+                "text": "Fear of failure"
+            },
+            {
+                "key": "C",
+                "text": "Strict resistance to change"
+            },
+            {
+                "key": "D",
+                "text": "Limited employee participation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Innovation cultures support creative thinking and experimentation."
+    },
+    {
+        "id": 21,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "easy",
+        "question": "Teamwork is best defined as:",
+        "options": [
+            {
+                "key": "A",
+                "text": "People working together toward common goals"
+            },
+            {
+                "key": "B",
+                "text": "Working independently"
+            },
+            {
+                "key": "C",
+                "text": "Competing with colleagues"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding collaboration"
+            }
+        ],
+        "answer": "A",
+        "reason": "Teamwork involves cooperation to achieve shared objectives."
+    },
+    {
+        "id": 22,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "easy",
+        "question": "Which factor is essential for effective teamwork?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Trust"
+            },
+            {
+                "key": "B",
+                "text": "Suspicion"
+            },
+            {
+                "key": "C",
+                "text": "Competition only"
+            },
+            {
+                "key": "D",
+                "text": "Secrecy"
+            }
+        ],
+        "answer": "A",
+        "reason": "Trust enables team members to collaborate effectively."
+    },
+    {
+        "id": 23,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "medium",
+        "question": "Workplace harmony is most likely achieved through:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mutual respect"
+            },
+            {
+                "key": "B",
+                "text": "Frequent conflicts"
+            },
+            {
+                "key": "C",
+                "text": "Poor communication"
+            },
+            {
+                "key": "D",
+                "text": "Unfair treatment"
+            }
+        ],
+        "answer": "A",
+        "reason": "Respect fosters positive workplace relationships."
+    },
+    {
+        "id": 24,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "medium",
+        "question": "Conflict management contributes to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Workplace harmony"
+            },
+            {
+                "key": "B",
+                "text": "Team breakdown"
+            },
+            {
+                "key": "C",
+                "text": "Reduced collaboration"
+            },
+            {
+                "key": "D",
+                "text": "Poor morale"
+            }
+        ],
+        "answer": "A",
+        "reason": "Proper conflict management helps maintain healthy relationships."
+    },
+    {
+        "id": 25,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "hard",
+        "question": "Which practice best promotes collaboration in teams?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Open communication"
+            },
+            {
+                "key": "B",
+                "text": "Information hoarding"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring feedback"
+            },
+            {
+                "key": "D",
+                "text": "Individual competition only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Open communication improves coordination and collaboration."
+    },
+    {
+        "id": 26,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "easy",
+        "question": "Corporate competencies are:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Skills and behaviors required for organizational success"
+            },
+            {
+                "key": "B",
+                "text": "Company products"
+            },
+            {
+                "key": "C",
+                "text": "Financial reports"
+            },
+            {
+                "key": "D",
+                "text": "Marketing campaigns"
+            }
+        ],
+        "answer": "A",
+        "reason": "Competencies combine skills, knowledge, and behaviors."
+    },
+    {
+        "id": 27,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "medium",
+        "question": "Which is considered a core corporate competency?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Decision-making"
+            },
+            {
+                "key": "B",
+                "text": "Building maintenance"
+            },
+            {
+                "key": "C",
+                "text": "Office decoration"
+            },
+            {
+                "key": "D",
+                "text": "Vehicle ownership"
+            }
+        ],
+        "answer": "A",
+        "reason": "Decision-making is a critical competency in organizations."
+    },
+    {
+        "id": 28,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "medium",
+        "question": "Competency-based performance focuses on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "How work is performed"
+            },
+            {
+                "key": "B",
+                "text": "Office location"
+            },
+            {
+                "key": "C",
+                "text": "Age of employees"
+            },
+            {
+                "key": "D",
+                "text": "Years of service only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Competencies evaluate behaviors and skills used to achieve results."
+    },
+    {
+        "id": 29,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "hard",
+        "question": "Which competency is most associated with influencing stakeholders?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Negotiation"
+            },
+            {
+                "key": "B",
+                "text": "Data storage"
+            },
+            {
+                "key": "C",
+                "text": "Typing speed"
+            },
+            {
+                "key": "D",
+                "text": "Inventory control"
+            }
+        ],
+        "answer": "A",
+        "reason": "Negotiation helps individuals influence outcomes and stakeholders."
+    },
+    {
+        "id": 30,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "easy",
+        "question": "Problem-solving involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identifying and resolving issues"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring challenges"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding decisions"
+            },
+            {
+                "key": "D",
+                "text": "Delaying action indefinitely"
+            }
+        ],
+        "answer": "A",
+        "reason": "Problem-solving is the process of finding solutions to issues."
+    },
+    {
+        "id": 31,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "easy",
+        "question": "The first step in problem-solving is usually:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identifying the problem"
+            },
+            {
+                "key": "B",
+                "text": "Implementing a solution"
+            },
+            {
+                "key": "C",
+                "text": "Evaluating results"
+            },
+            {
+                "key": "D",
+                "text": "Celebrating success"
+            }
+        ],
+        "answer": "A",
+        "reason": "A problem must first be clearly identified before it can be solved."
+    },
+    {
+        "id": 32,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "medium",
+        "question": "Critical thinking improves problem-solving by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Analyzing information objectively"
+            },
+            {
+                "key": "B",
+                "text": "Making assumptions without evidence"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring facts"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding analysis"
+            }
+        ],
+        "answer": "A",
+        "reason": "Critical thinking supports logical decision-making."
+    },
+    {
+        "id": 33,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "medium",
+        "question": "Root cause analysis is used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Find the underlying cause of a problem"
+            },
+            {
+                "key": "B",
+                "text": "Assign blame"
+            },
+            {
+                "key": "C",
+                "text": "Increase conflicts"
+            },
+            {
+                "key": "D",
+                "text": "Avoid responsibility"
+            }
+        ],
+        "answer": "A",
+        "reason": "Root cause analysis identifies the fundamental reason behind a problem."
+    },
+    {
+        "id": 34,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "hard",
+        "question": "Effective problem-solvers typically:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Evaluate multiple alternatives before deciding"
+            },
+            {
+                "key": "B",
+                "text": "Choose the first option without analysis"
+            },
+            {
+                "key": "C",
+                "text": "Ignore available data"
+            },
+            {
+                "key": "D",
+                "text": "Avoid accountability"
+            }
+        ],
+        "answer": "A",
+        "reason": "Evaluating alternatives improves decision quality."
+    },
+    {
+        "id": 35,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success",
+        "difficulty": "medium",
+        "question": "Which competency is most important for long-term career success?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Continuous learning"
+            },
+            {
+                "key": "B",
+                "text": "Resistance to change"
+            },
+            {
+                "key": "C",
+                "text": "Complacency"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Continuous learning helps individuals stay relevant and competitive."
+    },
+    {
+        "id": 36,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success",
+        "difficulty": "medium",
+        "question": "Which trait helps employees recover from setbacks?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Resilience"
+            },
+            {
+                "key": "B",
+                "text": "Rigidity"
+            },
+            {
+                "key": "C",
+                "text": "Negativity"
+            },
+            {
+                "key": "D",
+                "text": "Dependency"
+            }
+        ],
+        "answer": "A",
+        "reason": "Resilience enables individuals to bounce back from difficulties."
+    },
+    {
+        "id": 37,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success",
+        "difficulty": "hard",
+        "question": "Emotional intelligence contributes to career success because it improves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Relationship management"
+            },
+            {
+                "key": "B",
+                "text": "Inventory tracking"
+            },
+            {
+                "key": "C",
+                "text": "Machine maintenance"
+            },
+            {
+                "key": "D",
+                "text": "Data compression"
+            }
+        ],
+        "answer": "A",
+        "reason": "Emotional intelligence helps individuals understand and manage relationships effectively."
+    },
+    {
+        "id": 38,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "hard",
+        "question": "Which competency is essential for making sound business decisions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Analytical thinking"
+            },
+            {
+                "key": "B",
+                "text": "Guesswork"
+            },
+            {
+                "key": "C",
+                "text": "Avoidance"
+            },
+            {
+                "key": "D",
+                "text": "Impulsiveness"
+            }
+        ],
+        "answer": "A",
+        "reason": "Analytical thinking supports informed and logical decisions."
+    },
+    {
+        "id": 39,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "hard",
+        "question": "Psychological safety in teams encourages members to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Share ideas without fear"
+            },
+            {
+                "key": "B",
+                "text": "Remain silent"
+            },
+            {
+                "key": "C",
+                "text": "Hide mistakes"
+            },
+            {
+                "key": "D",
+                "text": "Avoid participation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Psychological safety promotes openness and innovation."
+    },
+    {
+        "id": 40,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "medium",
+        "question": "Employee behavior is strongly influenced by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Organizational norms"
+            },
+            {
+                "key": "B",
+                "text": "Office paint color"
+            },
+            {
+                "key": "C",
+                "text": "Parking availability"
+            },
+            {
+                "key": "D",
+                "text": "Building age"
+            }
+        ],
+        "answer": "A",
+        "reason": "Norms guide acceptable behavior within organizations."
+    },
+    {
+        "id": 41,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "hard",
+        "question": "Delegation is important for leaders because it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Develops team capability and efficiency"
+            },
+            {
+                "key": "B",
+                "text": "Eliminates accountability"
+            },
+            {
+                "key": "C",
+                "text": "Reduces trust"
+            },
+            {
+                "key": "D",
+                "text": "Creates confusion intentionally"
+            }
+        ],
+        "answer": "A",
+        "reason": "Delegation empowers employees and improves productivity."
+    },
+    {
+        "id": 42,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "medium",
+        "question": "Feedback is most effective when it is:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Specific and constructive"
+            },
+            {
+                "key": "B",
+                "text": "Vague and delayed"
+            },
+            {
+                "key": "C",
+                "text": "Personal and emotional"
+            },
+            {
+                "key": "D",
+                "text": "Unclear and inconsistent"
+            }
+        ],
+        "answer": "A",
+        "reason": "Constructive feedback helps improve performance."
+    },
+    {
+        "id": 43,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "medium",
+        "question": "Time management is considered a competency because it helps employees:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Meet deadlines efficiently"
+            },
+            {
+                "key": "B",
+                "text": "Delay tasks"
+            },
+            {
+                "key": "C",
+                "text": "Increase errors"
+            },
+            {
+                "key": "D",
+                "text": "Avoid priorities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Time management improves productivity and efficiency."
+    },
+    {
+        "id": 44,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "hard",
+        "question": "Data-driven decision making relies on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Evidence and analysis"
+            },
+            {
+                "key": "B",
+                "text": "Personal bias only"
+            },
+            {
+                "key": "C",
+                "text": "Rumors"
+            },
+            {
+                "key": "D",
+                "text": "Assumptions without facts"
+            }
+        ],
+        "answer": "A",
+        "reason": "Data-driven decisions are based on objective information."
+    },
+    {
+        "id": 45,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success and Organizational Performance",
+        "difficulty": "hard",
+        "question": "The combination of adaptability, communication, leadership, and problem-solving primarily contributes to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career success and organizational effectiveness"
+            },
+            {
+                "key": "B",
+                "text": "Increased workplace conflict"
+            },
+            {
+                "key": "C",
+                "text": "Reduced productivity"
+            },
+            {
+                "key": "D",
+                "text": "Employee disengagement"
+            }
+        ],
+        "answer": "A",
+        "reason": "These competencies are fundamental drivers of individual and organizational performance."
+    },
+    {
+        "id": 46,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Traits",
+        "difficulty": "medium",
+        "question": "Which behavioural trait reflects a commitment to completing assigned tasks successfully?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Responsibility"
+            },
+            {
+                "key": "B",
+                "text": "Procrastination"
+            },
+            {
+                "key": "C",
+                "text": "Negligence"
+            },
+            {
+                "key": "D",
+                "text": "Avoidance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Responsibility involves taking ownership of duties and ensuring tasks are completed."
+    },
+    {
+        "id": 47,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Traits",
+        "difficulty": "medium",
+        "question": "A person who remains calm under pressure demonstrates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Emotional stability"
+            },
+            {
+                "key": "B",
+                "text": "Impulsiveness"
+            },
+            {
+                "key": "C",
+                "text": "Aggression"
+            },
+            {
+                "key": "D",
+                "text": "Carelessness"
+            }
+        ],
+        "answer": "A",
+        "reason": "Emotional stability helps individuals manage stress and maintain effectiveness."
+    },
+    {
+        "id": 48,
+        "subject": "Career Planning and Management",
+        "topic": "Identification of Behavioural Traits",
+        "difficulty": "easy",
+        "question": "Performance reviews are useful for identifying:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Behavioural strengths and development areas"
+            },
+            {
+                "key": "B",
+                "text": "Weather conditions"
+            },
+            {
+                "key": "C",
+                "text": "Company taxes"
+            },
+            {
+                "key": "D",
+                "text": "Product prices"
+            }
+        ],
+        "answer": "A",
+        "reason": "Performance reviews provide feedback on employee behaviour and competencies."
+    },
+    {
+        "id": 49,
+        "subject": "Career Planning and Management",
+        "topic": "Identification of Behavioural Traits",
+        "difficulty": "medium",
+        "question": "360-degree feedback gathers information from:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Multiple sources around an employee"
+            },
+            {
+                "key": "B",
+                "text": "Only the employee"
+            },
+            {
+                "key": "C",
+                "text": "Only customers"
+            },
+            {
+                "key": "D",
+                "text": "Only managers"
+            }
+        ],
+        "answer": "A",
+        "reason": "360-degree feedback includes input from peers, supervisors, subordinates, and sometimes customers."
+    },
+    {
+        "id": 50,
+        "subject": "Career Planning and Management",
+        "topic": "Adaptability",
+        "difficulty": "hard",
+        "question": "Which employee is demonstrating adaptability?",
+        "options": [
+            {
+                "key": "A",
+                "text": "One who quickly learns a newly implemented software system"
+            },
+            {
+                "key": "B",
+                "text": "One who refuses all training"
+            },
+            {
+                "key": "C",
+                "text": "One who rejects all process changes"
+            },
+            {
+                "key": "D",
+                "text": "One who avoids new responsibilities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Adaptable employees embrace change and acquire new skills when needed."
+    },
+    {
+        "id": 51,
+        "subject": "Career Planning and Management",
+        "topic": "Adaptability",
+        "difficulty": "medium",
+        "question": "Adaptability is especially important in industries characterized by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Rapid technological change"
+            },
+            {
+                "key": "B",
+                "text": "No innovation"
+            },
+            {
+                "key": "C",
+                "text": "Static processes forever"
+            },
+            {
+                "key": "D",
+                "text": "No competition"
+            }
+        ],
+        "answer": "A",
+        "reason": "Fast-changing industries require employees who can quickly adjust."
+    },
+    {
+        "id": 52,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "medium",
+        "question": "Which leadership skill helps resolve disagreements among team members?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Conflict resolution"
+            },
+            {
+                "key": "B",
+                "text": "Avoidance"
+            },
+            {
+                "key": "C",
+                "text": "Isolation"
+            },
+            {
+                "key": "D",
+                "text": "Procrastination"
+            }
+        ],
+        "answer": "A",
+        "reason": "Leaders often mediate conflicts to maintain productivity and harmony."
+    },
+    {
+        "id": 53,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "hard",
+        "question": "A leader who encourages employees to contribute ideas is promoting:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Participative leadership"
+            },
+            {
+                "key": "B",
+                "text": "Authoritarian control"
+            },
+            {
+                "key": "C",
+                "text": "Micromanagement"
+            },
+            {
+                "key": "D",
+                "text": "Workplace isolation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Participative leadership values employee involvement in decision-making."
+    },
+    {
+        "id": 54,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "medium",
+        "question": "Leadership differs from management because leadership focuses more on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Inspiring people"
+            },
+            {
+                "key": "B",
+                "text": "Maintaining records"
+            },
+            {
+                "key": "C",
+                "text": "Filing documents"
+            },
+            {
+                "key": "D",
+                "text": "Tracking inventory"
+            }
+        ],
+        "answer": "A",
+        "reason": "Leadership emphasizes influence, motivation, and vision."
+    },
+    {
+        "id": 55,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "medium",
+        "question": "Which communication barrier arises when technical jargon is overused?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Language barrier"
+            },
+            {
+                "key": "B",
+                "text": "Physical barrier"
+            },
+            {
+                "key": "C",
+                "text": "Time barrier"
+            },
+            {
+                "key": "D",
+                "text": "Distance barrier"
+            }
+        ],
+        "answer": "A",
+        "reason": "Complex language can prevent the audience from understanding the message."
+    },
+    {
+        "id": 56,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "hard",
+        "question": "Non-verbal communication includes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Facial expressions and body language"
+            },
+            {
+                "key": "B",
+                "text": "Written reports only"
+            },
+            {
+                "key": "C",
+                "text": "Emails only"
+            },
+            {
+                "key": "D",
+                "text": "Official notices only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Non-verbal communication conveys messages through actions and expressions."
+    },
+    {
+        "id": 57,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "medium",
+        "question": "Effective workplace communication helps improve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Productivity"
+            },
+            {
+                "key": "B",
+                "text": "Confusion"
+            },
+            {
+                "key": "C",
+                "text": "Misunderstandings"
+            },
+            {
+                "key": "D",
+                "text": "Delays"
+            }
+        ],
+        "answer": "A",
+        "reason": "Clear communication improves coordination and efficiency."
+    },
+    {
+        "id": 58,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "easy",
+        "question": "Organizational culture influences:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employee behavior"
+            },
+            {
+                "key": "B",
+                "text": "Weather patterns"
+            },
+            {
+                "key": "C",
+                "text": "Government elections"
+            },
+            {
+                "key": "D",
+                "text": "Currency exchange rates"
+            }
+        ],
+        "answer": "A",
+        "reason": "Culture shapes workplace expectations and behaviour."
+    },
+    {
+        "id": 59,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "medium",
+        "question": "A culture emphasizing ethics is likely to encourage:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Honest behavior"
+            },
+            {
+                "key": "B",
+                "text": "Fraudulent practices"
+            },
+            {
+                "key": "C",
+                "text": "Rule violations"
+            },
+            {
+                "key": "D",
+                "text": "Dishonesty"
+            }
+        ],
+        "answer": "A",
+        "reason": "Ethical cultures promote integrity and accountability."
+    },
+    {
+        "id": 60,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "hard",
+        "question": "Which type of culture encourages employee participation in decisions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Collaborative culture"
+            },
+            {
+                "key": "B",
+                "text": "Rigid culture"
+            },
+            {
+                "key": "C",
+                "text": "Closed culture"
+            },
+            {
+                "key": "D",
+                "text": "Authoritarian culture"
+            }
+        ],
+        "answer": "A",
+        "reason": "Collaborative cultures value employee involvement and teamwork."
+    },
+    {
+        "id": 61,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "medium",
+        "question": "Team cohesion refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The degree to which team members work well together"
+            },
+            {
+                "key": "B",
+                "text": "Employee turnover"
+            },
+            {
+                "key": "C",
+                "text": "Competition within teams"
+            },
+            {
+                "key": "D",
+                "text": "Individual rewards only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Cohesion strengthens teamwork and collaboration."
+    },
+    {
+        "id": 62,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "hard",
+        "question": "Diversity in teams can improve performance by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bringing varied perspectives"
+            },
+            {
+                "key": "B",
+                "text": "Eliminating discussion"
+            },
+            {
+                "key": "C",
+                "text": "Reducing creativity"
+            },
+            {
+                "key": "D",
+                "text": "Preventing innovation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Diverse viewpoints often lead to better ideas and decisions."
+    },
+    {
+        "id": 63,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "medium",
+        "question": "Which behavior strengthens teamwork?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Sharing knowledge"
+            },
+            {
+                "key": "B",
+                "text": "Hiding information"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring colleagues"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding cooperation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Knowledge sharing helps teams perform effectively."
+    },
+    {
+        "id": 64,
+        "subject": "Career Planning and Management",
+        "topic": "Workplace Harmony",
+        "difficulty": "easy",
+        "question": "Workplace harmony is characterized by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Positive and cooperative relationships"
+            },
+            {
+                "key": "B",
+                "text": "Constant disputes"
+            },
+            {
+                "key": "C",
+                "text": "Hostility among employees"
+            },
+            {
+                "key": "D",
+                "text": "Lack of communication"
+            }
+        ],
+        "answer": "A",
+        "reason": "Harmony results from cooperation and mutual respect."
+    },
+    {
+        "id": 65,
+        "subject": "Career Planning and Management",
+        "topic": "Workplace Harmony",
+        "difficulty": "medium",
+        "question": "Respecting cultural differences in the workplace promotes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Harmony and inclusion"
+            },
+            {
+                "key": "B",
+                "text": "Conflict"
+            },
+            {
+                "key": "C",
+                "text": "Discrimination"
+            },
+            {
+                "key": "D",
+                "text": "Exclusion"
+            }
+        ],
+        "answer": "A",
+        "reason": "Inclusion and respect improve workplace relationships."
+    },
+    {
+        "id": 66,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "easy",
+        "question": "A competency combines knowledge, skills, and:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Behaviors"
+            },
+            {
+                "key": "B",
+                "text": "Building materials"
+            },
+            {
+                "key": "C",
+                "text": "Products"
+            },
+            {
+                "key": "D",
+                "text": "Advertisements"
+            }
+        ],
+        "answer": "A",
+        "reason": "Competencies include the behaviors needed to apply skills effectively."
+    },
+    {
+        "id": 67,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "medium",
+        "question": "Which competency is most important for handling multiple tasks effectively?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Prioritization"
+            },
+            {
+                "key": "B",
+                "text": "Avoidance"
+            },
+            {
+                "key": "C",
+                "text": "Delay"
+            },
+            {
+                "key": "D",
+                "text": "Neglect"
+            }
+        ],
+        "answer": "A",
+        "reason": "Prioritization helps manage workload efficiently."
+    },
+    {
+        "id": 68,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "hard",
+        "question": "Strategic thinking is a competency associated with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Long-term planning and decision-making"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding goals"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring trends"
+            },
+            {
+                "key": "D",
+                "text": "Focusing only on routine tasks"
+            }
+        ],
+        "answer": "A",
+        "reason": "Strategic thinkers consider future opportunities and challenges."
+    },
+    {
+        "id": 69,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "medium",
+        "question": "Customer orientation refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understanding and meeting customer needs"
+            },
+            {
+                "key": "B",
+                "text": "Ignoring customer feedback"
+            },
+            {
+                "key": "C",
+                "text": "Reducing service quality"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding customer interaction"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customer orientation focuses on delivering value to customers."
+    },
+    {
+        "id": 70,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "medium",
+        "question": "Brainstorming is primarily used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Generate multiple solutions"
+            },
+            {
+                "key": "B",
+                "text": "Ignore problems"
+            },
+            {
+                "key": "C",
+                "text": "Assign blame"
+            },
+            {
+                "key": "D",
+                "text": "Delay decisions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Brainstorming encourages the generation of creative ideas."
+    },
+    {
+        "id": 71,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "hard",
+        "question": "Which tool helps identify strengths, weaknesses, opportunities, and threats?",
+        "options": [
+            {
+                "key": "A",
+                "text": "SWOT Analysis"
+            },
+            {
+                "key": "B",
+                "text": "PERT Chart"
+            },
+            {
+                "key": "C",
+                "text": "Gantt Chart"
+            },
+            {
+                "key": "D",
+                "text": "Histogram"
+            }
+        ],
+        "answer": "A",
+        "reason": "SWOT analysis is commonly used for evaluating situations and making decisions."
+    },
+    {
+        "id": 72,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "medium",
+        "question": "Creative problem-solving emphasizes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Innovative solutions"
+            },
+            {
+                "key": "B",
+                "text": "Repeating old mistakes"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring alternatives"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding change"
+            }
+        ],
+        "answer": "A",
+        "reason": "Creative thinking helps generate new approaches to challenges."
+    },
+    {
+        "id": 73,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "hard",
+        "question": "A decision matrix is useful for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Comparing multiple alternatives objectively"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding decisions"
+            },
+            {
+                "key": "C",
+                "text": "Creating conflicts"
+            },
+            {
+                "key": "D",
+                "text": "Eliminating analysis"
+            }
+        ],
+        "answer": "A",
+        "reason": "Decision matrices support structured evaluation of options."
+    },
+    {
+        "id": 74,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success",
+        "difficulty": "easy",
+        "question": "Professional networking helps individuals:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Build valuable career connections"
+            },
+            {
+                "key": "B",
+                "text": "Avoid communication"
+            },
+            {
+                "key": "C",
+                "text": "Reduce learning opportunities"
+            },
+            {
+                "key": "D",
+                "text": "Work in isolation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Networking creates opportunities for learning and career growth."
+    },
+    {
+        "id": 75,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success",
+        "difficulty": "medium",
+        "question": "Which factor contributes most to employability?",
+        "options": [
+            {
+                "key": "A",
+                "text": "A combination of skills and competencies"
+            },
+            {
+                "key": "B",
+                "text": "Luck alone"
+            },
+            {
+                "key": "C",
+                "text": "Age alone"
+            },
+            {
+                "key": "D",
+                "text": "Seniority alone"
+            }
+        ],
+        "answer": "A",
+        "reason": "Employability depends on relevant knowledge, skills, and behaviors."
+    },
+    {
+        "id": 76,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success",
+        "difficulty": "hard",
+        "question": "Career resilience refers to the ability to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Adapt and succeed despite challenges"
+            },
+            {
+                "key": "B",
+                "text": "Avoid all risks"
+            },
+            {
+                "key": "C",
+                "text": "Ignore feedback"
+            },
+            {
+                "key": "D",
+                "text": "Remain unchanged"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career resilience helps individuals navigate uncertainty and setbacks."
+    },
+    {
+        "id": 77,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Performance",
+        "difficulty": "medium",
+        "question": "Employee competencies contribute to organizational performance by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Improving efficiency and results"
+            },
+            {
+                "key": "B",
+                "text": "Increasing waste"
+            },
+            {
+                "key": "C",
+                "text": "Reducing quality"
+            },
+            {
+                "key": "D",
+                "text": "Creating delays"
+            }
+        ],
+        "answer": "A",
+        "reason": "Competent employees perform tasks more effectively."
+    },
+    {
+        "id": 78,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Performance",
+        "difficulty": "hard",
+        "question": "High-performing organizations typically encourage:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Continuous improvement"
+            },
+            {
+                "key": "B",
+                "text": "Resistance to learning"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring customer feedback"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding innovation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Continuous improvement drives long-term organizational success."
+    },
+    {
+        "id": 79,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "hard",
+        "question": "Servant leadership emphasizes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Supporting and developing team members"
+            },
+            {
+                "key": "B",
+                "text": "Exercising absolute control"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding employee interaction"
+            },
+            {
+                "key": "D",
+                "text": "Prioritizing personal gain"
+            }
+        ],
+        "answer": "A",
+        "reason": "Servant leaders focus on helping others succeed."
+    },
+    {
+        "id": 80,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "hard",
+        "question": "Communication is most effective when the sender and receiver achieve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Shared understanding"
+            },
+            {
+                "key": "B",
+                "text": "Confusion"
+            },
+            {
+                "key": "C",
+                "text": "Disagreement only"
+            },
+            {
+                "key": "D",
+                "text": "Silence"
+            }
+        ],
+        "answer": "A",
+        "reason": "The goal of communication is mutual understanding."
+    },
+    {
+        "id": 81,
+        "subject": "Career Planning and Management",
+        "topic": "Workplace Harmony",
+        "difficulty": "medium",
+        "question": "Empathy helps create workplace harmony because it allows employees to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understand others' perspectives"
+            },
+            {
+                "key": "B",
+                "text": "Judge others unfairly"
+            },
+            {
+                "key": "C",
+                "text": "Ignore colleagues"
+            },
+            {
+                "key": "D",
+                "text": "Avoid teamwork"
+            }
+        ],
+        "answer": "A",
+        "reason": "Empathy improves relationships and reduces conflicts."
+    },
+    {
+        "id": 82,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "hard",
+        "question": "Which competency is most important for managing organizational change?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Change management"
+            },
+            {
+                "key": "B",
+                "text": "Resistance"
+            },
+            {
+                "key": "C",
+                "text": "Avoidance"
+            },
+            {
+                "key": "D",
+                "text": "Inflexibility"
+            }
+        ],
+        "answer": "A",
+        "reason": "Change management helps organizations transition effectively."
+    },
+    {
+        "id": 83,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Traits",
+        "difficulty": "medium",
+        "question": "Initiative is demonstrated when an employee:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Acts without waiting to be told"
+            },
+            {
+                "key": "B",
+                "text": "Avoids responsibility"
+            },
+            {
+                "key": "C",
+                "text": "Waits for every instruction"
+            },
+            {
+                "key": "D",
+                "text": "Ignores opportunities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Initiative involves proactively taking action."
+    },
+    {
+        "id": 84,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Traits",
+        "difficulty": "hard",
+        "question": "Professionalism is best reflected through:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ethical conduct and reliability"
+            },
+            {
+                "key": "B",
+                "text": "Frequent excuses"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring deadlines"
+            },
+            {
+                "key": "D",
+                "text": "Unethical practices"
+            }
+        ],
+        "answer": "A",
+        "reason": "Professionalism includes accountability, ethics, and dependability."
+    },
+    {
+        "id": 85,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Performance",
+        "difficulty": "hard",
+        "question": "Which combination best supports both individual career growth and organizational success?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Competence, collaboration, and continuous learning"
+            },
+            {
+                "key": "B",
+                "text": "Resistance, isolation, and complacency"
+            },
+            {
+                "key": "C",
+                "text": "Conflict, avoidance, and secrecy"
+            },
+            {
+                "key": "D",
+                "text": "Negligence, delay, and rigidity"
+            }
+        ],
+        "answer": "A",
+        "reason": "These qualities improve performance at both the individual and organizational levels."
+    },
+    {
+        "id": 86,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "medium",
+        "question": "A problem statement should be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Clear and specific"
+            },
+            {
+                "key": "B",
+                "text": "Vague and broad"
+            },
+            {
+                "key": "C",
+                "text": "Misleading"
+            },
+            {
+                "key": "D",
+                "text": "Incomplete"
+            }
+        ],
+        "answer": "A",
+        "reason": "A clear problem statement helps guide effective solutions."
+    },
+    {
+        "id": 87,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "medium",
+        "question": "Recognizing employee achievements primarily helps to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increase motivation"
+            },
+            {
+                "key": "B",
+                "text": "Reduce engagement"
+            },
+            {
+                "key": "C",
+                "text": "Create dissatisfaction"
+            },
+            {
+                "key": "D",
+                "text": "Encourage turnover"
+            }
+        ],
+        "answer": "A",
+        "reason": "Recognition boosts morale and motivation."
+    },
+    {
+        "id": 88,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "hard",
+        "question": "Team effectiveness is highest when members have:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Complementary skills"
+            },
+            {
+                "key": "B",
+                "text": "Identical weaknesses"
+            },
+            {
+                "key": "C",
+                "text": "No communication"
+            },
+            {
+                "key": "D",
+                "text": "Conflicting goals"
+            }
+        ],
+        "answer": "A",
+        "reason": "Different strengths allow team members to support one another."
+    },
+    {
+        "id": 89,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "medium",
+        "question": "Accountability as a competency means:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Accepting responsibility for outcomes"
+            },
+            {
+                "key": "B",
+                "text": "Blaming others"
+            },
+            {
+                "key": "C",
+                "text": "Avoiding ownership"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring results"
+            }
+        ],
+        "answer": "A",
+        "reason": "Accountable employees take ownership of their actions and results."
+    },
+    {
+        "id": 90,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success and Organizational Performance",
+        "difficulty": "hard",
+        "question": "Organizations gain a competitive advantage when employees consistently demonstrate:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Strong competencies and positive behaviours"
+            },
+            {
+                "key": "B",
+                "text": "Resistance to change"
+            },
+            {
+                "key": "C",
+                "text": "Poor communication"
+            },
+            {
+                "key": "D",
+                "text": "Low engagement"
+            }
+        ],
+        "answer": "A",
+        "reason": "Competent and engaged employees contribute significantly to organizational success."
+    },
+    {
+        "id": 91,
+        "subject": "Career Planning and Management",
+        "topic": "Adaptability",
+        "difficulty": "hard",
+        "question": "Which trait enables an employee to remain effective when job responsibilities change unexpectedly?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Flexibility"
+            },
+            {
+                "key": "B",
+                "text": "Rigidity"
+            },
+            {
+                "key": "C",
+                "text": "Stubbornness"
+            },
+            {
+                "key": "D",
+                "text": "Avoidance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Flexibility allows employees to adjust to new responsibilities and changing work conditions."
+    },
+    {
+        "id": 92,
+        "subject": "Career Planning and Management",
+        "topic": "Leadership",
+        "difficulty": "medium",
+        "question": "A leader who sets an example through personal actions demonstrates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Leading by example"
+            },
+            {
+                "key": "B",
+                "text": "Micromanagement"
+            },
+            {
+                "key": "C",
+                "text": "Delegation avoidance"
+            },
+            {
+                "key": "D",
+                "text": "Passive leadership"
+            }
+        ],
+        "answer": "A",
+        "reason": "Leading by example encourages employees to follow desired behaviors and standards."
+    },
+    {
+        "id": 93,
+        "subject": "Career Planning and Management",
+        "topic": "Communication",
+        "difficulty": "medium",
+        "question": "Which communication method is most appropriate for conveying complex information to a large audience?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Presentation"
+            },
+            {
+                "key": "B",
+                "text": "Informal rumor"
+            },
+            {
+                "key": "C",
+                "text": "Personal assumption"
+            },
+            {
+                "key": "D",
+                "text": "Silent observation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Presentations allow structured delivery of detailed information to multiple people."
+    },
+    {
+        "id": 94,
+        "subject": "Career Planning and Management",
+        "topic": "Organizational Culture",
+        "difficulty": "hard",
+        "question": "An organization that rewards innovation is likely to develop a culture of:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Creativity"
+            },
+            {
+                "key": "B",
+                "text": "Fear of change"
+            },
+            {
+                "key": "C",
+                "text": "Compliance only"
+            },
+            {
+                "key": "D",
+                "text": "Resistance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Rewarding innovative behavior encourages employees to generate and share new ideas."
+    },
+    {
+        "id": 95,
+        "subject": "Career Planning and Management",
+        "topic": "Teamwork",
+        "difficulty": "medium",
+        "question": "What is the primary benefit of collaboration in teams?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Combining diverse skills and knowledge"
+            },
+            {
+                "key": "B",
+                "text": "Reducing communication"
+            },
+            {
+                "key": "C",
+                "text": "Increasing isolation"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding accountability"
+            }
+        ],
+        "answer": "A",
+        "reason": "Collaboration allows team members to contribute different strengths toward common goals."
+    },
+    {
+        "id": 96,
+        "subject": "Career Planning and Management",
+        "topic": "Corporate Competencies",
+        "difficulty": "hard",
+        "question": "Which competency helps employees prioritize tasks when resources are limited?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Resource management"
+            },
+            {
+                "key": "B",
+                "text": "Procrastination"
+            },
+            {
+                "key": "C",
+                "text": "Avoidance"
+            },
+            {
+                "key": "D",
+                "text": "Impulsiveness"
+            }
+        ],
+        "answer": "A",
+        "reason": "Resource management involves efficiently allocating time, effort, and materials."
+    },
+    {
+        "id": 97,
+        "subject": "Career Planning and Management",
+        "topic": "Problem-Solving",
+        "difficulty": "hard",
+        "question": "Which problem-solving approach focuses on preventing issues before they occur?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Proactive problem-solving"
+            },
+            {
+                "key": "B",
+                "text": "Reactive problem-solving"
+            },
+            {
+                "key": "C",
+                "text": "Trial-and-error only"
+            },
+            {
+                "key": "D",
+                "text": "Avoidance strategy"
+            }
+        ],
+        "answer": "A",
+        "reason": "Proactive problem-solving identifies and addresses potential issues before they become serious problems."
+    },
+    {
+        "id": 98,
+        "subject": "Career Planning and Management",
+        "topic": "Workplace Harmony",
+        "difficulty": "medium",
+        "question": "Which behavior is most likely to strengthen workplace relationships?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Showing appreciation for others' contributions"
+            },
+            {
+                "key": "B",
+                "text": "Taking credit for others' work"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring colleagues"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding teamwork"
+            }
+        ],
+        "answer": "A",
+        "reason": "Recognizing others' efforts builds trust, respect, and positive working relationships."
+    },
+    {
+        "id": 99,
+        "subject": "Career Planning and Management",
+        "topic": "Behavioural Traits",
+        "difficulty": "hard",
+        "question": "Which behavioural trait is most closely associated with consistently meeting commitments and deadlines?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Dependability"
+            },
+            {
+                "key": "B",
+                "text": "Impulsiveness"
+            },
+            {
+                "key": "C",
+                "text": "Indifference"
+            },
+            {
+                "key": "D",
+                "text": "Resistance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Dependability reflects reliability and consistency in fulfilling responsibilities."
+    },
+    {
+        "id": 100,
+        "subject": "Career Planning and Management",
+        "topic": "Career Success and Organizational Performance",
+        "difficulty": "hard",
+        "question": "Which factor best links individual competencies to organizational performance?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employees applying skills effectively to achieve organizational goals"
+            },
+            {
+                "key": "B",
+                "text": "Employees working without objectives"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring performance standards"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding collaboration and feedback"
+            }
+        ],
+        "answer": "A",
+        "reason": "Organizational performance improves when employees effectively apply competencies toward achieving business objectives."
+    }
+]

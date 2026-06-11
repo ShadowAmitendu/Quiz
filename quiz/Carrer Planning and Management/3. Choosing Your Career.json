@@ -1,0 +1,2702 @@
+[
+    {
+        "id": 1,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "easy",
+        "question": "What is the first step in choosing a suitable career?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understanding personal interests and skills"
+            },
+            {
+                "key": "B",
+                "text": "Accepting the first job offer"
+            },
+            {
+                "key": "C",
+                "text": "Copying a friend's career choice"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring career research"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career decisions should begin with understanding personal strengths, interests, and goals."
+    },
+    {
+        "id": 2,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "easy",
+        "question": "A career choice should ideally align with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Skills, interests, and values"
+            },
+            {
+                "key": "B",
+                "text": "Peer pressure only"
+            },
+            {
+                "key": "C",
+                "text": "Salary alone"
+            },
+            {
+                "key": "D",
+                "text": "Random selection"
+            }
+        ],
+        "answer": "A",
+        "reason": "A good career fit matches an individual's abilities, interests, and values."
+    },
+    {
+        "id": 3,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "medium",
+        "question": "Career exploration helps individuals:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understand available opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Avoid decision-making"
+            },
+            {
+                "key": "C",
+                "text": "Ignore labor market trends"
+            },
+            {
+                "key": "D",
+                "text": "Reduce learning"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career exploration provides information about occupations and opportunities."
+    },
+    {
+        "id": 4,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "medium",
+        "question": "Which factor should be considered when evaluating career options?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Growth opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Office wall color"
+            },
+            {
+                "key": "C",
+                "text": "Parking size only"
+            },
+            {
+                "key": "D",
+                "text": "Company logo design"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career growth opportunities are important for long-term professional development."
+    },
+    {
+        "id": 5,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "easy",
+        "question": "Researching company preferences helps candidates understand:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employer expectations"
+            },
+            {
+                "key": "B",
+                "text": "Weather forecasts"
+            },
+            {
+                "key": "C",
+                "text": "Tax rates only"
+            },
+            {
+                "key": "D",
+                "text": "Stock prices only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Understanding employer expectations improves job application success."
+    },
+    {
+        "id": 6,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "medium",
+        "question": "Which source is most useful for researching a company?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Official company website"
+            },
+            {
+                "key": "B",
+                "text": "Rumors"
+            },
+            {
+                "key": "C",
+                "text": "Unverified gossip"
+            },
+            {
+                "key": "D",
+                "text": "Random assumptions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Official websites provide accurate information about companies."
+    },
+    {
+        "id": 7,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "medium",
+        "question": "Candidates should research company values because:",
+        "options": [
+            {
+                "key": "A",
+                "text": "They influence workplace culture"
+            },
+            {
+                "key": "B",
+                "text": "They determine weather conditions"
+            },
+            {
+                "key": "C",
+                "text": "They replace qualifications"
+            },
+            {
+                "key": "D",
+                "text": "They guarantee employment"
+            }
+        ],
+        "answer": "A",
+        "reason": "Company values shape employee behavior and organizational culture."
+    },
+    {
+        "id": 8,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "hard",
+        "question": "Why is it important to understand a company's hiring requirements?",
+        "options": [
+            {
+                "key": "A",
+                "text": "To assess suitability for the role"
+            },
+            {
+                "key": "B",
+                "text": "To avoid preparation"
+            },
+            {
+                "key": "C",
+                "text": "To skip applications"
+            },
+            {
+                "key": "D",
+                "text": "To reduce qualifications"
+            }
+        ],
+        "answer": "A",
+        "reason": "Understanding requirements helps candidates evaluate and prepare appropriately."
+    },
+    {
+        "id": 9,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "easy",
+        "question": "A company profile typically includes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Information about the company"
+            },
+            {
+                "key": "B",
+                "text": "Personal hobbies"
+            },
+            {
+                "key": "C",
+                "text": "Employee passwords"
+            },
+            {
+                "key": "D",
+                "text": "Private documents"
+            }
+        ],
+        "answer": "A",
+        "reason": "A company profile summarizes important organizational information."
+    },
+    {
+        "id": 10,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "easy",
+        "question": "Which information is commonly included in a company profile?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Company history"
+            },
+            {
+                "key": "B",
+                "text": "Employee bank accounts"
+            },
+            {
+                "key": "C",
+                "text": "Personal diaries"
+            },
+            {
+                "key": "D",
+                "text": "Private passwords"
+            }
+        ],
+        "answer": "A",
+        "reason": "Company history helps understand the organization's background and growth."
+    },
+    {
+        "id": 11,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "medium",
+        "question": "Why should job seekers create company profiles?",
+        "options": [
+            {
+                "key": "A",
+                "text": "To organize company research"
+            },
+            {
+                "key": "B",
+                "text": "To avoid applications"
+            },
+            {
+                "key": "C",
+                "text": "To reduce preparation"
+            },
+            {
+                "key": "D",
+                "text": "To ignore opportunities"
+            }
+        ],
+        "answer": "A",
+        "reason": "Company profiles help compare and evaluate potential employers."
+    },
+    {
+        "id": 12,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "hard",
+        "question": "Which detail is most useful when evaluating future career growth within a company?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Expansion and growth plans"
+            },
+            {
+                "key": "B",
+                "text": "Building paint color"
+            },
+            {
+                "key": "C",
+                "text": "Parking arrangement"
+            },
+            {
+                "key": "D",
+                "text": "Office furniture design"
+            }
+        ],
+        "answer": "A",
+        "reason": "Growth plans indicate future opportunities within the organization."
+    },
+    {
+        "id": 13,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "easy",
+        "question": "Making contact with companies is important because it:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Creates professional opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Eliminates competition"
+            },
+            {
+                "key": "C",
+                "text": "Guarantees selection"
+            },
+            {
+                "key": "D",
+                "text": "Replaces qualifications"
+            }
+        ],
+        "answer": "A",
+        "reason": "Professional communication helps establish valuable connections."
+    },
+    {
+        "id": 14,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "easy",
+        "question": "Which communication channel is commonly used to contact recruiters?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Email"
+            },
+            {
+                "key": "B",
+                "text": "Anonymous notes"
+            },
+            {
+                "key": "C",
+                "text": "Rumors"
+            },
+            {
+                "key": "D",
+                "text": "Graffiti"
+            }
+        ],
+        "answer": "A",
+        "reason": "Email is a professional and widely accepted communication method."
+    },
+    {
+        "id": 15,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "medium",
+        "question": "Professional networking can help job seekers:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Discover job opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Avoid communication"
+            },
+            {
+                "key": "C",
+                "text": "Ignore employers"
+            },
+            {
+                "key": "D",
+                "text": "Reduce visibility"
+            }
+        ],
+        "answer": "A",
+        "reason": "Networking often provides access to hidden opportunities."
+    },
+    {
+        "id": 16,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "hard",
+        "question": "A professional introductory email should be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Clear and concise"
+            },
+            {
+                "key": "B",
+                "text": "Confusing and lengthy"
+            },
+            {
+                "key": "C",
+                "text": "Unprofessional"
+            },
+            {
+                "key": "D",
+                "text": "Incomplete"
+            }
+        ],
+        "answer": "A",
+        "reason": "Clear communication creates a positive professional impression."
+    },
+    {
+        "id": 17,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "easy",
+        "question": "Company functions refer to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Activities performed by different departments"
+            },
+            {
+                "key": "B",
+                "text": "Holiday celebrations only"
+            },
+            {
+                "key": "C",
+                "text": "Office decoration"
+            },
+            {
+                "key": "D",
+                "text": "Building maintenance only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Company functions describe how departments contribute to organizational goals."
+    },
+    {
+        "id": 18,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "easy",
+        "question": "Which department is primarily responsible for recruiting employees?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Human Resources"
+            },
+            {
+                "key": "B",
+                "text": "Production"
+            },
+            {
+                "key": "C",
+                "text": "Maintenance"
+            },
+            {
+                "key": "D",
+                "text": "Logistics"
+            }
+        ],
+        "answer": "A",
+        "reason": "Human Resources manages recruitment, selection, and employee relations."
+    },
+    {
+        "id": 19,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "medium",
+        "question": "The marketing department is responsible for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Promoting products and services"
+            },
+            {
+                "key": "B",
+                "text": "Preparing payroll"
+            },
+            {
+                "key": "C",
+                "text": "Recruiting employees"
+            },
+            {
+                "key": "D",
+                "text": "Maintaining servers only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Marketing focuses on customer awareness and market growth."
+    },
+    {
+        "id": 20,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "medium",
+        "question": "Which department primarily manages company finances?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Finance"
+            },
+            {
+                "key": "B",
+                "text": "Marketing"
+            },
+            {
+                "key": "C",
+                "text": "Operations"
+            },
+            {
+                "key": "D",
+                "text": "Human Resources"
+            }
+        ],
+        "answer": "A",
+        "reason": "The finance department manages budgets, investments, and financial reporting."
+    },
+    {
+        "id": 21,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "hard",
+        "question": "Understanding company functions helps candidates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Identify suitable roles"
+            },
+            {
+                "key": "B",
+                "text": "Avoid career planning"
+            },
+            {
+                "key": "C",
+                "text": "Ignore departments"
+            },
+            {
+                "key": "D",
+                "text": "Reduce qualifications"
+            }
+        ],
+        "answer": "A",
+        "reason": "Knowledge of functions helps align skills with job roles."
+    },
+    {
+        "id": 22,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "easy",
+        "question": "The primary purpose of a resume is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Present qualifications and experience"
+            },
+            {
+                "key": "B",
+                "text": "Share personal secrets"
+            },
+            {
+                "key": "C",
+                "text": "Replace interviews"
+            },
+            {
+                "key": "D",
+                "text": "Guarantee a job"
+            }
+        ],
+        "answer": "A",
+        "reason": "A resume summarizes qualifications relevant to a job opportunity."
+    },
+    {
+        "id": 23,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "easy",
+        "question": "Which section is commonly included in a resume?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Education"
+            },
+            {
+                "key": "B",
+                "text": "Favorite movies"
+            },
+            {
+                "key": "C",
+                "text": "Personal gossip"
+            },
+            {
+                "key": "D",
+                "text": "Political opinions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Education is a standard section in most resumes."
+    },
+    {
+        "id": 24,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "medium",
+        "question": "A resume should be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Accurate and professional"
+            },
+            {
+                "key": "B",
+                "text": "Misleading"
+            },
+            {
+                "key": "C",
+                "text": "Exaggerated"
+            },
+            {
+                "key": "D",
+                "text": "Incomplete"
+            }
+        ],
+        "answer": "A",
+        "reason": "Accuracy and professionalism build credibility."
+    },
+    {
+        "id": 25,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "medium",
+        "question": "Tailoring a resume means:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Customizing it for a specific job"
+            },
+            {
+                "key": "B",
+                "text": "Using the same version always"
+            },
+            {
+                "key": "C",
+                "text": "Removing qualifications"
+            },
+            {
+                "key": "D",
+                "text": "Ignoring job requirements"
+            }
+        ],
+        "answer": "A",
+        "reason": "Customized resumes better match employer requirements."
+    },
+    {
+        "id": 26,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "medium",
+        "question": "Which resume section highlights technical and soft skills?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Skills"
+            },
+            {
+                "key": "B",
+                "text": "References"
+            },
+            {
+                "key": "C",
+                "text": "Address"
+            },
+            {
+                "key": "D",
+                "text": "Declaration"
+            }
+        ],
+        "answer": "A",
+        "reason": "The skills section summarizes relevant competencies."
+    },
+    {
+        "id": 27,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "hard",
+        "question": "Which statement is most effective in a resume?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Developed a web application used by 500+ users"
+            },
+            {
+                "key": "B",
+                "text": "Did some computer work"
+            },
+            {
+                "key": "C",
+                "text": "Worked occasionally"
+            },
+            {
+                "key": "D",
+                "text": "Helped somewhere"
+            }
+        ],
+        "answer": "A",
+        "reason": "Specific achievements provide measurable evidence of capability."
+    },
+    {
+        "id": 28,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "hard",
+        "question": "Which resume error should be avoided?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Spelling mistakes"
+            },
+            {
+                "key": "B",
+                "text": "Relevant skills"
+            },
+            {
+                "key": "C",
+                "text": "Professional formatting"
+            },
+            {
+                "key": "D",
+                "text": "Accurate information"
+            }
+        ],
+        "answer": "A",
+        "reason": "Errors create an unprofessional impression."
+    },
+    {
+        "id": 29,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "easy",
+        "question": "Interview preparation helps candidates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Perform confidently"
+            },
+            {
+                "key": "B",
+                "text": "Avoid questions"
+            },
+            {
+                "key": "C",
+                "text": "Skip research"
+            },
+            {
+                "key": "D",
+                "text": "Ignore employers"
+            }
+        ],
+        "answer": "A",
+        "reason": "Preparation improves confidence and performance."
+    },
+    {
+        "id": 30,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "easy",
+        "question": "Before an interview, candidates should research:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The company and role"
+            },
+            {
+                "key": "B",
+                "text": "Competitors only"
+            },
+            {
+                "key": "C",
+                "text": "Random topics"
+            },
+            {
+                "key": "D",
+                "text": "Celebrity news"
+            }
+        ],
+        "answer": "A",
+        "reason": "Company knowledge demonstrates interest and preparation."
+    },
+    {
+        "id": 31,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "medium",
+        "question": "Professional attire during an interview creates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A positive first impression"
+            },
+            {
+                "key": "B",
+                "text": "Confusion"
+            },
+            {
+                "key": "C",
+                "text": "Disrespect"
+            },
+            {
+                "key": "D",
+                "text": "Technical expertise"
+            }
+        ],
+        "answer": "A",
+        "reason": "Appearance influences first impressions."
+    },
+    {
+        "id": 32,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "medium",
+        "question": "Good body language during an interview includes:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Eye contact and confident posture"
+            },
+            {
+                "key": "B",
+                "text": "Avoiding eye contact"
+            },
+            {
+                "key": "C",
+                "text": "Slouching"
+            },
+            {
+                "key": "D",
+                "text": "Looking distracted"
+            }
+        ],
+        "answer": "A",
+        "reason": "Positive body language demonstrates confidence and engagement."
+    },
+    {
+        "id": 33,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "medium",
+        "question": "Mock interviews are useful because they:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Provide practice and feedback"
+            },
+            {
+                "key": "B",
+                "text": "Guarantee employment"
+            },
+            {
+                "key": "C",
+                "text": "Replace actual interviews"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate preparation"
+            }
+        ],
+        "answer": "A",
+        "reason": "Practice improves interview performance."
+    },
+    {
+        "id": 34,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "When answering interview questions, candidates should:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Be honest and relevant"
+            },
+            {
+                "key": "B",
+                "text": "Provide false information"
+            },
+            {
+                "key": "C",
+                "text": "Avoid answering"
+            },
+            {
+                "key": "D",
+                "text": "Change topics frequently"
+            }
+        ],
+        "answer": "A",
+        "reason": "Honesty and relevance help establish credibility."
+    },
+    {
+        "id": 35,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "The STAR method is commonly used to answer:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Behavioral interview questions"
+            },
+            {
+                "key": "B",
+                "text": "Mathematics problems only"
+            },
+            {
+                "key": "C",
+                "text": "Grammar tests"
+            },
+            {
+                "key": "D",
+                "text": "Typing assessments"
+            }
+        ],
+        "answer": "A",
+        "reason": "STAR stands for Situation, Task, Action, and Result."
+    },
+    {
+        "id": 36,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "hard",
+        "question": "Which factor best indicates a company's work culture?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Employee reviews and company values"
+            },
+            {
+                "key": "B",
+                "text": "Building height"
+            },
+            {
+                "key": "C",
+                "text": "Parking area size"
+            },
+            {
+                "key": "D",
+                "text": "Office furniture"
+            }
+        ],
+        "answer": "A",
+        "reason": "Employee experiences and company values provide cultural insights."
+    },
+    {
+        "id": 37,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "medium",
+        "question": "Which information helps compare competing employers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mission, growth, and opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Office paint colors"
+            },
+            {
+                "key": "C",
+                "text": "Desk arrangements"
+            },
+            {
+                "key": "D",
+                "text": "Parking tickets"
+            }
+        ],
+        "answer": "A",
+        "reason": "These factors influence long-term career decisions."
+    },
+    {
+        "id": 38,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "medium",
+        "question": "Following up after submitting an application demonstrates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Professional interest"
+            },
+            {
+                "key": "B",
+                "text": "Lack of confidence"
+            },
+            {
+                "key": "C",
+                "text": "Dishonesty"
+            },
+            {
+                "key": "D",
+                "text": "Irresponsibility"
+            }
+        ],
+        "answer": "A",
+        "reason": "Professional follow-ups show enthusiasm and initiative."
+    },
+    {
+        "id": 39,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "hard",
+        "question": "Operations departments are primarily responsible for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Delivering products and services efficiently"
+            },
+            {
+                "key": "B",
+                "text": "Recruitment only"
+            },
+            {
+                "key": "C",
+                "text": "Marketing campaigns only"
+            },
+            {
+                "key": "D",
+                "text": "Payroll only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Operations manage the processes that create organizational value."
+    },
+    {
+        "id": 40,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "medium",
+        "question": "A resume objective should:",
+        "options": [
+            {
+                "key": "A",
+                "text": "State career goals clearly"
+            },
+            {
+                "key": "B",
+                "text": "Contain unrelated information"
+            },
+            {
+                "key": "C",
+                "text": "Be extremely lengthy"
+            },
+            {
+                "key": "D",
+                "text": "Replace qualifications"
+            }
+        ],
+        "answer": "A",
+        "reason": "Objectives summarize professional intentions and direction."
+    },
+    {
+        "id": 41,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "hard",
+        "question": "Which section is most important for a fresher with limited experience?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Education and projects"
+            },
+            {
+                "key": "B",
+                "text": "Retirement plans"
+            },
+            {
+                "key": "C",
+                "text": "Political opinions"
+            },
+            {
+                "key": "D",
+                "text": "Family history"
+            }
+        ],
+        "answer": "A",
+        "reason": "Projects and education demonstrate skills and knowledge."
+    },
+    {
+        "id": 42,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "medium",
+        "question": "Arriving early for an interview demonstrates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Punctuality"
+            },
+            {
+                "key": "B",
+                "text": "Carelessness"
+            },
+            {
+                "key": "C",
+                "text": "Laziness"
+            },
+            {
+                "key": "D",
+                "text": "Disorganization"
+            }
+        ],
+        "answer": "A",
+        "reason": "Punctuality reflects professionalism and respect."
+    },
+    {
+        "id": 43,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "Why should candidates prepare questions for interviewers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "To demonstrate interest and gather information"
+            },
+            {
+                "key": "B",
+                "text": "To challenge interviewers"
+            },
+            {
+                "key": "C",
+                "text": "To avoid listening"
+            },
+            {
+                "key": "D",
+                "text": "To extend the interview unnecessarily"
+            }
+        ],
+        "answer": "A",
+        "reason": "Thoughtful questions show engagement and preparation."
+    },
+    {
+        "id": 44,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "hard",
+        "question": "A realistic career choice balances personal interests with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Market opportunities"
+            },
+            {
+                "key": "B",
+                "text": "Luck alone"
+            },
+            {
+                "key": "C",
+                "text": "Peer influence only"
+            },
+            {
+                "key": "D",
+                "text": "Random decisions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career decisions should consider both personal fit and market demand."
+    },
+    {
+        "id": 45,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "medium",
+        "question": "Job descriptions are useful because they explain:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Role responsibilities and requirements"
+            },
+            {
+                "key": "B",
+                "text": "Company cafeteria menu"
+            },
+            {
+                "key": "C",
+                "text": "Employee passwords"
+            },
+            {
+                "key": "D",
+                "text": "Office furniture specifications"
+            }
+        ],
+        "answer": "A",
+        "reason": "Job descriptions help candidates understand expectations and qualifications."
+    },
+    {
+        "id": 46,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "hard",
+        "question": "Which professional platform is commonly used for networking and job opportunities?",
+        "options": [
+            {
+                "key": "A",
+                "text": "LinkedIn"
+            },
+            {
+                "key": "B",
+                "text": "Calculator"
+            },
+            {
+                "key": "C",
+                "text": "Spreadsheet only"
+            },
+            {
+                "key": "D",
+                "text": "Paint application"
+            }
+        ],
+        "answer": "A",
+        "reason": "LinkedIn is widely used for professional networking and recruitment."
+    },
+    {
+        "id": 47,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "medium",
+        "question": "The primary goal of all company functions is to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Support organizational objectives"
+            },
+            {
+                "key": "B",
+                "text": "Operate independently without coordination"
+            },
+            {
+                "key": "C",
+                "text": "Compete internally"
+            },
+            {
+                "key": "D",
+                "text": "Avoid collaboration"
+            }
+        ],
+        "answer": "A",
+        "reason": "Departments work together to achieve organizational goals."
+    },
+    {
+        "id": 48,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "hard",
+        "question": "Which resume format emphasizes skills more than work history?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Functional resume"
+            },
+            {
+                "key": "B",
+                "text": "Chronological resume"
+            },
+            {
+                "key": "C",
+                "text": "Reverse directory"
+            },
+            {
+                "key": "D",
+                "text": "Memo format"
+            }
+        ],
+        "answer": "A",
+        "reason": "Functional resumes highlight competencies and skills."
+    },
+    {
+        "id": 49,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "What should a candidate do if they do not know an interview answer?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Respond honestly and explain their approach"
+            },
+            {
+                "key": "B",
+                "text": "Invent false information"
+            },
+            {
+                "key": "C",
+                "text": "Remain silent throughout"
+            },
+            {
+                "key": "D",
+                "text": "Change the subject"
+            }
+        ],
+        "answer": "A",
+        "reason": "Honesty and logical thinking are valued by interviewers."
+    },
+    {
+        "id": 50,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "The main objective of an interview is to evaluate:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Candidate suitability for the role"
+            },
+            {
+                "key": "B",
+                "text": "Candidate's favorite hobbies only"
+            },
+            {
+                "key": "C",
+                "text": "Personal friendships"
+            },
+            {
+                "key": "D",
+                "text": "Social media followers"
+            }
+        ],
+        "answer": "A",
+        "reason": "Interviews assess qualifications, skills, attitude, and organizational fit."
+    },
+    {
+        "id": 51,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "medium",
+        "question": "Which factor is considered an external influence on career choice?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Industry demand"
+            },
+            {
+                "key": "B",
+                "text": "Personal interests"
+            },
+            {
+                "key": "C",
+                "text": "Values"
+            },
+            {
+                "key": "D",
+                "text": "Personality"
+            }
+        ],
+        "answer": "A",
+        "reason": "Industry demand is an external market factor that affects career opportunities."
+    },
+    {
+        "id": 52,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "hard",
+        "question": "Career decision-making is most effective when based on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Self-assessment and market research"
+            },
+            {
+                "key": "B",
+                "text": "Luck alone"
+            },
+            {
+                "key": "C",
+                "text": "Family pressure only"
+            },
+            {
+                "key": "D",
+                "text": "Random selection"
+            }
+        ],
+        "answer": "A",
+        "reason": "Effective career decisions require both self-awareness and awareness of opportunities."
+    },
+    {
+        "id": 53,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "easy",
+        "question": "Employers often prefer candidates who demonstrate:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Relevant skills and enthusiasm"
+            },
+            {
+                "key": "B",
+                "text": "Lack of interest"
+            },
+            {
+                "key": "C",
+                "text": "Poor communication"
+            },
+            {
+                "key": "D",
+                "text": "Resistance to learning"
+            }
+        ],
+        "answer": "A",
+        "reason": "Employers value candidates who possess the required skills and motivation."
+    },
+    {
+        "id": 54,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "medium",
+        "question": "Which information can usually be found in a company's annual report?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Business performance and financial results"
+            },
+            {
+                "key": "B",
+                "text": "Employee passwords"
+            },
+            {
+                "key": "C",
+                "text": "Private emails"
+            },
+            {
+                "key": "D",
+                "text": "Personal diaries"
+            }
+        ],
+        "answer": "A",
+        "reason": "Annual reports provide insights into a company's performance and strategy."
+    },
+    {
+        "id": 55,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "hard",
+        "question": "Understanding a company's competitors helps candidates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Understand the industry better"
+            },
+            {
+                "key": "B",
+                "text": "Skip company research"
+            },
+            {
+                "key": "C",
+                "text": "Avoid interviews"
+            },
+            {
+                "key": "D",
+                "text": "Ignore market trends"
+            }
+        ],
+        "answer": "A",
+        "reason": "Industry knowledge demonstrates preparation and business awareness."
+    },
+    {
+        "id": 56,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "easy",
+        "question": "A company profile should include the company's:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mission and vision"
+            },
+            {
+                "key": "B",
+                "text": "Employee passwords"
+            },
+            {
+                "key": "C",
+                "text": "Private conversations"
+            },
+            {
+                "key": "D",
+                "text": "Personal documents"
+            }
+        ],
+        "answer": "A",
+        "reason": "Mission and vision statements describe the organization's purpose and goals."
+    },
+    {
+        "id": 57,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "medium",
+        "question": "Which aspect of a company profile helps identify workplace values?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Corporate culture"
+            },
+            {
+                "key": "B",
+                "text": "Parking facilities"
+            },
+            {
+                "key": "C",
+                "text": "Building height"
+            },
+            {
+                "key": "D",
+                "text": "Office location only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Corporate culture reflects the organization's beliefs and work environment."
+    },
+    {
+        "id": 58,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "hard",
+        "question": "Why is it useful to compare multiple company profiles?",
+        "options": [
+            {
+                "key": "A",
+                "text": "To identify the best career fit"
+            },
+            {
+                "key": "B",
+                "text": "To avoid applying"
+            },
+            {
+                "key": "C",
+                "text": "To reduce opportunities"
+            },
+            {
+                "key": "D",
+                "text": "To eliminate choices"
+            }
+        ],
+        "answer": "A",
+        "reason": "Comparisons help candidates evaluate employers objectively."
+    },
+    {
+        "id": 59,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "easy",
+        "question": "Professional communication should be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Polite and respectful"
+            },
+            {
+                "key": "B",
+                "text": "Rude and demanding"
+            },
+            {
+                "key": "C",
+                "text": "Aggressive"
+            },
+            {
+                "key": "D",
+                "text": "Unclear"
+            }
+        ],
+        "answer": "A",
+        "reason": "Professionalism creates a positive impression on employers."
+    },
+    {
+        "id": 60,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "medium",
+        "question": "A cover letter is primarily used to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Introduce the candidate and highlight suitability"
+            },
+            {
+                "key": "B",
+                "text": "Replace the resume"
+            },
+            {
+                "key": "C",
+                "text": "Share personal stories only"
+            },
+            {
+                "key": "D",
+                "text": "Guarantee employment"
+            }
+        ],
+        "answer": "A",
+        "reason": "Cover letters explain why a candidate is suitable for a position."
+    },
+    {
+        "id": 61,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "hard",
+        "question": "Informational interviews are useful because they:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Provide insights about careers and companies"
+            },
+            {
+                "key": "B",
+                "text": "Guarantee a job offer"
+            },
+            {
+                "key": "C",
+                "text": "Replace recruitment processes"
+            },
+            {
+                "key": "D",
+                "text": "Eliminate networking"
+            }
+        ],
+        "answer": "A",
+        "reason": "Informational interviews help candidates learn from professionals."
+    },
+    {
+        "id": 62,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "easy",
+        "question": "The sales department is responsible for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Generating revenue through product or service sales"
+            },
+            {
+                "key": "B",
+                "text": "Hiring employees"
+            },
+            {
+                "key": "C",
+                "text": "Managing payroll"
+            },
+            {
+                "key": "D",
+                "text": "Building infrastructure"
+            }
+        ],
+        "answer": "A",
+        "reason": "Sales teams focus on generating income for the company."
+    },
+    {
+        "id": 63,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "medium",
+        "question": "Which department typically manages employee training?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Human Resources"
+            },
+            {
+                "key": "B",
+                "text": "Marketing"
+            },
+            {
+                "key": "C",
+                "text": "Finance"
+            },
+            {
+                "key": "D",
+                "text": "Sales"
+            }
+        ],
+        "answer": "A",
+        "reason": "HR departments often oversee employee development and training."
+    },
+    {
+        "id": 64,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "hard",
+        "question": "Research and Development (R&D) primarily focuses on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Innovation and product improvement"
+            },
+            {
+                "key": "B",
+                "text": "Payroll processing"
+            },
+            {
+                "key": "C",
+                "text": "Recruitment"
+            },
+            {
+                "key": "D",
+                "text": "Office administration only"
+            }
+        ],
+        "answer": "A",
+        "reason": "R&D drives innovation through research and development activities."
+    },
+    {
+        "id": 65,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "easy",
+        "question": "Which contact detail is essential in a resume?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Professional email address"
+            },
+            {
+                "key": "B",
+                "text": "Favorite game"
+            },
+            {
+                "key": "C",
+                "text": "Political preference"
+            },
+            {
+                "key": "D",
+                "text": "Astrological sign"
+            }
+        ],
+        "answer": "A",
+        "reason": "Employers need professional contact information to communicate with candidates."
+    },
+    {
+        "id": 66,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "medium",
+        "question": "Which section is most suitable for highlighting internships?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Experience"
+            },
+            {
+                "key": "B",
+                "text": "Hobbies"
+            },
+            {
+                "key": "C",
+                "text": "References"
+            },
+            {
+                "key": "D",
+                "text": "Declaration"
+            }
+        ],
+        "answer": "A",
+        "reason": "Internships are professional experiences relevant to employers."
+    },
+    {
+        "id": 67,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "medium",
+        "question": "A resume should ideally focus on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Relevant achievements"
+            },
+            {
+                "key": "B",
+                "text": "Irrelevant details"
+            },
+            {
+                "key": "C",
+                "text": "Personal gossip"
+            },
+            {
+                "key": "D",
+                "text": "Unrelated opinions"
+            }
+        ],
+        "answer": "A",
+        "reason": "Relevant achievements demonstrate capability and suitability."
+    },
+    {
+        "id": 68,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "hard",
+        "question": "Applicant Tracking Systems (ATS) primarily scan resumes for:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Relevant keywords"
+            },
+            {
+                "key": "B",
+                "text": "Favorite colors"
+            },
+            {
+                "key": "C",
+                "text": "Personal hobbies only"
+            },
+            {
+                "key": "D",
+                "text": "Handwriting quality"
+            }
+        ],
+        "answer": "A",
+        "reason": "ATS software uses keywords to match resumes with job requirements."
+    },
+    {
+        "id": 69,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "hard",
+        "question": "Quantifying achievements in a resume helps by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Providing measurable evidence of impact"
+            },
+            {
+                "key": "B",
+                "text": "Making content vague"
+            },
+            {
+                "key": "C",
+                "text": "Reducing credibility"
+            },
+            {
+                "key": "D",
+                "text": "Hiding accomplishments"
+            }
+        ],
+        "answer": "A",
+        "reason": "Numbers and metrics strengthen the credibility of achievements."
+    },
+    {
+        "id": 70,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "easy",
+        "question": "What should a candidate carry to an interview?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Copies of the resume"
+            },
+            {
+                "key": "B",
+                "text": "Unrelated magazines"
+            },
+            {
+                "key": "C",
+                "text": "Gaming equipment"
+            },
+            {
+                "key": "D",
+                "text": "Personal diaries"
+            }
+        ],
+        "answer": "A",
+        "reason": "Extra copies of the resume demonstrate preparedness."
+    },
+    {
+        "id": 71,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "medium",
+        "question": "One purpose of interview preparation is to reduce:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Anxiety"
+            },
+            {
+                "key": "B",
+                "text": "Knowledge"
+            },
+            {
+                "key": "C",
+                "text": "Confidence"
+            },
+            {
+                "key": "D",
+                "text": "Awareness"
+            }
+        ],
+        "answer": "A",
+        "reason": "Preparation increases confidence and reduces nervousness."
+    },
+    {
+        "id": 72,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "Behavioral interview questions are designed to assess:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Past behavior and competencies"
+            },
+            {
+                "key": "B",
+                "text": "Typing speed only"
+            },
+            {
+                "key": "C",
+                "text": "Physical strength only"
+            },
+            {
+                "key": "D",
+                "text": "Memory alone"
+            }
+        ],
+        "answer": "A",
+        "reason": "Past behavior is often used to predict future performance."
+    },
+    {
+        "id": 73,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "After an interview, sending a thank-you email demonstrates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Professional courtesy"
+            },
+            {
+                "key": "B",
+                "text": "Overconfidence"
+            },
+            {
+                "key": "C",
+                "text": "Disinterest"
+            },
+            {
+                "key": "D",
+                "text": "Avoidance"
+            }
+        ],
+        "answer": "A",
+        "reason": "Thank-you messages reinforce professionalism and interest."
+    },
+    {
+        "id": 74,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "medium",
+        "question": "A career path refers to:",
+        "options": [
+            {
+                "key": "A",
+                "text": "The progression of jobs and roles over time"
+            },
+            {
+                "key": "B",
+                "text": "A company's office layout"
+            },
+            {
+                "key": "C",
+                "text": "A recruitment advertisement"
+            },
+            {
+                "key": "D",
+                "text": "An interview schedule"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career paths describe professional growth over time."
+    },
+    {
+        "id": 75,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "hard",
+        "question": "Which factor is most important for long-term career satisfaction?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Alignment with interests and values"
+            },
+            {
+                "key": "B",
+                "text": "Salary alone"
+            },
+            {
+                "key": "C",
+                "text": "Peer influence only"
+            },
+            {
+                "key": "D",
+                "text": "Luck alone"
+            }
+        ],
+        "answer": "A",
+        "reason": "Alignment with personal values contributes to sustained satisfaction."
+    },
+    {
+        "id": 76,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "medium",
+        "question": "Which company information helps candidates understand advancement opportunities?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Career development programs"
+            },
+            {
+                "key": "B",
+                "text": "Office decorations"
+            },
+            {
+                "key": "C",
+                "text": "Parking rules"
+            },
+            {
+                "key": "D",
+                "text": "Building architecture"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career development programs indicate investment in employee growth."
+    },
+    {
+        "id": 77,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "hard",
+        "question": "Which metric is useful for assessing a company's market position?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Market share"
+            },
+            {
+                "key": "B",
+                "text": "Office size"
+            },
+            {
+                "key": "C",
+                "text": "Parking capacity"
+            },
+            {
+                "key": "D",
+                "text": "Furniture count"
+            }
+        ],
+        "answer": "A",
+        "reason": "Market share reflects a company's competitive standing."
+    },
+    {
+        "id": 78,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "medium",
+        "question": "Networking events are useful because they:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Connect candidates with professionals"
+            },
+            {
+                "key": "B",
+                "text": "Replace resumes"
+            },
+            {
+                "key": "C",
+                "text": "Guarantee jobs"
+            },
+            {
+                "key": "D",
+                "text": "Remove competition"
+            }
+        ],
+        "answer": "A",
+        "reason": "Networking expands professional contacts and opportunities."
+    },
+    {
+        "id": 79,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "medium",
+        "question": "The IT department primarily supports:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Technology infrastructure and systems"
+            },
+            {
+                "key": "B",
+                "text": "Payroll processing only"
+            },
+            {
+                "key": "C",
+                "text": "Advertising only"
+            },
+            {
+                "key": "D",
+                "text": "Recruitment only"
+            }
+        ],
+        "answer": "A",
+        "reason": "IT departments manage technology resources and support."
+    },
+    {
+        "id": 80,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "hard",
+        "question": "Cross-functional collaboration involves:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Different departments working together"
+            },
+            {
+                "key": "B",
+                "text": "Departments working in isolation"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring communication"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding teamwork"
+            }
+        ],
+        "answer": "A",
+        "reason": "Collaboration across departments improves organizational effectiveness."
+    },
+    {
+        "id": 81,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "medium",
+        "question": "Which resume section is used to showcase certifications?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Certifications"
+            },
+            {
+                "key": "B",
+                "text": "Hobbies"
+            },
+            {
+                "key": "C",
+                "text": "References"
+            },
+            {
+                "key": "D",
+                "text": "Declaration"
+            }
+        ],
+        "answer": "A",
+        "reason": "Certifications demonstrate additional qualifications and expertise."
+    },
+    {
+        "id": 82,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "hard",
+        "question": "Which action improves resume readability?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Using clear headings and formatting"
+            },
+            {
+                "key": "B",
+                "text": "Writing large paragraphs"
+            },
+            {
+                "key": "C",
+                "text": "Removing section titles"
+            },
+            {
+                "key": "D",
+                "text": "Using inconsistent fonts"
+            }
+        ],
+        "answer": "A",
+        "reason": "Good formatting helps recruiters review information quickly."
+    },
+    {
+        "id": 83,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "medium",
+        "question": "Researching the interviewer beforehand can help candidates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Build rapport and prepare effectively"
+            },
+            {
+                "key": "B",
+                "text": "Avoid preparation"
+            },
+            {
+                "key": "C",
+                "text": "Skip company research"
+            },
+            {
+                "key": "D",
+                "text": "Guarantee selection"
+            }
+        ],
+        "answer": "A",
+        "reason": "Knowing the interviewer's role can help tailor communication."
+    },
+    {
+        "id": 84,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "Which quality is most important when answering technical interview questions?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Logical problem-solving approach"
+            },
+            {
+                "key": "B",
+                "text": "Guessing randomly"
+            },
+            {
+                "key": "C",
+                "text": "Changing the topic"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding explanations"
+            }
+        ],
+        "answer": "A",
+        "reason": "Interviewers often evaluate reasoning as much as the final answer."
+    },
+    {
+        "id": 85,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "hard",
+        "question": "Building a professional brand helps candidates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Stand out to employers"
+            },
+            {
+                "key": "B",
+                "text": "Avoid networking"
+            },
+            {
+                "key": "C",
+                "text": "Ignore opportunities"
+            },
+            {
+                "key": "D",
+                "text": "Reduce visibility"
+            }
+        ],
+        "answer": "A",
+        "reason": "A strong professional brand improves visibility and credibility."
+    },
+    {
+        "id": 86,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "medium",
+        "question": "Career goals should ideally be:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Specific and achievable"
+            },
+            {
+                "key": "B",
+                "text": "Random and unclear"
+            },
+            {
+                "key": "C",
+                "text": "Impossible to measure"
+            },
+            {
+                "key": "D",
+                "text": "Unrealistic"
+            }
+        ],
+        "answer": "A",
+        "reason": "Specific goals provide direction and motivation."
+    },
+    {
+        "id": 87,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "hard",
+        "question": "Which source provides firsthand insights into company culture?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Current or former employees"
+            },
+            {
+                "key": "B",
+                "text": "Random advertisements"
+            },
+            {
+                "key": "C",
+                "text": "Unverified rumors"
+            },
+            {
+                "key": "D",
+                "text": "Competitor websites only"
+            }
+        ],
+        "answer": "A",
+        "reason": "Employees can provide direct insights into workplace experiences."
+    },
+    {
+        "id": 88,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "medium",
+        "question": "Including company products and services in a profile helps understand:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Business operations"
+            },
+            {
+                "key": "B",
+                "text": "Office furniture"
+            },
+            {
+                "key": "C",
+                "text": "Employee hobbies"
+            },
+            {
+                "key": "D",
+                "text": "Parking systems"
+            }
+        ],
+        "answer": "A",
+        "reason": "Products and services reveal what the company does and how it generates revenue."
+    },
+    {
+        "id": 89,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "hard",
+        "question": "A professional summary in a resume should:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Highlight key qualifications briefly"
+            },
+            {
+                "key": "B",
+                "text": "Describe childhood experiences"
+            },
+            {
+                "key": "C",
+                "text": "Contain unrelated information"
+            },
+            {
+                "key": "D",
+                "text": "Replace all resume sections"
+            }
+        ],
+        "answer": "A",
+        "reason": "Professional summaries provide recruiters with a quick overview."
+    },
+    {
+        "id": 90,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "medium",
+        "question": "Listening carefully during an interview helps candidates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Provide relevant answers"
+            },
+            {
+                "key": "B",
+                "text": "Interrupt frequently"
+            },
+            {
+                "key": "C",
+                "text": "Avoid understanding questions"
+            },
+            {
+                "key": "D",
+                "text": "Change topics unnecessarily"
+            }
+        ],
+        "answer": "A",
+        "reason": "Active listening improves the quality and relevance of responses."
+    },
+    {
+        "id": 91,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "The best way to answer 'Tell me about yourself' is to provide:",
+        "options": [
+            {
+                "key": "A",
+                "text": "A concise professional summary"
+            },
+            {
+                "key": "B",
+                "text": "A complete life story"
+            },
+            {
+                "key": "C",
+                "text": "Unrelated personal details"
+            },
+            {
+                "key": "D",
+                "text": "No response"
+            }
+        ],
+        "answer": "A",
+        "reason": "Interviewers expect a concise overview relevant to the role."
+    },
+    {
+        "id": 92,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "medium",
+        "question": "Which action demonstrates initiative during a job search?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Proactively contacting recruiters"
+            },
+            {
+                "key": "B",
+                "text": "Waiting indefinitely"
+            },
+            {
+                "key": "C",
+                "text": "Ignoring opportunities"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding networking"
+            }
+        ],
+        "answer": "A",
+        "reason": "Proactive communication can increase job opportunities."
+    },
+    {
+        "id": 93,
+        "subject": "Career Planning and Management",
+        "topic": "Understanding Company Functions",
+        "difficulty": "hard",
+        "question": "Supply chain management focuses on:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Managing the flow of goods and services"
+            },
+            {
+                "key": "B",
+                "text": "Recruiting employees"
+            },
+            {
+                "key": "C",
+                "text": "Marketing campaigns"
+            },
+            {
+                "key": "D",
+                "text": "Payroll administration"
+            }
+        ],
+        "answer": "A",
+        "reason": "Supply chains manage procurement, production, and distribution."
+    },
+    {
+        "id": 94,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "hard",
+        "question": "Career planning is most effective when reviewed:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Regularly"
+            },
+            {
+                "key": "B",
+                "text": "Only once"
+            },
+            {
+                "key": "C",
+                "text": "After retirement"
+            },
+            {
+                "key": "D",
+                "text": "Never"
+            }
+        ],
+        "answer": "A",
+        "reason": "Career goals should evolve with changing opportunities and circumstances."
+    },
+    {
+        "id": 95,
+        "subject": "Career Planning and Management",
+        "topic": "Researching Company Preferences",
+        "difficulty": "medium",
+        "question": "Understanding company expectations helps candidates:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Align their applications with requirements"
+            },
+            {
+                "key": "B",
+                "text": "Avoid preparation"
+            },
+            {
+                "key": "C",
+                "text": "Ignore qualifications"
+            },
+            {
+                "key": "D",
+                "text": "Reduce effort"
+            }
+        ],
+        "answer": "A",
+        "reason": "Alignment improves the likelihood of selection."
+    },
+    {
+        "id": 96,
+        "subject": "Career Planning and Management",
+        "topic": "Creating a Company Profile",
+        "difficulty": "hard",
+        "question": "Which factor best indicates a company's future stability?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Financial performance trends"
+            },
+            {
+                "key": "B",
+                "text": "Office decorations"
+            },
+            {
+                "key": "C",
+                "text": "Parking arrangements"
+            },
+            {
+                "key": "D",
+                "text": "Building color"
+            }
+        ],
+        "answer": "A",
+        "reason": "Financial trends provide insight into organizational health and sustainability."
+    },
+    {
+        "id": 97,
+        "subject": "Career Planning and Management",
+        "topic": "Developing the Resume",
+        "difficulty": "medium",
+        "question": "Which section can showcase academic projects for freshers?",
+        "options": [
+            {
+                "key": "A",
+                "text": "Projects"
+            },
+            {
+                "key": "B",
+                "text": "References"
+            },
+            {
+                "key": "C",
+                "text": "Declaration"
+            },
+            {
+                "key": "D",
+                "text": "Address"
+            }
+        ],
+        "answer": "A",
+        "reason": "Projects demonstrate practical application of knowledge and skills."
+    },
+    {
+        "id": 98,
+        "subject": "Career Planning and Management",
+        "topic": "Preparing Yourself for Interview",
+        "difficulty": "hard",
+        "question": "Confidence during interviews should be balanced with:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Humility and professionalism"
+            },
+            {
+                "key": "B",
+                "text": "Arrogance"
+            },
+            {
+                "key": "C",
+                "text": "Overconfidence"
+            },
+            {
+                "key": "D",
+                "text": "Disrespect"
+            }
+        ],
+        "answer": "A",
+        "reason": "Professional confidence should not become arrogance."
+    },
+    {
+        "id": 99,
+        "subject": "Career Planning and Management",
+        "topic": "Making Contact with Companies",
+        "difficulty": "hard",
+        "question": "A well-maintained professional online profile helps by:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Increasing visibility to recruiters"
+            },
+            {
+                "key": "B",
+                "text": "Reducing opportunities"
+            },
+            {
+                "key": "C",
+                "text": "Replacing qualifications"
+            },
+            {
+                "key": "D",
+                "text": "Avoiding networking"
+            }
+        ],
+        "answer": "A",
+        "reason": "Recruiters often review professional online profiles during hiring."
+    },
+    {
+        "id": 100,
+        "subject": "Career Planning and Management",
+        "topic": "Choosing Your Career",
+        "difficulty": "hard",
+        "question": "The ultimate goal of choosing the right career is to achieve:",
+        "options": [
+            {
+                "key": "A",
+                "text": "Professional success and personal satisfaction"
+            },
+            {
+                "key": "B",
+                "text": "Salary only"
+            },
+            {
+                "key": "C",
+                "text": "Job titles only"
+            },
+            {
+                "key": "D",
+                "text": "Popularity only"
+            }
+        ],
+        "answer": "A",
+        "reason": "An ideal career provides both achievement and fulfillment."
+    }
+]
